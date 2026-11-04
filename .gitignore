@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.dump
+
+# Giữ thư mục nguồn trong Git, lưu snapshot thô riêng.
+/data/raw/**
+!/data/raw/**/
+!/data/raw/**/.gitkeep
