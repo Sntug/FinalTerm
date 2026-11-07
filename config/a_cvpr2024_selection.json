@@ -1,0 +1,189 @@
+{
+  "seed": 20261103,
+  "selection_algorithm": "sha256(seed + newline + canonical_url), ascending, then URL",
+  "candidate_count": 2715,
+  "listing_source_record_id": "source:cvf:1873b04264da43ccbbac0edd7c3b0bbfbaa9bc44d77285702593aac6ef001385",
+  "source_snapshot_id": "snapshot:e2a4cb12588e3d01ebe4249d41dc13c9274b79b71b7e590e85b3356683e7d379",
+  "papers": [
+    {
+      "paper_id": "cvf:CVPR2024:Lin_C2RV_Cross-Regional_and_Cross-View_Learning_for_Sparse-View_CBCT_Reconstruction_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lin_C2RV_Cross-Regional_and_Cross-View_Learning_for_Sparse-View_CBCT_Reconstruction_CVPR_2024_paper.html",
+      "selection_rank": 1,
+      "source_record_id": "source:cvf:e26758e55f83ad56eaacaae1d4df959a9d7c6e96f99348c3c41f6f9168813196"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Bai_ID-like_Prompt_Learning_for_Few-Shot_Out-of-Distribution_Detection_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_ID-like_Prompt_Learning_for_Few-Shot_Out-of-Distribution_Detection_CVPR_2024_paper.html",
+      "selection_rank": 2,
+      "source_record_id": "source:cvf:a9b282b2ffb6445923b5d87a8d8e9add8394e30d57419038498ac57b33547a57"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Yu_DiffForensics_Leveraging_Diffusion_Prior_to_Image_Forgery_Detection_and_Localization_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_DiffForensics_Leveraging_Diffusion_Prior_to_Image_Forgery_Detection_and_Localization_CVPR_2024_paper.html",
+      "selection_rank": 3,
+      "source_record_id": "source:cvf:de404af91c521d1f543c24b3f588f95006c850f798a810bf53c3b0aec8aad3f5"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Ren_Implicit_Discriminative_Knowledge_Learning_for_Visible-Infrared_Person_Re-Identification_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Ren_Implicit_Discriminative_Knowledge_Learning_for_Visible-Infrared_Person_Re-Identification_CVPR_2024_paper.html",
+      "selection_rank": 4,
+      "source_record_id": "source:cvf:a6c5ac1369740318e246c1a3f6457a31dc376069cb380d1e87583e71f9aa70d8"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Zeng_Make_Pixels_Dance_High-Dynamic_Video_Generation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_Make_Pixels_Dance_High-Dynamic_Video_Generation_CVPR_2024_paper.html",
+      "selection_rank": 5,
+      "source_record_id": "source:cvf:dca95de3991a29e0dc0a84ee62abb2f123db3cf7c72077e8dbec92c4aab498a2"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Liu_Drag_Your_Noise_Interactive_Point-based_Editing_via_Diffusion_Semantic_Propagation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Drag_Your_Noise_Interactive_Point-based_Editing_via_Diffusion_Semantic_Propagation_CVPR_2024_paper.html",
+      "selection_rank": 6,
+      "source_record_id": "source:cvf:730709675b0ad6ef11ea3ec2dd6a60828d5846330bf78e22c4553fc89c281fa2"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Park_Learning_SO3-Invariant_Semantic_Correspondence_via_Local_Shape_Transform_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Park_Learning_SO3-Invariant_Semantic_Correspondence_via_Local_Shape_Transform_CVPR_2024_paper.html",
+      "selection_rank": 7,
+      "source_record_id": "source:cvf:ab65214bdd61a1a0a49a7ec24660f479636a92d7fda418e9c820707d181c2a10"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Yin_Physical_Backdoor_Towards_Temperature-based_Backdoor_Attacks_in_the_Physical_World_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yin_Physical_Backdoor_Towards_Temperature-based_Backdoor_Attacks_in_the_Physical_World_CVPR_2024_paper.html",
+      "selection_rank": 8,
+      "source_record_id": "source:cvf:fb51714eb64d7facf4a7e7936f03c4e05190c17952bdc0c5426e74fc84036d7d"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Zeng_Real-time_Acquisition_and_Reconstruction_of_Dynamic_Volumes_with_Neural_Structured_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_Real-time_Acquisition_and_Reconstruction_of_Dynamic_Volumes_with_Neural_Structured_CVPR_2024_paper.html",
+      "selection_rank": 9,
+      "source_record_id": "source:cvf:d9927c99701ae95aed848e25820f687c41c296a1648e9c8129bbebb940b90394"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Shao_Tumor_Micro-environment_Interactions_Guided_Graph_Learning_for_Survival_Analysis_of_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Tumor_Micro-environment_Interactions_Guided_Graph_Learning_for_Survival_Analysis_of_CVPR_2024_paper.html",
+      "selection_rank": 10,
+      "source_record_id": "source:cvf:5029050efcfc987eed1e2a1f93680e57f7f126a0dcfbe54f02594dda8312338c"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024_paper.html",
+      "selection_rank": 11,
+      "source_record_id": "source:cvf:67c08493f200f19e771c64b4e7c98f87f851ef86f28eac07d03ecbca36d32bb0"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Diller_CG-HOI_Contact-Guided_3D_Human-Object_Interaction_Generation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Diller_CG-HOI_Contact-Guided_3D_Human-Object_Interaction_Generation_CVPR_2024_paper.html",
+      "selection_rank": 12,
+      "source_record_id": "source:cvf:007f09b504cb2fa24d605a89eb186c46e64849b5b49926e5828308239b2fdf86"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024_paper.html",
+      "selection_rank": 13,
+      "source_record_id": "source:cvf:32d90dd6be83ac6a982a7bd2f0708d3b25de56adb0e0c58e60549170f33aeb5a"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Zheng_Kernel_Adaptive_Convolution_for_Scene_Text_Detection_via_Distance_Map_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zheng_Kernel_Adaptive_Convolution_for_Scene_Text_Detection_via_Distance_Map_CVPR_2024_paper.html",
+      "selection_rank": 14,
+      "source_record_id": "source:cvf:b9aadbee5120206d18f3fa544f1823bbe903465bca000579fe618915f9043058"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Jiang_VideoBooth_Diffusion-based_Video_Generation_with_Image_Prompts_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_VideoBooth_Diffusion-based_Video_Generation_with_Image_Prompts_CVPR_2024_paper.html",
+      "selection_rank": 15,
+      "source_record_id": "source:cvf:91a0f6b4e7c70d67b8b28b5fa871803ae46d94e80f4c7d03ff9baceb85bf9391"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Zhang_GoodSAM_Bridging_Domain_and_Capacity_Gaps_via_Segment_Anything_Model_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_GoodSAM_Bridging_Domain_and_Capacity_Gaps_via_Segment_Anything_Model_CVPR_2024_paper.html",
+      "selection_rank": 16,
+      "source_record_id": "source:cvf:ca987d23bc696bb245119ca76abad85cff40ff94f8e491c80fc956046ceb727f"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Dou_Real-Time_Neural_BRDF_with_Spherically_Distributed_Primitives_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Dou_Real-Time_Neural_BRDF_with_Spherically_Distributed_Primitives_CVPR_2024_paper.html",
+      "selection_rank": 17,
+      "source_record_id": "source:cvf:1673e4da099e9cd92fdc8896124bab4a52cfa1c6bd8449b8099e2dd491604e09"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Xu_FaceChain-ImagineID_Freely_Crafting_High-Fidelity_Diverse_Talking_Faces_from_Disentangled_Audio_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_FaceChain-ImagineID_Freely_Crafting_High-Fidelity_Diverse_Talking_Faces_from_Disentangled_Audio_CVPR_2024_paper.html",
+      "selection_rank": 18,
+      "source_record_id": "source:cvf:0ea33820aaf375de3b98f61142e494fb9ea295626b33763450243ab1066d899e"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Wan_CAD_Photorealistic_3D_Generation_via_Adversarial_Distillation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wan_CAD_Photorealistic_3D_Generation_via_Adversarial_Distillation_CVPR_2024_paper.html",
+      "selection_rank": 19,
+      "source_record_id": "source:cvf:e62baa876631a35e3f95d64a5ce7e46944315aa6644aa093a4a1a5664d819a24"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Wu_Self-correcting_LLM-controlled_Diffusion_Models_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Self-correcting_LLM-controlled_Diffusion_Models_CVPR_2024_paper.html",
+      "selection_rank": 20,
+      "source_record_id": "source:cvf:a312f0fdeb8a12991afbaeff28f283660400b072b9fb6df8947171db9c1c7530"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Xu_Relightable_and_Animatable_Neural_Avatar_from_Sparse-View_Video_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Relightable_and_Animatable_Neural_Avatar_from_Sparse-View_Video_CVPR_2024_paper.html",
+      "selection_rank": 21,
+      "source_record_id": "source:cvf:cc723424eedc03ab8fb50f9f82327fae412e6fd420b7b160d21f9c1aea76553d"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Liu_SPU-PMD_Self-Supervised_Point_Cloud_Upsampling_via_Progressive_Mesh_Deformation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_SPU-PMD_Self-Supervised_Point_Cloud_Upsampling_via_Progressive_Mesh_Deformation_CVPR_2024_paper.html",
+      "selection_rank": 22,
+      "source_record_id": "source:cvf:02d71ecb645001545d46112c120a8dea06e36dcdf1eb542d6b37deec4ec6b7fd"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Cui_On_the_Robustness_of_Large_Multimodal_Models_Against_Image_Adversarial_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Cui_On_the_Robustness_of_Large_Multimodal_Models_Against_Image_Adversarial_CVPR_2024_paper.html",
+      "selection_rank": 23,
+      "source_record_id": "source:cvf:01aaf835d79747a9c3f041c1106c8db3849b6a182e90682eb4ea8a33d2f6cd8e"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Wei_Adversarial_Score_Distillation_When_score_distillation_meets_GAN_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wei_Adversarial_Score_Distillation_When_score_distillation_meets_GAN_CVPR_2024_paper.html",
+      "selection_rank": 24,
+      "source_record_id": "source:cvf:53a1739d66ce99b2c6580ed91ffcb201cbf9773cdee9f9d1d2406b22b2e68a98"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Ling_ADFactory_An_Effective_Framework_for_Generalizing_Optical_Flow_with_NeRF_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Ling_ADFactory_An_Effective_Framework_for_Generalizing_Optical_Flow_with_NeRF_CVPR_2024_paper.html",
+      "selection_rank": 25,
+      "source_record_id": "source:cvf:26bfe3eef93220946f501e7cf5485ad24d08ba3b13ccc965987ef2758f2c6fde"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Khan_Self-Training_Large_Language_Models_for_Improved_Visual_Program_Synthesis_With_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Khan_Self-Training_Large_Language_Models_for_Improved_Visual_Program_Synthesis_With_CVPR_2024_paper.html",
+      "selection_rank": 26,
+      "source_record_id": "source:cvf:cef618c5959a84d4390b8cf0b48a77da7f1040ef714a9d74cfff72717dcff0a2"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Chou_GSNeRF_Generalizable_Semantic_Neural_Radiance_Fields_with_Enhanced_3D_Scene_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Chou_GSNeRF_Generalizable_Semantic_Neural_Radiance_Fields_with_Enhanced_3D_Scene_CVPR_2024_paper.html",
+      "selection_rank": 27,
+      "source_record_id": "source:cvf:b0279ecd67ca8a8e4d6046a1309eb84525a87f5d2c1a3422119155f1908627f1"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Dai_Curriculum_Point_Prompting_for_Weakly-Supervised_Referring_Image_Segmentation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Dai_Curriculum_Point_Prompting_for_Weakly-Supervised_Referring_Image_Segmentation_CVPR_2024_paper.html",
+      "selection_rank": 28,
+      "source_record_id": "source:cvf:e706e9b410ea4b2953b4373645fd82d98e12c78af8f03c4d2fbf1439d74508fe"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Tang_Neural_Underwater_Scene_Representation_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Neural_Underwater_Scene_Representation_CVPR_2024_paper.html",
+      "selection_rank": 29,
+      "source_record_id": "source:cvf:a2757c052c0a93741679439526646e5fab929789d6d72bb85c863f8eb2479951"
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Lei_GART_Gaussian_Articulated_Template_Models_CVPR_2024",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lei_GART_Gaussian_Articulated_Template_Models_CVPR_2024_paper.html",
+      "selection_rank": 30,
+      "source_record_id": "source:cvf:3c009a44d82bfdd9659078715b2c3d68e25c7a9505a4bbd6acb894e79e8f24e4"
+    }
+  ]
+}

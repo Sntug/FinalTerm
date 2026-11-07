@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "source_records.jsonl v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source_record_id",
+    "paper_id",
+    "source",
+    "source_kind",
+    "source_id",
+    "source_version",
+    "url",
+    "fetched_at",
+    "http_status",
+    "content_sha256",
+    "content_type",
+    "etag",
+    "last_modified",
+    "raw_path"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0.0"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "paper_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_kind": {
+      "type": "string"
+    },
+    "source_id": {
+      "type": "string"
+    },
+    "source_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "fetched_at": {
+      "type": "string"
+    },
+    "http_status": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "content_sha256": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "string"
+    },
+    "etag": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_modified": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_path": {
+      "type": "string"
+    }
+  }
+}

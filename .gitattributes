@@ -1,0 +1,9 @@
+# Scope byte preservation to the A2 integration; leave B's paths unchanged.
+/config/contracts/v2/*.json -text
+/data/processed/cvpr2024/** -text
+/config/a_cvpr2024*.json text eol=lf
+/src/collect/*.py text eol=lf
+/src/clean/text.py text eol=lf
+/quality/checks/test_a2_*.py text eol=lf
+/outputs/a2_cvpr2024/* text eol=lf
+/handoff/a/A2_HANDOFF.md text eol=lf

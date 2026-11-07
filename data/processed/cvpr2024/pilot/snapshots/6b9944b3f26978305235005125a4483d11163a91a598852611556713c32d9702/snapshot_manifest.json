@@ -1,0 +1,95 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a2-collector-1.1.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0"
+  ],
+  "rule_versions": {
+    "openalex-work-match": "1.1.0"
+  },
+  "dictionary_versions": {},
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/paper_registry.csv",
+      "sha256": "2d6d2295223cea7cc6911f5bfa894ee7af7862ca7d4c16685e404d9d238fe9d3",
+      "record_count": 30,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/papers.jsonl",
+      "sha256": "75e72d712fd3fec25080c8966d2e67bdb8d00db4e28180e9f017abe03dd48b3f",
+      "record_count": 30,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/source_records.jsonl",
+      "sha256": "6c47bea7b97643349c11f4c12817f1bde628f469f82120f2f77982552d2ff3fa",
+      "record_count": 89,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/authorships.csv",
+      "sha256": "2ca949bb4b2cba0ac275bb60890585612fb4e5e9ac78c859eee26ad475a8cb1e",
+      "record_count": 159,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/text_versions.jsonl",
+      "sha256": "3ff623c594b0b8a4927fe77fa90cf284a8bc88d841cf39666c57f7ed1aa6e04c",
+      "record_count": 60,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/field_provenance.csv",
+      "sha256": "4a59a60287eb0e9c980d07997839346070b6efd41a7f1f688356b1e681c9bd80",
+      "record_count": 367,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/alias_map.csv",
+      "sha256": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/merge_log.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/needs_review.csv",
+      "sha256": "39652e5026786588f6a4b9156e76bc5edfddc6cc720bbdd47bf9d86825827b6e",
+      "record_count": 3,
+      "role": "review"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/nodes.csv",
+      "sha256": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/edges.csv",
+      "sha256": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2024/pilot/snapshots/6b9944b3f26978305235005125a4483d11163a91a598852611556713c32d9702/evidence.jsonl",
+      "sha256": "518218d49a919bb06fd65418f82bc8661d605a38041376c9c3a2b002a42e06d6",
+      "record_count": 3,
+      "role": "graph"
+    }
+  ],
+  "snapshot_id": "snapshot:v2:737f8bc206c9a39e0b99d6ffb085036acbbfdf323556b717e5634c5cea0d64ba",
+  "source_snapshot_id": "snapshot:e2a4cb12588e3d01ebe4249d41dc13c9274b79b71b7e590e85b3356683e7d379",
+  "created_at": "2026-11-07T17:13:00Z"
+}

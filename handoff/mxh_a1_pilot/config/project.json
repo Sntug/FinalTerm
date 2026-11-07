@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "seed": 20261103,
+  "pilot_count_per_owner": 30,
+  "delay_seconds": 1.0,
+  "b_input": "data/input/b_iccv2023_pilot_registry.csv",
+  "corpora": [
+    {"owner": "A", "conference": "CVPR", "conference_year": 2024, "listing_url": "https://openaccess.thecvf.com/CVPR2024?day=all"},
+    {"owner": "B", "conference": "ICCV", "conference_year": 2023, "listing_url": "https://openaccess.thecvf.com/ICCV2023?day=all"}
+  ]
+}

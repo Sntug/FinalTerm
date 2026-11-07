@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "implementation": "CPython",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "third_party_runtime_dependencies": [],
+  "note": "A1 uses Python standard library. Plan target: Python 3.12+."
+}

@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "papers.jsonl v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "paper_id",
+    "owner",
+    "scope",
+    "track",
+    "conference",
+    "conference_year",
+    "venue_id",
+    "title",
+    "abstract",
+    "doi",
+    "cvf_url",
+    "pdf_url",
+    "arxiv_url",
+    "publication_date",
+    "date_precision",
+    "authors",
+    "title_text_version_id",
+    "abstract_text_version_id",
+    "openalex_id",
+    "openalex_status",
+    "citation_count",
+    "citation_count_source_record_id",
+    "citation_count_observed_at",
+    "referenced_works",
+    "references_status",
+    "representative_source_record_id"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "2.0.0"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "track": {
+      "type": "string"
+    },
+    "conference": {
+      "type": "string"
+    },
+    "conference_year": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "venue_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cvf_url": {
+      "type": "string"
+    },
+    "pdf_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "arxiv_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": "string"
+    },
+    "date_precision": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "authorship_id",
+          "name",
+          "name_raw",
+          "author_order"
+        ],
+        "properties": {
+          "authorship_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_raw": {
+            "type": "string"
+          },
+          "author_order": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "title_text_version_id": {
+      "type": "string"
+    },
+    "abstract_text_version_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "openalex_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "openalex_status": {
+      "type": "string",
+      "enum": [
+        "not_collected",
+        "matched",
+        "not_found",
+        "needs_review"
+      ]
+    },
+    "citation_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "citation_count_source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "citation_count_observed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "referenced_works": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "references_status": {
+      "type": "string",
+      "enum": [
+        "not_collected",
+        "verified",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "representative_source_record_id": {
+      "type": "string"
+    }
+  }
+}

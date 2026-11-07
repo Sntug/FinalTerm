@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "paper_registry.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "paper_id",
+    "doi",
+    "cvf_url",
+    "conference",
+    "conference_year",
+    "owner",
+    "status",
+    "schema_version",
+    "track",
+    "scope",
+    "venue_id",
+    "title",
+    "selection_rank",
+    "source_record_id",
+    "verified_at"
+  ],
+  "properties": {
+    "paper_id": {
+      "type": "string"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "cvf_url": {
+      "type": "string"
+    },
+    "conference": {
+      "type": "string"
+    },
+    "conference_year": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "registered",
+        "cvf_verified",
+        "needs_review",
+        "excluded"
+      ]
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "2.0.0"
+    },
+    "track": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "venue_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "selection_rank": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "verified_at": {
+      "type": "string"
+    }
+  }
+}

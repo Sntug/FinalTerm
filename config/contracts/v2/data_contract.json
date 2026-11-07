@@ -1,0 +1,617 @@
+{
+  "schema_version": "2.0.0",
+  "project_id": "mxh_cv_700",
+  "replaces": "1.0.0",
+  "csv_policy": "UTF-8 BOM, comma, LF; nullable scalar blank; arrays encoded as compact JSON; header order fixed.",
+  "record_policy": "All listed keys/columns required; nullable means value can be null, not that the column/key may be omitted.",
+  "files": {
+    "paper_registry.csv": {
+      "fields": [
+        "paper_id",
+        "doi",
+        "cvf_url",
+        "conference",
+        "conference_year",
+        "owner",
+        "status",
+        "schema_version",
+        "track",
+        "scope",
+        "venue_id",
+        "title",
+        "selection_rank",
+        "source_record_id",
+        "verified_at"
+      ],
+      "logical_unique_key": [
+        "paper_id"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [
+        "doi"
+      ],
+      "record_schema": "paper_registry_csv.schema.json"
+    },
+    "papers.jsonl": {
+      "fields": [
+        "schema_version",
+        "paper_id",
+        "owner",
+        "scope",
+        "track",
+        "conference",
+        "conference_year",
+        "venue_id",
+        "title",
+        "abstract",
+        "doi",
+        "cvf_url",
+        "pdf_url",
+        "arxiv_url",
+        "publication_date",
+        "date_precision",
+        "authors",
+        "title_text_version_id",
+        "abstract_text_version_id",
+        "openalex_id",
+        "openalex_status",
+        "citation_count",
+        "citation_count_source_record_id",
+        "citation_count_observed_at",
+        "referenced_works",
+        "references_status",
+        "representative_source_record_id"
+      ],
+      "logical_unique_key": [
+        "paper_id"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [
+        "abstract",
+        "abstract_text_version_id",
+        "arxiv_url",
+        "citation_count",
+        "citation_count_observed_at",
+        "citation_count_source_record_id",
+        "doi",
+        "openalex_id",
+        "pdf_url",
+        "referenced_works"
+      ],
+      "record_schema": "papers_jsonl.schema.json"
+    },
+    "source_records.jsonl": {
+      "fields": [
+        "schema_version",
+        "source_record_id",
+        "paper_id",
+        "source",
+        "source_kind",
+        "source_id",
+        "source_version",
+        "url",
+        "fetched_at",
+        "http_status",
+        "content_sha256",
+        "content_type",
+        "etag",
+        "last_modified",
+        "raw_path"
+      ],
+      "logical_unique_key": [
+        "source_record_id"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [
+        "etag",
+        "last_modified",
+        "paper_id",
+        "source_version"
+      ],
+      "record_schema": "source_records_jsonl.schema.json"
+    },
+    "authorships.csv": {
+      "fields": [
+        "authorship_id",
+        "paper_id",
+        "author_id",
+        "author_name",
+        "author_name_raw",
+        "author_order",
+        "identity_status",
+        "affiliation_raw",
+        "institution_id",
+        "source_record_id",
+        "owner",
+        "identity_source_record_id",
+        "affiliation_source_record_id",
+        "affiliation_status",
+        "decision_ids"
+      ],
+      "logical_unique_key": [
+        "authorship_id",
+        "institution_id"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [
+        "affiliation_raw",
+        "affiliation_source_record_id",
+        "author_id",
+        "identity_source_record_id",
+        "institution_id"
+      ],
+      "record_schema": "authorships_csv.schema.json"
+    },
+    "text_versions.jsonl": {
+      "fields": [
+        "text_version_id",
+        "paper_id",
+        "source_record_id",
+        "field_path",
+        "parser_version",
+        "normalization_version",
+        "normalized_text",
+        "normalized_text_sha256",
+        "captured_at"
+      ],
+      "logical_unique_key": [
+        "text_version_id"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [],
+      "record_schema": "text_versions_jsonl.schema.json"
+    },
+    "field_provenance.csv": {
+      "fields": [
+        "paper_id",
+        "field_name",
+        "source_record_id",
+        "field_path",
+        "selection_rule",
+        "validation_status",
+        "reviewed_by",
+        "selected_at",
+        "candidate_source_record_ids"
+      ],
+      "logical_unique_key": [
+        "paper_id",
+        "field_name"
+      ],
+      "stage": "metadata",
+      "nullable_fields": [
+        "reviewed_by"
+      ],
+      "record_schema": "field_provenance_csv.schema.json"
+    },
+    "alias_map.csv": {
+      "fields": [
+        "alias_id",
+        "entity_type",
+        "source",
+        "external_id",
+        "canonical_id",
+        "decision_id"
+      ],
+      "logical_unique_key": [
+        "alias_id"
+      ],
+      "stage": "identity",
+      "nullable_fields": [],
+      "record_schema": "alias_map_csv.schema.json"
+    },
+    "merge_log.jsonl": {
+      "fields": [
+        "decision_id",
+        "action",
+        "entity_type",
+        "input_ids",
+        "output_ids",
+        "affected_paper_ids",
+        "affected_authorship_ids",
+        "changes",
+        "reason",
+        "evidence_ids",
+        "proposed_by",
+        "reviewed_by",
+        "review_mode",
+        "decided_at",
+        "snapshot_before",
+        "reverts_decision_id"
+      ],
+      "logical_unique_key": [
+        "decision_id"
+      ],
+      "stage": "identity",
+      "nullable_fields": [
+        "reverts_decision_id",
+        "snapshot_before"
+      ],
+      "record_schema": "merge_log_jsonl.schema.json"
+    },
+    "needs_review.csv": {
+      "fields": [
+        "review_id",
+        "paper_id",
+        "entity_type",
+        "entity_id",
+        "field_name",
+        "reason",
+        "candidate_ids",
+        "evidence_ids",
+        "review_status",
+        "assigned_to",
+        "resolution_decision_id"
+      ],
+      "logical_unique_key": [
+        "review_id"
+      ],
+      "stage": "review",
+      "nullable_fields": [
+        "assigned_to",
+        "entity_id",
+        "field_name",
+        "paper_id",
+        "resolution_decision_id"
+      ],
+      "record_schema": "needs_review_csv.schema.json"
+    },
+    "nodes.csv": {
+      "fields": [
+        "id",
+        "label",
+        "name",
+        "owner",
+        "source_origin",
+        "source_record_ids",
+        "validation_status",
+        "project_id",
+        "properties_json"
+      ],
+      "logical_unique_key": [
+        "project_id",
+        "id"
+      ],
+      "stage": "graph",
+      "nullable_fields": [],
+      "record_schema": "nodes_csv.schema.json"
+    },
+    "edges.csv": {
+      "fields": [
+        "edge_id",
+        "src",
+        "dst",
+        "type",
+        "weight",
+        "derivation",
+        "validation_status",
+        "evidence_ids",
+        "paper_ids",
+        "owner",
+        "source_origin",
+        "project_id"
+      ],
+      "logical_unique_key": [
+        "project_id",
+        "edge_id"
+      ],
+      "stage": "graph",
+      "nullable_fields": [],
+      "record_schema": "edges_csv.schema.json"
+    },
+    "evidence.jsonl": {
+      "fields": [
+        "evidence_id",
+        "evidence_kind",
+        "paper_id",
+        "source_record_id",
+        "source_url",
+        "field_path",
+        "evidence_text",
+        "start_char",
+        "end_char",
+        "rule_id",
+        "rule_version",
+        "captured_at",
+        "supporting_evidence_ids",
+        "owner",
+        "text_version_id",
+        "normalized_text_sha256",
+        "normalization_version"
+      ],
+      "logical_unique_key": [
+        "evidence_id"
+      ],
+      "stage": "graph",
+      "nullable_fields": [
+        "end_char",
+        "evidence_text",
+        "field_path",
+        "normalization_version",
+        "normalized_text_sha256",
+        "paper_id",
+        "source_record_id",
+        "source_url",
+        "start_char",
+        "text_version_id"
+      ],
+      "record_schema": "evidence_jsonl.schema.json"
+    }
+  },
+  "relations": [
+    {
+      "type": "AUTHORED",
+      "src_label": "Author",
+      "dst_label": "Paper",
+      "directed": true
+    },
+    {
+      "type": "AFFILIATED_WITH",
+      "src_label": "Author",
+      "dst_label": "Institution",
+      "directed": true
+    },
+    {
+      "type": "PUBLISHED_IN",
+      "src_label": "Paper",
+      "dst_label": "VenueEdition",
+      "directed": true
+    },
+    {
+      "type": "CITES",
+      "src_label": "Paper",
+      "dst_label": "Paper",
+      "directed": true
+    },
+    {
+      "type": "BASED_IN",
+      "src_label": "Institution",
+      "dst_label": "Country",
+      "directed": true
+    },
+    {
+      "type": "COAUTHORED_WITH",
+      "src_label": "Author",
+      "dst_label": "Author",
+      "directed": false
+    },
+    {
+      "type": "COLLABORATED_WITH",
+      "src_label": "Institution",
+      "dst_label": "Institution",
+      "directed": false
+    },
+    {
+      "type": "STUDIES_TASK",
+      "src_label": "Paper",
+      "dst_label": "Task",
+      "directed": true
+    },
+    {
+      "type": "USES_METHOD",
+      "src_label": "Paper",
+      "dst_label": "Method",
+      "directed": true
+    },
+    {
+      "type": "EVALUATED_ON",
+      "src_label": "Paper",
+      "dst_label": "Dataset",
+      "directed": true
+    }
+  ],
+  "node_labels": [
+    "Author",
+    "Paper",
+    "Institution",
+    "VenueEdition",
+    "Task",
+    "Method",
+    "Dataset",
+    "Country"
+  ],
+  "node_properties": {
+    "Author": [
+      "openalex_id",
+      "orcid",
+      "aliases"
+    ],
+    "Paper": [
+      "doi",
+      "cvf_url",
+      "abstract",
+      "conference",
+      "conference_year",
+      "scope",
+      "publication_date",
+      "date_precision",
+      "openalex_id",
+      "title_text_version_id",
+      "abstract_text_version_id",
+      "citation_count",
+      "citation_count_observed_at"
+    ],
+    "Institution": [
+      "openalex_id",
+      "ror",
+      "country_code",
+      "aliases"
+    ],
+    "VenueEdition": [
+      "conference",
+      "conference_year",
+      "track"
+    ],
+    "Task": [
+      "definition",
+      "aliases"
+    ],
+    "Method": [
+      "definition",
+      "aliases"
+    ],
+    "Dataset": [
+      "version",
+      "aliases"
+    ],
+    "Country": [
+      "country_code"
+    ]
+  },
+  "node_property_policy": "properties_json is a CSV transport object, unpacked to whitelisted native scalar/list Neo4j properties; do not store a nested JSON object as a property. Null removes/omits a property; nested objects forbidden.",
+  "normalization": {
+    "version": "nfc-ws-1",
+    "steps": [
+      "Unicode NFC",
+      "split and join whitespace with one U+0020"
+    ],
+    "hash": "SHA-256 of complete normalized field encoded UTF-8, not of a sentence excerpt."
+  },
+  "evidence_offsets": "Zero-based Unicode code points; [start_char,end_char), end exclusive; exact slice equals evidence_text.",
+  "hash_names": {
+    "content_sha256": "Original uncompressed source response bytes.",
+    "normalized_text_sha256": "Full normalized title or full normalized abstract.",
+    "graph_content_sha256": "Canonical active-node and active-edge records, not just counts."
+  },
+  "graph_update": "Rebuild full project scope from complete validated snapshot; delete+load in one write transaction; rollback on failure. No MERGE-only accumulation.",
+  "graph_snapshot_tag": "snapshot_id is supplied by the manifest to the loader, not a CSV column or part of node/edge ID. This avoids self-referential snapshot hashing.",
+  "status_namespaces": {
+    "paper_registry.csv": {
+      "status": [
+        "registered",
+        "cvf_verified",
+        "needs_review",
+        "excluded"
+      ]
+    },
+    "papers.jsonl": {
+      "openalex_status": [
+        "not_collected",
+        "matched",
+        "not_found",
+        "needs_review"
+      ],
+      "references_status": [
+        "not_collected",
+        "verified",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "authorships.csv": {
+      "identity_status": [
+        "unresolved",
+        "resolved",
+        "needs_review"
+      ],
+      "affiliation_status": [
+        "not_collected",
+        "verified",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "field_provenance.csv": {
+      "validation_status": [
+        "auto_verified",
+        "verified",
+        "needs_review"
+      ]
+    },
+    "merge_log.jsonl": {
+      "action": [
+        "link",
+        "unlink",
+        "merge",
+        "split",
+        "retract"
+      ],
+      "review_mode": [
+        "manual",
+        "rule"
+      ]
+    },
+    "needs_review.csv": {
+      "review_status": [
+        "open",
+        "resolved",
+        "rejected"
+      ]
+    },
+    "nodes.csv": {
+      "validation_status": [
+        "accepted",
+        "needs_review",
+        "rejected"
+      ],
+      "label": [
+        "Author",
+        "Paper",
+        "Institution",
+        "VenueEdition",
+        "Task",
+        "Method",
+        "Dataset",
+        "Country"
+      ]
+    },
+    "edges.csv": {
+      "validation_status": [
+        "accepted",
+        "needs_review",
+        "rejected"
+      ],
+      "type": [
+        "AUTHORED",
+        "AFFILIATED_WITH",
+        "PUBLISHED_IN",
+        "CITES",
+        "BASED_IN",
+        "COAUTHORED_WITH",
+        "COLLABORATED_WITH",
+        "STUDIES_TASK",
+        "USES_METHOD",
+        "EVALUATED_ON"
+      ],
+      "derivation": [
+        "metadata",
+        "derived",
+        "nlp"
+      ]
+    },
+    "evidence.jsonl": {
+      "evidence_kind": [
+        "metadata",
+        "derived",
+        "nlp"
+      ]
+    }
+  },
+  "version_policy": "Major for any breaking schema/ID/null/semantic change. Minor only after old readers/validators accept the optional addition. Patch for compatible fixes.",
+  "snapshot_manifest": {
+    "required": [
+      "project_id",
+      "snapshot_id",
+      "schema_version",
+      "source_snapshot_id",
+      "created_at",
+      "code_version",
+      "normalization_version",
+      "parser_versions",
+      "rule_versions",
+      "dictionary_versions",
+      "applied_decision_ids",
+      "graph_ready",
+      "node_count",
+      "edge_count",
+      "files"
+    ],
+    "file_record": [
+      "path",
+      "sha256",
+      "record_count",
+      "role"
+    ],
+    "graph_ready_false": "Metadata-only export; graph loader must refuse replacing the project from it.",
+    "digest_rule": "snapshot:v2: + SHA256 of canonical JSON {project_id,schema_version,code_version,normalization_version,parser_versions,rule_versions,dictionary_versions,applied_decision_ids,graph_ready,node_count,edge_count,files}; excludes created_at, source_snapshot_id and snapshot_id."
+  }
+}

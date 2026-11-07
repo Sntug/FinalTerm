@@ -1,0 +1,72 @@
+[
+  {
+    "path": "config/contracts/v2/alias_map_csv.schema.json",
+    "sha256": "2e6cecb06d11f17938b16d5f803759ded496bf69f1986eee9ef64465edfabf30",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/authorships_csv.schema.json",
+    "sha256": "3dd1ddab29f235a32e8f62cba145063516704f4295299011974794df212b6828",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/data_contract.json",
+    "sha256": "e0f6e2ae8aae272dd25108bd02be5575e652a7fe6eea6e9f5f3a8f59b9894ed3",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/data_contract_v1_archive.json",
+    "sha256": "498c5293257134b3b226545b9009769cc99037624ff124c92fae31a13970f348",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/edges_csv.schema.json",
+    "sha256": "9075669b4cee15c854732dc69e699f5ff4d66a13b07220b8cfe291a7e9f5e312",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/evidence_jsonl.schema.json",
+    "sha256": "8f9bafd379ad6b120ea369939137b1b97fdabf147e04f94819265ffc612ebc72",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/field_provenance_csv.schema.json",
+    "sha256": "5c7266d93f40580b9f5d412e3a5d93250808a20ef150fb12b7f7c758fb780ca9",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/merge_log_jsonl.schema.json",
+    "sha256": "a9d69b25c83a44ee08d0473ff84ee6959e0d6f4e44236a51b525d028d386bb64",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/needs_review_csv.schema.json",
+    "sha256": "d5df25576f5bd40d4e8af23c7aee5f418d444b5a8993cc2fe9fc6725c8b776ca",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/nodes_csv.schema.json",
+    "sha256": "99571dac854107984872da1acd86316eec3c7742929fd78c4108c033a365a3bb",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/paper_registry_csv.schema.json",
+    "sha256": "89bfa75c9e94f30d83acbacb999896d23263ae198c703f3109e03123bada5b1c",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/papers_jsonl.schema.json",
+    "sha256": "3c5e1b2fdbe70cc52b373e8516a7a519bb685beb9943e4b14bcbf58db8a9855e",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/source_records_jsonl.schema.json",
+    "sha256": "858c35c5a3b0b3734ba3aad5fd9e434db448ccf5559d83df0a41777c9d945e5e",
+    "matches_handoff": true
+  },
+  {
+    "path": "config/contracts/v2/text_versions_jsonl.schema.json",
+    "sha256": "69b18db42e14631d32e090b00cc9daa211bbfb2e38b9617033ce2d36f07375dc",
+    "matches_handoff": true
+  }
+]

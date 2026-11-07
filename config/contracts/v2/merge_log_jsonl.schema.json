@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "merge_log.jsonl v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_id",
+    "action",
+    "entity_type",
+    "input_ids",
+    "output_ids",
+    "affected_paper_ids",
+    "affected_authorship_ids",
+    "changes",
+    "reason",
+    "evidence_ids",
+    "proposed_by",
+    "reviewed_by",
+    "review_mode",
+    "decided_at",
+    "snapshot_before",
+    "reverts_decision_id"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "link",
+        "unlink",
+        "merge",
+        "split",
+        "retract"
+      ]
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "input_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "output_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_paper_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "affected_authorship_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "table",
+          "record_key",
+          "field",
+          "before",
+          "after"
+        ],
+        "properties": {
+          "table": {
+            "type": "string"
+          },
+          "record_key": {
+            "type": "object"
+          },
+          "field": {
+            "type": "string"
+          },
+          "before": {},
+          "after": {}
+        }
+      }
+    },
+    "reason": {
+      "type": "string"
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "proposed_by": {
+      "type": "string"
+    },
+    "reviewed_by": {
+      "type": "string"
+    },
+    "review_mode": {
+      "type": "string",
+      "enum": [
+        "manual",
+        "rule"
+      ]
+    },
+    "decided_at": {
+      "type": "string"
+    },
+    "snapshot_before": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reverts_decision_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

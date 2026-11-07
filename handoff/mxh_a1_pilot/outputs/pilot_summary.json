@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_id": "snapshot:e2a4cb12588e3d01ebe4249d41dc13c9274b79b71b7e590e85b3356683e7d379",
+  "counts": {
+    "A_papers": 30,
+    "B_papers": 30,
+    "papers": 60,
+    "source_records": 62,
+    "authorship_observations": 322,
+    "A_authorship_observations": 159,
+    "B_authorship_observations": 163
+  },
+  "coverage": [
+    {
+      "owner": "A",
+      "field": "title",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "authors",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "abstract",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "doi",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "pdf_url",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "arxiv_url",
+      "total": 30,
+      "present": 19,
+      "missing": 11,
+      "coverage_pct": 63.33,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "publication_date",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "A",
+      "field": "openalex_id",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "A",
+      "field": "affiliations",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "A",
+      "field": "referenced_works",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "A",
+      "field": "citation_count",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "B",
+      "field": "title",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "authors",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "abstract",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "doi",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "pdf_url",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "arxiv_url",
+      "total": 30,
+      "present": 20,
+      "missing": 10,
+      "coverage_pct": 66.67,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "publication_date",
+      "total": 30,
+      "present": 30,
+      "missing": 0,
+      "coverage_pct": 100.0,
+      "missing_interpretation": "not_present_in_CVF_html"
+    },
+    {
+      "owner": "B",
+      "field": "openalex_id",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "B",
+      "field": "affiliations",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "B",
+      "field": "referenced_works",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    },
+    {
+      "owner": "B",
+      "field": "citation_count",
+      "total": 30,
+      "present": 0,
+      "missing": 30,
+      "coverage_pct": 0.0,
+      "missing_interpretation": "not_collected_in_A1"
+    }
+  ],
+  "publication_date_precision": {
+    "month": 60
+  },
+  "b_review": {
+    "input_rows": 30,
+    "structural_errors": 0,
+    "verified_against_listing_and_detail": 30,
+    "original_file_has_paper_metadata": false,
+    "B1_repo_setup_verified": false,
+    "B1_neo4j_verified": false,
+    "B1_complete_from_supplied_evidence": false
+  },
+  "scope": {
+    "A1_completed": true,
+    "openalex_enrichment_executed": false,
+    "nlp_executed": false,
+    "neo4j_import_executed": false,
+    "graph_size_measured": false,
+    "author_identity_resolved": false
+  }
+}
