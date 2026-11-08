@@ -1,0 +1,22 @@
+{
+  "project_id": "mxh_cv_700",
+  "snapshot_id": "snapshot:v2:e1a0f4e76546fbfc56c8bc627a42fff17e29a14aacb4d483ad7ab3064665854d",
+  "node_count": 4126,
+  "edge_count": 7748,
+  "counts_by_label": {
+    "Author": 2950,
+    "Institution": 432,
+    "Paper": 700,
+    "Country": 42,
+    "VenueEdition": 2
+  },
+  "counts_by_type": {
+    "AUTHORED": 3282,
+    "BASED_IN": 432,
+    "AFFILIATED_WITH": 3237,
+    "PUBLISHED_IN": 700,
+    "CITES": 97
+  },
+  "content_sha256": "838eb86fd1a2433f810d5d333470a4792ad4ec9ceb41547ebe9f716ccf24181f",
+  "imported_at": "2026-11-08T19:35:14Z"
+}

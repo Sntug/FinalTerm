@@ -1,0 +1,9 @@
+{
+  "project_id": "mxh_cv_700",
+  "output_dir": "data/processed/mxh_cv_700/graph",
+  "code_version": "b3-export-1.0.0",
+  "inputs": [
+    {"name": "CVPR2024", "snapshots_dir": "data/processed/cvpr2024/a2_350/snapshots", "a3_dir": "data/processed/cvpr2024/a3_350"},
+    {"name": "ICCV2023", "snapshots_dir": "data/processed/iccv2023/full/snapshots", "a3_dir": "data/processed/iccv2023/a3_350"}
+  ]
+}
