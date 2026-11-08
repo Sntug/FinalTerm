@@ -1,0 +1,116 @@
+[
+ {
+  "paper_id": "cvf:ICCV2023:Kim_Misalign_Contrast_then_Distill_Rethinking_Misalignments_in_Language-Image_Pre-training_ICCV_2023",
+  "reason": "openalex needs_review: ứng viên đạt quy tắc nhưng bị đánh dấu cần xem lại (trùng lặp/mơ hồ trong kết quả tìm kiếm)",
+  "openalex_candidate": "https://openalex.org/W4390873365",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Paredes-Valles_Taming_Contrast_Maximization_for_Learning_Sequential_Low-latency_Event-based_Optical_Flow_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873605",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Weinzaepfel_CroCo_v2_Improved_Cross-view_Completion_Pre-training_for_Stereo_Matching_and_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390872625",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Liu_LoTE-Animal_A_Long_Time-span_Dataset_for_Endangered_Animal_Behavior_Understanding_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873593",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Gurbuz_Generalized_Sum_Pooling_for_Metric_Learning_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873199",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Boutros_IDiff-Face_Synthetic-based_Face_Recognition_through_Fizzy_Identity-Conditioned_Diffusion_Model_ICCV_2023",
+  "reason": "openalex needs_review: tác giả khớp nhưng tiêu đề không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873484",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Zhou_ProPainter_Improving_Propagation_and_Transformer_for_Video_Inpainting_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390872458",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Khirodkar_Ego-Humans_An_Ego-Centric_3D_Multi-Human_Benchmark_ICCV_2023",
+  "reason": "openalex needs_review: ứng viên đạt quy tắc nhưng bị đánh dấu cần xem lại (trùng lặp/mơ hồ trong kết quả tìm kiếm)",
+  "openalex_candidate": "https://openalex.org/W4390872046",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Kirillov_Segment_Anything_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390874575",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Yeo_Rapid_Network_Adaptation_Learning_to_Adapt_Neural_Networks_Using_Test-Time_ICCV_2023",
+  "reason": "openalex needs_review: ứng viên đạt quy tắc nhưng bị đánh dấu cần xem lại (trùng lặp/mơ hồ trong kết quả tìm kiếm)",
+  "openalex_candidate": "https://openalex.org/W4390871679",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Zorzi_RePolyWorld_-_A_Graph_Neural_Network_for_Polygonal_Scene_Parsing_ICCV_2023",
+  "reason": "openalex needs_review: ứng viên đạt quy tắc nhưng bị đánh dấu cần xem lại (trùng lặp/mơ hồ trong kết quả tìm kiếm)",
+  "openalex_candidate": "https://openalex.org/W4390871802",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Zhou_BT2_Backward-compatible_Training_with_Basis_Transformation_ICCV_2023",
+  "reason": "openalex needs_review: ứng viên đạt quy tắc nhưng bị đánh dấu cần xem lại (trùng lặp/mơ hồ trong kết quả tìm kiếm)",
+  "openalex_candidate": "https://openalex.org/W4390872166",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Feng_Generalizing_Neural_Human_Fitting_to_Unseen_Poses_With_Articulated_SE3_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390872296",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Zhu_EgoObjects_A_Large-Scale_Egocentric_Dataset_for_Fine-Grained_Object_Understanding_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873736",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Yang_LAC_-_Latent_Action_Composition_for_Skeleton-based_Action_Segmentation_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390872069",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Wei_Generalized_Differentiable_RANSAC_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390873665",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Spencer_Kick_Back__Relax_Learning_to_Reconstruct_the_World_by_ICCV_2023",
+  "reason": "openalex needs_review: tiêu đề khớp nhưng danh sách tác giả (theo thứ tự) không khớp",
+  "openalex_candidate": "https://openalex.org/W4390874573",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Song_Emotional_Listener_Portrait_Neural_Listener_Head_Generation_with_Emotion_ICCV_2023",
+  "reason": "openalex needs_review: tác giả khớp nhưng tiêu đề không khớp",
+  "openalex_candidate": "https://openalex.org/W4390872713",
+  "excluded_at": "2026-11-08"
+ },
+ {
+  "paper_id": "cvf:ICCV2023:Wang_Building3D_A_Urban-Scale_Dataset_and_Benchmarks_for_Learning_Roof_Structures_ICCV_2023",
+  "reason": "openalex needs_review: tác giả khớp nhưng tiêu đề không khớp",
+  "openalex_candidate": "https://openalex.org/W4390871927",
+  "excluded_at": "2026-11-08"
+ }
+]

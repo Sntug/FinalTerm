@@ -1,0 +1,95 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a2-collector-1.1.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0"
+  ],
+  "rule_versions": {
+    "openalex-work-match": "1.1.0"
+  },
+  "dictionary_versions": {},
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/paper_registry.csv",
+      "sha256": "5fa71bf1960ad5e313140e557990f7a929e15ac4c7c349a68d6f6a7ccd441959",
+      "record_count": 30,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/papers.jsonl",
+      "sha256": "71e6a34a6a07a6e49fc9a1a18710f3a31e96d6c673e645cd6a3c3c8ae7bee0be",
+      "record_count": 30,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/source_records.jsonl",
+      "sha256": "0dd599d1bf8d00ae750b0305c6e46e4634fe1d669e77ceb389cd40963ddddba9",
+      "record_count": 90,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/authorships.csv",
+      "sha256": "e1e5a04333c4f5420cc3e5bd4d51845a0e3c7fbb26f769e10f1e246bfcaa986c",
+      "record_count": 163,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/text_versions.jsonl",
+      "sha256": "aa6f0abf7f5cba6ce9eecac89f09d6057a358bd4e16ac684b074a1173c52c7aa",
+      "record_count": 60,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/field_provenance.csv",
+      "sha256": "000c8a2d4524662682b8a8bffa91a84f6a5a53adbad60cc2dd6f4963872d22aa",
+      "record_count": 372,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/alias_map.csv",
+      "sha256": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/merge_log.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/needs_review.csv",
+      "sha256": "8316d9411d0727da09f4ff0305ff5603609e07144215a53e05b157c170395bf6",
+      "record_count": 2,
+      "role": "review"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/nodes.csv",
+      "sha256": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/edges.csv",
+      "sha256": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/iccv2023/pilot/snapshots/d4180b1ace92306b0794d00ff136f1e1c5223a0d0724ad0f3af2a795b5ce9e0e/evidence.jsonl",
+      "sha256": "a717e5aa920208d2e52ae52d41f33e8dcb91b5ad8ef19fb1302c401981499a2e",
+      "record_count": 2,
+      "role": "graph"
+    }
+  ],
+  "snapshot_id": "snapshot:v2:f3e304571fe3197b4497bd65643e9aec6d90d0a37ef644d45f9fd01ed7cdef60",
+  "source_snapshot_id": "registry:519e94ff875cea0916c7f865369c58022d05468703840fc354700fe1ca3b4b2b",
+  "created_at": "2026-11-08T01:18:26Z"
+}
