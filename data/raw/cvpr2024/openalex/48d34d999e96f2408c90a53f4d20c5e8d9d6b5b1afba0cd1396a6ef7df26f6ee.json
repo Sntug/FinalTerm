@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MicroDiffusion%3A+Implicit+Representation-Guided+Diffusion+for+3D+Reconstruction+from+Limited+2D+Microscopy+Projections%22",
+  "fetched_at": "2026-11-07T18:55:36Z",
+  "http_status": 200,
+  "content_sha256": "963912c73a87221ec32a22801f916b9e5b855be137309de907e28d4129acd51c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/963912c73a87221ec32a22801f916b9e5b855be137309de907e28d4129acd51c.json.gz"
+}

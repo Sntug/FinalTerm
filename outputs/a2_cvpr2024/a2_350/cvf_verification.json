@@ -1,0 +1,13 @@
+{
+  "valid_cvf_papers": 350,
+  "preserved_pilot": 30,
+  "new_details": 320,
+  "excluded_candidates": [],
+  "selection_locked_at": "2026-11-07T18:40:40Z",
+  "first_new_detail_fetched_at": "2026-11-07T18:41:06Z",
+  "last_new_detail_fetched_at": "2026-11-07T18:46:35Z",
+  "lock_precedes_all_new_details": true,
+  "authorship_observations": 1968,
+  "source_errors": [],
+  "network_requests_in_audit": 0
+}

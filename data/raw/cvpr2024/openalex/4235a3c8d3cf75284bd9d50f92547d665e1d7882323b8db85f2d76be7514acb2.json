@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PrPSeg%3A+Universal+Proposition+Learning+for+Panoramic+Renal+Pathology+Segmentation%22",
+  "fetched_at": "2026-11-07T18:46:37Z",
+  "http_status": 200,
+  "content_sha256": "507d350983222ddd9ebca3077a27918c5ba7dfb8b1c7a8d8f8a76ec4d246d539",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/507d350983222ddd9ebca3077a27918c5ba7dfb8b1c7a8d8f8a76ec4d246d539.json.gz"
+}

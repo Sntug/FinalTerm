@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Residual+Learning+in+Diffusion+Models%22",
+  "fetched_at": "2026-11-07T18:49:47Z",
+  "http_status": 200,
+  "content_sha256": "0da7bc911854905e287eeec582344df70bd6673d3be7fc8d902c6c40dbc160a7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0da7bc911854905e287eeec582344df70bd6673d3be7fc8d902c6c40dbc160a7.json.gz"
+}

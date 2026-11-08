@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MMCert%3A+Provable+Defense+against+Adversarial+Attacks+to+Multi-modal+Models%22",
+  "fetched_at": "2026-11-07T18:55:28Z",
+  "http_status": 200,
+  "content_sha256": "499dfa1a8828e25347a1609027b5566330058c6c9c715c24c53b750b855f8faa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/499dfa1a8828e25347a1609027b5566330058c6c9c715c24c53b750b855f8faa.json.gz"
+}

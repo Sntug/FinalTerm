@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SelfPose3d%3A+Self-Supervised+Multi-Person+Multi-View+3d+Pose+Estimation%22",
+  "fetched_at": "2026-11-07T18:52:02Z",
+  "http_status": 200,
+  "content_sha256": "7c9e769c5f456c46add5a893d4445b1da4e951bd8e0239bdbd953899bdc5dfee",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7c9e769c5f456c46add5a893d4445b1da4e951bd8e0239bdbd953899bdc5dfee.json.gz"
+}

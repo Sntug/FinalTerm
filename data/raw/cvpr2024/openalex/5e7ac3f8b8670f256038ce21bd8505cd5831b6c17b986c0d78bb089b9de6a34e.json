@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Density-Guided+Semi-Supervised+3D+Semantic+Segmentation+with+Dual-Space+Hardness+Sampling%22",
+  "fetched_at": "2026-11-07T18:49:09Z",
+  "http_status": 200,
+  "content_sha256": "ed1d1f93137cd49f3bd643f5bf651cf785bbf69393dcffbd07314b21569dbd2b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ed1d1f93137cd49f3bd643f5bf651cf785bbf69393dcffbd07314b21569dbd2b.json.gz"
+}

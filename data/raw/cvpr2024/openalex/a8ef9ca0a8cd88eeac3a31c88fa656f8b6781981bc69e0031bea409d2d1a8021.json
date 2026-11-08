@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Pose-Aware+Human-Object+Interaction+via+Hybrid+Learning%22",
+  "fetched_at": "2026-11-07T18:47:42Z",
+  "http_status": 200,
+  "content_sha256": "f4133ae748603539b3521e0f41f732cfb6ccb26f6a4e682a40b697fb543623ea",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f4133ae748603539b3521e0f41f732cfb6ccb26f6a4e682a40b697fb543623ea.json.gz"
+}

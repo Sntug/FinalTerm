@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22C3Net%3A+Compound+Conditioned+ControlNet+for+Multimodal+Content+Generation%22",
+  "fetched_at": "2026-11-07T18:49:20Z",
+  "http_status": 200,
+  "content_sha256": "61090262eac9efc596c2aff759466c61e1fc79cb9e322ee77cc8235e5bb6b3c4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/61090262eac9efc596c2aff759466c61e1fc79cb9e322ee77cc8235e5bb6b3c4.json.gz"
+}

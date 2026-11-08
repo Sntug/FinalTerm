@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Auto-Train-Once%3A+Controller+Network+Guided+Automatic+Network+Pruning+from+Scratch%22",
+  "fetched_at": "2026-11-07T18:50:19Z",
+  "http_status": 200,
+  "content_sha256": "add5e3bf32962634850cacf901ac310cf03fa08bff577efea395890ec1465160",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/add5e3bf32962634850cacf901ac310cf03fa08bff577efea395890ec1465160.json.gz"
+}

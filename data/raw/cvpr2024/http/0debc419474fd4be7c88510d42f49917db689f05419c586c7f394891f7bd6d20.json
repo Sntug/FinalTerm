@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Lee_InterHandGen_Two-Hand_Interaction_Generation_via_Cascaded_Reverse_Diffusion_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:45:05Z",
+  "http_status": 200,
+  "content_sha256": "73bbd22000c45b5231f77f738b441199ece52b31a5308f9b48e817a87d49d5b7",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"190d-61a8f4d13e2f2\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/73bbd22000c45b5231f77f738b441199ece52b31a5308f9b48e817a87d49d5b7.html.gz"
+}

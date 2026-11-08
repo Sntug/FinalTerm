@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_RLHF-V_Towards_Trustworthy_MLLMs_via_Behavior_Alignment_from_Fine-grained_Correctional_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:41:17Z",
+  "http_status": 200,
+  "content_sha256": "52ca7f34f44ac2364f24922a46481e5039552c0015f4e42ce6d35afead118c79",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1bb1-61a8f4d10b665\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:35 GMT",
+  "raw_path": "data/raw/cvpr2024/http/52ca7f34f44ac2364f24922a46481e5039552c0015f4e42ce6d35afead118c79.html.gz"
+}

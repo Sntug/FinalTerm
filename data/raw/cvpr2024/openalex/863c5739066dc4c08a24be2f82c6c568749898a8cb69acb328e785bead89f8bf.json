@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Question+Aware+Vision+Transformer+for+Multimodal+Reasoning%22",
+  "fetched_at": "2026-11-07T18:51:00Z",
+  "http_status": 200,
+  "content_sha256": "781947e62be2b486d393cd6f5d8fb0f0b158b8e83deb0558732c990c0531b050",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/781947e62be2b486d393cd6f5d8fb0f0b158b8e83deb0558732c990c0531b050.json.gz"
+}

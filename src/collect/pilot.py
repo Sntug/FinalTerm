@@ -12,7 +12,7 @@ from .export import export_records
 from .openalex import RULE_VERSION, collect_work, enrich
 
 
-def build_records(root, config, offline=True):
+def build_records(root, config, offline=True, progress=None):
     selection = load_selection(root, config)
     cache = HTTPCache(root, config['raw_dir'], offline=offline, delay=config['delay_seconds'],
                       retries=config['retries'], timeout=config['timeout_seconds'], max_retry_wait=config['max_retry_wait_seconds'])
@@ -44,6 +44,12 @@ def build_records(root, config, offline=True):
             'track': 'main', 'scope': 'core', 'venue_id': f'venue:{config["conference"]}:{config["conference_year"]}:main',
             'source_record_id': source['source_record_id'], 'captured_at': meta['fetched_at']})
         sources.append(source)
+        if progress:
+            try:
+                progress([p['paper_id'] for p in observations], cache.network_requests)
+            except OSError as exc:
+                exc.validated_papers = len(observations)
+                raise
     selection['candidate_count'] = len(candidates)
     return export_records(observations, sources, listing), selection, cache.network_requests
 
@@ -56,10 +62,17 @@ def snapshot_payload(manifest):
 def run(root: Path, config_path=DEFAULT_CONFIG, offline=True):
     root = root.resolve()
     config = load_config(root, config_path)
-    checkpoint = within(root, config['raw_dir'] + '/collector_checkpoint.json')
+    checkpoint = within(root, config.get('checkpoint_file', config['raw_dir'] + '/collector_checkpoint.json'))
     fingerprint = sha256(canonical_json(config).encode() + within(root, config['registry_input']).read_bytes())
+    batch_size = config.get('batch_size', 25)
+    def cvf_progress(completed, requests):
+        atomic_json(checkpoint, {'config_sha256':fingerprint, 'phase':'CVF',
+            'validated_papers':len(completed), 'completed_paper_ids':completed,
+            'network_requests':requests, 'errors':[]})
+        if len(completed) % batch_size == 0 or len(completed) == config['target_count']:
+            print(f'CVF valid {len(completed)}/{config["target_count"]}; requests {requests}', flush=True)
     try:
-        records, selection, cvf_requests = build_records(root, config, offline)
+        records, selection, cvf_requests = build_records(root, config, offline, cvf_progress)
     except (RuntimeError, OSError) as exc:
         errors = [{'source':'CVF','reason':str(exc),'retry_at':getattr(exc,'retry_at',None)}]
         validated = getattr(exc,'validated_papers',0)
@@ -87,6 +100,8 @@ def run(root: Path, config_path=DEFAULT_CONFIG, offline=True):
             completed.append(paper['paper_id'])
             atomic_json(checkpoint, {'config_sha256': fingerprint, 'completed_paper_ids': completed,
                 'pending_paper_ids': [p['paper_id'] for p in records['papers.jsonl'] if p['paper_id'] not in completed], 'errors': []})
+            if len(completed) % batch_size == 0 or len(completed) == len(records['papers.jsonl']):
+                print(f'OpenAlex completed {len(completed)}/{len(records["papers.jsonl"])}; requests {cache.network_requests}', flush=True)
     by_id = {p['paper_id']:p for p in records['papers.jsonl']}
     for row in records['paper_registry.csv']:
         row['doi'] = by_id[row['paper_id']]['doi']

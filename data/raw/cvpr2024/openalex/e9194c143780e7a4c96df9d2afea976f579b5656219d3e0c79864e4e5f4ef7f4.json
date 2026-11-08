@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Grounded+Question-Answering+in+Long+Egocentric+Videos%22",
+  "fetched_at": "2026-11-07T18:47:09Z",
+  "http_status": 200,
+  "content_sha256": "e93d776de79b33f2461ad1135bf00579e557e5120741b78d0d316c53d8e5885c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e93d776de79b33f2461ad1135bf00579e557e5120741b78d0d316c53d8e5885c.json.gz"
+}

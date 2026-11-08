@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Finding+Lottery+Tickets+in+Vision+Models+via+Data-driven+Spectral+Foresight+Pruning%22",
+  "fetched_at": "2026-11-07T18:47:52Z",
+  "http_status": 200,
+  "content_sha256": "fe7d81c41f177bccc2d7d8ac489b43623d58d867d52cf2b9627ff6108d992b5c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/fe7d81c41f177bccc2d7d8ac489b43623d58d867d52cf2b9627ff6108d992b5c.json.gz"
+}

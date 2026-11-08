@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+High-fidelity+Artistic+Image+Vectorization+via+Texture-Encapsulated+Shape+Parameterization%22",
+  "fetched_at": "2026-11-07T18:56:52Z",
+  "http_status": 200,
+  "content_sha256": "07922973d1678bae3f8144766916dd013ecaa89773f7cc8c2c5f050b57179241",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/07922973d1678bae3f8144766916dd013ecaa89773f7cc8c2c5f050b57179241.json.gz"
+}

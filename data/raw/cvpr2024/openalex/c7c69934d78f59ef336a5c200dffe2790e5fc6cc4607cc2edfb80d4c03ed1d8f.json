@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Joint2Human%3A+High-Quality+3D+Human+Generation+via+Compact+Spherical+Embedding+of+3D+Joints%22",
+  "fetched_at": "2026-11-07T18:47:31Z",
+  "http_status": 200,
+  "content_sha256": "381171ea306e334ed3010a701ad18d5518c289183f051712069e9d864577d20d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/381171ea306e334ed3010a701ad18d5518c289183f051712069e9d864577d20d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FADES%3A+Fair+Disentanglement+with+Sensitive+Relevance%22",
+  "fetched_at": "2026-11-07T18:53:50Z",
+  "http_status": 200,
+  "content_sha256": "a544cac00add743ddb2543e16473bc2c68054a6dc5f2b3e3bea79b292efcef6d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a544cac00add743ddb2543e16473bc2c68054a6dc5f2b3e3bea79b292efcef6d.json.gz"
+}

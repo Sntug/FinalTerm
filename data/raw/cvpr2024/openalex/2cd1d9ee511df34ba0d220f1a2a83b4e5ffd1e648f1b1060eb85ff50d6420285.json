@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prompt+Highlighter%3A+Interactive+Control+for+Multi-Modal+LLMs%22",
+  "fetched_at": "2026-11-07T18:57:25Z",
+  "http_status": 200,
+  "content_sha256": "26fd1ee65eb451488c8e37da20c55d3bfca8a05cbba6a9ba3451e6cc12cb9af6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/26fd1ee65eb451488c8e37da20c55d3bfca8a05cbba6a9ba3451e6cc12cb9af6.json.gz"
+}

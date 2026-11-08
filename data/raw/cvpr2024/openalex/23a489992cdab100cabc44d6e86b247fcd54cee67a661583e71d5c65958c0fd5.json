@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bezier+Everywhere+All+at+Once%3A+Learning+Drivable+Lanes+as+Bezier+Graphs%22",
+  "fetched_at": "2026-11-07T18:50:41Z",
+  "http_status": 200,
+  "content_sha256": "543ef97e080b926074721acba853e227773865cc67b20532222a8b7d1535cee4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/543ef97e080b926074721acba853e227773865cc67b20532222a8b7d1535cee4.json.gz"
+}

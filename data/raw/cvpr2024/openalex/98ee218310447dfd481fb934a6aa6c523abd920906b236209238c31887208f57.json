@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TEA%3A+Test-time+Energy+Adaptation%22",
+  "fetched_at": "2026-11-07T18:50:33Z",
+  "http_status": 200,
+  "content_sha256": "490b5e58138635cb67045482511132eaa7e7a16d77693de382f2e56f8d8b4f0a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/490b5e58138635cb67045482511132eaa7e7a16d77693de382f2e56f8d8b4f0a.json.gz"
+}

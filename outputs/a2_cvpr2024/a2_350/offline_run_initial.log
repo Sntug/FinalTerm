@@ -1,0 +1,25 @@
+CVF valid 25/350; requests 0
+CVF valid 50/350; requests 0
+CVF valid 75/350; requests 0
+CVF valid 100/350; requests 0
+CVF valid 125/350; requests 0
+CVF valid 150/350; requests 0
+CVF valid 175/350; requests 0
+CVF valid 200/350; requests 0
+CVF valid 225/350; requests 0
+CVF valid 250/350; requests 0
+CVF valid 275/350; requests 0
+{
+  "collection_complete": false,
+  "papers": 0,
+  "target_papers": 350,
+  "source_errors": [
+    {
+      "source": "CVF",
+      "reason": "[WinError 5] Access is denied: 'D:\\\\UET_Projects\\\\PTMXH\\\\FinalTerm\\\\data\\\\raw\\\\cvpr2024\\\\checkpoints\\\\.a2-4xlidy45' -> 'D:\\\\UET_Projects\\\\PTMXH\\\\FinalTerm\\\\data\\\\raw\\\\cvpr2024\\\\checkpoints\\\\a2_350.json'",
+      "retry_at": null
+    }
+  ],
+  "graph_ready": false,
+  "manifest": null
+}

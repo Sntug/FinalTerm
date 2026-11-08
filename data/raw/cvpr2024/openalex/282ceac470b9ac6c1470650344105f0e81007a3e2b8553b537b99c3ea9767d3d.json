@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=DiffForensics%3A+Leveraging+Diffusion+Prior+to+Image+Forgery+Detection+and+Localization",
+  "fetched_at": "2026-11-07T17:09:46Z",
+  "http_status": 200,
+  "content_sha256": "7372ccc55cab0ee574662d96c3a7f1467ae1e6d5fae0a1bd5d08b51d25b5f35e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7372ccc55cab0ee574662d96c3a7f1467ae1e6d5fae0a1bd5d08b51d25b5f35e.json.gz"
+}

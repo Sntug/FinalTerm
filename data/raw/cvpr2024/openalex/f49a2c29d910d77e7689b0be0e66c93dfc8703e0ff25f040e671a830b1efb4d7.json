@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Drag+Your+Noise%3A+Interactive+Point-based+Editing+via+Diffusion+Semantic+Propagation",
+  "fetched_at": "2026-11-07T17:09:52Z",
+  "http_status": 200,
+  "content_sha256": "827955c6aed70c333b091b1d7d6ee089b1a8ed76b9d3190c1157ea986dfa6ff1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/827955c6aed70c333b091b1d7d6ee089b1a8ed76b9d3190c1157ea986dfa6ff1.json.gz"
+}

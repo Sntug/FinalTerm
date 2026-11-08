@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Kernel+Adaptive+Convolution+for+Scene+Text+Detection+via+Distance+Map+Prediction",
+  "fetched_at": "2026-11-07T17:10:09Z",
+  "http_status": 200,
+  "content_sha256": "a8b0bd9022bf978a20a3380123de19fba8dd7ac0e583b4f8d7d2c4866a20417e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a8b0bd9022bf978a20a3380123de19fba8dd7ac0e583b4f8d7d2c4866a20417e.json.gz"
+}

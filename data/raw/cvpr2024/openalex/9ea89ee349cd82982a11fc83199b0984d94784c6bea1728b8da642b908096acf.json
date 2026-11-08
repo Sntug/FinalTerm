@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GPLD3D%3A+Latent+Diffusion+of+3D+Shape+Generative+Models+by+Enforcing+Geometric+and+Physical+Priors%22",
+  "fetched_at": "2026-11-07T18:53:23Z",
+  "http_status": 200,
+  "content_sha256": "d481ae4f4303773f7554c3ac936d21e9f6cd6c03968925b5907bd49ceaff400b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d481ae4f4303773f7554c3ac936d21e9f6cd6c03968925b5907bd49ceaff400b.json.gz"
+}

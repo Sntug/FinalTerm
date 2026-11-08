@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GART%3A+Gaussian+Articulated+Template+Models%22",
+  "fetched_at": "2026-11-07T17:12:59Z",
+  "http_status": 200,
+  "content_sha256": "de0f8ca6b85d1f37363c8426d7b35fe05e23bf1e928d8f84950d09c8d694ecd1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/de0f8ca6b85d1f37363c8426d7b35fe05e23bf1e928d8f84950d09c8d694ecd1.json.gz"
+}

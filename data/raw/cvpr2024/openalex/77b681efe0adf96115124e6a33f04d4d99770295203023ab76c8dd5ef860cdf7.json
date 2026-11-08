@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adversarial+Score+Distillation%3A+When+score+distillation+meets+GAN%22",
+  "fetched_at": "2026-11-07T17:12:47Z",
+  "http_status": 200,
+  "content_sha256": "372f6d33143c9b11a5ade2be789207b8ec6d8e9aac7eb105438e57b878b5c735",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/372f6d33143c9b11a5ade2be789207b8ec6d8e9aac7eb105438e57b878b5c735.json.gz"
+}

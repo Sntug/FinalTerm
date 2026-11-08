@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Task-Adaptive_Saliency_Guidance_for_Exemplar-free_Class_Incremental_Learning_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:01Z",
+  "http_status": 200,
+  "content_sha256": "354cbf2dba29672416b19de910feb9dabd1106aa313665c50cc2c77d8f16fa6a",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"18b3-61a8f4d1ad84d\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/354cbf2dba29672416b19de910feb9dabd1106aa313665c50cc2c77d8f16fa6a.html.gz"
+}

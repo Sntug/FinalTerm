@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Out-of-Distribution+Generalization+in+Graphs+via+Hierarchical+Semantic+Environments%22",
+  "fetched_at": "2026-11-07T18:53:05Z",
+  "http_status": 200,
+  "content_sha256": "092fc175afe0fe31775c2b16b7bde86ee490bd1f9fd6205155960f5d22309550",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/092fc175afe0fe31775c2b16b7bde86ee490bd1f9fd6205155960f5d22309550.json.gz"
+}

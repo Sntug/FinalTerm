@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Person+in+Place%3A+Generating+Associative+Skeleton-Guidance+Maps+for+Human-Object+Interaction+Image+Editing%22",
+  "fetched_at": "2026-11-07T18:55:14Z",
+  "http_status": 200,
+  "content_sha256": "da0788b2aa7368bc2427c863f9fa68264bac90da958ad735ddd8b10fe1f1965a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/da0788b2aa7368bc2427c863f9fa68264bac90da958ad735ddd8b10fe1f1965a.json.gz"
+}

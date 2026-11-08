@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AETTA%3A+Label-Free+Accuracy+Estimation+for+Test-Time+Adaptation%22",
+  "fetched_at": "2026-11-07T18:47:54Z",
+  "http_status": 200,
+  "content_sha256": "3ef8feb25a5b7ab2566db3e5abfe520e3c848ae999a9b2086caac1f20532b272",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/3ef8feb25a5b7ab2566db3e5abfe520e3c848ae999a9b2086caac1f20532b272.json.gz"
+}

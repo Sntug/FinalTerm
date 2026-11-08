@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ChatPose%3A+Chatting+about+3D+Human+Pose%22",
+  "fetched_at": "2026-11-07T18:54:12Z",
+  "http_status": 200,
+  "content_sha256": "110831f050ebc1122db6b63d21a19a85ffe3889c7f86e9866b01692b479f52f3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/110831f050ebc1122db6b63d21a19a85ffe3889c7f86e9866b01692b479f52f3.json.gz"
+}

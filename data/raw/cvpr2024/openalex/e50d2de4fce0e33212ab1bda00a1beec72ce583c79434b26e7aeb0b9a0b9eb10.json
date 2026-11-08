@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SED%3A+A+Simple+Encoder-Decoder+for+Open-Vocabulary+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-07T18:53:55Z",
+  "http_status": 200,
+  "content_sha256": "562bb54c318883131efacb133946fc17083f75231a3d85608f21b2c68b9634a2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/562bb54c318883131efacb133946fc17083f75231a3d85608f21b2c68b9634a2.json.gz"
+}

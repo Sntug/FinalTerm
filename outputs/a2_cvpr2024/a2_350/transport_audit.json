@@ -1,0 +1,14 @@
+{
+  "openalex_request_attempts": 657,
+  "successful_new_openalex_responses": 623,
+  "extra_attempts": 34,
+  "persisted_gates": [
+    {
+      "path": "data/raw/cvpr2024/openalex/rate_limit.json",
+      "retry_at": 1794077862.5199835,
+      "http_status": 429
+    }
+  ],
+  "unresolved_source_errors": [],
+  "note": "Extra attempts are retries; transport did not record each intermediate status. Final run completed; any persisted retry gate must still be honored for future cache misses."
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Coherence+As+Texture+-+Passive+Textureless+3D+Reconstruction+by+Self-interference%22",
+  "fetched_at": "2026-11-07T18:55:07Z",
+  "http_status": 200,
+  "content_sha256": "2d04d2c849f7609082b41f39e52c6aea699069cca7a372843d2e7ac7c13d8adf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2d04d2c849f7609082b41f39e52c6aea699069cca7a372843d2e7ac7c13d8adf.json.gz"
+}

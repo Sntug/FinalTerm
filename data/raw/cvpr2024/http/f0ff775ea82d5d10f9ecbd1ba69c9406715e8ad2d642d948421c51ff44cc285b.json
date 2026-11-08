@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Ma_MaskINT_Video_Editing_via_Interpolative_Non-autoregressive_Masked_Transformers_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:45:07Z",
+  "http_status": 200,
+  "content_sha256": "f3d97955bf49e683a33810dfd7673c913f595a898fe878c7258c88293547dfd6",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"19f5-61a8f4d0461f5\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:35 GMT",
+  "raw_path": "data/raw/cvpr2024/http/f3d97955bf49e683a33810dfd7673c913f595a898fe878c7258c88293547dfd6.html.gz"
+}

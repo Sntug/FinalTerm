@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Lodge%3A+A+Coarse+to+Fine+Diffusion+Network+for+Long+Dance+Generation+Guided+by+the+Characteristic+Dance+Primitives%22",
+  "fetched_at": "2026-11-07T18:48:34Z",
+  "http_status": 200,
+  "content_sha256": "70375ac0f565c5610d1d5f8dfeedbf7f290025f38d6a60077cb6f6bb07c503cd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/70375ac0f565c5610d1d5f8dfeedbf7f290025f38d6a60077cb6f6bb07c503cd.json.gz"
+}

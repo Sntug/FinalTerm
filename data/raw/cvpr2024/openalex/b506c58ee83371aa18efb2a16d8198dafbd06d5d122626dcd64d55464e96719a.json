@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22APISR%3A+Anime+Production+Inspired+Real-World+Anime+Super-Resolution%22",
+  "fetched_at": "2026-11-07T18:55:40Z",
+  "http_status": 200,
+  "content_sha256": "72f4bcbb598ed5babe4d4efe8dc3b4ab66faf5c899d4e05c1d58713b7b896f41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/72f4bcbb598ed5babe4d4efe8dc3b4ab66faf5c899d4e05c1d58713b7b896f41.json.gz"
+}

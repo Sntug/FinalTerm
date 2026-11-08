@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RepKPU%3A+Point+Cloud+Upsampling+with+Kernel+Point+Representation+and+Deformation%22",
+  "fetched_at": "2026-11-07T18:49:02Z",
+  "http_status": 200,
+  "content_sha256": "48bac7ed93442dd05ee930dd35fe0646186338c1016c2f0f527f75f8e46ef0cc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/48bac7ed93442dd05ee930dd35fe0646186338c1016c2f0f527f75f8e46ef0cc.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Leveraging+Predicate+and+Triplet+Learning+for+Scene+Graph+Generation%22",
+  "fetched_at": "2026-11-07T18:52:36Z",
+  "http_status": 200,
+  "content_sha256": "a2f31cb590fb3ff598e34580a6c5326bccb96b9b3897ef505b1728c35ae1281a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a2f31cb590fb3ff598e34580a6c5326bccb96b9b3897ef505b1728c35ae1281a.json.gz"
+}

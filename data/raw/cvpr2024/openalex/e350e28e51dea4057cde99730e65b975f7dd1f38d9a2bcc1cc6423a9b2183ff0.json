@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TurboSL%3A+Dense+Accurate+and+Fast+3D+by+Neural+Inverse+Structured+Light%22",
+  "fetched_at": "2026-11-07T18:53:21Z",
+  "http_status": 200,
+  "content_sha256": "dfa426730dfd96a057add9f4c3dcb4a35c8315df2417fb189bbfcd2d1784bb37",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/dfa426730dfd96a057add9f4c3dcb4a35c8315df2417fb189bbfcd2d1784bb37.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DUSt3R%3A+Geometric+3D+Vision+Made+Easy%22",
+  "fetched_at": "2026-11-07T18:53:46Z",
+  "http_status": 200,
+  "content_sha256": "bdc665cb00b46ac2f09fd5b85a502a2bcac6508c0c1e6fe0fe9e5790b778dcf2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/bdc665cb00b46ac2f09fd5b85a502a2bcac6508c0c1e6fe0fe9e5790b778dcf2.json.gz"
+}

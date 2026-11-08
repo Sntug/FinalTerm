@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_SPU-PMD_Self-Supervised_Point_Cloud_Upsampling_via_Progressive_Mesh_Deformation_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-05T11:19:16Z",
+  "http_status": 200,
+  "content_sha256": "a616fb0d5254c4647356ae8d62739ae5847575002ddf85f6122696c840f9e664",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1919-61a8f4cfbf593\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:34 GMT",
+  "raw_path": "data/raw/cvpr2024/http/a616fb0d5254c4647356ae8d62739ae5847575002ddf85f6122696c840f9e664.html.gz"
+}

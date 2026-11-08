@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+a+Perceptual+Evaluation+Framework+for+Lighting+Estimation%22",
+  "fetched_at": "2026-11-07T18:54:34Z",
+  "http_status": 200,
+  "content_sha256": "5a9b183fe382e8691d174c45c2cd4cfc3468f000144ea73e169bc46780791569",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/5a9b183fe382e8691d174c45c2cd4cfc3468f000144ea73e169bc46780791569.json.gz"
+}

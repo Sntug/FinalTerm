@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MaskINT%3A+Video+Editing+via+Interpolative+Non-autoregressive+Masked+Transformers%22",
+  "fetched_at": "2026-11-07T18:54:14Z",
+  "http_status": 200,
+  "content_sha256": "125bbf179648112dad1ebf3701917182d4f34791bf7ef038a4ab0027ca9d1193",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/125bbf179648112dad1ebf3701917182d4f34791bf7ef038a4ab0027ca9d1193.json.gz"
+}

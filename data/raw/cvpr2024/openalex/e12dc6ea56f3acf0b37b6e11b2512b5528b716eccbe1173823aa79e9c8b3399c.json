@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniMotionGPT%3A+Animal+Motion+Generation+with+Limited+Data%22",
+  "fetched_at": "2026-11-07T18:48:02Z",
+  "http_status": 200,
+  "content_sha256": "41d9ee5730173b65fc19daa3f8fbe1b78b2855cc70f6b7e11782f6d46db2dc96",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/41d9ee5730173b65fc19daa3f8fbe1b78b2855cc70f6b7e11782f6d46db2dc96.json.gz"
+}

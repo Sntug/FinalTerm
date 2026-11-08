@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Normalizing+Flows+on+the+Product+Space+of+SO%283%29+Manifolds+for+Probabilistic+Human+Pose+Modeling%22",
+  "fetched_at": "2026-11-07T18:52:44Z",
+  "http_status": 200,
+  "content_sha256": "d7e0ade747925bf1e83122600edf19f12ac44e7160901df5069bf891ea66dbe8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d7e0ade747925bf1e83122600edf19f12ac44e7160901df5069bf891ea66dbe8.json.gz"
+}

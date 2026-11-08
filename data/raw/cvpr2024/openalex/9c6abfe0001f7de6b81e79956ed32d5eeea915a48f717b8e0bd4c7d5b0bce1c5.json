@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Language-driven+Grasp+Detection%22",
+  "fetched_at": "2026-11-07T18:50:17Z",
+  "http_status": 200,
+  "content_sha256": "d48fe12bd48033a1ca4bc3286d1dfeef082e01960f717d90adaeca44349cc2c8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d48fe12bd48033a1ca4bc3286d1dfeef082e01960f717d90adaeca44349cc2c8.json.gz"
+}

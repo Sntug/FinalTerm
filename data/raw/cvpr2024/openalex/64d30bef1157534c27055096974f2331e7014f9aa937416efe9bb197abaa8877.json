@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LoCoNet%3A+Long-Short+Context+Network+for+Active+Speaker+Detection%22",
+  "fetched_at": "2026-11-07T18:51:36Z",
+  "http_status": 200,
+  "content_sha256": "2c8daea03d4eeb455cb8bab72b54da1a64e1524735c1232a07988fe0f015804a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2c8daea03d4eeb455cb8bab72b54da1a64e1524735c1232a07988fe0f015804a.json.gz"
+}

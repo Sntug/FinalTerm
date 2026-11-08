@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CFAT%3A+Unleashing+Triangular+Windows+for+Image+Super-resolution%22",
+  "fetched_at": "2026-11-07T18:53:33Z",
+  "http_status": 200,
+  "content_sha256": "4f6f792794979b79171f932c85169615cde1f75b586a9299b64fea1fee15ec35",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4f6f792794979b79171f932c85169615cde1f75b586a9299b64fea1fee15ec35.json.gz"
+}

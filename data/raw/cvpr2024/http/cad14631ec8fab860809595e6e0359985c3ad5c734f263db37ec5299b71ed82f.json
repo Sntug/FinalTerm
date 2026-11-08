@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_You_Only_Need_Less_Attention_at_Each_Stage_in_Vision_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:42:32Z",
+  "http_status": 200,
+  "content_sha256": "25b0c865aff01456fa895779190c391dbc4dc88ad80701b90cfaf3d33f1b4e7b",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"185a-61a8f4d15a819\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/25b0c865aff01456fa895779190c391dbc4dc88ad80701b90cfaf3d33f1b4e7b.html.gz"
+}

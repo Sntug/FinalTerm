@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CPR-Coach%3A+Recognizing+Composite+Error+Actions+based+on+Single-class+Training%22",
+  "fetched_at": "2026-11-07T18:50:37Z",
+  "http_status": 200,
+  "content_sha256": "606a7b5fa772721296de87773d13d03ecd6abc93172b7f37acba9d1cab4fe57d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/606a7b5fa772721296de87773d13d03ecd6abc93172b7f37acba9d1cab4fe57d.json.gz"
+}

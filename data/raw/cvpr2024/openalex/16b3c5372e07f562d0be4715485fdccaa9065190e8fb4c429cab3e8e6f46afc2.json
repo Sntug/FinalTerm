@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CDMAD%3A+Class-Distribution-Mismatch-Aware+Debiasing+for+Class-Imbalanced+Semi-Supervised+Learning%22",
+  "fetched_at": "2026-11-07T18:53:59Z",
+  "http_status": 200,
+  "content_sha256": "fa20f104b18b60e68d56b1935be43dbf826e4a90afb96fd998e8ad759d2279de",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/fa20f104b18b60e68d56b1935be43dbf826e4a90afb96fd998e8ad759d2279de.json.gz"
+}

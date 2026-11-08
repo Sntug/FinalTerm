@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unveiling+the+Unknown%3A+Unleashing+the+Power+of+Unknown+to+Known+in+Open-Set+Source-Free+Domain+Adaptation%22",
+  "fetched_at": "2026-11-07T18:52:17Z",
+  "http_status": 200,
+  "content_sha256": "129c8285b67650ce8205d306713570946f877d96f87638164efa3a61c040deb3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/129c8285b67650ce8205d306713570946f877d96f87638164efa3a61c040deb3.json.gz"
+}

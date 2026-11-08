@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ViT-CoMer%3A+Vision+Transformer+with+Convolutional+Multi-scale+Feature+Interaction+for+Dense+Predictions%22",
+  "fetched_at": "2026-11-07T18:52:47Z",
+  "http_status": 200,
+  "content_sha256": "57bbb77064350c5531837208916a46a22ccccbea4240ff6f7842474bee255242",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/57bbb77064350c5531837208916a46a22ccccbea4240ff6f7842474bee255242.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22YolOOD%3A+Utilizing+Object+Detection+Concepts+for+Multi-Label+Out-of-Distribution+Detection%22",
+  "fetched_at": "2026-11-07T18:51:18Z",
+  "http_status": 200,
+  "content_sha256": "8ac12c40fb73504809cf6333664fc02b132af479d4625aac0125fae13aacd34c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/8ac12c40fb73504809cf6333664fc02b132af479d4625aac0125fae13aacd34c.json.gz"
+}

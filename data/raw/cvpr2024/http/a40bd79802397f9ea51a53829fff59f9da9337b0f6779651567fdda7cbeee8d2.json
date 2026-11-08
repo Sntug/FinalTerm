@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Foo_Action_Detection_via_an_Image_Diffusion_Process_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:34Z",
+  "http_status": 200,
+  "content_sha256": "2e9a1d2c3908d3ef4aa298fccf15b61cacaafba02902d84e542219100e4f5233",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1661-61a8f4d261379\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:37 GMT",
+  "raw_path": "data/raw/cvpr2024/http/2e9a1d2c3908d3ef4aa298fccf15b61cacaafba02902d84e542219100e4f5233.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Ma_COTR_Compact_Occupancy_TRansformer_for_Vision-based_3D_Occupancy_Prediction_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:42:28Z",
+  "http_status": 200,
+  "content_sha256": "e1d495077df54fe2bfc4a81772bc714ecba3781221cfa0d174d0a50a7a4624c2",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"18ff-61a8f4d1b8430\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/e1d495077df54fe2bfc4a81772bc714ecba3781221cfa0d174d0a50a7a4624c2.html.gz"
+}

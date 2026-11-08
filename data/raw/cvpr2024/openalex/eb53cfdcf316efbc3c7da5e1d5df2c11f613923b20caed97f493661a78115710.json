@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Collaborative+Semantic+Occupancy+Prediction+with+Hybrid+Feature+Fusion+in+Connected+Automated+Vehicles%22",
+  "fetched_at": "2026-11-07T18:57:09Z",
+  "http_status": 200,
+  "content_sha256": "89af5c1c60e8117dbfde5e7548a30797c52d252d07e9d9a4e3953a080e67806e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/89af5c1c60e8117dbfde5e7548a30797c52d252d07e9d9a4e3953a080e67806e.json.gz"
+}

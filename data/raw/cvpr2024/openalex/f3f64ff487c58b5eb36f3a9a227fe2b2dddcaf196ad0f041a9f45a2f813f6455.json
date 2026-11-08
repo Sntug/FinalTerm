@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neural+Modes%3A+Self-supervised+Learning+of+Nonlinear+Modal+Subspaces%22",
+  "fetched_at": "2026-11-07T18:52:29Z",
+  "http_status": 200,
+  "content_sha256": "586edbefef0c197561edf524a021ca75343e0515977202fa7812952549080353",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/586edbefef0c197561edf524a021ca75343e0515977202fa7812952549080353.json.gz"
+}

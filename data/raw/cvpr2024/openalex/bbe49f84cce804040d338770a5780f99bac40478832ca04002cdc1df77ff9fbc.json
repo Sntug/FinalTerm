@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22POCE%3A+Primal+Policy+Optimization+with+Conservative+Estimation+for+Multi-constraint+Offline+Reinforcement+Learning%22",
+  "fetched_at": "2026-11-07T18:52:33Z",
+  "http_status": 200,
+  "content_sha256": "d11125981bc98a050c10f9c28ee76363f4f857819164674be7764cf9d84693c0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d11125981bc98a050c10f9c28ee76363f4f857819164674be7764cf9d84693c0.json.gz"
+}

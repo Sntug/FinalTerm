@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Spanning+Training+Progress%3A+Temporal+Dual-Depth+Scoring+%28TDDS%29+for+Enhanced+Dataset+Pruning%22",
+  "fetched_at": "2026-11-07T18:54:05Z",
+  "http_status": 200,
+  "content_sha256": "1919ae63b6f3556eb5748623927dc364a7e57f83e0505f52bcbe88d809e7b6f7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/1919ae63b6f3556eb5748623927dc364a7e57f83e0505f52bcbe88d809e7b6f7.json.gz"
+}

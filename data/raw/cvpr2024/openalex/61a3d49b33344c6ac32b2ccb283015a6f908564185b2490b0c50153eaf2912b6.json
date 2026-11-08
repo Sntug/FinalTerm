@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Relightable+and+Animatable+Neural+Avatar+from+Sparse-View+Video",
+  "fetched_at": "2026-11-07T17:10:24Z",
+  "http_status": 200,
+  "content_sha256": "153dde85b47b9d4bce9d30a9f24c3c58f72bbb89d202641e8080094f84551f3f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/153dde85b47b9d4bce9d30a9f24c3c58f72bbb89d202641e8080094f84551f3f.json.gz"
+}

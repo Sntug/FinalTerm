@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DIMAT%3A+Decentralized+Iterative+Merging-And-Training+for+Deep+Learning+Models%22",
+  "fetched_at": "2026-11-07T18:55:46Z",
+  "http_status": 200,
+  "content_sha256": "696fcae6115715e7f5e9ac06ef71ce306e1d287ffbfa29ea3d0ba422dcf60324",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/696fcae6115715e7f5e9ac06ef71ce306e1d287ffbfa29ea3d0ba422dcf60324.json.gz"
+}

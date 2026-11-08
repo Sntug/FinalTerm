@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DemoCaricature%3A+Democratising+Caricature+Generation+with+a+Rough+Sketch%22",
+  "fetched_at": "2026-11-07T18:52:25Z",
+  "http_status": 200,
+  "content_sha256": "419b2b6d5bcc62fcbf140177bb84cf433a56395651f65484cecb725a436ec5c7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/419b2b6d5bcc62fcbf140177bb84cf433a56395651f65484cecb725a436ec5c7.json.gz"
+}

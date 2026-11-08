@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_Video_Super-Resolution_Transformer_with_Masked_InterIntra-Frame_Attention_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:17Z",
+  "http_status": 200,
+  "content_sha256": "359a492c80ee2fd578ad7968463bebeffc938667ee14ffb5a0e653821c11779b",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"19f6-61a8f4cfd0ed8\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:34 GMT",
+  "raw_path": "data/raw/cvpr2024/http/359a492c80ee2fd578ad7968463bebeffc938667ee14ffb5a0e653821c11779b.html.gz"
+}

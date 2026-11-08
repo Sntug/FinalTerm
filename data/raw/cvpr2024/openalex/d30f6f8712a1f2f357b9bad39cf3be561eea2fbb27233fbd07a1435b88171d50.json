@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FakeInversion%3A+Learning+to+Detect+Images+from+Unseen+Text-to-Image+Models+by+Inverting+Stable+Diffusion%22",
+  "fetched_at": "2026-11-07T18:48:00Z",
+  "http_status": 200,
+  "content_sha256": "10575642702d960afff616a10263777a1f9f9b5b135714a007edc16c8e4f78a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/10575642702d960afff616a10263777a1f9f9b5b135714a007edc16c8e4f78a4.json.gz"
+}

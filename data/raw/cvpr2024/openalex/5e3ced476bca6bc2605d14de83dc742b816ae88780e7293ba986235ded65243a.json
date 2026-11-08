@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OMG%3A+Towards+Open-vocabulary+Motion+Generation+via+Mixture+of+Controllers%22",
+  "fetched_at": "2026-11-07T18:49:12Z",
+  "http_status": 200,
+  "content_sha256": "38b2494e4bf13839639b472245ca79306f581841e93a836a6bfa4cc7370aedc8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/38b2494e4bf13839639b472245ca79306f581841e93a836a6bfa4cc7370aedc8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EVS-assisted+Joint+Deblurring+Rolling-Shutter+Correction+and+Video+Frame+Interpolation+through+Sensor+Inverse+Modeling%22",
+  "fetched_at": "2026-11-07T18:48:37Z",
+  "http_status": 200,
+  "content_sha256": "d71ac6af1283299673918e3f06bacf9e84dc98f594b75c2a2bdd8f03cf32a645",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d71ac6af1283299673918e3f06bacf9e84dc98f594b75c2a2bdd8f03cf32a645.json.gz"
+}

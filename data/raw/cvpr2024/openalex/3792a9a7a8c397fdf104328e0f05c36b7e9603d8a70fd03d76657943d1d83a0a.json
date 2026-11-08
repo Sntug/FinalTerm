@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EgoGen%3A+An+Egocentric+Synthetic+Data+Generator%22",
+  "fetched_at": "2026-11-07T18:54:26Z",
+  "http_status": 200,
+  "content_sha256": "bfd0fa12fac9a0979dbe72c7715a2e8f8ba776b3c39b190ea3dfd7fd5e356b0f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/bfd0fa12fac9a0979dbe72c7715a2e8f8ba776b3c39b190ea3dfd7fd5e356b0f.json.gz"
+}

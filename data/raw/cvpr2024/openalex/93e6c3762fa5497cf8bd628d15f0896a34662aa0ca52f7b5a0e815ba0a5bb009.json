@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FaceCom%3A+Towards+High-fidelity+3D+Facial+Shape+Completion+via+Optimization+and+Inpainting+Guidance%22",
+  "fetched_at": "2026-11-07T18:51:28Z",
+  "http_status": 200,
+  "content_sha256": "26e5597e75c5785fd8a924f6443105dc94450846ca5f19eb30118777cb4a16d5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/26e5597e75c5785fd8a924f6443105dc94450846ca5f19eb30118777cb4a16d5.json.gz"
+}

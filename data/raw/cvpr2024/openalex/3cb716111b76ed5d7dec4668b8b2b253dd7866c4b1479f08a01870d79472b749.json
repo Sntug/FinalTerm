@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Self-correcting+LLM-controlled+Diffusion+Models",
+  "fetched_at": "2026-11-07T17:10:22Z",
+  "http_status": 200,
+  "content_sha256": "b8da8b5120f33ea101cc600d6d14658b50d8122a1b1127cc8656ff80772be766",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b8da8b5120f33ea101cc600d6d14658b50d8122a1b1127cc8656ff80772be766.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Accurate+Training+Data+for+Occupancy+Map+Prediction+in+Automated+Driving+Using+Evidence+Theory%22",
+  "fetched_at": "2026-11-07T18:53:07Z",
+  "http_status": 200,
+  "content_sha256": "17420954eb5c6e8165434a7b2f8c4fc427247ddeaa12eaeccd2c34ea9f6d0f7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/17420954eb5c6e8165434a7b2f8c4fc427247ddeaa12eaeccd2c34ea9f6d0f7f.json.gz"
+}

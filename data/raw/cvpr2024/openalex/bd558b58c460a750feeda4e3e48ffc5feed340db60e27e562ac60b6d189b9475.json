@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+to+Rank+Patches+for+Unbiased+Image+Redundancy+Reduction%22",
+  "fetched_at": "2026-11-07T18:46:51Z",
+  "http_status": 200,
+  "content_sha256": "0e1bb9c9bd903b7834338b636d161b6f4fa855bf32e89f6457495b3d2dd3eba2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0e1bb9c9bd903b7834338b636d161b6f4fa855bf32e89f6457495b3d2dd3eba2.json.gz"
+}

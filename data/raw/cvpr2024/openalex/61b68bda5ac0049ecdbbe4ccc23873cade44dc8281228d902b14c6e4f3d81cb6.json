@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VOODOO+3D%3A+Volumetric+Portrait+Disentanglement+For+One-Shot+3D+Head+Reenactment%22",
+  "fetched_at": "2026-11-07T18:47:03Z",
+  "http_status": 200,
+  "content_sha256": "a8f19bbf95f60f284d81b2a54b71b50a76438cf09b10bc7331d5bb2e4f5638df",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a8f19bbf95f60f284d81b2a54b71b50a76438cf09b10bc7331d5bb2e4f5638df.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Choose+What+You+Need%3A+Disentangled+Representation+Learning+for+Scene+Text+Recognition+Removal+and+Editing%22",
+  "fetched_at": "2026-11-07T18:48:30Z",
+  "http_status": 200,
+  "content_sha256": "b3438574d83e59cf3c87186c5b9c6b32d456a2f4487c2b7b73778580b5425581",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b3438574d83e59cf3c87186c5b9c6b32d456a2f4487c2b7b73778580b5425581.json.gz"
+}

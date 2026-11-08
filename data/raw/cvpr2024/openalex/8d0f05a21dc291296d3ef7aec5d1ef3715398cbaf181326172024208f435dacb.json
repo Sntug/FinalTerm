@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Intriguing+Properties+of+Diffusion+Models%3A+An+Empirical+Study+of+the+Natural+Attack+Capability+in+Text-to-Image+Generative+Models%22",
+  "fetched_at": "2026-11-07T18:53:40Z",
+  "http_status": 200,
+  "content_sha256": "99b2713a2ba023f77c21f8d6ed911faedff4e771a432c419fb1ebfacc12e7dfb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/99b2713a2ba023f77c21f8d6ed911faedff4e771a432c419fb1ebfacc12e7dfb.json.gz"
+}

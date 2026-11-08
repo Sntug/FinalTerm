@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LeGO%3A+Leveraging+a+Surface+Deformation+Network+for+Animatable+Stylized+Face+Generation+with+One+Example%22",
+  "fetched_at": "2026-11-07T18:50:27Z",
+  "http_status": 200,
+  "content_sha256": "70b09cd367a02ba0c53475938e007652403039c58b81408337f55997ce1f0192",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/70b09cd367a02ba0c53475938e007652403039c58b81408337f55997ce1f0192.json.gz"
+}

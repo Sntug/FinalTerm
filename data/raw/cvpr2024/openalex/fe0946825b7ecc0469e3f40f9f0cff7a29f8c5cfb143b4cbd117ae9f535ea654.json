@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Implicit+Discriminative+Knowledge+Learning+for+Visible-Infrared+Person+Re-Identification%22",
+  "fetched_at": "2026-11-07T17:12:07Z",
+  "http_status": 200,
+  "content_sha256": "90ded03359e7456796aeca932c3d6cb28d37ce4d094d72e18ec48ee6c2e02f2e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/90ded03359e7456796aeca932c3d6cb28d37ce4d094d72e18ec48ee6c2e02f2e.json.gz"
+}

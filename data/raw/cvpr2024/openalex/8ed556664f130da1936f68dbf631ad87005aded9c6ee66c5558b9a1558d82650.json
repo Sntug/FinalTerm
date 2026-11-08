@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dispersed+Structured+Light+for+Hyperspectral+3D+Imaging%22",
+  "fetched_at": "2026-11-07T18:54:20Z",
+  "http_status": 200,
+  "content_sha256": "72a50299aa98d23355ae7599518163e594db8fc7acd6720a216ca0266961c9d3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/72a50299aa98d23355ae7599518163e594db8fc7acd6720a216ca0266961c9d3.json.gz"
+}

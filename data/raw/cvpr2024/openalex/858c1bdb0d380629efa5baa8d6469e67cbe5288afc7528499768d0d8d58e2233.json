@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VP3D%3A+Unleashing+2D+Visual+Prompt+for+Text-to-3D+Generation%22",
+  "fetched_at": "2026-11-07T18:54:51Z",
+  "http_status": 200,
+  "content_sha256": "eb1af501ce87c6356a455cbd68ae0b64e641135c3086525dec3bf1e0ea66c615",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/eb1af501ce87c6356a455cbd68ae0b64e641135c3086525dec3bf1e0ea66c615.json.gz"
+}

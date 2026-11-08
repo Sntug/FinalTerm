@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bi-level+Learning+of+Task-Specific+Decoders+for+Joint+Registration+and+One-Shot+Medical+Image+Segmentation%22",
+  "fetched_at": "2026-11-07T18:50:58Z",
+  "http_status": 200,
+  "content_sha256": "f41b093c99fdc192f97303aa9a8d5e5f45c0dae98878394aed2cd0a7db2bb751",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f41b093c99fdc192f97303aa9a8d5e5f45c0dae98878394aed2cd0a7db2bb751.json.gz"
+}

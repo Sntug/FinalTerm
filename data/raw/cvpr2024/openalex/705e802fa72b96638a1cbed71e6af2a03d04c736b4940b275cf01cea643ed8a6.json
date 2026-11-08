@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DualAD%3A+Disentangling+the+Dynamic+and+Static+World+for+End-to-End+Driving%22",
+  "fetched_at": "2026-11-07T18:52:10Z",
+  "http_status": 200,
+  "content_sha256": "baa233d8a53ac318f315d6ec18f37fc29828690d03879534f273164cffe36b1c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/baa233d8a53ac318f315d6ec18f37fc29828690d03879534f273164cffe36b1c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GLACE%3A+Global+Local+Accelerated+Coordinate+Encoding%22",
+  "fetched_at": "2026-11-07T18:54:18Z",
+  "http_status": 200,
+  "content_sha256": "1aea75fb450d403e098154f99f33992947f88799a8002f6e20b4c2428f693fd9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/1aea75fb450d403e098154f99f33992947f88799a8002f6e20b4c2428f693fd9.json.gz"
+}

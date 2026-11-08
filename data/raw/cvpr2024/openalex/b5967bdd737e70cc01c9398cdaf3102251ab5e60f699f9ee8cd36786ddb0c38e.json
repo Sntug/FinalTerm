@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BioCLIP%3A+A+Vision+Foundation+Model+for+the+Tree+of+Life%22",
+  "fetched_at": "2026-11-07T18:53:37Z",
+  "http_status": 200,
+  "content_sha256": "f655dd4e14475a5bc18de4d7b28e3e6355ca7cedc2c1c92a39d6c847dcaf5cad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f655dd4e14475a5bc18de4d7b28e3e6355ca7cedc2c1c92a39d6c847dcaf5cad.json.gz"
+}

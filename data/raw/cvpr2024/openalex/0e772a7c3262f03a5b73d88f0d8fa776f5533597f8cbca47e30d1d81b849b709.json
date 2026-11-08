@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GaussianDreamer%3A+Fast+Generation+from+Text+to+3D+Gaussians+by+Bridging+2D+and+3D+Diffusion+Models%22",
+  "fetched_at": "2026-11-07T18:48:32Z",
+  "http_status": 200,
+  "content_sha256": "25147228c57fc2ffdf67e28c899cfe119f99be02f5b81179bd750848b31f853a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/25147228c57fc2ffdf67e28c899cfe119f99be02f5b81179bd750848b31f853a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generative+Multi-modal+Models+are+Good+Class+Incremental+Learners%22",
+  "fetched_at": "2026-11-07T18:48:18Z",
+  "http_status": 200,
+  "content_sha256": "b522794a83fa8ead71a9c77a95df1619db2fac166acd07a79ec286272a5af937",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b522794a83fa8ead71a9c77a95df1619db2fac166acd07a79ec286272a5af937.json.gz"
+}

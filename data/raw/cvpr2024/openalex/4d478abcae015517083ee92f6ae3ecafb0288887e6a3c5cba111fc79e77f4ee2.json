@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dual-Scale+Transformer+for+Large-Scale+Single-Pixel+Imaging%22",
+  "fetched_at": "2026-11-07T18:49:57Z",
+  "http_status": 200,
+  "content_sha256": "df0149ed0e9cf54c6dfb5df04975b1898d9e7b8503074ee25fc1456fc9186cd4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/df0149ed0e9cf54c6dfb5df04975b1898d9e7b8503074ee25fc1456fc9186cd4.json.gz"
+}

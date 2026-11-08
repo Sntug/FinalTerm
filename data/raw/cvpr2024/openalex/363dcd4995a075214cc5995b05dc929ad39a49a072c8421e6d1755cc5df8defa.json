@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UniMODE%3A+Unified+Monocular+3D+Object+Detection%22",
+  "fetched_at": "2026-11-07T18:51:46Z",
+  "http_status": 200,
+  "content_sha256": "d3c82ac43557a13843024f27d93b38bc1af7f10af1d0ea870560fcde52d60877",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d3c82ac43557a13843024f27d93b38bc1af7f10af1d0ea870560fcde52d60877.json.gz"
+}

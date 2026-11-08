@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Visual+Recognition+with+Hyperbolical+Visual+Hierarchy+Mapping%22",
+  "fetched_at": "2026-11-07T18:52:12Z",
+  "http_status": 200,
+  "content_sha256": "5909478665b6769f54366b5bdd2776d2f2b46dac96042da084cca68d6cb6620f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/5909478665b6769f54366b5bdd2776d2f2b46dac96042da084cca68d6cb6620f.json.gz"
+}
