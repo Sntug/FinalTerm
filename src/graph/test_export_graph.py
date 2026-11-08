@@ -54,11 +54,53 @@ class ExportTest(unittest.TestCase):
             self.assertEqual(json.loads(next(e for e in edges if e["type"] == "PUBLISHED_IN" and e["src"] == P1)["evidence_ids"]), ["evidence:1"])
             self.assertEqual(m, export(CFG, root)[0])  # deterministic
 
+    def test_based_in_evidence(self):  # only same-institution + same-country records on a supporting paper count
+        with tempfile.TemporaryDirectory() as t:
+            root = Path(t)
+            fixture(root)
+            for f in ("nodes.csv", "authorships.csv"):
+                x = root / "a3" / f
+                x.write_text(x.read_text(encoding="utf-8-sig").replace("institution:1", "institution:openalex:I1"), encoding="utf-8-sig")
+            rec = lambda eid, p, cc, iid="I1", fp="json:authorships[0].institutions[0]": json.dumps(dict(
+                paper_id=p, source_record_id="source:openalex:1", evidence_id=eid, field_path=fp,
+                evidence_text=json.dumps({"id": "https://openalex.org/" + iid, "country_code": cc}))) + "\n"
+            (root / "a3/evidence.jsonl").write_text(rec("ev:ok", P1, "US") + rec("ev:cc", P1, "TW") + rec("ev:id", P1, "US", "I2")
+                                                    + rec("ev:path", P1, "US", fp="json:title") + rec("ev:paper", P2, "US"), encoding="utf-8")
+            export(CFG, root)
+            edges = list(csv.DictReader((root / "out/edges.csv").open(encoding="utf-8-sig")))
+            self.assertEqual(json.loads(next(e for e in edges if e["type"] == "BASED_IN")["evidence_ids"]), ["ev:ok"])
+
     def test_dangling_endpoint_asserts(self):
         with tempfile.TemporaryDirectory() as t:
             root = Path(t)
             with self.assertRaises(AssertionError):
                 export(fixture(root, author_ok=False), root)
+
+    def collab(self, rows):
+        """rows: (paper, author, inst); evidence exists only for (P1, source:cvf:1)."""
+        with tempfile.TemporaryDirectory() as t:
+            root = Path(t)
+            fixture(root)
+            h = "authorship_id paper_id author_id author_name author_name_raw author_order identity_status affiliation_raw institution_id source_record_id owner identity_source_record_id affiliation_source_record_id affiliation_status decision_ids".split()
+            w(root / "a3/authorships.csv", h, [["au%d" % i, p, a, "n", "n", "1", "resolved", "", inst, "s", "B", "source:cvf:1", "source:cvf:1", "verified" if inst else "not_collected", "[]"]
+                                              for i, (p, a, inst) in enumerate(rows)])
+            node = lambda i, l: [i, l, i, "B", '["OpenAlex"]', '["source:openalex:1"]', "accepted", PID, "{}"]
+            w(root / "a3/nodes.csv", "id label name owner source_origin source_record_ids validation_status project_id properties_json".split(),
+              [node("author:%d" % i, "Author") for i in (1, 2, 3)] + [node("institution:%d" % i, "Institution") for i in (1, 2)])
+            export(CFG, root)
+            return [e for e in csv.DictReader((root / "out/edges.csv").open(encoding="utf-8-sig")) if e["type"].endswith(("COAUTHORED_WITH", "COLLABORATED_WITH"))]
+
+    def test_coauthored(self):  # duplicate rows must not double weight; two shared papers -> weight 2
+        es = self.collab([(P1, "author:1", ""), (P1, "author:1", ""), (P1, "author:2", ""), (P2, "author:2", ""), (P2, "author:1", "")])
+        self.assertEqual([(e["type"], e["src"], e["dst"], e["weight"], e["derivation"]) for e in es], [("COAUTHORED_WITH", "author:1", "author:2", "2", "derived")])
+        self.assertEqual(json.loads(es[0]["evidence_ids"]), ["evidence:1"])
+
+    def test_collaborated(self):
+        # one author with two institutions: no edge
+        self.assertEqual([e for e in self.collab([(P1, "author:1", "institution:1"), (P1, "author:1", "institution:2")]) if e["type"] == "COLLABORATED_WITH"], [])
+        es = [e for e in self.collab([(P1, "author:1", "institution:1"), (P1, "author:1", "institution:1"), (P1, "author:2", "institution:2"),
+                                      (P2, "author:2", "institution:2"), (P2, "author:3", "institution:1")]) if e["type"] == "COLLABORATED_WITH"]
+        self.assertEqual([(e["src"], e["dst"], e["weight"]) for e in es], [("institution:1", "institution:2", "2")])
 
 
 if __name__ == "__main__":

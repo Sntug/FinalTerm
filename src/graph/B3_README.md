@@ -20,9 +20,19 @@ Mật khẩu đọc từ `.env` (`NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`); m
 ## Quy ước
 - `BASED_IN.paper_ids` = các bài có affiliation verified dùng institution đó; `[]` nếu không có.
 - `evidence_ids` = evidence có (paper_id, source_record_id) khớp nguồn identity/affiliation của authorship, hoặc nguồn đại diện (và nguồn OpenAlex cho CITES); có thể rỗng.
+- `BASED_IN.evidence_ids` = evidence `json:authorships[*].institutions[*]` của các bài hỗ trợ có `id` OpenAlex và `country_code` khớp đúng institution/country của cạnh (không đoán; id không phải `institution:openalex:` thì để rỗng).
 
 ## Giới hạn đã biết
 - CITES chỉ giữa 700 bài core (không có node reference-scope).
 - Authorship chưa resolve / thiếu author_id không tạo Author hay cạnh; affiliation không `verified` không tạo AFFILIATED_WITH.
 - 29 bài CVPR có referenced_works rỗng/null (dự kiến 22) nên không có cạnh CITES đi ra.
 - Neo4j pilot cũ (`b_pilot.py`: 30 Paper + 1 VenueEdition, thuộc tính `pilot`, ràng buộc `b_pilot_paper_id` / `b_pilot_venue_id` trên `id`) xung đột id với graph mới; phải xóa pilot cũ trước khi nạp lần đầu (xem báo cáo).
+
+## B4 — Cạnh dẫn xuất COAUTHORED_WITH / COLLABORATED_WITH (`code_version` b4-export-1.1.0)
+- Vô hướng, lưu một lần với `src < dst` (so sánh chuỗi), không self-loop; `derivation="derived"`; `weight = len(paper_ids)` = số bài core khác nhau hỗ trợ (các loại cạnh khác giữ weight 1).
+- COAUTHORED_WITH (Author–Author): mỗi cặp tác giả khác nhau (authorship `resolved`, có `author_id`) trên cùng bài accepted.
+- COLLABORATED_WITH (Institution–Institution): cặp institution khác nhau chỉ được tính khi có hai tác giả KHÁC NHAU, mỗi người có affiliation `verified` với một institution; một tác giả có hai affiliation không tạo cạnh.
+- `evidence_ids` = hợp evidence của identity (COAUTHORED) hoặc affiliation (COLLABORATED) của các authorship hỗ trợ.
+- Kết quả: COAUTHORED_WITH 7.771 (weight tối đa 4), COLLABORATED_WITH 1.140 (tối đa 8); tổng 4.126 node, 16.659 cạnh. Đã đối chiếu độc lập với hai `authorships.csv` (khớp cặp và weight).
+- Chạy lại: cùng lệnh export + load ở trên. Truy vấn: `queries/top_coauthors.cypher`, `queries/top_collab_institutions.cypher`.
+- Neo4j pilot: snapshot B4 (16,659 cạnh + evidence) cần `server.memory.heap.max_size=1g` trong `.neo4j-pilot/conf/neo4j.conf` (512m bị MemoryPoolOutOfMemoryError vì nạp trong MỘT transaction).

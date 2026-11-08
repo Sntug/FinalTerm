@@ -12,6 +12,7 @@ from contract_v2.migrate import read_csv, read_jsonl, write_records  # noqa: E40
 from contract_v2.model import NODE_PROPERTIES  # noqa: E402
 from contract_v2.text import canonical_json, identifier, sha256  # noqa: E402
 
+DERIVED = {"COAUTHORED_WITH", "COLLABORATED_WITH"}
 CONFIG = ROOT / "config/b_graph_700.json"
 PUBLISH = ("project_id schema_version code_version normalization_version parser_versions rule_versions "
            "dictionary_versions applied_decision_ids graph_ready node_count edge_count files").split()
@@ -50,6 +51,7 @@ def build(cfg, root=ROOT):
     pid = cfg["project_id"]
     nodes, conflicts, report = {}, [], {}
     papers, registry, authorships, evidence, inputs = {}, {}, [], defaultdict(set), []
+    inst_ev = defaultdict(set)  # (paper, openalex institution url, country_code) -> evidence ids, for BASED_IN
     manifests = []
     for inp in cfg["inputs"]:
         snaps = sorted(p for p in (root / inp["snapshots_dir"]).iterdir() if p.is_dir())
@@ -61,6 +63,12 @@ def build(cfg, root=ROOT):
         authorships += read_csv(a3 / "authorships.csv")
         for e in read_jsonl(a3 / "evidence.jsonl"):
             evidence[(e["paper_id"], e["source_record_id"])].add(e["evidence_id"])
+            if ".institutions[" in e.get("field_path", ""):
+                try:
+                    o = json.loads(e["evidence_text"])
+                    inst_ev[(e["paper_id"], o["id"], o["country_code"])].add(e["evidence_id"])
+                except (ValueError, KeyError, TypeError):
+                    pass
         for r in read_csv(a3 / "nodes.csv"):
             if r["validation_status"] != "accepted":
                 continue
@@ -123,6 +131,20 @@ def build(cfg, root=ROOT):
             pair_ev[(a["author_id"], "AUTHORED", a["paper_id"])] |= evidence.get((a["paper_id"], a["identity_source_record_id"]), set())
         if a["paper_id"] in accepted and a["author_id"] and a["institution_id"] and a["affiliation_status"] == "verified":
             pair_ev[(a["author_id"], "AFFILIATED_WITH", a["institution_id"])] |= evidence.get((a["paper_id"], a["affiliation_source_record_id"]), set())
+    # B4 derived undirected edges: distinct authors on one paper (COAUTHORED_WITH) / at different institutions (COLLABORATED_WITH).
+    co, collab = defaultdict(set), defaultdict(set)
+    for a in authorships:
+        if a["paper_id"] in accepted and a["identity_status"] == "resolved" and a["author_id"]:
+            co[a["paper_id"]].add((a["author_id"], a["author_id"], a["owner"], a["identity_source_record_id"]))
+            if a["affiliation_status"] == "verified" and a["institution_id"]:
+                collab[a["paper_id"]].add((a["author_id"], a["institution_id"], a["owner"], a["affiliation_source_record_id"]))
+    for typ, per_paper in (("COAUTHORED_WITH", co), ("COLLABORATED_WITH", collab)):
+        for p, items in per_paper.items():
+            for g1, n1, o1, s1 in items:
+                for g2, n2, o2, s2 in items:
+                    if g1 != g2 and n1 < n2:  # different authors; src<dst also drops same-institution pairs and self-loops
+                        add(n1, typ, n2, owners(o1, o2), [p], [s1, s2])
+                        pair_ev[(n1, typ, n2)] |= evidence.get((p, s1), set()) | evidence.get((p, s2), set())
     by_oa = defaultdict(list)
     for i in accepted:
         if papers[i].get("openalex_id"):
@@ -147,6 +169,9 @@ def build(cfg, root=ROOT):
         cc = nodes[iid]["properties_json"].get("country_code")
         if cc:  # BASED_IN supported by the papers whose verified affiliations use this institution
             add(iid, "BASED_IN", "country:" + cc, nodes[iid]["owner"], inst_papers[iid], nodes[iid]["source_record_ids"])
+            if iid.startswith("institution:openalex:"):  # other id schemes: no evidence rather than a guess
+                url = "https://openalex.org/" + iid.rsplit(":", 1)[1]
+                pair_ev[(iid, "BASED_IN", "country:" + cc)] |= set().union(*(inst_ev.get((p, url, cc), set()) for p in inst_papers[iid]))
     for iid, n in nodes.items():  # institutions with country but no verified affiliation still need BASED_IN
         cc = n["properties_json"].get("country_code")
         if n["label"] == "Institution" and cc and (iid, "BASED_IN", "country:" + cc) not in edges:
@@ -155,7 +180,8 @@ def build(cfg, root=ROOT):
     rows = []
     for (s, t, d), e in sorted(edges.items(), key=lambda kv: (kv[0][1], kv[0][0], kv[0][2])):
         assert s in nodes and d in nodes, f"dangling edge endpoint {s} {t} {d}"
-        rows.append(dict(edge_id=identifier("edge", s, t, d), src=s, dst=d, type=t, weight=1, derivation="metadata",
+        rows.append(dict(edge_id=identifier("edge", s, t, d), src=s, dst=d, type=t,
+                         weight=len(e["papers"]) if t in DERIVED else 1, derivation="derived" if t in DERIVED else "metadata",
                          validation_status="accepted", evidence_ids=sorted(pair_ev.get((s, t, d), set())), paper_ids=sorted(e["papers"]),
                          owner=e["owner"], source_origin=origin(e["srcs"]) if e["srcs"] else [], project_id=pid))
     return sorted(nodes.values(), key=lambda n: (n["label"], n["id"])), rows, manifests, inputs, report
@@ -175,7 +201,7 @@ def export(cfg=None, root=ROOT, out_dir=None):
     manifest = dict(
         project_id=cfg["project_id"], schema_version="2.0.0", code_version=cfg["code_version"], normalization_version="nfc-ws-1",
         parser_versions=merge("parser_versions"),
-        rule_versions={**{k: v for m in manifests for k, v in m["rule_versions"].items()}, "b3-graph-export": "1.0.0"},
+        rule_versions={**{k: v for m in manifests for k, v in m["rule_versions"].items()}, "b3-graph-export": "1.0.1", "b4-collab-edges": "1.0.0"},
         dictionary_versions={k: v for m in manifests for k, v in m["dictionary_versions"].items()},
         applied_decision_ids=merge("applied_decision_ids"), graph_ready=True, node_count=len(nodes), edge_count=len(edges), files=files)
     manifest["snapshot_id"] = "snapshot:v2:" + sha256(canonical_json({k: manifest[k] for k in PUBLISH}).encode())

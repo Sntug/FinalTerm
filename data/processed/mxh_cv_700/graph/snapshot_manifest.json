@@ -12728,7 +12728,7 @@
     "decision:fffd73fff72252f9f0175f31778dd4e1232a199e2750cf30af1c69fe8e3f7845",
     "decision:ffff88ec9951bd6197669fc89c2abcf58a3d7d1d2d59c22d249eb2b07ec57618"
   ],
-  "code_version": "b3-export-1.0.0",
+  "code_version": "b4-export-1.1.1",
   "counts_by_label": {
     "Author": 2950,
     "Country": 42,
@@ -12741,11 +12741,13 @@
     "AUTHORED": 3282,
     "BASED_IN": 432,
     "CITES": 97,
+    "COAUTHORED_WITH": 7771,
+    "COLLABORATED_WITH": 1140,
     "PUBLISHED_IN": 700
   },
   "created_at": "2026-11-08T18:54:23Z",
   "dictionary_versions": {},
-  "edge_count": 7748,
+  "edge_count": 16659,
   "files": [
     {
       "path": "data/processed/mxh_cv_700/graph/nodes.csv",
@@ -12755,9 +12757,9 @@
     },
     {
       "path": "data/processed/mxh_cv_700/graph/edges.csv",
-      "record_count": 7748,
+      "record_count": 16659,
       "role": "graph",
-      "sha256": "5d9fcdec6ab429070960a5a22cd2e0e6d8ed9c9da81c7f08283c514aebcc2c2c"
+      "sha256": "728f6f226e754ece18afea96f996a7f86269fbea56901dce672ec4b06c9d8e54"
     }
   ],
   "graph_ready": true,
@@ -12783,10 +12785,11 @@
   "project_id": "mxh_cv_700",
   "rule_versions": {
     "a3-exact-source-link": "1.0.0",
-    "b3-graph-export": "1.0.0",
+    "b3-graph-export": "1.0.1",
+    "b4-collab-edges": "1.0.0",
     "openalex-work-match": "1.1.0"
   },
   "schema_version": "2.0.0",
-  "snapshot_id": "snapshot:v2:e1a0f4e76546fbfc56c8bc627a42fff17e29a14aacb4d483ad7ab3064665854d",
+  "snapshot_id": "snapshot:v2:65901678d7f451dec1fefec8b964fd354b233a64102fdd63abeb77c93242c6eb",
   "source_snapshot_id": "snapshot:v2:e1cd6769e3d3dc92c2873f46eeb6e2e3972450af4c35714cbe8dcaf7818f66a6"
 }
