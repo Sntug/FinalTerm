@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:be7381e326f64f235e1a4add88d606b990c97beb605111c01cd512d72321f086",
+  "tables_checked": 12,
+  "records_checked": 28816,
+  "raw_sources_checked": 1032,
+  "deterministic_replay": true,
+  "graph_ready": false,
+  "network_blocked_replay": true,
+  "byte_identical_replay": true,
+  "output_files_checked": 8,
+  "independent_raw_author_bindings_checked": 1628,
+  "independent_raw_institution_bindings_checked": 1640,
+  "protected_input_preservation": {
+    "files": 2508,
+    "sha256": "5e81c1a512b73ba600ee3ec8c1b03af09718a909ca0fa9785bc4745a3f659c38",
+    "gitignore_sha256": "e8bf6db679725af4a212127dd306a713fa836f91a773b0634f4b2576ed3549cb"
+  },
+  "tests": {
+    "total": 71,
+    "a2": 46,
+    "a3": 25,
+    "passed": true
+  },
+  "source_snapshot_id": "snapshot:v2:f18c4b6c1e243abf26cccdfa520296599d2a5e2b96aa7da971cf8708ecc70ce8",
+  "implementation_sha256": {
+    "src/clean/__init__.py": "381695dc62c0c1459aece19fb16e199f63a16cd85d4558b2f348a47dad720497",
+    "src/clean/__main__.py": "3934a03582e06339eb1f4c576bb64aea6e9385343a8b1958b6ed1fc63182aa85",
+    "src/clean/normalize.py": "471c7f260c298a64e7804a1c735169d9f48f2bf0d0f9875d379b32d2d0482d08",
+    "src/clean/pipeline.py": "4e649532029c6ea7a64c7e2693570754a5532efe08e8894ebd04b51ea4ef1973",
+    "src/clean/resolution.py": "e49370ca16673c0611377e58e06d97a33ae1f64177d914f2310f78d67221a353",
+    "src/clean/text.py": "d8bf298061762e46d7b6b29d1ef6d884a20a5449b41b29912efdf1fdfd7064f9",
+    "src/clean/verify.py": "4448f3bd14f2a028e9999ca86152a2c0510e142276b97ca025be4e2165c084fa"
+  }
+}

@@ -4,6 +4,8 @@ Dự án chung: A phụ trách 350 Paper CVPR 2024, B phụ trách 350 Paper ICC
 
 **Đọc [bàn giao A2](handoff/a/A2_HANDOFF.md)** để chạy collector, đọc snapshot và tiếp tục A3/B. A2 đã có 350 Paper A; đây là metadata (`graph_ready=false`), không phải nghiệm thu NLP/Neo4j hay pilot toàn nhóm.
 
+**A3:** [bàn giao làm sạch và phân giải thực thể](handoff/a/A3_HANDOFF.md). Chạy offline bằng `py -3.12 -B -X utf8 -m src.clean --config config/a_cvpr2024_a3.json`; giữ 350 Paper, xuất authorships, alias/decision/review theo contract v2. Manifest A3: `data/processed/cvpr2024/a3_350/snapshot_manifest.json`.
+
 | Phạm vi | Đường dẫn |
 | --- | --- |
 | Collector chung và helper | `src/collect/`, `src/clean/` |
