@@ -1,0 +1,8 @@
+{
+  "input_manifest": "data/processed/iccv2023/full/snapshot_manifest.json",
+  "processed_dir": "data/processed/iccv2023/a3_350",
+  "owner": "B",
+  "conference": "ICCV",
+  "conference_year": 2023,
+  "target_count": 350
+}
