@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OMG-Seg%3A+Is+One+Model+Good+Enough+For+All+Segmentation%3F%22",
+  "fetched_at": "2026-11-07T18:49:41Z",
+  "http_status": 200,
+  "content_sha256": "39cde75b66cf7ccc4742f023bf58308c96d498125690826a3c95e6b00f2b03f1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/39cde75b66cf7ccc4742f023bf58308c96d498125690826a3c95e6b00f2b03f1.json.gz"
+}

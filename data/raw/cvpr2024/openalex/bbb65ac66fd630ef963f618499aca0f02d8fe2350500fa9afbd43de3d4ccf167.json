@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Tumor+Micro-environment+Interactions+Guided+Graph+Learning+for+Survival+Analysis+of+Human+Cancers+from+Whole-slide+Pathological+Images",
+  "fetched_at": "2026-11-07T17:10:01Z",
+  "http_status": 200,
+  "content_sha256": "c27b8e10d2795a5bc4477c3461f19450de593b34283ba7c5f4ccfbe3a483f3b2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/c27b8e10d2795a5bc4477c3461f19450de593b34283ba7c5f4ccfbe3a483f3b2.json.gz"
+}

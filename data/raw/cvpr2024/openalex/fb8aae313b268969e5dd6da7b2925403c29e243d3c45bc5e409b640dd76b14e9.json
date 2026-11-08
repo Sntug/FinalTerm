@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Action+Scene+Graphs+for+Long-Form+Understanding+of+Egocentric+Videos%22",
+  "fetched_at": "2026-11-07T18:57:12Z",
+  "http_status": 200,
+  "content_sha256": "14a7b05fa1b509ba9ebae4a3b9068354ca3e3153862687ea8e84004b814c538a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/14a7b05fa1b509ba9ebae4a3b9068354ca3e3153862687ea8e84004b814c538a.json.gz"
+}

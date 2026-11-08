@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Decompose-and-Compose%3A+A+Compositional+Approach+to+Mitigating+Spurious+Correlation%22",
+  "fetched_at": "2026-11-07T18:52:49Z",
+  "http_status": 200,
+  "content_sha256": "2f71ead809233778587590d16b002a651d44d13b7c7bf4afa3aa787d399c51fa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2f71ead809233778587590d16b002a651d44d13b7c7bf4afa3aa787d399c51fa.json.gz"
+}

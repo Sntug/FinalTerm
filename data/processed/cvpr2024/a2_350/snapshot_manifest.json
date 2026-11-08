@@ -1,0 +1,95 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a2-collector-1.2.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0"
+  ],
+  "rule_versions": {
+    "openalex-work-match": "1.1.0"
+  },
+  "dictionary_versions": {},
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/paper_registry.csv",
+      "sha256": "3df0fc8becff40f74979f4596f65f49729defb4301b1dcb007520c110d9c37d0",
+      "record_count": 350,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/papers.jsonl",
+      "sha256": "c8a236ab4ccfe1c3558bb4013538863fadff566c1b67f98d681418faeefbb45e",
+      "record_count": 350,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/source_records.jsonl",
+      "sha256": "e289e68ca8406a2e8c5cffa0447701e8d7108edaa4edf1707874c78d0d9c4bf0",
+      "record_count": 1032,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/authorships.csv",
+      "sha256": "9a105c43b5ea8e9c8cb6963783968727bcefbfdede7dd4cec04d5175636a771d",
+      "record_count": 1968,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/text_versions.jsonl",
+      "sha256": "614f24efdd29da7d637096f2d6ef9b1b654e4b3fc3770cda9ce53420d416acaf",
+      "record_count": 700,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/field_provenance.csv",
+      "sha256": "1af9fb462564da5ca8eaabd393f32194416a8bb0bbaf4bc2e34b97449cccc382",
+      "record_count": 4322,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/alias_map.csv",
+      "sha256": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/merge_log.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/needs_review.csv",
+      "sha256": "472d1c06ad9a32c53452d0e72c446fd41eb0598d43dbe4f36b5a7a0818274873",
+      "record_count": 22,
+      "role": "review"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/nodes.csv",
+      "sha256": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/edges.csv",
+      "sha256": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/evidence.jsonl",
+      "sha256": "8350bd75bfbae72f204da2ec55eb87fa19511ff44d546b68c4e525fc5980df13",
+      "record_count": 22,
+      "role": "graph"
+    }
+  ],
+  "snapshot_id": "snapshot:v2:f18c4b6c1e243abf26cccdfa520296599d2a5e2b96aa7da971cf8708ecc70ce8",
+  "source_snapshot_id": "selection:1982008fe5f2c0adfb2b68c87782fde3e513ba08df087388c25b442599bb5d63",
+  "created_at": "2026-11-07T18:57:44Z"
+}

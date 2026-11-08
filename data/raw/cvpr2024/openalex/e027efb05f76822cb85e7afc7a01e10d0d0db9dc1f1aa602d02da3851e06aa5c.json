@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22pix2gestalt%3A+Amodal+Segmentation+by+Synthesizing+Wholes%22",
+  "fetched_at": "2026-11-07T18:54:49Z",
+  "http_status": 200,
+  "content_sha256": "ef12165227a401023deed0dcea34f0bb6c3ac6f7fc16718777a0e60ef7af5b87",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ef12165227a401023deed0dcea34f0bb6c3ac6f7fc16718777a0e60ef7af5b87.json.gz"
+}

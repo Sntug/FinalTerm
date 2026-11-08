@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HIPTrack%3A+Visual+Tracking+with+Historical+Prompts%22",
+  "fetched_at": "2026-11-07T18:47:33Z",
+  "http_status": 200,
+  "content_sha256": "43b1be0fb9fc2950bccc144f1be30e16418b47e6b04f8f27c66e76f08e91be67",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/43b1be0fb9fc2950bccc144f1be30e16418b47e6b04f8f27c66e76f08e91be67.json.gz"
+}

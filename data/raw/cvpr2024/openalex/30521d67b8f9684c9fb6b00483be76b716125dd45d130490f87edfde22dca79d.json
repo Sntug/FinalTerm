@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Boosting+Adversarial+Transferability+by+Block+Shuffle+and+Rotation%22",
+  "fetched_at": "2026-11-07T18:48:56Z",
+  "http_status": 200,
+  "content_sha256": "4f67079751c745fd1a629a37b3f2f40bf6710f75abee04f3e506919b16217d42",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4f67079751c745fd1a629a37b3f2f40bf6710f75abee04f3e506919b16217d42.json.gz"
+}

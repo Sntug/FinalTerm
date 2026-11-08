@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Solution+of+Point-Line+Absolute+Pose%22",
+  "fetched_at": "2026-11-07T18:51:02Z",
+  "http_status": 200,
+  "content_sha256": "4f61d2979e30c96a201d4e151799db1d6564d1c27a689779b58fddcf0dcb493d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4f61d2979e30c96a201d4e151799db1d6564d1c27a689779b58fddcf0dcb493d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Mais_FISBe_A_Real-World_Benchmark_Dataset_for_Instance_Segmentation_of_Long-Range_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:43Z",
+  "http_status": 200,
+  "content_sha256": "b7691cda07c05ed4a5f2a40f62e0b3cf42d2de606dba40ba717936cc3314e5ab",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1c02-61a8f4cfdf93b\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:34 GMT",
+  "raw_path": "data/raw/cvpr2024/http/b7691cda07c05ed4a5f2a40f62e0b3cf42d2de606dba40ba717936cc3314e5ab.html.gz"
+}

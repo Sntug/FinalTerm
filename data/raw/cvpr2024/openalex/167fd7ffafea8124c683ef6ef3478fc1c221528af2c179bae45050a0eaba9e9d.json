@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PostureHMR%3A+Posture+Transformation+for+3D+Human+Mesh+Recovery%22",
+  "fetched_at": "2026-11-07T18:54:09Z",
+  "http_status": 200,
+  "content_sha256": "7efd5b34010ab8c9129cecc45fce9b10f77dc2ca455e22278f6f2751584e7e6e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7efd5b34010ab8c9129cecc45fce9b10f77dc2ca455e22278f6f2751584e7e6e.json.gz"
+}

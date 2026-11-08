@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D+Geometry-Aware+Deformable+Gaussian+Splatting+for+Dynamic+View+Synthesis%22",
+  "fetched_at": "2026-11-07T18:53:17Z",
+  "http_status": 200,
+  "content_sha256": "d1ebba5e909a140722ffaf7cf11a756924d2f391ec57b8a31f15f0956c49bf64",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d1ebba5e909a140722ffaf7cf11a756924d2f391ec57b8a31f15f0956c49bf64.json.gz"
+}

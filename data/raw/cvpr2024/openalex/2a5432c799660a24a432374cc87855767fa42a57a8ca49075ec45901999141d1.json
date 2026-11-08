@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Generalizing+to+Unseen+Domains+with+Few+Labels%22",
+  "fetched_at": "2026-11-07T18:47:51Z",
+  "http_status": 200,
+  "content_sha256": "9e77f3a82f13acbb97d99bb52ed5f17fae519b95a20c7284f0273834ba8863af",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9e77f3a82f13acbb97d99bb52ed5f17fae519b95a20c7284f0273834ba8863af.json.gz"
+}

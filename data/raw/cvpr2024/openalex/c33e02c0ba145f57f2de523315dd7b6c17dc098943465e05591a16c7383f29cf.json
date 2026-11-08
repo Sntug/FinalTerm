@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SyncTalk%3A+The+Devil+is+in+the+Synchronization+for+Talking+Head+Synthesis%22",
+  "fetched_at": "2026-11-07T18:54:24Z",
+  "http_status": 200,
+  "content_sha256": "b8bee49c3db248c73aaadf0880f852e7c2973d07fab0128ae6b1e3a11ab39f95",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b8bee49c3db248c73aaadf0880f852e7c2973d07fab0128ae6b1e3a11ab39f95.json.gz"
+}

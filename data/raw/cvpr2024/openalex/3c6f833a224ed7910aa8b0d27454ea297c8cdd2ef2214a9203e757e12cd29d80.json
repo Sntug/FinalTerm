@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Gated+Fields%3A+Learning+Scene+Reconstruction+from+Gated+Videos%22",
+  "fetched_at": "2026-11-07T18:47:23Z",
+  "http_status": 200,
+  "content_sha256": "8f19a29928ead214106916479f4e04693961a5e98d6040876f1ac5b5f855bbe3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/8f19a29928ead214106916479f4e04693961a5e98d6040876f1ac5b5f855bbe3.json.gz"
+}

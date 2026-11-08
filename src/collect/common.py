@@ -7,6 +7,7 @@ import json
 import os
 import re
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -15,7 +16,7 @@ from src.clean.text import canonical_json
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 PARSER_VERSION = "cvf-html-1.0.0"
-CODE_VERSION = "a2-collector-1.1.0"
+CODE_VERSION = "a2-collector-1.2.0"
 DEFAULT_CONFIG = "config/a_cvpr2024_pilot.json"
 
 
@@ -87,7 +88,7 @@ def publish(files: dict[Path, bytes]) -> None:
         try:
             with os.fdopen(handle, "wb") as stream:
                 stream.write(content)
-            os.replace(temp_name, path)
+            replace_file(temp_name, path)
         finally:
             if os.path.exists(temp_name):
                 os.unlink(temp_name)
@@ -109,6 +110,10 @@ def load_config(root: Path, config_path: str = DEFAULT_CONFIG) -> dict:
     if config.get("contract_dir") != "config/contracts/v2":
         raise ValueError("Use the canonical v2 contract")
     within(root, config["registry_input"])
+    if config.get("checkpoint_file") and not within(root, config["checkpoint_file"]).is_relative_to(within(root, config["raw_dir"])):
+        raise ValueError("Checkpoint must stay inside configured raw corpus")
+    if type(config.get("batch_size", 25)) is not int or config.get("batch_size", 25) < 1:
+        raise ValueError("Positive batch_size required")
     for key in ("delay_seconds", "timeout_seconds", "retries", "openalex_delay_seconds", "max_retry_wait_seconds"):
         if config[key] < 0 or (key == "timeout_seconds" and config[key] == 0):
             raise ValueError("Invalid transport configuration: " + key)
@@ -136,6 +141,10 @@ def load_selection(root: Path, config: dict) -> dict:
     result = {"papers": rows, "seed": config["seed"], "source_snapshot_id": "registry:" + __import__("hashlib").sha256(within(root, config["registry_input"]).read_bytes()).hexdigest()}
     if config.get("selection_file"):
         locked = json.loads(within(root, config["selection_file"]).read_text(encoding="utf-8"))
+        if locked.get("registry_sha256") and locked["registry_sha256"] != __import__("hashlib").sha256(within(root, config["registry_input"]).read_bytes()).hexdigest():
+            raise ValueError("Locked registry hash changed")
+        if config.get("selection_lock_copy") and within(root, config["selection_lock_copy"]).read_bytes() != within(root, config["selection_file"]).read_bytes():
+            raise ValueError("Selection lock copies differ")
         if locked["seed"] != config["seed"] or [(p["paper_id"], p["cvf_url"]) for p in locked["papers"]] != [(p["paper_id"],p["cvf_url"]) for p in rows]:
             raise ValueError("Registry differs from locked selection")
         for row, old in zip(rows, locked["papers"]):
@@ -152,6 +161,18 @@ def atomic_json(path: Path, value: object) -> None:
     try:
         with os.fdopen(handle, "wb") as stream:
             stream.write(json_bytes(value))
-        os.replace(name, path)
+        replace_file(name, path)
     finally:
         if os.path.exists(name): os.unlink(name)
+
+
+def replace_file(source, destination):
+    """Bounded retries for Windows readers briefly denying atomic replacement."""
+    for attempt in range(6):
+        try:
+            os.replace(source, destination)
+            return
+        except PermissionError:
+            if os.name != 'nt' or attempt == 5:
+                raise
+            time.sleep(0.1 * (attempt + 1))

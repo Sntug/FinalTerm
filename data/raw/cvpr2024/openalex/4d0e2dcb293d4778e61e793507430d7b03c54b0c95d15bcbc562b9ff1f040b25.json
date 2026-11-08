@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Curriculum+Point+Prompting+for+Weakly-Supervised+Referring+Image+Segmentation%22",
+  "fetched_at": "2026-11-07T17:12:55Z",
+  "http_status": 200,
+  "content_sha256": "d0515137f672c081bfba141afad73cbf09431507e152f7ae960b59a369a441f3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d0515137f672c081bfba141afad73cbf09431507e152f7ae960b59a369a441f3.json.gz"
+}

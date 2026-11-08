@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D+LiDAR+Mapping+in+Dynamic+Environments+using+a+4D+Implicit+Neural+Representation%22",
+  "fetched_at": "2026-11-07T18:49:33Z",
+  "http_status": 200,
+  "content_sha256": "ac3c6dc4e1875a5c760fc234a2258907ec8debe571fceed93ca3dd89a5261670",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ac3c6dc4e1875a5c760fc234a2258907ec8debe571fceed93ca3dd89a5261670.json.gz"
+}

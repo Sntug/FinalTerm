@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SceneTex%3A+High-Quality+Texture+Synthesis+for+Indoor+Scenes+via+Diffusion+Priors%22",
+  "fetched_at": "2026-11-07T18:55:54Z",
+  "http_status": 200,
+  "content_sha256": "9f10b6d4e1dd18c7f86c202d53079478220d16e17e1ed74067b9b86c63581d83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9f10b6d4e1dd18c7f86c202d53079478220d16e17e1ed74067b9b86c63581d83.json.gz"
+}

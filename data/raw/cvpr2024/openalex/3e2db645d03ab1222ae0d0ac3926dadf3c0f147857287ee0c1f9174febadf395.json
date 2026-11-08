@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Backpropagation-free+Network+for+3D+Test-time+Adaptation%22",
+  "fetched_at": "2026-11-07T18:50:35Z",
+  "http_status": 200,
+  "content_sha256": "3e6f256ff45c94673ac4a390e573ebaec606ee9a8c0499ed0f33ff7b2590852f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/3e6f256ff45c94673ac4a390e573ebaec606ee9a8c0499ed0f33ff7b2590852f.json.gz"
+}

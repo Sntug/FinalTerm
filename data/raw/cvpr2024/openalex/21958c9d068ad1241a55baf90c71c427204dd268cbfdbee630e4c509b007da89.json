@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-Training+Large+Language+Models+for+Improved+Visual+Program+Synthesis+With+Visual+Reinforcement%22",
+  "fetched_at": "2026-11-07T17:12:51Z",
+  "http_status": 200,
+  "content_sha256": "71ad3b2f088800f786f4b55100348a8d67753290849ab8689b503a5bef997f58",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/71ad3b2f088800f786f4b55100348a8d67753290849ab8689b503a5bef997f58.json.gz"
+}

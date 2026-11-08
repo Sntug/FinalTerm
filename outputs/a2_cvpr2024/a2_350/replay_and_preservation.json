@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "log": "offline_run.log",
+      "exit_code": 0
+    },
+    {
+      "log": "verify_350.log",
+      "exit_code": 0
+    }
+  ],
+  "snapshot_id": "snapshot:v2:f18c4b6c1e243abf26cccdfa520296599d2a5e2b96aa7da971cf8708ecc70ce8",
+  "paper_count": 350,
+  "unique_paper_ids": 350,
+  "owner": "A",
+  "main_membership_verified": true,
+  "selection_ids_match": true,
+  "pilot_ids_preserved": 30,
+  "pilot_paper_records_unchanged": true,
+  "offline_network_requests": {
+    "CVF": 0,
+    "OpenAlex": 0
+  },
+  "cached_resume_network_requests": {
+    "CVF": 0,
+    "OpenAlex": 0
+  },
+  "cached_resume_network_guard": true,
+  "manifest_bytes_unchanged_after_offline_and_resume": true,
+  "protected_files_checked": 329,
+  "protected_files_changed": [],
+  "raw_files_checked_on_replay": 2126,
+  "raw_files_changed_on_replay": [],
+  "new_openalex_cache_metadata_files": 624,
+  "graph_ready": false
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Editable+Scene+Simulation+for+Autonomous+Driving+via+Collaborative+LLM-Agents%22",
+  "fetched_at": "2026-11-07T18:46:46Z",
+  "http_status": 200,
+  "content_sha256": "290a10c9ad41d6e482411f66792f768a6830004899836826f5806936d64b6cd6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/290a10c9ad41d6e482411f66792f768a6830004899836826f5806936d64b6cd6.json.gz"
+}

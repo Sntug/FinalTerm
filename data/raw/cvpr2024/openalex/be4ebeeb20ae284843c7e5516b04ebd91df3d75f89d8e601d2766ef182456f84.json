@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Human+Motion+Prediction+with+Symplectic+Integral%22",
+  "fetched_at": "2026-11-07T18:57:36Z",
+  "http_status": 200,
+  "content_sha256": "63eba98fadbe240113b623d7e0fac118a5a181a22cc587cd620a8c78b7f7a393",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/63eba98fadbe240113b623d7e0fac118a5a181a22cc587cd620a8c78b7f7a393.json.gz"
+}

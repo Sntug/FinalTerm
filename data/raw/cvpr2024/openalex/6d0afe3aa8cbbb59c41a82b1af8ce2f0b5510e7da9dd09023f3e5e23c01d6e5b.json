@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Continual+Forgetting+for+Pre-trained+Vision+Models%22",
+  "fetched_at": "2026-11-07T18:56:43Z",
+  "http_status": 200,
+  "content_sha256": "65a230b06e10242478f7c68f3de03e39f162dfc9ace3063072bc608cef623b4a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/65a230b06e10242478f7c68f3de03e39f162dfc9ace3063072bc608cef623b4a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FMA-Net%3A+Flow-Guided+Dynamic+Filtering+and+Iterative+Feature+Refinement+with+Multi-Attention+for+Joint+Video+Super-Resolution+and+Deblurring%22",
+  "fetched_at": "2026-11-07T18:54:16Z",
+  "http_status": 200,
+  "content_sha256": "a6b3a7f823578877828875d990a414bcf7f4f85c3da126e1423014a21c0aef98",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a6b3a7f823578877828875d990a414bcf7f4f85c3da126e1423014a21c0aef98.json.gz"
+}

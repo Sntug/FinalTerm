@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=On+the+Robustness+of+Large+Multimodal+Models+Against+Image+Adversarial+Attacks",
+  "fetched_at": "2026-11-07T17:10:29Z",
+  "http_status": 200,
+  "content_sha256": "dc8a6251ef9590bb9b626ff334bdf8298fded1dc1e2b170ddd0cac6761c6b7fb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/dc8a6251ef9590bb9b626ff334bdf8298fded1dc1e2b170ddd0cac6761c6b7fb.json.gz"
+}

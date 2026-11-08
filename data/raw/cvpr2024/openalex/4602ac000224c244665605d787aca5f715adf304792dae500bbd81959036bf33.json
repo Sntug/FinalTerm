@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Interactive+Continual+Learning%3A+Fast+and+Slow+Thinking%22",
+  "fetched_at": "2026-11-07T18:53:52Z",
+  "http_status": 200,
+  "content_sha256": "fe6d147d0f52a768ad2a3ecfee2f8ffebeb49a43181af63c935e938dee412105",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/fe6d147d0f52a768ad2a3ecfee2f8ffebeb49a43181af63c935e938dee412105.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ViT-Lens%3A+Towards+Omni-modal+Representations%22",
+  "fetched_at": "2026-11-07T18:50:54Z",
+  "http_status": 200,
+  "content_sha256": "842cb3c695fefa7212e42f3b3170e9712525877ea0243cdf6f1e073870acca9e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/842cb3c695fefa7212e42f3b3170e9712525877ea0243cdf6f1e073870acca9e.json.gz"
+}

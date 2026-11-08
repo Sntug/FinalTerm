@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MedM2G%3A+Unifying+Medical+Multi-Modal+Generation+via+Cross-Guided+Diffusion+with+Visual+Invariant%22",
+  "fetched_at": "2026-11-07T18:50:23Z",
+  "http_status": 200,
+  "content_sha256": "56e0a97202520d63983889b0f3aa904e0d2fbd0c5f7a4251b7963f7fb9e11694",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/56e0a97202520d63983889b0f3aa904e0d2fbd0c5f7a4251b7963f7fb9e11694.json.gz"
+}

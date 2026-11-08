@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RELI11D%3A+A+Comprehensive+Multimodal+Human+Motion+Dataset+and+Method%22",
+  "fetched_at": "2026-11-07T18:51:26Z",
+  "http_status": 200,
+  "content_sha256": "0d818356b8029edfe6136b39cb2ae56a18ebd8973e9fe564faaf37ed7589d021",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0d818356b8029edfe6136b39cb2ae56a18ebd8973e9fe564faaf37ed7589d021.json.gz"
+}

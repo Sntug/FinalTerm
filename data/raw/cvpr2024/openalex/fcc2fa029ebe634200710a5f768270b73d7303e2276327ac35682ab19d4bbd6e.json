@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22On+Train-Test+Class+Overlap+and+Detection+for+Image+Retrieval%22",
+  "fetched_at": "2026-11-07T18:52:38Z",
+  "http_status": 200,
+  "content_sha256": "932e375f37d96e0a6374082bf7094d7e153a5cd6751a4cc78b32c1917a1c44dd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/932e375f37d96e0a6374082bf7094d7e153a5cd6751a4cc78b32c1917a1c44dd.json.gz"
+}

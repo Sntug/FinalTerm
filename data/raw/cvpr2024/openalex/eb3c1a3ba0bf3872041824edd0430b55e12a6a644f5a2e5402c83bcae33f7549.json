@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GDA%3A+Generalized+Diffusion+for+Robust+Test-time+Adaptation%22",
+  "fetched_at": "2026-11-07T18:51:16Z",
+  "http_status": 200,
+  "content_sha256": "f38d8dc130d48793299454a3ddc8922caa84d8fa18d4d51d3aa16849da319e5c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f38d8dc130d48793299454a3ddc8922caa84d8fa18d4d51d3aa16849da319e5c.json.gz"
+}

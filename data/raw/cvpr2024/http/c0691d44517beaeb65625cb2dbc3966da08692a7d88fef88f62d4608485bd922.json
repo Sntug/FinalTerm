@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_A_Unified_Framework_for_Microscopy_Defocus_Deblur_with_Multi-Pyramid_Transformer_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:42:29Z",
+  "http_status": 200,
+  "content_sha256": "f1578a32e1197d54effb0a20d307e00013a7773d6284bbbc989105b0069e81db",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"193b-61a8f4d20c404\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/f1578a32e1197d54effb0a20d307e00013a7773d6284bbbc989105b0069e81db.html.gz"
+}

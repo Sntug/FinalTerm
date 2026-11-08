@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Intraoperative+2D%2F3D+Image+Registration+via+Differentiable+X-ray+Rendering%22",
+  "fetched_at": "2026-11-07T18:47:15Z",
+  "http_status": 200,
+  "content_sha256": "6dbf0ce764b9d6a2c74ffb4e7cf62d4d412b9e92fc485e285fd4d8988df5d3b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6dbf0ce764b9d6a2c74ffb4e7cf62d4d412b9e92fc485e285fd4d8988df5d3b4.json.gz"
+}

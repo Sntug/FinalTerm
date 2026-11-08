@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ID-like+Prompt+Learning+for+Few-Shot+Out-of-Distribution+Detection%22",
+  "fetched_at": "2026-11-07T17:12:02Z",
+  "http_status": 200,
+  "content_sha256": "45fab5c361621f6347c6809a491716df6186a4100f7187ace62267096f9c0422",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/45fab5c361621f6347c6809a491716df6186a4100f7187ace62267096f9c0422.json.gz"
+}

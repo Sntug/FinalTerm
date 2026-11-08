@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FocusMAE%3A+Gallbladder+Cancer+Detection+from+Ultrasound+Videos+with+Focused+Masked+Autoencoders%22",
+  "fetched_at": "2026-11-07T18:52:21Z",
+  "http_status": 200,
+  "content_sha256": "f2f4cec4ba57bd0483d40e90fa3038564fa010c8231aba144de0fdf6e6da5c7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f2f4cec4ba57bd0483d40e90fa3038564fa010c8231aba144de0fdf6e6da5c7f.json.gz"
+}

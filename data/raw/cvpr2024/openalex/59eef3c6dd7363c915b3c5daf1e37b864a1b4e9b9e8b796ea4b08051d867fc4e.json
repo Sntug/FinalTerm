@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Action+Detection+via+an+Image+Diffusion+Process%22",
+  "fetched_at": "2026-11-07T18:51:22Z",
+  "http_status": 200,
+  "content_sha256": "dc19b901cdeacdab35582e3c00c137a7b3ac874bee93815bfe2978a0827202ad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/dc19b901cdeacdab35582e3c00c137a7b3ac874bee93815bfe2978a0827202ad.json.gz"
+}

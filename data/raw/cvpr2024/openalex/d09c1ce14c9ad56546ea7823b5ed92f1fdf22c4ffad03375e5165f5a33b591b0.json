@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GreedyViG%3A+Dynamic+Axial+Graph+Construction+for+Efficient+Vision+GNNs%22",
+  "fetched_at": "2026-11-07T18:54:03Z",
+  "http_status": 200,
+  "content_sha256": "f7194a3c5c0417c9e6ee394e2e4715f5293e41a46dcb77257a37ac7ed7b94a9b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f7194a3c5c0417c9e6ee394e2e4715f5293e41a46dcb77257a37ac7ed7b94a9b.json.gz"
+}

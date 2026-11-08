@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Cinematic+Behavior+Transfer+via+NeRF-based+Differentiable+Filming%22",
+  "fetched_at": "2026-11-07T18:48:40Z",
+  "http_status": 200,
+  "content_sha256": "b7d9350d9de8dcf16761549654c0eecf9f7a38208890149dbfd3c4d61a8df95e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b7d9350d9de8dcf16761549654c0eecf9f7a38208890149dbfd3c4d61a8df95e.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HRVDA%3A+High-Resolution+Visual+Document+Assistant%22",
+  "fetched_at": "2026-11-07T18:47:11Z",
+  "http_status": 200,
+  "content_sha256": "73824d85393c8d8e92f6e413be2c738362b76f9fab167b079c4c1c47406c4c55",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/73824d85393c8d8e92f6e413be2c738362b76f9fab167b079c4c1c47406c4c55.json.gz"
+}

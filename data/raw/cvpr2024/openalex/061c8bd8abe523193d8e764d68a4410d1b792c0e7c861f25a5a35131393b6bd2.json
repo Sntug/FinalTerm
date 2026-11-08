@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CPP-Net%3A+Embracing+Multi-Scale+Feature+Fusion+into+Deep+Unfolding+CP-PPA+Network+for+Compressive+Sensing%22",
+  "fetched_at": "2026-11-07T18:49:18Z",
+  "http_status": 200,
+  "content_sha256": "5c66bf43e2ade21864cfbe3c44f71fda790b956df01843e3b88b54dd645d6f6a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/5c66bf43e2ade21864cfbe3c44f71fda790b956df01843e3b88b54dd645d6f6a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Robust+Depth+Enhancement+via+Polarization+Prompt+Fusion+Tuning%22",
+  "fetched_at": "2026-11-07T18:48:58Z",
+  "http_status": 200,
+  "content_sha256": "6bc658ba06b1736a4a7d5919560d017b67317d2e3bef7fea15877dc418a88fbd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6bc658ba06b1736a4a7d5919560d017b67317d2e3bef7fea15877dc418a88fbd.json.gz"
+}

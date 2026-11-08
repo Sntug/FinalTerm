@@ -1,0 +1,12 @@
+{
+  "selected": 350,
+  "preserved": 30,
+  "added": 320,
+  "candidate_count": 2715,
+  "seed": 20261103,
+  "ranking_verified": true,
+  "selection_locked_at": "2026-11-07T18:40:40Z",
+  "selection_sha256": "d1c824cf57b74839b2bb502ff4c5a70cd3f473559e6e610a40dcf7eb10b49f19",
+  "registry_sha256": "e0aa02d8b39d654c50b613b2c2c8ebf3c7f734426303f6a260e26dff25dd2029",
+  "excluded_candidates": []
+}

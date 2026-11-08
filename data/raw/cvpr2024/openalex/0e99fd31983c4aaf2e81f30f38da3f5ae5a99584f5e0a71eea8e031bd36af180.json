@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AHIVE%3A+Anatomy-aware+Hierarchical+Vision+Encoding+for+Interactive+Radiology+Report+Retrieval%22",
+  "fetched_at": "2026-11-07T18:46:50Z",
+  "http_status": 200,
+  "content_sha256": "fe4113eeef13b98b65430c84efde9f435e4ea92c567e6e2c074031c128224654",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/fe4113eeef13b98b65430c84efde9f435e4ea92c567e6e2c074031c128224654.json.gz"
+}

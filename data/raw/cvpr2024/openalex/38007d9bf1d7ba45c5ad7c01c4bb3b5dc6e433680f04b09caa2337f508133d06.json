@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MMSum%3A+A+Dataset+for+Multimodal+Summarization+and+Thumbnail+Generation+of+Videos%22",
+  "fetched_at": "2026-11-07T18:49:29Z",
+  "http_status": 200,
+  "content_sha256": "6e35b2213963da94dd8c0966fd48b220882d268a9c82f6f989af88f60127d24a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6e35b2213963da94dd8c0966fd48b220882d268a9c82f6f989af88f60127d24a.json.gz"
+}

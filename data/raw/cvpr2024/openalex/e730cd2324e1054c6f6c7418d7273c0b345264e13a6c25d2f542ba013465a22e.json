@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Repurposing+Diffusion-Based+Image+Generators+for+Monocular+Depth+Estimation%22",
+  "fetched_at": "2026-11-07T18:49:00Z",
+  "http_status": 200,
+  "content_sha256": "c76837995e47ecda42755a426b7ebe659ca17f57559df286ceb8a7659880e9f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/c76837995e47ecda42755a426b7ebe659ca17f57559df286ceb8a7659880e9f8.json.gz"
+}

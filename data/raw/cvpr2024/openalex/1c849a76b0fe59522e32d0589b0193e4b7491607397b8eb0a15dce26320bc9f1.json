@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=CG-HOI%3A+Contact-Guided+3D+Human-Object+Interaction+Generation",
+  "fetched_at": "2026-11-07T17:10:05Z",
+  "http_status": 200,
+  "content_sha256": "e30fd3900e6e36a3d8c44776bc74cc5e42728e92749aafc60168f635a6da611f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e30fd3900e6e36a3d8c44776bc74cc5e42728e92749aafc60168f635a6da611f.json.gz"
+}

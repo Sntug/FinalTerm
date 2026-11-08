@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Weakly-Supervised+Audio-Visual+Video+Parsing+with+Prototype-based+Pseudo-Labeling%22",
+  "fetched_at": "2026-11-07T18:51:48Z",
+  "http_status": 200,
+  "content_sha256": "800433214ec1c39cc071db5043c842b80857c580917b0386ddb2a583f40a3674",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/800433214ec1c39cc071db5043c842b80857c580917b0386ddb2a583f40a3674.json.gz"
+}

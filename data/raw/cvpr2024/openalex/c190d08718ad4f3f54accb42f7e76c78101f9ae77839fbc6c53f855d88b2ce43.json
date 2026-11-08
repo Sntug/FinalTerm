@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Understanding+Cross+and+Self-Attention+in+Stable+Diffusion+for+Text-Guided+Image+Editing%22",
+  "fetched_at": "2026-11-07T18:51:30Z",
+  "http_status": 200,
+  "content_sha256": "2c5b0e50fa816cf422067a77832996c2e0e55b7c656d810b6d0b3140eff6e2bc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2c5b0e50fa816cf422067a77832996c2e0e55b7c656d810b6d0b3140eff6e2bc.json.gz"
+}

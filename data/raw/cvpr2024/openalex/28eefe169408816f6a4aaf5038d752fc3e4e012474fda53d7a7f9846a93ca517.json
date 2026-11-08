@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Few-shot+3D+Point+Cloud+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-07T18:48:20Z",
+  "http_status": 200,
+  "content_sha256": "a6b725f7b719e1632c2cf05374669ca699ad278e83e4f1bf6c971ff1809f6c68",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a6b725f7b719e1632c2cf05374669ca699ad278e83e4f1bf6c971ff1809f6c68.json.gz"
+}

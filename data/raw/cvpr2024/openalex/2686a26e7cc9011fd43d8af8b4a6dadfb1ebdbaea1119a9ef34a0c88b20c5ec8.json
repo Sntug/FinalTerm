@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LoS%3A+Local+Structure-Guided+Stereo+Matching%22",
+  "fetched_at": "2026-11-07T18:46:56Z",
+  "http_status": 200,
+  "content_sha256": "caaeca5587f8aaac7009593e2484c2e876c7443d0476d68a943fd8a5dada1147",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/caaeca5587f8aaac7009593e2484c2e876c7443d0476d68a943fd8a5dada1147.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=CAD%3A+Photorealistic+3D+Generation+via+Adversarial+Distillation",
+  "fetched_at": "2026-11-07T17:10:20Z",
+  "http_status": 200,
+  "content_sha256": "ebe83053c56d5ae0c9f77bd321917c8266aa3eef33a3f7ac9722bcf0e3eece18",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ebe83053c56d5ae0c9f77bd321917c8266aa3eef33a3f7ac9722bcf0e3eece18.json.gz"
+}

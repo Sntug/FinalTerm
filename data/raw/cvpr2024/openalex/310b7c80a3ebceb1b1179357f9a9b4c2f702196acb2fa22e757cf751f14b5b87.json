@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Estimating+Noisy+Class+Posterior+with+Part-level+Labels+for+Noisy+Label+Learning%22",
+  "fetched_at": "2026-11-07T18:46:54Z",
+  "http_status": 200,
+  "content_sha256": "9fd5676dcc28ef4d91d13f128019c905f73921084c223599792114b3ac90086f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9fd5676dcc28ef4d91d13f128019c905f73921084c223599792114b3ac90086f.json.gz"
+}

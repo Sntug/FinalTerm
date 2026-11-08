@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22You+Only+Need+Less+Attention+at+Each+Stage+in+Vision+Transformers%22",
+  "fetched_at": "2026-11-07T18:49:23Z",
+  "http_status": 200,
+  "content_sha256": "b591de2563f32063c26c50b49a10a30ceb2d2d37e1603c396a6361a0b247c975",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b591de2563f32063c26c50b49a10a30ceb2d2d37e1603c396a6361a0b247c975.json.gz"
+}

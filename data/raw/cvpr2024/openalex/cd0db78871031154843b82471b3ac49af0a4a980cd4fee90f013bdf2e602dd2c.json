@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Mixed-Precision+Quantization+for+Federated+Learning+on+Resource-Constrained+Heterogeneous+Devices%22",
+  "fetched_at": "2026-11-07T18:50:42Z",
+  "http_status": 200,
+  "content_sha256": "5175ba21fae10f387230c122cb7d92be387270d7d4de0d7fa36a38a6c7ed5cc3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/5175ba21fae10f387230c122cb7d92be387270d7d4de0d7fa36a38a6c7ed5cc3.json.gz"
+}

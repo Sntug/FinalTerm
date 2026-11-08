@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Denoising+Point+Clouds+in+Latent+Space+via+Graph+Convolution+and+Invertible+Neural+Network%22",
+  "fetched_at": "2026-11-07T18:50:44Z",
+  "http_status": 200,
+  "content_sha256": "440970a8650482e34ab9ac6f4c3a6659cd51271bc16a4a68f04becccb24cae4c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/440970a8650482e34ab9ac6f4c3a6659cd51271bc16a4a68f04becccb24cae4c.json.gz"
+}

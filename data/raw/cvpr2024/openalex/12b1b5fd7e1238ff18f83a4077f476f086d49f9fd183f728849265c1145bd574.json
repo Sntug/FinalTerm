@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProS%3A+Prompting-to-simulate+Generalized+knowledge+for+Universal+Cross-Domain+Retrieval%22",
+  "fetched_at": "2026-11-07T18:55:11Z",
+  "http_status": 200,
+  "content_sha256": "df4264aa98ebe0bbc0cb8dd7cc467e3b0e9f79c5f81fb95a6565b16d7e1997f9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/df4264aa98ebe0bbc0cb8dd7cc467e3b0e9f79c5f81fb95a6565b16d7e1997f9.json.gz"
+}

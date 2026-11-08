@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GOV-NeSF%3A+Generalizable+Open-Vocabulary+Neural+Semantic+Fields%22",
+  "fetched_at": "2026-11-07T18:48:48Z",
+  "http_status": 200,
+  "content_sha256": "471516cc119fe0cd87751be5416d66b6a635d93a98b8ae90f822fd1535c639a3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/471516cc119fe0cd87751be5416d66b6a635d93a98b8ae90f822fd1535c639a3.json.gz"
+}

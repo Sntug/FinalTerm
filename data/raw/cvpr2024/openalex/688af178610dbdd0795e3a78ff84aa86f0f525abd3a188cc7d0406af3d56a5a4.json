@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22High-fidelity+Person-centric+Subject-to-Image+Synthesis%22",
+  "fetched_at": "2026-11-07T18:54:52Z",
+  "http_status": 200,
+  "content_sha256": "9f06bb5e383a51704f1ddd1406febd345f026c94a8c38ed36975f4bd24c07155",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9f06bb5e383a51704f1ddd1406febd345f026c94a8c38ed36975f4bd24c07155.json.gz"
+}

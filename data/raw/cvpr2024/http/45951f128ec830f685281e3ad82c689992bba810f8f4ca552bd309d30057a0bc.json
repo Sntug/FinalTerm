@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Towards_Understanding_Cross_and_Self-Attention_in_Stable_Diffusion_for_Text-Guided_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:38Z",
+  "http_status": 200,
+  "content_sha256": "3356eb332505d9367c12b2a44d82177199cebba1bd34f89dd8365c87c007d530",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"19f0-61a8f4d16445b\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:36 GMT",
+  "raw_path": "data/raw/cvpr2024/http/3356eb332505d9367c12b2a44d82177199cebba1bd34f89dd8365c87c007d530.html.gz"
+}

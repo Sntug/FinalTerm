@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Text-Guided+3D+Face+Synthesis+-+From+Generation+to+Editing%22",
+  "fetched_at": "2026-11-07T18:48:10Z",
+  "http_status": 200,
+  "content_sha256": "0879fd7e16afa070683a4b914eb0f307369c2faf2ac1c26b09a8f27c2244aef0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0879fd7e16afa070683a4b914eb0f307369c2faf2ac1c26b09a8f27c2244aef0.json.gz"
+}

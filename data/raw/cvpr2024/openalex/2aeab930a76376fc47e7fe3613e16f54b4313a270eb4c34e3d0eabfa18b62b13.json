@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unified+Entropy+Optimization+for+Open-Set+Test-Time+Adaptation%22",
+  "fetched_at": "2026-11-07T18:54:45Z",
+  "http_status": 200,
+  "content_sha256": "a67f075157613d41e7ba99fe107a61bf0608bf8a51363eb7033742d1c4ab8e51",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a67f075157613d41e7ba99fe107a61bf0608bf8a51363eb7033742d1c4ab8e51.json.gz"
+}

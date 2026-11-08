@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Mixed-Precision_Quantization_for_Federated_Learning_on_Resource-Constrained_Heterogeneous_Devices_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:43:12Z",
+  "http_status": 200,
+  "content_sha256": "08fbdb42dbbb934715cc0389d2d75de635557215f69cf69032ad7ac079fc3b11",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"190a-61a8f4d3778de\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:38 GMT",
+  "raw_path": "data/raw/cvpr2024/http/08fbdb42dbbb934715cc0389d2d75de635557215f69cf69032ad7ac079fc3b11.html.gz"
+}

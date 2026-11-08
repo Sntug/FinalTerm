@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Weak-to-Strong+3D+Object+Detection+with+X-Ray+Distillation%22",
+  "fetched_at": "2026-11-07T18:48:12Z",
+  "http_status": 200,
+  "content_sha256": "f33c85b3428421e4f77e5e3d479f8e6efd34ef3ecccff67793769cf212a3d4c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f33c85b3428421e4f77e5e3d479f8e6efd34ef3ecccff67793769cf212a3d4c6.json.gz"
+}

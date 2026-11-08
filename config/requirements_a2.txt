@@ -1,0 +1,2 @@
+# A2 collector and tests: Python >=3.12; verified with CPython 3.12.10.
+# Standard library only. No third-party packages or global installation required.

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+More+Accurate+Diffusion+Model+Acceleration+with+A+Timestep+Tuner%22",
+  "fetched_at": "2026-11-07T18:52:23Z",
+  "http_status": 200,
+  "content_sha256": "616b207d9120a06c71332b8d68ee38e8110eb468b624efdcc40ad62e02bcf319",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/616b207d9120a06c71332b8d68ee38e8110eb468b624efdcc40ad62e02bcf319.json.gz"
+}

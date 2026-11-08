@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learned+Lossless+Image+Compression+based+on+Bit+Plane+Slicing%22",
+  "fetched_at": "2026-11-07T18:52:51Z",
+  "http_status": 200,
+  "content_sha256": "64d6d958d211a7156d3e6016d1daabedbe3fdf6e02d9465dedb8d363e371c06b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/64d6d958d211a7156d3e6016d1daabedbe3fdf6e02d9465dedb8d363e371c06b.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Passive+Snapshot+Coded+Aperture+Dual-Pixel+RGB-D+Imaging%22",
+  "fetched_at": "2026-11-07T18:51:04Z",
+  "http_status": 200,
+  "content_sha256": "ac9cd8fc20b8afa3f49b1decd08b78364bc3455a4e60d834a7efdd78977ccd0d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ac9cd8fc20b8afa3f49b1decd08b78364bc3455a4e60d834a7efdd78977ccd0d.json.gz"
+}

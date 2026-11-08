@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FedMef%3A+Towards+Memory-efficient+Federated+Dynamic+Pruning%22",
+  "fetched_at": "2026-11-07T18:57:03Z",
+  "http_status": 200,
+  "content_sha256": "26b3d97fd47b9f016b92ebdec11b4902fe529da561e3f1e3c43f99612ae7b938",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/26b3d97fd47b9f016b92ebdec11b4902fe529da561e3f1e3c43f99612ae7b938.json.gz"
+}

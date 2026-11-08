@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiPrompT%3A+Disentangled+Prompt+Tuning+for+Multiple+Latent+Domain+Generalization+in+Federated+Learning%22",
+  "fetched_at": "2026-11-07T18:48:08Z",
+  "http_status": 200,
+  "content_sha256": "384760448380c7cf8ae7be9b1f705a2fe5c76e6ce5e26fd5057c642f894f497e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/384760448380c7cf8ae7be9b1f705a2fe5c76e6ce5e26fd5057c642f894f497e.json.gz"
+}

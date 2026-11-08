@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multimodal+Industrial+Anomaly+Detection+by+Crossmodal+Feature+Mapping%22",
+  "fetched_at": "2026-11-07T17:12:25Z",
+  "http_status": 200,
+  "content_sha256": "6442f198582ee5dae17802516d4eebe1052d12b4de2d85b3fc006aa86030863d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6442f198582ee5dae17802516d4eebe1052d12b4de2d85b3fc006aa86030863d.json.gz"
+}

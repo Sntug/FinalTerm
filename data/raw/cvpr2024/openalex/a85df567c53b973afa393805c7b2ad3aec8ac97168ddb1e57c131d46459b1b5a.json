@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=DreamVideo%3A+Composing+Your+Dream+Videos+with+Customized+Subject+and+Motion",
+  "fetched_at": "2026-11-07T18:55:11Z",
+  "http_status": 200,
+  "content_sha256": "96119afbab355656c931d2604528b34e37b711e00e21dbde11c7cf17a07abf9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/96119afbab355656c931d2604528b34e37b711e00e21dbde11c7cf17a07abf9a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SoundingActions%3A+Learning+How+Actions+Sound+from+Narrated+Egocentric+Videos%22",
+  "fetched_at": "2026-11-07T18:47:41Z",
+  "http_status": 200,
+  "content_sha256": "aa71909fd36fa29a7b5e83e2bc5d67239cfd4d8359d432912a5b1c35a789cc55",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/aa71909fd36fa29a7b5e83e2bc5d67239cfd4d8359d432912a5b1c35a789cc55.json.gz"
+}

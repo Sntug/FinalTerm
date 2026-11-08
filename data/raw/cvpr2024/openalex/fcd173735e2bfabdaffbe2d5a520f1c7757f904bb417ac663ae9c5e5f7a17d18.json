@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UniPT%3A+Universal+Parallel+Tuning+for+Transfer+Learning+with+Efficient+Parameter+and+Memory%22",
+  "fetched_at": "2026-11-07T18:52:57Z",
+  "http_status": 200,
+  "content_sha256": "7247f75ed16a5791e34402922f4a59bedaefc7ec8ee9294d4e6a1540ce3d3c33",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7247f75ed16a5791e34402922f4a59bedaefc7ec8ee9294d4e6a1540ce3d3c33.json.gz"
+}

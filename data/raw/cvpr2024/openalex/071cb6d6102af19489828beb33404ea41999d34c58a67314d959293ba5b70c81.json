@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improved+Implicit+Neural+Representation+with+Fourier+Reparameterized+Training%22",
+  "fetched_at": "2026-11-07T18:55:00Z",
+  "http_status": 200,
+  "content_sha256": "9757317e0c902fc2be40a7009e2594f48b5ae5aa9aeebdaee029a6dec9421643",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9757317e0c902fc2be40a7009e2594f48b5ae5aa9aeebdaee029a6dec9421643.json.gz"
+}

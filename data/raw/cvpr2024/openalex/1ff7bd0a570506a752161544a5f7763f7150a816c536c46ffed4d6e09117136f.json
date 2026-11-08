@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Scaling+Up+Video+Summarization+Pretraining+with+Large+Language+Models%22",
+  "fetched_at": "2026-11-07T18:51:24Z",
+  "http_status": 200,
+  "content_sha256": "9309577068eb4be5db2e7310b116b7706264694536bb82978c537ac9c118b410",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9309577068eb4be5db2e7310b116b7706264694536bb82978c537ac9c118b410.json.gz"
+}

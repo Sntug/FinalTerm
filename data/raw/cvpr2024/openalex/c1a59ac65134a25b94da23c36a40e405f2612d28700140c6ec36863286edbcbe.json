@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HumanGaussian%3A+Text-Driven+3D+Human+Generation+with+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-07T18:55:20Z",
+  "http_status": 200,
+  "content_sha256": "aca25444e0423808f114ec84fd019afc119308d119b4afd66a7d680e3856cbb1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/aca25444e0423808f114ec84fd019afc119308d119b4afd66a7d680e3856cbb1.json.gz"
+}

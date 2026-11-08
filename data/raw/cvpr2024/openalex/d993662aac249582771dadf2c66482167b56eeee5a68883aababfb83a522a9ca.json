@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dr2Net%3A+Dynamic+Reversible+Dual-Residual+Networks+for+Memory-Efficient+Finetuning%22",
+  "fetched_at": "2026-11-07T18:49:59Z",
+  "http_status": 200,
+  "content_sha256": "39099a8d556c08537a2129cb6dec7277f4426d98d286accad7319a4007c9c40b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/39099a8d556c08537a2129cb6dec7277f4426d98d286accad7319a4007c9c40b.json.gz"
+}

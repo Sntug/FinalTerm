@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Text+Grouping+Adapter%3A+Adapting+Pre-trained+Text+Detector+for+Layout+Analysis%22",
+  "fetched_at": "2026-11-07T18:56:00Z",
+  "http_status": 200,
+  "content_sha256": "2853eeca8fe127a9ac8d01864fdd93d70675629c9b8c91c4225788c8688c791c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2853eeca8fe127a9ac8d01864fdd93d70675629c9b8c91c4225788c8688c791c.json.gz"
+}

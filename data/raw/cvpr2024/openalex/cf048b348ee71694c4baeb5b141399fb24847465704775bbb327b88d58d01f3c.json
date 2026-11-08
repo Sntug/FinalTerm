@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Physical+Backdoor%3A+Towards+Temperature-based+Backdoor+Attacks+in+the+Physical+World%22",
+  "fetched_at": "2026-11-07T17:12:16Z",
+  "http_status": 200,
+  "content_sha256": "275c10b8d9c78e533237cf0d1e18936699855ebfe0985b9ba4adbf0cd5ba4321",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/275c10b8d9c78e533237cf0d1e18936699855ebfe0985b9ba4adbf0cd5ba4321.json.gz"
+}

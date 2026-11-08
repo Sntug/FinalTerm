@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Stealthy+Wrongdoer%3A+Feature-Oriented+Reconstruction+Attack+against+Split+Learning%22",
+  "fetched_at": "2026-11-07T18:50:39Z",
+  "http_status": 200,
+  "content_sha256": "925bd0b1d4e68cb2500f9baed835843d6464a932fee124c39b1a78d0dd928d24",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/925bd0b1d4e68cb2500f9baed835843d6464a932fee124c39b1a78d0dd928d24.json.gz"
+}

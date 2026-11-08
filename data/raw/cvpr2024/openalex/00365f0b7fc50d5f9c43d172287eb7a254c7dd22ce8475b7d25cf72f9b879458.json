@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Semantics+Distortion+and+Style+Matter%3A+Towards+Source-free+UDA+for+Panoramic+Segmentation%22",
+  "fetched_at": "2026-11-07T18:53:27Z",
+  "http_status": 200,
+  "content_sha256": "774c3bb29fa030a13d706236e1284140817267e05c25629beb3fd76329ed2472",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/774c3bb29fa030a13d706236e1284140817267e05c25629beb3fd76329ed2472.json.gz"
+}

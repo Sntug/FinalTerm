@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Can%27t+Make+an+Omelette+Without+Breaking+Some+Eggs%3A+Plausible+Action+Anticipation+Using+Large+Video-Language+Models%22",
+  "fetched_at": "2026-11-07T18:54:43Z",
+  "http_status": 200,
+  "content_sha256": "edef38fa3e64860dbe6378bde0e12d45322a82aa55b8b125ec21bcbac4ed128a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/edef38fa3e64860dbe6378bde0e12d45322a82aa55b8b125ec21bcbac4ed128a.json.gz"
+}

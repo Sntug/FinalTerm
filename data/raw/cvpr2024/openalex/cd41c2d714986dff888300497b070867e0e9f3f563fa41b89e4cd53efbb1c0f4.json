@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Depth+Completion+via+Depth+Feature+Upsampling%22",
+  "fetched_at": "2026-11-07T18:48:16Z",
+  "http_status": 200,
+  "content_sha256": "9a106516a8e5f7df1b4ab5573dbde12647eabf505543855f9e4e982dc6741dfb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9a106516a8e5f7df1b4ab5573dbde12647eabf505543855f9e4e982dc6741dfb.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+Deep+Unrolling+Networks+for+Phase+Unwrapping%22",
+  "fetched_at": "2026-11-07T18:56:24Z",
+  "http_status": 200,
+  "content_sha256": "b576c02212f1f104e064b10c1775d5c77f73d1bc963ab6573227d1fa0a00d115",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b576c02212f1f104e064b10c1775d5c77f73d1bc963ab6573227d1fa0a00d115.json.gz"
+}

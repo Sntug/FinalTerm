@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Physics-informed+Low-rank+Deep+Neural+Network+for+Blind+and+Universal+Lens+Aberration+Correction%22",
+  "fetched_at": "2026-11-07T18:54:47Z",
+  "http_status": 200,
+  "content_sha256": "a592ae7edb8f4f78e0c25cc25e4fe678dde040a36526721616352fac9ab85a45",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a592ae7edb8f4f78e0c25cc25e4fe678dde040a36526721616352fac9ab85a45.json.gz"
+}

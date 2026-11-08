@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PortraitBooth%3A+A+Versatile+Portrait+Model+for+Fast+Identity-preserved+Personalization%22",
+  "fetched_at": "2026-11-07T18:46:41Z",
+  "http_status": 200,
+  "content_sha256": "534d7cad41a94fb3e697c8bd2e7095d6a9bfca472df235a9397ca7b5df912d27",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/534d7cad41a94fb3e697c8bd2e7095d6a9bfca472df235a9397ca7b5df912d27.json.gz"
+}
