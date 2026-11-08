@@ -1,0 +1,14 @@
+{
+  "collection_complete": false,
+  "papers": 0,
+  "target_papers": 350,
+  "source_errors": [
+    {
+      "source": "CVF",
+      "reason": "[WinError 5] Access is denied: 'D:\\\\UET_Projects\\\\PTMXH\\\\FinalTerm\\\\data\\\\raw\\\\cvpr2024\\\\checkpoints\\\\.a2-4xlidy45' -> 'D:\\\\UET_Projects\\\\PTMXH\\\\FinalTerm\\\\data\\\\raw\\\\cvpr2024\\\\checkpoints\\\\a2_350.json'",
+      "retry_at": null
+    }
+  ],
+  "graph_ready": false,
+  "manifest": null
+}

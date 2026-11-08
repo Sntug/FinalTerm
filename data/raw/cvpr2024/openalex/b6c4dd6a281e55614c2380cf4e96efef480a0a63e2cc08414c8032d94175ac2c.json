@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Material+Palette%3A+Extraction+of+Materials+from+a+Single+Image%22",
+  "fetched_at": "2026-11-07T18:52:19Z",
+  "http_status": 200,
+  "content_sha256": "3503eaa3de6b7949339a1e4cb4a6f81e65692f3658eda3fb5ddc5cd7c2298b18",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/3503eaa3de6b7949339a1e4cb4a6f81e65692f3658eda3fb5ddc5cd7c2298b18.json.gz"
+}

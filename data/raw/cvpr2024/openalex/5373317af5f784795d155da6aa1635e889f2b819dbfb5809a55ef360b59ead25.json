@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neural+Parametric+Gaussians+for+Monocular+Non-Rigid+Object+Reconstruction%22",
+  "fetched_at": "2026-11-07T18:52:42Z",
+  "http_status": 200,
+  "content_sha256": "217858381b43c726b9a2634713524ffea38f63140e8c0703ecee04871362b86d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/217858381b43c726b9a2634713524ffea38f63140e8c0703ecee04871362b86d.json.gz"
+}

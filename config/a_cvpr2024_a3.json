@@ -1,0 +1,8 @@
+{
+  "input_manifest": "data/processed/cvpr2024/a2_350/snapshot_manifest.json",
+  "processed_dir": "data/processed/cvpr2024/a3_350",
+  "owner": "A",
+  "conference": "CVPR",
+  "conference_year": 2024,
+  "target_count": 350
+}

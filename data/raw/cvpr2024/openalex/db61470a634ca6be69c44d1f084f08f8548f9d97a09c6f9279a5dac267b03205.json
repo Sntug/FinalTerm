@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Realistic+Scene+Generation+with+LiDAR+Diffusion+Models%22",
+  "fetched_at": "2026-11-07T18:50:15Z",
+  "http_status": 200,
+  "content_sha256": "ff17dfd9c0dcb4224f2ad9fec01b83d5b09e84350ea9fe228ad03deb334c49c7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ff17dfd9c0dcb4224f2ad9fec01b83d5b09e84350ea9fe228ad03deb334c49c7.json.gz"
+}

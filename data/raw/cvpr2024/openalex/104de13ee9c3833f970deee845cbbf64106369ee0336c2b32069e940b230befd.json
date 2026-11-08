@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bayes%27+Rays%3A+Uncertainty+Quantification+for+Neural+Radiance+Fields%22",
+  "fetched_at": "2026-11-07T18:57:06Z",
+  "http_status": 200,
+  "content_sha256": "d8a1e52d8e3c52032b4e9e90330870f92a98c17aaf17f774f7ebfb64367dd6c0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d8a1e52d8e3c52032b4e9e90330870f92a98c17aaf17f774f7ebfb64367dd6c0.json.gz"
+}

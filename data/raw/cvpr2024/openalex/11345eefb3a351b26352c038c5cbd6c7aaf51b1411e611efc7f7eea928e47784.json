@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EfficientSAM%3A+Leveraged+Masked+Image+Pretraining+for+Efficient+Segment+Anything%22",
+  "fetched_at": "2026-11-07T18:56:58Z",
+  "http_status": 200,
+  "content_sha256": "cde73894b7ba549d1a9c6b176be9f87c03a11c7ec2fd73b5a6663ad59c9fde86",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/cde73894b7ba549d1a9c6b176be9f87c03a11c7ec2fd73b5a6663ad59c9fde86.json.gz"
+}

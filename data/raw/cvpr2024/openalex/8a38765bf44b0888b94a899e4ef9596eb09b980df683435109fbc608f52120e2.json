@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Learning+SO%283%29-Invariant+Semantic+Correspondence+via+Local+Shape+Transform",
+  "fetched_at": "2026-11-07T17:09:55Z",
+  "http_status": 200,
+  "content_sha256": "26df1a3195ff8c609c50d8dfd1a6e76911db7182acec3aa76fdde7b9961e2b75",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/26df1a3195ff8c609c50d8dfd1a6e76911db7182acec3aa76fdde7b9961e2b75.json.gz"
+}

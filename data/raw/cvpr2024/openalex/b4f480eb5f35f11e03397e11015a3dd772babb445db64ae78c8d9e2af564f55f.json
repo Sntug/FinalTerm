@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FaceChain-ImagineID%3A+Freely+Crafting+High-Fidelity+Diverse+Talking+Faces+from+Disentangled+Audio%22",
+  "fetched_at": "2026-11-07T17:12:36Z",
+  "http_status": 200,
+  "content_sha256": "b05b7c7185ea4ed743b7a8f9584b73087d38e28e2c2d6651d2fe7c8a6f88927a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b05b7c7185ea4ed743b7a8f9584b73087d38e28e2c2d6651d2fe7c8a6f88927a.json.gz"
+}

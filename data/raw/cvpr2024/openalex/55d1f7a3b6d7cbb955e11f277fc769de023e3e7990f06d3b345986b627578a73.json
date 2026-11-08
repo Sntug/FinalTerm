@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FISBe%3A+A+Real-World+Benchmark+Dataset+for+Instance+Segmentation+of+Long-Range+Thin+Filamentous+Structures%22",
+  "fetched_at": "2026-11-07T18:51:40Z",
+  "http_status": 200,
+  "content_sha256": "28f0c0fd1a9397605d357d6dc7ce2c2851cb6c976c37c643a4a960f1cbf422ba",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/28f0c0fd1a9397605d357d6dc7ce2c2851cb6c976c37c643a4a960f1cbf422ba.json.gz"
+}

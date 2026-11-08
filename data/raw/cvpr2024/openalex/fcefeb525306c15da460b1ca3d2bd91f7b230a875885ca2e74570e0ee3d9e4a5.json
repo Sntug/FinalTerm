@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Restoration+by+Generation+with+Constrained+Priors%22",
+  "fetched_at": "2026-11-07T18:56:34Z",
+  "http_status": 200,
+  "content_sha256": "78017872b02431b868152e19b3f94f67c3fa79718fd44feec72f9ba001724f55",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/78017872b02431b868152e19b3f94f67c3fa79718fd44feec72f9ba001724f55.json.gz"
+}

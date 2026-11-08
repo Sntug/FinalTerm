@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FocSAM%3A+Delving+Deeply+into+Focused+Objects+in+Segmenting+Anything%22",
+  "fetched_at": "2026-11-07T18:49:51Z",
+  "http_status": 200,
+  "content_sha256": "bbed72e70d9eb83f4d92785b162e54148a4b454a30693a3b16d6601616f0fba3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/bbed72e70d9eb83f4d92785b162e54148a4b454a30693a3b16d6601616f0fba3.json.gz"
+}

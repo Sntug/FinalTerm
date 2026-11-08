@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Density-Adaptive+Model+Based+on+Motif+Matrix+for+Multi-Agent+Trajectory+Prediction%22",
+  "fetched_at": "2026-11-07T18:53:31Z",
+  "http_status": 200,
+  "content_sha256": "d483521b7a7a73abbd679c07674e046d56972b33f1b6d96cb6765fa604967914",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d483521b7a7a73abbd679c07674e046d56972b33f1b6d96cb6765fa604967914.json.gz"
+}

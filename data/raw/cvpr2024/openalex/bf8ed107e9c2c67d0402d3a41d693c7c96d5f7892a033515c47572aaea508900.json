@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=VideoBooth%3A+Diffusion-based+Video+Generation+with+Image+Prompts",
+  "fetched_at": "2026-11-07T17:10:11Z",
+  "http_status": 200,
+  "content_sha256": "2e446bb4f44e485e0d13a581866485c68baa189e2866b22f068abbf932bcef1d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2e446bb4f44e485e0d13a581866485c68baa189e2866b22f068abbf932bcef1d.json.gz"
+}

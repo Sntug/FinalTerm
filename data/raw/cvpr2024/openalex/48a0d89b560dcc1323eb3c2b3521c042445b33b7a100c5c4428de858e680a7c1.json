@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SeNM-VAE%3A+Semi-Supervised+Noise+Modeling+with+Hierarchical+Variational+Autoencoder%22",
+  "fetched_at": "2026-11-07T18:50:03Z",
+  "http_status": 200,
+  "content_sha256": "0afdf38391d3e2358ded4e2ee0405cde26ddb6fef068406712ef3751847bd4f1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0afdf38391d3e2358ded4e2ee0405cde26ddb6fef068406712ef3751847bd4f1.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unexplored+Faces+of+Robustness+and+Out-of-Distribution%3A+Covariate+Shifts+in+Environment+and+Sensor+Domains%22",
+  "fetched_at": "2026-11-07T18:53:01Z",
+  "http_status": 200,
+  "content_sha256": "6a4c780f0c1d0b0e15fd1515272a65ca126293c460b037bdeeb5f6ae18108dae",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6a4c780f0c1d0b0e15fd1515272a65ca126293c460b037bdeeb5f6ae18108dae.json.gz"
+}

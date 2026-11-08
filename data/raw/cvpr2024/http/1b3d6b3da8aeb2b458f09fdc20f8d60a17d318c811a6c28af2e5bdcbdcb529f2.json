@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_Soften_to_Defend_Towards_Adversarial_Robustness_via_Self-Guided_Label_Refinement_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:45:03Z",
+  "http_status": 200,
+  "content_sha256": "3df1c41377a9b787a9b903abc48a9bf296e265363cd51de962b8d336382ecf71",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"197a-61a8f4cf07be6\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:33 GMT",
+  "raw_path": "data/raw/cvpr2024/http/3df1c41377a9b787a9b903abc48a9bf296e265363cd51de962b8d336382ecf71.html.gz"
+}

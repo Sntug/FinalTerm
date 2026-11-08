@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Evaluating+Transferability+in+Retrieval+Tasks%3A+An+Approach+Using+MMD+and+Kernel+Methods%22",
+  "fetched_at": "2026-11-07T18:54:01Z",
+  "http_status": 200,
+  "content_sha256": "e7f72b7b919a5c43c01bfdf0e1d0198e552d7b6a1434bd13b5d6aae9719b1e3d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e7f72b7b919a5c43c01bfdf0e1d0198e552d7b6a1434bd13b5d6aae9719b1e3d.json.gz"
+}

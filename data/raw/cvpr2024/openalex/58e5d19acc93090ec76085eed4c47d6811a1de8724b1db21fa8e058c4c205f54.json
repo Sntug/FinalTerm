@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generating+Content+for+HDR+Deghosting+from+Frequency+View%22",
+  "fetched_at": "2026-11-07T18:51:20Z",
+  "http_status": 200,
+  "content_sha256": "b59c68329f09553873f935868f3cc70b68124c8a348fdd5ac86767a3f32f1105",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b59c68329f09553873f935868f3cc70b68124c8a348fdd5ac86767a3f32f1105.json.gz"
+}

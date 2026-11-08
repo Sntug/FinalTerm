@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion+Handles+Enabling+3D+Edits+for+Diffusion+Models+by+Lifting+Activations+to+3D%22",
+  "fetched_at": "2026-11-07T18:56:19Z",
+  "http_status": 200,
+  "content_sha256": "55f4b3bf17e76733fd7cc7c3450e097a0a05bdaa09c6a54ee3d03e79e201be50",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/55f4b3bf17e76733fd7cc7c3450e097a0a05bdaa09c6a54ee3d03e79e201be50.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multiplane+Prior+Guided+Few-Shot+Aerial+Scene+Rendering%22",
+  "fetched_at": "2026-11-07T18:48:42Z",
+  "http_status": 200,
+  "content_sha256": "208bde348fa6217ecb5b67d4ba10f24a1b96e0be72c0d85e2036e0d579096146",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/208bde348fa6217ecb5b67d4ba10f24a1b96e0be72c0d85e2036e0d579096146.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neural+Exposure+Fusion+for+High-Dynamic+Range+Object+Detection%22",
+  "fetched_at": "2026-11-07T18:50:09Z",
+  "http_status": 200,
+  "content_sha256": "d51af060d3b97d382c11331cb078bafb6507376056a87e991e3e7791dc9143a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d51af060d3b97d382c11331cb078bafb6507376056a87e991e3e7791dc9143a4.json.gz"
+}

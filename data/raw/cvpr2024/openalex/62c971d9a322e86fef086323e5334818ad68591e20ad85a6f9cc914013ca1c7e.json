@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Equi-angular+Representations+for+Online+Continual+Learning%22",
+  "fetched_at": "2026-11-07T18:47:35Z",
+  "http_status": 200,
+  "content_sha256": "e7985b2c0a59b16b95c188d86cb71ac65e3a8810652af652b4c83b9f4dec36a0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e7985b2c0a59b16b95c188d86cb71ac65e3a8810652af652b4c83b9f4dec36a0.json.gz"
+}

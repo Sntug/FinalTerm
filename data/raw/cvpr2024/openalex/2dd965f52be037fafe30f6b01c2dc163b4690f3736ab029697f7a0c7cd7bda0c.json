@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VAREN%3A+Very+Accurate+and+Realistic+Equine+Network%22",
+  "fetched_at": "2026-11-07T18:47:46Z",
+  "http_status": 200,
+  "content_sha256": "149c2c0b6a58d88e51b8ce2ffc6758c77d04023bc8966f3be6e057375055bebd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/149c2c0b6a58d88e51b8ce2ffc6758c77d04023bc8966f3be6e057375055bebd.json.gz"
+}

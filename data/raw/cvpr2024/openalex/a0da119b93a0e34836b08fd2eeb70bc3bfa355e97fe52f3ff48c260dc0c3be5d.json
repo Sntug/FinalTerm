@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Understanding+and+Improving+Adversarial+Robustness+of+Vision+Transformers%22",
+  "fetched_at": "2026-11-07T18:52:00Z",
+  "http_status": 200,
+  "content_sha256": "b2d80bed86623b632a548f3290ccf2d0b7e41c5a57162981f3d132d823120b4f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b2d80bed86623b632a548f3290ccf2d0b7e41c5a57162981f3d132d823120b4f.json.gz"
+}

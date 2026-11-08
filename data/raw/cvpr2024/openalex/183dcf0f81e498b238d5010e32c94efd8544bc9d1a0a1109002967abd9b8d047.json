@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22NViST%3A+In+the+Wild+New+View+Synthesis+from+a+Single+Image+with+Transformers%22",
+  "fetched_at": "2026-11-07T18:55:38Z",
+  "http_status": 200,
+  "content_sha256": "a5c61f5a7ed106cb39b789574c08a853aee82fc58d7feebf50e8be9978647f9c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a5c61f5a7ed106cb39b789574c08a853aee82fc58d7feebf50e8be9978647f9c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Solving+the+Catastrophic+Forgetting+Problem+in+Generalized+Category+Discovery%22",
+  "fetched_at": "2026-11-07T18:57:16Z",
+  "http_status": 200,
+  "content_sha256": "f5942674a5f2af88b58257445ef7618d40e5c02f6bd1c4e4b80b4e12792f6039",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f5942674a5f2af88b58257445ef7618d40e5c02f6bd1c4e4b80b4e12792f6039.json.gz"
+}

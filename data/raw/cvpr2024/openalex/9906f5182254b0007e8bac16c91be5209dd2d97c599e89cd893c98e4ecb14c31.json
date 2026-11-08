@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoST%3A+Motion+Style+Transformer+Between+Diverse+Action+Contents%22",
+  "fetched_at": "2026-11-07T18:55:57Z",
+  "http_status": 200,
+  "content_sha256": "b59741c9581c1f30e6ac602037655612f2c17a5ac25d3c4f9a0f22f75fce068c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/b59741c9581c1f30e6ac602037655612f2c17a5ac25d3c4f9a0f22f75fce068c.json.gz"
+}

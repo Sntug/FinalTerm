@@ -1,7 +1,11 @@
 # Scope byte preservation to the A2 integration; leave B's paths unchanged.
 /config/contracts/v2/*.json -text
 /data/processed/cvpr2024/** -text
+/data/raw/cvpr2024/http/* -text
+/data/raw/cvpr2024/openalex/* -text
+/data/raw/cvpr2024/bootstrap_manifest.json -text
 /config/a_cvpr2024*.json text eol=lf
+/config/a_cvpr2024_350_registry.csv -text
 /src/collect/*.py text eol=lf
 /src/clean/text.py text eol=lf
 /quality/checks/test_a2_*.py text eol=lf

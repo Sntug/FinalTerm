@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Think+Twice+Before+Selection%3A+Federated+Evidential+Active+Learning+for+Medical+Image+Analysis+with+Domain+Shifts%22",
+  "fetched_at": "2026-11-07T18:50:50Z",
+  "http_status": 200,
+  "content_sha256": "8b9a1152ea8912daa073049848c6a850ddf002aaec369b352e7392006248f8fc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/8b9a1152ea8912daa073049848c6a850ddf002aaec369b352e7392006248f8fc.json.gz"
+}

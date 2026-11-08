@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ODM%3A+A+Text-Image+Further+Alignment+Pre-training+Approach+for+Scene+Text+Detection+and+Spotting%22",
+  "fetched_at": "2026-11-07T18:52:04Z",
+  "http_status": 200,
+  "content_sha256": "92924ca1608790aadc2f9b8fa2e4e192867096ad48cde6dc114828f390423b2e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/92924ca1608790aadc2f9b8fa2e4e192867096ad48cde6dc114828f390423b2e.json.gz"
+}

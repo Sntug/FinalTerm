@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Real-Time+Neural+BRDF+with+Spherically+Distributed+Primitives%22",
+  "fetched_at": "2026-11-07T17:12:34Z",
+  "http_status": 200,
+  "content_sha256": "66f57a51c69e1778b582006312863d808664cdfe13dcf53c9c033b03402c1836",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/66f57a51c69e1778b582006312863d808664cdfe13dcf53c9c033b03402c1836.json.gz"
+}

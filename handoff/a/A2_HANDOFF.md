@@ -1,91 +1,74 @@
-Cập nhật cấu hình OpenAlex 08/11/2026: key nạp được; một request nhỏ trả HTTP 200. Ưu tiên biến môi trường không rỗng, fallback .env ở repo root; không phụ thuộc CWD, không thêm dependency. 42 test qua, snapshot pilot giữ nguyên. Đủ để bàn giao collector/config cho B chạy pilot; chưa nghiệm thu 350. Chi tiết: `outputs/a2_cvpr2024/pilot/B_READINESS.md`. Không đưa .env vào gói gửi B.
+# Bàn giao A2 — CVPR 2024
 
-# A2 — cập nhật pilot ngày 08/11/2026
+Tài liệu chuẩn về vận hành và bàn giao A2, cập nhật 08/11/2026. Nhánh chuẩn bị bàn giao: `feat/a2-cvpr350`. **350 Paper A đã thu/xuất đủ; graph_ready=false.** Không thực hiện đầy đủ A3, NLP A4 hoặc Neo4j B3, không kết luận pilot nhóm hoàn tất.
 
-Nhánh vẫn `feat/a2-collector-v2`, chưa commit/push. Đã triển khai collector dùng chung và chạy đúng 30 Paper CVPR 2024 khóa từ A1. Kết quả: **30 hợp lệ; OpenAlex 27 matched, 0 not_found, 3 needs_review, 0 not_collected**. 159 authorship vẫn unresolved; affiliation chưa gắn vào tác giả CVF.
+## Dữ liệu hiện hành
 
-Export hiện hành: `data/processed/cvpr2024/pilot/snapshot_manifest.json`. Các bảng v2 được trỏ bằng đường dẫn tương đối repo root, trong `pilot/snapshots/<digest>/`. `graph_ready=false`. Verifier nhận `--manifest` độc lập. Schema v2 nguyên byte, raw CVF và export tích hợp cũ được giữ nguyên.
+| Chỉ số | Số lượng |
+| --- | --- |
+| Paper hợp lệ, ID duy nhất, owner=A, main CVPR 2024 | 350/350 |
+| Pilot giữ nguyên / thêm mới / loại hoặc chọn bù | 30 / 320 / 0 |
+| OpenAlex matched / not_found / needs_review / not_collected | 328 / 0 / 22 / 0 |
+| Abstract / DOI | 350/350 / 328/350 Paper |
+| Affiliation có trong raw Work matched | 323/350 Paper |
+| Affiliation đã xác minh gắn vào tác giả CVF | 0/350 Paper; 0/1.968 authorship |
+| References đã đọc / không rỗng | 328/350 / 321/350 Paper |
+| Nguồn / text versions / bảng / tổng records | 1.032 / 700 / 12 / 8.766 |
 
-Config A: `config/a_cvpr2024_pilot.json` (target_count=30, registry_input và selection_file khóa). Mẫu dùng chung cho B: `config/collector.example.json`. Runtime không hard-code owner A/số 30. Chỉ fixture ICCV được chạy trong thư mục tạm; không ghi ICCV chính thức.
+Snapshot: `snapshot:v2:f18c4b6c1e243abf26cccdfa520296599d2a5e2b96aa7da971cf8708ecc70ce8`. 7 Work có references rỗng theo OpenAlex; không suy rằng bài gốc không có tài liệu tham khảo. Xem [22 Work cần review](../../outputs/a2_cvpr2024/a2_350/WORK_REVIEW.md).
 
-Báo cáo hiện hành và lệnh PowerShell đã kiểm tra: `outputs/a2_cvpr2024/pilot/PILOT_REPORT.md`. `summary.json`, `live_summary.json`, `matching.json`, `tests.log`, `replay_check.json` là minh chứng. 37 test qua; offline và online từ cache giữ nguyên manifest, không request mới.
+| Thành phần | Đường dẫn từ repo root |
+| --- | --- |
+| Config / registry input | `config/a_cvpr2024_350.json`, `config/a_cvpr2024_350_registry.csv` |
+| Selection lock / bản sao bắt buộc | `config/a_cvpr2024_350_selection.json`, `data/processed/cvpr2024/a2_350/selection_lock.json` |
+| Manifest export cho A3/B | `data/processed/cvpr2024/a2_350/snapshot_manifest.json` |
+| Raw và metadata cache | `data/raw/cvpr2024/http/`, `data/raw/cvpr2024/openalex/` |
+| Checkpoint local | `data/raw/cvpr2024/checkpoints/a2_350.json` |
+| Báo cáo/bằng chứng | `outputs/a2_cvpr2024/a2_350/` |
 
-Phần còn lại: review C2RV và hai Work có byline khác CVF (Do Vision and Language Encoders Represent the World Similarly?, ADFactory); resolve danh tính/affiliation theo nguồn; sau khi được yêu cầu mới mở 350. Chưa chạy 350, chưa làm NLP/Neo4j. Không đổi schema, không tạo merge hoặc người duyệt giả.
+Đọc 12 bảng bằng đường dẫn trong manifest, không giả định bảng nằm trực tiếp dưới `data/processed`. Raw paths cũng tính từ repo root. Export và selection đã khóa là bất biến; không sửa để vượt kiểm tra hash.
 
----
+## Cách chạy
 
-Phần dưới là biên bản lịch sử của bước tích hợp ngày 07/11/2026; trạng thái/lệnh collector hiện hành nằm ở phần cập nhật trên và README.
-
-# A2 — bàn giao bước tích hợp offline
-
-Ngày: 07/11/2026. Thành viên A. Repo: `D:/UET_Projects/PTMXH/FinalTerm`.
-Nhánh sử dụng: `feat/a2-collector-v2`; HEAD lúc bắt đầu: `f323173`.
-
-## Trạng thái Git và phạm vi
-
-Đầu phiên, repo đã ở nhánh A phù hợp và có `?? handoff/`; các thư mục thực thi chỉ có `.gitkeep`. Nhánh `main` và remote-tracking `origin/main` tại chỗ cùng trỏ `f323173`. Không fetch/pull hoặc đổi nhánh vì tiếp tục nhánh A đang có; chưa xác nhận trạng thái mới nhất trên máy chủ. Không stage, commit, push, reset hoặc clean.
-
-Đã đọc README nhóm, `Plan_FinalTerm.docx`, README/CODEX_HANDOFF của A1, DATA_CONTRACT/FIELD_INDEX/JSON contract v2 và hướng dẫn migration. Không tìm thấy `AGENTS.md` trong repo hoặc các thư mục cha liên quan. Code Neo4j/NLP của B chưa có trong checkout này.
-
-## Phần đã tích hợp
-
-- `src/collect/cvf.py`: parser/listing/seed ranking kế thừa A1; giữ `cvf-html-1.0.0`. Parser vẫn tạo quan sát CVF theo hình dạng v1 nội bộ; `export.py` chuyển thực sự sang v2, thêm text versions, authorship IDs và field provenance.
-- `src/collect/cache.py`: cache CVF theo thư mục corpus, kiểm tra URL/hash, retry và resume; HTTP được mock khi test. CLI chỉ cho replay offline.
-- `src/collect/bootstrap.py`: đọc dữ liệu A1, chép riêng snapshot A, không import code từ handoff. Giữ compressed HTML bytes, Paper/source IDs và thời điểm thu gốc.
-- `src/collect/contract.py`: đọc schema chuẩn từ JSON, không tạo một schema khác bằng hằng Python. Bộ kiểm tra dùng subset ràng buộc hiện có; không tự nhận là validator Draft 2020-12 tổng quát.
-- `src/collect/export.py`, `pilot.py`, `verify.py`, `__main__.py`, `common.py`: xuất 12 bảng, manifest, kiểm tra từ raw và chạy lại có kiểm soát. Tệp khác nội dung bị từ chối ghi đè.
-- `src/clean/text.py`: helper nfc-ws-1, text/evidence ID v2 từ gói contract; không tạo global Author ID theo tên.
-- `quality/checks/test_a2_*.py`: các kiểm tra phù hợp từ A1/v2 đã chuyển import sang repo; thêm kiểm tra cách ly dữ liệu A, retry, resume và bảo toàn tệp đã tồn tại.
-
-Schema chuẩn duy nhất cho code repo: **`config/contracts/v2/data_contract.json`**, các `*.schema.json` cùng thư mục. Cả 14 JSON giống nguyên byte với `handoff/mxh_contract_v2/schemas/`; `data_contract_v1_archive.json` chỉ để đối chiếu lịch sử. Bản bàn giao gốc không bị sửa.
-
-Repo đang có `core.autocrlf=true`. `.gitattributes` mới chỉ giới hạn ở đường dẫn A2, giữ nguyên bytes schema và processed A để checkout không làm hỏng hash manifest. Không đặt quy tắc mới lên code/dữ liệu B.
-
-Config A là `config/a_cvpr2024_pilot.json` và `config/a_cvpr2024_selection.json`. Seed 20261103, giữ đúng 30 Paper/source IDs và thứ tự đã khóa. `target_count=350` chưa phải số đã thu. `pilot_count` khác 30 bị CLI bước này từ chối.
-
-## Dữ liệu đã kiểm tra
-
-| Nội dung | Kết quả |
-| --- | ---: |
-| Paper core CVPR 2024 | 30 / mục tiêu 350 |
-| Lượt authorship | 159, tất cả unresolved |
-| Source records / HTML snapshots | 31: 1 listing + 30 detail |
-| Text versions | 60: title + abstract |
-| Field provenance | 259 |
-| Bảng v2 / tổng record | 12 / 569 |
-| Request mạng thực | 0 |
-
-Metadata Paper, registry, authorship và text versions của A khớp dữ liệu v2 bàn giao. Source records giữ ID/hash nhưng đổi `raw_path` vào `data/raw/cvpr2024/http/`. Export bổ sung 30 dòng provenance cho `track`, chứng minh bằng listing main conference; đây là thêm dữ liệu theo schema v2 hiện có, không sửa schema. Tổng provenance A vì vậy tăng từ 229 lên 259.
-
-Raw chỉ ghi trong `data/raw/cvpr2024/`; processed chỉ ghi trong `data/processed/cvpr2024/`. Không tạo/ghi registry chung, không thay đổi thư mục ICCV. Bảng graph, alias, merge log, needs review rỗng trong snapshot này; `graph_ready=false` và số nút/cạnh là null. Không suy affiliation/citation/references còn thiếu thành 0, `[]` hoặc `Unknown`.
-
-## Chạy lại
-
-Tại repo root, Python 3.12+ và thư viện chuẩn:
+Python 3.12+ (đã kiểm tra 3.12.10), chỉ thư viện chuẩn; [requirements](../../config/requirements_a2.txt) không có package ngoài. Chạy tại thư mục gốc clone:
 
 ```powershell
-py -3.12 -B -X utf8 -m src.collect.bootstrap --input handoff/mxh_a1_pilot --config config/a_cvpr2024_pilot.json
-py -3.12 -B -X utf8 -m src.collect --offline --config config/a_cvpr2024_pilot.json
-py -3.12 -B -X utf8 -m src.collect.verify --config config/a_cvpr2024_pilot.json
+py -3.12 -B -X utf8 -m src.collect.verify --manifest data/processed/cvpr2024/a2_350/snapshot_manifest.json
+py -3.12 -B -X utf8 -m src.collect --config config/a_cvpr2024_350.json --offline
 py -3.12 -B -X utf8 -m unittest discover -s quality/checks -p "test_a2_*.py" -v
 ```
 
-Bootstrap chỉ cần khi chưa có cache, có thể gọi lại khi nội dung giống nhau. Replay/verify không phụ thuộc handoff sau bootstrap. Gói handoff gốc vẫn cần khi chạy các test đối chứng. Raw cache vẫn bị Git ignore như ban đầu: máy thứ hai cần cùng gói A1 hoặc bản sao `data/raw/cvpr2024/`; không chỉ clone code rồi coi là đã có snapshot.
+Resume có mạng: dùng lệnh collector trên và bỏ `--offline`. Selection đã có; `py -3.12 -B -X utf8 -m src.collect.selection --config config/a_cvpr2024_350.json` chỉ kiểm tra/reuse lock, không tải detail. Chọn thêm theo SHA-256(seed + newline + canonical_url), seed 20261103, tie-break URL, giữ thứ tự 30 pilot. Không chỉ sửa target_count trong config pilot.
 
-Kết quả chạy thật và giới hạn ở `outputs/a2_cvpr2024/VERIFICATION.md`, `offline_summary.json`, `tests.log`, `preservation_check.json`. `changed_files.json` liệt kê toàn bộ tệp mới/sửa, kể cả raw đang bị ignore. `integration_baseline.json` ghi hash các tệp trước tích hợp.
+Key: ưu tiên `OPENALEX_API_KEY` môi trường không rỗng, rồi `.env` tại repo root (độc lập CWD; Python vẫn cần tìm được module). Không ghi key vào URL/log/cache; dùng Bearer header. Kiểm tra riêng một request: `py -3.12 -B -X utf8 -m src.collect.auth_check`; chỉ trả trạng thái đã lọc. `.env.example` chỉ chứa placeholder/default, không gửi `.env`.
 
-## Phần A2 còn lại và phạm vi dự kiến
+Cache/resume kiểm tra hash; checkpoint mỗi bài, báo tiến độ mỗi 25 bài; 1 giây giữa request mỗi nguồn, timeout 30 giây, tối đa 2 retry. HTTP 429/Retry-After dài lưu gate/checkpoint, exit 2; tiếp tục sau retry_at. 401/403 không được coi là not_found. Không xóa gate, đổi key/host để né hạn mức; không chạy hai writer cùng config.
 
-A2 tổng thể **chưa hoàn thành**. Chưa triển khai collector OpenAlex, chưa mở manifest lên 350, chưa thu hàng loạt và chưa thử API thật. Thiếu 320 bài A so với mục tiêu. Ghép định danh, affiliation, references, DOI provenance ngoài pilot và kiểm tra trên máy B vẫn phải làm.
+## Contract, ID và provenance
 
-| Phạm vi tệp dự kiến | Công việc tiếp theo |
-| --- | --- |
-| `src/collect/cache.py`, `cvf.py`; thêm `openalex.py`, `selection.py` | Dùng chung CVF/OpenAlex, cache JSON, timeout/retry/quota theo tài liệu chính thức, che API key, checkpoint/resume và chọn 350 giữ 30 cũ |
-| `src/collect/__main__.py`, `pilot.py`, `export.py`, `verify.py`, `common.py` | CLI collector, kiểm tra Paper hợp lệ, manifest lô, xuất v2 và nguồn theo trường; phân biệt manifest ứng viên với bài đã xác minh |
-| `src/clean/text.py` hoặc helper nhỏ trong `src/clean/` | Chỉ chuẩn hóa/phục vụ matching cần thiết; không merge Author theo tên hoặc tự nhận affiliation đã đúng |
-| `config/a_cvpr2024_*.json` | Config 350, khóa thêm 320 ID theo seed; giữ 30 đã chốt, ghi rõ chọn bù bài không hợp lệ |
-| `quality/checks/test_a2_*.py` | Mock OpenAlex, retry/429/quota, gián đoạn và resume, secret redaction, ứng viên mơ hồ, 350 ID duy nhất, source/evidence hợp lệ |
-| `data/raw/cvpr2024/`, `data/processed/cvpr2024/` | Raw CVF/OpenAlex, source/selection/snapshot manifests và metadata A đã xác minh |
-| `outputs/a2_cvpr2024/`, `handoff/a/A2_HANDOFF.md`, `README.md` | Báo cáo độ phủ/lỗi/giới hạn và lệnh chạy collector thật |
+Schema thực thi: [config/contracts/v2](../../config/contracts/v2/data_contract.json), giữ nguyên 14 JSON từ bàn giao. Quy tắc đầy đủ: [DATA_CONTRACT](../mxh_contract_v2/docs/DATA_CONTRACT.md), [FIELD_INDEX](../mxh_contract_v2/docs/FIELD_INDEX.md); không tự sửa schema/cột.
 
-Schema `config/contracts/v2/` giữ nguyên; nếu cần đổi phải nêu migration/version và phối hợp với B. Không dự kiến sửa `src/graph`, `src/nlp`, `src/analysis`, `queries`, `report` hoặc dữ liệu ICCV trong bước collector của A. Việc hỗ trợ B dùng module chung không đồng nghĩa ghi lại dữ liệu B.
+- Paper ID CVF không đổi khi thêm DOI/Work; arXiv là liên kết phiên bản, không tạo Paper core khác. Main conference, title, ordered authors và năm được đối chiếu CVF. Thiếu DOI/affiliation/Work không loại Paper.
+- Title tương tự chỉ tạo ứng viên. Chấp nhận Work sau đối chiếu title/byline và DOI hoặc venue/year hoặc liên kết phiên bản. Không union tác giả; không gán cơ quan hiện tại ngược về bài.
+- Giữ raw bytes, fetched_at, source ID và content hash; field_provenance chỉ đúng nguồn/field/rule. Phân biệt hash raw với hash toàn trường text đã chuẩn hóa; giữ text_version_id và offset evidence theo contract.
+- Giữ null/trạng thái thiếu theo schema, không tạo reviewer/merge giả. `referenced_works` khác `cited_by_count`; citation_count phải có nguồn/thời điểm. Chưa tạo graph hoặc phân giải Author.
+
+## Kiểm tra và giới hạn
+
+46 test đã qua; verifier kiểm schema, raw hash, khóa ngoại và membership. Offline/resume có 0 request, không nhân đôi và manifest nguyên byte; 30 bản ghi pilot giữ nguyên. Validator nội bộ bao phủ các ràng buộc v2 đang dùng, không tự nhận là validator Draft 2020-12 tổng quát. [Bằng chứng kiểm tra/thu thật](../../outputs/a2_cvpr2024/a2_350/A2_350_REPORT.md).
+
+Lượt thu có 320 request CVF, 657 lần gọi OpenAlex cho 623 response mới; có 429 tạm thời đã retry thành công. Không còn source error/pending. Chưa ghi từng status trung gian nên không quy toàn bộ 34 lần gọi thêm cho 429. Lỗi khóa checkpoint Windows ở lượt offline đầu đã được sửa và test lại. Log lỗi và transport audit vẫn được giữ.
+
+Còn review 22 Work, xác minh 1.968 authorship/affiliation ở A3 và đánh giá precision thủ công; các phần này không bị gán hoàn thành bởi kết quả A2 metadata.
+
+## Bàn giao
+
+Commit code/helper, config mẫu, schema, tests và fixture lịch sử, registry/locks/export, raw nguồn **cùng metadata cache**, báo cáo/kiểm tra cần thiết. Các raw CVPR được source_records của snapshot hiện hành/lịch sử tham chiếu đều nằm trong gói Git; clone gói đã commit có thể verify/replay offline mà không tải lại nguồn. Giữ local secrets, môi trường ảo, checkpoint/quota gate, file tạm và các log/bản kiểm kê dư thừa đã liệt kê cụ thể trong `.gitignore`.
+
+A3 đọc manifest và hàng đợi review, không sửa snapshot A2. B dùng [collector.example.json](../../config/collector.example.json), tự cung cấp registry đúng owner/conference/year/target_count và đường dẫn ICCV riêng; khi mở rộng, pilot/seed/listing lock phải thuộc ICCV. Mẫu config không phải dữ liệu ICCV. Fixture ICCV đã qua, không xác nhận B đã chạy dữ liệu thật. Không thay đổi dữ liệu/chính sách raw ICCV của B.
+
+## Lịch sử ngắn
+
+- A1: pilot 30 CVPR + 30 ICCV CVF; v2 bổ sung provenance/text versions. Hai gói handoff gốc giữ nguyên để truy vết và làm fixture.
+- A2 pilot: 30 Paper A, 27 Work matched, 3 needs_review; metadata snapshot được giữ nguyên.
+- A2 350: thêm 320 theo ranking đã chốt; hoàn tất metadata theo số liệu trên. Người dùng cho phép A tiếp tục độc lập, không thay cho nghiệm thu pilot nhóm.

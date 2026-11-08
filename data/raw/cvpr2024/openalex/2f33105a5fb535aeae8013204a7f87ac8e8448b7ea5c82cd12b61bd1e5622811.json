@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BrainWash%3A+A+Poisoning+Attack+to+Forget+in+Continual+Learning%22",
+  "fetched_at": "2026-11-07T18:47:37Z",
+  "http_status": 200,
+  "content_sha256": "9654dc315678635a55c089485b5371f2a454a18a4bc5df587daa1528ef76f13e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/9654dc315678635a55c089485b5371f2a454a18a4bc5df587daa1528ef76f13e.json.gz"
+}

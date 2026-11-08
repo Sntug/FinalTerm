@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Generative+Approach+for+Wikipedia-Scale+Visual+Entity+Recognition%22",
+  "fetched_at": "2026-11-07T18:48:24Z",
+  "http_status": 200,
+  "content_sha256": "38cfd658c10f6ef9545e4982eb1fb4615204075dfa5072ba8622612564f9688b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/38cfd658c10f6ef9545e4982eb1fb4615204075dfa5072ba8622612564f9688b.json.gz"
+}

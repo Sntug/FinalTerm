@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Noohdani_Decompose-and-Compose_A_Compositional_Approach_to_Mitigating_Spurious_Correlation_CVPR_2024_paper.html",
+  "fetched_at": "2026-11-07T18:44:21Z",
+  "http_status": 200,
+  "content_sha256": "802423f63f95859e86620748ff483340d85e55554fb71b668aec44da7c0ad403",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1c02-61a8f4cf2ae6f\"",
+  "last_modified": "Mon, 10 Jun 2024 20:50:33 GMT",
+  "raw_path": "data/raw/cvpr2024/http/802423f63f95859e86620748ff483340d85e55554fb71b668aec44da7c0ad403.html.gz"
+}

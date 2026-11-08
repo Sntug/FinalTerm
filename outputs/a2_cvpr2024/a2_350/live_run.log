@@ -1,0 +1,88 @@
+CVF valid 25/350; requests 0
+CVF valid 50/350; requests 20
+CVF valid 75/350; requests 45
+CVF valid 100/350; requests 70
+CVF valid 125/350; requests 95
+CVF valid 150/350; requests 120
+CVF valid 175/350; requests 145
+CVF valid 200/350; requests 170
+CVF valid 225/350; requests 195
+CVF valid 250/350; requests 220
+CVF valid 275/350; requests 245
+CVF valid 300/350; requests 270
+CVF valid 325/350; requests 295
+CVF valid 350/350; requests 320
+OpenAlex completed 25/350; requests 0
+OpenAlex completed 50/350; requests 37
+OpenAlex completed 75/350; requests 85
+OpenAlex completed 100/350; requests 133
+OpenAlex completed 125/350; requests 183
+OpenAlex completed 150/350; requests 233
+OpenAlex completed 175/350; requests 282
+OpenAlex completed 200/350; requests 332
+OpenAlex completed 225/350; requests 380
+OpenAlex completed 250/350; requests 429
+OpenAlex completed 275/350; requests 477
+OpenAlex completed 300/350; requests 524
+OpenAlex completed 325/350; requests 585
+OpenAlex completed 350/350; requests 657
+CVF valid 350/350; OpenAlex completed 350/350
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:f18c4b6c1e243abf26cccdfa520296599d2a5e2b96aa7da971cf8708ecc70ce8",
+  "papers": 350,
+  "authorship_observations": 1968,
+  "raw_sources_checked": 1032,
+  "text_versions_checked": 700,
+  "tables_checked": 12,
+  "records_checked": 8766,
+  "graph_ready": false,
+  "collection_complete": true,
+  "target_papers": 350,
+  "openalex_status_counts": {
+    "matched": 328,
+    "not_found": 0,
+    "needs_review": 22,
+    "not_collected": 0
+  },
+  "coverage": {
+    "abstract": {
+      "numerator": 350,
+      "denominator": 350,
+      "percent": 100.0
+    },
+    "affiliation_verified_papers": {
+      "numerator": 0,
+      "denominator": 350,
+      "percent": 0.0
+    },
+    "affiliation_verified_authorships": {
+      "numerator": 0,
+      "denominator": 1968,
+      "percent": 0.0
+    },
+    "affiliation_available_in_matched_openalex_work": {
+      "numerator": 323,
+      "denominator": 350,
+      "percent": 92.29
+    },
+    "references_checked": {
+      "numerator": 328,
+      "denominator": 350,
+      "percent": 93.71
+    },
+    "references_nonempty": {
+      "numerator": 321,
+      "denominator": 350,
+      "percent": 91.71
+    }
+  },
+  "source_errors": [],
+  "unresolved_authorships": 1968,
+  "network_requests": {
+    "CVF": 320,
+    "OpenAlex": 657
+  },
+  "offline": false,
+  "manifest": "data/processed/cvpr2024/a2_350/snapshot_manifest.json"
+}

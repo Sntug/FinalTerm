@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Traceable+Federated+Continual+Learning%22",
+  "fetched_at": "2026-11-07T18:54:28Z",
+  "http_status": 200,
+  "content_sha256": "fbe1a0b4eac2847884979d080128916335c56ec8182333001f36303cc8f364c3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/fbe1a0b4eac2847884979d080128916335c56ec8182333001f36303cc8f364c3.json.gz"
+}

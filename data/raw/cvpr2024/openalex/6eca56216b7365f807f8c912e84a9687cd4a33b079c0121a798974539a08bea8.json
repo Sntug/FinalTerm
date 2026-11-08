@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adaptive+Fusion+of+Single-View+and+Multi-View+Depth+for+Autonomous+Driving%22",
+  "fetched_at": "2026-11-07T18:50:29Z",
+  "http_status": 200,
+  "content_sha256": "29498287ec9e5e43a6f2ea5bcb07a63baabc2212ec3a6e109234015565456572",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/29498287ec9e5e43a6f2ea5bcb07a63baabc2212ec3a6e109234015565456572.json.gz"
+}

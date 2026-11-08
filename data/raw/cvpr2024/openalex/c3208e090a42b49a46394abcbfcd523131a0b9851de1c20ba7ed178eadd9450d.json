@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CroSel%3A+Cross+Selection+of+Confident+Pseudo+Labels+for+Partial-Label+Learning%22",
+  "fetched_at": "2026-11-07T18:52:08Z",
+  "http_status": 200,
+  "content_sha256": "1897ec02d9e1ed69dc132cc1f1e7025c663c7a1c78bcaeaf3a779e26770b4bb1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/1897ec02d9e1ed69dc132cc1f1e7025c663c7a1c78bcaeaf3a779e26770b4bb1.json.gz"
+}

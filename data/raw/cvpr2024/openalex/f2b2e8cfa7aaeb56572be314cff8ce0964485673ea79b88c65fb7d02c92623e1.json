@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PromptCoT%3A+Align+Prompt+Distribution+via+Adapted+Chain-of-Thought%22",
+  "fetched_at": "2026-11-07T18:55:52Z",
+  "http_status": 200,
+  "content_sha256": "a7bf393e4cbfe9de7bd71898bd52332010dff403ecb850fb939030466a9d0fbd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/a7bf393e4cbfe9de7bd71898bd52332010dff403ecb850fb939030466a9d0fbd.json.gz"
+}

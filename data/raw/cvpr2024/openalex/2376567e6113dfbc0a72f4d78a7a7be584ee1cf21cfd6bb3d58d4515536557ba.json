@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LAA-Net%3A+Localized+Artifact+Attention+Network+for+Quality-Agnostic+and+Generalizable+Deepfake+Detection%22",
+  "fetched_at": "2026-11-07T18:46:47Z",
+  "http_status": 200,
+  "content_sha256": "d815a0b9dd8088cdc0f62f017203279cc4293812401456203954ce65e1c52e12",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d815a0b9dd8088cdc0f62f017203279cc4293812401456203954ce65e1c52e12.json.gz"
+}

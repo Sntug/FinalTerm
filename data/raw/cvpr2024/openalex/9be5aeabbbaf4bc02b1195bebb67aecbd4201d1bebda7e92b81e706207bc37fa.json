@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MonoDiff%3A+Monocular+3D+Object+Detection+and+Pose+Estimation+with+Diffusion+Models%22",
+  "fetched_at": "2026-11-07T18:47:47Z",
+  "http_status": 200,
+  "content_sha256": "44fc42228c3f2f050d5c63f4351b55d2c2d5b2bcc329bfce2b6312438bc0d149",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/44fc42228c3f2f050d5c63f4351b55d2c2d5b2bcc329bfce2b6312438bc0d149.json.gz"
+}

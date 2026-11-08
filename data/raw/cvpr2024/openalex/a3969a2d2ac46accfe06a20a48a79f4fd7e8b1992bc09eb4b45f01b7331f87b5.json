@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Benchmarking+Implicit+Neural+Representation+and+Geometric+Rendering+in+Real-Time+RGB-D+SLAM%22",
+  "fetched_at": "2026-11-07T18:48:23Z",
+  "http_status": 200,
+  "content_sha256": "92bffe7e3d69560b36e2b69bacb18eeb0b9987645db70c91ad5cb869fe13f65c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/92bffe7e3d69560b36e2b69bacb18eeb0b9987645db70c91ad5cb869fe13f65c.json.gz"
+}

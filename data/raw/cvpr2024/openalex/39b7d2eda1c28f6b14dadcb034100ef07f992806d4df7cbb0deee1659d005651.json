@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BlockGCN%3A+Redefine+Topology+Awareness+for+Skeleton-Based+Action+Recognition%22",
+  "fetched_at": "2026-11-07T18:48:04Z",
+  "http_status": 200,
+  "content_sha256": "1634ea9ff90f36a0697b0428dec2bbc7cb01e6ab979157af98c5df03dd954b17",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/1634ea9ff90f36a0697b0428dec2bbc7cb01e6ab979157af98c5df03dd954b17.json.gz"
+}

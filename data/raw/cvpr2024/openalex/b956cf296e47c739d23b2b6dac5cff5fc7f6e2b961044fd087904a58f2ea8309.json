@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Scalable+3D+Anomaly+Detection+and+Localization%3A+A+Benchmark+via+3D+Anomaly+Synthesis+and+A+Self-Supervised+Learning+Network%22",
+  "fetched_at": "2026-11-07T18:52:46Z",
+  "http_status": 200,
+  "content_sha256": "2e3b6a66ce8be36b505b316d082463d34eb532e62f521a7d0bff5b3ae185dec8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2e3b6a66ce8be36b505b316d082463d34eb532e62f521a7d0bff5b3ae185dec8.json.gz"
+}

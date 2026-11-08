@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ConsistDreamer%3A+3D-Consistent+2D+Diffusion+for+High-Fidelity+Scene+Editing%22",
+  "fetched_at": "2026-11-07T18:53:39Z",
+  "http_status": 200,
+  "content_sha256": "64b2e0edb95572e766926eff86870c1c90f5384f11e2c13be132ec7536089bad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/64b2e0edb95572e766926eff86870c1c90f5384f11e2c13be132ec7536089bad.json.gz"
+}

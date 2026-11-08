@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Revisiting+Global+Translation+Estimation+with+Feature+Tracks%22",
+  "fetched_at": "2026-11-07T18:53:19Z",
+  "http_status": 200,
+  "content_sha256": "08c043fd3c7b6725248defc73f07d0a9fc070cf2987d4bda304919a173513c4b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/08c043fd3c7b6725248defc73f07d0a9fc070cf2987d4bda304919a173513c4b.json.gz"
+}

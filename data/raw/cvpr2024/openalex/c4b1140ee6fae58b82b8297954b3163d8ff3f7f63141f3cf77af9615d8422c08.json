@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Task-Adaptive+Saliency+Guidance+for+Exemplar-free+Class+Incremental+Learning%22",
+  "fetched_at": "2026-11-07T18:50:21Z",
+  "http_status": 200,
+  "content_sha256": "4a27565ccf4c53d61799246d704f741d65dd9e68166c45c6f3e3a94e3d82dbeb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4a27565ccf4c53d61799246d704f741d65dd9e68166c45c6f3e3a94e3d82dbeb.json.gz"
+}

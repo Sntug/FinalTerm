@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GaussianEditor%3A+Swift+and+Controllable+3D+Editing+with+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-07T18:55:16Z",
+  "http_status": 200,
+  "content_sha256": "e411c045605afa89c774259fe75a7ae8a9a7a25d15ba1b600e59811f4bf659a0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e411c045605afa89c774259fe75a7ae8a9a7a25d15ba1b600e59811f4bf659a0.json.gz"
+}

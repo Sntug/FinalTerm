@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22XScale-NVS%3A+Cross-Scale+Novel+View+Synthesis+with+Hash+Featurized+Manifold%22",
+  "fetched_at": "2026-11-07T18:47:07Z",
+  "http_status": 200,
+  "content_sha256": "e2615db8881d568447732c89b57a1400de6accce02172810d816cdee18b57bfb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e2615db8881d568447732c89b57a1400de6accce02172810d816cdee18b57bfb.json.gz"
+}

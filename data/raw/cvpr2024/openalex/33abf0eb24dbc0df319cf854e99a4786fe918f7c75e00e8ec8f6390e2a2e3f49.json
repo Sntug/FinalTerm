@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Make+Pixels+Dance%3A+High-Dynamic+Video+Generation",
+  "fetched_at": "2026-11-07T17:09:51Z",
+  "http_status": 200,
+  "content_sha256": "59d4ad5e954fcc56eede0b2332ac922d1a98152e2ac2a64eb3c182eb706ab357",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/59d4ad5e954fcc56eede0b2332ac922d1a98152e2ac2a64eb3c182eb706ab357.json.gz"
+}

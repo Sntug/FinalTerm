@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+with+Structural+Labels+for+Learning+with+Noisy+Labels%22",
+  "fetched_at": "2026-11-07T18:51:10Z",
+  "http_status": 200,
+  "content_sha256": "d5374c1e608bee93e85795620576a7f1479e1c085f72adc5554029ed6a14462e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/d5374c1e608bee93e85795620576a7f1479e1c085f72adc5554029ed6a14462e.json.gz"
+}

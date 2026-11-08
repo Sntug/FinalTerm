@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Real-time+Acquisition+and+Reconstruction+of+Dynamic+Volumes+with+Neural+Structured+Illumination",
+  "fetched_at": "2026-11-07T17:09:59Z",
+  "http_status": 200,
+  "content_sha256": "0881b064f045915532045d211361bcb767daeafcdddf3208faeebf58e01826dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0881b064f045915532045d211361bcb767daeafcdddf3208faeebf58e01826dc.json.gz"
+}

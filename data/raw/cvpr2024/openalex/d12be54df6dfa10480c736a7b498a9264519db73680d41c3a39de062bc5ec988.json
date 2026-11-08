@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Subspace-Constrained+Tyler%27s+Estimator+and+its+Applications+to+Structure+from+Motion%22",
+  "fetched_at": "2026-11-07T18:56:30Z",
+  "http_status": 200,
+  "content_sha256": "ba7f7f163b14eeb945c3ad15751dfd6fe171035728e1499b8a360b1e64fb385a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ba7f7f163b14eeb945c3ad15751dfd6fe171035728e1499b8a360b1e64fb385a.json.gz"
+}

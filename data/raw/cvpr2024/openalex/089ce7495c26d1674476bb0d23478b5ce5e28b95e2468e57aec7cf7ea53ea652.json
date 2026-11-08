@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PanoPose%3A+Self-supervised+Relative+Pose+Estimation+for+Panoramic+Images%22",
+  "fetched_at": "2026-11-07T18:53:15Z",
+  "http_status": 200,
+  "content_sha256": "85fb33d952ed3d0929e88a05150908e8ef96d6915c78891930a1e1ba0090eab7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/85fb33d952ed3d0929e88a05150908e8ef96d6915c78891930a1e1ba0090eab7.json.gz"
+}

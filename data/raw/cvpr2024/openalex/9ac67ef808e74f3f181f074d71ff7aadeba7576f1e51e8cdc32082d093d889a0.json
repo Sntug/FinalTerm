@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+the+Evaluation+Protocol+of+Domain+Generalization%22",
+  "fetched_at": "2026-11-07T18:52:15Z",
+  "http_status": 200,
+  "content_sha256": "4bd4e32c47d6604e76d3b424dca04b5127b71134f216d012c7b208a088dcc37c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4bd4e32c47d6604e76d3b424dca04b5127b71134f216d012c7b208a088dcc37c.json.gz"
+}

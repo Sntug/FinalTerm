@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Language+Embedded+3D+Gaussians+for+Open-Vocabulary+Scene+Understanding%22",
+  "fetched_at": "2026-11-07T18:50:48Z",
+  "http_status": 200,
+  "content_sha256": "be40871fd1653119828478eb84758850bbed896a5c87cf132ea5134438e578cd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/be40871fd1653119828478eb84758850bbed896a5c87cf132ea5134438e578cd.json.gz"
+}

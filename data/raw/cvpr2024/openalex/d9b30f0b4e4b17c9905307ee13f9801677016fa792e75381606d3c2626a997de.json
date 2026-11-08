@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Your+Transferability+Barrier+is+Fragile%3A+Free-Lunch+for+Transferring+the+Non-Transferable+Learning%22",
+  "fetched_at": "2026-11-07T18:53:35Z",
+  "http_status": 200,
+  "content_sha256": "635956f7034bd6dfa55a6b553747ee68b94521aa8660134fb1353f0fdfe05ff5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/635956f7034bd6dfa55a6b553747ee68b94521aa8660134fb1353f0fdfe05ff5.json.gz"
+}

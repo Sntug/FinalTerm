@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OVER-NAV%3A+Elevating+Iterative+Vision-and-Language+Navigation+with+Open-Vocabulary+Detection+and+StructurEd+Representation%22",
+  "fetched_at": "2026-11-07T18:50:13Z",
+  "http_status": 200,
+  "content_sha256": "6314baff2f6abebaa22b8a25d009be4deaa6b3b14c6cfb13e40efd89686791ae",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/6314baff2f6abebaa22b8a25d009be4deaa6b3b14c6cfb13e40efd89686791ae.json.gz"
+}

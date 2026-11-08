@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Overload%3A+Latency+Attacks+on+Object+Detection+for+Edge+Devices%22",
+  "fetched_at": "2026-11-07T18:48:50Z",
+  "http_status": 200,
+  "content_sha256": "849a6d7c9ef6f7de8232336210996186bb29c0b8a612d32f819a2f0892a00a62",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/849a6d7c9ef6f7de8232336210996186bb29c0b8a612d32f819a2f0892a00a62.json.gz"
+}

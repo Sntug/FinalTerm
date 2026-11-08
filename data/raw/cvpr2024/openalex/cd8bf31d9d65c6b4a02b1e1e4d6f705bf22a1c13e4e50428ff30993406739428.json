@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22C%5E2RV%3A+Cross-Regional+and+Cross-View+Learning+for+Sparse-View+CBCT+Reconstruction%22",
+  "fetched_at": "2026-11-07T17:12:01Z",
+  "http_status": 200,
+  "content_sha256": "66c4eb13559ff1edcdfc642baef1f798354f61d87dbaba9dc547022700112d69",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/66c4eb13559ff1edcdfc642baef1f798354f61d87dbaba9dc547022700112d69.json.gz"
+}

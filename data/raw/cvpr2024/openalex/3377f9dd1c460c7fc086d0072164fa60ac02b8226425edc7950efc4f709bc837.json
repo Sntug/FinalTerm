@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GSNeRF%3A+Generalizable+Semantic+Neural+Radiance+Fields+with+Enhanced+3D+Scene+Understanding%22",
+  "fetched_at": "2026-11-07T17:12:53Z",
+  "http_status": 200,
+  "content_sha256": "471a7e38fa61c434cb0164cc9e57f1ee656f9f6b1acaf9caca290c0ca1e2d2d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/471a7e38fa61c434cb0164cc9e57f1ee656f9f6b1acaf9caca290c0ca1e2d2d6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Temporally+Consistent+Unbalanced+Optimal+Transport+for+Unsupervised+Action+Segmentation%22",
+  "fetched_at": "2026-11-07T18:47:17Z",
+  "http_status": 200,
+  "content_sha256": "0d1934fcb581149ccc030550cb50cefbb1f54cbbb793dfe51e8714ddba635f79",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/0d1934fcb581149ccc030550cb50cefbb1f54cbbb793dfe51e8714ddba635f79.json.gz"
+}

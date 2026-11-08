@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SNI-SLAM%3A+Semantic+Neural+Implicit+SLAM%22",
+  "fetched_at": "2026-11-07T18:56:27Z",
+  "http_status": 200,
+  "content_sha256": "e0ac15fb94e251bd7731caf2982287f81bfc3f46efe937c75817a1df8c851c67",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e0ac15fb94e251bd7731caf2982287f81bfc3f46efe937c75817a1df8c851c67.json.gz"
+}

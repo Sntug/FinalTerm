@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22All+Rivers+Run+to+the+Sea%3A+Private+Learning+with+Asymmetric+Flows%22",
+  "fetched_at": "2026-11-07T18:53:29Z",
+  "http_status": 200,
+  "content_sha256": "eaa57f5ffbc9f1631fd9403c618971777e8b7a70ef4891900077e481eae10733",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/eaa57f5ffbc9f1631fd9403c618971777e8b7a70ef4891900077e481eae10733.json.gz"
+}

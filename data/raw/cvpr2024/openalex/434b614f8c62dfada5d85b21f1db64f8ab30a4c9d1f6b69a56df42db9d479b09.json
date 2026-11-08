@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Joint-Task+Regularization+for+Partially+Labeled+Multi-Task+Learning%22",
+  "fetched_at": "2026-11-07T18:57:40Z",
+  "http_status": 200,
+  "content_sha256": "22db1e45f78b392d6429cae1d2d418b6f6afdc85429e4f12e0d39e4c8b9e8b5a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/22db1e45f78b392d6429cae1d2d418b6f6afdc85429e4f12e0d39e4c8b9e8b5a.json.gz"
+}

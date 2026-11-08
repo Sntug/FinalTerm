@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Ensemble+Diversity+Facilitates+Adversarial+Transferability%22",
+  "fetched_at": "2026-11-07T18:50:31Z",
+  "http_status": 200,
+  "content_sha256": "e037bd106c513022becee47cc9295ee2e80da7aaf977815e9d029c52b4bcc0e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/e037bd106c513022becee47cc9295ee2e80da7aaf977815e9d029c52b4bcc0e7.json.gz"
+}

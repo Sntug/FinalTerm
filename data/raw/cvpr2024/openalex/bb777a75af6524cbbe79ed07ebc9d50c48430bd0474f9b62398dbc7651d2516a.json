@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=X-Adapter%3A+Adding+Universal+Compatibility+of+Plugins+for+Upgraded+Diffusion+Model",
+  "fetched_at": "2026-11-07T18:55:06Z",
+  "http_status": 200,
+  "content_sha256": "7ee8f9b4f4f762e068019da3d0c81c6ad9d2ca2f0c8223fc70caa07974d7e2f9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7ee8f9b4f4f762e068019da3d0c81c6ad9d2ca2f0c8223fc70caa07974d7e2f9.json.gz"
+}

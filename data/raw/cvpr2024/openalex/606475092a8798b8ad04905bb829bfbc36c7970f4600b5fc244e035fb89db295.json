@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Robust+Self-calibration+of+Focal+Lengths+from+the+Fundamental+Matrix%22",
+  "fetched_at": "2026-11-07T18:51:12Z",
+  "http_status": 200,
+  "content_sha256": "f77a5aee415293d3379e98e9da9f6055094321a3b090191eba7c3ab68c1e14b7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f77a5aee415293d3379e98e9da9f6055094321a3b090191eba7c3ab68c1e14b7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Atom-Level+Optical+Chemical+Structure+Recognition+with+Limited+Supervision%22",
+  "fetched_at": "2026-11-07T18:50:05Z",
+  "http_status": 200,
+  "content_sha256": "f92768ea0f99826267c510b688d8b7ea2d9a4d605c56ebfc4b2b69acd4be3eb4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f92768ea0f99826267c510b688d8b7ea2d9a4d605c56ebfc4b2b69acd4be3eb4.json.gz"
+}

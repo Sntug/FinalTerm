@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DreamMatcher%3A+Appearance+Matching+Self-Attention+for+Semantically-Consistent+Text-to-Image+Personalization%22",
+  "fetched_at": "2026-11-07T18:53:09Z",
+  "http_status": 200,
+  "content_sha256": "f019405dd88f42114186700736006969f15a9cb4737cc5ec9f24a1e9f382a0df",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/f019405dd88f42114186700736006969f15a9cb4737cc5ec9f24a1e9f382a0df.json.gz"
+}

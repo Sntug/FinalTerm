@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Spectrum+AUC+Difference+%28SAUCD%29%3A+Human-aligned+3D+Shape+Evaluation%22",
+  "fetched_at": "2026-11-07T18:52:31Z",
+  "http_status": 200,
+  "content_sha256": "290975ff3ff8af3d40ce97d20693136326c6b94eabe5e8c6c07ed7ca159e12cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/290975ff3ff8af3d40ce97d20693136326c6b94eabe5e8c6c07ed7ca159e12cb.json.gz"
+}

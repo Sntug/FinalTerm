@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SPU-PMD%3A+Self-Supervised+Point+Cloud+Upsampling+via+Progressive+Mesh+Deformation%22",
+  "fetched_at": "2026-11-07T17:12:44Z",
+  "http_status": 200,
+  "content_sha256": "193a5599cad05cb545e4537df076b89e1b3bdf38405c9b496a11a20ce52fd42c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/193a5599cad05cb545e4537df076b89e1b3bdf38405c9b496a11a20ce52fd42c.json.gz"
+}

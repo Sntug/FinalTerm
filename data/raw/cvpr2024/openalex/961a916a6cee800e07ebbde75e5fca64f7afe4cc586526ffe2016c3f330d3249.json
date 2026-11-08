@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InterHandGen%3A+Two-Hand+Interaction+Generation+via+Cascaded+Reverse+Diffusion%22",
+  "fetched_at": "2026-11-07T18:54:10Z",
+  "http_status": 200,
+  "content_sha256": "4988e4d6f3c950f08c5efadba8895c2e05823e494d6030115232225657840c2f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/4988e4d6f3c950f08c5efadba8895c2e05823e494d6030115232225657840c2f.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diversity-aware+Channel+Pruning+for+StyleGAN+Compression%22",
+  "fetched_at": "2026-11-07T18:52:53Z",
+  "http_status": 200,
+  "content_sha256": "75a407ab6f924dbd73deb77df929ee3f767f96e3f8b4e8e129e08b5e8d90e362",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/75a407ab6f924dbd73deb77df929ee3f767f96e3f8b4e8e129e08b5e8d90e362.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HDRFlow%3A+Real-Time+HDR+Video+Reconstruction+with+Large+Motions%22",
+  "fetched_at": "2026-11-07T18:51:32Z",
+  "http_status": 200,
+  "content_sha256": "60e8c361bc0662463dece5ba814eba88194d14fd085c553a2a3bebe2cd61b915",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/60e8c361bc0662463dece5ba814eba88194d14fd085c553a2a3bebe2cd61b915.json.gz"
+}

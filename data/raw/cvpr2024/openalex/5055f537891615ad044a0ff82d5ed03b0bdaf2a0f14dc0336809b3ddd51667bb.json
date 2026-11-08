@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22S2MVTC%3A+a+Simple+yet+Efficient+Scalable+Multi-View+Tensor+Clustering%22",
+  "fetched_at": "2026-11-07T18:47:21Z",
+  "http_status": 200,
+  "content_sha256": "dcd728c335e466331eed5d9cd9497e720a7e2cf9afeda554f46e6144b92732d4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/dcd728c335e466331eed5d9cd9497e720a7e2cf9afeda554f46e6144b92732d4.json.gz"
+}

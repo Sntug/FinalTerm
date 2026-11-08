@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LocLLM%3A+Exploiting+Generalizable+Human+Keypoint+Localization+via+Large+Language+Model%22",
+  "fetched_at": "2026-11-07T18:50:56Z",
+  "http_status": 200,
+  "content_sha256": "ee8ccbe1708edf47f0e92d473f3a11aa0ef2be28032323eb510f053c4c5fbcb0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ee8ccbe1708edf47f0e92d473f3a11aa0ef2be28032323eb510f053c4c5fbcb0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Groupwise+Query+Specialization+and+Quality-Aware+Multi-Assignment+for+Transformer-based+Visual+Relationship+Detection%22",
+  "fetched_at": "2026-11-07T18:47:19Z",
+  "http_status": 200,
+  "content_sha256": "72be51103dfaab34b23e31dd694d2f3d37be43aa34e4e83a114dda9ed6426905",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/72be51103dfaab34b23e31dd694d2f3d37be43aa34e4e83a114dda9ed6426905.json.gz"
+}

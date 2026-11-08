@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22State+Space+Models+for+Event+Cameras%22",
+  "fetched_at": "2026-11-07T18:54:42Z",
+  "http_status": 200,
+  "content_sha256": "39f07f3f455593ca5e3052461c22d0adcd181ffa71dc0deaa6c5fbbaad9ddd49",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/39f07f3f455593ca5e3052461c22d0adcd181ffa71dc0deaa6c5fbbaad9ddd49.json.gz"
+}

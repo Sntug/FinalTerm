@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bidirectional+Multi-Scale+Implicit+Neural+Representations+for+Image+Deraining%22",
+  "fetched_at": "2026-11-07T18:53:13Z",
+  "http_status": 200,
+  "content_sha256": "7a20b437e7ceb5e10bfd3e443fcdd76a8fed12ec0f0f71486cab0c186135ffb6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/7a20b437e7ceb5e10bfd3e443fcdd76a8fed12ec0f0f71486cab0c186135ffb6.json.gz"
+}

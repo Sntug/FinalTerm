@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InstructDiffusion%3A+A+Generalist+Modeling+Interface+for+Vision+Tasks%22",
+  "fetched_at": "2026-11-07T18:57:33Z",
+  "http_status": 200,
+  "content_sha256": "ced4f4668e8c34caebce9849fbd7b7cf31a2d628418fac2cebec9f8d05e83ade",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/ced4f4668e8c34caebce9849fbd7b7cf31a2d628418fac2cebec9f8d05e83ade.json.gz"
+}

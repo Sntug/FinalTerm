@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/CVPR2024?day=all",
+  "fetched_at": "2026-11-05T11:16:51Z",
+  "http_status": 200,
+  "content_sha256": "720265923ad5cc65224d2ce1cd9cea868c6e4589ae51c05d1493f1f9d9aea03c",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/http/720265923ad5cc65224d2ce1cd9cea868c6e4589ae51c05d1493f1f9d9aea03c.html.gz"
+}

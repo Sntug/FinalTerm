@@ -7,9 +7,39 @@ __pycache__/
 .DS_Store
 *.dump
 
-# Giữ thư mục nguồn trong Git, lưu snapshot thô riêng.
+# Giữ chính sách raw mặc định của nhóm/B; A2 CVPR có ngoại lệ bên dưới.
 /data/raw/**
 !/data/raw/**/
 !/data/raw/**/.gitkeep
+
+# A2: nguồn bất biến + metadata cache cần cho verifier/replay offline.
+!/data/raw/cvpr2024/http/[0-9a-f]*.html.gz
+!/data/raw/cvpr2024/http/[0-9a-f]*.json
+!/data/raw/cvpr2024/openalex/[0-9a-f]*.json.gz
+!/data/raw/cvpr2024/openalex/[0-9a-f]*.json
+!/data/raw/cvpr2024/bootstrap_manifest.json
+
+# Trạng thái vận hành/tệp tạm A2: giữ local, không xóa để né quota.
+/data/raw/cvpr2024/checkpoints/
+/data/raw/cvpr2024/collector_checkpoint.json
+/data/raw/cvpr2024/http/cvf_rate_limit.json
+/data/raw/cvpr2024/openalex/rate_limit.json
+/data/raw/cvpr2024/**/.a2-*
+/data/processed/cvpr2024/**/.a2-*
+/outputs/a2_cvpr2024/a2test_*/
+
+# Kiểm kê/debug trung gian hoặc bản summary mutable; giữ bằng chứng cuối.
+/outputs/a2_cvpr2024/changed_files.json
+/outputs/a2_cvpr2024/integration_baseline.json
+/outputs/a2_cvpr2024/pilot/before_collector.json
+/outputs/a2_cvpr2024/pilot/changes_and_preservation.json
+/outputs/a2_cvpr2024/pilot/collector_tests.log
+/outputs/a2_cvpr2024/pilot/summary.json
+/outputs/a2_cvpr2024/a2_350/gate_checks.json
+/outputs/a2_cvpr2024/a2_350/implementation_tests.log
+/outputs/a2_cvpr2024/a2_350/tests.log
+/outputs/a2_cvpr2024/a2_350/verify.log
+/outputs/a2_cvpr2024/a2_350/summary.json
+/outputs/a2_cvpr2024/a2_350/offline_summary.json
 
 .neo4j-pilot/

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ToNNO%3A+Tomographic+Reconstruction+of+a+Neural+Network%27s+Output+for+Weakly+Supervised+Segmentation+of+3D+Medical+Images%22",
+  "fetched_at": "2026-11-07T18:51:56Z",
+  "http_status": 200,
+  "content_sha256": "76b4b5cc4b50b4641119c2753c346616b36ed074bfd94d06e7757f5bee4bb96a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/76b4b5cc4b50b4641119c2753c346616b36ed074bfd94d06e7757f5bee4bb96a.json.gz"
+}

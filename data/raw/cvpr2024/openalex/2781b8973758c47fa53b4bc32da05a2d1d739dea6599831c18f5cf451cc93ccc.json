@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Sculpt3D%3A+Multi-View+Consistent+Text-to-3D+Generation+with+Sparse+3D+Prior%22",
+  "fetched_at": "2026-11-07T18:50:25Z",
+  "http_status": 200,
+  "content_sha256": "596be09dcc80f3f48b6ffecea84e145da7e53163fb6fee7991ec2b538cdb99e1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/596be09dcc80f3f48b6ffecea84e145da7e53163fb6fee7991ec2b538cdb99e1.json.gz"
+}

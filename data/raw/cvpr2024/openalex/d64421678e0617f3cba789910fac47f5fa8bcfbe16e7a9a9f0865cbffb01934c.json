@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GP-NeRF%3A+Generalized+Perception+NeRF+for+Context-Aware+3D+Scene+Understanding%22",
+  "fetched_at": "2026-11-07T18:51:54Z",
+  "http_status": 200,
+  "content_sha256": "1381d5790ac6cda9081569b0f8cd1523a3361262b7892e5937a01a2979f12a7c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/1381d5790ac6cda9081569b0f8cd1523a3361262b7892e5937a01a2979f12a7c.json.gz"
+}

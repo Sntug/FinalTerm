@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Do+Vision+and+Language+Encoders+Represent+the+World+Similarly%3F",
+  "fetched_at": "2026-11-07T17:10:04Z",
+  "http_status": 200,
+  "content_sha256": "01e83dcb12e26d406120ac88a9ea7e260df28b98ac0bf3f4b02155999774256f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/01e83dcb12e26d406120ac88a9ea7e260df28b98ac0bf3f4b02155999774256f.json.gz"
+}

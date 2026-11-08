@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Telling+Left+from+Right%3A+Identifying+Geometry-Aware+Semantic+Correspondence%22",
+  "fetched_at": "2026-11-07T18:52:40Z",
+  "http_status": 200,
+  "content_sha256": "2bb894f5861ef5d2f916a7c1c156a7ad35ce0b3aafda2e0533e3da52baa9bdaf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/2bb894f5861ef5d2f916a7c1c156a7ad35ce0b3aafda2e0533e3da52baa9bdaf.json.gz"
+}

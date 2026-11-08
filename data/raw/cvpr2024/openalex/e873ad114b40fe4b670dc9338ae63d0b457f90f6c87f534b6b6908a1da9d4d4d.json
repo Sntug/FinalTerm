@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FlashAvatar%3A+High-fidelity+Head+Avatar+with+Efficient+Gaussian+Embedding%22",
+  "fetched_at": "2026-11-07T18:55:49Z",
+  "http_status": 200,
+  "content_sha256": "19fc165df28a8d746499167c70a9c10ed4e0e369c6f717599522d22d8882fde0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2024/openalex/19fc165df28a8d746499167c70a9c10ed4e0e369c6f717599522d22d8882fde0.json.gz"
+}
