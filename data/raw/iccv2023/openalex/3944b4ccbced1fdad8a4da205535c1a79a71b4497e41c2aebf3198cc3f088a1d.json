@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Similarity+Min-Max%3A+Zero-Shot+Day-Night+Domain+Adaptation%22",
+  "fetched_at": "2026-11-08T01:49:19Z",
+  "http_status": 200,
+  "content_sha256": "312d76708e3ba41fc113b86fbda9761868c18fa96df89d6670748f589c432995",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/312d76708e3ba41fc113b86fbda9761868c18fa96df89d6670748f589c432995.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ReFit%3A+Recurrent+Fitting+Network+for+3D+Human+Recovery%22",
+  "fetched_at": "2026-11-08T01:47:29Z",
+  "http_status": 200,
+  "content_sha256": "db58c66b8f856c52f8ccd0db32b18144b6ab0148fb7cad6cfb4e7d67bd123379",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/db58c66b8f856c52f8ccd0db32b18144b6ab0148fb7cad6cfb4e7d67bd123379.json.gz"
+}

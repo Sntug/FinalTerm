@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Distilling+Coarse-to-Fine+Semantic+Matching+Knowledge+for+Weakly+Supervised+3D+Visual+Grounding%22",
+  "fetched_at": "2026-11-08T01:51:57Z",
+  "http_status": 200,
+  "content_sha256": "7defc3deda9d1f0a382d3c1fad0ade2cbde536dbcac1db2cf60580eafe63958c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7defc3deda9d1f0a382d3c1fad0ade2cbde536dbcac1db2cf60580eafe63958c.json.gz"
+}

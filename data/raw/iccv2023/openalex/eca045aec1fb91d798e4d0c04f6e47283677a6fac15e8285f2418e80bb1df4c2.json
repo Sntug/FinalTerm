@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Saliency+Regularization+for+Self-Training+with+Partial+Annotations%22",
+  "fetched_at": "2026-11-08T01:25:48Z",
+  "http_status": 200,
+  "content_sha256": "6279d503383f42291158a0791fa389fbf40636d84ef5d038558ee9a60b442bd9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6279d503383f42291158a0791fa389fbf40636d84ef5d038558ee9a60b442bd9.json.gz"
+}

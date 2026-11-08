@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fg-T2M%3A+Fine-Grained+Text-Driven+Human+Motion+Generation+via+Diffusion+Model%22",
+  "fetched_at": "2026-11-08T01:26:10Z",
+  "http_status": 200,
+  "content_sha256": "a3f8c7079c622decccf9165f529a883fc0934e7581e9ba337e831635c5fb6ef3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a3f8c7079c622decccf9165f529a883fc0934e7581e9ba337e831635c5fb6ef3.json.gz"
+}

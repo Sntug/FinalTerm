@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Suzuki_Adversarial_Finetuning_with_Latent_Representation_Constraint_to_Mitigate_Accuracy-Robustness_Tradeoff_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:20:06Z",
+  "http_status": 200,
+  "content_sha256": "d8ad7027c07f62f61f94e970145166ff250f31146f128eaf987b6eecac678101",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a38-606872aca1445\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/d8ad7027c07f62f61f94e970145166ff250f31146f128eaf987b6eecac678101.html.gz"
+}

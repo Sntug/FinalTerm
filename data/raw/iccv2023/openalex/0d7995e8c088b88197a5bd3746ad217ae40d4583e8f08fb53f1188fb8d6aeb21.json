@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CDFSL-V%3A+Cross-Domain+Few-Shot+Learning+for+Videos%22",
+  "fetched_at": "2026-11-08T01:24:52Z",
+  "http_status": 200,
+  "content_sha256": "979a4054dc799b6ed7ee31ec0d16b0bf2f3ec0294c6a786ea39fe5979dfca51d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/979a4054dc799b6ed7ee31ec0d16b0bf2f3ec0294c6a786ea39fe5979dfca51d.json.gz"
+}

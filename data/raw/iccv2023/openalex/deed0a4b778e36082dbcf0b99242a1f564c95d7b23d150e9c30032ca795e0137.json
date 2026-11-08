@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Content-Aware+Local+GAN+for+Photo-Realistic+Super-Resolution%22",
+  "fetched_at": "2026-11-08T01:18:06Z",
+  "http_status": 200,
+  "content_sha256": "6c3ec3f6f042ebff5981a797ef1d6ae8a6046d9827be860ab387d0bfd4afa1f1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6c3ec3f6f042ebff5981a797ef1d6ae8a6046d9827be860ab387d0bfd4afa1f1.json.gz"
+}

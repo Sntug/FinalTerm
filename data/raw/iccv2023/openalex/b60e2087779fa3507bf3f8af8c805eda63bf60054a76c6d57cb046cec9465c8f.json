@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multimodal+Garment+Designer%3A+Human-Centric+Latent+Diffusion+Models+for+Fashion+Image+Editing%22",
+  "fetched_at": "2026-11-08T01:48:55Z",
+  "http_status": 200,
+  "content_sha256": "99b5d4c6c2124822cdc70703422869967bc9d36701043b576c8ff85c9ffcfaa5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/99b5d4c6c2124822cdc70703422869967bc9d36701043b576c8ff85c9ffcfaa5.json.gz"
+}

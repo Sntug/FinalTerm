@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Semantic-Aware+Dynamic+Parameter+for+Video+Inpainting+Transformer%22",
+  "fetched_at": "2026-11-08T01:17:51Z",
+  "http_status": 200,
+  "content_sha256": "d17df4d2cb66f5fad536d5d7b87c9e217dbbb9ed4086515543e142067e27475d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d17df4d2cb66f5fad536d5d7b87c9e217dbbb9ed4086515543e142067e27475d.json.gz"
+}

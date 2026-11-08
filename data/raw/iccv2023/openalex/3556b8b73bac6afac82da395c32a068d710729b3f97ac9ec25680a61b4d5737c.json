@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+Compositional+Concepts+Discovery+with+Text-to-Image+Generative+Models%22",
+  "fetched_at": "2026-11-08T01:17:59Z",
+  "http_status": 200,
+  "content_sha256": "9a91d6258055a02addbf7fbd04009433b8ff796b15a362b769bc102266dbbde8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9a91d6258055a02addbf7fbd04009433b8ff796b15a362b769bc102266dbbde8.json.gz"
+}

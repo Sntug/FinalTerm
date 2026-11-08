@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Inverse+Compositional+Learning+for+Weakly-supervised+Relation+Grounding%22",
+  "fetched_at": "2026-11-08T01:49:13Z",
+  "http_status": 200,
+  "content_sha256": "1d45f8b853e89926e46cf53f806141753c6a80d169d3e2453f5cc1f2e59f7a78",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1d45f8b853e89926e46cf53f806141753c6a80d169d3e2453f5cc1f2e59f7a78.json.gz"
+}

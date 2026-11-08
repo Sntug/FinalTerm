@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HandR2N2%3A+Iterative+3D+Hand+Pose+Estimation+Using+a+Residual+Recurrent+Neural+Network%22",
+  "fetched_at": "2026-11-08T01:24:48Z",
+  "http_status": 200,
+  "content_sha256": "01ea37c9a8a636199478158f054e7d896c8038741d0534d567a2745201bf137b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/01ea37c9a8a636199478158f054e7d896c8038741d0534d567a2745201bf137b.json.gz"
+}

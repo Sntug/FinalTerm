@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Continual+Zero-Shot+Learning+through+Semantically+Guided+Generative+Random+Walks%22",
+  "fetched_at": "2026-11-08T01:43:52Z",
+  "http_status": 200,
+  "content_sha256": "ee140d64600bfcd985ab484554559200beca050bb0a9d19ab2fbf1ff798d6ae8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ee140d64600bfcd985ab484554559200beca050bb0a9d19ab2fbf1ff798d6ae8.json.gz"
+}

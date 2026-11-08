@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Pixel-Aligned+Recurrent+Queries+for+Multi-View+3D+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:44:09Z",
+  "http_status": 200,
+  "content_sha256": "d68f8097ac70a140635952745c1b2f691ecbdd28bc077b5d335a7b7475f97e73",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d68f8097ac70a140635952745c1b2f691ecbdd28bc077b5d335a7b7475f97e73.json.gz"
+}

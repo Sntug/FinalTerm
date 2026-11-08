@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Graph+Matching+with+Bi-level+Noisy+Correspondence%22",
+  "fetched_at": "2026-11-08T01:46:33Z",
+  "http_status": 200,
+  "content_sha256": "1bb4e9f56447141b0e7a4b1ccb4724f4a1ee41a9d5436a0a360c8052952105f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1bb4e9f56447141b0e7a4b1ccb4724f4a1ee41a9d5436a0a360c8052952105f8.json.gz"
+}

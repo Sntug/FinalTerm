@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Do+DALL-E+and+Flamingo+Understand+Each+Other%3F%22",
+  "fetched_at": "2026-11-08T01:48:10Z",
+  "http_status": 200,
+  "content_sha256": "61698ada16ebe80c2d85aa228f8d9797d73e07c46a49d6434f161e9f410a26dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/61698ada16ebe80c2d85aa228f8d9797d73e07c46a49d6434f161e9f410a26dc.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SCANet%3A+Scene+Complexity+Aware+Network+for+Weakly-Supervised+Video+Moment+Retrieval%22",
+  "fetched_at": "2026-11-08T01:51:40Z",
+  "http_status": 200,
+  "content_sha256": "a0377a39a7bd41b1769d87a4afa0776dc1347e68feacd07f01d71ecf44fc0824",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a0377a39a7bd41b1769d87a4afa0776dc1347e68feacd07f01d71ecf44fc0824.json.gz"
+}

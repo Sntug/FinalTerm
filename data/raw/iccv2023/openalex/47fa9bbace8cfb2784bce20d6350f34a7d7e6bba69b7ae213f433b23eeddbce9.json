@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LoGoPrompt%3A+Synthetic+Text+Images+Can+Be+Good+Visual+Prompts+for+Vision-Language+Models%22",
+  "fetched_at": "2026-11-08T01:49:25Z",
+  "http_status": 200,
+  "content_sha256": "4a6354c8052f7a64454f48a5d0bf6fa8b934faebd097065217e3b92ac3ecc31a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/4a6354c8052f7a64454f48a5d0bf6fa8b934faebd097065217e3b92ac3ecc31a.json.gz"
+}

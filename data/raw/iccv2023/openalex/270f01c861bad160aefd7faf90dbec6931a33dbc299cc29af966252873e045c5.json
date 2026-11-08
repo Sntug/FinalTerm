@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CL-MVSNet%3A+Unsupervised+Multi-View+Stereo+with+Dual-Level+Contrastive+Learning%22",
+  "fetched_at": "2026-11-08T01:44:42Z",
+  "http_status": 200,
+  "content_sha256": "186d95bcd547006893b9b2a2011dd422b74ebaa3ac88d73d114817a34fa3871b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/186d95bcd547006893b9b2a2011dd422b74ebaa3ac88d73d114817a34fa3871b.json.gz"
+}

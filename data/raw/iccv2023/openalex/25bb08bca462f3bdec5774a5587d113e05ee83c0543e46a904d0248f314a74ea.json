@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ITI-GEN%3A+Inclusive+Text-to-Image+Generation%22",
+  "fetched_at": "2026-11-08T01:44:34Z",
+  "http_status": 200,
+  "content_sha256": "5767f10c473a649df905425ccc39fe227eddf7a6d7528fec35ea0c35e5bb4b0b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5767f10c473a649df905425ccc39fe227eddf7a6d7528fec35ea0c35e5bb4b0b.json.gz"
+}

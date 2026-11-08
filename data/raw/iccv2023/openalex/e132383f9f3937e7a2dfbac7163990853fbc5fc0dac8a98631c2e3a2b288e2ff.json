@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Region-Aware+Neural+Radiance+Fields+for+High-Fidelity+Talking+Portrait+Synthesis%22",
+  "fetched_at": "2026-11-08T01:25:24Z",
+  "http_status": 200,
+  "content_sha256": "f43b232baefc0f04cd9055d22f0d9f19ef546bc068fe4de430e58bb5a5362e81",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/f43b232baefc0f04cd9055d22f0d9f19ef546bc068fe4de430e58bb5a5362e81.json.gz"
+}

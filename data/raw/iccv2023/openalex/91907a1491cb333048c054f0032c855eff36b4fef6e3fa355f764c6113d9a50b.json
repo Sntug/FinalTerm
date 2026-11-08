@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Differentiable+Transportation+Pruning%22",
+  "fetched_at": "2026-11-08T01:49:33Z",
+  "http_status": 200,
+  "content_sha256": "ecd95fad2bc1e341c138098fce3a2e9316c677a25ab8b80944bfa737917d2b3d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ecd95fad2bc1e341c138098fce3a2e9316c677a25ab8b80944bfa737917d2b3d.json.gz"
+}

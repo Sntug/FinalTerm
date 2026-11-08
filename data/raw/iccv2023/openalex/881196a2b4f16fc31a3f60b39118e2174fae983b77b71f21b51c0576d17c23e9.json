@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-Supervised+Character-to-Character+Distillation+for+Text+Recognition%22",
+  "fetched_at": "2026-11-08T01:46:59Z",
+  "http_status": 200,
+  "content_sha256": "b965be3c166913d50683cc4a5ce2a308ca3bb620e794163a8ac8f517e40a8b3c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b965be3c166913d50683cc4a5ce2a308ca3bb620e794163a8ac8f517e40a8b3c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D-Aware+Neural+Body+Fitting+for+Occlusion+Robust+3D+Human+Pose+Estimation%22",
+  "fetched_at": "2026-11-08T01:45:16Z",
+  "http_status": 200,
+  "content_sha256": "70b7552256e8337415e4565c8a98e931097afccdd77e1feb5e5c362fc94081af",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/70b7552256e8337415e4565c8a98e931097afccdd77e1feb5e5c362fc94081af.json.gz"
+}

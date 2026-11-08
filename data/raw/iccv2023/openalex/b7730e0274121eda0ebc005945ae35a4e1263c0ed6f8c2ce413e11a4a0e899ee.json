@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LISTER%3A+Neighbor+Decoding+for+Length-Insensitive+Scene+Text+Recognition%22",
+  "fetched_at": "2026-11-08T01:47:19Z",
+  "http_status": 200,
+  "content_sha256": "59d712c7b85e2f35970746bccc9f3203040ae166a5e5c04e0593a1a8c85ae42e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/59d712c7b85e2f35970746bccc9f3203040ae166a5e5c04e0593a1a8c85ae42e.json.gz"
+}

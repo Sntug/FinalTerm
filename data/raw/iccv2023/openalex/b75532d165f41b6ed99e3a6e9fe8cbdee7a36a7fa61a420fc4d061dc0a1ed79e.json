@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ASIC%3A+Aligning+Sparse+in-the-wild+Image+Collections%22",
+  "fetched_at": "2026-11-08T01:47:40Z",
+  "http_status": 200,
+  "content_sha256": "fbce01351ba7801f86c39afdb5f3a728f393d87c74c11b91722aacdc0c9f8ee3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/fbce01351ba7801f86c39afdb5f3a728f393d87c74c11b91722aacdc0c9f8ee3.json.gz"
+}

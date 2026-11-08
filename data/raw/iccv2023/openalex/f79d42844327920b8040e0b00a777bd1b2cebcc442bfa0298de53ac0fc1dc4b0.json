@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FDViT%3A+Improve+the+Hierarchical+Architecture+of+Vision+Transformer%22",
+  "fetched_at": "2026-11-08T01:18:15Z",
+  "http_status": 200,
+  "content_sha256": "d0eaf19ff8c0ad7a3263be6a20b359afd0c729cbb8169364cd1d6ba7da5a88a1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d0eaf19ff8c0ad7a3263be6a20b359afd0c729cbb8169364cd1d6ba7da5a88a1.json.gz"
+}

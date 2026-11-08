@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Pre-Training-Free+Image+Manipulation+Localization+through+Non-Mutually+Exclusive+Contrastive+Learning%22",
+  "fetched_at": "2026-11-08T01:46:42Z",
+  "http_status": 200,
+  "content_sha256": "22008a9bde56e573c3ce655ff6728a3d6c6f12fd51e08172880a6e4c0b7260d2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/22008a9bde56e573c3ce655ff6728a3d6c6f12fd51e08172880a6e4c0b7260d2.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CLIP-Driven+Universal+Model+for+Organ+Segmentation+and+Tumor+Detection%22",
+  "fetched_at": "2026-11-08T01:50:42Z",
+  "http_status": 200,
+  "content_sha256": "fb501b3416ff4030c7f30bb22e6bb6880dda6cf7ff0722a57592910cc79dbaf1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/fb501b3416ff4030c7f30bb22e6bb6880dda6cf7ff0722a57592910cc79dbaf1.json.gz"
+}

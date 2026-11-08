@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Open+Set+Video+HOI+detection+from+Action-Centric+Chain-of-Look+Prompting%22",
+  "fetched_at": "2026-11-08T01:26:12Z",
+  "http_status": 200,
+  "content_sha256": "cbd1a75f824fea756a25e3bed47e5241cacd9ad4719df08797a988d884bc0049",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cbd1a75f824fea756a25e3bed47e5241cacd9ad4719df08797a988d884bc0049.json.gz"
+}

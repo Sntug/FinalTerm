@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-Label+Knowledge+Distillation%22",
+  "fetched_at": "2026-11-08T01:51:03Z",
+  "http_status": 200,
+  "content_sha256": "677566bb149ea1a2ecbadbace0216f2c335f43b1ede4a974943950b2466a0a21",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/677566bb149ea1a2ecbadbace0216f2c335f43b1ede4a974943950b2466a0a21.json.gz"
+}

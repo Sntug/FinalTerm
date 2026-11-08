@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DeePoint%3A+Visual+Pointing+Recognition+and+Direction+Estimation%22",
+  "fetched_at": "2026-11-08T01:50:02Z",
+  "http_status": 200,
+  "content_sha256": "1583b9d160b652f82c80f25469e6f4fdc6b69571d3ac5d043281ba014a896a93",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1583b9d160b652f82c80f25469e6f4fdc6b69571d3ac5d043281ba014a896a93.json.gz"
+}

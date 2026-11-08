@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generalizing+Event-Based+Motion+Deblurring+in+Real-World+Scenarios%22",
+  "fetched_at": "2026-11-08T02:04:36Z",
+  "http_status": 200,
+  "content_sha256": "3f1b040f67f752ec0f39fcc2fb25d3a4d8b5774b04150c96dc90a5b7d0548244",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3f1b040f67f752ec0f39fcc2fb25d3a4d8b5774b04150c96dc90a5b7d0548244.json.gz"
+}

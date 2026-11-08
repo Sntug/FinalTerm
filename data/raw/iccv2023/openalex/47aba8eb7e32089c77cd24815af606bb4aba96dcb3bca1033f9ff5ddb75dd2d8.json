@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CROSSFIRE%3A+Camera+Relocalization+On+Self-Supervised+Features+from+an+Implicit+Representation%22",
+  "fetched_at": "2026-11-08T01:25:33Z",
+  "http_status": 200,
+  "content_sha256": "53ecce2d25dcf7f3bb88efc5bb870ed374ad8f8ef4cc7e9cebddd64f09ca67ed",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/53ecce2d25dcf7f3bb88efc5bb870ed374ad8f8ef4cc7e9cebddd64f09ca67ed.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EgoPCA%3A+A+New+Framework+for+Egocentric+Hand-Object+Interaction+Understanding%22",
+  "fetched_at": "2026-11-08T01:25:01Z",
+  "http_status": 200,
+  "content_sha256": "1b9c4126cf93061929d56259ab3b4d161dad7eb3e2801215ca15b80accab45b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1b9c4126cf93061929d56259ab3b4d161dad7eb3e2801215ca15b80accab45b8.json.gz"
+}

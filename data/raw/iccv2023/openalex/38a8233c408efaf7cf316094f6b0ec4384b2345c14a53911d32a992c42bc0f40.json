@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+High-Fidelity+Text-Guided+3D+Face+Generation+and+Manipulation+Using+only+Images%22",
+  "fetched_at": "2026-11-08T01:44:39Z",
+  "http_status": 200,
+  "content_sha256": "edf7273844e4d141e6c517f70f5318f2a32bb2ab44efdc1d9c89cf4339f03e93",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/edf7273844e4d141e6c517f70f5318f2a32bb2ab44efdc1d9c89cf4339f03e93.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+to+Transform+for+Generalizable+Instance-wise+Invariance%22",
+  "fetched_at": "2026-11-08T01:49:11Z",
+  "http_status": 200,
+  "content_sha256": "ec07bf954de55b0f47158fcd5aa7bc8290ed980a6715c3adfb55d0c597b1f9d1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ec07bf954de55b0f47158fcd5aa7bc8290ed980a6715c3adfb55d0c597b1f9d1.json.gz"
+}

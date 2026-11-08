@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22NeRFrac%3A+Neural+Radiance+Fields+through+Refractive+Surface%22",
+  "fetched_at": "2026-11-08T01:24:17Z",
+  "http_status": 200,
+  "content_sha256": "bdaec3bed04f55713e8c3160c4e0d0cb7f30779d22efae8c7397f7a6605656cd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/bdaec3bed04f55713e8c3160c4e0d0cb7f30779d22efae8c7397f7a6605656cd.json.gz"
+}

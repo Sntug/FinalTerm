@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Building3D%3A+A+Urban-Scale+Dataset+and+Benchmarks+for+Learning+Roof+Structures+from+Point+Clouds%22",
+  "fetched_at": "2026-11-08T01:51:39Z",
+  "http_status": 200,
+  "content_sha256": "9168f531caf0f130f41279912db17b3edc62d0e06d5386314bba6f6de577c0e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9168f531caf0f130f41279912db17b3edc62d0e06d5386314bba6f6de577c0e7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/PNVR_LD-ZNet_A_Latent_Diffusion_Approach_for_Text-Based_Image_Segmentation_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:24:05Z",
+  "http_status": 200,
+  "content_sha256": "34813a9ae8a64a34fc0870f42c6cb3bf9a62e35d7927ef0976ef1d99dad18486",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"199a-606872aca0740\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/34813a9ae8a64a34fc0870f42c6cb3bf9a62e35d7927ef0976ef1d99dad18486.html.gz"
+}

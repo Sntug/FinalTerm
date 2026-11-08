@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Total-Recon%3A+Deformable+Scene+Reconstruction+for+Embodied+View+Synthesis%22",
+  "fetched_at": "2026-11-08T01:45:24Z",
+  "http_status": 200,
+  "content_sha256": "286924b378b7153c2fa66420a309db552861c2098cf81e1c643055fe1c9877dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/286924b378b7153c2fa66420a309db552861c2098cf81e1c643055fe1c9877dc.json.gz"
+}

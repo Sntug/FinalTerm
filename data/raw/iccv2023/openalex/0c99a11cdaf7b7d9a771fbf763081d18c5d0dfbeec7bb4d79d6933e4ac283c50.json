@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Joint+Demosaicing+and+Deghosting+of+Time-Varying+Exposures+for+Single-Shot+HDR+Imaging%22",
+  "fetched_at": "2026-11-08T01:49:40Z",
+  "http_status": 200,
+  "content_sha256": "8a85fd10c06ee31d3a130d7011e67727e7b4d2e25a459ef6af838e0002af6e17",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8a85fd10c06ee31d3a130d7011e67727e7b4d2e25a459ef6af838e0002af6e17.json.gz"
+}

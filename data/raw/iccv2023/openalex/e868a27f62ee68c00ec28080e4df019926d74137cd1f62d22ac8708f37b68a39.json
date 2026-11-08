@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DDG-Net%3A+Discriminability-Driven+Graph+Network+for+Weakly-supervised+Temporal+Action+Localization%22",
+  "fetched_at": "2026-11-08T01:50:46Z",
+  "http_status": 200,
+  "content_sha256": "63dbbce514290f9577868770a466b7b3b458d875652d38c79bdc28938235ff88",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/63dbbce514290f9577868770a466b7b3b458d875652d38c79bdc28938235ff88.json.gz"
+}

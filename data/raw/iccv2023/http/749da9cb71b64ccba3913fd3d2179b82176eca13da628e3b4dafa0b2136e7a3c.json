@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/He_Towards_Deeply_Unified_Depth-aware_Panoptic_Segmentation_with_Bi-directional_Guidance_Learning_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:21:59Z",
+  "http_status": 200,
+  "content_sha256": "65d2ad853aec2ed7332a9be04c2e31a6387c512825ab932aad0a5e3c0522b209",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a4a-606872ac9c625\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/65d2ad853aec2ed7332a9be04c2e31a6387c512825ab932aad0a5e3c0522b209.html.gz"
+}

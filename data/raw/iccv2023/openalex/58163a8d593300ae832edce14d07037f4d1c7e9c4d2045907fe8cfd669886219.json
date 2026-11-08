@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Priority-Centric+Human+Motion+Generation+in+Discrete+Latent+Space%22",
+  "fetched_at": "2026-11-08T01:46:00Z",
+  "http_status": 200,
+  "content_sha256": "9a3225fdfe221931e9a8df8c15ca0690c69a904668ef5057134358f0edabddec",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9a3225fdfe221931e9a8df8c15ca0690c69a904668ef5057134358f0edabddec.json.gz"
+}

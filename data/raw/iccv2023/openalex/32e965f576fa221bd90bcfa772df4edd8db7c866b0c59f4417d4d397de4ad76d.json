@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Inducing+Neural+Collapse+to+a+Fixed+Hierarchy-Aware+Frame+for+Reducing+Mistake+Severity%22",
+  "fetched_at": "2026-11-08T01:50:56Z",
+  "http_status": 200,
+  "content_sha256": "bd6b8462bb82a961b0c1eb939d891cd01271d8fa1ea7bd88e7f634650de712ce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/bd6b8462bb82a961b0c1eb939d891cd01271d8fa1ea7bd88e7f634650de712ce.json.gz"
+}

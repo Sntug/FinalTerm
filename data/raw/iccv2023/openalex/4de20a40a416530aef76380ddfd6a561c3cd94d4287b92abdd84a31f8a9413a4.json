@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Calibrating+Uncertainty+for+Semi-Supervised+Crowd+Counting%22",
+  "fetched_at": "2026-11-08T02:04:53Z",
+  "http_status": 200,
+  "content_sha256": "e324e548b7655ba07c50c1919540c49ded2fedb131d2cb250ff76fa94c0f8ed0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e324e548b7655ba07c50c1919540c49ded2fedb131d2cb250ff76fa94c0f8ed0.json.gz"
+}

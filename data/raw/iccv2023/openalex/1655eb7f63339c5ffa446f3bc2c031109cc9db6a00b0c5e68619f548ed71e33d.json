@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Semi-Supervised+Semantic+Segmentation+under+Label+Noise+via+Diverse+Learning+Groups%22",
+  "fetched_at": "2026-11-08T01:45:14Z",
+  "http_status": 200,
+  "content_sha256": "1f093e22b28a0687edbc9f33e793612d22ec042ab1d23d8c8284b141ea14e7ff",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1f093e22b28a0687edbc9f33e793612d22ec042ab1d23d8c8284b141ea14e7ff.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Complementary+Domain+Adaptation+and+Generalization+for+Unsupervised+Continual+Domain+Shift+Learning%22",
+  "fetched_at": "2026-11-08T01:48:26Z",
+  "http_status": 200,
+  "content_sha256": "9a1e160c4c3a2cf69c9e41f4fba16a895084f57272c5d4acc9b8b10671cb753e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9a1e160c4c3a2cf69c9e41f4fba16a895084f57272c5d4acc9b8b10671cb753e.json.gz"
+}

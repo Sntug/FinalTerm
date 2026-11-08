@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deep+Feature+Deblurring+Diffusion+for+Detecting+Out-of-Distribution+Objects%22",
+  "fetched_at": "2026-11-08T01:46:30Z",
+  "http_status": 200,
+  "content_sha256": "1d9d2c7881b68431e916d88998c9cef3cdd4f7cd445a55f50748c8869ed8e105",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1d9d2c7881b68431e916d88998c9cef3cdd4f7cd445a55f50748c8869ed8e105.json.gz"
+}

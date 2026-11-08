@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Jumping+through+Local+Minima%3A+Quantization+in+the+Loss+Landscape+of+Vision+Transformers%22",
+  "fetched_at": "2026-11-08T01:44:58Z",
+  "http_status": 200,
+  "content_sha256": "ad0e71f87a9df4564cc0e73a166287d276fc01397e73d73e6b81090948a245e3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ad0e71f87a9df4564cc0e73a166287d276fc01397e73d73e6b81090948a245e3.json.gz"
+}

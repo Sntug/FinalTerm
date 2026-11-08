@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Parametric+Classification+for+Generalized+Category+Discovery%3A+A+Baseline+Study%22",
+  "fetched_at": "2026-11-08T01:46:05Z",
+  "http_status": 200,
+  "content_sha256": "32eec9998b05eab2abe1dca93ba2786cc321404b000d5ed93cc42f2d55e13176",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/32eec9998b05eab2abe1dca93ba2786cc321404b000d5ed93cc42f2d55e13176.json.gz"
+}

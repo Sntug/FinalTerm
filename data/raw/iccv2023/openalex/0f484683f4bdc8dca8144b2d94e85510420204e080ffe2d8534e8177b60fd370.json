@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multimodal+Distillation+for+Egocentric+Action+Recognition%22",
+  "fetched_at": "2026-11-08T01:45:12Z",
+  "http_status": 200,
+  "content_sha256": "eb58bc482b7ef15a4b5bed921a505882f7efe4542c99e8e0cd4a3b839871b453",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/eb58bc482b7ef15a4b5bed921a505882f7efe4542c99e8e0cd4a3b839871b453.json.gz"
+}

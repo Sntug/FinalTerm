@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Who+Are+You+Referring+To%3F+Coreference+Resolution+In+Image+Narrations%22",
+  "fetched_at": "2026-11-08T01:26:18Z",
+  "http_status": 200,
+  "content_sha256": "123a653ca5c9aaf92fbea6a15bf73b5ff9d92f2553b1a38ccb3648a3b0c19d8e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/123a653ca5c9aaf92fbea6a15bf73b5ff9d92f2553b1a38ccb3648a3b0c19d8e.json.gz"
+}

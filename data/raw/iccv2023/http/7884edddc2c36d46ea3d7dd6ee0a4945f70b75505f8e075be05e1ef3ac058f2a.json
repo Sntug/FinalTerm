@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Cao_Improving_Transformer-based_Image_Matching_by_Cascaded_Capturing_Spatially_Informative_Keypoints_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:20:01Z",
+  "http_status": 200,
+  "content_sha256": "95fb991521ca730f14b0f2788cc5457d0fa19ca2924d9637a8eb59529fe348d7",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1869-606872ac99f15\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/95fb991521ca730f14b0f2788cc5457d0fa19ca2924d9637a8eb59529fe348d7.html.gz"
+}

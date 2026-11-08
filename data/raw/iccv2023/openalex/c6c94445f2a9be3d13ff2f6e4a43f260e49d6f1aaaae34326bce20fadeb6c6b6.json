@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22NLOS-NeuS%3A+Non-line-of-sight+Neural+Implicit+Surface%22",
+  "fetched_at": "2026-11-08T02:04:59Z",
+  "http_status": 200,
+  "content_sha256": "bfba00f19be669c08889c67db915b33bf6e036e20fbea0a28940ba0d8de785a5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/bfba00f19be669c08889c67db915b33bf6e036e20fbea0a28940ba0d8de785a5.json.gz"
+}

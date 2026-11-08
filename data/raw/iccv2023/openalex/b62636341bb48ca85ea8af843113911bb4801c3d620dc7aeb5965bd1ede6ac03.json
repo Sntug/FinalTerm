@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adaptive+Rotated+Convolution+for+Rotated+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:48:34Z",
+  "http_status": 200,
+  "content_sha256": "36662ba8af9d6226461e760ba4db6a20971ca3254f5a00130145f2c8fd318b74",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/36662ba8af9d6226461e760ba4db6a20971ca3254f5a00130145f2c8fd318b74.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Transferable+Adversarial+Attack+for+Both+Vision+Transformers+and+Convolutional+Networks+via+Momentum+Integrated+Gradients%22",
+  "fetched_at": "2026-11-08T01:45:34Z",
+  "http_status": 200,
+  "content_sha256": "d8b6c7aaf720458d79685c971fc5f8131360c6493d632277e78459c8783cf309",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d8b6c7aaf720458d79685c971fc5f8131360c6493d632277e78459c8783cf309.json.gz"
+}

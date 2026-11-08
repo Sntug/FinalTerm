@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22I+Can%27t+Believe+There%27s+No+Images%21+Learning+Visual+Tasks+Using+only+Language+Supervision%22",
+  "fetched_at": "2026-11-08T01:17:43Z",
+  "http_status": 200,
+  "content_sha256": "609070d774e230c1042557cb1edfaa8ba6efcb711e036189ca5f4b4fc6cca00a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/609070d774e230c1042557cb1edfaa8ba6efcb711e036189ca5f4b4fc6cca00a.json.gz"
+}

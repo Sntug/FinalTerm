@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Shape+Analysis+of+Euclidean+Curves+under+Frenet-Serret+Framework%22",
+  "fetched_at": "2026-11-08T01:44:21Z",
+  "http_status": 200,
+  "content_sha256": "454200b6cf44822750c79ae9c1a47ba2461a44da6db0ef0098a94265a882b3c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/454200b6cf44822750c79ae9c1a47ba2461a44da6db0ef0098a94265a882b3c6.json.gz"
+}

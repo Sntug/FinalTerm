@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OpenOccupancy%3A+A+Large+Scale+Benchmark+for+Surrounding+Semantic+Occupancy+Perception%22",
+  "fetched_at": "2026-11-08T01:26:04Z",
+  "http_status": 200,
+  "content_sha256": "67bc4dfcce9ffa3ff362ed3f428dc02ee435e6044319fc0c7e7ed9e7babb83ac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/67bc4dfcce9ffa3ff362ed3f428dc02ee435e6044319fc0c7e7ed9e7babb83ac.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BEV-DG%3A+Cross-Modal+Learning+under+Bird%27s-Eye+View+for+Domain+Generalization+of+3D+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-08T01:25:07Z",
+  "http_status": 200,
+  "content_sha256": "7ee0f2b80f9d8df9b229028fef06dd09f65d7e185ea55b06ee3ff8a19ab17f07",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7ee0f2b80f9d8df9b229028fef06dd09f65d7e185ea55b06ee3ff8a19ab17f07.json.gz"
+}

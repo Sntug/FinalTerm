@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Domain+Generalization+of+3D+Semantic+Segmentation+in+Autonomous+Driving%22",
+  "fetched_at": "2026-11-08T01:47:13Z",
+  "http_status": 200,
+  "content_sha256": "7d805c55406c3e72aeb94661bc24dcb536f95f1170c9b6dc281b5b3fff3381ff",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7d805c55406c3e72aeb94661bc24dcb536f95f1170c9b6dc281b5b3fff3381ff.json.gz"
+}

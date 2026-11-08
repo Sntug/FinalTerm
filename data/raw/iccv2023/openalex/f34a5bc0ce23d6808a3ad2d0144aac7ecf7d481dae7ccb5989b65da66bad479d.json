@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OxfordTVG-HIC%3A+Can+Machine+Make+Humorous+Captions+from+Images%3F%22",
+  "fetched_at": "2026-11-08T01:49:21Z",
+  "http_status": 200,
+  "content_sha256": "382e2fc307f00e5de520f7a8a4445f3a0dfa45a8b65c6712de0c99ac60bfc31f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/382e2fc307f00e5de520f7a8a4445f3a0dfa45a8b65c6712de0c99ac60bfc31f.json.gz"
+}

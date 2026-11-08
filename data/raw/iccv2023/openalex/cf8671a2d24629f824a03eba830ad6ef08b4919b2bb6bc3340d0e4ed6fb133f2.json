@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Focal+Network+for+Image+Restoration%22",
+  "fetched_at": "2026-11-08T01:43:55Z",
+  "http_status": 200,
+  "content_sha256": "8df54b33406e711513d58fabb1e7194ba5af749111a577bd403e1a6192e6840a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8df54b33406e711513d58fabb1e7194ba5af749111a577bd403e1a6192e6840a.json.gz"
+}

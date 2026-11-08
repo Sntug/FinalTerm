@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiffDreamer%3A+Towards+Consistent+Unsupervised+Single-view+Scene+Extrapolation+with+Conditional+Diffusion+Models%22",
+  "fetched_at": "2026-11-08T01:26:28Z",
+  "http_status": 200,
+  "content_sha256": "121ce1c2c81a922d0bda3c3c5527857e295e31de297aac604e29b608041e2121",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/121ce1c2c81a922d0bda3c3c5527857e295e31de297aac604e29b608041e2121.json.gz"
+}

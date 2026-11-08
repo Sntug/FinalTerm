@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Feature+Modulation+Transformer%3A+Cross-Refinement+of+Global+Representation+via+High-Frequency+Prior+for+Image+Super-Resolution%22",
+  "fetched_at": "2026-11-08T01:43:41Z",
+  "http_status": 200,
+  "content_sha256": "5c6b3822ddfc030a36c9d8c026b2a68f17b5258e8da76e8600d8ce64aaf07a45",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5c6b3822ddfc030a36c9d8c026b2a68f17b5258e8da76e8600d8ce64aaf07a45.json.gz"
+}

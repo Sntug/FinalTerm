@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Discovering+Spatio-Temporal+Rationales+for+Video+Question+Answering%22",
+  "fetched_at": "2026-11-08T01:47:54Z",
+  "http_status": 200,
+  "content_sha256": "07160243c3dd27e1a9407ef6efd3baf5eda586231e6cf082889abbe4ca5b1f19",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/07160243c3dd27e1a9407ef6efd3baf5eda586231e6cf082889abbe4ca5b1f19.json.gz"
+}

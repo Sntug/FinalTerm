@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Revisiting+the+Parameter+Efficiency+of+Adapters+from+the+Perspective+of+Precision+Redundancy%22",
+  "fetched_at": "2026-11-08T01:49:27Z",
+  "http_status": 200,
+  "content_sha256": "df4f34ed5e4f94435a87722ed378e18f8c8020f38ed8d1d6d86a14e3c9af59ad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/df4f34ed5e4f94435a87722ed378e18f8c8020f38ed8d1d6d86a14e3c9af59ad.json.gz"
+}

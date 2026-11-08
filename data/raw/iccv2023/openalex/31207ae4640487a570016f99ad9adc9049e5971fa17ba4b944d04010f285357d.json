@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22U-RED%3A+Unsupervised+3D+Shape+Retrieval+and+Deformation+for+Partial+Point+Clouds%22",
+  "fetched_at": "2026-11-08T01:44:11Z",
+  "http_status": 200,
+  "content_sha256": "1d04d05d11b47eee29147755b5dfbb077eafe69df238b5209da6f5455da7a312",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1d04d05d11b47eee29147755b5dfbb077eafe69df238b5209da6f5455da7a312.json.gz"
+}

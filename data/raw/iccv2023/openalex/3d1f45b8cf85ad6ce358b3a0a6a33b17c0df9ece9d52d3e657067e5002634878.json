@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Grand+Unified+Representation+Learning+for+Unsupervised+Visible-Infrared+Person+Re-Identification%22",
+  "fetched_at": "2026-11-08T01:48:20Z",
+  "http_status": 200,
+  "content_sha256": "e4b8158b0eb03b93d50ee65bbe62e5b2356eb6ce2db988396b1f3db810099353",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e4b8158b0eb03b93d50ee65bbe62e5b2356eb6ce2db988396b1f3db810099353.json.gz"
+}

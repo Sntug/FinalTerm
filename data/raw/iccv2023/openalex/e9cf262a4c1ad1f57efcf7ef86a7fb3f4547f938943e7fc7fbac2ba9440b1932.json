@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Vision-and-Language+Navigation+from+YouTube+Videos%22",
+  "fetched_at": "2026-11-08T02:04:51Z",
+  "http_status": 200,
+  "content_sha256": "d785691e6f0cd1eb87c165bccf32bdc9a54bede62ff7feb3bc3ee57713149824",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d785691e6f0cd1eb87c165bccf32bdc9a54bede62ff7feb3bc3ee57713149824.json.gz"
+}

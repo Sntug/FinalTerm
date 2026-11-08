@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/ICCV2023?day=all",
+  "fetched_at": "2026-11-08T01:16:54Z",
+  "http_status": 200,
+  "content_sha256": "ba112ee3d3bc0111322a32faa874aa9d9b74f7a074de99994cfb6a335f1c58ed",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/http/ba112ee3d3bc0111322a32faa874aa9d9b74f7a074de99994cfb6a335f1c58ed.html.gz"
+}

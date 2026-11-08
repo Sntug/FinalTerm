@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Confidence-based+Visual+Dispersal+for+Few-shot+Unsupervised+Domain+Adaptation%22",
+  "fetched_at": "2026-11-08T01:24:55Z",
+  "http_status": 200,
+  "content_sha256": "39b3f394d2fe16c9b8afe47dbe803bcb6a149c22312b688b1b1957dea226bbec",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/39b3f394d2fe16c9b8afe47dbe803bcb6a149c22312b688b1b1957dea226bbec.json.gz"
+}

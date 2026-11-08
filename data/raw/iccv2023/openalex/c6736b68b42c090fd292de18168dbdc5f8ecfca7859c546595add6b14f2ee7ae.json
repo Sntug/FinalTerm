@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DVIS%3A+Decoupled+Video+Instance+Segmentation+Framework%22",
+  "fetched_at": "2026-11-08T01:18:22Z",
+  "http_status": 200,
+  "content_sha256": "3ac1cb1cb5e44bbd932d943faec74ddc3648fa15263157a0ec1d46db68d5a59a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3ac1cb1cb5e44bbd932d943faec74ddc3648fa15263157a0ec1d46db68d5a59a.json.gz"
+}

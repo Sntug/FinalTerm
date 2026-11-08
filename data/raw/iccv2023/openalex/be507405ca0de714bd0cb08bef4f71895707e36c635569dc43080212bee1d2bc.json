@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LivePose%3A+Online+3D+Reconstruction+from+Monocular+Video+with+Dynamic+Camera+Poses%22",
+  "fetched_at": "2026-11-08T01:46:26Z",
+  "http_status": 200,
+  "content_sha256": "6b16581bf117b88d438207eadb608bd511aa199bc7bc0a22c420e50a11f0740d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6b16581bf117b88d438207eadb608bd511aa199bc7bc0a22c420e50a11f0740d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Integrally_Migrating_Pre-trained_Transformer_Encoder-decoders_for_Visual_Object_Detection_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:22:33Z",
+  "http_status": 200,
+  "content_sha256": "45960c466b38edcf6553abc14f564b29c276d647c58752c4e8636765aa5d455a",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a0e-606872ac9ed35\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/45960c466b38edcf6553abc14f564b29c276d647c58752c4e8636765aa5d455a.html.gz"
+}

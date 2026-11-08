@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LAW-Diffusion%3A+Complex+Scene+Generation+by+Diffusion+with+Layouts%22",
+  "fetched_at": "2026-11-08T01:46:53Z",
+  "http_status": 200,
+  "content_sha256": "519476e9518c18ea6d7bbcd1e2f8046f4b1dc0df37440723425454d6de495f1c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/519476e9518c18ea6d7bbcd1e2f8046f4b1dc0df37440723425454d6de495f1c.json.gz"
+}

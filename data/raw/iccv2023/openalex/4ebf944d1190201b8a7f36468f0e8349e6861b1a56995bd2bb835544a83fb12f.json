@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Continuous+Sign+Language+Recognition+with+Cross-Lingual+Signs%22",
+  "fetched_at": "2026-11-08T01:50:26Z",
+  "http_status": 200,
+  "content_sha256": "1b26fe33e5b42f853a6f77632d30de513d1e8c9096efc151168d77733723099d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1b26fe33e5b42f853a6f77632d30de513d1e8c9096efc151168d77733723099d.json.gz"
+}

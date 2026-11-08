@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Detection+Transformer+with+Stable+Matching%22",
+  "fetched_at": "2026-11-08T01:51:59Z",
+  "http_status": 200,
+  "content_sha256": "daeefa2febb5e314e9e0daa78e55091f72d6a080eb2212039fc0ce75b8f91586",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/daeefa2febb5e314e9e0daa78e55091f72d6a080eb2212039fc0ce75b8f91586.json.gz"
+}

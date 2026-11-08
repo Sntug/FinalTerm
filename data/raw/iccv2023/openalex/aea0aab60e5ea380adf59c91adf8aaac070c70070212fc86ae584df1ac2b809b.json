@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+3D+Perception+with+2D+Vision-Language+Distillation+for+Autonomous+Driving%22",
+  "fetched_at": "2026-11-08T01:44:05Z",
+  "http_status": 200,
+  "content_sha256": "859808045453f69564b43234d60e095a26437182895da8a1a4bc2981ae66463d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/859808045453f69564b43234d60e095a26437182895da8a1a4bc2981ae66463d.json.gz"
+}

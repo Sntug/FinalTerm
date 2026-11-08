@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Regularized+Primitive+Graph+Learning+for+Unified+Vector+Mapping%22",
+  "fetched_at": "2026-11-08T01:51:12Z",
+  "http_status": 200,
+  "content_sha256": "cb72ac889b27c7c5eabca205493f93f802e34c58c3cc2feabeb98d5a0a8325bc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cb72ac889b27c7c5eabca205493f93f802e34c58c3cc2feabeb98d5a0a8325bc.json.gz"
+}

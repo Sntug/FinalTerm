@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Incremental+Generalized+Category+Discovery%22",
+  "fetched_at": "2026-11-08T01:50:15Z",
+  "http_status": 200,
+  "content_sha256": "30912da06c2eaa9250b3ca69bd4d8c4e5ffdd805b59357a3712cbcfe955bd7e1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/30912da06c2eaa9250b3ca69bd4d8c4e5ffdd805b59357a3712cbcfe955bd7e1.json.gz"
+}

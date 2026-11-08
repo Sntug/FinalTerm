@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Saunders_Self-supervised_Monocular_Depth_Estimation_Lets_Talk_About_The_Weather_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:21:52Z",
+  "http_status": 200,
+  "content_sha256": "836f9f8bb358a42d1d2442e71d9a03f353744122ef1a3e8a4abf00157640d28e",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1988-606872aca0740\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/836f9f8bb358a42d1d2442e71d9a03f353744122ef1a3e8a4abf00157640d28e.html.gz"
+}

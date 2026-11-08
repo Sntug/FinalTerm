@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generalizing+Neural+Human+Fitting+to+Unseen+Poses+With+Articulated+SE%283%29+Equivariance%22",
+  "fetched_at": "2026-11-08T01:47:35Z",
+  "http_status": 200,
+  "content_sha256": "3f9e127cdfb2f80fb7ec8792b9a0a4a675380d18efa0a1835f6cb412a41c7552",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3f9e127cdfb2f80fb7ec8792b9a0a4a675380d18efa0a1835f6cb412a41c7552.json.gz"
+}

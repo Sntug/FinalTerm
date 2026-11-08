@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Texture+Generation+on+3D+Meshes+with+Point-UV+Diffusion%22",
+  "fetched_at": "2026-11-08T01:25:30Z",
+  "http_status": 200,
+  "content_sha256": "58af82aef752a2ee23c92ce13d10d4f50875cdeb2a78b425d8091f78f25dc4b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/58af82aef752a2ee23c92ce13d10d4f50875cdeb2a78b425d8091f78f25dc4b8.json.gz"
+}

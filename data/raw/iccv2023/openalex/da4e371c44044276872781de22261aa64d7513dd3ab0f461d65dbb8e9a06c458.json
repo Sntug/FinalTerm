@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-Evolved+Dynamic+Expansion+Model+for+Task-Free+Continual+Learning%22",
+  "fetched_at": "2026-11-08T02:05:04Z",
+  "http_status": 200,
+  "content_sha256": "e957c60253a6bda25be0f661279424b0831ba9d35dd11077e4dcb38d8c683a6a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e957c60253a6bda25be0f661279424b0831ba9d35dd11077e4dcb38d8c683a6a.json.gz"
+}

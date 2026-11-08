@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Seeing+Beyond+the+Patch%3A+Scale-Adaptive+Semantic+Segmentation+of+High-resolution+Remote+Sensing+Imagery+based+on+Reinforcement+Learning%22",
+  "fetched_at": "2026-11-08T01:25:22Z",
+  "http_status": 200,
+  "content_sha256": "22c81063dd40d33ad904f8435154ae902d10bec65a2719c3712d36de76dee41d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/22c81063dd40d33ad904f8435154ae902d10bec65a2719c3712d36de76dee41d.json.gz"
+}

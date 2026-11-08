@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adaptive+Spiral+Layers+for+Efficient+3D+Representation+Learning+on+Meshes%22",
+  "fetched_at": "2026-11-08T01:45:42Z",
+  "http_status": 200,
+  "content_sha256": "35aeb97b644cd7ff1175486d2fb15d703c0325eb99509b47b4f1b499318ce57d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/35aeb97b644cd7ff1175486d2fb15d703c0325eb99509b47b4f1b499318ce57d.json.gz"
+}

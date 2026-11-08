@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Discovery+and+Effective+Evaluation+of+Visual+Perceptual+Similarity%3A+A+Benchmark+and+Beyond%22",
+  "fetched_at": "2026-11-08T01:48:12Z",
+  "http_status": 200,
+  "content_sha256": "2a1d7ded4d4af2ce92e705959fd855fb87ef49ad5b311f06f895a8236c6eaef0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/2a1d7ded4d4af2ce92e705959fd855fb87ef49ad5b311f06f895a8236c6eaef0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Test-time+Personalizable+Forecasting+of+3D+Human+Poses%22",
+  "fetched_at": "2026-11-08T01:24:30Z",
+  "http_status": 200,
+  "content_sha256": "46fe512354c50dd458aa1d3fdfa517836524f5b5b93f96100312b1cfe1c59b2e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/46fe512354c50dd458aa1d3fdfa517836524f5b5b93f96100312b1cfe1c59b2e.json.gz"
+}

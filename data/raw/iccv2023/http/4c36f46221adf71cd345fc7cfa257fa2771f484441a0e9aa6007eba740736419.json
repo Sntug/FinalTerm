@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Alibeigi_Zenseact_Open_Dataset_A_Large-Scale_and_Diverse_Multimodal_Dataset_for_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:21:15Z",
+  "http_status": 200,
+  "content_sha256": "af57290b94c1d115709eb9de5197272cbcb710a853386bd74d68631f133ad129",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b4c-606872ac99210\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/af57290b94c1d115709eb9de5197272cbcb710a853386bd74d68631f133ad129.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Talking+Head+Generation+with+Probabilistic+Audio-to-Visual+Diffusion+Priors%22",
+  "fetched_at": "2026-11-08T01:51:20Z",
+  "http_status": 200,
+  "content_sha256": "21c7f97e66ad2c14284fabf992314f8da338e642e8b10b84460daa230106a1e4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/21c7f97e66ad2c14284fabf992314f8da338e642e8b10b84460daa230106a1e4.json.gz"
+}

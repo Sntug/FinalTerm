@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Few-Shot+Physically-Aware+Articulated+Mesh+Generation+via+Hierarchical+Deformation%22",
+  "fetched_at": "2026-11-08T01:44:19Z",
+  "http_status": 200,
+  "content_sha256": "2e2911ef49bfe48b90d8beb18c9323bfbb0572523b60b2a79f02063c2fbbdcf9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/2e2911ef49bfe48b90d8beb18c9323bfbb0572523b60b2a79f02063c2fbbdcf9.json.gz"
+}

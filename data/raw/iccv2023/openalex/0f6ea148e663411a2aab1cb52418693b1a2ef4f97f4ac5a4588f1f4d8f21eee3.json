@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enhancing+NeRF+akin+to+Enhancing+LLMs%3A+Generalizable+NeRF+Transformer+with+Mixture-of-View-Experts%22",
+  "fetched_at": "2026-11-08T01:51:30Z",
+  "http_status": 200,
+  "content_sha256": "d8f12ab0d041b461568f3f9d49b3660617de55e75d24e05e49b6d7019a1ca6f0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d8f12ab0d041b461568f3f9d49b3660617de55e75d24e05e49b6d7019a1ca6f0.json.gz"
+}

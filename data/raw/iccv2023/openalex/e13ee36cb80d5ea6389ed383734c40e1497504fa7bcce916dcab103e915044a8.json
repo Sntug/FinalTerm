@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Get+the+Best+of+Both+Worlds%3A+Improving+Accuracy+and+Transferability+by+Grassmann+Class+Representation%22",
+  "fetched_at": "2026-11-08T01:48:40Z",
+  "http_status": 200,
+  "content_sha256": "70f95f543f1984f41132a5277b14243bdb8372f89779c3957dc6a99d2ac9f9bc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/70f95f543f1984f41132a5277b14243bdb8372f89779c3957dc6a99d2ac9f9bc.json.gz"
+}

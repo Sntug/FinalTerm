@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Gradient-Regulated+Meta-Prompt+Learning+for+Generalizable+Vision-Language+Models%22",
+  "fetched_at": "2026-11-08T01:44:52Z",
+  "http_status": 200,
+  "content_sha256": "c02390e3ec074de7e3ca20f14c5bf9ab0b0b17f871661d12e0cae45025f56d57",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/c02390e3ec074de7e3ca20f14c5bf9ab0b0b17f871661d12e0cae45025f56d57.json.gz"
+}

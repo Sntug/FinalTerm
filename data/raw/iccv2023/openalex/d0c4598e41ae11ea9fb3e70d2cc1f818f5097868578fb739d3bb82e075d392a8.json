@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Foreground+and+Text-lines+Aware+Document+Image+Rectification%22",
+  "fetched_at": "2026-11-08T01:17:55Z",
+  "http_status": 200,
+  "content_sha256": "73895e6ec860ecc925d9066b1b79abd844f80644baaf6c46838edf97fd2bcb48",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/73895e6ec860ecc925d9066b1b79abd844f80644baaf6c46838edf97fd2bcb48.json.gz"
+}

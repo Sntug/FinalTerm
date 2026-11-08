@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploiting+Proximity-Aware+Tasks+for+Embodied+Social+Navigation%22",
+  "fetched_at": "2026-11-08T02:04:43Z",
+  "http_status": 200,
+  "content_sha256": "d7f1d27d18a7f5290208d16d47bfb99774ff414a0bfb37b4a5d32f9ccb407376",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d7f1d27d18a7f5290208d16d47bfb99774ff414a0bfb37b4a5d32f9ccb407376.json.gz"
+}

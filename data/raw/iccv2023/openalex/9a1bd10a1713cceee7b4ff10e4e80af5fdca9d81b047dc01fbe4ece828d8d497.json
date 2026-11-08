@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ImbSAM%3A+A+Closer+Look+at+Sharpness-Aware+Minimization+in+Class-Imbalanced+Recognition%22",
+  "fetched_at": "2026-11-08T01:44:54Z",
+  "http_status": 200,
+  "content_sha256": "1877def1b01a3ae3ad84a3145dc900e316c8c4c72e1e28f3f8a41139bcb401ef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1877def1b01a3ae3ad84a3145dc900e316c8c4c72e1e28f3f8a41139bcb401ef.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ELITE%3A+Encoding+Visual+Concepts+into+Textual+Embeddings+for+Customized+Text-to-Image+Generation%22",
+  "fetched_at": "2026-11-08T01:18:12Z",
+  "http_status": 200,
+  "content_sha256": "579ef28e8b572606aebac92872e61514fe9d8fede6f4cdc1036b33a9fb86dc41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/579ef28e8b572606aebac92872e61514fe9d8fede6f4cdc1036b33a9fb86dc41.json.gz"
+}

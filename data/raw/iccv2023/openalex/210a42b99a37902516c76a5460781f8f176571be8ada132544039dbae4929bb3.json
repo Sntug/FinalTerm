@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prune+Spatio-temporal+Tokens+by+Semantic-aware+Temporal+Accumulation%22",
+  "fetched_at": "2026-11-08T01:49:49Z",
+  "http_status": 200,
+  "content_sha256": "ca6099a7f14e3bc665e68b552dea427956f3e9bd26efa1382bbe14a8d2631620",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ca6099a7f14e3bc665e68b552dea427956f3e9bd26efa1382bbe14a8d2631620.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Zero-Shot+Spatial+Layout+Conditioning+for+Text-to-Image+Diffusion+Models%22",
+  "fetched_at": "2026-11-08T01:25:09Z",
+  "http_status": 200,
+  "content_sha256": "6a9b1a490157c56bf18a5327259f4ffd61130b5780677bf312c3da3abbca4a64",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6a9b1a490157c56bf18a5327259f4ffd61130b5780677bf312c3da3abbca4a64.json.gz"
+}

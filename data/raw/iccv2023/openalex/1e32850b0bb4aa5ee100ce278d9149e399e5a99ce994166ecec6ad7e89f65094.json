@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HSR-Diff%3A+Hyperspectral+Image+Super-Resolution+via+Conditional+Diffusion+Models%22",
+  "fetched_at": "2026-11-08T01:46:09Z",
+  "http_status": 200,
+  "content_sha256": "1da0de462535e0aad945b4ebd06ea1e57a92f2a4209714633b6e528bbe7ee510",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1da0de462535e0aad945b4ebd06ea1e57a92f2a4209714633b6e528bbe7ee510.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Lens+Parameter+Estimation+for+Realistic+Depth+of+Field+Modeling%22",
+  "fetched_at": "2026-11-08T01:45:32Z",
+  "http_status": 200,
+  "content_sha256": "5ada27cb369251b562813f35be8345b6a2ad3829ae80e17b21767f6d5da4b841",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5ada27cb369251b562813f35be8345b6a2ad3829ae80e17b21767f6d5da4b841.json.gz"
+}

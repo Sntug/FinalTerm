@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LD-ZNet%3A+A+Latent+Diffusion+Approach+for+Text-Based+Image+Segmentation%22",
+  "fetched_at": "2026-11-08T01:51:48Z",
+  "http_status": 200,
+  "content_sha256": "08d61dea8204f8ab4e683b7244f2cb69f0ae7754eac02f69372c96c0c85ab3d8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/08d61dea8204f8ab4e683b7244f2cb69f0ae7754eac02f69372c96c0c85ab3d8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+Image+Denoising+in+Real-World+Scenarios+via+Self-Collaboration+Parallel+Generative+Adversarial+Branches%22",
+  "fetched_at": "2026-11-08T01:24:28Z",
+  "http_status": 200,
+  "content_sha256": "2cdf95876cef9d8247576bf90facf7d4799c0d468eb3167834ac1ce57a5bda21",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/2cdf95876cef9d8247576bf90facf7d4799c0d468eb3167834ac1ce57a5bda21.json.gz"
+}

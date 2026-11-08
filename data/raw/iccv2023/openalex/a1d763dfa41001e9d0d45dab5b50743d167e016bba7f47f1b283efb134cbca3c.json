@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Text2Tex%3A+Text-driven+Texture+Synthesis+via+Diffusion+Models%22",
+  "fetched_at": "2026-11-08T01:47:06Z",
+  "http_status": 200,
+  "content_sha256": "ac768fb7e5f94a6f46b0c627fd82592706d9698a9cc69c873dd4ea89b5a477ef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ac768fb7e5f94a6f46b0c627fd82592706d9698a9cc69c873dd4ea89b5a477ef.json.gz"
+}

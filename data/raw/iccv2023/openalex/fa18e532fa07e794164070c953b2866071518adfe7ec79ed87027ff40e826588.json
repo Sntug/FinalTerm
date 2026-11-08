@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Image-Adaptive+Codebooks+for+Class-Agnostic+Image+Restoration%22",
+  "fetched_at": "2026-11-08T01:17:57Z",
+  "http_status": 200,
+  "content_sha256": "62b17eaefcf17f0de1fbe452f6918a77571107501902994a7646e93ff77691dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/62b17eaefcf17f0de1fbe452f6918a77571107501902994a7646e93ff77691dc.json.gz"
+}

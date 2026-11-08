@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RepQ-ViT%3A+Scale+Reparameterization+for+Post-Training+Quantization+of+Vision+Transformers%22",
+  "fetched_at": "2026-11-08T01:25:03Z",
+  "http_status": 200,
+  "content_sha256": "e773e7858825e0172fd42592fd3f1ada4302e9f74bb47d6652f0beab4b20d7ab",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e773e7858825e0172fd42592fd3f1ada4302e9f74bb47d6652f0beab4b20d7ab.json.gz"
+}

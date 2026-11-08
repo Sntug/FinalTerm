@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unified+Out-Of-Distribution+Detection%3A+A+Model-Specific+Perspective%22",
+  "fetched_at": "2026-11-08T01:26:14Z",
+  "http_status": 200,
+  "content_sha256": "478ebd1f3ff32a7afc6b15f8bc10f28af69b9b8a165d09562db063c226c5ac4b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/478ebd1f3ff32a7afc6b15f8bc10f28af69b9b8a165d09562db063c226c5ac4b.json.gz"
+}

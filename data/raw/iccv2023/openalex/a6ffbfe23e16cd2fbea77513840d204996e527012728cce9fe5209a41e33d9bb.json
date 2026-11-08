@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion-based+Image+Translation+with+Label+Guidance+for+Domain+Adaptive+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-08T01:49:45Z",
+  "http_status": 200,
+  "content_sha256": "18fe6d0a00434dae535a734b87d9bbf73678f22e3a3bef4f965a853240b2857e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/18fe6d0a00434dae535a734b87d9bbf73678f22e3a3bef4f965a853240b2857e.json.gz"
+}

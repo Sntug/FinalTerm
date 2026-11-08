@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22High-Resolution+Document+Shadow+Removal+via+A+Large-Scale+Real-World+Dataset+and+A+Frequency-Aware+Shadow+Erasing+Net%22",
+  "fetched_at": "2026-11-08T01:45:06Z",
+  "http_status": 200,
+  "content_sha256": "b04ca8b4192a6c9717f0180cd6e1fa9318f960ae4bf99906f64abd9c85f2238c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b04ca8b4192a6c9717f0180cd6e1fa9318f960ae4bf99906f64abd9c85f2238c.json.gz"
+}

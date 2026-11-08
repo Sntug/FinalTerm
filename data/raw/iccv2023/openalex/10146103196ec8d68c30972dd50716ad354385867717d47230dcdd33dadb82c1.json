@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MPCViT%3A+Searching+for+Accurate+and+Efficient+MPC-Friendly+Vision+Transformer+with+Heterogeneous+Attention%22",
+  "fetched_at": "2026-11-08T02:05:12Z",
+  "http_status": 200,
+  "content_sha256": "88f14d6f121bf2c99c0748933edce5f507fb66374b9a4622cf126e17bf657af7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/88f14d6f121bf2c99c0748933edce5f507fb66374b9a4622cf126e17bf657af7.json.gz"
+}

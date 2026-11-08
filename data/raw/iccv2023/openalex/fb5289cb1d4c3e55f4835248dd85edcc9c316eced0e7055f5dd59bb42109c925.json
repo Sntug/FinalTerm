@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Tangent+Sampson+Error%3A+Fast+Approximate+Two-view+Reprojection+Error+for+Central+Camera+Models%22",
+  "fetched_at": "2026-11-08T01:48:52Z",
+  "http_status": 200,
+  "content_sha256": "a9da5c3534f76f506a8444d354fe43e960d75640601f7d2a16c3697971bf1818",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a9da5c3534f76f506a8444d354fe43e960d75640601f7d2a16c3697971bf1818.json.gz"
+}

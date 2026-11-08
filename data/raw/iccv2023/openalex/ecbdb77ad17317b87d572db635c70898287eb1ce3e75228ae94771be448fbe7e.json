@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Audio-Visual+Class-Incremental+Learning%22",
+  "fetched_at": "2026-11-08T01:25:11Z",
+  "http_status": 200,
+  "content_sha256": "27026288f63ff2a429d84370918ce3a1312e6e252cf591df1b3831f6a0c73c6b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/27026288f63ff2a429d84370918ce3a1312e6e252cf591df1b3831f6a0c73c6b.json.gz"
+}

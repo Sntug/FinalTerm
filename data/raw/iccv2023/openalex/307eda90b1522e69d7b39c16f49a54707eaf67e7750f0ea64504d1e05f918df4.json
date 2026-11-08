@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniZoomer%3A+Learning+to+Move+and+Zoom+in+on+Sphere+at+High-Resolution%22",
+  "fetched_at": "2026-11-08T01:26:02Z",
+  "http_status": 200,
+  "content_sha256": "7ac4f34b991609133c92978fee13ca2fc5d9f8101ac1b4b43d120735fde66afa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7ac4f34b991609133c92978fee13ca2fc5d9f8101ac1b4b43d120735fde66afa.json.gz"
+}

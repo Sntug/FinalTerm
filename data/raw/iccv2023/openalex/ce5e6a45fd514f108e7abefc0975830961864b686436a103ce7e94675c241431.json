@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LoTE-Animal%3A+A+Long+Time-span+Dataset+for+Endangered+Animal+Behavior+Understanding%22",
+  "fetched_at": "2026-11-08T01:25:32Z",
+  "http_status": 200,
+  "content_sha256": "01f1807b3731ae0ac28994f4561997c222b3582247b8b5037005c11a8652ae3a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/01f1807b3731ae0ac28994f4561997c222b3582247b8b5037005c11a8652ae3a.json.gz"
+}

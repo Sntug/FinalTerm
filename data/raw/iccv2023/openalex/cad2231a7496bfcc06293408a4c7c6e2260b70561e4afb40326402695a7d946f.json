@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Understanding+the+Feature+Norm+for+Out-of-Distribution+Detection%22",
+  "fetched_at": "2026-11-08T01:49:29Z",
+  "http_status": 200,
+  "content_sha256": "0cfd276a3b1bdddc1820c2784638ae6211ccb2ae21e4a89cb794c0835efee503",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/0cfd276a3b1bdddc1820c2784638ae6211ccb2ae21e4a89cb794c0835efee503.json.gz"
+}

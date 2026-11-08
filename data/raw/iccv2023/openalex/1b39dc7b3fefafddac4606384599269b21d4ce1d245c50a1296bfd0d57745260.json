@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dense+Text-to-Image+Generation+with+Attention+Modulation%22",
+  "fetched_at": "2026-11-08T01:17:45Z",
+  "http_status": 200,
+  "content_sha256": "cb5f417327315e54de616e54b0a38d005791c7c1ee268000a74058b2dcbdea9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cb5f417327315e54de616e54b0a38d005791c7c1ee268000a74058b2dcbdea9a.json.gz"
+}

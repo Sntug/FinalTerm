@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Re%3APolyWorld+-+A+Graph+Neural+Network+for+Polygonal+Scene+Parsing",
+  "fetched_at": "2026-11-08T01:46:23Z",
+  "http_status": 200,
+  "content_sha256": "021610065c10cc4e34b1871f7ca0d08680c2d06a84804f14f2fe671d1bb4e620",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/021610065c10cc4e34b1871f7ca0d08680c2d06a84804f14f2fe671d1bb4e620.json.gz"
+}

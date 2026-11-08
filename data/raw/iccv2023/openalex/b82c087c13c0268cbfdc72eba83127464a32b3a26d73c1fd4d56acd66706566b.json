@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generalized+Sum+Pooling+for+Metric+Learning%22",
+  "fetched_at": "2026-11-08T01:25:45Z",
+  "http_status": 200,
+  "content_sha256": "5b247234ed0c426d531d81a5940f6213f47fba974e915f8aa9b445bac126f090",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5b247234ed0c426d531d81a5940f6213f47fba974e915f8aa9b445bac126f090.json.gz"
+}

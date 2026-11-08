@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LaPE%3A+Layer-adaptive+Position+Embedding+for+Vision+Transformers+with+Independent+Layer+Normalization%22",
+  "fetched_at": "2026-11-08T01:43:57Z",
+  "http_status": 200,
+  "content_sha256": "73e55915be9850f597f0ac32111c5af25085b17f744be5985b85df8eb2357b0d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/73e55915be9850f597f0ac32111c5af25085b17f744be5985b85df8eb2357b0d.json.gz"
+}

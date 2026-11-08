@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Synchronize+Feature+Extracting+and+Matching%3A+A+Single+Branch+Framework+for+3D+Object+Tracking%22",
+  "fetched_at": "2026-11-08T01:48:22Z",
+  "http_status": 200,
+  "content_sha256": "25c352cdc6b05f4dd73f3d7b003c09067f1281e58bc327b3e3400e466a28f582",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/25c352cdc6b05f4dd73f3d7b003c09067f1281e58bc327b3e3400e466a28f582.json.gz"
+}

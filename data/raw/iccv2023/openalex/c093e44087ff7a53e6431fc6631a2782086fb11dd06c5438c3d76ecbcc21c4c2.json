@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GlueGen%3A+Plug+and+Play+Multi-modal+Encoders+for+X-to-image+Generation%22",
+  "fetched_at": "2026-11-08T01:26:24Z",
+  "http_status": 200,
+  "content_sha256": "8735eab85cf8bb9f1bb76c01d42c96c2efdec8bd8876db3423454c7247e30e17",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8735eab85cf8bb9f1bb76c01d42c96c2efdec8bd8876db3423454c7247e30e17.json.gz"
+}

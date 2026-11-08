@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Cross-modal+Scalable+Hyperbolic+Hierarchical+Clustering%22",
+  "fetched_at": "2026-11-08T01:44:25Z",
+  "http_status": 200,
+  "content_sha256": "5ca47a356079364684e2a655c011c6110c7e1f2aa671f3b9a633947b490dcf76",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5ca47a356079364684e2a655c011c6110c7e1f2aa671f3b9a633947b490dcf76.json.gz"
+}

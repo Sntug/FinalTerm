@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UniKD%3A+Universal+Knowledge+Distillation+for+Mimicking+Homogeneous+or+Heterogeneous+Object+Detectors%22",
+  "fetched_at": "2026-11-08T01:51:18Z",
+  "http_status": 200,
+  "content_sha256": "fe85c5e20673dc1bf19d7a77281e515bcf15909ddfb4da8bd47947c9bb48b11c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/fe85c5e20673dc1bf19d7a77281e515bcf15909ddfb4da8bd47947c9bb48b11c.json.gz"
+}

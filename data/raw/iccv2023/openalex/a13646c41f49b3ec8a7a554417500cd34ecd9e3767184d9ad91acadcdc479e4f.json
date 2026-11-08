@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SceneRF%3A+Self-Supervised+Monocular+3D+Scene+Reconstruction+with+Radiance+Fields%22",
+  "fetched_at": "2026-11-08T01:25:17Z",
+  "http_status": 200,
+  "content_sha256": "addac2719f9f9e2743db10efed3d0e2f6d2b42203cefb10c83d77fa1cb5ccb50",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/addac2719f9f9e2743db10efed3d0e2f6d2b42203cefb10c83d77fa1cb5ccb50.json.gz"
+}

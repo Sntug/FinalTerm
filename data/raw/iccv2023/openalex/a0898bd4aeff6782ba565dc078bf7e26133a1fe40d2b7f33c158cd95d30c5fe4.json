@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Navigating+to+Objects+Specified+by+Images%22",
+  "fetched_at": "2026-11-08T01:49:57Z",
+  "http_status": 200,
+  "content_sha256": "84168ba0f3647b683ddbdf8b0a11a532ed176d0af384b4d6ad03598bebce9987",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/84168ba0f3647b683ddbdf8b0a11a532ed176d0af384b4d6ad03598bebce9987.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LIST%3A+Learning+Implicitly+from+Spatial+Transformers+for+Single-View+3D+Reconstruction%22",
+  "fetched_at": "2026-11-08T01:46:07Z",
+  "http_status": 200,
+  "content_sha256": "bdb87f9c0cab87793740fb2a9ad1fcdaa806f4b9e889237c43635ca75fcc65d7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/bdb87f9c0cab87793740fb2a9ad1fcdaa806f4b9e889237c43635ca75fcc65d7.json.gz"
+}

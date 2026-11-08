@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Cross-Representation+Affinity+Consistency+for+Sparsely+Supervised+Biomedical+Instance+Segmentation%22",
+  "fetched_at": "2026-11-08T01:24:40Z",
+  "http_status": 200,
+  "content_sha256": "365afa08ad31f5324030f875094145dcbe6da8580ee53460a3118b59007b1eea",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/365afa08ad31f5324030f875094145dcbe6da8580ee53460a3118b59007b1eea.json.gz"
+}

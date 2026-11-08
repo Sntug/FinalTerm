@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SVDFormer%3A+Complementing+Point+Cloud+via+Self-view+Augmentation+and+Self-structure+Dual-generator%22",
+  "fetched_at": "2026-11-08T01:51:10Z",
+  "http_status": 200,
+  "content_sha256": "56604d9417688225be065976870c2580fee76e238b3172d100420fb41dbd9a08",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/56604d9417688225be065976870c2580fee76e238b3172d100420fb41dbd9a08.json.gz"
+}

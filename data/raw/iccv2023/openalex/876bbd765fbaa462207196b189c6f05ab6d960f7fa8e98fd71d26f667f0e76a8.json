@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deep+Equilibrium+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:51:55Z",
+  "http_status": 200,
+  "content_sha256": "7fee1515fa06be1bfccc4dd81cfaa84fe31437abc70b6104a456d88b1bfa24ba",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7fee1515fa06be1bfccc4dd81cfaa84fe31437abc70b6104a456d88b1bfa24ba.json.gz"
+}

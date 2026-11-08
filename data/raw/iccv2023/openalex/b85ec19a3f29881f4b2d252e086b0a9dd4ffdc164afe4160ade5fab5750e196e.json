@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Simple+Framework+for+Open-Vocabulary+Segmentation+and+Detection%22",
+  "fetched_at": "2026-11-08T01:18:21Z",
+  "http_status": 200,
+  "content_sha256": "faa6bdad6fb55f9227e7eae3fd2a566a23b469405b467cda5aca32fea279a0f7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/faa6bdad6fb55f9227e7eae3fd2a566a23b469405b467cda5aca32fea279a0f7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hyperbolic+Audio-visual+Zero-shot+Learning%22",
+  "fetched_at": "2026-11-08T01:24:38Z",
+  "http_status": 200,
+  "content_sha256": "a4983edfcac19983638b0ee67b4d711523718e4397febd11ce8b0312e64f1837",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a4983edfcac19983638b0ee67b4d711523718e4397febd11ce8b0312e64f1837.json.gz"
+}

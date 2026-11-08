@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22WaveIPT%3A+Joint+Attention+and+Flow+Alignment+in+the+Wavelet+domain+for+Pose+Transfer%22",
+  "fetched_at": "2026-11-08T01:50:54Z",
+  "http_status": 200,
+  "content_sha256": "e33b899bd958cf62ca4c241940f5d0362aed84058f8fd57b51354fade23bcf00",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e33b899bd958cf62ca4c241940f5d0362aed84058f8fd57b51354fade23bcf00.json.gz"
+}

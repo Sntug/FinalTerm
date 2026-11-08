@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FastRecon%3A+Few-shot+Industrial+Anomaly+Detection+via+Fast+Feature+Reconstruction%22",
+  "fetched_at": "2026-11-08T01:45:40Z",
+  "http_status": 200,
+  "content_sha256": "260fb4ea7d111cebbe5496024e1eab9169052ec5a00f78e0b8b38c52d102656b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/260fb4ea7d111cebbe5496024e1eab9169052ec5a00f78e0b8b38c52d102656b.json.gz"
+}

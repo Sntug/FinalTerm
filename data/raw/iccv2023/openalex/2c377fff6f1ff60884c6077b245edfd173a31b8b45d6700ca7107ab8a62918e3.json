@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Parametric+Depth+Based+Feature+Representation+Learning+for+Object+Detection+and+Segmentation+in+Bird%27s-Eye+View%22",
+  "fetched_at": "2026-11-08T01:47:25Z",
+  "http_status": 200,
+  "content_sha256": "ce4cf227a63d7a7d4f80cd90fa8ec5eee0e35a77def418027e63afc831845804",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ce4cf227a63d7a7d4f80cd90fa8ec5eee0e35a77def418027e63afc831845804.json.gz"
+}

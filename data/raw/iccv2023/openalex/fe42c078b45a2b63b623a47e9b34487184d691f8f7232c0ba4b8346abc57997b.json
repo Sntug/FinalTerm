@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Audiovisual+Masked+Autoencoders%22",
+  "fetched_at": "2026-11-08T01:17:41Z",
+  "http_status": 200,
+  "content_sha256": "621f3bf9634d9f8a086b6bcb6361d0afe65531aab10e4eb39326f2b0ca97abd3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/621f3bf9634d9f8a086b6bcb6361d0afe65531aab10e4eb39326f2b0ca97abd3.json.gz"
+}

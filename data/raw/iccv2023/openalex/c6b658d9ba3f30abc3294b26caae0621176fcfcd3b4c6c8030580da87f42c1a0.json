@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RenderIH%3A+A+Large-Scale+Synthetic+Dataset+for+3D+Interacting+Hand+Pose+Estimation%22",
+  "fetched_at": "2026-11-08T01:45:02Z",
+  "http_status": 200,
+  "content_sha256": "55b74640f1ead28e98fab86168daae7d3e547dda494f7924772782bc05fca68a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/55b74640f1ead28e98fab86168daae7d3e547dda494f7924772782bc05fca68a.json.gz"
+}

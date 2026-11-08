@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Name+Your+Colour+For+the+Task%3A+Artificially+Discover+Colour+Naming+via+Colour+Quantisation+Transformer%22",
+  "fetched_at": "2026-11-08T01:25:13Z",
+  "http_status": 200,
+  "content_sha256": "4c9d35717a79f8df3440c0ff1075dff66a015d35f1a87b4a931a0c4535bb0dd8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/4c9d35717a79f8df3440c0ff1075dff66a015d35f1a87b4a931a0c4535bb0dd8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Latent-OFER%3A+Detect%2C+Mask%2C+and+Reconstruct+with+Latent+Vectors+for+Occluded+Facial+Expression+Recognition%22",
+  "fetched_at": "2026-11-08T01:47:23Z",
+  "http_status": 200,
+  "content_sha256": "d29f8594599b7b2d1d451b5740aea1da4077c72d3f2b47c8f1ea949adf141abf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d29f8594599b7b2d1d451b5740aea1da4077c72d3f2b47c8f1ea949adf141abf.json.gz"
+}

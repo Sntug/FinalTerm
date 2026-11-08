@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BEVPlace%3A+Learning+LiDAR-based+Place+Recognition+using+Bird%27s+Eye+View+Images%22",
+  "fetched_at": "2026-11-08T01:47:31Z",
+  "http_status": 200,
+  "content_sha256": "9eaaf4222131a269386d0e1350ee820d2c83fff3566e1e9bb069377b112ad5b9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9eaaf4222131a269386d0e1350ee820d2c83fff3566e1e9bb069377b112ad5b9.json.gz"
+}

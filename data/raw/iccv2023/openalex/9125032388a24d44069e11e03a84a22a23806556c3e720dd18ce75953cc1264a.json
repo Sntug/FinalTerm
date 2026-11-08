@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Anchor+Structure+Regularization+Induced+Multi-view+Subspace+Clustering+via+Enhanced+Tensor+Rank+Minimization%22",
+  "fetched_at": "2026-11-08T01:25:56Z",
+  "http_status": 200,
+  "content_sha256": "ef53f37ba51cbcc78c1cfb459770f6dd6ebde7c7e0ab5ea4736432d52b20bfb7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ef53f37ba51cbcc78c1cfb459770f6dd6ebde7c7e0ab5ea4736432d52b20bfb7.json.gz"
+}

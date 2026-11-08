@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VI-Net%3A+Boosting+Category-level+6D+Object+Pose+Estimation+via+Learning+Decoupled+Rotations+on+the+Spherical+Representations%22",
+  "fetched_at": "2026-11-08T01:51:35Z",
+  "http_status": 200,
+  "content_sha256": "0cd85f5e4772b9e3edf8a6a7e8775edc109f898c7f822a49890822d403ce1d61",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/0cd85f5e4772b9e3edf8a6a7e8775edc109f898c7f822a49890822d403ce1d61.json.gz"
+}

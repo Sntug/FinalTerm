@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-View+Active+Fine-Grained+Visual+Recognition%22",
+  "fetched_at": "2026-11-08T01:17:35Z",
+  "http_status": 200,
+  "content_sha256": "e50c42a96be3bf6b4e11832a92f02e95ce2262c316f12d248a8feb7df730459e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e50c42a96be3bf6b4e11832a92f02e95ce2262c316f12d248a8feb7df730459e.json.gz"
+}

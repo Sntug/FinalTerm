@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MHCN%3A+A+Hyperbolic+Neural+Network+Model+for+Multi-view+Hierarchical+Clustering%22",
+  "fetched_at": "2026-11-08T01:44:07Z",
+  "http_status": 200,
+  "content_sha256": "1fdaa931c3bad03da461c3129084ee423e0278b1e4e20d78b7e0fe8bc2197c29",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1fdaa931c3bad03da461c3129084ee423e0278b1e4e20d78b7e0fe8bc2197c29.json.gz"
+}

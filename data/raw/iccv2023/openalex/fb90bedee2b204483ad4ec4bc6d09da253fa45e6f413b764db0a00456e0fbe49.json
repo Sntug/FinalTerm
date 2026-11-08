@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deep+Geometrized+Cartoon+Line+Inbetweening%22",
+  "fetched_at": "2026-11-08T01:45:18Z",
+  "http_status": 200,
+  "content_sha256": "997478653ef162d42f15c9f9a2bfe1fef7bb2a49b504c2ed6813f39e9eefc4cc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/997478653ef162d42f15c9f9a2bfe1fef7bb2a49b504c2ed6813f39e9eefc4cc.json.gz"
+}

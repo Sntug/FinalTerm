@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Flexible+Visual+Recognition+by+Evidential+Modeling+of+Confusion+and+Ignorance%22",
+  "fetched_at": "2026-11-08T01:17:37Z",
+  "http_status": 200,
+  "content_sha256": "9ba8193217678b256b85a8f1d97108eceef728045835be0a142594295f04f108",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9ba8193217678b256b85a8f1d97108eceef728045835be0a142594295f04f108.json.gz"
+}

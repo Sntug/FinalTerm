@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Generalization+in+Visual+Reinforcement+Learning+via+Conflict-aware+Gradient+Agreement+Augmentation%22",
+  "fetched_at": "2026-11-08T01:25:41Z",
+  "http_status": 200,
+  "content_sha256": "220f50ecb39eac18626d715740d7b4d83328e2f88b2aec1cc845cbba38646bd7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/220f50ecb39eac18626d715740d7b4d83328e2f88b2aec1cc845cbba38646bd7.json.gz"
+}

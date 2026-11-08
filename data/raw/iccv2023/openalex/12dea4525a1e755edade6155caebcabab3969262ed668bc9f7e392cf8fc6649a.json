@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22One-Shot+Recognition+of+Any+Material+Anywhere+Using+Contrastive+Learning+with+Physics-Based+Rendering%22",
+  "fetched_at": "2026-11-08T01:25:50Z",
+  "http_status": 200,
+  "content_sha256": "469c4cf9d3bb479b32d04e3a1f3e9448ddf987de4c4a018df1d1936c6d45ae50",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/469c4cf9d3bb479b32d04e3a1f3e9448ddf987de4c4a018df1d1936c6d45ae50.json.gz"
+}

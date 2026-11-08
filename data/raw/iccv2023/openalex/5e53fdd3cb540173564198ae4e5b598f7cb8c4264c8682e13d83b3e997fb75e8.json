@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Skeletonization+Algorithm+for+Gradient-Based+Optimization%22",
+  "fetched_at": "2026-11-08T01:47:36Z",
+  "http_status": 200,
+  "content_sha256": "388e5461fa0975ad34120a3e33c5e0945c77e53802c03f3b1cfa8a795051a6a3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/388e5461fa0975ad34120a3e33c5e0945c77e53802c03f3b1cfa8a795051a6a3.json.gz"
+}

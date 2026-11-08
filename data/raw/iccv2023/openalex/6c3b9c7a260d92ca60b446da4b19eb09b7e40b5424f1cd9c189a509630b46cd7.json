@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SpinCam%3A+High-Speed+Imaging+via+a+Rotating+Point-Spread+Function%22",
+  "fetched_at": "2026-11-08T01:51:01Z",
+  "http_status": 200,
+  "content_sha256": "cebc589af2007e9f6dfee7684b243a52e220c788bb9fa03758e5d40465845e17",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cebc589af2007e9f6dfee7684b243a52e220c788bb9fa03758e5d40465845e17.json.gz"
+}

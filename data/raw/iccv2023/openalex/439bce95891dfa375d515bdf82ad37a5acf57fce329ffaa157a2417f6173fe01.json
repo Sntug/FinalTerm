@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DreamTeacher%3A+Pretraining+Image+Backbones+with+Deep+Generative+Models%22",
+  "fetched_at": "2026-11-08T01:17:53Z",
+  "http_status": 200,
+  "content_sha256": "35ae22eee56431c3f1dea1f5eabe88d0600a999d3c74eeb2a931529776197622",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/35ae22eee56431c3f1dea1f5eabe88d0600a999d3c74eeb2a931529776197622.json.gz"
+}

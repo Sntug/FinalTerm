@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Video+Object+Segmentation-aware+Video+Frame+Interpolation%22",
+  "fetched_at": "2026-11-08T01:18:17Z",
+  "http_status": 200,
+  "content_sha256": "436df87c7d3dbbd384883254027e9f00e3849e428e8d91c4bd6ddee219df877d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/436df87c7d3dbbd384883254027e9f00e3849e428e8d91c4bd6ddee219df877d.json.gz"
+}

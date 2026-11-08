@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=BT%5E2%3A+Backward-compatible+Training+with+Basis+Transformation",
+  "fetched_at": "2026-11-08T01:47:05Z",
+  "http_status": 200,
+  "content_sha256": "df513ac097e0e57bff35da2c59a2350aa6ed2b981e2fa500682ff7261e77f73e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/df513ac097e0e57bff35da2c59a2350aa6ed2b981e2fa500682ff7261e77f73e.json.gz"
+}

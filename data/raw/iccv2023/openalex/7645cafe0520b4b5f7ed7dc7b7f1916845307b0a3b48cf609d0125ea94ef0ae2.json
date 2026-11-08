@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProPainter%3A+Improving+Propagation+and+Transformer+for+Video+Inpainting%22",
+  "fetched_at": "2026-11-08T01:44:13Z",
+  "http_status": 200,
+  "content_sha256": "f51cf374d1bd29195131a1b5b6eb2323efefc3ee5175cf0dfb2de02565727291",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/f51cf374d1bd29195131a1b5b6eb2323efefc3ee5175cf0dfb2de02565727291.json.gz"
+}
