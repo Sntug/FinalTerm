@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0.0",
+  "snapshot_id": "snapshot:v2:3aee2efef63627e23eed78a2ca51ad88ddc2ad5c7f9825559d4172048e0ab4ef",
+  "passed": true,
+  "tables_checked": 12,
+  "records_checked": 1083,
+  "raw_sources_checked": 62,
+  "text_versions_checked": 120,
+  "graph_ready": false,
+  "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+}

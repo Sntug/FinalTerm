@@ -1,0 +1,2 @@
+# A1 uses only the Python 3.12+ standard library.
+# Add and pin actual dependencies in A2/B3 when those modules are implemented.

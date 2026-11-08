@@ -1,0 +1,20 @@
+{
+  "schema_version": "2.0.0",
+  "owner": "B",
+  "conference": "ICCV",
+  "conference_year": 2023,
+  "seed": 20261103,
+  "target_count": 30,
+  "listing_url": "https://openaccess.thecvf.com/ICCV2023?day=all",
+  "contract_dir": "config/contracts/v2",
+  "raw_dir": "data/raw/iccv2023",
+  "processed_dir": "data/processed/iccv2023/pilot",
+  "output_dir": "outputs/b_iccv2023/pilot",
+  "delay_seconds": 1.0,
+  "retries": 2,
+  "registry_input": "data/processed/iccv2023/input_registry.csv",
+  "timeout_seconds": 30,
+  "openalex_delay_seconds": 1.0,
+  "max_retry_wait_seconds": 30,
+  "openalex_enabled": true
+}

@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "authorships.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "authorship_id",
+    "paper_id",
+    "author_id",
+    "author_name",
+    "author_name_raw",
+    "author_order",
+    "identity_status",
+    "affiliation_raw",
+    "institution_id",
+    "source_record_id",
+    "owner",
+    "identity_source_record_id",
+    "affiliation_source_record_id",
+    "affiliation_status",
+    "decision_ids"
+  ],
+  "properties": {
+    "authorship_id": {
+      "type": "string"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "author_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "author_name_raw": {
+      "type": "string"
+    },
+    "author_order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "identity_status": {
+      "type": "string",
+      "enum": [
+        "unresolved",
+        "resolved",
+        "needs_review"
+      ]
+    },
+    "affiliation_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "institution_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "identity_source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affiliation_source_record_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "affiliation_status": {
+      "type": "string",
+      "enum": [
+        "not_collected",
+        "verified",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "decision_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

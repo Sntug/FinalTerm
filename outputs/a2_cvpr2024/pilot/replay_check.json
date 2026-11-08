@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "command": "py -3.12 -B -X utf8 -m src.collect --config config/a_cvpr2024_pilot.json --offline",
+      "exit_code": 0,
+      "manifest_unchanged": true
+    },
+    {
+      "command": "py -3.12 -B -X utf8 -m src.collect --config config/a_cvpr2024_pilot.json",
+      "exit_code": 0,
+      "manifest_unchanged": true
+    },
+    {
+      "command": "py -3.12 -B -X utf8 -m src.collect.verify --manifest data/processed/cvpr2024/pilot/snapshot_manifest.json",
+      "exit_code": 0,
+      "manifest_unchanged": true
+    }
+  ],
+  "snapshot_id": "snapshot:v2:737f8bc206c9a39e0b99d6ffb085036acbbfdf323556b717e5634c5cea0d64ba",
+  "network_requests": {
+    "CVF": 0,
+    "OpenAlex": 0
+  }
+}

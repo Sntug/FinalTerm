@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "original_file_count": 294,
+  "original_files_preserved": 293,
+  "intentionally_modified_tracked_files": [
+    "README.md"
+  ],
+  "missing_original_files": [],
+  "original_handoff_files_preserved": 278,
+  "handoff_checksum_checks": [
+    {
+      "package": "mxh_a1_pilot",
+      "files_checked": 164,
+      "failures": []
+    },
+    {
+      "package": "mxh_contract_v2",
+      "files_checked": 111,
+      "failures": []
+    }
+  ],
+  "canonical_schema_files": 14,
+  "branch": "feat/a2-collector-v2",
+  "head_unchanged": true,
+  "staged_diff_empty": true
+}

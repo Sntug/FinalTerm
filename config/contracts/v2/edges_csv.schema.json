@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "edges.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "edge_id",
+    "src",
+    "dst",
+    "type",
+    "weight",
+    "derivation",
+    "validation_status",
+    "evidence_ids",
+    "paper_ids",
+    "owner",
+    "source_origin",
+    "project_id"
+  ],
+  "properties": {
+    "edge_id": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "dst": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "AUTHORED",
+        "AFFILIATED_WITH",
+        "PUBLISHED_IN",
+        "CITES",
+        "BASED_IN",
+        "COAUTHORED_WITH",
+        "COLLABORATED_WITH",
+        "STUDIES_TASK",
+        "USES_METHOD",
+        "EVALUATED_ON"
+      ]
+    },
+    "weight": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "derivation": {
+      "type": "string",
+      "enum": [
+        "metadata",
+        "derived",
+        "nlp"
+      ]
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "accepted",
+        "needs_review",
+        "rejected"
+      ]
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "paper_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner": {
+      "type": "string"
+    },
+    "source_origin": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_id": {
+      "type": "string"
+    }
+  }
+}

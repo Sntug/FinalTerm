@@ -1,0 +1,58 @@
+CVF valid 30/30; OpenAlex completed 30/30
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:7660871e3ae859c68d0abc9b43d60979f39bac566f71e33821e4f91fb749ef2f",
+  "papers": 30,
+  "authorship_observations": 159,
+  "raw_sources_checked": 62,
+  "text_versions_checked": 60,
+  "tables_checked": 12,
+  "records_checked": 662,
+  "graph_ready": false,
+  "collection_complete": true,
+  "target_papers": 30,
+  "openalex_status_counts": {
+    "needs_review": 29,
+    "matched": 1
+  },
+  "coverage": {
+    "abstract": {
+      "numerator": 30,
+      "denominator": 30,
+      "percent": 100.0
+    },
+    "affiliation_verified_papers": {
+      "numerator": 0,
+      "denominator": 30,
+      "percent": 0.0
+    },
+    "affiliation_verified_authorships": {
+      "numerator": 0,
+      "denominator": 159,
+      "percent": 0.0
+    },
+    "affiliation_available_in_matched_openalex_work": {
+      "numerator": 1,
+      "denominator": 30,
+      "percent": 3.33
+    },
+    "references_checked": {
+      "numerator": 1,
+      "denominator": 30,
+      "percent": 3.33
+    },
+    "references_nonempty": {
+      "numerator": 1,
+      "denominator": 30,
+      "percent": 3.33
+    }
+  },
+  "source_errors": [],
+  "unresolved_authorships": 159,
+  "network_requests": {
+    "CVF": 0,
+    "OpenAlex": 31
+  },
+  "offline": false,
+  "manifest": "data/processed/cvpr2024/pilot/snapshot_manifest.json"
+}

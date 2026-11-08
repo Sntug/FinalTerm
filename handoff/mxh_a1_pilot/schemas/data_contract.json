@@ -1,0 +1,764 @@
+{
+  "schema_version": "1.0.0",
+  "status": "frozen_technical_pilot_contract_pending_B_review",
+  "encoding": {
+    "text": "UTF-8",
+    "csv": "UTF-8 with BOM, comma delimiter, LF newlines, RFC4180 quoting",
+    "null_json": null,
+    "null_csv": "",
+    "lists_in_csv": "JSON array string; no semicolon-separated ad-hoc lists",
+    "dates": "YYYY, YYYY-MM or YYYY-MM-DD with explicit date_precision; capture timestamps RFC3339 UTC"
+  },
+  "paper_identity": "Preserve accepted cvf:EDITION:SLUG. DOI/OpenAlex/arXiv become aliases; never silently rewrite IDs.",
+  "author_identity": "Separate authorship appearances from verified Author identity. Never merge or create global people solely by name.",
+  "registry_status_enum": [
+    "registered",
+    "cvf_verified",
+    "needs_review",
+    "excluded"
+  ],
+  "node_labels": [
+    "Author",
+    "Paper",
+    "Institution",
+    "VenueEdition",
+    "Task",
+    "Method",
+    "Dataset",
+    "Country"
+  ],
+  "relations": [
+    {
+      "type": "AUTHORED",
+      "src_label": "Author",
+      "dst_label": "Paper",
+      "directed": true,
+      "derivation": "metadata",
+      "condition": "Verified ordered authorship of representative paper."
+    },
+    {
+      "type": "AFFILIATED_WITH",
+      "src_label": "Author",
+      "dst_label": "Institution",
+      "directed": true,
+      "derivation": "metadata",
+      "condition": "Paper-specific verified affiliation. Keep supporting paper IDs and years in evidence."
+    },
+    {
+      "type": "PUBLISHED_IN",
+      "src_label": "Paper",
+      "dst_label": "VenueEdition",
+      "directed": true,
+      "derivation": "metadata",
+      "condition": "Verified main-conference membership."
+    },
+    {
+      "type": "CITES",
+      "src_label": "Paper",
+      "dst_label": "Paper",
+      "directed": true,
+      "derivation": "metadata",
+      "condition": "Source paper cites target paper in references. Never derive from citation_count."
+    },
+    {
+      "type": "BASED_IN",
+      "src_label": "Institution",
+      "dst_label": "Country",
+      "directed": true,
+      "derivation": "metadata",
+      "condition": "Country of institution, not nationality of researcher."
+    },
+    {
+      "type": "COAUTHORED_WITH",
+      "src_label": "Author",
+      "dst_label": "Author",
+      "directed": false,
+      "derivation": "derived",
+      "condition": "Distinct verified authors on the same representative core paper."
+    },
+    {
+      "type": "COLLABORATED_WITH",
+      "src_label": "Institution",
+      "dst_label": "Institution",
+      "directed": false,
+      "derivation": "derived",
+      "condition": "Two distinct authors attached to the two distinct institutions on the same core paper."
+    },
+    {
+      "type": "STUDIES_TASK",
+      "src_label": "Paper",
+      "dst_label": "Task",
+      "directed": true,
+      "derivation": "nlp",
+      "condition": "Current work studies the task; sentence/title evidence required."
+    },
+    {
+      "type": "USES_METHOD",
+      "src_label": "Paper",
+      "dst_label": "Method",
+      "directed": true,
+      "derivation": "nlp",
+      "condition": "Current method uses/builds method; exclude related work and baseline-only mentions."
+    },
+    {
+      "type": "EVALUATED_ON",
+      "src_label": "Paper",
+      "dst_label": "Dataset",
+      "directed": true,
+      "derivation": "nlp",
+      "condition": "Current work evaluated on dataset; pretraining or a name mention alone is insufficient."
+    }
+  ],
+  "edge_key": [
+    "src",
+    "type",
+    "dst"
+  ],
+  "edge_id_rule": "edge: + SHA256(src + U+0000 + type + U+0000 + dst). For undirected edges sort endpoints lexicographically first.",
+  "edge_weights": "COAUTHORED_WITH/COLLABORATED_WITH = number of distinct representative core papers; other types = 1; aggregate evidence IDs and paper IDs.",
+  "evidence_offsets": "Zero-based Unicode code-point offsets [start_char,end_char) in normalized title/abstract identified by source_record_id + field_path. Null for metadata JSON paths.",
+  "derived_evidence": "point supporting_evidence_ids to actual source evidence, retain paper IDs and distinct author pair where required.",
+  "neo4j": "Unpack json_array CSV cells into native string arrays; nested JSON objects are not Neo4j properties.",
+  "files": {
+    "paper_registry.csv": {
+      "primary_key": [
+        "paper_id"
+      ],
+      "stage": "A1 actual",
+      "fields": [
+        {
+          "name": "paper_id",
+          "type": "string",
+          "nullable": false,
+          "description": "ID stable after acceptance. Preserve B CVF IDs; do not re-key when DOI appears."
+        },
+        {
+          "name": "doi",
+          "type": "string",
+          "nullable": true,
+          "description": "Bare DOI lower-case, without resolver prefix. Null if unverified."
+        },
+        {
+          "name": "cvf_url",
+          "type": "string",
+          "nullable": false,
+          "description": "Official main-conference HTML URL. Unique within snapshot."
+        },
+        {
+          "name": "conference",
+          "type": "string",
+          "nullable": false,
+          "description": "CVPR or ICCV."
+        },
+        {
+          "name": "conference_year",
+          "type": "integer",
+          "nullable": false,
+          "description": "Conference edition year, separate from publication date."
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": "Corpus responsibility A/B; not Git commit authorship."
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "nullable": false,
+          "description": "registered, cvf_verified, needs_review or excluded; not a global graph-quality claim."
+        },
+        {
+          "name": "schema_version",
+          "type": "string",
+          "nullable": false,
+          "description": "Contract semantic version 1.0.0."
+        },
+        {
+          "name": "track",
+          "type": "string",
+          "nullable": false,
+          "description": "main in the core pilot."
+        },
+        {
+          "name": "scope",
+          "type": "string",
+          "nullable": false,
+          "description": "core now; reference allowed in later graph snapshots."
+        },
+        {
+          "name": "venue_id",
+          "type": "string",
+          "nullable": false,
+          "description": "venue:CVPR:2024:main or venue:ICCV:2023:main."
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "nullable": false,
+          "description": "CVF citation title, NFC and whitespace normalized."
+        },
+        {
+          "name": "selection_rank",
+          "type": "integer",
+          "nullable": false,
+          "description": "One-based rank within owner manifest."
+        },
+        {
+          "name": "source_record_id",
+          "type": "string",
+          "nullable": false,
+          "description": "FK to CVF paper detail source record."
+        },
+        {
+          "name": "verified_at",
+          "type": "string",
+          "nullable": false,
+          "description": "UTC capture time of the source used for automatic verification."
+        }
+      ]
+    },
+    "pilot_papers.jsonl": {
+      "primary_key": [
+        "paper_id"
+      ],
+      "stage": "A1 actual",
+      "schema": "paper.schema.json"
+    },
+    "paper_metadata.csv": {
+      "primary_key": [
+        "paper_id"
+      ],
+      "stage": "A1 actual derived view",
+      "fields": [
+        {
+          "name": "paper_id",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "conference",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "conference_year",
+          "type": "integer",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "track",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "scope",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "doi",
+          "type": "string",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "cvf_url",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "pdf_url",
+          "type": "string",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "arxiv_url",
+          "type": "string",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "publication_date",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "date_precision",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "author_count",
+          "type": "integer",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "authors_json",
+          "type": "json_array",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "abstract",
+          "type": "string",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "openalex_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "citation_count",
+          "type": "integer",
+          "nullable": true,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "affiliation_status",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "references_status",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        },
+        {
+          "name": "source_record_id",
+          "type": "string",
+          "nullable": false,
+          "description": "Derived inspection view; source of truth is pilot_papers.jsonl."
+        }
+      ]
+    },
+    "source_records.jsonl": {
+      "primary_key": [
+        "source_record_id"
+      ],
+      "stage": "A1 actual",
+      "fields": [
+        {
+          "name": "schema_version",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "source_record_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "paper_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Null only for listing records."
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "nullable": false,
+          "description": "CVF, OpenAlex, arXiv, GoogleScholar or PubMed; current A1 uses CVF."
+        },
+        {
+          "name": "source_kind",
+          "type": "string",
+          "nullable": false,
+          "description": "listing, paper_detail or later API record."
+        },
+        {
+          "name": "source_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "source_version",
+          "type": "string",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "url",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "fetched_at",
+          "type": "string",
+          "nullable": false,
+          "description": "UTC RFC3339 timestamp."
+        },
+        {
+          "name": "http_status",
+          "type": "integer",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "content_sha256",
+          "type": "string",
+          "nullable": false,
+          "description": "SHA-256 of decompressed original response bytes."
+        },
+        {
+          "name": "content_type",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "etag",
+          "type": "string",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "last_modified",
+          "type": "string",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "raw_path",
+          "type": "string",
+          "nullable": false,
+          "description": "Repo-relative gzip path."
+        }
+      ]
+    },
+    "authorships.csv": {
+      "primary_key": null,
+      "stage": "A1 actual observations; A3 fills verified IDs. Multiple affiliations repeat authorship_id with distinct institution_id.",
+      "fields": [
+        {
+          "name": "authorship_id",
+          "type": "string",
+          "nullable": false,
+          "description": "Stable ID for paper and author_order; identity of an appearance, not a person."
+        },
+        {
+          "name": "paper_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "author_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Null until ORCID/OpenAlex identity verified. Must not use name as global ID."
+        },
+        {
+          "name": "author_name",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "author_name_raw",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "author_order",
+          "type": "integer",
+          "nullable": false,
+          "description": "One-based CVF author order."
+        },
+        {
+          "name": "identity_status",
+          "type": "string",
+          "nullable": false,
+          "description": "unresolved, resolved or needs_review."
+        },
+        {
+          "name": "affiliation_raw",
+          "type": "string",
+          "nullable": true,
+          "description": "Paper-specific declaration; never backfill from present employer."
+        },
+        {
+          "name": "institution_id",
+          "type": "string",
+          "nullable": true,
+          "description": "Null until paper-specific affiliation resolved."
+        },
+        {
+          "name": "source_record_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        }
+      ],
+      "logical_unique_key": [
+        "authorship_id",
+        "institution_id"
+      ],
+      "null_key_policy": "For unresolved appearances, one blank institution_id per authorship_id. Replace this missing row when verified affiliations arrive. This is a CSV logical key, not a SQL primary key."
+    },
+    "nodes.csv": {
+      "primary_key": [
+        "id"
+      ],
+      "stage": "Future graph contract only; not generated in A1",
+      "fields": [
+        {
+          "name": "id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "label",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": "A, B or A+B after merge."
+        },
+        {
+          "name": "source_origin",
+          "type": "json_array",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "source_record_ids",
+          "type": "json_array",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "validation_status",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        }
+      ]
+    },
+    "edges.csv": {
+      "primary_key": [
+        "edge_id"
+      ],
+      "stage": "Future graph contract only; not generated in A1",
+      "fields": [
+        {
+          "name": "edge_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "src",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "dst",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "weight",
+          "type": "integer",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "derivation",
+          "type": "string",
+          "nullable": false,
+          "description": "metadata, derived or nlp"
+        },
+        {
+          "name": "validation_status",
+          "type": "string",
+          "nullable": false,
+          "description": "accepted or needs_review; only accepted edges go to final graph."
+        },
+        {
+          "name": "evidence_ids",
+          "type": "json_array",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "paper_ids",
+          "type": "json_array",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "source_origin",
+          "type": "json_array",
+          "nullable": false,
+          "description": ""
+        }
+      ]
+    },
+    "evidence.jsonl": {
+      "primary_key": [
+        "evidence_id"
+      ],
+      "stage": "Future graph/NLP contract only; not generated in A1",
+      "fields": [
+        {
+          "name": "evidence_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "paper_id",
+          "type": "string",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "source_record_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "source_url",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "field_path",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "evidence_text",
+          "type": "string",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "start_char",
+          "type": "integer",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "end_char",
+          "type": "integer",
+          "nullable": true,
+          "description": ""
+        },
+        {
+          "name": "rule_id",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "rule_version",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "captured_at",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "supporting_evidence_ids",
+          "type": "array",
+          "nullable": false,
+          "description": ""
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "nullable": false,
+          "description": ""
+        }
+      ]
+    }
+  },
+  "pilot_gate": "A1 covers CVF raw metadata only. OpenAlex match-rate, 10 difficult author cases, NLP and Neo4j still required for full end-to-end pilot.",
+  "evidence_id_rule": "Use src.common.evidence_id: SHA256 with U+0000-separated paper_id, source_record_id, field_path, rule_id, rule_version, evidence_text or empty, start_char or empty, end_char or empty, compact JSON of sorted distinct supporting_evidence_ids; prefix evidence:.",
+  "node_id_formats": {
+    "Author": [
+      "author:openalex:A<ID>",
+      "author:orcid:<ORCID>"
+    ],
+    "Institution": [
+      "institution:openalex:I<ID>",
+      "institution:ror:<ROR>"
+    ],
+    "Country": "country:<source country code>",
+    "Task": "task:<controlled-slug>",
+    "Method": "method:<controlled-slug>",
+    "Dataset": "dataset:<controlled-versioned-slug>"
+  }
+}
