@@ -1,0 +1,720 @@
+[
+  {
+    "paper_id": "cvf:CVPR2024:Lin_C2RV_Cross-Regional_and_Cross-View_Learning_for_Sparse-View_CBCT_Reconstruction_CVPR_2024",
+    "status": "needs_review",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4417539937",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W7125526538",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4403069856",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4403908369",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:47299fb295be9c3b0ef451f2fe1a8ac87cc11e866ff93ff2c504a2cdf65fda8a",
+      "source:openalex:69ce54d5d600dc4276c53d720da3e3027b40eed90272cc5c333c44ce992e7214"
+    ],
+    "work_id": null
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Bai_ID-like_Prompt_Learning_for_Few-Shot_Out-of-Distribution_Detection_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402753776",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:a78715538e86290213ae464835a8542c79a2bef54c22db6b57023616e0171720",
+      "source:openalex:175b7b2013e748d2072b1e22707193641912aee415f8cf8b89122fb74d0bbdcb"
+    ],
+    "work_id": "https://openalex.org/W4402753776"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Yu_DiffForensics_Leveraging_Diffusion_Prior_to_Image_Forgery_Detection_and_Localization_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402715936",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:5a71d60033518a6623b5a4f4aced6e1cf094ff4efca2367ad5c3aa22c9a04052",
+      "source:openalex:d5ef9c5f825cd248e620c2cbca9272bb0d8249c2d8a31f004331670760a1cc4d"
+    ],
+    "work_id": "https://openalex.org/W4402715936"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Ren_Implicit_Discriminative_Knowledge_Learning_for_Visible-Infrared_Person_Re-Identification_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402753418",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:271460362a76521e27cd94ed6d9a6261c7f037a15dd32cc435097c532a570554",
+      "source:openalex:e505b0894f0d176c3c1297e7787d9719fd48a9371de048f402e0ee8c6ec2577c"
+    ],
+    "work_id": "https://openalex.org/W4402753418"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Zeng_Make_Pixels_Dance_High-Dynamic_Video_Generation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727798",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:fc30af745dfb3cc2caf8faaee36de017a3af59543c38899303a48bfeefa46c8e",
+      "source:openalex:d9e0c1b6c1ef14e5fe0135332814d4ee361e01894e4a8947d62d372bd8016cab"
+    ],
+    "work_id": "https://openalex.org/W4402727798"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Liu_Drag_Your_Noise_Interactive_Point-based_Editing_via_Diffusion_Semantic_Propagation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402715808",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:7d0db3845c276b85ffd45c7f5d76687d5061b633b59b02984214787376eb47a8",
+      "source:openalex:949abdda75ceb1eb745b99c1983256138d5f27bce77d050d05795b45940a87b3"
+    ],
+    "work_id": "https://openalex.org/W4402715808"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Park_Learning_SO3-Invariant_Semantic_Correspondence_via_Local_Shape_Transform_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402716382",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:91706b9e2bc2c60b12c151db663c71268d2cfdcc942bff6463c0f36329de1c80",
+      "source:openalex:94b26e2f25e394f63cf2b18d5547ca0f14c0bdaf9be14779dfa5ce4125d68d26"
+    ],
+    "work_id": "https://openalex.org/W4402716382"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Yin_Physical_Backdoor_Towards_Temperature-based_Backdoor_Attacks_in_the_Physical_World_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402660152",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:2600ab5909793473e2ef60c1bf127926184a891c457bde5d7a78ad2400daef6a",
+      "source:openalex:246e2db170e3b7efd470e68f5feaadf7f79049a62380c6951eb186f4f20f907a"
+    ],
+    "work_id": "https://openalex.org/W4402660152"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Zeng_Real-time_Acquisition_and_Reconstruction_of_Dynamic_Volumes_with_Neural_Structured_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727679",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:194bb10772a217f4f34211a5a1bc8a9f75ebd5285a22904bd5dad2c829387899",
+      "source:openalex:d313f98b2f25ebae7eaa9a247a1cf5878b56c7a791ec8645f1a87272b6c194c7"
+    ],
+    "work_id": "https://openalex.org/W4402727679"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Shao_Tumor_Micro-environment_Interactions_Guided_Graph_Learning_for_Survival_Analysis_of_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727102",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:5d9c0b1bea098b1ba24dc5c61b2b62dff745c5c1d2f834f7ae1975f8048a6571",
+      "source:openalex:6b74631c00cbc2a909d72b4f3262d79c90ec37f3e89dd701d4b3e835129a157c"
+    ],
+    "work_id": "https://openalex.org/W4402727102"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024",
+    "status": "needs_review",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402716370",
+        "title_equal": true,
+        "ordered_authors_equal": false,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:374292249bfc667aa9d84542190005000b23f4836e80f4e0707b391f371f3384"
+    ],
+    "work_id": null
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Diller_CG-HOI_Contact-Guided_3D_Human-Object_Interaction_Generation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402772414",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:ea15f06d8d15b683806733f85b7451ae756058c3cbf56bc83e267b6b9e06940a",
+      "source:openalex:ac8c00475a5398c23c4428690514d1f0e82bb6e6410186ef59cbe984ab8ae2b7"
+    ],
+    "work_id": "https://openalex.org/W4402772414"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Costanzino_Multimodal_Industrial_Anomaly_Detection_by_Crossmodal_Feature_Mapping_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402753796",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8623d1a01ac62ad13d93868906d13fe4d598a687cfd809ffbf9cf785f0af6e82",
+      "source:openalex:a52fbfb232d6262550e771087259d3a3421615b714c24477baad070975ef0293"
+    ],
+    "work_id": "https://openalex.org/W4402753796"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Zheng_Kernel_Adaptive_Convolution_for_Scene_Text_Detection_via_Distance_Map_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402774414",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:5f32567eab93d1018ff76fc5cc58af6eb88294065ec28478444e0290a2b81e6f",
+      "source:openalex:c700ded519c75ce340cd798f92c98c9a0cb16403b896cb6b0a3ff8c7138d8391"
+    ],
+    "work_id": "https://openalex.org/W4402774414"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Jiang_VideoBooth_Diffusion-based_Video_Generation_with_Image_Prompts_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727699",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:a8d40e91ff47a91a281f5f69cea478868d30caa1f4da7232e2d329c45752da49",
+      "source:openalex:42f3803ade80b52d508d10821de6758a93fed296fdb3049b11d1f24fcee249aa"
+    ],
+    "work_id": "https://openalex.org/W4402727699"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Zhang_GoodSAM_Bridging_Domain_and_Capacity_Gaps_via_Segment_Anything_Model_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402715793",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:3ec48cef559191e11a8152027b10fcc3af0b104c0d045d1215488c8ee8ee42f8",
+      "source:openalex:a908be01ae0867a8a8aea49e571da087e27a2cf02fbbdd11f2a39b5a45bb1402"
+    ],
+    "work_id": "https://openalex.org/W4402715793"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Dou_Real-Time_Neural_BRDF_with_Spherically_Distributed_Primitives_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727390",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:e3c328819381be5ff4dc83f731fda500d8e7a48921c9304fb871077f9588c3c1",
+      "source:openalex:785010ea215fde2a95518808b5fd86778f2e870679dc46cbe43284241cc84220"
+    ],
+    "work_id": "https://openalex.org/W4402727390"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Xu_FaceChain-ImagineID_Freely_Crafting_High-Fidelity_Diverse_Talking_Faces_from_Disentangled_Audio_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727013",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:e60b6401e694003891f923d4acb7adf25cb227b4263c51047e0295c0efc13878",
+      "source:openalex:8c9c426f8ec95266283d60cb59765034f896348306e339e73834e632bf0e8a4a"
+    ],
+    "work_id": "https://openalex.org/W4402727013"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Wan_CAD_Photorealistic_3D_Generation_via_Adversarial_Distillation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402773751",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8fe74c94c0b67b7a816132a76bd87d5594b98d422bf5a33b905947e9b39ca066",
+      "source:openalex:a849cce1a9cda1c69930b8d1ce328cc51513c5dfb39eb933543a85a406800c78"
+    ],
+    "work_id": "https://openalex.org/W4402773751"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Wu_Self-correcting_LLM-controlled_Diffusion_Models_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402753507",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:6c49ecaa81b04db20cdbacae6fe9fd548e6a9144b0f89c16bc1be24de0c3f4bf",
+      "source:openalex:a1a8689ae4083af3164cc07437fdd447d63adc68b1271334ceea4dc1652ca784"
+    ],
+    "work_id": "https://openalex.org/W4402753507"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Xu_Relightable_and_Animatable_Neural_Avatar_from_Sparse-View_Video_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402733567",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:2a3519ffa952e8ab8715c2d2c52dacef1ee0579ac09322b1f782296dd1d67ff3",
+      "source:openalex:f21c03af26cb45aa96c673c161d83fc8c320e3b5932dd7208e7b29e4ce149527"
+    ],
+    "work_id": "https://openalex.org/W4402733567"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Liu_SPU-PMD_Self-Supervised_Point_Cloud_Upsampling_via_Progressive_Mesh_Deformation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402716229",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:48f2cdcfb5c858e134e0673ecb609f9ddab57e2f4c65d68dc7455dd9d29a922d",
+      "source:openalex:155ecbee3a84efe295a337030f730a3373303e377d0f1a9b31e92de9e72ace05"
+    ],
+    "work_id": "https://openalex.org/W4402716229"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Cui_On_the_Robustness_of_Large_Multimodal_Models_Against_Image_Adversarial_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727057",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:f5e26b66d950c04157537262ccc4af3d4d456f650906428f6f033072463cadd9",
+      "source:openalex:2ba3575c052a91d73accefaaf2c7837fa378ce76275c783b0b5b007557923b60"
+    ],
+    "work_id": "https://openalex.org/W4402727057"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Wei_Adversarial_Score_Distillation_When_score_distillation_meets_GAN_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402704590",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:39a77c2cb6b349d0dc8447e0d0a43d1152ec043986a8af7f132f783a971d4e26",
+      "source:openalex:1d8a57885dec3b818384477b0cd23f492effcb01b18bda3987d83abde3c557bf"
+    ],
+    "work_id": "https://openalex.org/W4402704590"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Ling_ADFactory_An_Effective_Framework_for_Generalizing_Optical_Flow_with_NeRF_CVPR_2024",
+    "status": "needs_review",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402702995",
+        "title_equal": true,
+        "ordered_authors_equal": false,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:61f3e2bf8279a5f41169f3c3327282b7fe668a390fec5f2287c522f44470fa1e"
+    ],
+    "work_id": null
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Khan_Self-Training_Large_Language_Models_for_Improved_Visual_Program_Synthesis_With_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402715986",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:92f25fbc8d53f063a0e4bae35800efdf9d94cb019dff1b20139836f7ea6c4f6c",
+      "source:openalex:fa960b431b76fc72bce593b5b7a2b1a32e76862112942057a7daabd1fd2ea268"
+    ],
+    "work_id": "https://openalex.org/W4402715986"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Chou_GSNeRF_Generalizable_Semantic_Neural_Radiance_Fields_with_Enhanced_3D_Scene_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727456",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:00ae6cd177613a069606713e3ba9cc7865faeb81a82a7a62e5ac6ca19e71c248",
+      "source:openalex:8c89e5cb746f5d9e6e5b10ad0eb740ce50c878da79419679d58c6282edf9bf2e"
+    ],
+    "work_id": "https://openalex.org/W4402727456"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Dai_Curriculum_Point_Prompting_for_Weakly-Supervised_Referring_Image_Segmentation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402753610",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:716b55c75c84f62d8bc1e8b013ea4fd43a63849e0797dc3be8632aebb611c55a",
+      "source:openalex:a2322743e11636bfcf98a633f8381efd4ff58fa9f5867344234f4a4626e817e9"
+    ],
+    "work_id": "https://openalex.org/W4402753610"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Tang_Neural_Underwater_Scene_Representation_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727373",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:7671426968e07bf070cc9abe65b3fdba4a271f81dc26025af0e89a64e0ecefab",
+      "source:openalex:d4efbaf0a07ff66c04cb668adb693bd288da1d611696f0c165a5aa5157fbbf0c"
+    ],
+    "work_id": "https://openalex.org/W4402727373"
+  },
+  {
+    "paper_id": "cvf:CVPR2024:Lei_GART_Gaussian_Articulated_Template_Models_CVPR_2024",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4402727655",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:6135948711a11d93d6d74c933f408d334bb18b3fbaa13ad606e6b978e42147df",
+      "source:openalex:d013e324b38286be580504b232b524fa227263eed893db00b3aaa530044755f5"
+    ],
+    "work_id": "https://openalex.org/W4402727655"
+  }
+]

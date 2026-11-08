@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "needs_review.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "review_id",
+    "paper_id",
+    "entity_type",
+    "entity_id",
+    "field_name",
+    "reason",
+    "candidate_ids",
+    "evidence_ids",
+    "review_status",
+    "assigned_to",
+    "resolution_decision_id"
+  ],
+  "properties": {
+    "review_id": {
+      "type": "string"
+    },
+    "paper_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "entity_type": {
+      "type": "string"
+    },
+    "entity_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "field_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reason": {
+      "type": "string"
+    },
+    "candidate_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "resolved",
+        "rejected"
+      ]
+    },
+    "assigned_to": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "resolution_decision_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

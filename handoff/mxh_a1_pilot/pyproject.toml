@@ -1,0 +1,9 @@
+[project]
+name = "mxh-cv-pilot"
+version = "1.0.0"
+description = "A1 CVF pilot and shared data contract for a two-member academic graph project"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.ruff]
+line-length = 120

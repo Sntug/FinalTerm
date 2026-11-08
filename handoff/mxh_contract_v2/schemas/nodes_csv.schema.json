@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "nodes.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "label",
+    "name",
+    "owner",
+    "source_origin",
+    "source_record_ids",
+    "validation_status",
+    "project_id",
+    "properties_json"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string",
+      "enum": [
+        "Author",
+        "Paper",
+        "Institution",
+        "VenueEdition",
+        "Task",
+        "Method",
+        "Dataset",
+        "Country"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "source_origin": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "accepted",
+        "needs_review",
+        "rejected"
+      ]
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "properties_json": {
+      "type": "object"
+    }
+  }
+}

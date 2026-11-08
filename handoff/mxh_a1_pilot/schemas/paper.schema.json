@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CVF pilot paper v1",
+  "description": "A1 snapshot schema. Later OpenAlex observations belong to separate source records.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "parser_version",
+    "paper_id",
+    "owner",
+    "conference",
+    "conference_year",
+    "track",
+    "scope",
+    "venue_id",
+    "title_raw",
+    "title",
+    "abstract_raw",
+    "abstract",
+    "authors",
+    "doi",
+    "cvf_url",
+    "pdf_url",
+    "arxiv_url",
+    "publication_date",
+    "date_precision",
+    "conference_title_raw",
+    "citation_publication_date_raw",
+    "bibtex_raw",
+    "openalex_id",
+    "citation_count",
+    "affiliations",
+    "referenced_works",
+    "openalex_status",
+    "affiliation_status",
+    "references_status",
+    "source_record_id",
+    "captured_at"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "parser_version": {
+      "const": "cvf-html-1.0.0"
+    },
+    "paper_id": {
+      "type": "string",
+      "pattern": "^cvf:(CVPR2024|ICCV2023):.+$"
+    },
+    "owner": {
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "conference": {
+      "enum": [
+        "CVPR",
+        "ICCV"
+      ]
+    },
+    "conference_year": {
+      "type": "integer",
+      "enum": [
+        2023,
+        2024
+      ]
+    },
+    "track": {
+      "const": "main"
+    },
+    "scope": {
+      "const": "core"
+    },
+    "venue_id": {
+      "type": "string",
+      "pattern": "^venue:(CVPR:2024|ICCV:2023):main$"
+    },
+    "title_raw": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "abstract_raw": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "authors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "name_raw",
+          "author_order"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name_raw": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author_order": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^10\\.\\d{4,9}/\\S+$"
+    },
+    "cvf_url": {
+      "type": "string",
+      "pattern": "^https://openaccess\\.thecvf\\.com/content/(CVPR2024|ICCV2023)/html/[^/]+_paper\\.html$"
+    },
+    "pdf_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "arxiv_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": "string",
+      "pattern": "^\\d{4}(-\\d{2})?(-\\d{2})?$"
+    },
+    "date_precision": {
+      "enum": [
+        "year",
+        "month",
+        "day"
+      ]
+    },
+    "conference_title_raw": {
+      "type": "string",
+      "minLength": 1
+    },
+    "citation_publication_date_raw": {
+      "type": "string"
+    },
+    "bibtex_raw": {
+      "type": "string"
+    },
+    "openalex_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "citation_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "affiliations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object"
+      }
+    },
+    "referenced_works": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      }
+    },
+    "openalex_status": {
+      "enum": [
+        "not_collected",
+        "matched",
+        "needs_review",
+        "not_found"
+      ]
+    },
+    "affiliation_status": {
+      "enum": [
+        "not_collected",
+        "present",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "references_status": {
+      "enum": [
+        "not_collected",
+        "present",
+        "missing_in_source",
+        "needs_review"
+      ]
+    },
+    "source_record_id": {
+      "type": "string",
+      "pattern": "^source:cvf:[0-9a-f]{64}$"
+    },
+    "captured_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"
+    }
+  }
+}

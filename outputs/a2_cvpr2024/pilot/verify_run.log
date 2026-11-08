@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:737f8bc206c9a39e0b99d6ffb085036acbbfdf323556b717e5634c5cea0d64ba",
+  "papers": 30,
+  "authorship_observations": 159,
+  "raw_sources_checked": 89,
+  "text_versions_checked": 60,
+  "tables_checked": 12,
+  "records_checked": 741,
+  "graph_ready": false
+}

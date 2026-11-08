@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "field_provenance.csv v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "paper_id",
+    "field_name",
+    "source_record_id",
+    "field_path",
+    "selection_rule",
+    "validation_status",
+    "reviewed_by",
+    "selected_at",
+    "candidate_source_record_ids"
+  ],
+  "properties": {
+    "paper_id": {
+      "type": "string"
+    },
+    "field_name": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "field_path": {
+      "type": "string"
+    },
+    "selection_rule": {
+      "type": "string"
+    },
+    "validation_status": {
+      "type": "string",
+      "enum": [
+        "auto_verified",
+        "verified",
+        "needs_review"
+      ]
+    },
+    "reviewed_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selected_at": {
+      "type": "string"
+    },
+    "candidate_source_record_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

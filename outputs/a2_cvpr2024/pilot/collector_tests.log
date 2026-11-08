@@ -1,0 +1,17 @@
+test_duplicate_registry_and_wrong_edition_rejected (test_a2_collector.CollectorTests.test_duplicate_registry_and_wrong_edition_rejected) ... ok
+CVF valid 1/1; OpenAlex completed 0/1
+test_iccv_config_runs_in_temporary_workspace (test_a2_collector.CollectorTests.test_iccv_config_runs_in_temporary_workspace) ... ok
+test_json_cache_hash_offline_and_authorization_header (test_a2_collector.CollectorTests.test_json_cache_hash_offline_and_authorization_header) ... ok
+test_matching_requires_byline_and_venue_or_link (test_a2_collector.CollectorTests.test_matching_requires_byline_and_venue_or_link) ... ok
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; OpenAlex completed 1/1
+CVF valid 1/1; OpenAlex completed 1/1
+test_resume_after_detail_failure_and_offline_repeat (test_a2_collector.CollectorTests.test_resume_after_detail_failure_and_offline_repeat) ... ok
+test_retry_after_quota_gate_and_key_not_persisted (test_a2_collector.CollectorTests.test_retry_after_quota_gate_and_key_not_persisted) ... ok
+CVF valid 1/1; OpenAlex completed 0/1
+test_verifier_rejects_raw_corruption (test_a2_collector.CollectorTests.test_verifier_rejects_raw_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.595s
+
+OK

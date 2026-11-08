@@ -1,0 +1,64 @@
+CVF valid 30/30; OpenAlex completed 0/30
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:bc960788472416e492acf33641c10417ac9fccfa650b844036c6519aaaefcd8c",
+  "papers": 30,
+  "authorship_observations": 159,
+  "raw_sources_checked": 31,
+  "text_versions_checked": 60,
+  "tables_checked": 12,
+  "records_checked": 569,
+  "graph_ready": false,
+  "collection_complete": false,
+  "target_papers": 30,
+  "openalex_status_counts": {
+    "not_collected": 30
+  },
+  "coverage": {
+    "abstract": {
+      "numerator": 30,
+      "denominator": 30,
+      "percent": 100.0
+    },
+    "affiliation_verified_papers": {
+      "numerator": 0,
+      "denominator": 30,
+      "percent": 0.0
+    },
+    "affiliation_verified_authorships": {
+      "numerator": 0,
+      "denominator": 159,
+      "percent": 0.0
+    },
+    "affiliation_available_in_matched_openalex_work": {
+      "numerator": 0,
+      "denominator": 30,
+      "percent": 0.0
+    },
+    "references_checked": {
+      "numerator": 0,
+      "denominator": 30,
+      "percent": 0.0
+    },
+    "references_nonempty": {
+      "numerator": 0,
+      "denominator": 30,
+      "percent": 0.0
+    }
+  },
+  "source_errors": [
+    {
+      "paper_id": "cvf:CVPR2024:Lin_C2RV_Cross-Regional_and_Cross-View_Learning_for_Sparse-View_CBCT_Reconstruction_CVPR_2024",
+      "source": "OpenAlex",
+      "reason": "OpenAlex network error after retries",
+      "retry_at": null
+    }
+  ],
+  "unresolved_authorships": 159,
+  "network_requests": {
+    "CVF": 0,
+    "OpenAlex": 3
+  },
+  "offline": false,
+  "manifest": "data/processed/cvpr2024/pilot/snapshot_manifest.json"
+}

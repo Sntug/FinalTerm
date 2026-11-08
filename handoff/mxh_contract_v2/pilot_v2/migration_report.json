@@ -1,0 +1,17 @@
+{
+  "schema_version": "2.0.0",
+  "source_snapshot_id": "snapshot:e2a4cb12588e3d01ebe4249d41dc13c9274b79b71b7e590e85b3356683e7d379",
+  "snapshot_id": "snapshot:v2:3aee2efef63627e23eed78a2ca51ad88ddc2ad5c7f9825559d4172048e0ab4ef",
+  "papers": 60,
+  "authorship_observations": 322,
+  "source_records": 62,
+  "text_versions": 120,
+  "field_provenance_records": 459,
+  "paper_ids_preserved": true,
+  "source_ids_preserved": true,
+  "graph_ready": false,
+  "merges_executed": 0,
+  "author_identity_resolved": false,
+  "graph_mutated": false,
+  "api_requests": 0
+}

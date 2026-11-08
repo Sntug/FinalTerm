@@ -1,0 +1,92 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a1-migration-2.0.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "cvf-html-1.0.0"
+  ],
+  "rule_versions": {},
+  "dictionary_versions": {},
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/paper_registry.csv",
+      "sha256": "b9b926680c1a32e6af8fda96cd262d0b9a8d1139cf973909ffaa09e024d05795",
+      "record_count": 60,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/papers.jsonl",
+      "sha256": "1240e9c70d987285bba4c4aa7f2f9e9c8ed0d51d8db6f102e6b38fb5177d4f38",
+      "record_count": 60,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/source_records.jsonl",
+      "sha256": "333fc8db487afc61a74ce4a7eea5e6553dc54df977cbbfe13905019ffba79891",
+      "record_count": 62,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/authorships.csv",
+      "sha256": "f5ad04b7cffbc025a7d7874205ae7bf55c9e8834a0bd84474f84e36498ecb6d3",
+      "record_count": 322,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/text_versions.jsonl",
+      "sha256": "3bbf256b089707573fde7926858fd4e4005a0bfbe15043c6b59ab107df2b1f93",
+      "record_count": 120,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/field_provenance.csv",
+      "sha256": "447279f4b390002dfe0519629b4580bbaca71f6ea72e8b1dc2447a23201631d4",
+      "record_count": 459,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/alias_map.csv",
+      "sha256": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/merge_log.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/needs_review.csv",
+      "sha256": "48870f021e88d202632160656d14aace436fdb0ce5ac8e4a94684f5ebe807730",
+      "record_count": 0,
+      "role": "review"
+    },
+    {
+      "path": "data/processed/nodes.csv",
+      "sha256": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/edges.csv",
+      "sha256": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/evidence.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "graph"
+    }
+  ],
+  "snapshot_id": "snapshot:v2:3aee2efef63627e23eed78a2ca51ad88ddc2ad5c7f9825559d4172048e0ab4ef",
+  "source_snapshot_id": "snapshot:e2a4cb12588e3d01ebe4249d41dc13c9274b79b71b7e590e85b3356683e7d379",
+  "created_at": "2026-11-06T16:42:59Z"
+}

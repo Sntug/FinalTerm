@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "text_versions.jsonl v2 decoded record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "text_version_id",
+    "paper_id",
+    "source_record_id",
+    "field_path",
+    "parser_version",
+    "normalization_version",
+    "normalized_text",
+    "normalized_text_sha256",
+    "captured_at"
+  ],
+  "properties": {
+    "text_version_id": {
+      "type": "string"
+    },
+    "paper_id": {
+      "type": "string"
+    },
+    "source_record_id": {
+      "type": "string"
+    },
+    "field_path": {
+      "type": "string"
+    },
+    "parser_version": {
+      "type": "string"
+    },
+    "normalization_version": {
+      "type": "string"
+    },
+    "normalized_text": {
+      "type": "string"
+    },
+    "normalized_text_sha256": {
+      "type": "string"
+    },
+    "captured_at": {
+      "type": "string"
+    }
+  }
+}
