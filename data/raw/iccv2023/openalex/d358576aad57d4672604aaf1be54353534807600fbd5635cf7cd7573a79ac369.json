@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Context-Aware+Planning+and+Environment-Aware+Memory+for+Instruction+Following+Embodied+Agents%22",
+  "fetched_at": "2026-11-08T01:49:15Z",
+  "http_status": 200,
+  "content_sha256": "dd131043034edb79359dfa8b01a394a55d4a44892bb0709123e964ac5a3242d0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/dd131043034edb79359dfa8b01a394a55d4a44892bb0709123e964ac5a3242d0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reference-guided+Controllable+Inpainting+of+Neural+Radiance+Fields%22",
+  "fetched_at": "2026-11-08T01:50:24Z",
+  "http_status": 200,
+  "content_sha256": "e58e0386e3fc89c224b42454aed8ea1dd0704ba646f4f911b252c65d6e380e1d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e58e0386e3fc89c224b42454aed8ea1dd0704ba646f4f911b252c65d6e380e1d.json.gz"
+}

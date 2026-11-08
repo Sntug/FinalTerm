@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Vision+Grid+Transformer+for+Document+Layout+Analysis%22",
+  "fetched_at": "2026-11-08T01:47:27Z",
+  "http_status": 200,
+  "content_sha256": "cd43bded5c4be0e9a834214d8622ad7d2de349ac0320b1798786dd777ce8a43a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cd43bded5c4be0e9a834214d8622ad7d2de349ac0320b1798786dd777ce8a43a.json.gz"
+}

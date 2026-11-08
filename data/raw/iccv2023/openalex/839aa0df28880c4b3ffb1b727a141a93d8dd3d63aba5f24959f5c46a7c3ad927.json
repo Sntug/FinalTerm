@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Beating+Backdoor+Attack+at+Its+Own+Game%22",
+  "fetched_at": "2026-11-08T02:05:09Z",
+  "http_status": 200,
+  "content_sha256": "45bd63645379726600538a78b73e0f50e77ca4f5a25046d7ec0df86dde981516",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/45bd63645379726600538a78b73e0f50e77ca4f5a25046d7ec0df86dde981516.json.gz"
+}

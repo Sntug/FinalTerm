@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FACET%3A+Fairness+in+Computer+Vision+Evaluation+Benchmark%22",
+  "fetched_at": "2026-11-08T01:48:48Z",
+  "http_status": 200,
+  "content_sha256": "1fd1ad55ea5ba509a56289df2fe2b9c998ee0bb2310a6f16753b0b8f12d9665f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1fd1ad55ea5ba509a56289df2fe2b9c998ee0bb2310a6f16753b0b8f12d9665f.json.gz"
+}

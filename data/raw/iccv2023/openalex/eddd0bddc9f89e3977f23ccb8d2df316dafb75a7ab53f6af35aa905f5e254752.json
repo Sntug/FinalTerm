@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiffFit%3A+Unlocking+Transferability+of+Large+Diffusion+Models+via+Simple+Parameter-efficient+Fine-Tuning%22",
+  "fetched_at": "2026-11-08T01:24:19Z",
+  "http_status": 200,
+  "content_sha256": "48039eca7d836770fc11fc900a6cac6d1fcf536dc37fbcc2b370e689fe02f7d9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/48039eca7d836770fc11fc900a6cac6d1fcf536dc37fbcc2b370e689fe02f7d9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DARTH%3A+Holistic+Test-time+Adaptation+for+Multiple+Object+Tracking%22",
+  "fetched_at": "2026-11-08T02:05:08Z",
+  "http_status": 200,
+  "content_sha256": "db25b4d5ca9a4bc3fd3e111b0a9540b61eb54afc02f205d605cd95de336bda9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/db25b4d5ca9a4bc3fd3e111b0a9540b61eb54afc02f205d605cd95de336bda9a.json.gz"
+}

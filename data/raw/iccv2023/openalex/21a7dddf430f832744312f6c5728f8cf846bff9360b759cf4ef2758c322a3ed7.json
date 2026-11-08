@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22To+Adapt+or+Not+to+Adapt%3F+Real-Time+Adaptation+for+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-08T01:47:21Z",
+  "http_status": 200,
+  "content_sha256": "eeccf76af85b80fc2f99a1c3e56f6e68c030353d1c43d0f32627145b8c9f64a6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/eeccf76af85b80fc2f99a1c3e56f6e68c030353d1c43d0f32627145b8c9f64a6.json.gz"
+}

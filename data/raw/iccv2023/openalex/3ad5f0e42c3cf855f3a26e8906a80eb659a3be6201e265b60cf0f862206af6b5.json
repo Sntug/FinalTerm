@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Zero-Shot+Scale-Aware+Monocular+Depth+Estimation%22",
+  "fetched_at": "2026-11-08T01:46:55Z",
+  "http_status": 200,
+  "content_sha256": "674ca41aec5aa231bbdac8057c5c381d54aaf27d854d511e25a7f36ea52e61d0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/674ca41aec5aa231bbdac8057c5c381d54aaf27d854d511e25a7f36ea52e61d0.json.gz"
+}

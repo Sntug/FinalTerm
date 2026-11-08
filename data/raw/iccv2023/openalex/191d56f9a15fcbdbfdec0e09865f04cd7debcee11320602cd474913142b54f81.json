@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Surface+Normal+Clustering+for+Implicit+Representation+of+Manhattan+Scenes%22",
+  "fetched_at": "2026-11-08T01:48:24Z",
+  "http_status": 200,
+  "content_sha256": "3e4814e5cc298aa957362f1753a1679cda38bcd89921c798436c11d21a8a25db",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3e4814e5cc298aa957362f1753a1679cda38bcd89921c798436c11d21a8a25db.json.gz"
+}

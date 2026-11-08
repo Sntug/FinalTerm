@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TF-ICON%3A+Diffusion-Based+Training-Free+Cross-Domain+Image+Composition%22",
+  "fetched_at": "2026-11-08T01:43:32Z",
+  "http_status": 200,
+  "content_sha256": "044a1b025fe34a724042eee2e9fd4f0130a5374cd31d6bdbd764f61680fdf938",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/044a1b025fe34a724042eee2e9fd4f0130a5374cd31d6bdbd764f61680fdf938.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LAC+-+Latent+Action+Composition+for+Skeleton-based+Action+Segmentation%22",
+  "fetched_at": "2026-11-08T01:48:45Z",
+  "http_status": 200,
+  "content_sha256": "6a71f514613abe1f91cdc3ca9333d7952af5dce25752825e7993224b42fcfed0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6a71f514613abe1f91cdc3ca9333d7952af5dce25752825e7993224b42fcfed0.json.gz"
+}

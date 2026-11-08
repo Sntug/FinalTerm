@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Perceptual+Grouping+in+Contrastive+Vision-Language+Models%22",
+  "fetched_at": "2026-11-08T01:18:08Z",
+  "http_status": 200,
+  "content_sha256": "15bfffdb967d26eddb1f7adfdd6d2e60ea672dfa51df86edbf84aceb4896fe30",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/15bfffdb967d26eddb1f7adfdd6d2e60ea672dfa51df86edbf84aceb4896fe30.json.gz"
+}

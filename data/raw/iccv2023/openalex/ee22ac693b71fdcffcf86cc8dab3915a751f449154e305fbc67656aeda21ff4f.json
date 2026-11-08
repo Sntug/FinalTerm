@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Leaping+Into+Memories%3A+Space-Time+Deep+Feature+Synthesis%22",
+  "fetched_at": "2026-11-08T01:46:45Z",
+  "http_status": 200,
+  "content_sha256": "60538f1aa7da869a20875ff0a4619e2a87dad49bca43f21dfa91f3aaa8402a02",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/60538f1aa7da869a20875ff0a4619e2a87dad49bca43f21dfa91f3aaa8402a02.json.gz"
+}

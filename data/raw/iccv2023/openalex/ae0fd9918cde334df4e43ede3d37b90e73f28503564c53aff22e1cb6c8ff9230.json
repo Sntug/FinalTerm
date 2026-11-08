@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Steered+Diffusion%3A+A+Generalized+Framework+for+Plug-and-Play+Conditional+Image+Synthesis%22",
+  "fetched_at": "2026-11-08T01:47:58Z",
+  "http_status": 200,
+  "content_sha256": "580403a7c7f4a51563c4360c38d900855b10c00caf47cfd804d53ab1d9b7d615",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/580403a7c7f4a51563c4360c38d900855b10c00caf47cfd804d53ab1d9b7d615.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Seeing_Beyond_the_Patch_Scale-Adaptive_Semantic_Segmentation_of_High-resolution_Remote_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:19:20Z",
+  "http_status": 200,
+  "content_sha256": "345301917efff782c535d00afac560810d37d4a4002b5223714ea51fb728129e",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1976-606872ac9ed35\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/345301917efff782c535d00afac560810d37d4a4002b5223714ea51fb728129e.html.gz"
+}

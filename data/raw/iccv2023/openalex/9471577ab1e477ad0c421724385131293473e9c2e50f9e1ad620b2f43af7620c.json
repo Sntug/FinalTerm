@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Action+Sensitivity+Learning+for+Temporal+Action+Localization%22",
+  "fetched_at": "2026-11-08T01:25:46Z",
+  "http_status": 200,
+  "content_sha256": "b7bd61552c5fe4d7946d80724bade8a0fb557e5f4d72efc3ab9dc3c402516396",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b7bd61552c5fe4d7946d80724bade8a0fb557e5f4d72efc3ab9dc3c402516396.json.gz"
+}

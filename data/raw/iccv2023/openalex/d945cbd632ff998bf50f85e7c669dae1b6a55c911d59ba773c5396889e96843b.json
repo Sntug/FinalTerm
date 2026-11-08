@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LEA2%3A+A+Lightweight+Ensemble+Adversarial+Attack+via+Non-overlapping+Vulnerable+Frequency+Regions%22",
+  "fetched_at": "2026-11-08T01:48:06Z",
+  "http_status": 200,
+  "content_sha256": "7f86285e1a0fff04b4bd81ad7555d472a0cd3a058928bbc59ce24ce42feb3b6d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7f86285e1a0fff04b4bd81ad7555d472a0cd3a058928bbc59ce24ce42feb3b6d.json.gz"
+}

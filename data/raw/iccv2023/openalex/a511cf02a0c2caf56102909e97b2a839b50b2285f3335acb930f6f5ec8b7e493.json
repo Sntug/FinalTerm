@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Space-time+Prompting+for+Video+Class-incremental+Learning%22",
+  "fetched_at": "2026-11-08T01:46:34Z",
+  "http_status": 200,
+  "content_sha256": "d5ec2500e36d558610d4fa9d4ba46d217c7eff5cba362d1933202b69d547fdc9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d5ec2500e36d558610d4fa9d4ba46d217c7eff5cba362d1933202b69d547fdc9.json.gz"
+}

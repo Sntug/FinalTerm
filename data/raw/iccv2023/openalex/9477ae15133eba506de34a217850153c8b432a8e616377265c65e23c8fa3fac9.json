@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BlindHarmony%3A++Blind++Harmonization+for+MR+Images+via+Flow+Model%22",
+  "fetched_at": "2026-11-08T01:47:15Z",
+  "http_status": 200,
+  "content_sha256": "bcd1908e611759a90fa95fe00e3b9154cc4037b91a7374c837cacd2c73fe0a11",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/bcd1908e611759a90fa95fe00e3b9154cc4037b91a7374c837cacd2c73fe0a11.json.gz"
+}

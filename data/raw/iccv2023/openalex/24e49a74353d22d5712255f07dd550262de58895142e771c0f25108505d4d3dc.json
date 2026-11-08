@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Video+Prediction+via+Sparsely+Conditioned+Flow+Matching%22",
+  "fetched_at": "2026-11-08T01:24:22Z",
+  "http_status": 200,
+  "content_sha256": "450bd9df0a7a5b596e9c3e23b08e13e1647dc63a5673cd241461ccfa6a551aa9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/450bd9df0a7a5b596e9c3e23b08e13e1647dc63a5673cd241461ccfa6a551aa9.json.gz"
+}

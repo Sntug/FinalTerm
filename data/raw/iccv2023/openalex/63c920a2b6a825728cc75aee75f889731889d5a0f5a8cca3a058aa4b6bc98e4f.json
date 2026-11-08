@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Beyond+Single+Path+Integrated+Gradients+for+Reliable+Input+Attribution+via+Randomized+Path+Sampling%22",
+  "fetched_at": "2026-11-08T01:49:53Z",
+  "http_status": 200,
+  "content_sha256": "1e711575053fe4baa2bc3c3f55042983d711c74b9df70a54b2a6ae26ea59be4c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1e711575053fe4baa2bc3c3f55042983d711c74b9df70a54b2a6ae26ea59be4c.json.gz"
+}

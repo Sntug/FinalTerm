@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Model+Transferability+through+the+Lens+of+Potential+Energy%22",
+  "fetched_at": "2026-11-08T01:50:38Z",
+  "http_status": 200,
+  "content_sha256": "5cf0d7ce61744eeb8468e054530d03c48581687473901ec2c468541a438a7e2b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5cf0d7ce61744eeb8468e054530d03c48581687473901ec2c468541a438a7e2b.json.gz"
+}

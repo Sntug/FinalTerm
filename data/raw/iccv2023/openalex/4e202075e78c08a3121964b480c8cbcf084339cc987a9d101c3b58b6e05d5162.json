@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Temporal+Concurrency+for+Video-Language+Representation+Learning%22",
+  "fetched_at": "2026-11-08T01:46:17Z",
+  "http_status": 200,
+  "content_sha256": "e26374193face5c00d027f463747e6adf9805e0d6accca847b55c41cc8da87ce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e26374193face5c00d027f463747e6adf9805e0d6accca847b55c41cc8da87ce.json.gz"
+}

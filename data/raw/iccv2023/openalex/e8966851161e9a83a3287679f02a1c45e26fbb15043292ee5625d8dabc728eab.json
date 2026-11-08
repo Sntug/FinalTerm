@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Masked+Spiking+Transformer%22",
+  "fetched_at": "2026-11-08T01:44:48Z",
+  "http_status": 200,
+  "content_sha256": "a2bccf2e6104afee4103254f133eed648cb057d0f10c1147ee8b537c2d51eb52",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a2bccf2e6104afee4103254f133eed648cb057d0f10c1147ee8b537c2d51eb52.json.gz"
+}

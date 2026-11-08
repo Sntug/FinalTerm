@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PointCLIP+V2%3A+Prompting+CLIP+and+GPT+for+Powerful+3D+Open-world+Learning%22",
+  "fetched_at": "2026-11-08T01:49:03Z",
+  "http_status": 200,
+  "content_sha256": "b2bd301ab9661a55bf379f44c13f3dc77491be273ac645f102e284940afa200f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b2bd301ab9661a55bf379f44c13f3dc77491be273ac645f102e284940afa200f.json.gz"
+}

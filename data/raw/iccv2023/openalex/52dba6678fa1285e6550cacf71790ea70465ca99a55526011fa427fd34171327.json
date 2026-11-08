@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Source-free+Depth+for+Object+Pop-out%22",
+  "fetched_at": "2026-11-08T01:44:50Z",
+  "http_status": 200,
+  "content_sha256": "be575f0cb4d4b3783a5f2d568c176d6f81935c574b3113195f489010848b0bec",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/be575f0cb4d4b3783a5f2d568c176d6f81935c574b3113195f489010848b0bec.json.gz"
+}

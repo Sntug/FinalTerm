@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Integrally+Migrating+Pre-trained+Transformer+Encoder-decoders+for+Visual+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:48:50Z",
+  "http_status": 200,
+  "content_sha256": "cb1bdc9dadc9cad8b10d88cd0b24906488818728ec15a91c6f8c079d276692e6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cb1bdc9dadc9cad8b10d88cd0b24906488818728ec15a91c6f8c079d276692e6.json.gz"
+}

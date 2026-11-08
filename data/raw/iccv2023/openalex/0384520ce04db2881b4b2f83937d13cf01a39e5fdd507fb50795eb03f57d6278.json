@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ElasticViT%3A+Conflict-aware+Supernet+Training+for+Deploying+Fast+Vision+Transformer+on+Diverse+Mobile+Devices%22",
+  "fetched_at": "2026-11-08T01:47:48Z",
+  "http_status": 200,
+  "content_sha256": "5a05934cd5ef10b0436c79594b5448b0a375a39cb1c3b95364e85c01d14161a8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5a05934cd5ef10b0436c79594b5448b0a375a39cb1c3b95364e85c01d14161a8.json.gz"
+}

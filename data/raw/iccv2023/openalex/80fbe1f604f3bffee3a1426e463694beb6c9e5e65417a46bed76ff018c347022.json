@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LiDAR-UDA%3A+Self-ensembling+Through+Time+for+Unsupervised+LiDAR+Domain+Adaptation%22",
+  "fetched_at": "2026-11-08T01:51:08Z",
+  "http_status": 200,
+  "content_sha256": "63e3f64d9684c308b550aa35c3d3e43aabde979c9719549b442944d1ca295be4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/63e3f64d9684c308b550aa35c3d3e43aabde979c9719549b442944d1ca295be4.json.gz"
+}

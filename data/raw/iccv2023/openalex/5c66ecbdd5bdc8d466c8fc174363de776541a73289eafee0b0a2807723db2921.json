@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Boosting+Novel+Category+Discovery+Over+Domains+with+Soft+Contrastive+Learning+and+All+in+One+Classifier%22",
+  "fetched_at": "2026-11-08T01:45:38Z",
+  "http_status": 200,
+  "content_sha256": "0a2f5ce72c75704d4400ba9de53e3839372015d7bf3703b6c2425e4416760f4a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/0a2f5ce72c75704d4400ba9de53e3839372015d7bf3703b6c2425e4416760f4a.json.gz"
+}

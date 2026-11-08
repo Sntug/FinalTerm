@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PRIOR%3A+Prototype+Representation+Joint+Learning+from+Medical+Images+and+Reports%22",
+  "fetched_at": "2026-11-08T01:51:14Z",
+  "http_status": 200,
+  "content_sha256": "e1a56b680f39fb61acdb9c82d8045bb16b2cfac1f7151360cbf32ac63225b194",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e1a56b680f39fb61acdb9c82d8045bb16b2cfac1f7151360cbf32ac63225b194.json.gz"
+}

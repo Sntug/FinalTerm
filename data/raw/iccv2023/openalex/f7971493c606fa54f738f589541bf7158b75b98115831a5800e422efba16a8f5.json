@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ConSlide%3A+Asynchronous+Hierarchical+Interaction+Transformer+with+Breakup-Reorganize+Rehearsal+for+Continual+Whole+Slide+Image+Analysis%22",
+  "fetched_at": "2026-11-08T01:48:30Z",
+  "http_status": 200,
+  "content_sha256": "a1eca312c0a186c45d7d7be7c658104b406996569084866c24169d96b2fd38cf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a1eca312c0a186c45d7d7be7c658104b406996569084866c24169d96b2fd38cf.json.gz"
+}

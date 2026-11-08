@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Removing+Anomalies+as+Noises+for+Industrial+Defect+Localization%22",
+  "fetched_at": "2026-11-08T01:50:17Z",
+  "http_status": 200,
+  "content_sha256": "54fa384245b58bc85ead2a5a5f4c628093c1355bbb2e4f74ab09dd91356011c8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/54fa384245b58bc85ead2a5a5f4c628093c1355bbb2e4f74ab09dd91356011c8.json.gz"
+}

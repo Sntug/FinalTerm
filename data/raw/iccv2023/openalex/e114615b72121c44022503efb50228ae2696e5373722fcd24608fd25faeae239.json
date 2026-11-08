@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deep+Image+Harmonization+with+Learnable+Augmentation%22",
+  "fetched_at": "2026-11-08T01:18:03Z",
+  "http_status": 200,
+  "content_sha256": "a81c90024dafc25015b9a09617ea78c440670338a761e368966938f7f82f7626",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a81c90024dafc25015b9a09617ea78c440670338a761e368966938f7f82f7626.json.gz"
+}

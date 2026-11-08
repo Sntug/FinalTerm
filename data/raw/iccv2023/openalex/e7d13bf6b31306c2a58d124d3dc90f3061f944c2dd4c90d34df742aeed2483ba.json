@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Why+Is+Prompt+Tuning+for+Vision-Language+Models+Robust+to+Noisy+Labels%3F%22",
+  "fetched_at": "2026-11-08T01:50:40Z",
+  "http_status": 200,
+  "content_sha256": "79b65ab54477f20aa47edf04e666336c98cdc6742be0f808da2146e1447482cd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/79b65ab54477f20aa47edf04e666336c98cdc6742be0f808da2146e1447482cd.json.gz"
+}

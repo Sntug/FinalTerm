@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DreamBooth3D%3A+Subject-Driven+Text-to-3D+Generation%22",
+  "fetched_at": "2026-11-08T01:48:32Z",
+  "http_status": 200,
+  "content_sha256": "a7bc959052d76da5eea32018c6cfd7735253909bc04734094d6adefda90f4762",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a7bc959052d76da5eea32018c6cfd7735253909bc04734094d6adefda90f4762.json.gz"
+}

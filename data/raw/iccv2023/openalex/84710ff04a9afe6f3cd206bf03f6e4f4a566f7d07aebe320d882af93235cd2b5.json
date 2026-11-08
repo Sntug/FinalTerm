@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DeformToon3D%3A+Deformable+Neural+Radiance+Fields+for+3D+Toonification%22",
+  "fetched_at": "2026-11-08T01:24:15Z",
+  "http_status": 200,
+  "content_sha256": "a17928b3dddd86c483abec68ac6065916c1ae79082bd556799b0180411d0481d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a17928b3dddd86c483abec68ac6065916c1ae79082bd556799b0180411d0481d.json.gz"
+}

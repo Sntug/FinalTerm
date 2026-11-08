@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CLNeRF%3A+Continual+Learning+Meets+NeRF%22",
+  "fetched_at": "2026-11-08T01:50:05Z",
+  "http_status": 200,
+  "content_sha256": "d39b7f5f66befc51cede13abf69114024619403f70c362ba4e688b75a847fedc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d39b7f5f66befc51cede13abf69114024619403f70c362ba4e688b75a847fedc.json.gz"
+}

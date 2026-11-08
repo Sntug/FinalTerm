@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PHRIT%3A+Parametric+Hand+Representation+with+Implicit+Template%22",
+  "fetched_at": "2026-11-08T01:44:02Z",
+  "http_status": 200,
+  "content_sha256": "d87f4134c183e9f500064181dfc715f4504c705562f6ccad1c0f1d897116e3f6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d87f4134c183e9f500064181dfc715f4504c705562f6ccad1c0f1d897116e3f6.json.gz"
+}

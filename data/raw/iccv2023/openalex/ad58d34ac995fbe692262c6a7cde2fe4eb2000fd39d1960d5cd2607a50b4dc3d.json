@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fully+Attentional+Networks+with+Self-emerging+Token+Labeling%22",
+  "fetched_at": "2026-11-08T01:25:20Z",
+  "http_status": 200,
+  "content_sha256": "3f6563f85fcea12d6cc4dcadac863fb191817efd286d8cde6cc2dcaf7a4d139d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3f6563f85fcea12d6cc4dcadac863fb191817efd286d8cde6cc2dcaf7a4d139d.json.gz"
+}

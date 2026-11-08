@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D+Human+Mesh+Recovery+with+Sequentially+Global+Rotation+Estimation%22",
+  "fetched_at": "2026-11-08T01:26:20Z",
+  "http_status": 200,
+  "content_sha256": "e75aa3a2139afe1e7d574cbbd21c5598a2790133510a7e31a967c134f54eb91e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e75aa3a2139afe1e7d574cbbd21c5598a2790133510a7e31a967c134f54eb91e.json.gz"
+}

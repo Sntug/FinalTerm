@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Spatio-temporal+Prompting+Network+for+Robust+Video+Feature+Extraction%22",
+  "fetched_at": "2026-11-08T01:26:08Z",
+  "http_status": 200,
+  "content_sha256": "3eae4d33e9216dc0368ac1ff8190fc12771f92af99764669245c9e9145bb0dbb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3eae4d33e9216dc0368ac1ff8190fc12771f92af99764669245c9e9145bb0dbb.json.gz"
+}

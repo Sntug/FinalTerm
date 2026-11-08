@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Open-domain+Visual+Entity+Recognition%3A+Towards+Recognizing+Millions+of+Wikipedia+Entities%22",
+  "fetched_at": "2026-11-08T01:48:18Z",
+  "http_status": 200,
+  "content_sha256": "7dd73a87d243054a06e4e5b83ed950274f6b59a3ab91e44be7b0e3dd07b083cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7dd73a87d243054a06e4e5b83ed950274f6b59a3ab91e44be7b0e3dd07b083cb.json.gz"
+}

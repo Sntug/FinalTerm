@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DomainAdaptor%3A+A+Novel+Approach+to+Test-time+Adaptation%22",
+  "fetched_at": "2026-11-08T01:48:59Z",
+  "http_status": 200,
+  "content_sha256": "5369a15867cfe9060c1701c7f6b5909dc2f3ffc56762cd0780d50a82ad8ecce3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5369a15867cfe9060c1701c7f6b5909dc2f3ffc56762cd0780d50a82ad8ecce3.json.gz"
+}

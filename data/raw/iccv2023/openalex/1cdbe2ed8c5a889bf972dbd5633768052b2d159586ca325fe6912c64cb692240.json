@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Cyclic-Bootstrap+Labeling+for+Weakly+Supervised+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:45:10Z",
+  "http_status": 200,
+  "content_sha256": "a7c7bede6f7a49538ac3d841c53071404ea2fb684ac76079e8a4e23fd6403135",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a7c7bede6f7a49538ac3d841c53071404ea2fb684ac76079e8a4e23fd6403135.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhu_PointCLIP_V2_Prompting_CLIP_and_GPT_for_Powerful_3D_Open-world_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:22:41Z",
+  "http_status": 200,
+  "content_sha256": "58299c306ff26812f5de7c82c79a1f24541d763513e5f72d4bd81dfb8f9d5ee1",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1998-606872aca5560\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/58299c306ff26812f5de7c82c79a1f24541d763513e5f72d4bd81dfb8f9d5ee1.html.gz"
+}

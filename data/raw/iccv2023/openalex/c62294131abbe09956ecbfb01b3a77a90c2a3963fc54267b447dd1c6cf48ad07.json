@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Grounding+3D+Object+Affordance+from+2D+Interactions+in+Images%22",
+  "fetched_at": "2026-11-08T01:49:42Z",
+  "http_status": 200,
+  "content_sha256": "f20d34abe13a85fc608808d47b1f558a9819df87cbe19cdc8640ff75cd1c14d1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/f20d34abe13a85fc608808d47b1f558a9819df87cbe19cdc8640ff75cd1c14d1.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RED-PSM%3A+Regularization+by+Denoising+of+Partially+Separable+Models+for+Dynamic+Imaging%22",
+  "fetched_at": "2026-11-08T01:47:01Z",
+  "http_status": 200,
+  "content_sha256": "a702abff448638041d58bbc25b629a3d02ee8f3afd0f6218b82327de08c29ee1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a702abff448638041d58bbc25b629a3d02ee8f3afd0f6218b82327de08c29ee1.json.gz"
+}

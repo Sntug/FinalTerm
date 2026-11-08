@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Benchmarking+Low-Shot+Robustness+to+Natural+Distribution+Shifts%22",
+  "fetched_at": "2026-11-08T01:43:43Z",
+  "http_status": 200,
+  "content_sha256": "ca4b1246fce352a1633b593d1401c3e275aad1e841bb1a1a5f0cf561d145ebff",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ca4b1246fce352a1633b593d1401c3e275aad1e841bb1a1a5f0cf561d145ebff.json.gz"
+}

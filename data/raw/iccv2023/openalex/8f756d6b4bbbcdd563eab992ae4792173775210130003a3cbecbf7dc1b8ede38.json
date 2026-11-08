@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Encyclopedic+VQA%3A+Visual+Questions+About+Detailed+Properties+of+Fine-Grained+Categories%22",
+  "fetched_at": "2026-11-08T02:04:49Z",
+  "http_status": 200,
+  "content_sha256": "8f1a952d9ebeb6a1836a47a19101e368d48ea97a12c1269e5e668a9e0c69b1e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8f1a952d9ebeb6a1836a47a19101e368d48ea97a12c1269e5e668a9e0c69b1e9.json.gz"
+}

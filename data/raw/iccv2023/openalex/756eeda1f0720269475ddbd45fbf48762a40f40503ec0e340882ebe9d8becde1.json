@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Cross-Modal+Translation+and+Alignment+for+Survival+Analysis%22",
+  "fetched_at": "2026-11-08T01:48:57Z",
+  "http_status": 200,
+  "content_sha256": "28107194aa549ef08fa1b74de857394e13f1b014a69f4fe2885f95a925ca3284",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/28107194aa549ef08fa1b74de857394e13f1b014a69f4fe2885f95a925ca3284.json.gz"
+}

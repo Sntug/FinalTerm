@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-supervised+Monocular+Depth+Estimation%3A+Let%27s+Talk+About+The+Weather%22",
+  "fetched_at": "2026-11-08T01:47:33Z",
+  "http_status": 200,
+  "content_sha256": "e4b268535fefeb6bd4207ec36f5a6a123a210a8d2eac97fa4ee28ae997029261",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e4b268535fefeb6bd4207ec36f5a6a123a210a8d2eac97fa4ee28ae997029261.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22M2T%3A+Masking+Transformers+Twice+for+Faster+Decoding%22",
+  "fetched_at": "2026-11-08T01:49:31Z",
+  "http_status": 200,
+  "content_sha256": "13276a060df9ed4a5d5f1a0c5eee728edb1363d898b604db5219298156e75eb2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/13276a060df9ed4a5d5f1a0c5eee728edb1363d898b604db5219298156e75eb2.json.gz"
+}

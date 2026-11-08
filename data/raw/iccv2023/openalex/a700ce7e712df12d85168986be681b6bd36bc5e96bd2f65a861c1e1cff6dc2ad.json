@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Kick+Back+%26+Relax%3A+Learning+to+Reconstruct+the+World+by+Watching+SlowTV%22",
+  "fetched_at": "2026-11-08T01:49:44Z",
+  "http_status": 200,
+  "content_sha256": "faa4a0ca8bfc3bedff360fb3fd468fea311446294efe58855f977c00630abab1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/faa4a0ca8bfc3bedff360fb3fd468fea311446294efe58855f977c00630abab1.json.gz"
+}

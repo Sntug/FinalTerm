@@ -1,0 +1,465 @@
+[
+  {
+    "paper_id": "cvf:ICCV2023:Chen_TransTIC_Transferring_Transformer-based_Image_Compression_from_Human_Perception_to_Machine_ICCV_2023",
+    "title": "TransTIC: Transferring Transformer-based Image Compression from Human Perception to Machine Perception",
+    "authors": [
+      "Yi-Hsin Chen",
+      "Ying-Chieh Weng",
+      "Chia-Hao Kao",
+      "Cheng Chien",
+      "Wei-Chen Chiu",
+      "Wen-Hsiao Peng"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Chen_TransTIC_Transferring_Transformer-based_Image_Compression_from_Human_Perception_to_Machine_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Cheng_General_Image-to-Image_Translation_with_One-Shot_Image_Guidance_ICCV_2023",
+    "title": "General Image-to-Image Translation with One-Shot Image Guidance",
+    "authors": [
+      "Bin Cheng",
+      "Zuhao Liu",
+      "Yunbo Peng",
+      "Yue Lin"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Cheng_General_Image-to-Image_Translation_with_One-Shot_Image_Guidance_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Doersch_TAPIR_Tracking_Any_Point_with_Per-Frame_Initialization_and_Temporal_Refinement_ICCV_2023",
+    "title": "TAPIR: Tracking Any Point with Per-Frame Initialization and Temporal Refinement",
+    "authors": [
+      "Carl Doersch",
+      "Yi Yang",
+      "Mel Vecerik",
+      "Dilara Gokay",
+      "Ankush Gupta",
+      "Yusuf Aytar",
+      "Joao Carreira",
+      "Andrew Zisserman"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Doersch_TAPIR_Tracking_Any_Point_with_Per-Frame_Initialization_and_Temporal_Refinement_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023",
+    "title": "AG3D: Learning to Generate 3D Avatars from 2D Image Collections",
+    "authors": [
+      "Zijian Dong",
+      "Xu Chen",
+      "Jinlong Yang",
+      "Michael J. Black",
+      "Otmar Hilliges",
+      "Andreas Geiger"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Du_Multi-View_Active_Fine-Grained_Visual_Recognition_ICCV_2023",
+    "title": "Multi-View Active Fine-Grained Visual Recognition",
+    "authors": [
+      "Ruoyi Du",
+      "Wenqing Yu",
+      "Heqing Wang",
+      "Ting-En Lin",
+      "Dongliang Chang",
+      "Zhanyu Ma"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Du_Multi-View_Active_Fine-Grained_Visual_Recognition_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Fan_Flexible_Visual_Recognition_by_Evidential_Modeling_of_Confusion_and_Ignorance_ICCV_2023",
+    "title": "Flexible Visual Recognition by Evidential Modeling of Confusion and Ignorance",
+    "authors": [
+      "Lei Fan",
+      "Bo Liu",
+      "Haoxiang Li",
+      "Ying Wu",
+      "Gang Hua"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Fan_Flexible_Visual_Recognition_by_Evidential_Modeling_of_Confusion_and_Ignorance_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Feng_ViM_Vision_Middleware_for_Unified_Downstream_Transferring_ICCV_2023",
+    "title": "ViM: Vision Middleware for Unified Downstream Transferring",
+    "authors": [
+      "Yutong Feng",
+      "Biao Gong",
+      "Jianwen Jiang",
+      "Yiliang Lv",
+      "Yujun Shen",
+      "Deli Zhao",
+      "Jingren Zhou"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Feng_ViM_Vision_Middleware_for_Unified_Downstream_Transferring_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Georgescu_Audiovisual_Masked_Autoencoders_ICCV_2023",
+    "title": "Audiovisual Masked Autoencoders",
+    "authors": [
+      "Mariana-Iuliana Georgescu",
+      "Eduardo Fonseca",
+      "Radu Tudor Ionescu",
+      "Mario Lucic",
+      "Cordelia Schmid",
+      "Anurag Arnab"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Georgescu_Audiovisual_Masked_Autoencoders_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Gu_I_Cant_Believe_Theres_No_Images_Learning_Visual_Tasks_Using_ICCV_2023",
+    "title": "I Can't Believe There's No Images! Learning Visual Tasks Using only Language Supervision",
+    "authors": [
+      "Sophia Gu",
+      "Christopher Clark",
+      "Aniruddha Kembhavi"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Gu_I_Cant_Believe_Theres_No_Images_Learning_Visual_Tasks_Using_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Kim_Dense_Text-to-Image_Generation_with_Attention_Modulation_ICCV_2023",
+    "title": "Dense Text-to-Image Generation with Attention Modulation",
+    "authors": [
+      "Yunji Kim",
+      "Jiyoung Lee",
+      "Jin-Hwa Kim",
+      "Jung-Woo Ha",
+      "Jun-Yan Zhu"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Kim_Dense_Text-to-Image_Generation_with_Attention_Modulation_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Kim_Misalign_Contrast_then_Distill_Rethinking_Misalignments_in_Language-Image_Pre-training_ICCV_2023",
+    "title": "Misalign, Contrast then Distill: Rethinking Misalignments in Language-Image Pre-training",
+    "authors": [
+      "Bumsoo Kim",
+      "Yeonsik Jo",
+      "Jinhyung Kim",
+      "Seunghwan Kim"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Kim_Misalign_Contrast_then_Distill_Rethinking_Misalignments_in_Language-Image_Pre-training_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Lee_Generating_Realistic_Images_from_In-the-wild_Sounds_ICCV_2023",
+    "title": "Generating Realistic Images from In-the-wild Sounds",
+    "authors": [
+      "Taegyeong Lee",
+      "Jeonghun Kang",
+      "Hyeonyu Kim",
+      "Taehwan Kim"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Lee_Generating_Realistic_Images_from_In-the-wild_Sounds_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Lee_Semantic-Aware_Dynamic_Parameter_for_Video_Inpainting_Transformer_ICCV_2023",
+    "title": "Semantic-Aware Dynamic Parameter for Video Inpainting Transformer",
+    "authors": [
+      "Eunhye Lee",
+      "Jinsu Yoo",
+      "Yunjeong Yang",
+      "Sungyong Baik",
+      "Tae Hyun Kim"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Lee_Semantic-Aware_Dynamic_Parameter_for_Video_Inpainting_Transformer_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Li_DreamTeacher_Pretraining_Image_Backbones_with_Deep_Generative_Models_ICCV_2023",
+    "title": "DreamTeacher: Pretraining Image Backbones with Deep Generative Models",
+    "authors": [
+      "Daiqing Li",
+      "Huan Ling",
+      "Amlan Kar",
+      "David Acuna",
+      "Seung Wook Kim",
+      "Karsten Kreis",
+      "Antonio Torralba",
+      "Sanja Fidler"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_DreamTeacher_Pretraining_Image_Backbones_with_Deep_Generative_Models_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023",
+    "title": "Foreground and Text-lines Aware Document Image Rectification",
+    "authors": [
+      "Heng Li",
+      "Xiangping Wu",
+      "Qingcai Chen",
+      "Qianjin Xiang"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Liu_Learning_Image-Adaptive_Codebooks_for_Class-Agnostic_Image_Restoration_ICCV_2023",
+    "title": "Learning Image-Adaptive Codebooks for Class-Agnostic Image Restoration",
+    "authors": [
+      "Kechun Liu",
+      "Yitong Jiang",
+      "Inchang Choi",
+      "Jinwei Gu"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Learning_Image-Adaptive_Codebooks_for_Class-Agnostic_Image_Restoration_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Liu_Unsupervised_Compositional_Concepts_Discovery_with_Text-to-Image_Generative_Models_ICCV_2023",
+    "title": "Unsupervised Compositional Concepts Discovery with Text-to-Image Generative Models",
+    "authors": [
+      "Nan Liu",
+      "Yilun Du",
+      "Shuang Li",
+      "Joshua B. Tenenbaum",
+      "Antonio Torralba"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Unsupervised_Compositional_Concepts_Discovery_with_Text-to-Image_Generative_Models_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Ma_Invariant_Feature_Regularization_for_Fair_Face_Recognition_ICCV_2023",
+    "title": "Invariant Feature Regularization for Fair Face Recognition",
+    "authors": [
+      "Jiali Ma",
+      "Zhongqi Yue",
+      "Tomoyuki Kagaya",
+      "Tomoki Suzuki",
+      "Jayashree Karlekar",
+      "Sugiri Pranata",
+      "Hanwang Zhang"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Invariant_Feature_Regularization_for_Fair_Face_Recognition_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Niu_Deep_Image_Harmonization_with_Learnable_Augmentation_ICCV_2023",
+    "title": "Deep Image Harmonization with Learnable Augmentation",
+    "authors": [
+      "Li Niu",
+      "Junyan Cao",
+      "Wenyan Cong",
+      "Liqing Zhang"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Niu_Deep_Image_Harmonization_with_Learnable_Augmentation_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Paredes-Valles_Taming_Contrast_Maximization_for_Learning_Sequential_Low-latency_Event-based_Optical_Flow_ICCV_2023",
+    "title": "Taming Contrast Maximization for Learning Sequential, Low-latency, Event-based Optical Flow",
+    "authors": [
+      "Federico Paredes-Vallés",
+      "Kirk Y. W. Scheper",
+      "Christophe De Wagter",
+      "Guido C. H. E. de Croon"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Paredes-Valles_Taming_Contrast_Maximization_for_Learning_Sequential_Low-latency_Event-based_Optical_Flow_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Park_Content-Aware_Local_GAN_for_Photo-Realistic_Super-Resolution_ICCV_2023",
+    "title": "Content-Aware Local GAN for Photo-Realistic Super-Resolution",
+    "authors": [
+      "JoonKyu Park",
+      "Sanghyun Son",
+      "Kyoung Mu Lee"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Park_Content-Aware_Local_GAN_for_Photo-Realistic_Super-Resolution_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Ranasinghe_Perceptual_Grouping_in_Contrastive_Vision-Language_Models_ICCV_2023",
+    "title": "Perceptual Grouping in Contrastive Vision-Language Models",
+    "authors": [
+      "Kanchana Ranasinghe",
+      "Brandon McKinzie",
+      "Sachin Ravi",
+      "Yinfei Yang",
+      "Alexander Toshev",
+      "Jonathon Shlens"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Ranasinghe_Perceptual_Grouping_in_Contrastive_Vision-Language_Models_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Wang_Improved_Visual_Fine-tuning_with_Natural_Language_Supervision_ICCV_2023",
+    "title": "Improved Visual Fine-tuning with Natural Language Supervision",
+    "authors": [
+      "Junyang Wang",
+      "Yuanhong Xu",
+      "Juhua Hu",
+      "Ming Yan",
+      "Jitao Sang",
+      "Qi Qian"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Improved_Visual_Fine-tuning_with_Natural_Language_Supervision_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023",
+    "title": "ELITE: Encoding Visual Concepts into Textual Embeddings for Customized Text-to-Image Generation",
+    "authors": [
+      "Yuxiang Wei",
+      "Yabo Zhang",
+      "Zhilong Ji",
+      "Jinfeng Bai",
+      "Lei Zhang",
+      "Wangmeng Zuo"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Xu_FDViT_Improve_the_Hierarchical_Architecture_of_Vision_Transformer_ICCV_2023",
+    "title": "FDViT: Improve the Hierarchical Architecture of Vision Transformer",
+    "authors": [
+      "Yixing Xu",
+      "Chao Li",
+      "Dong Li",
+      "Xiao Sheng",
+      "Fan Jiang",
+      "Lu Tian",
+      "Ashish Sirasao"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Xu_FDViT_Improve_the_Hierarchical_Architecture_of_Vision_Transformer_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Yoo_Video_Object_Segmentation-aware_Video_Frame_Interpolation_ICCV_2023",
+    "title": "Video Object Segmentation-aware Video Frame Interpolation",
+    "authors": [
+      "Jun-Sang Yoo",
+      "Hongjae Lee",
+      "Seung-Won Jung"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Yoo_Video_Object_Segmentation-aware_Video_Frame_Interpolation_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhai_Sigmoid_Loss_for_Language_Image_Pre-Training_ICCV_2023",
+    "title": "Sigmoid Loss for Language Image Pre-Training",
+    "authors": [
+      "Xiaohua Zhai",
+      "Basil Mustafa",
+      "Alexander Kolesnikov",
+      "Lucas Beyer"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhai_Sigmoid_Loss_for_Language_Image_Pre-Training_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhang_A_Simple_Framework_for_Open-Vocabulary_Segmentation_and_Detection_ICCV_2023",
+    "title": "A Simple Framework for Open-Vocabulary Segmentation and Detection",
+    "authors": [
+      "Hao Zhang",
+      "Feng Li",
+      "Xueyan Zou",
+      "Shilong Liu",
+      "Chunyuan Li",
+      "Jianwei Yang",
+      "Lei Zhang"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_A_Simple_Framework_for_Open-Vocabulary_Segmentation_and_Detection_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023",
+    "title": "DVIS: Decoupled Video Instance Segmentation Framework",
+    "authors": [
+      "Tao Zhang",
+      "Xingye Tian",
+      "Yu Wu",
+      "Shunping Ji",
+      "Xuebo Wang",
+      "Yuan Zhang",
+      "Pengfei Wan"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023",
+    "title": "Regularized Mask Tuning: Uncovering Hidden Knowledge in Pre-Trained Vision-Language Models",
+    "authors": [
+      "Kecheng Zheng",
+      "Wei Wu",
+      "Ruili Feng",
+      "Kai Zhu",
+      "Jiawei Liu",
+      "Deli Zhao",
+      "Zheng-Jun Zha",
+      "Wei Chen",
+      "Yujun Shen"
+    ],
+    "cvf_url": "https://openaccess.thecvf.com/content/ICCV2023/html/Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023_paper.html",
+    "conference": "ICCV",
+    "conference_year": 2023,
+    "owner": "B"
+  }
+]

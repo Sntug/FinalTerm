@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Speech2Lip%3A+High-fidelity+Speech+to+Lip+Generation+by+Learning+from+a+Short+Video%22",
+  "fetched_at": "2026-11-08T01:44:46Z",
+  "http_status": 200,
+  "content_sha256": "8893b41d303049b052e0fc357e48685905af9a1222b669b54e729706875ca09a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8893b41d303049b052e0fc357e48685905af9a1222b669b54e729706875ca09a.json.gz"
+}

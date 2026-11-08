@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Parse-Then-Place+Approach+for+Generating+Graphic+Layouts+from+Textual+Descriptions%22",
+  "fetched_at": "2026-11-08T01:47:52Z",
+  "http_status": 200,
+  "content_sha256": "1da2f6d8b8c54182a8b0759b0da129d3b65aaf0f328201b870025f5e086e60f7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/1da2f6d8b8c54182a8b0759b0da129d3b65aaf0f328201b870025f5e086e60f7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Human+from+Blur%3A+Human+Pose+Tracking+from+Blurry+Images%22",
+  "fetched_at": "2026-11-08T01:46:40Z",
+  "http_status": 200,
+  "content_sha256": "025d7a6d8657b95752db81eabfc9b40229d31d709b01e3752a0392899501a73f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/025d7a6d8657b95752db81eabfc9b40229d31d709b01e3752a0392899501a73f.json.gz"
+}

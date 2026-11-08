@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TextPSG%3A+Panoptic+Scene+Graph+Generation+from+Textual+Descriptions%22",
+  "fetched_at": "2026-11-08T01:51:44Z",
+  "http_status": 200,
+  "content_sha256": "df63c2ac969ee0d7ce90163ce15c6ebff7113643329601d210623aad7149bb52",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/df63c2ac969ee0d7ce90163ce15c6ebff7113643329601d210623aad7149bb52.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Attention+Where+It+Matters%3A+Rethinking+Visual+Document+Understanding+with+Selective+Region+Concentration%22",
+  "fetched_at": "2026-11-08T01:46:20Z",
+  "http_status": 200,
+  "content_sha256": "7fe073acbf046fde6830d36f49cf69c61404742f4717fae0188f895cfaee3ab4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7fe073acbf046fde6830d36f49cf69c61404742f4717fae0188f895cfaee3ab4.json.gz"
+}

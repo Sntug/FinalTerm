@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ShapeScaffolder%3A+Structure-Aware+3D+Shape+Generation+from+Text%22",
+  "fetched_at": "2026-11-08T01:48:28Z",
+  "http_status": 200,
+  "content_sha256": "a4ccd4722cbdfc0114c55dfd2ecc4a9ddbebbaa2799e1fa007de71ee90ffa0a8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a4ccd4722cbdfc0114c55dfd2ecc4a9ddbebbaa2799e1fa007de71ee90ffa0a8.json.gz"
+}

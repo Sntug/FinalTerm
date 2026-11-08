@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improving+Transformer-based+Image+Matching+by+Cascaded+Capturing+Spatially+Informative+Keypoints%22",
+  "fetched_at": "2026-11-08T01:43:49Z",
+  "http_status": 200,
+  "content_sha256": "164363eb2c7169792799d8e03f43e1588be46169bf2cdd2e04b77436b3b394ca",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/164363eb2c7169792799d8e03f43e1588be46169bf2cdd2e04b77436b3b394ca.json.gz"
+}

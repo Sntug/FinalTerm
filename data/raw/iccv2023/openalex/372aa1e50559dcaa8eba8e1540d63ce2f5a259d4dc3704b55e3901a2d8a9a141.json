@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Your+Diffusion+Model+is+Secretly+a+Zero-Shot+Classifier%22",
+  "fetched_at": "2026-11-08T01:50:30Z",
+  "http_status": 200,
+  "content_sha256": "8ccdc3009381bea90c6bb9c4f9524bd119bfdb8aebf55afe3edcf207d7ff1aa1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8ccdc3009381bea90c6bb9c4f9524bd119bfdb8aebf55afe3edcf207d7ff1aa1.json.gz"
+}

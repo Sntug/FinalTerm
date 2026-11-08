@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ChartReader%3A+A+Unified+Framework+for+Chart+Derendering+and+Comprehension+without+Heuristic+Rules%22",
+  "fetched_at": "2026-11-08T01:24:46Z",
+  "http_status": 200,
+  "content_sha256": "d543ad61b51e40369a8d87d198415617b1b1940d39135391be1c25a172edba24",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d543ad61b51e40369a8d87d198415617b1b1940d39135391be1c25a172edba24.json.gz"
+}

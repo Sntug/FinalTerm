@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ESTextSpotter%3A+Towards+Better+Scene+Text+Spotting+with+Explicit+Synergy+in+Transformer%22",
+  "fetched_at": "2026-11-08T01:47:10Z",
+  "http_status": 200,
+  "content_sha256": "b104e3b3685c4615e67ceeaed51d97b4a38cd51e79b3372029ff4b832449be40",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b104e3b3685c4615e67ceeaed51d97b4a38cd51e79b3372029ff4b832449be40.json.gz"
+}

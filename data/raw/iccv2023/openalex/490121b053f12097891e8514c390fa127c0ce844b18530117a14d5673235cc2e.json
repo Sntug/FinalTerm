@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+Domain+Adaptive+Detection+with+Network+Stability+Analysis%22",
+  "fetched_at": "2026-11-08T01:44:44Z",
+  "http_status": 200,
+  "content_sha256": "08ba8feaedb831a11beabe5c7f1df3535c650faeceb6e78260746ebfebbfe69a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/08ba8feaedb831a11beabe5c7f1df3535c650faeceb6e78260746ebfebbfe69a.json.gz"
+}

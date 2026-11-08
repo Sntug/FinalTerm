@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VertexSerum%3A+Poisoning+Graph+Neural+Networks+for+Link+Inference%22",
+  "fetched_at": "2026-11-08T02:04:57Z",
+  "http_status": 200,
+  "content_sha256": "d575fea10e400b2d05920edcbf678797c8ac370440e3096762bd8ebee2098ec7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d575fea10e400b2d05920edcbf678797c8ac370440e3096762bd8ebee2098ec7.json.gz"
+}

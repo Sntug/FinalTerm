@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Masked+Spatio-Temporal+Structure+Prediction+for+Self-supervised+Learning+on+Point+Cloud+Videos%22",
+  "fetched_at": "2026-11-08T01:50:50Z",
+  "http_status": 200,
+  "content_sha256": "93316b920288b8016be9abb68159d12ce7d8de7cc1a5c6d4fea278a8662ed72c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/93316b920288b8016be9abb68159d12ce7d8de7cc1a5c6d4fea278a8662ed72c.json.gz"
+}

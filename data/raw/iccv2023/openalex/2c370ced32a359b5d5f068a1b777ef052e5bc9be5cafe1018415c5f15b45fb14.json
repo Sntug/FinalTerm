@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SurroundOcc%3A+Multi-camera+3D+Occupancy+Prediction+for+Autonomous+Driving%22",
+  "fetched_at": "2026-11-08T01:50:03Z",
+  "http_status": 200,
+  "content_sha256": "8a6b559486bbe53aaea6090367ad0f431077e8ef6a8d9969c8c95c3f69bd6af9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8a6b559486bbe53aaea6090367ad0f431077e8ef6a8d9969c8c95c3f69bd6af9.json.gz"
+}

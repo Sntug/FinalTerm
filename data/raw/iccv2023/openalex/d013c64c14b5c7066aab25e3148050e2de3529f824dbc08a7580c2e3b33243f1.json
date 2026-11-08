@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Make+Encoder+Great+Again+in+3D+GAN+Inversion+through+Geometry+and+Occlusion-Aware+Encoding%22",
+  "fetched_at": "2026-11-08T01:45:26Z",
+  "http_status": 200,
+  "content_sha256": "aaab0df450034bd088b0cdf450ae3a2eafa2bd3b9ea72a016594916d3e6f0b7c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/aaab0df450034bd088b0cdf450ae3a2eafa2bd3b9ea72a016594916d3e6f0b7c.json.gz"
+}

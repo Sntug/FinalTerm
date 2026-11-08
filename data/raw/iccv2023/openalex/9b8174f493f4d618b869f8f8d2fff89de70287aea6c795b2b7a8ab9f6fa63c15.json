@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MV-DeepSDF%3A+Implicit+Modeling+with+Multi-Sweep+Point+Clouds+for+3D+Vehicle+Reconstruction+in+Autonomous+Driving%22",
+  "fetched_at": "2026-11-08T01:45:56Z",
+  "http_status": 200,
+  "content_sha256": "d182dfd41241459de7fff7d05226ea37dcd5ba7c087382664f39030d60755fc7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/d182dfd41241459de7fff7d05226ea37dcd5ba7c087382664f39030d60755fc7.json.gz"
+}

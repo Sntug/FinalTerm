@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22All-to-Key+Attention+for+Arbitrary+Style+Transfer%22",
+  "fetched_at": "2026-11-08T01:49:17Z",
+  "http_status": 200,
+  "content_sha256": "09384966e7fbe49d3e85434d2d783fa6273b3b6fdf66fbfa23e635a0426d630d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/09384966e7fbe49d3e85434d2d783fa6273b3b6fdf66fbfa23e635a0426d630d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Revisit+PCA-based+Technique+for+Out-of-Distribution+Detection%22",
+  "fetched_at": "2026-11-08T01:46:47Z",
+  "http_status": 200,
+  "content_sha256": "5cbc07a9b188101c646259148b9df4691c2d1fbf8f6f4d1178461f891fdd7ec3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5cbc07a9b188101c646259148b9df4691c2d1fbf8f6f4d1178461f891fdd7ec3.json.gz"
+}

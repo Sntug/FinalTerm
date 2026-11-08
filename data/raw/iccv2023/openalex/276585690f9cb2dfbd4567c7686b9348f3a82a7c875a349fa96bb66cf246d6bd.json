@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Aria+Digital+Twin%3A+A+New+Benchmark+Dataset+for+Egocentric+3D+Machine+Perception%22",
+  "fetched_at": "2026-11-08T01:48:14Z",
+  "http_status": 200,
+  "content_sha256": "b75420afb2532e85c9a0c7485e5eec75599beaf1d07dc0311b727e646b3578b9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b75420afb2532e85c9a0c7485e5eec75599beaf1d07dc0311b727e646b3578b9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Distilling_Coarse-to-Fine_Semantic_Matching_Knowledge_for_Weakly_Supervised_3D_Visual_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:24:09Z",
+  "http_status": 200,
+  "content_sha256": "630298b215b4e83d2a861a59f56c1c885530a470fc0981aaeca8f2c42e33d3b4",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1aed-606872aca214b\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/630298b215b4e83d2a861a59f56c1c885530a470fc0981aaeca8f2c42e33d3b4.html.gz"
+}

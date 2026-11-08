@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Weakly-Supervised+Action+Segmentation+and+Unseen+Error+Detection+in+Anomalous+Instructional+Videos%22",
+  "fetched_at": "2026-11-08T01:50:07Z",
+  "http_status": 200,
+  "content_sha256": "84fbcc2201284b01041623dd2a3338d8d8ccb8eea4d8452ab7f2da1a2b9969f0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/84fbcc2201284b01041623dd2a3338d8d8ccb8eea4d8452ab7f2da1a2b9969f0.json.gz"
+}

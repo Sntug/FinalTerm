@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Event+Camera+Data+Pre-training%22",
+  "fetched_at": "2026-11-08T01:44:31Z",
+  "http_status": 200,
+  "content_sha256": "17b13270c4e3b47df1f49a8c1e7a3e18c2ffaa959d246baf0ead35e43dd75221",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/17b13270c4e3b47df1f49a8c1e7a3e18c2ffaa959d246baf0ead35e43dd75221.json.gz"
+}

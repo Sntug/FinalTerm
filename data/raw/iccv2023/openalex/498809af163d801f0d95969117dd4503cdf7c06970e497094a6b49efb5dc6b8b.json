@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Mobile+Block+for+Efficient+Attention-based+Models%22",
+  "fetched_at": "2026-11-08T01:48:46Z",
+  "http_status": 200,
+  "content_sha256": "0e5d2397d44df5efdad4204df1722544d9a27ab9cff135dad861f15416820da3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/0e5d2397d44df5efdad4204df1722544d9a27ab9cff135dad861f15416820da3.json.gz"
+}

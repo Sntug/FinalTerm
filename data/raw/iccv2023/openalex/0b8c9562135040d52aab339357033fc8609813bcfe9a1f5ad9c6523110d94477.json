@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ParCNetV2%3A+Oversized+Kernel+with+Enhanced+Attention%22",
+  "fetched_at": "2026-11-08T01:52:04Z",
+  "http_status": 200,
+  "content_sha256": "40f2858f378a014e044081fdad0103d8c8acf3239f943cb05583055dc4e813a2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/40f2858f378a014e044081fdad0103d8c8acf3239f943cb05583055dc4e813a2.json.gz"
+}

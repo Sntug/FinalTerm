@@ -1,0 +1,13 @@
+{
+  "source_url": "https://openaccess.thecvf.com/ICCV2023?day=all",
+  "retrieved_at_utc": "2026-11-05T08:13:36.541914+00:00",
+  "raw_html_file": "ICCV2023_all_papers.html",
+  "raw_html_sha256": "ba112ee3d3bc0111322a32faa874aa9d9b74f7a074de99994cfb6a335f1c58ed",
+  "parsed_json_file": "ICCV2023_catalog.json",
+  "parsed_json_sha256": "42b2d32ba27ca0fc55faf869222e74908bedc6ebee190c588c92baa03dc2eb6f",
+  "paper_count": 2156,
+  "parser": "Python standard library regex for CVF dt.ptitle records and hidden query_author values; only /content/ICCV2023/html/*_paper.html records included.",
+  "selection_status": "unselected complete catalog input; no 350-paper cohort sampled",
+  "id_status": "provisional CVF slug scheme; shared ID contract owner A",
+  "retrieval_note": "On cached reparse, preserve the original retrieval timestamp and do not fetch the source again."
+}

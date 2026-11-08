@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wang_Building3D_A_Urban-Scale_Dataset_and_Benchmarks_for_Learning_Roof_Structures_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:24:00Z",
+  "http_status": 200,
+  "content_sha256": "b02b51ea9fa8f74cfffbdc3f249dda898b7a0ece235501a8e44253d6ae6be8e3",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"17fd-606872aca214b\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/b02b51ea9fa8f74cfffbdc3f249dda898b7a0ece235501a8e44253d6ae6be8e3.html.gz"
+}

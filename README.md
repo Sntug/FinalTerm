@@ -22,3 +22,26 @@ Raw CVPR cần tái lập được đưa vào Git cùng metadata cache; checkpoi
 Quy trình, phân công và điều kiện pilot nhóm vẫn theo [plan](handoff/Plan_FinalTerm.docx): 30 A + 30 B qua raw → clean/NLP → Neo4j, kiểm tra ID/coverage và số nút/cạnh. Việc A tiếp tục A2 độc lập theo yêu cầu không chứng minh những điều kiện nhóm đã hoàn tất.
 
 Quy tắc dữ liệu: [DATA_CONTRACT v2](handoff/mxh_contract_v2/docs/DATA_CONTRACT.md), [FIELD_INDEX](handoff/mxh_contract_v2/docs/FIELD_INDEX.md). Hai gói `handoff/mxh_a1_pilot/` và `handoff/mxh_contract_v2/` được giữ nguyên làm dữ liệu lịch sử/fixture; không dùng hướng dẫn CLI cũ của chúng thay hướng dẫn A2 hiện hành.
+
+## Neo4j pilot cục bộ trên máy này
+
+Đã thử Neo4j Community 2026.10.1 từ bản server độc lập chính thức thay cho Neo4j Desktop trong kế hoạch, cùng Java 21.0.4 và Python driver 5.28.8. Bản server và dữ liệu nằm trong `.neo4j-pilot/` (không theo dõi bằng Git); mật khẩu ở `.env` cục bộ. Server chỉ nghe trên `127.0.0.1`, Bolt `17687` và HTTP `17474`. Usage reporting, Fleet Manager và fleet discovery đã được tắt trong cấu hình. Lần khởi động đầu tiên dùng mặc định nên có thể đã gửi thống kê ẩn danh và phát discovery trên mạng nội bộ.
+
+Trong Terminal, từ thư mục `FinalTerm`, tạo lại liên kết nếu `/private/tmp` đã bị xóa, rồi khởi động:
+
+```sh
+if [ ! -e /private/tmp/finalterm-neo4j-pilot ] && [ ! -L /private/tmp/finalterm-neo4j-pilot ]; then
+  ln -s "$PWD/.neo4j-pilot" /private/tmp/finalterm-neo4j-pilot
+fi
+if [ "$(readlink /private/tmp/finalterm-neo4j-pilot)" = "$PWD/.neo4j-pilot" ]; then
+  export NEO4J_HOME=/private/tmp/finalterm-neo4j-pilot
+  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+  "$NEO4J_HOME/bin/neo4j" start
+else
+  echo 'Đường dẫn tạm đã được sử dụng; kiểm tra trước khi khởi động.'
+fi
+```
+
+Liên kết ASCII cần thiết vì launcher gặp lỗi với đường dẫn Unicode của thư mục này. Không thay thế liên kết nếu đường dẫn đó đã được dùng cho mục đích khác. Mở Neo4j Browser tại <http://127.0.0.1:17474>, kết nối `bolt://127.0.0.1:17687` bằng user `neo4j` và mật khẩu trong `.env`. Để dừng từ cùng Terminal: `"$NEO4J_HOME/bin/neo4j" stop`.
+
+Hướng dẫn nạp và kiểm tra pilot B: [src/graph/B_PILOT.md](src/graph/B_PILOT.md). Thư mục server, cơ sở dữ liệu và `.env` chỉ tồn tại trên máy này; không có trong Git. Trong môi trường Codex có sandbox, tiến trình có thể bị dừng khi lệnh kết thúc; chạy lệnh trên trong Terminal thông thường để giữ server hoạt động.

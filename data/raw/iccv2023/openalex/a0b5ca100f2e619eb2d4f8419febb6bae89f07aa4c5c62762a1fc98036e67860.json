@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Lecture+Presentations+Multimodal+Dataset%3A+Towards+Understanding+Multimodality+in+Educational+Videos%22",
+  "fetched_at": "2026-11-08T01:51:37Z",
+  "http_status": 200,
+  "content_sha256": "e0486bf2d1fc205338bbcfe814e874b4f7397c856a5ca6787f2f149534709315",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e0486bf2d1fc205338bbcfe814e874b4f7397c856a5ca6787f2f149534709315.json.gz"
+}

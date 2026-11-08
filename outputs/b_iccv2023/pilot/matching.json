@@ -1,0 +1,801 @@
+[
+  {
+    "paper_id": "cvf:ICCV2023:Chen_TransTIC_Transferring_Transformer-based_Image_Compression_from_Human_Perception_to_Machine_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872385",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:e86f098eda4afed38d655915befe39330396009ae942de8611d54c55cc200e8b",
+      "source:openalex:cb5fc84ed865d2f6b5805fb3d7953477093deeacbc384ce06b3ebe36de146e8c"
+    ],
+    "work_id": "https://openalex.org/W4390872385"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Cheng_General_Image-to-Image_Translation_with_One-Shot_Image_Guidance_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872351",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:3bb22dca44610a6925273b79f979fadf44a0f8408f616c5c1f617793bb851090",
+      "source:openalex:37484ed2b70e9bb9a1c8ddfd2563e787a04ea374d7e85bf48aa51db2bceb146f"
+    ],
+    "work_id": "https://openalex.org/W4390872351"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Doersch_TAPIR_Tracking_Any_Point_with_Per-Frame_Initialization_and_Temporal_Refinement_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390871749",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:f89fd99792a922f559e32176c9600826a1842eaa697a2c792e14232698b6f44c",
+      "source:openalex:531c5b7b97ad458dffe6d20b11e76e1194ddc264c12175caf694e5131c0e5afc"
+    ],
+    "work_id": "https://openalex.org/W4390871749"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874335",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8335322714688425b757371a6f32d896d2554c521fab81f6f26ca90375a51b26",
+      "source:openalex:3986cb1db3baa31dd3faeb452e3efaaef01f1648ff6e46f6ab51c9a639677f55"
+    ],
+    "work_id": "https://openalex.org/W4390874335"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Du_Multi-View_Active_Fine-Grained_Visual_Recognition_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872568",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:3ec941650717840ae3834b90ded9de84c0c25ce516c45ae22cc65b1f38738c43",
+      "source:openalex:99084915fe56eba160c70027e8306ea39df2f19f2a0683ff2e442c6b12ef6e05"
+    ],
+    "work_id": "https://openalex.org/W4390872568"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Fan_Flexible_Visual_Recognition_by_Evidential_Modeling_of_Confusion_and_Ignorance_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874262",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:d1be5a297410fdf95bd45eea3e1efdec0cdbb5fe6b2d7174f79fd4397fe95809",
+      "source:openalex:a9ec0fab6d34c288ac920a2a77f2278c12b76f5d2c46e801418f8813f3de6c69"
+    ],
+    "work_id": "https://openalex.org/W4390874262"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Feng_ViM_Vision_Middleware_for_Unified_Downstream_Transferring_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872152",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8aeb8cd78174d4f0ceedd8f12ae4b28b67badbc28c531205bbe6cdc97a391ce1",
+      "source:openalex:8be1fd28fb1775c672858241a68f49a7a8cb3e9b026927732ef1aac84f0b88b0"
+    ],
+    "work_id": "https://openalex.org/W4390872152"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Georgescu_Audiovisual_Masked_Autoencoders_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874283",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      },
+      {
+        "work_id": "https://openalex.org/W4416720874",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:b46305385e9092725c799d104c5d8b3e9e93887173e2f76714aa1b9243748b69",
+      "source:openalex:f54933c56eff124e977ae0da2f26177906b451d4635277cbadf1c9493b832ff3"
+    ],
+    "work_id": "https://openalex.org/W4390874283"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Gu_I_Cant_Believe_Theres_No_Images_Learning_Visual_Tasks_Using_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390889743",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:2b5d29f831c15c571f597df38bb41cb3db35a314f400fb33c9603bc31f7af8b5",
+      "source:openalex:047e562f4800f4f9e18d3684c8e515026908e2178399e23a1964d49a13651010"
+    ],
+    "work_id": "https://openalex.org/W4390889743"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Kim_Dense_Text-to-Image_Generation_with_Attention_Modulation_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872671",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:21ab325175cf62c60ebb3c911671e2bd6cd2076d185b3b4fde4b928d1ac3a735",
+      "source:openalex:ace2b9e7bf1c5eedc5076886261f789cf6a6e3cfac3fea7d4528861d793bcb6b"
+    ],
+    "work_id": "https://openalex.org/W4390872671"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Kim_Misalign_Contrast_then_Distill_Rethinking_Misalignments_in_Language-Image_Pre-training_ICCV_2023",
+    "status": "needs_review",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873365",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      },
+      {
+        "work_id": "https://openalex.org/W4402952414",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4393149186",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4413259087",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4404571073",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4414899205",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4416644607",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W7166869696",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4413146107",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      },
+      {
+        "work_id": "https://openalex.org/W4417279890",
+        "title_equal": false,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": true,
+    "source_record_ids": [
+      "source:openalex:0cc82045e613f03fd56521c3a1920a135a384527329fbf61e6275fed31c726d3",
+      "source:openalex:7911d5530a10a8631067b139d977e233be4a872c17d3ff1aa44027df68cf724d"
+    ],
+    "work_id": null
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Lee_Generating_Realistic_Images_from_In-the-wild_Sounds_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872674",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8c66c2ea7550d97016c0afcadb1399a4e5f259e02942c84dc5d7346780a18b87",
+      "source:openalex:941d93b3bf9c80d3f2621dd67f7c97d512d52870d414ef3813369d9c144d8f91"
+    ],
+    "work_id": "https://openalex.org/W4390872674"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Lee_Semantic-Aware_Dynamic_Parameter_for_Video_Inpainting_Transformer_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390871958",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:296b2f356bffa0e5bd2e59cb41ffe3b8783f978c0911b991f63b24f6adb836d4",
+      "source:openalex:aef8fa6f524e2a837e9cf4b24a651d6d72ac259f8a623bf41d4020e42848aa3a"
+    ],
+    "work_id": "https://openalex.org/W4390871958"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Li_DreamTeacher_Pretraining_Image_Backbones_with_Deep_Generative_Models_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872933",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:277b3124f2cff3db33938bdc1dc61f7842c86c4b8e52e4701260a02b1de9c3f3",
+      "source:openalex:1f913d1d6ea8f699876d8624a25349e1c055fb7ad1763bb427c2a041e79de2d0"
+    ],
+    "work_id": "https://openalex.org/W4390872933"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Li_Foreground_and_Text-lines_Aware_Document_Image_Rectification_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872088",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:1bdb0133cd0a196f4ef5150852044c5ccea08946bfb0b1c9f0ffdcdc32e1655d",
+      "source:openalex:0b4576b4884ab01ffd1fe087f9323227b34f73a3d1af43499fdb1761f258805a"
+    ],
+    "work_id": "https://openalex.org/W4390872088"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Liu_Learning_Image-Adaptive_Codebooks_for_Class-Agnostic_Image_Restoration_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872512",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:c12a9bd10f82037c635de6735712ad53f7a39e54bb267101c3a6e4770df57b59",
+      "source:openalex:210d0fe363fdf2677da1652f4ad1ebb59e18a8bbe7c004ff0b37391137b4b61d"
+    ],
+    "work_id": "https://openalex.org/W4390872512"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Liu_Unsupervised_Compositional_Concepts_Discovery_with_Text-to-Image_Generative_Models_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873045",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:e5be348936766a301a8b10e3d6b56ac0599c12efcb5ed02ea23973ccacb486fa",
+      "source:openalex:3fb6d1b319ea830f41900d193b43ee653c55c0f28f934e42e6ec2a6222de4e5b"
+    ],
+    "work_id": "https://openalex.org/W4390873045"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Ma_Invariant_Feature_Regularization_for_Fair_Face_Recognition_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874453",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:605ebf95edb2668f2802d777a66821a5cf92f177bd88d2fc4779e54ed43c246d",
+      "source:openalex:b590da6177b5a87b77830aba6e08be7f3b55c352f740e3669744100457473997"
+    ],
+    "work_id": "https://openalex.org/W4390874453"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Niu_Deep_Image_Harmonization_with_Learnable_Augmentation_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873316",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:8ed6dc921c1db13cd370f3d6778ef0f54c65e3173ac7fed8fd94b26ff6a08ff5",
+      "source:openalex:80ba46d82d964f79152c621283960d5a0c8db6fabe2674eb0138710435a0b37f"
+    ],
+    "work_id": "https://openalex.org/W4390873316"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Paredes-Valles_Taming_Contrast_Maximization_for_Learning_Sequential_Low-latency_Event-based_Optical_Flow_ICCV_2023",
+    "status": "needs_review",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873605",
+        "title_equal": true,
+        "ordered_authors_equal": false,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:d62ac89e9401b13f0fec06bf5455bb1a165b905c6141e01942f0d93a50b6c0e8"
+    ],
+    "work_id": null
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Park_Content-Aware_Local_GAN_for_Photo-Realistic_Super-Resolution_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872407",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:c08b6d172165b23342dac56ac145af7d096a3cbc6ecd213db0b19d6c7f8da63a",
+      "source:openalex:179d26f6b66849783f5619cc710fb26349019fac2e820c20a5ceacc7b5526a1f"
+    ],
+    "work_id": "https://openalex.org/W4390872407"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Ranasinghe_Perceptual_Grouping_in_Contrastive_Vision-Language_Models_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873426",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      },
+      {
+        "work_id": "https://openalex.org/W7118579349",
+        "title_equal": true,
+        "ordered_authors_equal": false,
+        "venue_match": false,
+        "year_equal": false,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": false
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:32f6f1673eaf9bdeeb5450498de4e9fd457778fd97e800aaf2c9bfcb11355471",
+      "source:openalex:387868b34a92c4f090cdac445e5cd6e63ee285388d7b141f7348e2421d6b04dd"
+    ],
+    "work_id": "https://openalex.org/W4390873426"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Wang_Improved_Visual_Fine-tuning_with_Natural_Language_Supervision_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873848",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:0140b3c051142862e5e44e02be21ee41e7323023e6ae348f267834b576bdbc12",
+      "source:openalex:dddb45527aea960521303029110167afe4b1b68be0b1e42b5a9e9dd059819494"
+    ],
+    "work_id": "https://openalex.org/W4390873848"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874393",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:df6e5be80e3d7b5d5f238375b2eba20416bb3d583ef5ae7600435007bc840435",
+      "source:openalex:6e256d5ea38c0365f84593307d6e1f605784549d2a66c21b22aa4bf9307a83a8"
+    ],
+    "work_id": "https://openalex.org/W4390874393"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Xu_FDViT_Improve_the_Hierarchical_Architecture_of_Vision_Transformer_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872956",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:d0698126ee221a271c2aaf68d523d93a622d66f472c655fc23c1dfa63353c202",
+      "source:openalex:a3d083349d48dfa227e63dcadd82e718784c94e8b62756ee4c5b746f53d12549"
+    ],
+    "work_id": "https://openalex.org/W4390872956"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Yoo_Video_Object_Segmentation-aware_Video_Frame_Interpolation_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390874112",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:bc34cfd22c071fac585770a47773565300004bff7349c8fe52cf488bcc315c79",
+      "source:openalex:b56a0d00c7ae75837b73af9ce9eb62da4397530ec2f16b2b9e85fd6d005e9745"
+    ],
+    "work_id": "https://openalex.org/W4390874112"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhai_Sigmoid_Loss_for_Language_Image_Pre-Training_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873312",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:63dcada5706e5a5a13c014471f27ca5da981395d932b5ef9b8cbaf10496cc455",
+      "source:openalex:0a4e7974dc19724ecb1cc94ddeff17242b704ac27efda8b74e08d3f00df8726d"
+    ],
+    "work_id": "https://openalex.org/W4390873312"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhang_A_Simple_Framework_for_Open-Vocabulary_Segmentation_and_Detection_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873343",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:5c75a05d0ed6ef5602069644b182087cf3187dcbf0ccb7117a49f5e3173054f5",
+      "source:openalex:46c78a2da13e00c2523ba6e11ff1ec9d61102c5d3e6fb48b66884036a265bd21"
+    ],
+    "work_id": "https://openalex.org/W4390873343"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zhang_DVIS_Decoupled_Video_Instance_Segmentation_Framework_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390872626",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:5e1bdf56d422c93f81accd5e909755b6a0f5e1a3f1c9caac4ae3ca6097594f56",
+      "source:openalex:a3aa40fca3245706425603ceb1a23607b57b3bf9418cce8eb7d04d1a45e6351b"
+    ],
+    "work_id": "https://openalex.org/W4390872626"
+  },
+  {
+    "paper_id": "cvf:ICCV2023:Zheng_Regularized_Mask_Tuning_Uncovering_Hidden_Knowledge_in_Pre-Trained_Vision-Language_Models_ICCV_2023",
+    "status": "matched",
+    "rule_version": "1.1.0",
+    "candidate_checks": [
+      {
+        "work_id": "https://openalex.org/W4390873936",
+        "title_equal": true,
+        "ordered_authors_equal": true,
+        "venue_match": true,
+        "year_equal": true,
+        "version_link": false,
+        "doi_equal": false,
+        "accepted": true
+      }
+    ],
+    "search_truncated": false,
+    "source_record_ids": [
+      "source:openalex:fb081e2fbaca411a81e5897a5286ada4406f965a990c04e1911c252f069acec0",
+      "source:openalex:46bad7a091321e7ddd0a68e06dc5780a7f4c06050168ab7dc57b46e902fb0287"
+    ],
+    "work_id": "https://openalex.org/W4390873936"
+  }
+]

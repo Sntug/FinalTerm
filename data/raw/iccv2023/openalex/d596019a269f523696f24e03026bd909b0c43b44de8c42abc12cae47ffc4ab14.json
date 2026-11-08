@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DMNet%3A+Delaunay+Meshing+Network+for+3D+Shape+Representation%22",
+  "fetched_at": "2026-11-08T01:50:20Z",
+  "http_status": 200,
+  "content_sha256": "df2abfae9739ba1e757dd7efb7ec15ca433bc2757372a8c7876b8f16768be174",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/df2abfae9739ba1e757dd7efb7ec15ca433bc2757372a8c7876b8f16768be174.json.gz"
+}

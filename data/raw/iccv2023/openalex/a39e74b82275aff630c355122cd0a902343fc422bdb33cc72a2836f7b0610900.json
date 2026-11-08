@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-Metrics+Adaptively+Identifies+Backdoors+in+Federated+Learning%22",
+  "fetched_at": "2026-11-08T01:45:54Z",
+  "http_status": 200,
+  "content_sha256": "a51a31e4494132a2b44f24c7ff534aaa156642e64eecdfbfe745016da5e4bfac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a51a31e4494132a2b44f24c7ff534aaa156642e64eecdfbfe745016da5e4bfac.json.gz"
+}

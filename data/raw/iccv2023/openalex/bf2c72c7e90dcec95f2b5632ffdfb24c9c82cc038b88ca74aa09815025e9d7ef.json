@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Distilling+DETR+with+Visual-Linguistic+Knowledge+for+Open-Vocabulary+Object+Detection%22",
+  "fetched_at": "2026-11-08T01:50:28Z",
+  "http_status": 200,
+  "content_sha256": "8a5f547137554a6902880e98871172987ad8bfd7d1988468eb71853f178c7679",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8a5f547137554a6902880e98871172987ad8bfd7d1988468eb71853f178c7679.json.gz"
+}

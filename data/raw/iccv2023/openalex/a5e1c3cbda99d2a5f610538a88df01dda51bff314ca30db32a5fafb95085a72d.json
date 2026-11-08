@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fast+Adversarial+Training+with+Smooth+Convergence%22",
+  "fetched_at": "2026-11-08T01:46:28Z",
+  "http_status": 200,
+  "content_sha256": "3d808fd64c839538e143a5a4a1c3f0c11f9f6456636326adc80f018e48566238",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3d808fd64c839538e143a5a4a1c3f0c11f9f6456636326adc80f018e48566238.json.gz"
+}

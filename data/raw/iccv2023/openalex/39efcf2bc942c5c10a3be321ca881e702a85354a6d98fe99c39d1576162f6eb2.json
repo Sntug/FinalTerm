@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HiLo%3A+Exploiting+High+Low+Frequency+Relations+for+Unbiased+Panoptic+Scene+Graph+Generation%22",
+  "fetched_at": "2026-11-08T01:51:16Z",
+  "http_status": 200,
+  "content_sha256": "fbf5bdb021b158a292371dcaf425c4b13f1a16ad3c5d512029bd93f52e60ec2d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/fbf5bdb021b158a292371dcaf425c4b13f1a16ad3c5d512029bd93f52e60ec2d.json.gz"
+}

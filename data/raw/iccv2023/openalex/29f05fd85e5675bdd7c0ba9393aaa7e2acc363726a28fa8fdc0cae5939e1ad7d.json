@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Taming+Contrast+Maximization+for+Learning+Sequential%2C+Low-latency%2C+Event-based+Optical+Flow%22",
+  "fetched_at": "2026-11-08T01:18:05Z",
+  "http_status": 200,
+  "content_sha256": "77e57bc1c19c3d4b99b11bfeb0a568961528f49d57898c40121f32d5f4f1e66c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/77e57bc1c19c3d4b99b11bfeb0a568961528f49d57898c40121f32d5f4f1e66c.json.gz"
+}

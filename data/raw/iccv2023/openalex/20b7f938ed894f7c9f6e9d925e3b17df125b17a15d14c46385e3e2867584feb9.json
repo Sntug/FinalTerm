@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rendering+Humans+from+Object-Occluded+Monocular+Videos%22",
+  "fetched_at": "2026-11-08T01:50:22Z",
+  "http_status": 200,
+  "content_sha256": "8c1456233161d525d3a52a0caad6d3bc87b092d7ad87d77bea3e2dd0bb9c1f6d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8c1456233161d525d3a52a0caad6d3bc87b092d7ad87d77bea3e2dd0bb9c1f6d.json.gz"
+}

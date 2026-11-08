@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22IntentQA%3A+Context-aware+Video+Intent+Reasoning%22",
+  "fetched_at": "2026-11-08T01:24:24Z",
+  "http_status": 200,
+  "content_sha256": "65c3fea5f309bf6d4046011ae1c5dd1ec389cd5a753710b6c71da414759047ad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/65c3fea5f309bf6d4046011ae1c5dd1ec389cd5a753710b6c71da414759047ad.json.gz"
+}

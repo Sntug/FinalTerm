@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improved+Visual+Fine-tuning+with+Natural+Language+Supervision%22",
+  "fetched_at": "2026-11-08T01:18:11Z",
+  "http_status": 200,
+  "content_sha256": "b60df0d4b14f1161c058e76d145009256abcecde23a46cc0772ad6fe159295f9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/b60df0d4b14f1161c058e76d145009256abcecde23a46cc0772ad6fe159295f9.json.gz"
+}

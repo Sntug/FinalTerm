@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+the+Benefits+of+Visual+Prompting+in+Differential+Privacy%22",
+  "fetched_at": "2026-11-08T01:49:23Z",
+  "http_status": 200,
+  "content_sha256": "7c8698f7e1603dc713b2ec1dfb05042231d1a94dec9c261ad43b3e4c3aa5b6f2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7c8698f7e1603dc713b2ec1dfb05042231d1a94dec9c261ad43b3e4c3aa5b6f2.json.gz"
+}

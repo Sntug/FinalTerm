@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Retro-FPN%3A+Retrospective+Feature+Pyramid+Network+for+Point+Cloud+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-08T01:49:55Z",
+  "http_status": 200,
+  "content_sha256": "befefe6c0f43aa5401c25c2308f8eff9bccce86693bb264195f3835f916e3553",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/befefe6c0f43aa5401c25c2308f8eff9bccce86693bb264195f3835f916e3553.json.gz"
+}

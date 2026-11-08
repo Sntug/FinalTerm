@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Delving+into+Motion-Aware+Matching+for+Monocular+3D+Object+Tracking%22",
+  "fetched_at": "2026-11-08T01:46:02Z",
+  "http_status": 200,
+  "content_sha256": "5cdecb899f4f461a0e4f5845447955dbf722b9c88a61bcc55367b6d6cbb5dd7b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/5cdecb899f4f461a0e4f5845447955dbf722b9c88a61bcc55367b6d6cbb5dd7b.json.gz"
+}

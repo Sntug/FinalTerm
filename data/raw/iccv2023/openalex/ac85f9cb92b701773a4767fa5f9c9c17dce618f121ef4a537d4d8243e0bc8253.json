@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FSAR%3A+Federated+Skeleton-based+Action+Recognition+with+Adaptive+Topology+Structure+and+Knowledge+Distillation%22",
+  "fetched_at": "2026-11-08T01:46:57Z",
+  "http_status": 200,
+  "content_sha256": "aca392fbc3ca8e3e6b0fd3c1686fbd508d7a7839fef741ed6fce87f8e6dda83b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/aca392fbc3ca8e3e6b0fd3c1686fbd508d7a7839fef741ed6fce87f8e6dda83b.json.gz"
+}

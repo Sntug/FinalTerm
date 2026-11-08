@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GridPull%3A+Towards+Scalability+in+Learning+Implicit+Representations+from+3D+Point+Clouds%22",
+  "fetched_at": "2026-11-08T01:49:51Z",
+  "http_status": 200,
+  "content_sha256": "e7ff519f81b1b19b01878f09e7ff389f6d2bdb93a294f5f24ed4a81c19d6e821",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e7ff519f81b1b19b01878f09e7ff389f6d2bdb93a294f5f24ed4a81c19d6e821.json.gz"
+}

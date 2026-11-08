@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fast+and+Accurate+Transferability+Measurement+by+Evaluating+Intra-class+Feature+Variance%22",
+  "fetched_at": "2026-11-08T01:48:42Z",
+  "http_status": 200,
+  "content_sha256": "44e97e51f355fbe3bc28f7c4e5b50a5c765c2723ccc2e6ae8a2cec0ca1161039",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/44e97e51f355fbe3bc28f7c4e5b50a5c765c2723ccc2e6ae8a2cec0ca1161039.json.gz"
+}

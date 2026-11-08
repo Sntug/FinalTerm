@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Re-mine%2C+Learn+and+Reason%3A+Exploring+the+Cross-modal+Semantic+Correlations+for+Language-guided+HOI+detection%22",
+  "fetched_at": "2026-11-08T01:25:39Z",
+  "http_status": 200,
+  "content_sha256": "90108a3c6b8ad4407c25a06040df610570608798b74b01628b99f609ab24c5ce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/90108a3c6b8ad4407c25a06040df610570608798b74b01628b99f609ab24c5ce.json.gz"
+}

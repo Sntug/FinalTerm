@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22In-Style%3A+Bridging+Text+and+Uncurated+Videos+with+Style+Transfer+for+Text-Video+Retrieval%22",
+  "fetched_at": "2026-11-08T01:25:43Z",
+  "http_status": 200,
+  "content_sha256": "dec8b2de9acabb8f0d67fd9c47668634d98032419d330cd50873379e519ef308",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/dec8b2de9acabb8f0d67fd9c47668634d98032419d330cd50873379e519ef308.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Emotional+Listener+Portrait%3A+Neural+Listener+Head+Generation+with+Emotion",
+  "fetched_at": "2026-11-08T01:51:34Z",
+  "http_status": 200,
+  "content_sha256": "620b5c3f3ab89d6c45b1731c46d3541d449a3a92dd8c5fbb3ede68f961f2c308",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/620b5c3f3ab89d6c45b1731c46d3541d449a3a92dd8c5fbb3ede68f961f2c308.json.gz"
+}

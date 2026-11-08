@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Misalign%2C+Contrast+then+Distill%3A+Rethinking+Misalignments+in+Language-Image+Pre-training%22",
+  "fetched_at": "2026-11-08T01:17:47Z",
+  "http_status": 200,
+  "content_sha256": "102f7190e95df78f7eba169e9a529c269b3cc2c934cd216e048a1dc4c065141d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/102f7190e95df78f7eba169e9a529c269b3cc2c934cd216e048a1dc4c065141d.json.gz"
+}

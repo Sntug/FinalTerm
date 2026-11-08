@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TextManiA%3A+Enriching+Visual+Feature+by+Text-driven+Manifold+Augmentation%22",
+  "fetched_at": "2026-11-08T01:26:26Z",
+  "http_status": 200,
+  "content_sha256": "aa725bc370544a7d9bdba44b6dc7fe5afe225385c15b54e2089e164c8765c5b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/aa725bc370544a7d9bdba44b6dc7fe5afe225385c15b54e2089e164c8765c5b4.json.gz"
+}

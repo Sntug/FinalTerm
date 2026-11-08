@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223DMOTFormer%3A+Graph+Transformer+for+Online+3D+Multi-Object+Tracking%22",
+  "fetched_at": "2026-11-08T01:51:50Z",
+  "http_status": 200,
+  "content_sha256": "f059dada9fe17817f61df57793e41a123e2d7b919fe2133bc5859419b60cdfe3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/f059dada9fe17817f61df57793e41a123e2d7b919fe2133bc5859419b60cdfe3.json.gz"
+}

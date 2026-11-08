@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Deeply+Unified+Depth-aware+Panoptic+Segmentation+with+Bi-directional+Guidance+Learning%22",
+  "fetched_at": "2026-11-08T01:47:46Z",
+  "http_status": 200,
+  "content_sha256": "e2ec88b98524fe4557adcb922b039dc60cdc3cc32036b91ed37a37f2b727afd3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e2ec88b98524fe4557adcb922b039dc60cdc3cc32036b91ed37a37f2b727afd3.json.gz"
+}

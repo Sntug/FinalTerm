@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SPANet%3A+Frequency-balancing+Token+Mixer+using+Spectral+Pooling+Aggregation+Modulation%22",
+  "fetched_at": "2026-11-08T01:26:00Z",
+  "http_status": 200,
+  "content_sha256": "c32cd13a802ecc6f3749b64679b41d0bb439b61ab087e16b89d1e93a73da126c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/c32cd13a802ecc6f3749b64679b41d0bb439b61ab087e16b89d1e93a73da126c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Overcoming+Forgetting+Catastrophe+in+Quantization-Aware+Training%22",
+  "fetched_at": "2026-11-08T01:50:09Z",
+  "http_status": 200,
+  "content_sha256": "ebcc87ebf38579da10fb75d4c25adbc513f954960ec44aa1d3a77b488b75b2ab",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ebcc87ebf38579da10fb75d4c25adbc513f954960ec44aa1d3a77b488b75b2ab.json.gz"
+}

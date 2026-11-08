@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Unifying+Medical+Vision-and-Language+Pre-Training+via+Soft+Prompts%22",
+  "fetched_at": "2026-11-08T01:44:17Z",
+  "http_status": 200,
+  "content_sha256": "da8ab21bc6ff4857101ca4ef869c6b1b9ce6d96dc367c35eadae12c74e5b7695",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/da8ab21bc6ff4857101ca4ef869c6b1b9ce6d96dc367c35eadae12c74e5b7695.json.gz"
+}

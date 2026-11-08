@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22When+Prompt-based+Incremental+Learning+Does+Not+Meet+Strong+Pretraining%22",
+  "fetched_at": "2026-11-08T02:04:39Z",
+  "http_status": 200,
+  "content_sha256": "0eb9324169ec6868d0df3298c288ddebc0da2d5ad6b9a4990d4b32872523f897",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/0eb9324169ec6868d0df3298c288ddebc0da2d5ad6b9a4990d4b32872523f897.json.gz"
+}

@@ -41,3 +41,21 @@ __pycache__/
 /outputs/a2_cvpr2024/a2_350/verify.log
 /outputs/a2_cvpr2024/a2_350/summary.json
 /outputs/a2_cvpr2024/a2_350/offline_summary.json
+
+# B2: nguồn bất biến + metadata cache ICCV cần cho verifier/A3 offline (cùng quy tắc A2).
+!/data/raw/iccv2023/http/[0-9a-f]*.html.gz
+!/data/raw/iccv2023/http/[0-9a-f]*.json
+!/data/raw/iccv2023/openalex/[0-9a-f]*.json.gz
+!/data/raw/iccv2023/openalex/[0-9a-f]*.json
+# B2: catalog CVF và 30 bài pilot để chạy lại src/collect_b/select_iccv.py.
+!/data/raw/iccv2023/catalog/*
+!/data/raw/iccv2023/pilot_papers.json
+!/data/raw/iccv2023/source_manifest.json
+
+# Trạng thái vận hành B2: giữ local.
+/data/raw/iccv2023/collector_checkpoint.json
+/data/raw/iccv2023/_old_gates/
+/data/raw/iccv2023/http/cvf_rate_limit.json
+/data/raw/iccv2023/openalex/rate_limit.json
+
+.neo4j-pilot/

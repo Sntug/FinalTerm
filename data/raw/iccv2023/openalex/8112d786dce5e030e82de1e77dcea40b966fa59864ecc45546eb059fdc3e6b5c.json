@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Rapid+Network+Adaptation%3A+Learning+to+Adapt+Neural+Networks+Using+Test-Time+Feedback",
+  "fetched_at": "2026-11-08T01:45:48Z",
+  "http_status": 200,
+  "content_sha256": "7ae0f4582eb92d62cb16a50712e61368fd3a84ab6c0b93b99be8e165d89acde7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/7ae0f4582eb92d62cb16a50712e61368fd3a84ab6c0b93b99be8e165d89acde7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Fair+and+Comprehensive+Comparisons+for+Image-Based+3D+Object+Detection%22",
+  "fetched_at": "2026-11-08T02:04:56Z",
+  "http_status": 200,
+  "content_sha256": "9b3f249ddf6139ed11d39782a5c58e6ef46919025abfe0837bc5147510532e41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9b3f249ddf6139ed11d39782a5c58e6ef46919025abfe0837bc5147510532e41.json.gz"
+}

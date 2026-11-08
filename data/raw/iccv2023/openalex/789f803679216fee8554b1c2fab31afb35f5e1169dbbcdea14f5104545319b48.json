@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Alleviating+Catastrophic+Forgetting+of+Incremental+Object+Detection+via+Within-Class+and+Between-Class+Knowledge+Distillation%22",
+  "fetched_at": "2026-11-08T01:47:56Z",
+  "http_status": 200,
+  "content_sha256": "8c2a04713aa353a2da5517e39c6763a63aa9f3e767f2efde2917c5d3b2b4d8fc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/8c2a04713aa353a2da5517e39c6763a63aa9f3e767f2efde2917c5d3b2b4d8fc.json.gz"
+}

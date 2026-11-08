@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22JOTR%3A+3D+Joint+Contrastive+Learning+with+Transformers+for+Occluded+Human+Mesh+Recovery%22",
+  "fetched_at": "2026-11-08T01:49:05Z",
+  "http_status": 200,
+  "content_sha256": "3d8ec360fb74e626636b30d64c40e3bc313cc6ba667755b25e676f312f06ac14",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/3d8ec360fb74e626636b30d64c40e3bc313cc6ba667755b25e676f312f06ac14.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Studying+How+to+Efficiently+and+Effectively+Guide+Models+with+Explanations%22",
+  "fetched_at": "2026-11-08T01:45:58Z",
+  "http_status": 200,
+  "content_sha256": "ed402d328d894c82fffdb7b7afc0d80de9e22245040988369917213eaf461531",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/ed402d328d894c82fffdb7b7afc0d80de9e22245040988369917213eaf461531.json.gz"
+}

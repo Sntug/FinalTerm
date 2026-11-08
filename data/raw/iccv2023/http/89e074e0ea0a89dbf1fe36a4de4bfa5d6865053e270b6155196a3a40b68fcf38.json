@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Yu_LaPE_Layer-adaptive_Position_Embedding_for_Vision_Transformers_with_Independent_Layer_ICCV_2023_paper.html",
+  "fetched_at": "2026-11-08T01:20:05Z",
+  "http_status": 200,
+  "content_sha256": "fbb3f2711624c52ae3e41304bc7987ea3ad52021a688c320ba8c35d27d4f6ebc",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a66-606872aca3b55\"",
+  "last_modified": "Fri, 29 Sep 2023 22:44:28 GMT",
+  "raw_path": "data/raw/iccv2023/http/fbb3f2711624c52ae3e41304bc7987ea3ad52021a688c320ba8c35d27d4f6ebc.html.gz"
+}

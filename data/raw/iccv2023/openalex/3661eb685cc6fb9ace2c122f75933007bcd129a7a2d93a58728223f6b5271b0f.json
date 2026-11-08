@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Ego-Humans%3A+An+Ego-Centric+3D+Multi-Human+Benchmark%22",
+  "fetched_at": "2026-11-08T01:44:36Z",
+  "http_status": 200,
+  "content_sha256": "cc9f3420b988e3e8d55cdd4962028462cb312752657e4bb34b923f88b0aceff4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/cc9f3420b988e3e8d55cdd4962028462cb312752657e4bb34b923f88b0aceff4.json.gz"
+}

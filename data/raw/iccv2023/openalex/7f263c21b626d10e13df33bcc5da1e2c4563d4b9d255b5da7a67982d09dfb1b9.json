@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Invariant+Feature+Regularization+for+Fair+Face+Recognition%22",
+  "fetched_at": "2026-11-08T01:18:01Z",
+  "http_status": 200,
+  "content_sha256": "517d8fd51484e93dddded43c67cb3e0fdbd393e1604fa96dc5fd22bdf482b6ef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/517d8fd51484e93dddded43c67cb3e0fdbd393e1604fa96dc5fd22bdf482b6ef.json.gz"
+}

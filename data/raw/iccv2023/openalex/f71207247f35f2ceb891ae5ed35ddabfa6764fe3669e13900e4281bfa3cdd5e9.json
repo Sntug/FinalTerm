@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generating+Realistic+Images+from+In-the-wild+Sounds%22",
+  "fetched_at": "2026-11-08T01:17:49Z",
+  "http_status": 200,
+  "content_sha256": "e82e28892340e4b316a87373ba98671a3c11fc25f0e422e88e4d397a3be15b50",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/e82e28892340e4b316a87373ba98671a3c11fc25f0e422e88e4d397a3be15b50.json.gz"
+}

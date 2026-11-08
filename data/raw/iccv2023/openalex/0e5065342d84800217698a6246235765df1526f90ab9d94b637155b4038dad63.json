@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MV-Map%3A+Offboard+HD-Map+Generation+with+Multi-view+Consistency%22",
+  "fetched_at": "2026-11-08T01:24:26Z",
+  "http_status": 200,
+  "content_sha256": "6ba79eccc320007d2745e8982decd9ee13eca6a283b7e7bb26f5095b170951fc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6ba79eccc320007d2745e8982decd9ee13eca6a283b7e7bb26f5095b170951fc.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VeRi3D%3A+Generative+Vertex-based+Radiance+Fields+for+3D+Controllable+Human+Image+Synthesis%22",
+  "fetched_at": "2026-11-08T01:44:27Z",
+  "http_status": 200,
+  "content_sha256": "a00bd1d094f6379f0220c269a77a035d66f116256984c1df5673fa39e35ee72c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a00bd1d094f6379f0220c269a77a035d66f116256984c1df5673fa39e35ee72c.json.gz"
+}

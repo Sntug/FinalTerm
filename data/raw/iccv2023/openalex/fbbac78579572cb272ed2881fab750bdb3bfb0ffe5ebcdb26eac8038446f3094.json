@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SurfsUP%3A+Learning+Fluid+Simulation+for+Novel+Surfaces%22",
+  "fetched_at": "2026-11-08T02:04:38Z",
+  "http_status": 200,
+  "content_sha256": "6d66526e952115b0a889d20c1447850dcfd68a45551de8e8aa54d967c3ba1492",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/6d66526e952115b0a889d20c1447850dcfd68a45551de8e8aa54d967c3ba1492.json.gz"
+}

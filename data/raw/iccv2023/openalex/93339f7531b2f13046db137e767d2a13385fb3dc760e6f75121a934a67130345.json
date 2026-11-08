@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SparseDet%3A+Improving+Sparsely+Annotated+Object+Detection+with+Pseudo-positive+Mining%22",
+  "fetched_at": "2026-11-08T01:43:38Z",
+  "http_status": 200,
+  "content_sha256": "2eafb44e11335d101357730dbd6a79146af9b01df10d061006d8183b7e8ee5a7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/2eafb44e11335d101357730dbd6a79146af9b01df10d061006d8183b7e8ee5a7.json.gz"
+}

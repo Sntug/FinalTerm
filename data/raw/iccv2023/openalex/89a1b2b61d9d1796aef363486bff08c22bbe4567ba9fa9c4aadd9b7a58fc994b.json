@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SEFD%3A+Learning+to+Distill+Complex+Pose+and+Occlusion%22",
+  "fetched_at": "2026-11-08T02:04:42Z",
+  "http_status": 200,
+  "content_sha256": "75f6e76817c615c46db9d81320d3a50fce4658c731765eda598747df183ba8c9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/75f6e76817c615c46db9d81320d3a50fce4658c731765eda598747df183ba8c9.json.gz"
+}

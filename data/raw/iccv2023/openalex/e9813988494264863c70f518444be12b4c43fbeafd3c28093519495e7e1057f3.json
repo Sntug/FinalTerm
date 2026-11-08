@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Robust+e-NeRF%3A+NeRF+from+Sparse+%26+Noisy+Events+under+Non-Uniform+Motion%22",
+  "fetched_at": "2026-11-08T01:51:52Z",
+  "http_status": 200,
+  "content_sha256": "9d9a4fbf2134f39fd7fd89c39e4748f03c15e2b535b234b990aaf0c566527083",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9d9a4fbf2134f39fd7fd89c39e4748f03c15e2b535b234b990aaf0c566527083.json.gz"
+}

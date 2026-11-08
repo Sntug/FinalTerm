@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Semantics+Meets+Temporal+Correspondence%3A+Self-supervised+Object-centric+Learning+in+Videos%22",
+  "fetched_at": "2026-11-08T01:26:22Z",
+  "http_status": 200,
+  "content_sha256": "f99bc13e514c7cc81e8af4f79ae63733dfff666989cbba9066c701e35e13a05a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/f99bc13e514c7cc81e8af4f79ae63733dfff666989cbba9066c701e35e13a05a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Zero-Shot+Contrastive+Loss+for+Text-Guided+Diffusion+Image+Style+Transfer%22",
+  "fetched_at": "2026-11-08T01:50:48Z",
+  "http_status": 200,
+  "content_sha256": "919f2537158c1975d5f85bb808a207549751a6c8f38c4c37ee68c71ef9790f40",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/919f2537158c1975d5f85bb808a207549751a6c8f38c4c37ee68c71ef9790f40.json.gz"
+}

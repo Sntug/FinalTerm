@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MonoNeRF%3A+Learning+a+Generalizable+Dynamic+Radiance+Field+from+Monocular+Videos%22",
+  "fetched_at": "2026-11-08T01:45:04Z",
+  "http_status": 200,
+  "content_sha256": "a4f2c900bcdba9a96a5d4d9f16891738f75521335f766fed3db8122890204279",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/a4f2c900bcdba9a96a5d4d9f16891738f75521335f766fed3db8122890204279.json.gz"
+}

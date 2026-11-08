@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Manipulate+by+Seeing%3A+Creating+Manipulation+Controllers+from+Pre-Trained+Representations%22",
+  "fetched_at": "2026-11-08T01:45:49Z",
+  "http_status": 200,
+  "content_sha256": "975e923d9569fb39acbe97e424f072dc3dece4aa8a59556b1e36e4b01249eb52",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/975e923d9569fb39acbe97e424f072dc3dece4aa8a59556b1e36e4b01249eb52.json.gz"
+}
