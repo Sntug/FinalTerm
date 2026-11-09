@@ -2,6 +2,7 @@
 .env.*
 !.env.example
 .venv/
+/.venv-a4/
 __pycache__/
 .pytest_cache/
 .DS_Store

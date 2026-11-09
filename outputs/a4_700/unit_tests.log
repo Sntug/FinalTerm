@@ -1,0 +1,150 @@
+test_default_root_is_independent_of_cwd (test_a2_auth.AuthTests.test_default_root_is_independent_of_cwd) ... ok
+test_env_precedence_and_blank_fallback_without_mutation (test_a2_auth.AuthTests.test_env_precedence_and_blank_fallback_without_mutation) ... ok
+test_error_categories_never_expose_exception_or_key (test_a2_auth.AuthTests.test_error_categories_never_expose_exception_or_key) ... ok
+test_missing_key_does_not_call_network (test_a2_auth.AuthTests.test_missing_key_does_not_call_network) ... ok
+test_success_exactly_one_request_no_response_read (test_a2_auth.AuthTests.test_success_exactly_one_request_no_response_read) ... ok
+test_cvf_quota_persists_progress_and_honors_gate (test_a2_collector.CollectorTests.test_cvf_quota_persists_progress_and_honors_gate) ... ok
+test_duplicate_registry_and_wrong_edition_rejected (test_a2_collector.CollectorTests.test_duplicate_registry_and_wrong_edition_rejected) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_iccv_config_runs_in_temporary_workspace (test_a2_collector.CollectorTests.test_iccv_config_runs_in_temporary_workspace) ... ok
+test_json_cache_hash_offline_and_authorization_header (test_a2_collector.CollectorTests.test_json_cache_hash_offline_and_authorization_header) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_manifest_cannot_escape_repo_even_with_recomputed_digest (test_a2_collector.CollectorTests.test_manifest_cannot_escape_repo_even_with_recomputed_digest) ... ok
+test_matching_requires_byline_and_venue_or_link (test_a2_collector.CollectorTests.test_matching_requires_byline_and_venue_or_link) ... ok
+test_openalex_short_retry_after_is_waited (test_a2_collector.CollectorTests.test_openalex_short_retry_after_is_waited) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 1
+CVF valid 1/1; OpenAlex completed 1/1
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 1/1
+test_resume_after_detail_failure_and_offline_repeat (test_a2_collector.CollectorTests.test_resume_after_detail_failure_and_offline_repeat) ... ok
+test_retry_after_quota_gate_and_key_not_persisted (test_a2_collector.CollectorTests.test_retry_after_quota_gate_and_key_not_persisted) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_verifier_rejects_dangling_paper_source_after_rehash (test_a2_collector.CollectorTests.test_verifier_rejects_dangling_paper_source_after_rehash) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_verifier_rejects_raw_corruption (test_a2_collector.CollectorTests.test_verifier_rejects_raw_corruption) ... ok
+test_canonical_schemas_are_byte_identical_to_handoff (test_a2_contract.ContractTests.test_canonical_schemas_are_byte_identical_to_handoff) ... ok
+test_half_open_binding_accepts_exact_slice_rejects_stale_fields (test_a2_contract.ContractTests.test_half_open_binding_accepts_exact_slice_rejects_stale_fields) ... ok
+test_missing_keys_wrong_type_and_minimum_are_rejected (test_a2_contract.ContractTests.test_missing_keys_wrong_type_and_minimum_are_rejected) ... ok
+test_parser_and_text_version_change_evidence_identity (test_a2_contract.ContractTests.test_parser_and_text_version_change_evidence_identity) ... ok
+test_registry_labels_relations_and_separate_provenance (test_a2_contract.ContractTests.test_registry_labels_relations_and_separate_provenance) ... ok
+test_unicode_normalization_and_whole_field_hash (test_a2_contract.ContractTests.test_unicode_normalization_and_whole_field_hash) ... ok
+test_403_and_429_stop_without_retry (test_a2_cvf.CacheTests.test_403_and_429_stop_without_retry) ... ok
+test_cache_path_cannot_escape_A_corpus (test_a2_cvf.CacheTests.test_cache_path_cannot_escape_A_corpus) ... ok
+test_cached_second_run_resumes_without_network (test_a2_cvf.CacheTests.test_cached_second_run_resumes_without_network) ... ok
+test_corrupt_cache_and_missing_body_do_not_refetch (test_a2_cvf.CacheTests.test_corrupt_cache_and_missing_body_do_not_refetch) ... ok
+test_offline_cache_miss_never_requests_network (test_a2_cvf.CacheTests.test_offline_cache_miss_never_requests_network) ... ok
+test_retry_exhaustion_leaves_no_success_cache (test_a2_cvf.CacheTests.test_retry_exhaustion_leaves_no_success_cache) ... ok
+test_transient_errors_retry_with_backoff (test_a2_cvf.CacheTests.test_transient_errors_retry_with_backoff) ... ok
+test_author_order_entities_and_unknowns_survive (test_a2_cvf.ParserTests.test_author_order_entities_and_unknowns_survive) ... ok
+test_authorship_identity_does_not_merge_people_by_name (test_a2_cvf.ParserTests.test_authorship_identity_does_not_merge_people_by_name) ... ok
+test_date_precision_never_invents_day_one (test_a2_cvf.ParserTests.test_date_precision_never_invents_day_one) ... ok
+test_listing_deduplicates_and_excludes_workshop (test_a2_cvf.ParserTests.test_listing_deduplicates_and_excludes_workshop) ... ok
+test_seed_selection_ignores_order_and_duplicates (test_a2_cvf.ParserTests.test_seed_selection_ignores_order_and_duplicates) ... ok
+test_shared_ids_preserve_B_and_ignore_fragments (test_a2_cvf.ParserTests.test_shared_ids_preserve_B_and_ignore_fragments) ... ok
+test_workshop_foreign_host_and_query_are_rejected (test_a2_cvf.ParserTests.test_workshop_foreign_host_and_query_are_rejected) ... ok
+test_wrong_year_and_title_conflict_fail (test_a2_cvf.ParserTests.test_wrong_year_and_title_conflict_fail) ... ok
+test_config_rejects_wrong_corpus_paths_and_invalid_count (test_a2_replay.ReplayTests.test_config_rejects_wrong_corpus_paths_and_invalid_count) ... ok
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+CVF valid 30/30; OpenAlex completed 0/30
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+test_different_existing_output_is_preserved_and_rejected (test_a2_replay.ReplayTests.test_different_existing_output_is_preserved_and_rejected) ... ok
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+CVF valid 30/30; OpenAlex completed 0/30
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+CVF valid 30/30; OpenAlex completed 0/30
+test_incomplete_output_can_resume_from_existing_cache (test_a2_replay.ReplayTests.test_incomplete_output_can_resume_from_existing_cache) ... ok
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+CVF valid 30/30; OpenAlex completed 0/30
+CVF valid 25/30; requests 0
+CVF valid 30/30; requests 0
+CVF valid 30/30; OpenAlex completed 0/30
+test_offline_replay_is_identical_and_matches_delivered_A_metadata (test_a2_replay.ReplayTests.test_offline_replay_is_identical_and_matches_delivered_A_metadata) ... ok
+test_production_modules_never_import_handoff (test_a2_replay.ReplayTests.test_production_modules_never_import_handoff) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_checkpoint_is_scoped_and_resume_reuses_cache (test_a2_selection.SelectionTests.test_checkpoint_is_scoped_and_resume_reuses_cache) ... ok
+test_checkpoint_retries_transient_windows_file_lock (test_a2_selection.SelectionTests.test_checkpoint_retries_transient_windows_file_lock) ... ok
+test_lock_preserves_pilot_and_deterministic_remaining_without_network (test_a2_selection.SelectionTests.test_lock_preserves_pilot_and_deterministic_remaining_without_network) ... ok
+test_lock_tampering_is_rejected_before_collection (test_a2_selection.SelectionTests.test_lock_tampering_is_rejected_before_collection) ... ok
+test_metadata_and_identifiers (test_a3_clean.NormalizeTests.test_metadata_and_identifiers) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_iccv_B_uses_same_pipeline (test_a3_clean.PipelineTests.test_iccv_B_uses_same_pipeline) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_interrupted_publish_recovers_original_timestamp (test_a3_clean.PipelineTests.test_interrupted_publish_recovers_original_timestamp) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_offline_replay_is_byte_identical_and_input_is_unchanged (test_a3_clean.PipelineTests.test_offline_replay_is_byte_identical_and_input_is_unchanged) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_tampered_output_is_preserved_and_verifier_rejects (test_a3_clean.PipelineTests.test_tampered_output_is_preserved_and_verifier_rejects) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_target_discrepancy_is_reported_without_padding (test_a3_clean.PipelineTests.test_target_discrepancy_is_reported_without_padding) ... ok
+CVF valid 1/1; requests 0
+OpenAlex completed 1/1; requests 2
+CVF valid 1/1; OpenAlex completed 1/1
+test_wrong_owner_or_input_output_overlap_is_rejected (test_a3_clean.PipelineTests.test_wrong_owner_or_input_output_overlap_is_rejected) ... ok
+test_byline_reordering_blocks_all_positional_links (test_a3_clean.ResolutionTests.test_byline_reordering_blocks_all_positional_links) ... ok
+test_decision_before_after_restores_authorship_and_checks_tampering (test_a3_clean.ResolutionTests.test_decision_before_after_restores_authorship_and_checks_tampering) ... ok
+test_exact_ids_and_multiple_affiliations_preserve_order_and_raw (test_a3_clean.ResolutionTests.test_exact_ids_and_multiple_affiliations_preserve_order_and_raw) ... ok
+test_homonyms_with_distinct_ids_are_not_merged (test_a3_clean.ResolutionTests.test_homonyms_with_distinct_ids_are_not_merged) ... ok
+test_html_cleaning_mints_text_version_and_preserves_original (test_a3_clean.ResolutionTests.test_html_cleaning_mints_text_version_and_preserves_original) ... ok
+test_missing_abstract_is_valid_core_metadata (test_a3_clean.ResolutionTests.test_missing_abstract_is_valid_core_metadata) ... ok
+test_missing_affiliation_does_not_invalidate_paper_or_author (test_a3_clean.ResolutionTests.test_missing_affiliation_does_not_invalidate_paper_or_author) ... ok
+test_orcid_collision_does_not_merge_distinct_openalex_ids (test_a3_clean.ResolutionTests.test_orcid_collision_does_not_merge_distinct_openalex_ids) ... ok
+test_profile_name_mismatch_is_not_treated_as_verified_alias (test_a3_clean.ResolutionTests.test_profile_name_mismatch_is_not_treated_as_verified_alias) ... ok
+test_raw_orcid_conflict_blocks_identity (test_a3_clean.ResolutionTests.test_raw_orcid_conflict_blocks_identity) ... ok
+test_raw_orcid_only_fallback_and_collision (test_a3_clean.ResolutionTests.test_raw_orcid_only_fallback_and_collision) ... ok
+test_repeated_author_id_in_one_work_is_quarantined (test_a3_clean.ResolutionTests.test_repeated_author_id_in_one_work_is_quarantined) ... ok
+test_ror_collision_and_parent_names_are_not_merged (test_a3_clean.ResolutionTests.test_ror_collision_and_parent_names_are_not_merged) ... ok
+test_ror_fallback_cannot_bypass_conflicting_openalex_institution (test_a3_clean.ResolutionTests.test_ror_fallback_cannot_bypass_conflicting_openalex_institution) ... ok
+test_same_author_on_two_papers_reuses_id_without_merging_names (test_a3_clean.ResolutionTests.test_same_author_on_two_papers_reuses_id_without_merging_names) ... ok
+test_title_candidates_and_identifier_collisions_require_manual_review (test_a3_clean.ResolutionTests.test_title_candidates_and_identifier_collisions_require_manual_review) ... ok
+test_unmapped_raw_affiliation_is_retained_alongside_verified_one (test_a3_clean.ResolutionTests.test_unmapped_raw_affiliation_is_retained_alongside_verified_one) ... ok
+test_unmatched_work_does_not_resolve_author (test_a3_clean.ResolutionTests.test_unmatched_work_does_not_resolve_author) ... ok
+test_aliases_one_edge_multiple_evidence_and_stable_ids (test_a4_nlp.EvidenceTest.test_aliases_one_edge_multiple_evidence_and_stable_ids) ... ok
+test_bad_endpoints_duplicates_cross_paper_and_source_url_rejected (test_a4_nlp.EvidenceTest.test_bad_endpoints_duplicates_cross_paper_and_source_url_rejected) ... ok
+test_bad_offsets_rejected (test_a4_nlp.EvidenceTest.test_bad_offsets_rejected) ... ok
+test_iccv_and_cvpr_share_rules_and_dictionary (test_a4_nlp.EvidenceTest.test_iccv_and_cvpr_share_rules_and_dictionary) ... ok
+test_required_fields_rejected_by_contract_schema (test_a4_nlp.EvidenceTest.test_required_fields_rejected_by_contract_schema) ... ok
+test_unicode_slice_and_canonical_validator (test_a4_nlp.EvidenceTest.test_unicode_slice_and_canonical_validator) ... ok
+test_wrong_or_missing_text_and_disputed_provenance_are_reviewed (test_a4_nlp.EvidenceTest.test_wrong_or_missing_text_and_disputed_provenance_are_reviewed) ... ok
+test_wrong_text_version_paper_source_hash_rejected (test_a4_nlp.EvidenceTest.test_wrong_text_version_paper_source_hash_rejected) ... ok
+test_bad_source_bytes_fail_without_output (test_a4_nlp.IntegrationTest.test_bad_source_bytes_fail_without_output) ... ok
+test_cross_corpus_alias_conflicts_are_reviewed_without_identity_merge (test_a4_nlp.IntegrationTest.test_cross_corpus_alias_conflicts_are_reviewed_without_identity_merge) ... ok
+test_export_contract_loader_reader_and_repeat_preserve_b3_b4 (test_a4_nlp.IntegrationTest.test_export_contract_loader_reader_and_repeat_preserve_b3_b4) ... ok
+test_manifest_and_table_tampering_rejected (test_a4_nlp.IntegrationTest.test_manifest_and_table_tampering_rejected) ... ok
+test_missing_evidence_refuses_graph_publication (test_a4_nlp.IntegrationTest.test_missing_evidence_refuses_graph_publication) ... ok
+test_refuses_overwrite_and_stale_source_snapshot (test_a4_nlp.IntegrationTest.test_refuses_overwrite_and_stale_source_snapshot) ... ok
+test_auto_without_model_uses_offline_fallback (test_a4_nlp.RulesTest.test_auto_without_model_uses_offline_fallback) ... ok
+test_development_cases (test_a4_nlp.RulesTest.test_development_cases) ... ok
+test_evaluation_texts_separate (test_a4_nlp.RulesTest.test_evaluation_texts_separate) ... ok
+test_held_out_cases (test_a4_nlp.RulesTest.test_held_out_cases) ... ok
+test_no_global_names_acronyms_or_partial_tokens (test_a4_nlp.RulesTest.test_no_global_names_acronyms_or_partial_tokens) ... ok
+
+----------------------------------------------------------------------
+Ran 90 tests in 17.351s
+
+OK

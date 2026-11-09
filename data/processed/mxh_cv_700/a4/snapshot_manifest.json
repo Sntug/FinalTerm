@@ -1,0 +1,61 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a4-nlp-1.0.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "a3-metadata-1.0.0",
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0",
+    "spacy-3.8.18:blank-0.0.0:sentencizer-1"
+  ],
+  "rule_versions": {
+    "a4-task-title": "1.0.0",
+    "a4-task-current": "1.0.0",
+    "a4-dataset-evaluate": "1.0.0",
+    "a4-dataset-experiments": "1.0.0",
+    "a4-review": "1.0.0"
+  },
+  "dictionary_versions": {
+    "a4-cv": "a4-cv-1.0.0:f9a6fe7055cb60f05dc6273cf8c6e9b09f1c92f8b3ba1271b5a43e557c83a6d1"
+  },
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/mxh_cv_700/a4/nodes.csv",
+      "sha256": "3f009b364a590acb6993973de67df9bb3ade3cd13f473e05477a3f107afe66b5",
+      "record_count": 28,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a4/edges.csv",
+      "sha256": "d3d678107197e9ba1243dc2b5dbbe1ce756be3f99e668d08830afb427e00d39b",
+      "record_count": 125,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a4/evidence.jsonl",
+      "sha256": "65ac134e8595d0b5e16653085c970fc3f1085fdcfa3017bc2b0946a71bae8e56",
+      "record_count": 498,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a4/needs_review.csv",
+      "sha256": "76b051adb5a87988f2c94fcc74f8ab6603f4effbca72cab431e7a7aee8cd828c",
+      "record_count": 431,
+      "role": "review"
+    }
+  ],
+  "source_snapshot_id": "snapshot:v2:b102a5fd640c43892a20d714f068002943a2d9eaca5a4644c6bea1fba385b29c",
+  "created_at": "2026-11-08T18:54:23Z",
+  "snapshot_id": "snapshot:v2:4a1befe51a7f01463d653bb2fa082a7b4c691d0edfb1e20229324def4720480a",
+  "input_manifests": [
+    "data/processed/cvpr2024/a3_350/snapshot_manifest.json",
+    "data/processed/iccv2023/a3_350/snapshot_manifest.json"
+  ],
+  "config_path": "config/a4_nlp_700.json",
+  "model": "blank"
+}

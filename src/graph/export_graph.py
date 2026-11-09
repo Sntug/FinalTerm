@@ -1,6 +1,7 @@
 """Combine A (CVPR 2024) + B (ICCV 2023) A3 outputs into one accepted-only graph snapshot (contract v2)."""
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from collections import Counter, defaultdict
@@ -190,13 +191,27 @@ def build(cfg, root=ROOT):
 def export(cfg=None, root=ROOT, out_dir=None):
     cfg = cfg or json.loads(CONFIG.read_text(encoding="utf-8"))
     nodes, edges, manifests, inputs, report = build(cfg, root)
+    tables = {"nodes.csv": nodes, "edges.csv": edges}
+    if cfg.get("nlp_manifest"):
+        from src.nlp.adapter import augment
+        tables, nlp_manifest = augment(cfg, root, nodes, edges, report)
+        nodes, edges = tables["nodes.csv"], tables["edges.csv"]
+        manifests.append(nlp_manifest)
+        inputs.append({"name": "A4", "nlp_snapshot_id": nlp_manifest["snapshot_id"]})
     out = Path(out_dir) if out_dir else root / cfg["output_dir"]
-    out.mkdir(parents=True, exist_ok=True)
-    write_records(out / "nodes.csv", nodes)
-    write_records(out / "edges.csv", edges)
-    rel = Path(cfg["output_dir"])
-    files = [dict(path=str(rel / f), sha256=sha256((out / f).read_bytes()), record_count=len(r), role="graph")
-             for f, r in (("nodes.csv", nodes), ("edges.csv", edges))]
+    from src.collect.common import record_bytes, publish, json_bytes
+    from src.collect.contract import contract, validate_records
+    spec = contract()
+    contents = {}
+    for name, rows in tables.items():
+        validate_records(name, rows)
+        contents[name] = record_bytes(name, spec["files"][name]["fields"], rows)
+    rel = out.resolve().relative_to(root.resolve()) if cfg.get("nlp_manifest") else Path(cfg["output_dir"])
+    files = [dict(path=(rel / f).as_posix() if cfg.get("nlp_manifest") else str(rel / f), sha256=sha256(contents[f]), record_count=len(r), role=spec["files"][f]["stage"])
+             for f, r in sorted(tables.items())]
+    # Preserve the legacy file order and snapshot digest when NLP is not enabled.
+    if not cfg.get("nlp_manifest"):
+        files.sort(key=lambda f: 0 if Path(f["path"]).name == "nodes.csv" else 1)
     merge = lambda key: sorted({x for m in manifests for x in m[key]})
     manifest = dict(
         project_id=cfg["project_id"], schema_version="2.0.0", code_version=cfg["code_version"], normalization_version="nfc-ws-1",
@@ -204,6 +219,8 @@ def export(cfg=None, root=ROOT, out_dir=None):
         rule_versions={**{k: v for m in manifests for k, v in m["rule_versions"].items()}, "b3-graph-export": "1.0.1", "b4-collab-edges": "1.0.0"},
         dictionary_versions={k: v for m in manifests for k, v in m["dictionary_versions"].items()},
         applied_decision_ids=merge("applied_decision_ids"), graph_ready=True, node_count=len(nodes), edge_count=len(edges), files=files)
+    if cfg.get("nlp_manifest"):
+        manifest["applied_decision_ids"] = sorted(set(manifest["applied_decision_ids"]) - set(report["unapplied_alias_decision_ids"]))
     manifest["snapshot_id"] = "snapshot:v2:" + sha256(canonical_json({k: manifest[k] for k in PUBLISH}).encode())
     # deterministic: latest input timestamp instead of wall clock
     manifest["created_at"] = max(m["created_at"] for m in manifests)
@@ -211,12 +228,25 @@ def export(cfg=None, root=ROOT, out_dir=None):
     manifest["input_snapshots"] = inputs
     manifest["counts_by_label"] = dict(sorted(Counter(n["label"] for n in nodes).items()))
     manifest["counts_by_type"] = dict(sorted(Counter(e["type"] for e in edges).items()))
-    (out / "snapshot_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    if cfg.get("nlp_manifest"):
+        from src.nlp.validation import verify_graph_contract
+        # No files are published and no ready flag is exposed unless the complete
+        # snapshot passes the original v2 verifier (including raw, evidence and endpoints).
+        report["contract_validation"] = verify_graph_contract(root, manifest, contents)
+        publish({**{out / name: body for name, body in contents.items()}, out / "snapshot_manifest.json": json_bytes(manifest)})
+    else:
+        out.mkdir(parents=True, exist_ok=True)
+        for name, body in contents.items():
+            (out / name).write_bytes(body)
+        (out / "snapshot_manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return manifest, report
 
 
 if __name__ == "__main__":
-    m, r = export()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--config", type=Path, default=CONFIG)
+    args = parser.parse_args()
+    m, r = export(json.loads(args.config.read_text(encoding="utf-8")))
     print(json.dumps({k: m[k] for k in ("snapshot_id", "node_count", "edge_count", "counts_by_label", "counts_by_type")}, indent=1))
     print("paper registry status:", r["paper_status"])
     print("property conflicts:", r["name_prop_conflicts"])
