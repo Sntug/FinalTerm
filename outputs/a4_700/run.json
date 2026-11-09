@@ -1,0 +1,35 @@
+{
+  "papers_input": 700,
+  "papers_processed": 700,
+  "fields_processed": 1400,
+  "candidate_mentions": 592,
+  "nodes": 28,
+  "edges": 125,
+  "evidence": 498,
+  "accepted_evidence": 135,
+  "rejected": 194,
+  "review_open": 237,
+  "counts_by_label": {
+    "Task": 14,
+    "Dataset": 14
+  },
+  "counts_by_type": {
+    "STUDIES_TASK": 97,
+    "EVALUATED_ON": 28
+  },
+  "review_by_reason": {
+    "no_current_task_claim": 173,
+    "no_current_evaluation_claim": 30,
+    "unmapped_dataset_version_or_subset": 32,
+    "hypothetical_or_question": 10,
+    "negated_or_mixed_claim": 42,
+    "application_example": 20,
+    "training_or_mixed_roles": 51,
+    "prior_work_or_baseline": 71,
+    "mixed_clause_roles": 2
+  },
+  "snapshot_id": "snapshot:v2:4a1befe51a7f01463d653bb2fa082a7b4c691d0edfb1e20229324def4720480a",
+  "graph_ready": false,
+  "model": "spacy-3.8.18:blank-0.0.0:sentencizer-1",
+  "network_requests": 0
+}

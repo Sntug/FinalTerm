@@ -1,0 +1,2 @@
+# Python 3.12; CPU only. en_core_web_sm is optional; no runtime downloads.
+spacy==3.8.18

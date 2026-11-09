@@ -1,0 +1,12 @@
+{
+  "branch": "feature/a4-nlp-task-dataset",
+  "base_commit": "ba1ad72b6f028a3804886a1176aafc996644c362",
+  "main_includes_a3_b3_b4": true,
+  "git_conflicts": false,
+  "source_and_contract_git_diff_empty": true,
+  "iccv_original_blob_bytes_restored": true,
+  "user_staged_gitignore_preserved": true,
+  "committed": false,
+  "pushed": false,
+  "neo4j_modified": false
+}

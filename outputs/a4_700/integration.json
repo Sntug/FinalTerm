@@ -1,0 +1,84 @@
+{
+  "passed": true,
+  "idempotent_all_files": true,
+  "files_compared": 19,
+  "base_nodes_preserved": 4126,
+  "base_edges_preserved": 16659,
+  "graph_nodes": 4154,
+  "graph_edges": 16784,
+  "counts_by_label": {
+    "Author": 2950,
+    "Country": 42,
+    "Dataset": 14,
+    "Institution": 432,
+    "Paper": 700,
+    "Task": 14,
+    "VenueEdition": 2
+  },
+  "counts_by_type": {
+    "AFFILIATED_WITH": 3237,
+    "AUTHORED": 3282,
+    "BASED_IN": 432,
+    "CITES": 97,
+    "COAUTHORED_WITH": 7771,
+    "COLLABORATED_WITH": 1140,
+    "EVALUATED_ON": 28,
+    "PUBLISHED_IN": 700,
+    "STUDIES_TASK": 97
+  },
+  "loader_read_snapshot_passed": true,
+  "neo4j_executed": false,
+  "nlp_edges_by_corpus": {
+    "CVPR2024": {
+      "EVALUATED_ON": 9,
+      "STUDIES_TASK": 31
+    },
+    "ICCV2023": {
+      "EVALUATED_ON": 19,
+      "STUDIES_TASK": 66
+    }
+  },
+  "cross_corpus_alias_reviews": 3,
+  "synthetic_rule_evaluation": {
+    "dev_task": {
+      "cases": 20,
+      "exact_match": 20,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0
+    },
+    "dev_dataset": {
+      "cases": 30,
+      "exact_match": 30,
+      "tp": 13,
+      "fp": 0,
+      "fn": 0
+    },
+    "eval_task": {
+      "cases": 20,
+      "exact_match": 20,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0
+    },
+    "eval_dataset": {
+      "cases": 20,
+      "exact_match": 20,
+      "tp": 11,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "contract_validation": {
+    "schema_version": "2.0.0",
+    "snapshot_id": "snapshot:v2:750189a2c0f09f105b64d4545651e6233fb4b46b6d660168cfb1f415ae63b765",
+    "passed": true,
+    "tables_checked": 12,
+    "records_checked": 75832,
+    "raw_sources_checked": 2083,
+    "text_versions_checked": 1400,
+    "graph_ready": true,
+    "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+  },
+  "unapplied_alias_decisions": 620
+}
