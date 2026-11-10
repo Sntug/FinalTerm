@@ -14,7 +14,7 @@ from src.collect.contract import contract, load_records, validate_records
 from src.collect.pilot import snapshot_payload
 
 TABLES = ("nodes.csv", "edges.csv", "evidence.jsonl", "needs_review.csv")
-RELATIONS = {"STUDIES_TASK": "Task", "EVALUATED_ON": "Dataset"}
+RELATIONS = {"STUDIES_TASK": "Task", "EVALUATED_ON": "Dataset", "USES_METHOD": "Method"}
 
 
 @contextmanager
@@ -173,7 +173,7 @@ def validate_nlp(data, original, project_id="mxh_cv_700"):
             raise ValueError("Invalid NLP edge properties")
         if not e["evidence_ids"] or any(i not in evidence for i in e["evidence_ids"]):
             raise ValueError("NLP edge evidence missing")
-        prefix = "a4-task-" if e["type"] == "STUDIES_TASK" else "a4-dataset-"
+        prefix = {"STUDIES_TASK": "a4-task-", "EVALUATED_ON": "a4-dataset-", "USES_METHOD": "b5-method-"}[e["type"]]
         for eid in e["evidence_ids"]:
             ev = evidence[eid]
             if ev["paper_id"] != e["src"] or not ev["rule_id"].startswith(prefix):
@@ -182,7 +182,7 @@ def validate_nlp(data, original, project_id="mxh_cv_700"):
     if used != set(nodes):
         raise ValueError("Orphan NLP dictionary node")
     for n in nodes.values():
-        if n["project_id"] != project_id or n["label"] not in ("Task", "Dataset") or n["validation_status"] != "accepted":
+        if n["project_id"] != project_id or n["label"] not in ("Task", "Dataset", "Method") or n["validation_status"] != "accepted":
             raise ValueError("Invalid NLP node")
         if set(n["properties_json"]) - set(contract()["node_properties"][n["label"]]):
             raise ValueError("Unexpected NLP node property")

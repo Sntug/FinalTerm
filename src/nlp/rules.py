@@ -10,6 +10,7 @@ from src.collect.common import REPO_ROOT
 
 RULE_VERSION = "1.0.0"
 RULE_IDS = ("a4-task-title", "a4-task-current", "a4-dataset-evaluate", "a4-dataset-experiments")
+METHOD_RULE_IDS = ("b5-method-title", "b5-method-use", "b5-method-based")
 
 
 @dataclass(frozen=True)
@@ -40,8 +41,8 @@ class Extractor:
         self.entities = {}
         self.phrases = PhraseMatcher(self.nlp.vocab, attr="LOWER", validate=True)
         aliases = {}
-        for group, label in (("tasks", "Task"), ("datasets", "Dataset")):
-            for item in self.dictionary[group]:
+        for group, label in (("tasks", "Task"), ("datasets", "Dataset"), ("methods", "Method")):
+            for item in self.dictionary.get(group, []):
                 item = {**item, "label": label}
                 if not re.fullmatch(label.lower() + r":[a-z0-9]+(?:-[a-z0-9]+)*", item["id"]):
                     raise ValueError("Invalid dictionary ID: " + item["id"])
@@ -60,6 +61,7 @@ class Extractor:
         for name, verbs in (
             ("task", "address addresses tackle study studies investigate solve focus focuses propose present introduce develop"),
             ("eval", "evaluate evaluated test tested benchmark benchmarked assess assessed"),
+            ("use", "use uses used using employ employs adopt adopts leverage leverages utilize utilizes exploit exploits apply applies incorporate incorporates build builds built based integrate integrates harness harnesses"),
             ("result", "achieve achieves outperform outperforms obtain obtains demonstrate demonstrates show shows"),
         ):
             variants = sorted({v for v in verbs.split()} | {v + "s" for v in verbs.split()})
@@ -107,10 +109,22 @@ class Extractor:
             return None, "hypothetical_or_question"
         if re.search(r"\b(previous|prior|earlier|existing|related work|baseline|baselines|survey|surveys|review|reviews|et al|their|they|others)\b", low):
             return None, "prior_work_or_baseline"
-        if re.search(r"\b(pre[- ]?train\w*|training|train|trained|fine[- ]?tun\w*)\b", low):
+        if entity["label"] != "Method" and re.search(r"\b(pre[- ]?train\w*|training|train|trained|fine[- ]?tun\w*)\b", low):
             return None, "training_or_mixed_roles"
         if re.search(r"\b(for example|such as|e\.g\.|applications? (?:include|including|in|like)|can be (?:used|applied))\b", low):
             return None, "application_example"
+        if entity["label"] == "Method":
+            if field == "title":
+                return "b5-method-title", None
+            local = sent.as_doc()
+            cues = [(self.nlp.vocab.strings[mid], s + sent.start, e + sent.start) for mid, s, e in self.context(local)]
+            if any(kind == "use" and 0 <= mention.start - end <= 12 for kind, start, end in cues):
+                return "b5-method-use", None
+            after = [t.lower_ for t in sent.doc[mention.end:mention.end + 2]]
+            if after[:1] == ["based"] or (after[:1] == ["-"] and after[1:2] in (["based"], ["driven"], ["guided"])):
+                if tokens & {"we", "our"}:
+                    return "b5-method-based", None
+            return None, "no_current_method_claim"
         if entity["label"] == "Task" and field == "title":
             return "a4-task-title", None
         if entity["label"] == "Dataset" and field != "abstract":

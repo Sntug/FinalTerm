@@ -1,0 +1,39 @@
+{
+  "papers_input": 700,
+  "papers_processed": 700,
+  "fields_processed": 1400,
+  "candidate_mentions": 1782,
+  "nodes": 56,
+  "edges": 320,
+  "evidence": 1385,
+  "accepted_evidence": 335,
+  "rejected": 436,
+  "review_open": 848,
+  "counts_by_label": {
+    "Task": 14,
+    "Method": 28,
+    "Dataset": 14
+  },
+  "counts_by_type": {
+    "STUDIES_TASK": 97,
+    "USES_METHOD": 195,
+    "EVALUATED_ON": 28
+  },
+  "review_by_reason": {
+    "no_current_task_claim": 173,
+    "no_current_method_claim": 601,
+    "no_current_evaluation_claim": 30,
+    "prior_work_or_baseline": 187,
+    "unmapped_dataset_version_or_subset": 32,
+    "negated_or_mixed_claim": 111,
+    "hypothetical_or_question": 39,
+    "ambiguous_alias_case": 10,
+    "application_example": 48,
+    "training_or_mixed_roles": 51,
+    "mixed_clause_roles": 2
+  },
+  "snapshot_id": "snapshot:v2:cd54ab8094975c0da6d2fec91e4dea4be791810e6741c46075a19d38c04c07a5",
+  "graph_ready": false,
+  "model": "spacy-3.8.18:blank-0.0.0:sentencizer-1",
+  "network_requests": 0
+}

@@ -1,0 +1,10 @@
+{
+  "input_manifests": [
+    "data/processed/cvpr2024/a3_350/snapshot_manifest.json",
+    "data/processed/iccv2023/a3_350/snapshot_manifest.json"
+  ],
+  "output_dir": "data/processed/mxh_cv_700/b5",
+  "dictionary": "config/a4_dictionary.json",
+  "model": "blank",
+  "method_dictionary": "config/b5_method_dictionary.json"
+}

@@ -1,0 +1,191 @@
+[
+ {
+  "group": "method",
+  "field": "title",
+  "text": "Vision Transformers for Dense Prediction",
+  "expected": [
+   "method:vision-transformer"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "title",
+  "text": "Latent Diffusion Models for Video Editing",
+  "expected": [
+   "method:latent-diffusion"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "title",
+  "text": "Graph Neural Networks Meet Point Clouds",
+  "expected": [
+   "method:graph-neural-network"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use a vision transformer as the backbone.",
+  "expected": [
+   "method:vision-transformer"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Our approach leverages contrastive learning to align modalities.",
+  "expected": [
+   "method:contrastive-learning"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We employ knowledge distillation to compress the detector.",
+  "expected": [
+   "method:knowledge-distillation"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We adopt a pretrained CLIP encoder for text guidance.",
+  "expected": [
+   "method:clip"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "This paper utilizes neural radiance fields to render novel views.",
+  "expected": [
+   "method:neural-radiance-field"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We build on 3D Gaussian splatting for real-time rendering.",
+  "expected": [
+   "method:3d-gaussian-splatting"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use a diffusion model as the generator.",
+  "expected": [
+   "method:diffusion-model"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Our Transformer-based network predicts masks.",
+  "expected": [
+   "method:transformer"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We apply LoRA to adapt the large language model.",
+  "expected": [
+   "method:low-rank-adaptation",
+   "method:large-language-model"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We propose a CNN-based detector.",
+  "expected": [
+   "method:convolutional-neural-network"
+  ]
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Previous work uses GANs for image synthesis.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "GANs are strong baselines in our comparison.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We do not use contrastive learning.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We could use reinforcement learning in the future.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Applications such as NeRF are discussed.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Unlike existing Transformer-based methods, we avoid dense attention.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Vision transformers have attracted much attention.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use clip art to illustrate the results.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use Clip to crop images.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use sam to denote the sample set.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Diffusion models are popular in image generation.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Related work employs optimal transport for matching.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "We use convolutional neural networks as baselines.",
+  "expected": []
+ },
+ {
+  "group": "method",
+  "field": "abstract",
+  "text": "Mamba is discussed, but our method is different.",
+  "expected": []
+ }
+]
