@@ -16,4 +16,6 @@
 /src/clean/text.py text eol=lf
 /quality/checks/test_a2_*.py text eol=lf
 /outputs/a2_cvpr2024/* text eol=lf
+/outputs/a6/** -text
+/outputs/a6_execution/** -text
 /handoff/a/A2_HANDOFF.md text eol=lf

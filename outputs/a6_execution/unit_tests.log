@@ -1,0 +1,62 @@
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_baseline_related_work_and_dataset_pretraining_are_risks_not_votes (test_a6_audit.ChecksTest.test_baseline_related_work_and_dataset_pretraining_are_risks_not_votes) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_citation_count_cannot_create_reference_edge (test_a6_audit.ChecksTest.test_citation_count_cannot_create_reference_edge) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_collaboration_distinct_papers_not_evidence_count (test_a6_audit.ChecksTest.test_collaboration_distinct_papers_not_evidence_count) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_dangling_duplicate_direction_and_self_loop (test_a6_audit.ChecksTest.test_dangling_duplicate_direction_and_self_loop) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_duplicate_doi_arxiv_and_homonyms_remain_review_candidates (test_a6_audit.ChecksTest.test_duplicate_doi_arxiv_and_homonyms_remain_review_candidates) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_one_author_two_institutions_does_not_support_collaboration (test_a6_audit.ChecksTest.test_one_author_two_institutions_does_not_support_collaboration) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_pretrained_method_is_not_a_dataset_training_false_positive (test_a6_audit.ChecksTest.test_pretrained_method_is_not_a_dataset_training_false_positive) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_unicode_offset_and_rule_version_failures (test_a6_audit.ChecksTest.test_unicode_offset_and_rule_version_failures) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_valid_metadata_has_no_confirmed_error (test_a6_audit.ChecksTest.test_valid_metadata_has_no_confirmed_error) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_wrong_paper_affiliation_source_and_missing_review_log (test_a6_audit.ChecksTest.test_wrong_paper_affiliation_source_and_missing_review_log) ... ok
+test_missing_inputs_block_audit_and_never_pass_or_create_fake_samples (test_a6_audit.FailureTest.test_missing_inputs_block_audit_and_never_pass_or_create_fake_samples) ... ok
+test_conservative_denominator_excludes_pending_includes_unverifiable (test_a6_audit.SamplingTest.test_conservative_denominator_excludes_pending_includes_unverifiable) ... ok
+test_cross_disagreement_is_reported_and_blocks_clear_human_findings (test_a6_audit.SamplingTest.test_cross_disagreement_is_reported_and_blocks_clear_human_findings) ... ok
+test_graded_rows_require_real_fields_and_known_status (test_a6_audit.SamplingTest.test_graded_rows_require_real_fields_and_known_status) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_only_human_columns_can_change_fingerprint (test_a6_audit.SamplingTest.test_only_human_columns_can_change_fingerprint) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_primary_balanced_cross_uses_other_person_and_all_pending (test_a6_audit.SamplingTest.test_primary_balanced_cross_uses_other_person_and_all_pending) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_seed_reproducible_input_order_independent_and_sparse_types (test_a6_audit.SamplingTest.test_seed_reproducible_input_order_independent_and_sparse_types) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 3.530s
+
+OK

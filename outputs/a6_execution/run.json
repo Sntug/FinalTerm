@@ -1,0 +1,124 @@
+{
+  "automatic_checks_passed": true,
+  "checks_execution_complete": true,
+  "confirmed_errors": 0,
+  "issue_counts_by_kind": {
+    "known_review": 2594,
+    "review_risk": 177
+  },
+  "corpora": {
+    "A": {
+      "papers": 350,
+      "valid_core_papers": 350,
+      "target": 350,
+      "distinct_authorships": 1968,
+      "unresolved_authorships": 340,
+      "missing_institution_authorships": 466,
+      "open_reviews": 1389,
+      "homonym_names": 25
+    },
+    "B": {
+      "papers": 350,
+      "valid_core_papers": 350,
+      "target": 350,
+      "distinct_authorships": 1853,
+      "unresolved_authorships": 199,
+      "missing_institution_authorships": 295,
+      "open_reviews": 354,
+      "homonym_names": 14
+    }
+  },
+  "graph": {
+    "nodes": 4182,
+    "edges": 16979,
+    "counts_by_label": {
+      "Author": 2950,
+      "Country": 42,
+      "Dataset": 14,
+      "Institution": 432,
+      "Method": 28,
+      "Paper": 700,
+      "Task": 14,
+      "VenueEdition": 2
+    },
+    "counts_by_type": {
+      "AFFILIATED_WITH": 3237,
+      "AUTHORED": 3282,
+      "BASED_IN": 432,
+      "CITES": 97,
+      "COAUTHORED_WITH": 7771,
+      "COLLABORATED_WITH": 1140,
+      "EVALUATED_ON": 28,
+      "PUBLISHED_IN": 700,
+      "STUDIES_TASK": 97,
+      "USES_METHOD": 195
+    },
+    "nlp_edges": 320,
+    "nlp_evidence_checked": 335
+  },
+  "sampling": {
+    "strata": {
+      "AUTHORED": {
+        "available": 3282,
+        "sampled": 10,
+        "requested": 10
+      },
+      "AFFILIATED_WITH": {
+        "available": 3237,
+        "sampled": 10,
+        "requested": 10
+      },
+      "PUBLISHED_IN": {
+        "available": 700,
+        "sampled": 10,
+        "requested": 10
+      },
+      "CITES": {
+        "available": 97,
+        "sampled": 10,
+        "requested": 10
+      },
+      "BASED_IN": {
+        "available": 432,
+        "sampled": 10,
+        "requested": 10
+      },
+      "COAUTHORED_WITH": {
+        "available": 7771,
+        "sampled": 10,
+        "requested": 10
+      },
+      "COLLABORATED_WITH": {
+        "available": 1140,
+        "sampled": 10,
+        "requested": 10
+      },
+      "STUDIES_TASK": {
+        "available": 97,
+        "sampled": 10,
+        "requested": 10
+      },
+      "USES_METHOD": {
+        "available": 195,
+        "sampled": 10,
+        "requested": 10
+      },
+      "EVALUATED_ON": {
+        "available": 28,
+        "sampled": 10,
+        "requested": 10
+      }
+    },
+    "primary_by_reviewer": {
+      "A": 50,
+      "B": 50
+    },
+    "unique_edges": 100,
+    "cross_review_rows": 20,
+    "nodes_sampled": 50,
+    "node_candidates": 573
+  },
+  "human_audit_complete": false,
+  "ready_for_a7": false,
+  "output_dir": "outputs/a6"
+}

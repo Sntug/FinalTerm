@@ -1,0 +1,54 @@
+{
+  "primary": {
+    "total": 100,
+    "graded": 0,
+    "pending": 100,
+    "correct": 0,
+    "incorrect": 0,
+    "unverifiable": 0,
+    "conservative_precision": null
+  },
+  "cross": {
+    "total": 20,
+    "graded": 0,
+    "pending": 20,
+    "correct": 0,
+    "incorrect": 0,
+    "unverifiable": 0,
+    "conservative_precision": null
+  },
+  "nodes": {
+    "total": 50,
+    "graded": 0,
+    "pending": 50,
+    "correct": 0,
+    "incorrect": 0,
+    "unverifiable": 0,
+    "conservative_precision": null
+  },
+  "cross_agreements": 0,
+  "cross_disagreements": [],
+  "primary_by_reviewer": {
+    "A": {
+      "total": 50,
+      "graded": 0,
+      "pending": 50,
+      "correct": 0,
+      "incorrect": 0,
+      "unverifiable": 0,
+      "conservative_precision": null
+    },
+    "B": {
+      "total": 50,
+      "graded": 0,
+      "pending": 50,
+      "correct": 0,
+      "incorrect": 0,
+      "unverifiable": 0,
+      "conservative_precision": null
+    }
+  },
+  "human_audit_complete": false,
+  "human_findings_clear": false,
+  "ready_for_a7": false
+}
