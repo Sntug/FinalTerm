@@ -167,6 +167,21 @@ Mẫu dùng seed `20261103` của collector: 100 cạnh khác nhau (10/loại), 
 
 `run` từ chối ghi đè phiếu đã sửa. Nếu đổi snapshot/rule/seed, dùng `output_dir` mới; `summarize` chỉ cập nhật báo cáo dẫn xuất, giữ phiếu gốc. Trạng thái A6/A7 dựa trên kiểm tra máy và phần chấm thật, không dựa vào số mẫu đã tạo. B cần xem các issue owner B/A|B: evidence CITES chưa trỏ cụ thể reference field, các xung đột ORCID, tên trùng và ngữ cảnh Method cần đọc nguồn. Hiện A6 đã có phần tự động và phiếu chấm; việc chấm A/B, phân xử bất đồng và nghiệm thu chất lượng vẫn đang chờ.
 
+## A7 — Báo cáo dữ liệu, tiền xử lý và NLP
+
+Nội dung chuẩn: [báo cáo A7](report/a7_data_preprocessing_nlp.md), gồm nguồn/phạm vi, chuẩn hóa và định danh, luật Task/Dataset, bảng thống kê theo hội nghị, hai hình và giới hạn A6. Số liệu sinh từ manifest A5 CVPR, A3 ICCV và graph/NLP B5; tổng nhóm dùng union canonical ID, affiliation dùng DISTINCT authorship làm mẫu số. Không thay raw/processed, schema, phiếu A6 hoặc code B.
+
+```powershell
+$a7Python = ".\.venv-a4\Scripts\python.exe"
+& $a7Python -m pip install -r config/requirements_a7.txt
+& $a7Python -B -X utf8 -m src.reporting.a7 --config config/a7_report.json
+& $a7Python -B -X utf8 -m unittest discover -s quality/checks -p 'test_a7_report.py' -v
+```
+
+Đầu ra: `outputs/a7/metrics.json`, `outputs/a7/figures/*.{png,svg}` và các khối bảng có marker trong báo cáo. PNG 300 dpi để chèn Word, SVG để chỉnh cỡ không mất nét. Mã `src/reporting/a7.py` tái sử dụng reader/validator Contract, replay NLP và cách tổng hợp phiếu A6; chạy offline sau khi cài thư viện. Phần văn bản ngoài marker được giữ khi chạy lại. Đổi snapshot bằng config, không sửa manifest cũ; B thiếu input tùy chọn hiện `PENDING_B`, graph lệch corpus không được công bố làm tổng nhóm mới, hash/schema sai làm lệnh dừng.
+
+A7 có thể hoàn thiện nội dung từ dữ liệu hiện có dù B6–B7 chưa xong. Các phần NetworkX/case study và chốt snapshot nhóm vẫn `PENDING_B`; chấm/đọc chéo A6 còn cần cả A và B. Chưa có precision thủ công thì giữ null, không kết luận toàn graph >90%. Có thể bắt đầu chuẩn bị gói/replay A8 độc lập; nghiệm thu chung chờ audit và snapshot/Neo4j cuối. Chi tiết số liệu, nguồn và giới hạn chỉ duy trì trong báo cáo A7.
+
 ## Neo4j pilot trên môi trường macOS của B
 
 Phần dưới ghi lại môi trường lần chạy B; không mô tả máy Windows chạy A4.

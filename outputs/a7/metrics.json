@@ -1,0 +1,714 @@
+{
+  "code_version": "a7-report-1.0.0",
+  "config": "config/a7_report.json",
+  "corpora": {
+    "A": {
+      "status": "available",
+      "owner": "A",
+      "conference": "CVPR",
+      "year": 2024,
+      "target": 350,
+      "valid_core_papers": 350,
+      "target_met": true,
+      "reference_papers": 0,
+      "distinct_authors": 1550,
+      "distinct_institutions": 294,
+      "distinct_authorships": 1968,
+      "authorship_rows": 2109,
+      "coverage": {
+        "doi": {
+          "numerator": 328,
+          "denominator": 350,
+          "percent": 93.71,
+          "missing": 22,
+          "missing_percent": 6.29
+        },
+        "abstract": {
+          "numerator": 350,
+          "denominator": 350,
+          "percent": 100.0,
+          "missing": 0,
+          "missing_percent": 0.0
+        },
+        "openalex_id": {
+          "numerator": 328,
+          "denominator": 350,
+          "percent": 93.71,
+          "missing": 22,
+          "missing_percent": 6.29
+        },
+        "arxiv_id": {
+          "numerator": 210,
+          "denominator": 350,
+          "percent": 60.0,
+          "missing": 140,
+          "missing_percent": 40.0
+        },
+        "author_id": {
+          "numerator": 1628,
+          "denominator": 1968,
+          "percent": 82.72,
+          "missing": 340,
+          "missing_percent": 17.28
+        },
+        "affiliation": {
+          "numerator": 1502,
+          "denominator": 1968,
+          "percent": 76.32,
+          "missing": 466,
+          "missing_percent": 23.68
+        }
+      },
+      "missing_institution_authorships": 466,
+      "unverified_affiliation_authorships": 466,
+      "null_institution_rows": 469,
+      "multi_institution_authorships": 112,
+      "open_reviews": 1389,
+      "source_records": 1042,
+      "sources_by_source": {
+        "CVF": 351,
+        "Crossref": 2,
+        "OpenAlex": 681,
+        "arXiv": 8
+      },
+      "reviews_by_status": {
+        "open": 1389
+      },
+      "canonical_decisions": {
+        "link": 6289
+      },
+      "duplicate_identifier_groups": {
+        "doi": 0,
+        "openalex_id": 0,
+        "arxiv_url": 0,
+        "cvf_url": 0
+      },
+      "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+      "manifest": "data/processed/cvpr2024/a5_350/snapshot_manifest.json",
+      "cleaning": {
+        "input_papers": 350,
+        "output_papers": 350,
+        "duplicate_papers_removed": 0,
+        "dropped_papers": 0,
+        "papers_with_identifier_conflicts": 0,
+        "decision_counts": {
+          "link": 6289
+        }
+      }
+    },
+    "B": {
+      "status": "available",
+      "owner": "B",
+      "conference": "ICCV",
+      "year": 2023,
+      "target": 350,
+      "valid_core_papers": 350,
+      "target_met": true,
+      "reference_papers": 0,
+      "distinct_authors": 1546,
+      "distinct_institutions": 300,
+      "distinct_authorships": 1853,
+      "authorship_rows": 2275,
+      "coverage": {
+        "doi": {
+          "numerator": 350,
+          "denominator": 350,
+          "percent": 100.0,
+          "missing": 0,
+          "missing_percent": 0.0
+        },
+        "abstract": {
+          "numerator": 350,
+          "denominator": 350,
+          "percent": 100.0,
+          "missing": 0,
+          "missing_percent": 0.0
+        },
+        "openalex_id": {
+          "numerator": 350,
+          "denominator": 350,
+          "percent": 100.0,
+          "missing": 0,
+          "missing_percent": 0.0
+        },
+        "arxiv_id": {
+          "numerator": 219,
+          "denominator": 350,
+          "percent": 62.57,
+          "missing": 131,
+          "missing_percent": 37.43
+        },
+        "author_id": {
+          "numerator": 1654,
+          "denominator": 1853,
+          "percent": 89.26,
+          "missing": 199,
+          "missing_percent": 10.74
+        },
+        "affiliation": {
+          "numerator": 1558,
+          "denominator": 1853,
+          "percent": 84.08,
+          "missing": 295,
+          "missing_percent": 15.92
+        }
+      },
+      "missing_institution_authorships": 295,
+      "unverified_affiliation_authorships": 295,
+      "null_institution_rows": 361,
+      "multi_institution_authorships": 272,
+      "open_reviews": 354,
+      "source_records": 1051,
+      "sources_by_source": {
+        "CVF": 351,
+        "OpenAlex": 700
+      },
+      "reviews_by_status": {
+        "open": 354
+      },
+      "canonical_decisions": {
+        "link": 6438
+      },
+      "duplicate_identifier_groups": {
+        "doi": 0,
+        "openalex_id": 0,
+        "arxiv_url": 0,
+        "cvf_url": 0
+      },
+      "snapshot_id": "snapshot:v2:e5987c8521ef64ca876c1dcb1831fd485321cd20e5377f360e50eb0d178c6657",
+      "manifest": "data/processed/iccv2023/a3_350/snapshot_manifest.json",
+      "cleaning": {
+        "input_papers": 350,
+        "output_papers": 350,
+        "duplicate_papers_removed": 0,
+        "dropped_papers": 0,
+        "papers_with_identifier_conflicts": 0,
+        "decision_counts": {
+          "link": 6438
+        }
+      }
+    }
+  },
+  "combined": {
+    "status": "available",
+    "core_papers": 700,
+    "reference_papers": 0,
+    "distinct_authors": 2950,
+    "distinct_institutions": 432,
+    "distinct_authorships": 3821,
+    "coverage": {
+      "doi": {
+        "numerator": 678,
+        "denominator": 700,
+        "percent": 96.86,
+        "missing": 22,
+        "missing_percent": 3.14
+      },
+      "abstract": {
+        "numerator": 700,
+        "denominator": 700,
+        "percent": 100.0,
+        "missing": 0,
+        "missing_percent": 0.0
+      },
+      "openalex_id": {
+        "numerator": 678,
+        "denominator": 700,
+        "percent": 96.86,
+        "missing": 22,
+        "missing_percent": 3.14
+      },
+      "arxiv_id": {
+        "numerator": 429,
+        "denominator": 700,
+        "percent": 61.29,
+        "missing": 271,
+        "missing_percent": 38.71
+      },
+      "author_id": {
+        "numerator": 3282,
+        "denominator": 3821,
+        "percent": 85.89,
+        "missing": 539,
+        "missing_percent": 14.11
+      },
+      "affiliation": {
+        "numerator": 3060,
+        "denominator": 3821,
+        "percent": 80.08,
+        "missing": 761,
+        "missing_percent": 19.92
+      }
+    },
+    "shared_canonical_ids": {
+      "Author": 146,
+      "Institution": 162
+    },
+    "identity_semantics_fully_reviewed": false
+  },
+  "graph": {
+    "status": "available",
+    "snapshot_id": "snapshot:v2:7494c3c9c055befc8a7b59e529674a25d5ff5ad99bb824315f4d2c98d71afb61",
+    "manifest": "data/processed/mxh_cv_700/graph_b5/snapshot_manifest.json",
+    "nodes": 4182,
+    "edges": 16979,
+    "counts_by_label": {
+      "Author": 2950,
+      "Country": 42,
+      "Dataset": 14,
+      "Institution": 432,
+      "Method": 28,
+      "Paper": 700,
+      "Task": 14,
+      "VenueEdition": 2
+    },
+    "counts_by_type": {
+      "AFFILIATED_WITH": 3237,
+      "AUTHORED": 3282,
+      "BASED_IN": 432,
+      "CITES": 97,
+      "COAUTHORED_WITH": 7771,
+      "COLLABORATED_WITH": 1140,
+      "EVALUATED_ON": 28,
+      "PUBLISHED_IN": 700,
+      "STUDIES_TASK": 97,
+      "USES_METHOD": 195
+    },
+    "open_reviews": 1690
+  },
+  "nlp": {
+    "status": "available",
+    "dictionary_version": "a4-cv-1.0.0",
+    "dictionary_sizes": {
+      "Task": 15,
+      "Dataset": 30
+    },
+    "snapshot_id": "snapshot:v2:cd54ab8094975c0da6d2fec91e4dea4be791810e6741c46075a19d38c04c07a5",
+    "manifest": "data/processed/mxh_cv_700/b5/snapshot_manifest.json",
+    "dictionary_versions": {
+      "a4-cv": "a4-cv-1.0.0:f9a6fe7055cb60f05dc6273cf8c6e9b09f1c92f8b3ba1271b5a43e557c83a6d1",
+      "b5-method": "b5-method-1.0.0:c7154146859c0442f4d9d2f0c150a403e17042917b5f9a53267def198c451324"
+    },
+    "runtime": [
+      "a3-metadata-1.0.0",
+      "cvf-html-1.0.0",
+      "openalex-json-1.0.0",
+      "spacy-3.8.18:blank-0.0.0:sentencizer-1"
+    ],
+    "by_corpus": {
+      "A": {
+        "STUDIES_TASK": {
+          "edges": 31,
+          "unique_entities": 10,
+          "papers": 31
+        },
+        "EVALUATED_ON": {
+          "edges": 9,
+          "unique_entities": 7,
+          "papers": 8
+        },
+        "USES_METHOD": {
+          "edges": 104,
+          "unique_entities": 26,
+          "papers": 95
+        }
+      },
+      "B": {
+        "STUDIES_TASK": {
+          "edges": 66,
+          "unique_entities": 13,
+          "papers": 64
+        },
+        "EVALUATED_ON": {
+          "edges": 19,
+          "unique_entities": 9,
+          "papers": 13
+        },
+        "USES_METHOD": {
+          "edges": 91,
+          "unique_entities": 20,
+          "papers": 83
+        }
+      }
+    },
+    "counts_by_type": {
+      "EVALUATED_ON": 28,
+      "STUDIES_TASK": 97,
+      "USES_METHOD": 195
+    },
+    "counts_by_label": {
+      "Dataset": 14,
+      "Method": 28,
+      "Task": 14
+    },
+    "task_dataset_reviews_by_status": {
+      "open": 237,
+      "rejected": 194
+    }
+  },
+  "examples": [
+    {
+      "kind": "STUDIES_TASK",
+      "entity_id": "task:object-detection",
+      "entity_name": "Object Detection",
+      "decision": "accepted",
+      "record_id": "edge:82b906a584425a99c6c9e150cb3e00f642b20a6a3672b44602addcf2afeddebe",
+      "evidence_id": "evidence:e59155e0b367716c00f28c2e160364c377781cacfaefe9b48694ae0be0e0a128",
+      "paper_id": "cvf:CVPR2024:Li_UniMODE_Unified_Monocular_3D_Object_Detection_CVPR_2024",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Li_UniMODE_Unified_Monocular_3D_Object_Detection_CVPR_2024_paper.html",
+      "text_version_id": "text:v2:6abeccca780a937ee9b7d4b66bdbc1eadfdf7e65fd3adb5779b01c6daea5f755",
+      "start_char": 0,
+      "end_char": 46,
+      "rule_id": "a4-task-title",
+      "rule_version": "1.0.0",
+      "field_path": "html:meta[name=citation_title]@content",
+      "excerpt": "UniMODE: Unified Monocular 3D Object Detection",
+      "excerpt_is_partial": false
+    },
+    {
+      "kind": "EVALUATED_ON",
+      "entity_id": "dataset:waymo-open-dataset",
+      "entity_name": "Waymo Open Dataset",
+      "decision": "accepted",
+      "record_id": "edge:73395e3a86e318ca56579ccd04c7d3d2decd9389fd63428329e6f3cbbd0432f3",
+      "evidence_id": "evidence:1f990c0afd651a2f87ad0a34187a44b3102037aa8ef130515c9f3028fe888ab0",
+      "paper_id": "cvf:CVPR2024:Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wei_Editable_Scene_Simulation_for_Autonomous_Driving_via_Collaborative_LLM-Agents_CVPR_2024_paper.html",
+      "text_version_id": "text:v2:ae0fae7dbb348e665f868e6ce8cb1f1be781d952e603055ee0cd52e67bf87c0e",
+      "start_char": 946,
+      "end_char": 1102,
+      "rule_id": "a4-dataset-experiments",
+      "rule_version": "1.0.0",
+      "field_path": "html:div#abstract.text",
+      "excerpt": "Our experiments on Waymo Open Dataset demonstrate that ChatSim can handle complex language commands and generate corresponding photo-realistic",
+      "excerpt_is_partial": true
+    },
+    {
+      "kind": "prior_work_or_baseline",
+      "entity_id": "dataset:cifar-10",
+      "entity_name": "CIFAR-10",
+      "decision": "rejected_by_rule",
+      "record_id": "review:13f1cf78ef208c3509d107abd93b57bc0d422f8f9613d3c4310141ce7b2d3069",
+      "evidence_id": "evidence:58179a3b278be15525a74667d1d5744f331be2ace42970d07edd4b7dc57ea4c2",
+      "paper_id": "cvf:CVPR2024:Jain_Towards_Understanding_and_Improving_Adversarial_Robustness_of_Vision_Transformers_CVPR_2024",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Jain_Towards_Understanding_and_Improving_Adversarial_Robustness_of_Vision_Transformers_CVPR_2024_paper.html",
+      "text_version_id": "text:v2:111018cecc38a31a8281db88bff5b0f9ec4f5bec7f7917f67a41e61a1f4470fc",
+      "start_char": 1400,
+      "end_char": 1498,
+      "rule_id": "a4-review",
+      "rule_version": "1.0.0",
+      "field_path": "html:div#abstract.text",
+      "excerpt": "On incorporating AAS-AT with existing methods we outperform them on VITs over 1.3-3.5% on CIFAR10.",
+      "excerpt_is_partial": false
+    },
+    {
+      "kind": "training_or_mixed_roles",
+      "entity_id": "dataset:imagenet",
+      "entity_name": "ImageNet",
+      "decision": "rejected_by_rule",
+      "record_id": "review:10e85f24f1ba3bd9e71969dba954f9f7f1d76f72845a9715d3cb328174d805f5",
+      "evidence_id": "evidence:c8d6e3e3d30794745d6c6c3a6752c65838acbe1541f94f56dc4a5b83711519eb",
+      "paper_id": "cvf:CVPR2024:Yu_Rethinking_the_Evaluation_Protocol_of_Domain_Generalization_CVPR_2024",
+      "source_url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Rethinking_the_Evaluation_Protocol_of_Domain_Generalization_CVPR_2024_paper.html",
+      "text_version_id": "text:v2:11cbb88f6e5279f0061ed8f9bea1ad9ac6334ded92695f09e03bdd94e798a763",
+      "start_char": 421,
+      "end_char": 599,
+      "rule_id": "a4-review",
+      "rule_version": "1.0.0",
+      "field_path": "html:div#abstract.text",
+      "excerpt": "protocol: supervised pretraining on ImageNet and oracle model selection.",
+      "excerpt_is_partial": true
+    }
+  ],
+  "audit": {
+    "status": "available",
+    "graph_snapshot_id": "snapshot:v2:7494c3c9c055befc8a7b59e529674a25d5ff5ad99bb824315f4d2c98d71afb61",
+    "automatic_checks_passed": true,
+    "confirmed_errors": 0,
+    "issue_counts_by_check": {
+      "existing_review": 2594,
+      "citation_evidence_specificity": 97,
+      "shared_identifier": 3,
+      "nlp_context_risk": 2,
+      "homonym": 75
+    },
+    "issue_counts_by_kind": {
+      "known_review": 2594,
+      "review_risk": 177
+    },
+    "corpora": {
+      "A": {
+        "papers": 350,
+        "valid_core_papers": 350,
+        "target": 350,
+        "distinct_authorships": 1968,
+        "unresolved_authorships": 340,
+        "missing_institution_authorships": 466,
+        "open_reviews": 1389,
+        "homonym_names": 25
+      },
+      "B": {
+        "papers": 350,
+        "valid_core_papers": 350,
+        "target": 350,
+        "distinct_authorships": 1853,
+        "unresolved_authorships": 199,
+        "missing_institution_authorships": 295,
+        "open_reviews": 354,
+        "homonym_names": 14
+      }
+    },
+    "graph": {
+      "nodes": 4182,
+      "edges": 16979,
+      "counts_by_label": {
+        "Author": 2950,
+        "Country": 42,
+        "Dataset": 14,
+        "Institution": 432,
+        "Method": 28,
+        "Paper": 700,
+        "Task": 14,
+        "VenueEdition": 2
+      },
+      "counts_by_type": {
+        "AFFILIATED_WITH": 3237,
+        "AUTHORED": 3282,
+        "BASED_IN": 432,
+        "CITES": 97,
+        "COAUTHORED_WITH": 7771,
+        "COLLABORATED_WITH": 1140,
+        "EVALUATED_ON": 28,
+        "PUBLISHED_IN": 700,
+        "STUDIES_TASK": 97,
+        "USES_METHOD": 195
+      },
+      "nlp_edges": 320,
+      "nlp_evidence_checked": 335
+    },
+    "human": {
+      "primary": {
+        "total": 100,
+        "graded": 0,
+        "pending": 100,
+        "correct": 0,
+        "incorrect": 0,
+        "unverifiable": 0,
+        "conservative_precision": null
+      },
+      "cross": {
+        "total": 20,
+        "graded": 0,
+        "pending": 20,
+        "correct": 0,
+        "incorrect": 0,
+        "unverifiable": 0,
+        "conservative_precision": null
+      },
+      "nodes": {
+        "total": 50,
+        "graded": 0,
+        "pending": 50,
+        "correct": 0,
+        "incorrect": 0,
+        "unverifiable": 0,
+        "conservative_precision": null
+      },
+      "cross_agreements": 0,
+      "cross_disagreements": [],
+      "primary_by_reviewer": {
+        "A": {
+          "total": 50,
+          "graded": 0,
+          "pending": 50,
+          "correct": 0,
+          "incorrect": 0,
+          "unverifiable": 0,
+          "conservative_precision": null
+        },
+        "B": {
+          "total": 50,
+          "graded": 0,
+          "pending": 50,
+          "correct": 0,
+          "incorrect": 0,
+          "unverifiable": 0,
+          "conservative_precision": null
+        }
+      },
+      "human_audit_complete": false,
+      "human_findings_clear": false
+    },
+    "neo4j": {
+      "status": "not_run",
+      "reason": "Neo4j Python driver is not installed; CSV/contract checks still run offline"
+    }
+  },
+  "validation": {
+    "A": {
+      "schema_version": "2.0.0",
+      "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+      "passed": true,
+      "tables_checked": 12,
+      "records_checked": 37978,
+      "raw_sources_checked": 1042,
+      "text_versions_checked": 700,
+      "graph_ready": false,
+      "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+    },
+    "B": {
+      "schema_version": "2.0.0",
+      "snapshot_id": "snapshot:v2:e5987c8521ef64ca876c1dcb1831fd485321cd20e5377f360e50eb0d178c6657",
+      "passed": true,
+      "tables_checked": 12,
+      "records_checked": 29456,
+      "raw_sources_checked": 1051,
+      "text_versions_checked": 700,
+      "graph_ready": false,
+      "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+    },
+    "graph": {
+      "schema_version": "2.0.0",
+      "snapshot_id": "snapshot:v2:7494c3c9c055befc8a7b59e529674a25d5ff5ad99bb824315f4d2c98d71afb61",
+      "passed": true,
+      "tables_checked": 12,
+      "records_checked": 77795,
+      "raw_sources_checked": 2083,
+      "text_versions_checked": 1400,
+      "graph_ready": true,
+      "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+    },
+    "nlp_replay": {
+      "passed": true,
+      "deterministic_replay": true,
+      "papers_input": 700,
+      "papers_processed": 700,
+      "fields_processed": 1400,
+      "candidate_mentions": 1782,
+      "nodes": 56,
+      "edges": 320,
+      "evidence": 1385,
+      "accepted_evidence": 335,
+      "rejected": 436,
+      "review_open": 848,
+      "counts_by_label": {
+        "Task": 14,
+        "Method": 28,
+        "Dataset": 14
+      },
+      "counts_by_type": {
+        "STUDIES_TASK": 97,
+        "USES_METHOD": 195,
+        "EVALUATED_ON": 28
+      },
+      "review_by_reason": {
+        "no_current_task_claim": 173,
+        "no_current_method_claim": 601,
+        "no_current_evaluation_claim": 30,
+        "prior_work_or_baseline": 187,
+        "unmapped_dataset_version_or_subset": 32,
+        "negated_or_mixed_claim": 111,
+        "hypothetical_or_question": 39,
+        "ambiguous_alias_case": 10,
+        "application_example": 48,
+        "training_or_mixed_roles": 51,
+        "mixed_clause_roles": 2
+      },
+      "snapshot_id": "snapshot:v2:cd54ab8094975c0da6d2fec91e4dea4be791810e6741c46075a19d38c04c07a5",
+      "graph_ready": false,
+      "model": "spacy-3.8.18:blank-0.0.0:sentencizer-1",
+      "network_requests": 0
+    }
+  },
+  "input_files_sha256": {
+    "config/a4_dictionary.json": "fefec250d2b4b09f4870f8be5e9a776261b3912eb6d289eac2b88a0d34babd94",
+    "config/a6_audit.json": "b53d6e88259397f8e5deb702800b86a4b988d1e5f5bc140a2409aa3124f31526",
+    "config/a7_report.json": "ea291facf8ae142d473975f9a0d524f627866f8b658cca786d5ab1ee0e60ee8d",
+    "config/a_cvpr2024_a3.json": "1a246e146c6de678528cf96acdf83b1e6a1a436fc5a06257ba3a237a5371e2e9",
+    "config/b5_method_dictionary.json": "312bf3c539e8afa38d0d3541ce55e0a7f1284a89305cb452f50c130ea8406e6e",
+    "config/b5_nlp_700.json": "b9256a57f25eb7fdcf36efa99de2402759f4b36bd2c42d1587bccdea9457de22",
+    "config/b_iccv2023_a3.json": "cc27b32d240cab2b85fb47661738668bc049bee5d4cc448faa0e8d55a51ed7ed",
+    "config/contracts/v2/data_contract.json": "e0f6e2ae8aae272dd25108bd02be5575e652a7fe6eea6e9f5f3a8f59b9894ed3",
+    "config/requirements_a7.txt": "b612b4c4b7423c8845fd87946ee56cb97ad3b8fee8fae43435c783a8dd67f4e4",
+    "data/processed/cvpr2024/a2_350/snapshot_manifest.json": "f367419a7cd29e1fc1aaab44ae51625a6f127175adb409c92699de0d81de10fe",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/alias_map.csv": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/authorships.csv": "9a105c43b5ea8e9c8cb6963783968727bcefbfdede7dd4cec04d5175636a771d",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/edges.csv": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/evidence.jsonl": "8350bd75bfbae72f204da2ec55eb87fa19511ff44d546b68c4e525fc5980df13",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/field_provenance.csv": "1af9fb462564da5ca8eaabd393f32194416a8bb0bbaf4bc2e34b97449cccc382",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/merge_log.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/needs_review.csv": "472d1c06ad9a32c53452d0e72c446fd41eb0598d43dbe4f36b5a7a0818274873",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/nodes.csv": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/paper_registry.csv": "3df0fc8becff40f74979f4596f65f49729defb4301b1dcb007520c110d9c37d0",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/papers.jsonl": "c8a236ab4ccfe1c3558bb4013538863fadff566c1b67f98d681418faeefbb45e",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/source_records.jsonl": "e289e68ca8406a2e8c5cffa0447701e8d7108edaa4edf1707874c78d0d9c4bf0",
+    "data/processed/cvpr2024/a2_350/snapshots/0577d8cd205174664dd811f2bca57070484ebde1bf0e67f9b4806f5ad13ef2b3/text_versions.jsonl": "614f24efdd29da7d637096f2d6ef9b1b654e4b3fc3770cda9ce53420d416acaf",
+    "data/processed/cvpr2024/a3_350/cleaning_summary.json": "40100a3a6f69ade57233421895c43958f82f06bc11b95869265d170f30e3f4d4",
+    "data/processed/cvpr2024/a3_350/snapshot_manifest.json": "ec07f4220afe7753022d19dcb284b3b6dc0bb210281e4b177aa1a33080c53d59",
+    "data/processed/cvpr2024/a5_350/alias_map.csv": "058a2db1b3c483614c8b334022d5eefde7ff472f4e841701f3a8ff5ad2bcc7ee",
+    "data/processed/cvpr2024/a5_350/authorships.csv": "514c0f370c0fd5a0ee36c750b09da094cfa9c7dc049a86c7512d4b6fc46326f5",
+    "data/processed/cvpr2024/a5_350/edges.csv": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+    "data/processed/cvpr2024/a5_350/evidence.jsonl": "33c74b1e1938b7c0c53351f9e8331aa51d0e32cbb34749563fa84ebde9150afb",
+    "data/processed/cvpr2024/a5_350/field_provenance.csv": "1af9fb462564da5ca8eaabd393f32194416a8bb0bbaf4bc2e34b97449cccc382",
+    "data/processed/cvpr2024/a5_350/merge_log.jsonl": "5232285abf19ad7bd42e8381727f318c1f1534acb6d11a27c8accf0a223e5e18",
+    "data/processed/cvpr2024/a5_350/needs_review.csv": "94f7333c966b1430e68b152f15b9ce0307f9f766a08da591260efe04969f3e1e",
+    "data/processed/cvpr2024/a5_350/nodes.csv": "0e5864c5c1fc7b5ce9b460a05e8e652d98331e3fafe8a0118bf456438a80bd26",
+    "data/processed/cvpr2024/a5_350/paper_registry.csv": "3df0fc8becff40f74979f4596f65f49729defb4301b1dcb007520c110d9c37d0",
+    "data/processed/cvpr2024/a5_350/papers.jsonl": "c8a236ab4ccfe1c3558bb4013538863fadff566c1b67f98d681418faeefbb45e",
+    "data/processed/cvpr2024/a5_350/snapshot_manifest.json": "7f5b50716bec5ee0a80164ffc5fa7ab431b12a597d6f908eaecc8b2e3af8cba2",
+    "data/processed/cvpr2024/a5_350/source_records.jsonl": "4da13517465b6a7f1104b615ff7071058db0e95899488d2dd6d4b96e752246f4",
+    "data/processed/cvpr2024/a5_350/text_versions.jsonl": "614f24efdd29da7d637096f2d6ef9b1b654e4b3fc3770cda9ce53420d416acaf",
+    "data/processed/iccv2023/a3_350/alias_map.csv": "a7c66afa0ae763fffde55b5a833391476dda11db37532e49cabc45c53e299f77",
+    "data/processed/iccv2023/a3_350/authorships.csv": "69aa16b49a0bfaf8a87227bc710fa8da12fe574929e005dcc723479954f517ce",
+    "data/processed/iccv2023/a3_350/cleaning_summary.json": "cc4ed6f453d2078ec2007e1d0b247128b692d95669f3cee01d378a36101849fb",
+    "data/processed/iccv2023/a3_350/evidence.jsonl": "42ff2bcccd47df2025e007b0b832c30494e684510481186c01325808a7529533",
+    "data/processed/iccv2023/a3_350/merge_log.jsonl": "14f05d559706d1200b3418b04af2a21b81938068a6a2192db5a93073b633deee",
+    "data/processed/iccv2023/a3_350/needs_review.csv": "43e8c2fd8b6c73d626764ba7646dbb40cac6ba11ab95603a74efb51eb7539a50",
+    "data/processed/iccv2023/a3_350/nodes.csv": "d7e45a48435f60c9082b295f183b1c83eff37ee6278e7d07b21999c03aff655e",
+    "data/processed/iccv2023/a3_350/snapshot_manifest.json": "6c07c97e30b90578978019e490580719b885e3a5e7660b7e7c48b62479b0733e",
+    "data/processed/iccv2023/full/snapshot_manifest.json": "9c4527efb2f64756fd81a54d2bae311b9e0d4bd1b7b2d2af73fbb3334c498762",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/alias_map.csv": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/authorships.csv": "38619a2d2edbe98c2c803f1d612f9ba6a6a4daf1f23c596513ab78d237b05d96",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/edges.csv": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/evidence.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/field_provenance.csv": "618095657d14e71c92bfa9c2f339342e50978a89b426afe37052983d0e128c5f",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/merge_log.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/needs_review.csv": "48870f021e88d202632160656d14aace436fdb0ce5ac8e4a94684f5ebe807730",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/nodes.csv": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/paper_registry.csv": "eeae4145957215d57dbc04aae27c0ed658ae9591f990af6b589e944061def8eb",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/papers.jsonl": "e904400072e127e309970cbcb3192c315310726f27017ae236ed52b430bea58a",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/source_records.jsonl": "fb820d95d11efc567749dbe7f9fc4af56b89351b2e65ef22ebc27041927b53b4",
+    "data/processed/iccv2023/full/snapshots/d2a761c00cf3dcfde3101e377d3c324a07be25e041d317af874cb1e4a31359e4/text_versions.jsonl": "c481a07c467911d3181ff3d8558ae263f58f0d6ac84f6e2295deee650af988ed",
+    "data/processed/mxh_cv_700/b5/edges.csv": "70e13983aa36e4a1962676c23122ee5d03444b7a6c36101ffa4236850481df46",
+    "data/processed/mxh_cv_700/b5/evidence.jsonl": "f23d1ed0a603ece98608d34d9cd402408bf9c73fc79599e499e36f27210d5a40",
+    "data/processed/mxh_cv_700/b5/needs_review.csv": "7d5ab97dd2a6e33fb79ae05444a0f2e57c71c4991de7d429971bb147d498978b",
+    "data/processed/mxh_cv_700/b5/nodes.csv": "9f27cf15e81a9dc0b54770c24707ce34c18d222803bbe1c8be10da852ebc372c",
+    "data/processed/mxh_cv_700/b5/snapshot_manifest.json": "bc49c86217ffa782810591d3fff1e99f86921e0178d67c6f6d5f491ea648904e",
+    "data/processed/mxh_cv_700/graph_b5/alias_map.csv": "b919007ef45e809d0ab111e10d90e7a1716e8ae0a08a47f1a4a66f343062f36a",
+    "data/processed/mxh_cv_700/graph_b5/authorships.csv": "b4d57ea8bdaf047f80ab95e4f13f8828aa697928d94e58ee49b39a7164f1033e",
+    "data/processed/mxh_cv_700/graph_b5/edges.csv": "de48d8eba52016c185d59d29b60f0ae92b5cda46c51bbba8830dd60b71842278",
+    "data/processed/mxh_cv_700/graph_b5/evidence.jsonl": "b9465ff86dca3567236fda2a786496240567998d1e37771b46aa47f9ae71ecf0",
+    "data/processed/mxh_cv_700/graph_b5/field_provenance.csv": "150f7db530068cd07f2302701edaa1ab33feabcc434c5b66e4035674846e8329",
+    "data/processed/mxh_cv_700/graph_b5/merge_log.jsonl": "dde8f3db024734fc75344c899f496ebe1e350be3147237ec3807f1971d9f0f64",
+    "data/processed/mxh_cv_700/graph_b5/needs_review.csv": "f06b06ce2eabb8e933ab6bd5a836af0cd87d5ac16527e9bb76f299315fe1fd60",
+    "data/processed/mxh_cv_700/graph_b5/nodes.csv": "2f4554a1c288186ba163efdec7534684df04450fd9a59b96a11bedcc378f983b",
+    "data/processed/mxh_cv_700/graph_b5/paper_registry.csv": "cb3cac189f4aea73ddb8437b0411bc62ffd15690823d0c636d8c251a48bb815f",
+    "data/processed/mxh_cv_700/graph_b5/papers.jsonl": "2ca703b7ede6c124780eb0090bb1340124b29fe09a9aa43ab8ec18e9e281b40a",
+    "data/processed/mxh_cv_700/graph_b5/snapshot_manifest.json": "a5208f04e4e68c1d9838ca23a06cfc22266504b3f5c0d73bcabd978fd5b63e13",
+    "data/processed/mxh_cv_700/graph_b5/source_records.jsonl": "77706979ab1a3011fa791a6b6537284f9fee071c9c836ef421165246a8ee9a0f",
+    "data/processed/mxh_cv_700/graph_b5/text_versions.jsonl": "9e736af45465fb262e415a5695c85f8ff46cb2de0c5e50ba46c23889b8ffcb00",
+    "outputs/a6/a6_automatic_report.json": "1bd53381a41cc1bf13bcbd217986080e0912fa1cfa09edd25591ce34d25a35a0",
+    "outputs/a6/a6_edge_audit_sample.csv": "b6ca9ae7ecf37af2f252eddf4a4edf0a4bb42047bc259403688565c1d9186160",
+    "outputs/a6/a6_node_audit_sample.csv": "cc0c709199b8156f791258f07b1b954883980015e769448fae9de4fb1cd15ef2",
+    "outputs/a6/a6_review_issues.csv": "2d9b2d161753d4c0528327ad37e5d870064360ba4fab22e5a868ddeae5918859",
+    "outputs/a6/a6_run_manifest.json": "cd4dcc9dabb5a9aa1b42d19a6c1b3365749fee3788dc881fa71f799444bba7e0",
+    "src/audit/sampling.py": "923cb8a820c31903c376527319b1645e0d4483981abf7066d03166406a75ba42",
+    "src/nlp/rules.py": "633c93004dbb7f574b22ccd1807f0341aa18917d4e6cec1073628dda62846c45",
+    "src/reporting/a7.py": "b05274b74f0a761166bde183920b317293f07368d0797fa3353999238a30fbda"
+  },
+  "pending_b": [
+    "PENDING_B: B6 NetworkX, phân tích cấu trúc và case study (ngoài phạm vi A7)",
+    "PENDING_B: B7 chấm/đọc chéo, phân xử audit cùng A; hoàn thiện phần báo cáo B",
+    "PENDING_B: chốt snapshot/Neo4j và báo cáo nhóm ở A8/B8"
+  ]
+}
