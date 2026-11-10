@@ -7,7 +7,7 @@ from contract_v2.text import canonical_json, evidence_id, identifier, sha256
 from src.collect.common import REPO_ROOT, within, publish, record_bytes, json_bytes
 from src.collect.contract import contract
 from src.collect.pilot import snapshot_payload
-from .rules import Extractor, RULE_IDS, RULE_VERSION
+from .rules import Extractor, RULE_IDS, METHOD_RULE_IDS, RULE_VERSION
 from .validation import TABLES, load_inputs, field_binding, validate_nlp
 
 CODE_VERSION = "a4-nlp-1.0.0"
@@ -62,7 +62,7 @@ def extract(original, extractor, project_id="mxh_cv_700"):
                 if c.reason:
                     review(paper, field, c.reason, c, ev)
                     continue
-                typ = "STUDIES_TASK" if ent["label"] == "Task" else "EVALUATED_ON"
+                typ = {"Task": "STUDIES_TASK", "Dataset": "EVALUATED_ON", "Method": "USES_METHOD"}[ent["label"]]
                 eid = identifier("edge", paper["paper_id"], typ, ent["id"])
                 edge = edges.setdefault(eid, dict(edge_id=eid, src=paper["paper_id"], dst=ent["id"], type=typ, weight=1,
                     derivation="nlp", validation_status="accepted", evidence_ids=[], paper_ids=[paper["paper_id"]],
@@ -86,9 +86,21 @@ def extract(original, extractor, project_id="mxh_cv_700"):
                   "review_by_reason": dict(Counter(r["reason"] for r in reviews.values()))}
 
 
+def code_version(extractor):
+    return CODE_VERSION + ("+b5-1.0.0" if extractor.method_dictionary else "")
+
+
+def dictionary_versions(extractor):
+    version = lambda d: d["version"] + ":" + sha256(canonical_json(d).encode())
+    result = {"a4-cv": version(extractor.base_dictionary)}
+    if extractor.method_dictionary:
+        result["b5-method"] = version(extractor.method_dictionary)
+    return result
+
+
 def prepare(root, config_path):
     cfg = json.loads(within(root, config_path).read_text(encoding="utf-8"))
-    if set(cfg) != {"input_manifests", "output_dir", "dictionary", "model"} or not cfg["input_manifests"]:
+    if not {"input_manifests", "output_dir", "dictionary", "model"} <= set(cfg) <= {"input_manifests", "output_dir", "dictionary", "model", "method_dictionary"} or not cfg["input_manifests"]:
         raise ValueError("Invalid A4 config")
     out = within(root, cfg["output_dir"])
     if not out.is_relative_to(within(root, "data/processed")):
@@ -98,7 +110,11 @@ def prepare(root, config_path):
     if any(within(root, p).is_relative_to(out) for p in cfg["input_manifests"]) or any(p.is_relative_to(out) for p in protected):
         raise ValueError("A4 output overlaps input snapshot")
     dictionary = json.loads(within(root, cfg["dictionary"]).read_text(encoding="utf-8"))
-    extractor = Extractor(dictionary, cfg["model"])
+    method_dictionary = None
+    if cfg.get("method_dictionary"):
+        method_dictionary = json.loads(within(root, cfg["method_dictionary"]).read_text(encoding="utf-8"))
+    extractor = Extractor({**dictionary, "methods": method_dictionary["methods"]} if method_dictionary else dictionary, cfg["model"])
+    extractor.base_dictionary, extractor.method_dictionary = dictionary, method_dictionary
     data, summary = extract(original, extractor)
     return cfg, manifests, original, extractor, data, summary
 
@@ -112,10 +128,10 @@ def run(root=REPO_ROOT, config_path=DEFAULT_CONFIG):
         path = cfg["output_dir"] + "/" + name
         files.append(dict(path=path, sha256=sha256(body), record_count=len(data[name]), role=spec["files"][name]["stage"]))
         contents[within(root, path)] = body
-    manifest = dict(project_id=spec["project_id"], schema_version=spec["schema_version"], code_version=CODE_VERSION,
+    manifest = dict(project_id=spec["project_id"], schema_version=spec["schema_version"], code_version=code_version(extractor),
         normalization_version="nfc-ws-1", parser_versions=sorted({v for m in inputs for v in m["parser_versions"]} | {extractor.runtime}),
-        rule_versions={k: RULE_VERSION for k in (*RULE_IDS, "a4-review")},
-        dictionary_versions={"a4-cv": extractor.dictionary["version"] + ":" + sha256(canonical_json(extractor.dictionary).encode())},
+        rule_versions={k: RULE_VERSION for k in (*RULE_IDS, *(METHOD_RULE_IDS if extractor.method_dictionary else ()), "a4-review")},
+        dictionary_versions=dictionary_versions(extractor),
         applied_decision_ids=[], graph_ready=False, node_count=None, edge_count=None, files=files,
         source_snapshot_id=identifier("snapshot:v2", *[m["snapshot_id"] for m in inputs]),
         created_at=max(m["created_at"] for m in inputs))

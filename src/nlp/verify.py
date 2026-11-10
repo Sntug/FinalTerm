@@ -3,9 +3,9 @@ import argparse
 import json
 from pathlib import Path
 
-from contract_v2.text import canonical_json, identifier, sha256
+from contract_v2.text import identifier
 from src.collect.common import REPO_ROOT, within
-from .pipeline import prepare, DEFAULT_CONFIG, CODE_VERSION
+from .pipeline import prepare, DEFAULT_CONFIG, code_version, dictionary_versions
 from .validation import TABLES, read_manifest, validate_nlp, verify_graph_contract
 
 
@@ -15,12 +15,11 @@ def verify(root=REPO_ROOT, config_path=DEFAULT_CONFIG):
     manifest, data = read_manifest(root, cfg["output_dir"] + "/snapshot_manifest.json", TABLES)
     if manifest["graph_ready"] is not False or manifest["node_count"] is not None or manifest["edge_count"] is not None:
         raise ValueError("A4 intermediate output is not a complete graph")
-    if manifest["code_version"] != CODE_VERSION or manifest["input_manifests"] != cfg["input_manifests"]:
+    if manifest["code_version"] != code_version(extractor) or manifest["input_manifests"] != cfg["input_manifests"]:
         raise ValueError("A4 config/code mismatch")
     if manifest["source_snapshot_id"] != identifier("snapshot:v2", *[m["snapshot_id"] for m in inputs]):
         raise ValueError("A4 source snapshot mismatch")
-    dictionary_version = extractor.dictionary["version"] + ":" + sha256(canonical_json(extractor.dictionary).encode())
-    if manifest["dictionary_versions"] != {"a4-cv": dictionary_version} or extractor.runtime not in manifest["parser_versions"]:
+    if manifest["dictionary_versions"] != dictionary_versions(extractor) or extractor.runtime not in manifest["parser_versions"]:
         raise ValueError("A4 dictionary/runtime mismatch")
     validate_nlp(data, original)
     if data != expected:
