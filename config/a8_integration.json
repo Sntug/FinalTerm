@@ -1,0 +1,17 @@
+{
+  "output_dir": "outputs/a8",
+  "nlp_config": "config/a8_nlp_700.json",
+  "graph_config": "config/a8_graph_700.json",
+  "audit_config": "config/a8_audit.json",
+  "report_config": "config/a7_report.json",
+  "baseline_graph_manifest": "data/processed/mxh_cv_700/graph_b5/snapshot_manifest.json",
+  "collectors": [
+    {"owner":"A", "manifest":"data/processed/cvpr2024/a2_350/snapshot_manifest.json", "clean_config":"config/a_cvpr2024_a3.json", "metadata_config":"config/a_cvpr2024_a5.json"},
+    {"owner":"B", "manifest":"data/processed/iccv2023/full/snapshot_manifest.json", "clean_config":"config/b_iccv2023_a3.json"}
+  ],
+  "dependencies": [
+    {"task":"B6", "paths":["src/analysis", "outputs/b6"], "owner":"B", "missing":"Chưa có chương trình/kết quả NetworkX và case study", "required":"B cung cấp module, lệnh chạy, bảng/hình gắn đúng snapshot A8", "verify":"Chạy lệnh B cung cấp và đối chiếu snapshot_id/hash; file tồn tại chưa đủ PASS"},
+    {"task":"B7", "paths":["report/b7_graph_analysis.md"], "owner":"A/B", "missing":"Chưa có phần báo cáo graph B7; audit/đọc chéo chưa hoàn tất", "required":"A/B chấm phiếu A8, phân xử lỗi; B bổ sung phần báo cáo graph", "verify":"Chạy src.audit summarize với config/a8_audit.json, rồi chạy lại A8"},
+    {"task":"B8", "paths":["report/final_report.pdf"], "owner":"A/B", "missing":"Chưa có báo cáo nhóm cuối hoặc bằng chứng nộp bài", "required":"B hợp nhất báo cáo và cùng A chốt snapshot/Neo4j, links và phiên bản nộp", "verify":"Review báo cáo nhóm và release/links thực tế; không tự tuyên bố đã nộp"}
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED_ENV",
+  "reason": "Neo4j Python driver is not installed; no DB queries/writes executed",
+  "verified_at": "2026-11-10T16:13:50Z"
+}

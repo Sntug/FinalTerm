@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED_ENV",
+  "reason": "Set A8_NEO4J_TEST_URI/USER/PASSWORD for a separate empty test instance; .env is not used",
+  "verified_at": "2026-11-10T16:13:49Z"
+}

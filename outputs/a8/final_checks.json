@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "offline_checks_passed": true,
+  "status_counts": {
+    "PASS": 15,
+    "PENDING_B": 1,
+    "BLOCKED_ENV": 2
+  },
+  "test_suites": {
+    "quality": {
+      "status": "PASS",
+      "run": 170,
+      "passed": 170,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "skips": []
+    },
+    "b_regression": {
+      "status": "PASS",
+      "run": 13,
+      "passed": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 3,
+      "skips": [
+        "Neo4j unreachable",
+        "Neo4j unreachable",
+        "Neo4j unreachable"
+      ]
+    }
+  },
+  "receipt_hash_bindings_checked": 21,
+  "a7_input_hashes_checked": 84,
+  "a7_artifact_hashes_checked": 6,
+  "local_report_links_valid": true,
+  "credential_pattern_findings": [],
+  "git_staging_preserved": true,
+  "changed_paths_including_private_gitignore": 49,
+  "is_final": false,
+  "data_scope_complete": true
+}
