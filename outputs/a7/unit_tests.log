@@ -1,0 +1,20 @@
+test_changed_audit_receipt_is_stale_not_passed (test_a7_report.A7ReportingTests.test_changed_audit_receipt_is_stale_not_passed) ... ok
+test_missing_b_is_explicit_pending_and_has_no_invented_counts (test_a7_report.A7ReportingTests.test_missing_b_is_explicit_pending_and_has_no_invented_counts) ... ok
+test_missing_or_duplicated_markers_fail_without_overwriting_prose (test_a7_report.A7ReportingTests.test_missing_or_duplicated_markers_fail_without_overwriting_prose) ... ok
+test_pending_human_reviews_remain_null_and_read_only (test_a7_report.A7ReportingTests.test_pending_human_reviews_remain_null_and_read_only) ... ok
+test_real_examples_reference_exact_source_slices (test_a7_report.A7ReportingTests.test_real_examples_reference_exact_source_slices) ... ok
+test_report_updates_only_machine_blocks (test_a7_report.A7ReportingTests.test_report_updates_only_machine_blocks) ... ok
+test_absent_abstract_and_links_are_missing_not_zero_population (test_a7_report.A7StatisticsTests.test_absent_abstract_and_links_are_missing_not_zero_population) ... ok
+test_authorship_denominator_ignores_multi_affiliation_rows (test_a7_report.A7StatisticsTests.test_authorship_denominator_ignores_multi_affiliation_rows) ... ok
+test_conflicting_cross_corpus_doi_blocks_total (test_a7_report.A7StatisticsTests.test_conflicting_cross_corpus_doi_blocks_total) ... ok
+test_core_papers_and_registry_cannot_be_double_counted (test_a7_report.A7StatisticsTests.test_core_papers_and_registry_cannot_be_double_counted) ... ok
+test_missing_is_complement_with_explicit_denominator (test_a7_report.A7StatisticsTests.test_missing_is_complement_with_explicit_denominator) ... ok
+test_new_metadata_leaves_old_graph_pending_instead_of_false_total (test_a7_report.A7StatisticsTests.test_new_metadata_leaves_old_graph_pending_instead_of_false_total) ... ok
+test_shared_id_with_conflicting_orcid_is_not_silently_merged (test_a7_report.A7StatisticsTests.test_shared_id_with_conflicting_orcid_is_not_silently_merged) ... ok
+test_shared_people_and_institutions_use_union_not_sum (test_a7_report.A7StatisticsTests.test_shared_people_and_institutions_use_union_not_sum) ... ok
+test_workshop_is_not_core (test_a7_report.A7StatisticsTests.test_workshop_is_not_core) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 8.120s
+
+OK

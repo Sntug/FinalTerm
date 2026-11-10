@@ -1,0 +1,3 @@
+# Reporting uses the existing Contract v2 / spaCy environment.
+-r requirements_a4.txt
+matplotlib==3.10.7

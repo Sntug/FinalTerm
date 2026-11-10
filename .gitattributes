@@ -18,4 +18,10 @@
 /outputs/a2_cvpr2024/* text eol=lf
 /outputs/a6/** -text
 /outputs/a6_execution/** -text
+/outputs/a7/** -text
+/report/a7_data_preprocessing_nlp.md text eol=lf
+/src/reporting/*.py text eol=lf
+/config/a7_report.json text eol=lf
+/config/requirements_a7.txt text eol=lf
+/quality/checks/test_a7_report.py text eol=lf
 /handoff/a/A2_HANDOFF.md text eol=lf
