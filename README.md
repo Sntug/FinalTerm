@@ -145,6 +145,28 @@ B nhận `snapshot_manifest.json` cùng 12 bảng và raw/receipt A5. Với conf
 
 A5 đã có đầu ra kiểm chứng offline và pipeline tương thích; chưa phải toàn bộ ID/affiliation đã resolve hoặc mọi DOI/arXiv đều được nguồn độc lập xác nhận. Nhánh `feature/a5-metadata-verification` tạo từ `beea14c` (đã có A4), sau đó đồng bộ main `84f3a90` chứa B5 bằng fast-forward, không conflict. Sau đồng bộ, 114 test quality và verifier A5/B5 qua; `.gitattributes` bảo toàn bytes snapshot B5 trên Windows. Phần A5 được bàn giao trên nhánh để review trước khi merge.
 
+## A6 — Review dữ liệu và quality audit
+
+A5 đã merge qua PR #8; A6 bắt đầu từ main `e442724` đã có cả A5/B5. Các thay đổi `.gitignore` riêng của người dùng được giữ nguyên, không stash; không có conflict Git.
+
+A6 dùng `config/a6_audit.json`, đọc A5 CVPR + A3 ICCV và graph B5 đúng snapshot. Mã kiểm tra nằm trong `src/audit/checks.py`, điều phối/validator trong `pipeline.py`, lấy mẫu và tổng hợp phiếu trong `sampling.py`; tests: `quality/checks/test_a6_audit.py`. Tái sử dụng validator/replay A3/A5/B5 và Contract v2 gốc. Các cạnh cộng tác được kiểm tra độc lập bằng tập Paper/tác giả/affiliation; CITES đối chiếu referenced works, evidence NLP dùng validator offset Unicode chuẩn. Không thay schema, pipeline hoặc dữ liệu B.
+
+Từ `FinalTerm`, Windows PowerShell:
+
+```powershell
+$a6Python = ".\.venv-a4\Scripts\python.exe"
+& $a6Python -B -X utf8 -m src.audit run --config config/a6_audit.json
+& $a6Python -B -X utf8 -m unittest discover -s quality/checks -p 'test_*.py' -v
+# Sau khi A/B điền phiếu:
+& $a6Python -B -X utf8 -m src.audit summarize --config config/a6_audit.json
+```
+
+**Báo cáo A6 chuẩn:** [a6_review_summary.md](outputs/a6/a6_review_summary.md). Các file cùng thư mục gồm `a6_review_issues.csv`, `a6_edge_audit_sample.csv`, `a6_node_audit_sample.csv`, báo cáo máy và manifest ràng buộc snapshot. `run` chạy offline; chỉ thử truy vấn MATCH đếm Neo4j khi có driver/kết nối, nếu không ghi `not_run`/`blocked`, không coi là đã qua Neo4j.
+
+Mẫu dùng seed `20261103` của collector: 100 cạnh khác nhau (10/loại), A/B mỗi người 50 primary và 10 lượt đọc chéo; CSV cạnh có 120 dòng vì có 20 lượt đọc chéo. Chọn 50 node rủi ro từ node thật. Mọi phiếu ban đầu là `pending_review`; Codex không điền kết quả chấm độc lập. Đọc hướng dẫn trong báo cáo, chỉ sửa 5 cột người chấm được phép; `summarize` từ chối nếu ID/evidence/membership/assignment hoặc input snapshot đổi. `unverifiable` được tính là chưa đúng, `pending_review` bị loại khỏi mẫu số đã chấm; tỷ lệ khi chưa chấm là null. Không suy precision toàn graph >90% từ mẫu.
+
+`run` từ chối ghi đè phiếu đã sửa. Nếu đổi snapshot/rule/seed, dùng `output_dir` mới; `summarize` chỉ cập nhật báo cáo dẫn xuất, giữ phiếu gốc. Trạng thái A6/A7 dựa trên kiểm tra máy và phần chấm thật, không dựa vào số mẫu đã tạo. B cần xem các issue owner B/A|B: evidence CITES chưa trỏ cụ thể reference field, các xung đột ORCID, tên trùng và ngữ cảnh Method cần đọc nguồn. Hiện A6 đã có phần tự động và phiếu chấm; việc chấm A/B, phân xử bất đồng và nghiệm thu chất lượng vẫn đang chờ.
+
 ## Neo4j pilot trên môi trường macOS của B
 
 Phần dưới ghi lại môi trường lần chạy B; không mô tả máy Windows chạy A4.

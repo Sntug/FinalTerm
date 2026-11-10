@@ -1,0 +1,15 @@
+{
+  "branch": "feature/a6-quality-audit",
+  "base_commit": "e442724b86b4e3a6fb451595f2aeccd67f14717c",
+  "input_source_and_shared_code_unchanged": true,
+  "user_staged_and_unstaged_changes_preserved": true,
+  "all_human_reviews_pending": true,
+  "committed": false,
+  "pushed": false,
+  "neo4j_modified": false,
+  "quality_tests": 131,
+  "a6_tests": 17,
+  "b_tests_passed": 10,
+  "b_live_tests_skipped": 3,
+  "automatic_report_bytes": 13791
+}

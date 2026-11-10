@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "idempotent_artifacts": 7,
+  "summarize_pending_idempotent": true,
+  "primary_edges": 100,
+  "cross_reviews": 20,
+  "risk_nodes": 50,
+  "all_human_ratings_pending": true,
+  "report_size_bytes": 13791,
+  "source_tables_copied_into_report": false
+}
