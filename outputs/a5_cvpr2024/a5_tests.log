@@ -1,0 +1,72 @@
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_429_checkpoint_prevents_repeated_requests (test_a5_metadata.CacheTest.test_429_checkpoint_prevents_repeated_requests) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_offline_cache_miss_is_unverified_and_url_allowlist (test_a5_metadata.CacheTest.test_offline_cache_miss_is_unverified_and_url_allowlist) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_source_cache_reuses_raw_and_no_duplicate_source (test_a5_metadata.CacheTest.test_source_cache_reuses_raw_and_no_duplicate_source) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_bad_raw_or_table_hash_fails_before_publication (test_a5_metadata.IntegrationTest.test_bad_raw_or_table_hash_fails_before_publication) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_comparison_and_manifest_tampering_rejected (test_a5_metadata.IntegrationTest.test_comparison_and_manifest_tampering_rejected) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_contract_replay_idempotency_and_b_exporter_in_memory (test_a5_metadata.IntegrationTest.test_contract_replay_idempotency_and_b_exporter_in_memory) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_iccv_config_and_output_scope (test_a5_metadata.IntegrationTest.test_iccv_config_and_output_scope) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_ambiguous_names_distinct_ids_never_merge (test_a5_metadata.SafetyTest.test_ambiguous_names_distinct_ids_never_merge) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_arxiv_same_paper_and_conference_date_byline_preserved (test_a5_metadata.SafetyTest.test_arxiv_same_paper_and_conference_date_byline_preserved) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_changed_preprint_authors_are_reviewed_not_unioned (test_a5_metadata.SafetyTest.test_changed_preprint_authors_are_reviewed_not_unioned) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_duplicate_doi_keeps_locked_papers_and_queues_conflict (test_a5_metadata.SafetyTest.test_duplicate_doi_keeps_locked_papers_and_queues_conflict) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_exact_conference_doi_update_has_reversible_provenance (test_a5_metadata.SafetyTest.test_exact_conference_doi_update_has_reversible_provenance) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_institution_alias_same_id_does_not_change_or_create_node (test_a5_metadata.SafetyTest.test_institution_alias_same_id_does_not_change_or_create_node) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_invalid_institution_ror_is_reviewed (test_a5_metadata.SafetyTest.test_invalid_institution_ror_is_reviewed) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_lookup_preserves_explicit_preprint_version (test_a5_metadata.SafetyTest.test_lookup_preserves_explicit_preprint_version) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_multiple_affiliations_and_changed_employers_are_paper_scoped (test_a5_metadata.SafetyTest.test_multiple_affiliations_and_changed_employers_are_paper_scoped) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_near_title_wrong_authors_preprint_doi_never_updates (test_a5_metadata.SafetyTest.test_near_title_wrong_authors_preprint_doi_never_updates) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_same_author_different_years_keeps_each_papers_institution (test_a5_metadata.SafetyTest.test_same_author_different_years_keeps_each_papers_institution) ... ok
+CVF valid 1/1; requests 0
+CVF valid 1/1; OpenAlex completed 0/1
+test_unavailable_lookup_does_not_fabricate_source_or_resolve_review (test_a5_metadata.SafetyTest.test_unavailable_lookup_does_not_fabricate_source_or_resolve_review) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.436s
+
+OK

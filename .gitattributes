@@ -1,9 +1,12 @@
 # Locked snapshots must retain their manifest bytes on Windows as well as macOS.
 /config/contracts/v2/*.json -text
 /data/processed/cvpr2024/** -text
+/data/raw/cvpr2024/a5/** -text
 /data/processed/iccv2023/** -text
 /data/processed/mxh_cv_700/a4/** -text
 /data/processed/mxh_cv_700/graph_a4/** -text
+/data/processed/mxh_cv_700/b5/** -text
+/data/processed/mxh_cv_700/graph_b5/** -text
 /data/raw/cvpr2024/http/* -text
 /data/raw/cvpr2024/openalex/* -text
 /data/raw/cvpr2024/bootstrap_manifest.json -text

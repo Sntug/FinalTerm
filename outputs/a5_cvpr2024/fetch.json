@@ -1,0 +1,76 @@
+{
+  "planned": 10,
+  "network_requests_this_run": 10,
+  "results": [
+    {
+      "paper_id": "cvf:CVPR2024:Chen_VP3D_Unleashing_2D_Visual_Prompt_for_Text-to-3D_Generation_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2403.17001",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Fu_COLMAP-Free_3D_Gaussian_Splatting_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2312.07504",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Kwon_Improving_Visual_Recognition_with_Hyperbolical_Visual_Hierarchy_Mapping_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2404.00974",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2311.14897",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2401.05224",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Wei_DreamVideo_Composing_Your_Dream_Videos_with_Customized_Subject_and_Motion_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2312.04433",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Xia_Text2Loc_3D_Point_Cloud_Localization_from_Natural_Language_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2311.15977",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Zubic_State_Space_Models_for_Event_Cameras_CVPR_2024",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2402.15584",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Chen_ConsistDreamer_3D-Consistent_2D_Diffusion_for_High-Fidelity_Scene_Editing_CVPR_2024",
+      "source": "Crossref",
+      "url": "https://api.crossref.org/works/10.1109%2Fcvpr52733.2024.01991",
+      "status": "fetched",
+      "reason": ""
+    },
+    {
+      "paper_id": "cvf:CVPR2024:Chen_VP3D_Unleashing_2D_Visual_Prompt_for_Text-to-3D_Generation_CVPR_2024",
+      "source": "Crossref",
+      "url": "https://api.crossref.org/works/10.1109%2Fcvpr52733.2024.00468",
+      "status": "fetched",
+      "reason": ""
+    }
+  ]
+}

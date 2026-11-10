@@ -1,0 +1,12 @@
+{
+  "paper_ids": [],
+  "authorship_ids": [],
+  "changed_fields": [],
+  "author_ids_changed": false,
+  "institution_ids_changed": false,
+  "affiliations_changed": false,
+  "text_versions_changed": false,
+  "regenerate_graph": false,
+  "revalidate_a4_manifest_binding": true,
+  "note": "A5 does not emit a final graph or modify Neo4j. Use B exporter to rebuild after choosing this snapshot; old A4 adapter inputs must be rebound/replayed for a new metadata manifest."
+}

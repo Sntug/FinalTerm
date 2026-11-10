@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:be7381e326f64f235e1a4add88d606b990c97beb605111c01cd512d72321f086",
+  "tables_checked": 12,
+  "records_checked": 28816,
+  "raw_sources_checked": 1032,
+  "deterministic_replay": true,
+  "graph_ready": false
+}

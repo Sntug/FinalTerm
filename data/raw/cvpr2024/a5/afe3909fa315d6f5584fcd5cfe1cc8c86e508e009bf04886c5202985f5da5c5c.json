@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Xia_Text2Loc_3D_Point_Cloud_Localization_from_Natural_Language_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2311.15977",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:a713c2bc50bc70d890fc2d07ab8d4bf7db9ee546d3f833ae06f4499f5623280d",
+    "paper_id": "cvf:CVPR2024:Xia_Text2Loc_3D_Point_Cloud_Localization_from_Natural_Language_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2311.15977",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2311.15977",
+    "fetched_at": "2026-11-10T06:23:39Z",
+    "http_status": 200,
+    "content_sha256": "70cd67d075bfb2bdf2d085921212f08116a7d459927acb418e2ee133eceafdb7",
+    "raw_path": "data/raw/cvpr2024/a5/70cd67d075bfb2bdf2d085921212f08116a7d459927acb418e2ee133eceafdb7.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 19:10:32 GMT"
+  }
+}
