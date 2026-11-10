@@ -169,7 +169,7 @@ Mẫu dùng seed `20261103` của collector: 100 cạnh khác nhau (10/loại), 
 
 ## A7 — Báo cáo dữ liệu, tiền xử lý và NLP
 
-Nội dung chuẩn: [báo cáo A7](report/a7_data_preprocessing_nlp.md), gồm nguồn/phạm vi, chuẩn hóa và định danh, luật Task/Dataset, bảng thống kê theo hội nghị, hai hình và giới hạn A6. Số liệu sinh từ manifest A5 CVPR, A3 ICCV và graph/NLP B5; tổng nhóm dùng union canonical ID, affiliation dùng DISTINCT authorship làm mẫu số. Không thay raw/processed, schema, phiếu A6 hoặc code B.
+Nội dung chuẩn: [báo cáo A7](report/a7_data_preprocessing_nlp.md), gồm nguồn/phạm vi, chuẩn hóa và định danh, luật Task/Dataset, bảng thống kê theo hội nghị, hai hình và giới hạn audit. A8 cập nhật config A7 sang ứng viên graph/NLP dùng A5 CVPR + A3 ICCV và luật A4/B5; tổng nhóm dùng union canonical ID, affiliation dùng DISTINCT authorship làm mẫu số. Chạy A8 để tạo ứng viên trước khi chạy riêng A7; không thay raw/schema, phiếu A6 cũ hoặc code B.
 
 ```powershell
 $a7Python = ".\.venv-a4\Scripts\python.exe"
@@ -180,7 +180,28 @@ $a7Python = ".\.venv-a4\Scripts\python.exe"
 
 Đầu ra: `outputs/a7/metrics.json`, `outputs/a7/figures/*.{png,svg}` và các khối bảng có marker trong báo cáo. PNG 300 dpi để chèn Word, SVG để chỉnh cỡ không mất nét. Mã `src/reporting/a7.py` tái sử dụng reader/validator Contract, replay NLP và cách tổng hợp phiếu A6; chạy offline sau khi cài thư viện. Phần văn bản ngoài marker được giữ khi chạy lại. Đổi snapshot bằng config, không sửa manifest cũ; B thiếu input tùy chọn hiện `PENDING_B`, graph lệch corpus không được công bố làm tổng nhóm mới, hash/schema sai làm lệnh dừng.
 
-A7 có thể hoàn thiện nội dung từ dữ liệu hiện có dù B6–B7 chưa xong. Các phần NetworkX/case study và chốt snapshot nhóm vẫn `PENDING_B`; chấm/đọc chéo A6 còn cần cả A và B. Chưa có precision thủ công thì giữ null, không kết luận toàn graph >90%. Có thể bắt đầu chuẩn bị gói/replay A8 độc lập; nghiệm thu chung chờ audit và snapshot/Neo4j cuối. Chi tiết số liệu, nguồn và giới hạn chỉ duy trì trong báo cáo A7.
+A7 có thể hoàn thiện nội dung từ dữ liệu hiện có dù B6–B7 chưa xong. Các phần NetworkX/case study và chốt snapshot nhóm vẫn `PENDING_B`; chấm/đọc chéo audit còn cần cả A và B. Chưa có precision thủ công thì giữ null, không kết luận toàn graph >90%. Chi tiết số liệu, nguồn và giới hạn chỉ duy trì trong báo cáo A7.
+
+## A8 — Tích hợp, kiểm thử và bàn giao
+
+Hướng dẫn/trạng thái chuẩn: [bàn giao A8](report/a8_handoff.md). Runner `src/integration/a8.py` gọi lại collector/clean/A5 validators, NLP A4/B5, exporter/reader B3/B4, audit và A7; không xây pipeline graph khác. Input A5 CVPR + A3 ICCV; output riêng `data/processed/mxh_cv_700/a8/{nlp,graph}`. Graph B5 và dữ liệu A/B cũ được giữ nguyên. Có đủ 700 core vẫn là ứng viên, chưa là release cuối nếu audit/live/B6–B8 chưa qua.
+
+```powershell
+# Tạo môi trường một lần; sau khi cài dependencies, replay chạy offline.
+py -3.12 -m venv .venv-a4
+$a8Python = ".\.venv-a4\Scripts\python.exe"
+& $a8Python -m pip install -r config/requirements_a7.txt
+if (!(Test-Path -LiteralPath .env)) { Copy-Item -LiteralPath .env.example -Destination .env }
+& $a8Python -B -X utf8 -m src.integration.a8 run
+# Đối chiếu DB theo snapshot/content hash, chỉ MATCH đọc dữ liệu:
+& $a8Python -B -X utf8 -m src.integration.a8 neo4j-check
+```
+
+Biên nhận ở `outputs/a8/integration_manifest.json`, chi tiết/lệnh/log ở `validation_summary.json` và `*_tests.log`. Trạng thái: PASS/FAIL/PENDING_B/BLOCKED_ENV/NOT_RUN; bỏ qua tests không phải PASS. Mặc định runner không import/xóa DB, và vô hiệu hóa live tests tự ghi DB của B trong lượt regression offline. Thiếu Neo4j driver/kết nối ghi BLOCKED_ENV; `last_import.json` cũ không chứng minh DB hiện tại.
+
+Audit đúng ứng viên ở `outputs/a8/audit`, giữ phiếu cũ `outputs/a6`. Sau khi A/B chấm, chạy `python -m src.audit summarize --config config/a8_audit.json` rồi A8; runner không ghi đè phiếu đã điền. Đổi nguồn/rule/snapshot cần output NLP/graph/audit mới và cập nhật các config A8 + A7 cho cùng binding. Không chỉnh manifest đã khóa.
+
+Thử import chỉ qua `python -m src.integration.a8 test-import` trên instance test riêng, rỗng, với `A8_NEO4J_TEST_URI/USER/PASSWORD` do người vận hành cấu hình. Helper từ chối port mặc định/chính, DB có dữ liệu và URI chứa credential; không dùng `.env`, không tự tạo mật khẩu/server hoặc dọn DB. Nó gọi loader B để thử nhập lặp và rollback; phần live chỉ được công nhận khi receipt đúng snapshot ghi PASS. Khi B bổ sung analysis/báo cáo, cập nhật đường dẫn dependency trong `config/a8_integration.json` và thực hiện lệnh B bàn giao; file xuất hiện chỉ chuyển NOT_RUN cho tới khi kiểm chứng, không tự thành DONE.
 
 ## Neo4j pilot trên môi trường macOS của B
 

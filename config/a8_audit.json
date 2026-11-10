@@ -1,0 +1,13 @@
+{
+  "seed": 20261103,
+  "edges_per_type": 10,
+  "node_count": 50,
+  "cross_reviews_per_person": 10,
+  "output_dir": "outputs/a8/audit",
+  "graph_manifest": "data/processed/mxh_cv_700/a8/graph/snapshot_manifest.json",
+  "nlp_config": "config/a8_nlp_700.json",
+  "corpora": [
+    {"owner":"A", "conference":"CVPR", "year":2024, "target":350, "manifest":"data/processed/cvpr2024/a5_350/snapshot_manifest.json", "clean_config":"config/a_cvpr2024_a3.json", "metadata_config":"config/a_cvpr2024_a5.json"},
+    {"owner":"B", "conference":"ICCV", "year":2023, "target":350, "manifest":"data/processed/iccv2023/a3_350/snapshot_manifest.json", "clean_config":"config/b_iccv2023_a3.json"}
+  ]
+}

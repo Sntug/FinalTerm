@@ -1,9 +1,9 @@
 {
   "output_dir": "outputs/a7",
   "report": "report/a7_data_preprocessing_nlp.md",
-  "audit_config": "config/a6_audit.json",
-  "graph_manifest": "data/processed/mxh_cv_700/graph_b5/snapshot_manifest.json",
-  "nlp_config": "config/b5_nlp_700.json",
+  "audit_config": "config/a8_audit.json",
+  "graph_manifest": "data/processed/mxh_cv_700/a8/graph/snapshot_manifest.json",
+  "nlp_config": "config/a8_nlp_700.json",
   "corpora": [
     {"owner":"A", "conference":"CVPR", "year":2024, "target":350, "required":true, "manifest":"data/processed/cvpr2024/a5_350/snapshot_manifest.json", "clean_config":"config/a_cvpr2024_a3.json"},
     {"owner":"B", "conference":"ICCV", "year":2023, "target":350, "required":false, "manifest":"data/processed/iccv2023/a3_350/snapshot_manifest.json", "clean_config":"config/b_iccv2023_a3.json"}

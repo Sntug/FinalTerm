@@ -1,0 +1,18 @@
+test_accepts_official_slug_with_hyphen (test_b_pilot.PilotValidationTest.test_accepts_official_slug_with_hyphen) ... ok
+test_accepts_valid_and_rejects_duplicate_or_mismatched_records (test_b_pilot.PilotValidationTest.test_accepts_valid_and_rejects_duplicate_or_mismatched_records) ... ok
+test_only_isolated_target_is_allowed (test_b_pilot.PilotValidationTest.test_only_isolated_target_is_allowed) ... ok
+test_based_in_evidence (test_export_graph.ExportTest.test_based_in_evidence) ... ok
+test_coauthored (test_export_graph.ExportTest.test_coauthored) ... ok
+test_collaborated (test_export_graph.ExportTest.test_collaborated) ... ok
+test_dangling_endpoint_asserts (test_export_graph.ExportTest.test_dangling_endpoint_asserts) ... ok
+test_dedupe_and_edges (test_export_graph.ExportTest.test_dedupe_and_edges) ... ok
+test_affiliation_fix_replaces_edge (test_load_neo4j.LoadTest.test_affiliation_fix_replaces_edge) ... skipped 'Neo4j unreachable'
+test_mid_import_failure_rolls_back (test_load_neo4j.LoadTest.test_mid_import_failure_rolls_back) ... skipped 'Neo4j unreachable'
+test_repeat_import_same_hash (test_load_neo4j.LoadTest.test_repeat_import_same_hash) ... skipped 'Neo4j unreachable'
+test_graph_ready_false_rejected (test_load_neo4j.RejectTest.test_graph_ready_false_rejected) ... ok
+test_hash_mismatch_rejected (test_load_neo4j.RejectTest.test_hash_mismatch_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.241s
+
+OK (skipped=3)

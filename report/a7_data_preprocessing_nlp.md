@@ -76,7 +76,7 @@ Các bộ lọc loại câu có phủ định, giả định/tương lai, baseli
 
 Evidence lưu cả câu nguyên văn, `text_version_id`, hash văn bản chuẩn hóa, `field_path`, nguồn, `rule_id` và `rule_version`. Offset `[start_char,end_char)` tính theo Unicode code point trên đúng `normalized_text`; đoạn cắt phải trùng `evidence_text`. Offset không phải byte hay vị trí của riêng alias. Title/abstract được truy qua text version của Paper; schema không có cột section riêng. Một cặp `(Paper, relation, entity)` chỉ có một cạnh, nhiều câu hỗ trợ được hợp vào `evidence_ids`; review evidence không được dùng làm bằng chứng cạnh accepted.
 
-**Bảng 3. Ví dụ thực từ corpus CVPR, dùng để giải thích hành vi luật.** Trích đoạn rút ngắn để đọc; offset chỉ toàn bộ câu trong evidence gốc. Nguồn: bảng NLP B5, đã kiểm tra slice và binding với graph; ID đầy đủ ở `outputs/a7/metrics.json → examples`.
+**Bảng 3. Ví dụ thực từ corpus CVPR, dùng để giải thích hành vi luật.** Trích đoạn rút ngắn để đọc; offset chỉ toàn bộ câu trong evidence gốc. Nguồn: snapshot NLP ứng viên A8, dùng luật A4/B5, đã kiểm tra slice và binding với graph; ID đầy đủ ở `outputs/a7/metrics.json → examples`.
 
 <!-- A7:examples:BEGIN -->
 
@@ -116,7 +116,7 @@ Ví dụ accepted cho thấy tín hiệu bài toán ở title và thí nghiệm 
 
 Metadata thiếu không phân bố đều giữa hai corpus và giữa các lớp thực thể. Việc title/abstract đầy đủ thuận lợi cho NLP, nhưng không khắc phục được lượt tác giả chưa resolve hoặc thiếu affiliation. Những thiếu hụt đó làm giảm số cạnh từ authorship và có thể gây lệch mạng cộng tác về các tác giả/tổ chức mà OpenAlex nhận diện tốt hơn. Không xem sự chênh lệch coverage giữa hai kỳ là khác biệt chất lượng nghiên cứu của hội nghị.
 
-**Bảng 5. Kết quả hai quan hệ NLP do A phụ trách.** Đơn vị: cạnh accepted duy nhất, thực thể đích duy nhất và Paper nguồn có cạnh; nguồn: các bảng NLP B5 đối chiếu với graph B5. Cột cuối dùng union ID, không cộng số Task/Dataset của hai corpus.
+**Bảng 5. Kết quả hai quan hệ NLP do A phụ trách.** Đơn vị: cạnh accepted duy nhất, thực thể đích duy nhất và Paper nguồn có cạnh; nguồn: các bảng NLP/graph ứng viên A8, dùng luật A4/B5. Cột cuối dùng union ID, không cộng số Task/Dataset của hai corpus.
 
 <!-- A7:nlp:BEGIN -->
 
@@ -137,7 +137,7 @@ Từ điển `a4-cv-1.0.0` gồm 15 Task và 30 Dataset. Review riêng Task/Data
 
 ## 5. Quy mô graph và bằng chứng kiểm tra chất lượng
 
-**Bảng 6. Phân bố node và edge trong snapshot graph chung.** Đơn vị: node/cạnh duy nhất. Nguồn: bảng graph B5 đọc qua manifest và kiểm Contract v2. Số cạnh là số cặp khóa, không phải tổng trọng số. Bảng phục vụ mô tả dữ liệu; phân tích NetworkX, trung tâm mạng và case study thuộc B6–B7.
+**Bảng 6. Phân bố node và edge trong snapshot graph chung.** Đơn vị: node/cạnh duy nhất. Nguồn: graph ứng viên A8 đọc qua manifest và kiểm Contract v2. Số cạnh là số cặp khóa, không phải tổng trọng số. Bảng phục vụ mô tả dữ liệu; phân tích NetworkX, trung tâm mạng và case study thuộc B6–B7.
 
 <!-- A7:graph:BEGIN -->
 
@@ -162,7 +162,7 @@ Mô hình giữ nguyên tám nhãn node và mười quan hệ đã thống nhấ
 
 A6 đã kiểm tra hash, raw nguồn, schema, provenance, ordered byline, membership, khóa cạnh, endpoint và offset NLP; replay dùng lại các validator A3/A5/B5. Cộng tác được đối chiếu độc lập bằng tập Paper/tác giả/affiliation, không chỉ so sánh một hàm với chính đầu ra của nó. A7 chạy lại Contract trên các snapshot đầu vào và so sánh số liệu với A6; phiếu người chấm được đọc để tổng hợp, không sửa hay tự điền kết quả.
 
-**Bảng 7. Vấn đề và trạng thái kiểm tra A6.** Đơn vị: hồ sơ/rủi ro, không phải số Paper sai. Review gốc được dedupe theo `review_id` trên A5 CVPR, A3 ICCV và graph B5; các hàng rủi ro bổ sung là các loại issue khác. Vì snapshot A5 bổ sung source/evidence/review chưa được rebind vào graph B5, số review của tập audit không đồng nhất số review riêng trong graph.
+**Bảng 7. Vấn đề và trạng thái kiểm tra A6 trên ứng viên A8.** Đơn vị: hồ sơ/rủi ro, không phải số Paper sai. Review gốc được dedupe theo `review_id` trên A5 CVPR, A3 ICCV và graph A8; các hàng rủi ro bổ sung là các loại issue khác. Không cộng nhầm số hồ sơ review với số thực thể hoặc số lỗi đã xác nhận. Phiếu cũ của graph B5 được giữ nguyên; phiếu đúng snapshot hiện tại ở `outputs/a8/audit`.
 
 <!-- A7:quality:BEGIN -->
 
@@ -191,7 +191,7 @@ Audit lấy mẫu phân tầng theo loại quan hệ, có primary, đọc chéo 
 
 A5 đã rà lại metadata CVPR từ Work cache và tra bổ sung có giới hạn. Đối chiếu có khác biệt byline, dấu tên hoặc thứ tự tác giả được giữ thành observation/review; chưa đủ chứng cứ thì không tự điền DOI hay thay danh tính. So khớp với cache nguồn chứng minh tính nhất quán với nguồn đã chọn, chưa phải một cuộc xác minh độc lập toàn bộ tác giả. Kết quả lịch sử chi tiết và receipt nằm trong `outputs/a5_cvpr2024/` cùng comparison của snapshot A5; A7 không diễn giải lần đối chiếu giới hạn đó thành kiểm chứng mọi link arXiv.
 
-Đầu vào A5 và graph B5 hiện có canonical Paper/authorship giống nhau, nhưng manifest và bằng chứng bổ sung của A5 khác nguồn A3 mà B5 đã khóa. Khi nhóm chọn A5 làm input graph cuối, cần xuất snapshot mới, replay/rebind NLP và chạy audit mới; không sửa manifest cũ để buộc các hash khớp. Sau mỗi sửa danh tính, cập nhật alias/decision/evidence theo contract trước khi dựng lại graph và đối chiếu báo cáo. Không thay dữ liệu B từ script thống kê.
+Ở A8, nhóm đã có ứng viên tích hợp dùng A5 CVPR và A3 ICCV, chạy lại NLP A4/B5 và exporter B vào thư mục riêng. Graph B5 cũ vẫn được giữ; source/evidence/review bổ sung của A5 đã có trong ứng viên mới. Báo cáo này được tính lại theo config A7 trỏ tới graph và phiếu audit A8, chưa gọi đó là snapshot nộp bài cuối. Sau mỗi sửa danh tính, cập nhật alias/decision/evidence theo contract trước khi dựng lại graph và đối chiếu báo cáo; không sửa manifest cũ để buộc hash khớp hoặc thay dữ liệu B từ script thống kê.
 
 **Bảng 8. Ràng buộc dữ liệu để tái lập báo cáo.** Nguồn: các manifest đang cấu hình; bảng dùng liên kết manifest và tiền tố hash để gọn khi dàn trang. `metrics.json` lưu đầy đủ snapshot ID/hash file đầu vào, kết quả Contract, coverage với mẫu số và ID evidence của ví dụ.
 
@@ -201,7 +201,7 @@ A5 đã rà lại metadata CVPR từ Work cache và tra bổ sung có giới h�
 |---|---|
 | A | [Manifest CVPR](../data/processed/cvpr2024/a5_350/snapshot_manifest.json); `00c0b44564ba` |
 | B | [Manifest ICCV](../data/processed/iccv2023/a3_350/snapshot_manifest.json); `e5987c8521ef` |
-| Graph B5 | [Manifest graph](../data/processed/mxh_cv_700/graph_b5/snapshot_manifest.json); `7494c3c9c055` |
+| Graph tích hợp | [Manifest graph](../data/processed/mxh_cv_700/a8/graph/snapshot_manifest.json); `ffcb00e17337` |
 
 <!-- A7:bindings:END -->
 

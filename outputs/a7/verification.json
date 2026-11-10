@@ -1,29 +1,27 @@
 {
   "passed": true,
-  "deterministic_artifacts": 6,
+  "verified_by": "a8-integration-1.0.0",
+  "graph_snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
   "artifacts_sha256": {
-    "report/a7_data_preprocessing_nlp.md": "f014e1e590da761a4d53f177decf26f877eeab3df0fd4d99aa397faf80631a2b",
-    "outputs/a7/metrics.json": "6c2adaf374e976354ecd6a7391b48aa2a87ea6e9d471f58c105bc5c2adf0d2c6",
+    "report/a7_data_preprocessing_nlp.md": "8a1dd5244353563a691a1e8ff523bca7cee085335b0b3583c8a1361b00d813ba",
+    "outputs/a7/metrics.json": "56dde6240e644f7b9fcb981b06ef7ee4132ddf649a9624ea9693caf534abd28f",
     "outputs/a7/figures/metadata_coverage.png": "180141078efa8e4c1d235d5fe808860824fafcee410dd7eae5d20973a337ed5b",
     "outputs/a7/figures/metadata_coverage.svg": "a67e7b9500e31d6e6b590d386fa319185f59ffb49d72efd8cea878f3a6fe9fa9",
     "outputs/a7/figures/nlp_relations.png": "2cfbacb83179da82108bdda15320b685d5f3726bdfd5843b00234e66b997a0c4",
     "outputs/a7/figures/nlp_relations.svg": "ebaa96daf782f9c2130523cb64de780cc362190aea7f86fd105c78b9a8b7e94f"
   },
+  "deterministic_artifacts": 6,
   "input_bindings_checked": 84,
+  "report_sections": 6,
+  "tables": 8,
+  "figures": 2,
   "contract_validations": {
     "A": true,
     "B": true,
     "graph": true,
     "nlp_replay": true
   },
-  "missing_optional_b": "A statistics preserved; B and group total PENDING_B; no fake zeros",
-  "protected_source_and_a6_changes": [],
-  "user_gitignore_staging_preserved": true,
-  "local_report_links_checked": true,
   "human_primary_graded": 0,
   "precision": null,
-  "report_sections": 6,
-  "tables": 8,
-  "figures": 2,
-  "graph_snapshot_id": "snapshot:v2:7494c3c9c055befc8a7b59e529674a25d5ff5ad99bb824315f4d2c98d71afb61"
+  "note": "A8 refreshed A7 on the selected integration snapshot; original test logs retain their execution scope"
 }

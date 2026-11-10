@@ -1,0 +1,66 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a4-nlp-1.0.0+b5-1.0.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "a3-metadata-1.0.0",
+    "a5-source-metadata-1.0.0",
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0",
+    "spacy-3.8.18:blank-0.0.0:sentencizer-1"
+  ],
+  "rule_versions": {
+    "a4-task-title": "1.0.0",
+    "a4-task-current": "1.0.0",
+    "a4-dataset-evaluate": "1.0.0",
+    "a4-dataset-experiments": "1.0.0",
+    "b5-method-title": "1.0.0",
+    "b5-method-use": "1.0.0",
+    "b5-method-based": "1.0.0",
+    "a4-review": "1.0.0"
+  },
+  "dictionary_versions": {
+    "a4-cv": "a4-cv-1.0.0:f9a6fe7055cb60f05dc6273cf8c6e9b09f1c92f8b3ba1271b5a43e557c83a6d1",
+    "b5-method": "b5-method-1.0.0:c7154146859c0442f4d9d2f0c150a403e17042917b5f9a53267def198c451324"
+  },
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/mxh_cv_700/a8/nlp/nodes.csv",
+      "sha256": "9f27cf15e81a9dc0b54770c24707ce34c18d222803bbe1c8be10da852ebc372c",
+      "record_count": 56,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a8/nlp/edges.csv",
+      "sha256": "70e13983aa36e4a1962676c23122ee5d03444b7a6c36101ffa4236850481df46",
+      "record_count": 320,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a8/nlp/evidence.jsonl",
+      "sha256": "f23d1ed0a603ece98608d34d9cd402408bf9c73fc79599e499e36f27210d5a40",
+      "record_count": 1385,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/mxh_cv_700/a8/nlp/needs_review.csv",
+      "sha256": "7d5ab97dd2a6e33fb79ae05444a0f2e57c71c4991de7d429971bb147d498978b",
+      "record_count": 1284,
+      "role": "review"
+    }
+  ],
+  "source_snapshot_id": "snapshot:v2:da077c039239a2ca6b900c6397b6983594b4d7b9d9273f1916581dde55191e4e",
+  "created_at": "2026-11-10T06:23:48Z",
+  "snapshot_id": "snapshot:v2:cd7a356f352502a19e91d526adb8d3cf74a74798cd6d4ada3912106535265a62",
+  "input_manifests": [
+    "data/processed/cvpr2024/a5_350/snapshot_manifest.json",
+    "data/processed/iccv2023/a3_350/snapshot_manifest.json"
+  ],
+  "config_path": "config/a8_nlp_700.json",
+  "model": "blank"
+}

@@ -394,7 +394,7 @@ def report_blocks(m):
             + f" Neo4j live: `{a['neo4j']['status']}`; trạng thái này tách khỏi kiểm tra CSV/offline.")
     blocks["bindings"] = table(["Phạm vi", "Manifest / SHA-256 snapshot (12 ký tự đầu)"], [[o, f"[Manifest {s['conference']}](../{s['manifest']}); `{s['snapshot_id'].rsplit(':', 1)[-1][:12]}`"]
         if s["status"] == "available" else [o, "PENDING_B"] for o, s in corpora.items()] +
-        ([["Graph B5", f"[Manifest graph](../{g['manifest']}); `{g['snapshot_id'].rsplit(':', 1)[-1][:12]}`"]] if g["status"] == "available" else []))
+        ([["Graph tích hợp", f"[Manifest graph](../{g['manifest']}); `{g['snapshot_id'].rsplit(':', 1)[-1][:12]}`"]] if g["status"] == "available" else []))
     blocks["pending"] = "\n".join("- " + s for s in m["pending_b"])
     return blocks
 

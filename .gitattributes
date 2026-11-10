@@ -24,4 +24,10 @@
 /config/a7_report.json text eol=lf
 /config/requirements_a7.txt text eol=lf
 /quality/checks/test_a7_report.py text eol=lf
+/config/a8*.json text eol=lf
+/src/integration/*.py text eol=lf
+/quality/checks/test_a8*.py text eol=lf
+/data/processed/mxh_cv_700/a8/** -text
+/outputs/a8/** -text
+/report/a8_handoff.md text eol=lf
 /handoff/a/A2_HANDOFF.md text eol=lf

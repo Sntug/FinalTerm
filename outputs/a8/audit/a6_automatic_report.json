@@ -1,0 +1,476 @@
+{
+  "code_version": "a6-audit-1.0.0",
+  "seed": 20261103,
+  "graph_snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
+  "checks": [
+    {
+      "check_id": "load_corpus_A",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+        "tables_checked": 12,
+        "table_counts": {
+          "alias_map.csv": 4661,
+          "authorships.csv": 2109,
+          "edges.csv": 0,
+          "evidence.jsonl": 14922,
+          "field_provenance.csv": 4322,
+          "merge_log.jsonl": 6289,
+          "needs_review.csv": 1389,
+          "nodes.csv": 1844,
+          "paper_registry.csv": 350,
+          "papers.jsonl": 350,
+          "source_records.jsonl": 1042,
+          "text_versions.jsonl": 700
+        }
+      }
+    },
+    {
+      "check_id": "corpus_checks_A",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "papers": 350,
+        "valid_core_papers": 350,
+        "target": 350,
+        "distinct_authorships": 1968,
+        "unresolved_authorships": 340,
+        "missing_institution_authorships": 466,
+        "open_reviews": 1389,
+        "homonym_names": 25
+      }
+    },
+    {
+      "check_id": "contract_corpus_A",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "schema_version": "2.0.0",
+        "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+        "passed": true,
+        "tables_checked": 12,
+        "records_checked": 37978,
+        "raw_sources_checked": 1042,
+        "text_versions_checked": 700,
+        "graph_ready": false,
+        "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+      }
+    },
+    {
+      "check_id": "clean_replay_A",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "passed": true,
+        "snapshot_id": "snapshot:v2:be7381e326f64f235e1a4add88d606b990c97beb605111c01cd512d72321f086",
+        "tables_checked": 12,
+        "records_checked": 28816,
+        "raw_sources_checked": 1032,
+        "deterministic_replay": true,
+        "graph_ready": false
+      }
+    },
+    {
+      "check_id": "metadata_replay_A",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "passed": true,
+        "deterministic_replay": true,
+        "contract_validation": {
+          "schema_version": "2.0.0",
+          "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+          "passed": true,
+          "tables_checked": 12,
+          "records_checked": 37978,
+          "raw_sources_checked": 1042,
+          "text_versions_checked": 700,
+          "graph_ready": false,
+          "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+        },
+        "papers_reviewed": 350,
+        "source_records_before": 1032,
+        "source_records_after": 1042,
+        "sources_added": 10,
+        "paper_ids_syntax_valid": {
+          "cvf": 350,
+          "doi": 328,
+          "openalex": 328,
+          "arxiv": 210
+        },
+        "papers_with_verified_openalex": 328,
+        "papers_with_verified_doi": 328,
+        "arxiv_preprints_matched": 5,
+        "papers_updated": 0,
+        "authors_updated": 0,
+        "institutions_updated": 0,
+        "affiliations_updated": 0,
+        "distinct_authorships": 1968,
+        "authorships_without_author_id": 340,
+        "authorships_without_institution_id": 466,
+        "authorship_rows_missing_institution": 469,
+        "distinct_authors": 1550,
+        "distinct_institutions": 294,
+        "comparisons": 9591,
+        "comparisons_by_result": {
+          "matched": 7752,
+          "unverified": 295,
+          "missing": 640,
+          "unresolved": 899,
+          "version_difference": 3,
+          "conflict": 2
+        },
+        "conflicts": 2,
+        "unresolved": 899,
+        "reviews_before": 485,
+        "reviews_after": 1389,
+        "reviews_added": 904,
+        "open_reviews": 1389,
+        "lookups_planned": 10,
+        "lookups_by_status": {
+          "fetched": 10
+        },
+        "network_requests_recorded": 10,
+        "lookup_sources_unavailable": 0,
+        "graph_ready": false,
+        "graph_rebuild_required": false,
+        "nlp_text_versions_changed": false,
+        "automatic_identity_merges": 0,
+        "processing_errors": 0,
+        "limitation": "Cached Work matches verify consistency of conference metadata, not independent human identity. Unfetched/unavailable preprints and unresolved identities remain unverified.",
+        "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+        "source_snapshot_id": "snapshot:v2:be7381e326f64f235e1a4add88d606b990c97beb605111c01cd512d72321f086"
+      }
+    },
+    {
+      "check_id": "load_corpus_B",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "snapshot_id": "snapshot:v2:e5987c8521ef64ca876c1dcb1831fd485321cd20e5377f360e50eb0d178c6657",
+        "tables_checked": 12,
+        "table_counts": {
+          "paper_registry.csv": 350,
+          "papers.jsonl": 350,
+          "source_records.jsonl": 1051,
+          "authorships.csv": 2275,
+          "text_versions.jsonl": 700,
+          "field_provenance.csv": 4419,
+          "alias_map.csv": 4784,
+          "merge_log.jsonl": 6438,
+          "needs_review.csv": 354,
+          "nodes.csv": 1846,
+          "edges.csv": 0,
+          "evidence.jsonl": 6889
+        }
+      }
+    },
+    {
+      "check_id": "corpus_checks_B",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "papers": 350,
+        "valid_core_papers": 350,
+        "target": 350,
+        "distinct_authorships": 1853,
+        "unresolved_authorships": 199,
+        "missing_institution_authorships": 295,
+        "open_reviews": 354,
+        "homonym_names": 14
+      }
+    },
+    {
+      "check_id": "contract_corpus_B",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "schema_version": "2.0.0",
+        "snapshot_id": "snapshot:v2:e5987c8521ef64ca876c1dcb1831fd485321cd20e5377f360e50eb0d178c6657",
+        "passed": true,
+        "tables_checked": 12,
+        "records_checked": 29456,
+        "raw_sources_checked": 1051,
+        "text_versions_checked": 700,
+        "graph_ready": false,
+        "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+      }
+    },
+    {
+      "check_id": "clean_replay_B",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "passed": true,
+        "snapshot_id": "snapshot:v2:e5987c8521ef64ca876c1dcb1831fd485321cd20e5377f360e50eb0d178c6657",
+        "tables_checked": 12,
+        "records_checked": 29456,
+        "raw_sources_checked": 1051,
+        "deterministic_replay": true,
+        "graph_ready": false
+      }
+    },
+    {
+      "check_id": "load_graph",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
+        "tables_checked": 12,
+        "table_counts": {
+          "alias_map.csv": 8825,
+          "authorships.csv": 4384,
+          "edges.csv": 16979,
+          "evidence.jsonl": 23196,
+          "field_provenance.csv": 8741,
+          "merge_log.jsonl": 12727,
+          "needs_review.csv": 3030,
+          "nodes.csv": 4182,
+          "paper_registry.csv": 700,
+          "papers.jsonl": 700,
+          "source_records.jsonl": 2093,
+          "text_versions.jsonl": 1400
+        }
+      }
+    },
+    {
+      "check_id": "contract_graph",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "schema_version": "2.0.0",
+        "snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
+        "passed": true,
+        "tables_checked": 12,
+        "records_checked": 86957,
+        "raw_sources_checked": 2093,
+        "text_versions_checked": 1400,
+        "graph_ready": true,
+        "limitation": "Validates export integrity; does not prove entity/edge semantic accuracy or execute Neo4j."
+      }
+    },
+    {
+      "check_id": "nlp_replay",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "passed": true,
+        "deterministic_replay": true,
+        "papers_input": 700,
+        "papers_processed": 700,
+        "fields_processed": 1400,
+        "candidate_mentions": 1782,
+        "nodes": 56,
+        "edges": 320,
+        "evidence": 1385,
+        "accepted_evidence": 335,
+        "rejected": 436,
+        "review_open": 848,
+        "counts_by_label": {
+          "Task": 14,
+          "Method": 28,
+          "Dataset": 14
+        },
+        "counts_by_type": {
+          "STUDIES_TASK": 97,
+          "USES_METHOD": 195,
+          "EVALUATED_ON": 28
+        },
+        "review_by_reason": {
+          "no_current_task_claim": 173,
+          "no_current_method_claim": 601,
+          "no_current_evaluation_claim": 30,
+          "prior_work_or_baseline": 187,
+          "unmapped_dataset_version_or_subset": 32,
+          "negated_or_mixed_claim": 111,
+          "hypothetical_or_question": 39,
+          "ambiguous_alias_case": 10,
+          "application_example": 48,
+          "training_or_mixed_roles": 51,
+          "mixed_clause_roles": 2
+        },
+        "snapshot_id": "snapshot:v2:cd7a356f352502a19e91d526adb8d3cf74a74798cd6d4ada3912106535265a62",
+        "graph_ready": false,
+        "model": "spacy-3.8.18:blank-0.0.0:sentencizer-1",
+        "network_requests": 0
+      }
+    },
+    {
+      "check_id": "independent_graph_checks",
+      "status": "passed",
+      "required": true,
+      "details": {
+        "nodes": 4182,
+        "edges": 16979,
+        "counts_by_label": {
+          "Author": 2950,
+          "Country": 42,
+          "Dataset": 14,
+          "Institution": 432,
+          "Method": 28,
+          "Paper": 700,
+          "Task": 14,
+          "VenueEdition": 2
+        },
+        "counts_by_type": {
+          "AFFILIATED_WITH": 3237,
+          "AUTHORED": 3282,
+          "BASED_IN": 432,
+          "CITES": 97,
+          "COAUTHORED_WITH": 7771,
+          "COLLABORATED_WITH": 1140,
+          "EVALUATED_ON": 28,
+          "PUBLISHED_IN": 700,
+          "STUDIES_TASK": 97,
+          "USES_METHOD": 195
+        },
+        "nlp_edges": 320,
+        "nlp_evidence_checked": 335
+      }
+    },
+    {
+      "check_id": "neo4j_counts",
+      "status": "not_run",
+      "required": false,
+      "details": {
+        "status": "not_run",
+        "reason": "Neo4j Python driver is not installed; CSV/contract checks still run offline"
+      }
+    }
+  ],
+  "corpora": {
+    "A": {
+      "papers": 350,
+      "valid_core_papers": 350,
+      "target": 350,
+      "distinct_authorships": 1968,
+      "unresolved_authorships": 340,
+      "missing_institution_authorships": 466,
+      "open_reviews": 1389,
+      "homonym_names": 25
+    },
+    "B": {
+      "papers": 350,
+      "valid_core_papers": 350,
+      "target": 350,
+      "distinct_authorships": 1853,
+      "unresolved_authorships": 199,
+      "missing_institution_authorships": 295,
+      "open_reviews": 354,
+      "homonym_names": 14
+    }
+  },
+  "graph": {
+    "nodes": 4182,
+    "edges": 16979,
+    "counts_by_label": {
+      "Author": 2950,
+      "Country": 42,
+      "Dataset": 14,
+      "Institution": 432,
+      "Method": 28,
+      "Paper": 700,
+      "Task": 14,
+      "VenueEdition": 2
+    },
+    "counts_by_type": {
+      "AFFILIATED_WITH": 3237,
+      "AUTHORED": 3282,
+      "BASED_IN": 432,
+      "CITES": 97,
+      "COAUTHORED_WITH": 7771,
+      "COLLABORATED_WITH": 1140,
+      "EVALUATED_ON": 28,
+      "PUBLISHED_IN": 700,
+      "STUDIES_TASK": 97,
+      "USES_METHOD": 195
+    },
+    "nlp_edges": 320,
+    "nlp_evidence_checked": 335
+  },
+  "sampling": {
+    "strata": {
+      "AUTHORED": {
+        "available": 3282,
+        "sampled": 10,
+        "requested": 10
+      },
+      "AFFILIATED_WITH": {
+        "available": 3237,
+        "sampled": 10,
+        "requested": 10
+      },
+      "PUBLISHED_IN": {
+        "available": 700,
+        "sampled": 10,
+        "requested": 10
+      },
+      "CITES": {
+        "available": 97,
+        "sampled": 10,
+        "requested": 10
+      },
+      "BASED_IN": {
+        "available": 432,
+        "sampled": 10,
+        "requested": 10
+      },
+      "COAUTHORED_WITH": {
+        "available": 7771,
+        "sampled": 10,
+        "requested": 10
+      },
+      "COLLABORATED_WITH": {
+        "available": 1140,
+        "sampled": 10,
+        "requested": 10
+      },
+      "STUDIES_TASK": {
+        "available": 97,
+        "sampled": 10,
+        "requested": 10
+      },
+      "USES_METHOD": {
+        "available": 195,
+        "sampled": 10,
+        "requested": 10
+      },
+      "EVALUATED_ON": {
+        "available": 28,
+        "sampled": 10,
+        "requested": 10
+      }
+    },
+    "primary_by_reviewer": {
+      "A": 50,
+      "B": 50
+    },
+    "unique_edges": 100,
+    "cross_review_rows": 20,
+    "nodes_sampled": 50,
+    "node_candidates": 573
+  },
+  "issue_counts_by_kind": {
+    "known_review": 2594,
+    "review_risk": 177
+  },
+  "issue_counts_by_owner": {
+    "A": 1488,
+    "B": 1202,
+    "A|B": 81
+  },
+  "issue_counts_by_check": {
+    "existing_review": 2594,
+    "citation_evidence_specificity": 97,
+    "shared_identifier": 3,
+    "nlp_context_risk": 2,
+    "homonym": 75
+  },
+  "confirmed_errors": 0,
+  "checks_execution_complete": true,
+  "automatic_checks_passed": true,
+  "fixes_applied": [],
+  "data_modified": false,
+  "human_verdicts_generated": false
+}
