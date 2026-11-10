@@ -1,0 +1,12 @@
+{
+  "branch": "feature/a5-metadata-verification",
+  "base_commit": "beea14c8504d0dc4c159b813c240aea641e6009c",
+  "protected_source_contract_a3_a4_b_code_diff_empty": true,
+  "user_staged_gitignore_preserved": true,
+  "user_unstaged_vscode_ignore_preserved": true,
+  "committed": false,
+  "pushed": false,
+  "merged": false,
+  "final_graph_written": false,
+  "neo4j_modified": false
+}

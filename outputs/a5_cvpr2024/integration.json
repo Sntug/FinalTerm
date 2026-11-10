@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "idempotent": true,
+  "files_compared": 20,
+  "unchanged_metadata_tables": [
+    "papers.jsonl",
+    "paper_registry.csv",
+    "authorships.csv",
+    "nodes.csv",
+    "alias_map.csv",
+    "merge_log.jsonl",
+    "text_versions.jsonl"
+  ],
+  "b3_b4_nodes_unchanged": 4126,
+  "b3_b4_edges_keys_weights_preserved": 16659,
+  "prior_evidence_retained": true,
+  "dangling_endpoints": 0,
+  "missing_evidence": 0,
+  "graph_written": false,
+  "neo4j_modified": false,
+  "snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5"
+}

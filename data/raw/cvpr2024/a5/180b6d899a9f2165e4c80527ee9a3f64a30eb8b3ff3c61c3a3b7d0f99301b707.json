@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Chen_VP3D_Unleashing_2D_Visual_Prompt_for_Text-to-3D_Generation_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2403.17001",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:0f922651ce352079a51d143c60c120fe1d9b6aa51f856c7300ca332c8f3a0f14",
+    "paper_id": "cvf:CVPR2024:Chen_VP3D_Unleashing_2D_Visual_Prompt_for_Text-to-3D_Generation_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2403.17001",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2403.17001",
+    "fetched_at": "2026-11-10T06:23:21Z",
+    "http_status": 200,
+    "content_sha256": "ea3f151c149d9de5333bc48be1557685f77290acf36d3de2be308e9f59a3d604",
+    "raw_path": "data/raw/cvpr2024/a5/ea3f151c149d9de5333bc48be1557685f77290acf36d3de2be308e9f59a3d604.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 20:54:35 GMT"
+  }
+}

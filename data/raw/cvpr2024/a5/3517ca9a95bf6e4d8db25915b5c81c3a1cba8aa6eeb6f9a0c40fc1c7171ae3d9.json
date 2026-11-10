@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Chen_ConsistDreamer_3D-Consistent_2D_Diffusion_for_High-Fidelity_Scene_Editing_CVPR_2024",
+  "source": "Crossref",
+  "url": "https://api.crossref.org/works/10.1109%2Fcvpr52733.2024.01991",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:crossref:4caec2d64b10b94179d2e6b5f6527cc0305e4cebd6e2f7ab62e3dd919ed262e6",
+    "paper_id": "cvf:CVPR2024:Chen_ConsistDreamer_3D-Consistent_2D_Diffusion_for_High-Fidelity_Scene_Editing_CVPR_2024",
+    "source": "Crossref",
+    "source_kind": "doi_metadata",
+    "source_id": "https://api.crossref.org/works/10.1109%2Fcvpr52733.2024.01991",
+    "source_version": null,
+    "url": "https://api.crossref.org/works/10.1109%2Fcvpr52733.2024.01991",
+    "fetched_at": "2026-11-10T06:23:45Z",
+    "http_status": 200,
+    "content_sha256": "602b7ec3f9c434d69b64315912fea7e29af120e3a5954ac5fc45f2eba2d96453",
+    "raw_path": "data/raw/cvpr2024/a5/602b7ec3f9c434d69b64315912fea7e29af120e3a5954ac5fc45f2eba2d96453.raw.gz",
+    "content_type": "application/json",
+    "etag": null,
+    "last_modified": null
+  }
+}

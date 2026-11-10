@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2311.14897",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:7f351f05b1df699ade42569e75d5535a3921c51efffe1b655991e4c3cb516902",
+    "paper_id": "cvf:CVPR2024:Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2311.14897",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2311.14897",
+    "fetched_at": "2026-11-10T06:23:30Z",
+    "http_status": 200,
+    "content_sha256": "2092ec2464d17fff0f9a2688d08cfbf4d4f8d2630c9637ef8a75ff76786cbf5a",
+    "raw_path": "data/raw/cvpr2024/a5/2092ec2464d17fff0f9a2688d08cfbf4d4f8d2630c9637ef8a75ff76786cbf5a.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 20:13:44 GMT"
+  }
+}

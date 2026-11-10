@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Fu_COLMAP-Free_3D_Gaussian_Splatting_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2312.07504",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:492dce6eaa0684e589ad3ada0b5a4389334d72151f58ca7e660ee8b16411ee06",
+    "paper_id": "cvf:CVPR2024:Fu_COLMAP-Free_3D_Gaussian_Splatting_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2312.07504",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2312.07504",
+    "fetched_at": "2026-11-10T06:23:23Z",
+    "http_status": 200,
+    "content_sha256": "62bd18779f2d0525b11dd99aaae7d23b50cf9cbb13695d66c3967bc1a86d9d62",
+    "raw_path": "data/raw/cvpr2024/a5/62bd18779f2d0525b11dd99aaae7d23b50cf9cbb13695d66c3967bc1a86d9d62.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 20:05:00 GMT"
+  }
+}

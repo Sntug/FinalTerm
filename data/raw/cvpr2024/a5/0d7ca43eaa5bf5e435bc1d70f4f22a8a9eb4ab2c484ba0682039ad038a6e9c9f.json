@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Wei_DreamVideo_Composing_Your_Dream_Videos_with_Customized_Subject_and_Motion_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2312.04433",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:758f1456f408ab7325c8be3657cc2d7c99015cd32437f06c6387566deabb527f",
+    "paper_id": "cvf:CVPR2024:Wei_DreamVideo_Composing_Your_Dream_Videos_with_Customized_Subject_and_Motion_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2312.04433",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2312.04433",
+    "fetched_at": "2026-11-10T06:23:36Z",
+    "http_status": 200,
+    "content_sha256": "a9ad0359a453a28dd796b1c76256592a9f12e558f97b46f5a64ce3067d644931",
+    "raw_path": "data/raw/cvpr2024/a5/a9ad0359a453a28dd796b1c76256592a9f12e558f97b46f5a64ce3067d644931.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 21:00:19 GMT"
+  }
+}

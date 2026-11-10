@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Kwon_Improving_Visual_Recognition_with_Hyperbolical_Visual_Hierarchy_Mapping_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2404.00974",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:dfe0116d0f6c9c868a64bbd6fee124db9345097e366dffd95494187e6902f16a",
+    "paper_id": "cvf:CVPR2024:Kwon_Improving_Visual_Recognition_with_Hyperbolical_Visual_Hierarchy_Mapping_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2404.00974",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2404.00974",
+    "fetched_at": "2026-11-10T06:23:27Z",
+    "http_status": 200,
+    "content_sha256": "1397309f81a2f80691f588689ab3703df87edbc4240d44f77d536e5954fb8cb5",
+    "raw_path": "data/raw/cvpr2024/a5/1397309f81a2f80691f588689ab3703df87edbc4240d44f77d536e5954fb8cb5.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 19:32:52 GMT"
+  }
+}

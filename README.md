@@ -85,7 +85,65 @@ Giới hạn: chỉ title/abstract, không đọc PDF/full text hay suy luận x
 
 Khi gộp hai corpus, có thêm **3 alias ORCID xung đột** ngoài A4: alias đó không có mapping hiệu lực trong graph mới, cả hai Author ID và quyết định nguồn vẫn được giữ; `needs_review.csv` ghi các ứng viên. Các quyết định chỉ tạo alias nhưng không được chọn không nằm trong `applied_decision_ids` của snapshot hợp nhất. Không tự merge/split hay sửa authorships/cạnh B. Nếu một quyết định alias xung đột còn sửa danh tính khác, adapter dừng để review. `.gitattributes` giữ nguyên bytes các snapshot ICCV và đầu ra A4 khi checkout trên Windows; không đổi raw, nội dung nguồn hay manifest đã có.
 
-A4 đạt kiểm tra kỹ thuật offline về rule, Contract v2, offset, tích hợp và idempotency; review ngữ nghĩa dữ liệu thực tế và nghiệm thu Neo4j/toàn nhóm vẫn là bước riêng. Nhánh `feature/a4-nlp-task-dataset` được tạo từ `main`/`origin/main` tại `ba1ad72` (đã có A3, B3/B4); không có conflict Git, không commit/push/merge.
+A4 đạt kiểm tra kỹ thuật offline về rule, Contract v2, offset, tích hợp và idempotency; review ngữ nghĩa dữ liệu thực tế và nghiệm thu Neo4j/toàn nhóm vẫn là bước riêng. A4 đã merge qua PR #6; commit merge trên main là `beea14c`.
+
+## A5 — Đối chiếu metadata và nguồn
+
+A5 kiểm tra lại metadata CVF/OpenAlex từ raw/cache, rà định danh Paper, Author và Institution, đối chiếu preprint/DOI có chọn lọc. Không thêm Paper core hoặc tự gộp người/tổ chức theo tên. Mã ở `src/metadata/`: `sources.py` giữ cache/receipt cho nguồn bổ sung; `audit.py` tạo comparison/evidence/review và utility điền DOI có kiểm soát; `pipeline.py` xuất snapshot; `verify.py` kiểm tra schema, nguồn và replay. Các utility chuẩn hóa ID, parser CVF, Work assessment, kiểm tra identity và serialization của A2/A3 được tái sử dụng. Không sửa collector/cleaner, A4, exporter hoặc loader B.
+
+Chạy từ `FinalTerm` trong Windows PowerShell, Python 3.12. A5 chỉ dùng thư viện chuẩn; môi trường `.venv-a4` được dùng để chạy cả regression spaCy:
+
+```powershell
+$a5Python = ".\.venv-a4\Scripts\python.exe"
+# Tùy chọn: chỉ tra kế hoạch giới hạn, ưu tiên cache/receipt đã có.
+& $a5Python -B -X utf8 -m src.metadata --config config/a_cvpr2024_a5.json --fetch-only
+# Xuất và kiểm tra hoàn toàn offline từ raw/cache.
+& $a5Python -B -X utf8 -m src.metadata --config config/a_cvpr2024_a5.json
+& $a5Python -B -X utf8 -m src.metadata.verify --config config/a_cvpr2024_a5.json
+& $a5Python -B -X utf8 -m unittest discover -s quality/checks -p 'test_*.py' -v
+& $a5Python -B -X utf8 -W ignore -m unittest discover -s src/graph -p 'test_*.py' -v
+```
+
+`config/a_cvpr2024_a5.json` đọc manifest A3 CVPR, khóa 350 Paper. Kế hoạch chọn tối đa 8 Paper thiếu Work/DOI nhưng có link arXiv trực tiếp từ CVF và 2 ứng viên DOI duy nhất có title tương ứng trong cache OpenAlex. Không tải lại 328 Work đã ghép, không tải PDF. arXiv đọc HTML citation metadata (giữ phiên bản URL nếu CVF chỉ rõ); [Crossref REST](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) đọc bản ghi DOI trực tiếp. Cache mới ở `data/raw/cvpr2024/a5/`, giữ nguyên bytes phản hồi, hash, URL và thời gian UTC. Tái sử dụng transport không redirect, Retry-After, backoff và publish của A2; không có API key hard-code. Receipt lỗi giữ trạng thái unavailable, không sinh source record thành công. Offline cache miss là unverified. Không tự retry lại receipt đã lưu; muốn kiểm tra nguồn ở thời điểm mới, dùng cache/output mới và tôn trọng checkpoint backoff của nguồn.
+
+Đầu ra `data/processed/cvpr2024/a5_350/`:
+
+| Tệp | Nội dung |
+| --- | --- |
+| 12 bảng Contract v2, `snapshot_manifest.json` | Bản kiểm chứng riêng, gồm source/evidence bổ sung, giữ dữ liệu A2/A3 gốc; `graph_ready=false`, số node/edge trong manifest là null |
+| `metadata_comparison.csv` | Bảng phân tích riêng, không đổi schema chung: Paper/entity/field, giá trị hiện tại/quan sát dạng JSON, nguồn, evidence, kết quả, lý do; lọc `conflict`/`version_difference`/`unresolved` để review |
+| `lookup_results.json`, `summary.json` | Receipt nguồn và số liệu có phân biệt matched, missing, unverified, unresolved, conflict, version_difference, unavailable |
+| `graph_impact.json` | Paper/trường bị thay đổi, nhu cầu dựng lại graph và kiểm chứng binding A4 |
+| `paper_snapshots/current/` | Paper/registry và manifest tương ứng để B dùng trực tiếp giao diện exporter hiện tại |
+
+Trạng thái kiểm chứng nằm trong comparison và evidence/review theo FK, không thêm cột tùy ý vào `source_records`. `matched` là nhất quán với nguồn nêu trong dòng; định dạng ID hợp lệ không đồng nghĩa danh tính đã xác minh. Bằng chứng metadata không có offset NLP. Mọi cập nhật DOI phải có title, đầy đủ byline theo thứ tự, venue/year bản conference và DOI registry phù hợp; cập nhật đồng bộ Paper/registry/provenance/alias và decision chứa before/after. DOI trùng giữa hai Paper khóa, title gần giống, ORCID/ROR mâu thuẫn hoặc Institution chưa rõ đều cần review. Không lấy affiliation từ hồ sơ tác giả hiện tại; không union byline conference và preprint. Review A3 được giữ, không đánh resolved tự động chỉ vì thấy nguồn khác.
+
+HTML arXiv có thể chỉ ghi ID không có hậu tố `vN`; khi đó `source_version=null`. Raw/hash/captured_at vẫn xác định đúng phản hồi đã đối chiếu, nhưng không được diễn giải thành đã biết số revision cụ thể.
+
+**Kết quả thực tế 10/11/2026:**
+
+| Chỉ tiêu | Kết quả |
+| --- | ---: |
+| Paper / lượt authorship đã rà | 350/350 / 1.968/1.968 |
+| DOI / OpenAlex được đối chiếu lại từ Work cache | 328/350 / 328/350 |
+| Liên kết arXiv có định dạng hợp lệ từ CVF | 210/350; không coi là đã đọc toàn bộ preprint |
+| Nguồn bổ sung / request mới | 10: 8 trang arXiv + 2 Crossref; 10 request, không lỗi truy cập |
+| Preprint đối chiếu title/byline | 5/8 khớp; 3/8 khác biệt cần review; 202 link còn lại chưa tra nội dung |
+| Source records | 1.032 → 1.042, không xóa nguồn cũ |
+| Dòng comparison | 9.591: 7.752 matched, 295 unverified, 640 missing, 899 unresolved, 3 version_difference, 2 conflict |
+| Canonical Paper/Author/Institution/affiliation tự sửa | 0 / 0 / 0 / 0; chưa đủ chứng cứ để sửa an toàn |
+| Còn thiếu Author ID / Institution ID | 340/1.968 / 466/1.968 lượt; 469 dòng affiliation thiếu ID do multi-affiliation |
+| Review đang mở | 1.389 hồ sơ: giữ 485 cũ, thêm 904; không phải 1.389 Paper/người duy nhất |
+| Kiểm tra tương thích B trong bộ nhớ | 4.126 node giữ nguyên, 16.659 cặp cạnh/weight được bảo toàn; giữ evidence cũ, không dangling reference |
+| Contract / replay | 12 bảng, 37.978 record, 1.042 raw nguồn, 700 text version; 20/20 file A5 giống bytes khi chạy lại |
+
+Hai conflict là byline Crossref của ConsistDreamer và VP3D khác CVF (dấu tên/chính tả). Ba preprint khác byline gồm Do Vision and Language Encoders… (thứ tự tác giả), Text2Loc và State Space Models for Event Cameras (dấu tên). Giữ nguyên tên/thứ tự tác giả CVF, DOI còn thiếu và các affiliation chưa resolve; các quan sát nguồn bổ sung vẫn sẵn cho người review. Không dùng Scholar hàng loạt; chưa tra Scholar/PubMed vì chưa có trường hợp mà nguồn đó là bằng chứng quyết định cho đợt tra giới hạn này. Các bài y sinh chưa resolve vẫn cần tra chọn lọc nếu tiếp tục review, không được coi đã xác minh PubMed.
+
+Minh chứng ở [verification](outputs/a5_cvpr2024/verification.json), [integration](outputs/a5_cvpr2024/integration.json), [tests](outputs/a5_cvpr2024/tests.log), [B regression](outputs/a5_cvpr2024/b_regression.log) và [fetch receipts](outputs/a5_cvpr2024/fetch.json). 110 test quality qua (20 A5 và 90 regression A2/A3/A4); 10 test B qua, 3 test Neo4j live skip. Các test dùng fixture offline cho DOI đúng/sai, near-title, byline/preprint và revision, trùng tên khác ID, thay đổi nơi làm việc theo Paper/năm, Institution alias/ROR, cache/429, provenance, replay và khả năng dùng trong exporter.
+
+B nhận `snapshot_manifest.json` cùng 12 bảng và raw/receipt A5. Với config exporter B3/B4, thay input CVPR bằng `{"name":"CVPR2024", "snapshots_dir":"data/processed/cvpr2024/a5_350/paper_snapshots", "a3_dir":"data/processed/cvpr2024/a5_350"}`; input ICCV giữ như cũ. Utility `src.metadata.pipeline.exporter_input(config)` tạo đúng cấu hình này. A5 chỉ kiểm tra `build()` trong bộ nhớ, không xuất graph cuối/không nạp DB. Nếu chọn tích hợp cả NLP, phải replay/rebind A4 bằng manifest A5 và output mới vì adapter A4 khóa source snapshot; văn bản/ID nguồn NLP hiện không thay đổi và snapshot A4 cũ được giữ nguyên.
+
+A5 đã có đầu ra kiểm chứng offline và pipeline tương thích; chưa phải toàn bộ ID/affiliation đã resolve hoặc mọi DOI/arXiv đều được nguồn độc lập xác nhận. Nhánh `feature/a5-metadata-verification` tạo từ `beea14c` (đã có A4), sau đó đồng bộ main `84f3a90` chứa B5 bằng fast-forward, không conflict. Sau đồng bộ, 114 test quality và verifier A5/B5 qua; `.gitattributes` bảo toàn bytes snapshot B5 trên Windows. Phần A5 được bàn giao trên nhánh để review trước khi merge.
 
 ## Neo4j pilot trên môi trường macOS của B
 

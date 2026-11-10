@@ -1,0 +1,25 @@
+{
+  "paper_id": "cvf:CVPR2024:Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024",
+  "source": "arXiv",
+  "url": "https://arxiv.org/abs/2401.05224",
+  "status": "fetched",
+  "reason": "",
+  "network_requests": 1,
+  "source_record": {
+    "schema_version": "2.0.0",
+    "source_record_id": "source:arxiv:fbde54b807b0dcee10b04954a0f30cec3ee690cbfa5589793dd24a1d34026929",
+    "paper_id": "cvf:CVPR2024:Maniparambil_Do_Vision_and_Language_Encoders_Represent_the_World_Similarly_CVPR_2024",
+    "source": "arXiv",
+    "source_kind": "preprint_metadata",
+    "source_id": "https://arxiv.org/abs/2401.05224",
+    "source_version": null,
+    "url": "https://arxiv.org/abs/2401.05224",
+    "fetched_at": "2026-11-10T06:23:33Z",
+    "http_status": 200,
+    "content_sha256": "fc9f64452befe46f85da12ba2923448eaf7e088a82c991bcddb2f2a03291a744",
+    "raw_path": "data/raw/cvpr2024/a5/fc9f64452befe46f85da12ba2923448eaf7e088a82c991bcddb2f2a03291a744.raw.gz",
+    "content_type": "text/html; charset=utf-8",
+    "etag": null,
+    "last_modified": "Mon, 24 Aug 2026 19:38:30 GMT"
+  }
+}

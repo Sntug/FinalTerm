@@ -20,6 +20,11 @@ __pycache__/
 !/data/raw/cvpr2024/openalex/[0-9a-f]*.json
 !/data/raw/cvpr2024/bootstrap_manifest.json
 
+# A5: supplemental source responses/receipts are required for offline replay.
+!/data/raw/cvpr2024/a5/[0-9a-f]*.raw.gz
+!/data/raw/cvpr2024/a5/[0-9a-f]*.json
+/data/raw/cvpr2024/a5/*_rate_limit.json
+
 # Trạng thái vận hành/tệp tạm A2: giữ local, không xóa để né quota.
 /data/raw/cvpr2024/checkpoints/
 /data/raw/cvpr2024/collector_checkpoint.json
