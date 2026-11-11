@@ -1,42 +1,42 @@
 {
   "primary": {
     "total": 100,
-    "graded": 50,
-    "pending": 50,
-    "correct": 50,
-    "incorrect": 0,
+    "graded": 100,
+    "pending": 0,
+    "correct": 99,
+    "incorrect": 1,
     "unverifiable": 0,
-    "conservative_precision": 1.0
+    "conservative_precision": 0.99
   },
   "cross": {
     "total": 20,
-    "graded": 10,
-    "pending": 10,
-    "correct": 10,
+    "graded": 20,
+    "pending": 0,
+    "correct": 20,
     "incorrect": 0,
     "unverifiable": 0,
     "conservative_precision": 1.0
   },
   "nodes": {
     "total": 50,
-    "graded": 25,
-    "pending": 25,
-    "correct": 11,
-    "incorrect": 3,
+    "graded": 50,
+    "pending": 0,
+    "correct": 20,
+    "incorrect": 19,
     "unverifiable": 11,
-    "conservative_precision": 0.44
+    "conservative_precision": 0.4
   },
-  "cross_agreements": 0,
+  "cross_agreements": 20,
   "cross_disagreements": [],
   "primary_by_reviewer": {
     "A": {
       "total": 50,
-      "graded": 0,
-      "pending": 50,
-      "correct": 0,
-      "incorrect": 0,
+      "graded": 50,
+      "pending": 0,
+      "correct": 49,
+      "incorrect": 1,
       "unverifiable": 0,
-      "conservative_precision": null
+      "conservative_precision": 0.98
     },
     "B": {
       "total": 50,
@@ -48,7 +48,7 @@
       "conservative_precision": 1.0
     }
   },
-  "human_audit_complete": false,
+  "human_audit_complete": true,
   "human_findings_clear": false,
   "ready_for_a7": false
 }
