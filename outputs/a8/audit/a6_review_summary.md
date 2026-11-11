@@ -50,8 +50,8 @@ Primary A/B: `{"A":50,"B":50}`. Chi tiết phân tầng:
 | USES_METHOD | 195 | 10 |
 | EVALUATED_ON | 28 | 10 |
 
-Đã chấm primary: 50; còn pending: 50. Conservative precision: 100.00% (50/50).
-Cross disagreements: 0; node pending: 25.
+Đã chấm primary: 100; còn pending: 0. Conservative precision: 99.00% (99/100).
+Cross disagreements: 0; node pending: 0.
 Unverifiable được tính là chưa đúng; pending_review không nằm trong mẫu số đã chấm. Cross rows không nhân đôi mẫu số precision primary. Không suy độ chính xác toàn graph >90% từ mẫu thử.
 
 ## Bàn giao
@@ -61,5 +61,5 @@ review_status: correct / incorrect / unverifiable / pending_review. error_group:
 evidence_json trên phiếu cạnh chứa tối đa 3 bản ghi nguyên văn để phù hợp CSV/Excel; evidence_ids vẫn giữ toàn bộ. Đọc evidence.jsonl được manifest graph tham chiếu để kiểm tra tất cả nguồn, đặc biệt cạnh có nhiều Paper hỗ trợ.
 Chạy `python -m src.audit summarize --config config/a6_audit.json` để tổng hợp sau khi A/B chấm. Lệnh này chỉ cập nhật báo cáo dẫn xuất, giữ nguyên phiếu chấm. Rerun `run` từ chối ghi đè phiếu đã sửa; snapshot/rule/config mới phải dùng output_dir mới.
 
-A6 tự động hoàn tất: True; human audit hoàn tất: False.
+A6 tự động hoàn tất: True; human audit hoàn tất: True.
 A7 chỉ sẵn sàng sau khi các kiểm tra bắt buộc qua, A/B chấm và đọc chéo đủ, xử lý các kết quả incorrect/unverifiable/bất đồng và xác minh lại lỗi đã sửa. Hiện chưa tuyên bố đạt precision hoặc nghiệm thu toàn graph.
