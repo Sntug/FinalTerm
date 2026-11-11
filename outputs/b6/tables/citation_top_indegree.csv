@@ -1,0 +1,16 @@
+paper_id,title,conference,in_degree,out_degree,pagerank
+cvf:ICCV2023:Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023,ELITE: Encoding Visual Concepts into Textual Embeddings for Customized Text-to-Image Generation,ICCV,6,0,0.008526
+cvf:CVPR2024:Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024,Text-to-3D using Gaussian Splatting,CVPR,4,2,0.00418
+cvf:ICCV2023:Chen_Text2Tex_Text-driven_Texture_Synthesis_via_Diffusion_Models_ICCV_2023,Text2Tex: Text-driven Texture Synthesis via Diffusion Models,ICCV,3,0,0.003905
+cvf:ICCV2023:Goel_Humans_in_4D_Reconstructing_and_Tracking_Humans_with_Transformers_ICCV_2023,Humans in 4D: Reconstructing and Tracking Humans with Transformers,ICCV,3,0,0.00302
+cvf:ICCV2023:Raj_DreamBooth3D_Subject-Driven_Text-to-3D_Generation_ICCV_2023,DreamBooth3D: Subject-Driven Text-to-3D Generation,ICCV,3,0,0.005523
+cvf:ICCV2023:Wang_Mixed_Neural_Voxels_for_Fast_Multi-view_Video_Synthesis_ICCV_2023,Mixed Neural Voxels for Fast Multi-view Video Synthesis,ICCV,3,0,0.005071
+cvf:ICCV2023:Wang_OpenOccupancy_A_Large_Scale_Benchmark_for_Surrounding_Semantic_Occupancy_Perception_ICCV_2023,OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception,ICCV,3,0,0.002843
+cvf:ICCV2023:Wei_SurroundOcc_Multi-camera_3D_Occupancy_Prediction_for_Autonomous_Driving_ICCV_2023,SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving,ICCV,3,0,0.002843
+cvf:ICCV2023:Wen_Parametric_Classification_for_Generalized_Category_Discovery_A_Baseline_Study_ICCV_2023,Parametric Classification for Generalized Category Discovery: A Baseline Study,ICCV,3,1,0.015445
+cvf:ICCV2023:Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023,Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer,ICCV,3,0,0.004436
+cvf:ICCV2023:Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023,AG3D: Learning to Generate 3D Avatars from 2D Image Collections,ICCV,2,0,0.003374
+cvf:ICCV2023:Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023,DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models,ICCV,2,0,0.003374
+cvf:ICCV2023:Ji_Anchor_Structure_Regularization_Induced_Multi-view_Subspace_Clustering_via_Enhanced_Tensor_ICCV_2023,Anchor Structure Regularization Induced Multi-view Subspace Clustering via Enhanced Tensor Rank Minimization,ICCV,2,0,0.003374
+cvf:ICCV2023:Zhang_3D-Aware_Neural_Body_Fitting_for_Occlusion_Robust_3D_Human_Pose_ICCV_2023,3D-Aware Neural Body Fitting for Occlusion Robust 3D Human Pose Estimation,ICCV,2,0,0.002666
+cvf:ICCV2023:Zheng_Look_at_the_Neighbor_Distortion-aware_Unsupervised_Domain_Adaptation_for_Panoramic_ICCV_2023,Look at the Neighbor: Distortion-aware Unsupervised Domain Adaptation for Panoramic Semantic Segmentation,ICCV,2,0,0.003294

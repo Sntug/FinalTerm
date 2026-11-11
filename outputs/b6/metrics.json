@@ -1,0 +1,1598 @@
+{
+ "case_study": {
+  "authors_kept": 25,
+  "cites_inside": 1,
+  "cites_pairs": [
+   [
+    "Unleashing Channel Potential: Space-Frequency Selection Convolution for SAR Object Detection",
+    "Large Selective Kernel Network for Remote Sensing Object Detection"
+   ]
+  ],
+  "edges": 98,
+  "nodes": 80,
+  "nodes_by_label": {
+   "Author": 25,
+   "Dataset": 2,
+   "Institution": 20,
+   "Method": 4,
+   "Paper": 28,
+   "Task": 1
+  },
+  "papers": 28,
+  "reason": "task:object-detection has 28 papers (>= 10)",
+  "task": "task:object-detection",
+  "trim_rule": "keep task, all its papers, their Method/Dataset; add authors by #papers in subset (ties by id) with their subset institutions while nodes <= 80"
+ },
+ "citation": {
+  "cites_edges": 97,
+  "cvpr_to_iccv": 81,
+  "iccv_to_cvpr": 0,
+  "largest_weak_component": 20,
+  "pagerank_alpha": 0.85,
+  "papers": 700,
+  "share_zero_in": 0.902857,
+  "share_zero_in_and_out": 0.802857,
+  "share_zero_out": 0.885714,
+  "top15_in_degree": [
+   [
+    "cvf:ICCV2023:Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023",
+    "ELITE: Encoding Visual Concepts into Textual Embeddings for Customized Text-to-Image Generation",
+    "ICCV",
+    6
+   ],
+   [
+    "cvf:CVPR2024:Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024",
+    "Text-to-3D using Gaussian Splatting",
+    "CVPR",
+    4
+   ],
+   [
+    "cvf:ICCV2023:Chen_Text2Tex_Text-driven_Texture_Synthesis_via_Diffusion_Models_ICCV_2023",
+    "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Goel_Humans_in_4D_Reconstructing_and_Tracking_Humans_with_Transformers_ICCV_2023",
+    "Humans in 4D: Reconstructing and Tracking Humans with Transformers",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Raj_DreamBooth3D_Subject-Driven_Text-to-3D_Generation_ICCV_2023",
+    "DreamBooth3D: Subject-Driven Text-to-3D Generation",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Wang_Mixed_Neural_Voxels_for_Fast_Multi-view_Video_Synthesis_ICCV_2023",
+    "Mixed Neural Voxels for Fast Multi-view Video Synthesis",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Wang_OpenOccupancy_A_Large_Scale_Benchmark_for_Surrounding_Semantic_Occupancy_Perception_ICCV_2023",
+    "OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Wei_SurroundOcc_Multi-camera_3D_Occupancy_Prediction_for_Autonomous_Driving_ICCV_2023",
+    "SurroundOcc: Multi-camera 3D Occupancy Prediction for Autonomous Driving",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Wen_Parametric_Classification_for_Generalized_Category_Discovery_A_Baseline_Study_ICCV_2023",
+    "Parametric Classification for Generalized Category Discovery: A Baseline Study",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023",
+    "Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer",
+    "ICCV",
+    3
+   ],
+   [
+    "cvf:ICCV2023:Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023",
+    "AG3D: Learning to Generate 3D Avatars from 2D Image Collections",
+    "ICCV",
+    2
+   ],
+   [
+    "cvf:ICCV2023:Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023",
+    "DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models",
+    "ICCV",
+    2
+   ],
+   [
+    "cvf:ICCV2023:Ji_Anchor_Structure_Regularization_Induced_Multi-view_Subspace_Clustering_via_Enhanced_Tensor_ICCV_2023",
+    "Anchor Structure Regularization Induced Multi-view Subspace Clustering via Enhanced Tensor Rank Minimization",
+    "ICCV",
+    2
+   ],
+   [
+    "cvf:ICCV2023:Zhang_3D-Aware_Neural_Body_Fitting_for_Occlusion_Robust_3D_Human_Pose_ICCV_2023",
+    "3D-Aware Neural Body Fitting for Occlusion Robust 3D Human Pose Estimation",
+    "ICCV",
+    2
+   ],
+   [
+    "cvf:ICCV2023:Zheng_Look_at_the_Neighbor_Distortion-aware_Unsupervised_Domain_Adaptation_for_Panoramic_ICCV_2023",
+    "Look at the Neighbor: Distortion-aware Unsupervised Domain Adaptation for Panoramic Semantic Segmentation",
+    "ICCV",
+    2
+   ]
+  ],
+  "top15_pagerank": [
+   [
+    "cvf:ICCV2023:Wen_Parametric_Classification_for_Generalized_Category_Discovery_A_Baseline_Study_ICCV_2023",
+    "Parametric Classification for Generalized Category Discovery: A Baseline Study",
+    "ICCV",
+    0.015445
+   ],
+   [
+    "cvf:ICCV2023:Zhao_Incremental_Generalized_Category_Discovery_ICCV_2023",
+    "Incremental Generalized Category Discovery",
+    "ICCV",
+    0.01423
+   ],
+   [
+    "cvf:ICCV2023:Wei_ELITE_Encoding_Visual_Concepts_into_Textual_Embeddings_for_Customized_Text-to-Image_ICCV_2023",
+    "ELITE: Encoding Visual Concepts into Textual Embeddings for Customized Text-to-Image Generation",
+    "ICCV",
+    0.008526
+   ],
+   [
+    "cvf:ICCV2023:Guan_PIDRo_Parallel_Isomeric_Attention_with_Dynamic_Routing_for_Text-Video_Retrieval_ICCV_2023",
+    "PIDRo: Parallel Isomeric Attention with Dynamic Routing for Text-Video Retrieval",
+    "ICCV",
+    0.008043
+   ],
+   [
+    "cvf:ICCV2023:Shao_HiVLP_Hierarchical_Interactive_Video-Language_Pre-Training_ICCV_2023",
+    "HiVLP: Hierarchical Interactive Video-Language Pre-Training",
+    "ICCV",
+    0.008043
+   ],
+   [
+    "cvf:ICCV2023:Raj_DreamBooth3D_Subject-Driven_Text-to-3D_Generation_ICCV_2023",
+    "DreamBooth3D: Subject-Driven Text-to-3D Generation",
+    "ICCV",
+    0.005523
+   ],
+   [
+    "cvf:ICCV2023:Wang_Mixed_Neural_Voxels_for_Fast_Multi-view_Video_Synthesis_ICCV_2023",
+    "Mixed Neural Voxels for Fast Multi-view Video Synthesis",
+    "ICCV",
+    0.005071
+   ],
+   [
+    "cvf:ICCV2023:Yang_Zero-Shot_Contrastive_Loss_for_Text-Guided_Diffusion_Image_Style_Transfer_ICCV_2023",
+    "Zero-Shot Contrastive Loss for Text-Guided Diffusion Image Style Transfer",
+    "ICCV",
+    0.004436
+   ],
+   [
+    "cvf:CVPR2024:Chen_Text-to-3D_using_Gaussian_Splatting_CVPR_2024",
+    "Text-to-3D using Gaussian Splatting",
+    "CVPR",
+    0.00418
+   ],
+   [
+    "cvf:ICCV2023:Chen_Text2Tex_Text-driven_Texture_Synthesis_via_Diffusion_Models_ICCV_2023",
+    "Text2Tex: Text-driven Texture Synthesis via Diffusion Models",
+    "ICCV",
+    0.003905
+   ],
+   [
+    "cvf:ICCV2023:Dong_AG3D_Learning_to_Generate_3D_Avatars_from_2D_Image_Collections_ICCV_2023",
+    "AG3D: Learning to Generate 3D Avatars from 2D Image Collections",
+    "ICCV",
+    0.003374
+   ],
+   [
+    "cvf:ICCV2023:Holmquist_DiffPose_Multi-hypothesis_Human_Pose_Estimation_using_Diffusion_Models_ICCV_2023",
+    "DiffPose: Multi-hypothesis Human Pose Estimation using Diffusion Models",
+    "ICCV",
+    0.003374
+   ],
+   [
+    "cvf:ICCV2023:Ji_Anchor_Structure_Regularization_Induced_Multi-view_Subspace_Clustering_via_Enhanced_Tensor_ICCV_2023",
+    "Anchor Structure Regularization Induced Multi-view Subspace Clustering via Enhanced Tensor Rank Minimization",
+    "ICCV",
+    0.003374
+   ],
+   [
+    "cvf:ICCV2023:Zheng_Look_at_the_Neighbor_Distortion-aware_Unsupervised_Domain_Adaptation_for_Panoramic_ICCV_2023",
+    "Look at the Neighbor: Distortion-aware Unsupervised Domain Adaptation for Panoramic Semantic Segmentation",
+    "ICCV",
+    0.003294
+   ],
+   [
+    "cvf:ICCV2023:Goel_Humans_in_4D_Reconstructing_and_Tracking_Humans_with_Transformers_ICCV_2023",
+    "Humans in 4D: Reconstructing and Tracking Humans with Transformers",
+    "ICCV",
+    0.00302
+   ]
+  ],
+  "weak_components": 610,
+  "weak_components_nontrivial": 48,
+  "within_cvpr": 9,
+  "within_iccv": 7
+ },
+ "coauthor": {
+  "avg_clustering_all_nodes": 0.920728,
+  "avg_clustering_lcc": 0.908427,
+  "components": 416,
+  "components_nontrivial": 412,
+  "degree_distribution": {
+   "0": 4,
+   "1": 105,
+   "10": 62,
+   "11": 31,
+   "12": 10,
+   "13": 29,
+   "14": 8,
+   "15": 10,
+   "16": 6,
+   "17": 5,
+   "18": 1,
+   "19": 4,
+   "2": 295,
+   "20": 18,
+   "22": 3,
+   "23": 6,
+   "28": 2,
+   "29": 2,
+   "3": 493,
+   "36": 1,
+   "4": 514,
+   "40": 1,
+   "41": 1,
+   "5": 414,
+   "6": 370,
+   "7": 315,
+   "8": 133,
+   "9": 107
+  },
+  "degree_summary": {
+   "max": 41,
+   "mean": 5.268475,
+   "median": 5.0,
+   "min": 0,
+   "p90": 9
+  },
+  "density": 0.001787,
+  "edges": 7771,
+  "isolated_authors": 4,
+  "largest_component_share": 0.170169,
+  "largest_component_size": 502,
+  "lcc_edges": 1936,
+  "louvain": {
+   "communities": 19,
+   "modularity": 0.867462,
+   "scope": "largest_component",
+   "seed": 42,
+   "top10_sizes": [
+    41,
+    40,
+    40,
+    40,
+    38,
+    32,
+    28,
+    28,
+    28,
+    27
+   ]
+  },
+  "nodes": 2950,
+  "strength_summary": {
+   "max": 45,
+   "mean": 5.333559,
+   "median": 5.0,
+   "min": 0,
+   "p90": 9
+  },
+  "top15_by_degree": [
+   [
+    "author:openalex:A5100406050",
+    "Ziwei Liu",
+    41,
+    45,
+    5
+   ],
+   [
+    "author:openalex:A5005626854",
+    "Chen Change Loy",
+    40,
+    44,
+    5
+   ],
+   [
+    "author:openalex:A5010087030",
+    "Dahua Lin",
+    36,
+    39,
+    7
+   ],
+   [
+    "author:openalex:A5001254143",
+    "Luc Van Gool",
+    29,
+    34,
+    8
+   ],
+   [
+    "author:openalex:A5102004349",
+    "Ying Shan",
+    29,
+    31,
+    5
+   ],
+   [
+    "author:openalex:A5043951834",
+    "Lei Yang",
+    28,
+    29,
+    2
+   ],
+   [
+    "author:openalex:A5054947207",
+    "Zhongang Cai",
+    28,
+    29,
+    2
+   ],
+   [
+    "author:openalex:A5101911374",
+    "Deli Zhao",
+    23,
+    25,
+    4
+   ],
+   [
+    "author:openalex:A5085870393",
+    "Varun Jampani",
+    23,
+    24,
+    4
+   ],
+   [
+    "author:openalex:A5086706224",
+    "Alan Yuille",
+    23,
+    24,
+    4
+   ],
+   [
+    "author:openalex:A5021908609",
+    "Marc Pollefeys",
+    23,
+    23,
+    5
+   ],
+   [
+    "author:openalex:A5102223697",
+    "Yang Gao",
+    23,
+    23,
+    2
+   ],
+   [
+    "author:openalex:A5111504451",
+    "Qi Tian",
+    23,
+    23,
+    3
+   ],
+   [
+    "author:openalex:A5003217535",
+    "Zheng-Jun Zha",
+    22,
+    22,
+    4
+   ],
+   [
+    "author:openalex:A5037478865",
+    "Yucheng Tang",
+    22,
+    22,
+    2
+   ]
+  ],
+  "top15_by_strength": [
+   [
+    "author:openalex:A5100406050",
+    "Ziwei Liu",
+    41,
+    45,
+    5
+   ],
+   [
+    "author:openalex:A5005626854",
+    "Chen Change Loy",
+    40,
+    44,
+    5
+   ],
+   [
+    "author:openalex:A5010087030",
+    "Dahua Lin",
+    36,
+    39,
+    7
+   ],
+   [
+    "author:openalex:A5001254143",
+    "Luc Van Gool",
+    29,
+    34,
+    8
+   ],
+   [
+    "author:openalex:A5102004349",
+    "Ying Shan",
+    29,
+    31,
+    5
+   ],
+   [
+    "author:openalex:A5043951834",
+    "Lei Yang",
+    28,
+    29,
+    2
+   ],
+   [
+    "author:openalex:A5054947207",
+    "Zhongang Cai",
+    28,
+    29,
+    2
+   ],
+   [
+    "author:openalex:A5101911374",
+    "Deli Zhao",
+    23,
+    25,
+    4
+   ],
+   [
+    "author:openalex:A5085870393",
+    "Varun Jampani",
+    23,
+    24,
+    4
+   ],
+   [
+    "author:openalex:A5086706224",
+    "Alan Yuille",
+    23,
+    24,
+    4
+   ],
+   [
+    "author:openalex:A5021908609",
+    "Marc Pollefeys",
+    23,
+    23,
+    5
+   ],
+   [
+    "author:openalex:A5102223697",
+    "Yang Gao",
+    23,
+    23,
+    2
+   ],
+   [
+    "author:openalex:A5111504451",
+    "Qi Tian",
+    23,
+    23,
+    3
+   ],
+   [
+    "author:openalex:A5030497493",
+    "Songcen Xu",
+    17,
+    23,
+    3
+   ],
+   [
+    "author:openalex:A5003217535",
+    "Zheng-Jun Zha",
+    22,
+    22,
+    4
+   ]
+  ]
+ },
+ "cypher_demo": {
+  "b6_case_study.cypher": 28,
+  "b6_country_collaboration.cypher": 15,
+  "b6_cross_conference_citations.cypher": 3,
+  "b6_method_usage.cypher": 28,
+  "b6_top_cited.cypher": 15
+ },
+ "group_citation": {
+  "cites_assigned": 95,
+  "cites_total": 97,
+  "cites_unassigned": 2,
+  "domestic_weight": 30.777779,
+  "international_weight": 64.222223,
+  "matrix_cells": 84,
+  "matrix_total_weight": 95.0,
+  "papers_without_country": 34,
+  "rule": "paper country set = countries of Institutions reached by BASED_IN from institutions i such that an author a with AUTHORED(a,paper) has AFFILIATED_WITH(a,i) whose paper_ids contains the paper; each CITES edge adds total weight 1 split evenly over |src countries| x |dst countries| pairs; edges where either paper has no country are excluded; derived analysis only, no graph edges added",
+  "top15_international_pairs": [
+   [
+    "country:CN",
+    "country:HK",
+    5.361111
+   ],
+   [
+    "country:CN",
+    "country:US",
+    5.361111
+   ],
+   [
+    "country:DE",
+    "country:CN",
+    4.333333
+   ],
+   [
+    "country:US",
+    "country:CN",
+    3.416667
+   ],
+   [
+    "country:HK",
+    "country:CN",
+    2.75
+   ],
+   [
+    "country:SG",
+    "country:CN",
+    2.583333
+   ],
+   [
+    "country:KR",
+    "country:CN",
+    2.5
+   ],
+   [
+    "country:DE",
+    "country:US",
+    2.25
+   ],
+   [
+    "country:KR",
+    "country:US",
+    2.0
+   ],
+   [
+    "country:US",
+    "country:SE",
+    2.0
+   ],
+   [
+    "country:CH",
+    "country:CN",
+    1.75
+   ],
+   [
+    "country:CH",
+    "country:US",
+    1.5
+   ],
+   [
+    "country:CN",
+    "country:DE",
+    1.25
+   ],
+   [
+    "country:CN",
+    "country:KR",
+    1.25
+   ],
+   [
+    "country:US",
+    "country:KR",
+    1.25
+   ]
+  ],
+  "top15_pairs": [
+   [
+    "country:CN",
+    "country:CN",
+    19.277778
+   ],
+   [
+    "country:US",
+    "country:US",
+    7.166667
+   ],
+   [
+    "country:CN",
+    "country:HK",
+    5.361111
+   ],
+   [
+    "country:CN",
+    "country:US",
+    5.361111
+   ],
+   [
+    "country:DE",
+    "country:CN",
+    4.333333
+   ],
+   [
+    "country:US",
+    "country:CN",
+    3.416667
+   ],
+   [
+    "country:HK",
+    "country:CN",
+    2.75
+   ],
+   [
+    "country:SG",
+    "country:CN",
+    2.583333
+   ],
+   [
+    "country:KR",
+    "country:CN",
+    2.5
+   ],
+   [
+    "country:DE",
+    "country:US",
+    2.25
+   ],
+   [
+    "country:KR",
+    "country:US",
+    2.0
+   ],
+   [
+    "country:US",
+    "country:SE",
+    2.0
+   ],
+   [
+    "country:CH",
+    "country:CN",
+    1.75
+   ],
+   [
+    "country:CH",
+    "country:US",
+    1.5
+   ],
+   [
+    "country:CN",
+    "country:DE",
+    1.25
+   ]
+  ]
+ },
+ "institution": {
+  "countries": 42,
+  "country_pairs_collab_domestic_weight": 686,
+  "country_pairs_collab_international_weight": 664,
+  "country_pairs_international_distinct": 111,
+  "edges": 1140,
+  "isolated_institutions": 26,
+  "nodes": 432,
+  "papers_with_country": 666,
+  "top15_by_degree": [
+   [
+    "institution:openalex:I99065089",
+    "Tsinghua University",
+    48,
+    69
+   ],
+   [
+    "institution:openalex:I76130692",
+    "Zhejiang University",
+    38,
+    54
+   ],
+   [
+    "institution:openalex:I35440088",
+    "ETH Zurich",
+    33,
+    43
+   ],
+   [
+    "institution:openalex:I157773358",
+    "Sun Yat-sen University",
+    33,
+    42
+   ],
+   [
+    "institution:openalex:I20231570",
+    "Peking University",
+    32,
+    52
+   ],
+   [
+    "institution:openalex:I172675005",
+    "Nanyang Technological University",
+    31,
+    40
+   ],
+   [
+    "institution:openalex:I4391012619",
+    "Shanghai Artificial Intelligence Laboratory",
+    30,
+    46
+   ],
+   [
+    "institution:openalex:I45928872",
+    "Alibaba Group (China)",
+    29,
+    47
+   ],
+   [
+    "institution:openalex:I889458895",
+    "University of Hong Kong",
+    29,
+    42
+   ],
+   [
+    "institution:openalex:I183067930",
+    "Shanghai Jiao Tong University",
+    28,
+    37
+   ],
+   [
+    "institution:openalex:I177725633",
+    "Chinese University of Hong Kong",
+    26,
+    41
+   ],
+   [
+    "institution:openalex:I200769079",
+    "Hong Kong University of Science and Technology",
+    26,
+    35
+   ],
+   [
+    "institution:openalex:I2250653659",
+    "Tencent (China)",
+    25,
+    37
+   ],
+   [
+    "institution:openalex:I19820366",
+    "Chinese Academy of Sciences",
+    24,
+    44
+   ],
+   [
+    "institution:openalex:I4210136793",
+    "Peng Cheng Laboratory",
+    24,
+    38
+   ]
+  ],
+  "top15_by_strength": [
+   [
+    "institution:openalex:I99065089",
+    "Tsinghua University",
+    48,
+    69
+   ],
+   [
+    "institution:openalex:I76130692",
+    "Zhejiang University",
+    38,
+    54
+   ],
+   [
+    "institution:openalex:I20231570",
+    "Peking University",
+    32,
+    52
+   ],
+   [
+    "institution:openalex:I45928872",
+    "Alibaba Group (China)",
+    29,
+    47
+   ],
+   [
+    "institution:openalex:I4391012619",
+    "Shanghai Artificial Intelligence Laboratory",
+    30,
+    46
+   ],
+   [
+    "institution:openalex:I19820366",
+    "Chinese Academy of Sciences",
+    24,
+    44
+   ],
+   [
+    "institution:openalex:I35440088",
+    "ETH Zurich",
+    33,
+    43
+   ],
+   [
+    "institution:openalex:I157773358",
+    "Sun Yat-sen University",
+    33,
+    42
+   ],
+   [
+    "institution:openalex:I889458895",
+    "University of Hong Kong",
+    29,
+    42
+   ],
+   [
+    "institution:openalex:I177725633",
+    "Chinese University of Hong Kong",
+    26,
+    41
+   ],
+   [
+    "institution:openalex:I172675005",
+    "Nanyang Technological University",
+    31,
+    40
+   ],
+   [
+    "institution:openalex:I4210136793",
+    "Peng Cheng Laboratory",
+    24,
+    38
+   ],
+   [
+    "institution:openalex:I183067930",
+    "Shanghai Jiao Tong University",
+    28,
+    37
+   ],
+   [
+    "institution:openalex:I2250653659",
+    "Tencent (China)",
+    25,
+    37
+   ],
+   [
+    "institution:openalex:I200769079",
+    "Hong Kong University of Science and Technology",
+    26,
+    35
+   ]
+  ],
+  "top15_country_pairs_international": [
+   [
+    "country:CN",
+    "country:US",
+    99
+   ],
+   [
+    "country:CN",
+    "country:HK",
+    83
+   ],
+   [
+    "country:CN",
+    "country:SG",
+    46
+   ],
+   [
+    "country:AU",
+    "country:CN",
+    30
+   ],
+   [
+    "country:HK",
+    "country:US",
+    24
+   ],
+   [
+    "country:CN",
+    "country:GB",
+    19
+   ],
+   [
+    "country:CN",
+    "country:JP",
+    19
+   ],
+   [
+    "country:KR",
+    "country:US",
+    18
+   ],
+   [
+    "country:CN",
+    "country:DE",
+    16
+   ],
+   [
+    "country:DE",
+    "country:US",
+    15
+   ],
+   [
+    "country:GB",
+    "country:US",
+    12
+   ],
+   [
+    "country:AE",
+    "country:CN",
+    11
+   ],
+   [
+    "country:CA",
+    "country:US",
+    11
+   ],
+   [
+    "country:CN",
+    "country:KY",
+    10
+   ],
+   [
+    "country:CH",
+    "country:US",
+    9
+   ]
+  ],
+  "top15_pairs": [
+   [
+    "Chinese Academy of Sciences",
+    "Institute of Automation",
+    8
+   ],
+   [
+    "Chinese Academy of Sciences",
+    "University of Chinese Academy of Sciences",
+    7
+   ],
+   [
+    "Chinese University of Hong Kong",
+    "Shanghai Artificial Intelligence Laboratory",
+    6
+   ],
+   [
+    "Sun Yat-sen University",
+    "Peng Cheng Laboratory",
+    5
+   ],
+   [
+    "Chinese University of Hong Kong",
+    "University of Hong Kong",
+    5
+   ],
+   [
+    "Peking University",
+    "Peng Cheng Laboratory",
+    5
+   ],
+   [
+    "Beijing National Research Center for Information Science and Technology",
+    "Tsinghua University",
+    5
+   ],
+   [
+    "Alibaba Group (China)",
+    "Tsinghua University",
+    5
+   ],
+   [
+    "University of Science and Technology of China",
+    "Zhejiang University",
+    4
+   ],
+   [
+    "University of Toronto",
+    "Vector Institute",
+    4
+   ],
+   [
+    "Hong Kong University of Science and Technology",
+    "The Hong Kong University of Science and Technology (Guangzhou)",
+    4
+   ],
+   [
+    "Peking University",
+    "Shanghai Artificial Intelligence Laboratory",
+    4
+   ],
+   [
+    "Tencent (China)",
+    "Wuhan University",
+    4
+   ],
+   [
+    "Tencent (China)",
+    "University of Hong Kong",
+    4
+   ],
+   [
+    "ETH Zurich",
+    "Computer Vision Laboratory",
+    4
+   ]
+  ],
+  "top_countries_by_institutions": [
+   [
+    "country:CN",
+    111,
+    342
+   ],
+   [
+    "country:US",
+    98,
+    206
+   ],
+   [
+    "country:FR",
+    29,
+    12
+   ],
+   [
+    "country:DE",
+    25,
+    38
+   ],
+   [
+    "country:KR",
+    24,
+    53
+   ],
+   [
+    "country:GB",
+    19,
+    47
+   ],
+   [
+    "country:IT",
+    12,
+    9
+   ],
+   [
+    "country:JP",
+    12,
+    14
+   ],
+   [
+    "country:CA",
+    11,
+    19
+   ],
+   [
+    "country:AU",
+    10,
+    26
+   ],
+   [
+    "country:SG",
+    8,
+    49
+   ],
+   [
+    "country:HK",
+    7,
+    60
+   ],
+   [
+    "country:TW",
+    7,
+    8
+   ],
+   [
+    "country:CH",
+    6,
+    27
+   ],
+   [
+    "country:IN",
+    6,
+    7
+   ]
+  ],
+  "top_countries_by_papers": [
+   [
+    "country:CN",
+    111,
+    342
+   ],
+   [
+    "country:US",
+    98,
+    206
+   ],
+   [
+    "country:HK",
+    7,
+    60
+   ],
+   [
+    "country:KR",
+    24,
+    53
+   ],
+   [
+    "country:SG",
+    8,
+    49
+   ],
+   [
+    "country:GB",
+    19,
+    47
+   ],
+   [
+    "country:DE",
+    25,
+    38
+   ],
+   [
+    "country:CH",
+    6,
+    27
+   ],
+   [
+    "country:AU",
+    10,
+    26
+   ],
+   [
+    "country:CA",
+    11,
+    19
+   ],
+   [
+    "country:JP",
+    12,
+    14
+   ],
+   [
+    "country:FR",
+    29,
+    12
+   ],
+   [
+    "country:IT",
+    12,
+    9
+   ],
+   [
+    "country:TW",
+    7,
+    8
+   ],
+   [
+    "country:AE",
+    3,
+    8
+   ]
+  ]
+ },
+ "load_check": {
+  "counts": {
+   "by_label": {
+    "Author": 2950,
+    "Country": 42,
+    "Dataset": 14,
+    "Institution": 432,
+    "Method": 28,
+    "Paper": 700,
+    "Task": 14,
+    "VenueEdition": 2
+   },
+   "by_type": {
+    "AFFILIATED_WITH": 3237,
+    "AUTHORED": 3282,
+    "BASED_IN": 432,
+    "CITES": 97,
+    "COAUTHORED_WITH": 7771,
+    "COLLABORATED_WITH": 1140,
+    "EVALUATED_ON": 28,
+    "PUBLISHED_IN": 700,
+    "STUDIES_TASK": 97,
+    "USES_METHOD": 195
+   },
+   "edges": 16979,
+   "nodes": 4182
+  },
+  "manifest_match": true,
+  "neo4j_vs_csv": "identical",
+  "snapshot": {
+   "content_hash": "bed52069d90391bfbd7922e339be55c65d825129602230bbb3bfabf7900115d2",
+   "path": "data/processed/mxh_cv_700/a8/graph",
+   "snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
+   "source_snapshot_id": "snapshot:v2:5c5fd5cbe4ba98898e8643703429ba5956a66ffd614f78cafdecded76ef70324"
+  }
+ },
+ "nlp": {
+  "datasets_papers": [
+   [
+    "dataset:nuscenes",
+    "nuScenes",
+    6
+   ],
+   [
+    "dataset:coco",
+    "COCO",
+    3
+   ],
+   [
+    "dataset:kitti",
+    "KITTI",
+    3
+   ],
+   [
+    "dataset:ade20k",
+    "ADE20K",
+    2
+   ],
+   [
+    "dataset:cifar-10",
+    "CIFAR-10",
+    2
+   ],
+   [
+    "dataset:cifar-100",
+    "CIFAR-100",
+    2
+   ],
+   [
+    "dataset:imagenet-1k",
+    "ImageNet-1K",
+    2
+   ],
+   [
+    "dataset:shapenet",
+    "ShapeNet",
+    2
+   ],
+   [
+    "dataset:cityscapes",
+    "Cityscapes",
+    1
+   ],
+   [
+    "dataset:coco-2017",
+    "COCO 2017",
+    1
+   ],
+   [
+    "dataset:imagenet",
+    "ImageNet",
+    1
+   ],
+   [
+    "dataset:pascal-voc-2007",
+    "Pascal VOC 2007",
+    1
+   ],
+   [
+    "dataset:scannet-v2",
+    "ScanNet v2",
+    1
+   ],
+   [
+    "dataset:waymo-open-dataset",
+    "Waymo Open Dataset",
+    1
+   ]
+  ],
+  "datasets_with_zero_papers": 0,
+  "methods_papers": [
+   [
+    "method:transformer",
+    "Transformer",
+    37
+   ],
+   [
+    "method:diffusion-model",
+    "Diffusion Model",
+    35
+   ],
+   [
+    "method:neural-radiance-field",
+    "Neural Radiance Field",
+    15
+   ],
+   [
+    "method:vision-transformer",
+    "Vision Transformer",
+    15
+   ],
+   [
+    "method:latent-diffusion",
+    "Latent Diffusion",
+    9
+   ],
+   [
+    "method:contrastive-learning",
+    "Contrastive Learning",
+    8
+   ],
+   [
+    "method:large-language-model",
+    "Large Language Model",
+    8
+   ],
+   [
+    "method:clip",
+    "CLIP",
+    7
+   ],
+   [
+    "method:3d-gaussian-splatting",
+    "3D Gaussian Splatting",
+    6
+   ],
+   [
+    "method:attention-mechanism",
+    "Attention Mechanism",
+    5
+   ],
+   [
+    "method:generative-adversarial-network",
+    "Generative Adversarial Network",
+    5
+   ],
+   [
+    "method:implicit-neural-representation",
+    "Implicit Neural Representation",
+    5
+   ],
+   [
+    "method:knowledge-distillation",
+    "Knowledge Distillation",
+    5
+   ],
+   [
+    "method:vision-language-model",
+    "Vision-Language Model",
+    5
+   ],
+   [
+    "method:masked-autoencoder",
+    "Masked Autoencoder",
+    4
+   ],
+   [
+    "method:reinforcement-learning",
+    "Reinforcement Learning",
+    4
+   ],
+   [
+    "method:segment-anything-model",
+    "Segment Anything Model",
+    4
+   ],
+   [
+    "method:graph-neural-network",
+    "Graph Neural Network",
+    3
+   ],
+   [
+    "method:prompt-tuning",
+    "Prompt Tuning",
+    3
+   ],
+   [
+    "method:self-supervised-learning",
+    "Self-Supervised Learning",
+    3
+   ],
+   [
+    "method:detr",
+    "DETR",
+    2
+   ],
+   [
+    "method:convolutional-neural-network",
+    "Convolutional Neural Network",
+    1
+   ],
+   [
+    "method:mixture-of-experts",
+    "Mixture of Experts",
+    1
+   ],
+   [
+    "method:optimal-transport",
+    "Optimal Transport",
+    1
+   ],
+   [
+    "method:resnet",
+    "ResNet",
+    1
+   ],
+   [
+    "method:state-space-model",
+    "State Space Model",
+    1
+   ],
+   [
+    "method:u-net",
+    "U-Net",
+    1
+   ],
+   [
+    "method:variational-autoencoder",
+    "Variational Autoencoder",
+    1
+   ]
+  ],
+  "methods_with_zero_papers": 0,
+  "papers_with_any_nlp_edge": 267,
+  "papers_with_dataset": 21,
+  "papers_with_method": 178,
+  "papers_with_task": 95,
+  "tasks_papers": [
+   [
+    "task:object-detection",
+    "Object Detection",
+    28
+   ],
+   [
+    "task:semantic-segmentation",
+    "Semantic Segmentation",
+    14
+   ],
+   [
+    "task:image-generation",
+    "Image Generation",
+    13
+   ],
+   [
+    "task:3d-reconstruction",
+    "3D Reconstruction",
+    7
+   ],
+   [
+    "task:image-restoration",
+    "Image Restoration",
+    6
+   ],
+   [
+    "task:action-recognition",
+    "Action Recognition",
+    5
+   ],
+   [
+    "task:depth-estimation",
+    "Depth Estimation",
+    5
+   ],
+   [
+    "task:object-tracking",
+    "Object Tracking",
+    5
+   ],
+   [
+    "task:image-super-resolution",
+    "Image Super-Resolution",
+    4
+   ],
+   [
+    "task:instance-segmentation",
+    "Instance Segmentation",
+    4
+   ],
+   [
+    "task:human-pose-estimation",
+    "Human Pose Estimation",
+    2
+   ],
+   [
+    "task:image-classification",
+    "Image Classification",
+    2
+   ],
+   [
+    "task:optical-flow-estimation",
+    "Optical Flow Estimation",
+    1
+   ],
+   [
+    "task:panoptic-segmentation",
+    "Panoptic Segmentation",
+    1
+   ]
+  ],
+  "tasks_with_zero_papers": 0,
+  "top15_task_method_pairs": [
+   [
+    "Object Detection",
+    "Knowledge Distillation",
+    3
+   ],
+   [
+    "Object Detection",
+    "Transformer",
+    3
+   ],
+   [
+    "3D Reconstruction",
+    "Transformer",
+    1
+   ],
+   [
+    "Action Recognition",
+    "Graph Neural Network",
+    1
+   ],
+   [
+    "Action Recognition",
+    "Knowledge Distillation",
+    1
+   ],
+   [
+    "Action Recognition",
+    "Masked Autoencoder",
+    1
+   ],
+   [
+    "Human Pose Estimation",
+    "Diffusion Model",
+    1
+   ],
+   [
+    "Image Generation",
+    "Latent Diffusion",
+    1
+   ],
+   [
+    "Image Restoration",
+    "Implicit Neural Representation",
+    1
+   ],
+   [
+    "Image Super-Resolution",
+    "Diffusion Model",
+    1
+   ],
+   [
+    "Object Detection",
+    "DETR",
+    1
+   ],
+   [
+    "Object Detection",
+    "Diffusion Model",
+    1
+   ],
+   [
+    "Object Tracking",
+    "Transformer",
+    1
+   ],
+   [
+    "Semantic Segmentation",
+    "Reinforcement Learning",
+    1
+   ],
+   [
+    "Semantic Segmentation",
+    "Segment Anything Model",
+    1
+   ]
+  ]
+ },
+ "seed": 42,
+ "source": "neo4j"
+}

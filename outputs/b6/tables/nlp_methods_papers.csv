@@ -1,0 +1,29 @@
+id,name,n_papers
+method:transformer,Transformer,37
+method:diffusion-model,Diffusion Model,35
+method:neural-radiance-field,Neural Radiance Field,15
+method:vision-transformer,Vision Transformer,15
+method:latent-diffusion,Latent Diffusion,9
+method:contrastive-learning,Contrastive Learning,8
+method:large-language-model,Large Language Model,8
+method:clip,CLIP,7
+method:3d-gaussian-splatting,3D Gaussian Splatting,6
+method:attention-mechanism,Attention Mechanism,5
+method:generative-adversarial-network,Generative Adversarial Network,5
+method:implicit-neural-representation,Implicit Neural Representation,5
+method:knowledge-distillation,Knowledge Distillation,5
+method:vision-language-model,Vision-Language Model,5
+method:masked-autoencoder,Masked Autoencoder,4
+method:reinforcement-learning,Reinforcement Learning,4
+method:segment-anything-model,Segment Anything Model,4
+method:graph-neural-network,Graph Neural Network,3
+method:prompt-tuning,Prompt Tuning,3
+method:self-supervised-learning,Self-Supervised Learning,3
+method:detr,DETR,2
+method:convolutional-neural-network,Convolutional Neural Network,1
+method:mixture-of-experts,Mixture of Experts,1
+method:optimal-transport,Optimal Transport,1
+method:resnet,ResNet,1
+method:state-space-model,State Space Model,1
+method:u-net,U-Net,1
+method:variational-autoencoder,Variational Autoencoder,1

@@ -1,0 +1,16 @@
+author_id,name,degree,strength,n_papers,conference_mix
+author:openalex:A5100406050,Ziwei Liu,41,45,5,CVPR:3; ICCV:2
+author:openalex:A5005626854,Chen Change Loy,40,44,5,CVPR:3; ICCV:2
+author:openalex:A5010087030,Dahua Lin,36,39,7,CVPR:6; ICCV:1
+author:openalex:A5001254143,Luc Van Gool,29,34,8,CVPR:5; ICCV:3
+author:openalex:A5102004349,Ying Shan,29,31,5,CVPR:2; ICCV:3
+author:openalex:A5043951834,Lei Yang,28,29,2,CVPR:2
+author:openalex:A5054947207,Zhongang Cai,28,29,2,CVPR:2
+author:openalex:A5101911374,Deli Zhao,23,25,4,CVPR:1; ICCV:3
+author:openalex:A5085870393,Varun Jampani,23,24,4,CVPR:2; ICCV:2
+author:openalex:A5086706224,Alan Yuille,23,24,4,CVPR:1; ICCV:3
+author:openalex:A5021908609,Marc Pollefeys,23,23,5,CVPR:4; ICCV:1
+author:openalex:A5102223697,Yang Gao,23,23,2,CVPR:1; ICCV:1
+author:openalex:A5111504451,Qi Tian,23,23,3,CVPR:2; ICCV:1
+author:openalex:A5030497493,Songcen Xu,17,23,3,ICCV:3
+author:openalex:A5003217535,Zheng-Jun Zha,22,22,4,ICCV:4

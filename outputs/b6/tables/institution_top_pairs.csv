@@ -1,0 +1,16 @@
+inst_1,name_1,inst_2,name_2,weight
+institution:openalex:I19820366,Chinese Academy of Sciences,institution:openalex:I4210112150,Institute of Automation,8
+institution:openalex:I19820366,Chinese Academy of Sciences,institution:openalex:I4210165038,University of Chinese Academy of Sciences,7
+institution:openalex:I177725633,Chinese University of Hong Kong,institution:openalex:I4391012619,Shanghai Artificial Intelligence Laboratory,6
+institution:openalex:I157773358,Sun Yat-sen University,institution:openalex:I4210136793,Peng Cheng Laboratory,5
+institution:openalex:I177725633,Chinese University of Hong Kong,institution:openalex:I889458895,University of Hong Kong,5
+institution:openalex:I20231570,Peking University,institution:openalex:I4210136793,Peng Cheng Laboratory,5
+institution:openalex:I4405271667,Beijing National Research Center for Information Science and Technology,institution:openalex:I99065089,Tsinghua University,5
+institution:openalex:I45928872,Alibaba Group (China),institution:openalex:I99065089,Tsinghua University,5
+institution:openalex:I126520041,University of Science and Technology of China,institution:openalex:I76130692,Zhejiang University,4
+institution:openalex:I185261750,University of Toronto,institution:openalex:I4210127509,Vector Institute,4
+institution:openalex:I200769079,Hong Kong University of Science and Technology,institution:openalex:I4405261251,The Hong Kong University of Science and Technology (Guangzhou),4
+institution:openalex:I20231570,Peking University,institution:openalex:I4391012619,Shanghai Artificial Intelligence Laboratory,4
+institution:openalex:I2250653659,Tencent (China),institution:openalex:I37461747,Wuhan University,4
+institution:openalex:I2250653659,Tencent (China),institution:openalex:I889458895,University of Hong Kong,4
+institution:openalex:I35440088,ETH Zurich,institution:openalex:I4405257466,Computer Vision Laboratory,4

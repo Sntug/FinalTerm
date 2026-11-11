@@ -1,30 +1,30 @@
 {
   "project_id": "mxh_cv_700",
-  "snapshot_id": "snapshot:v2:7494c3c9c055befc8a7b59e529674a25d5ff5ad99bb824315f4d2c98d71afb61",
+  "snapshot_id": "snapshot:v2:ffcb00e173370c55b80299a182c81d72f6c461d38f944427c1cb33739e948757",
   "node_count": 4182,
   "edge_count": 16979,
   "counts_by_label": {
-    "Author": 2950,
-    "Paper": 700,
-    "Institution": 432,
     "Method": 28,
-    "Task": 14,
     "Dataset": 14,
     "Country": 42,
+    "Author": 2950,
+    "Institution": 432,
+    "Paper": 700,
+    "Task": 14,
     "VenueEdition": 2
   },
   "counts_by_type": {
     "AUTHORED": 3282,
-    "AFFILIATED_WITH": 3237,
     "COAUTHORED_WITH": 7771,
-    "PUBLISHED_IN": 700,
-    "USES_METHOD": 195,
+    "AFFILIATED_WITH": 3237,
     "BASED_IN": 432,
     "COLLABORATED_WITH": 1140,
+    "PUBLISHED_IN": 700,
     "STUDIES_TASK": 97,
     "EVALUATED_ON": 28,
+    "USES_METHOD": 195,
     "CITES": 97
   },
-  "content_sha256": "b1f429d7e38441537115747fe311e77243e0fb800772eee22c526d4773501d61",
-  "imported_at": "2026-11-10T05:55:08Z"
+  "content_sha256": "bed52069d90391bfbd7922e339be55c65d825129602230bbb3bfabf7900115d2",
+  "imported_at": "2026-11-11T01:12:20Z"
 }

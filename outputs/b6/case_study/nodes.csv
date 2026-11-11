@@ -1,0 +1,81 @@
+id,label,name
+author:openalex:A5000983039,Author,Branislav Kisačanin
+author:openalex:A5002391103,Author,Asaf Shabtai
+author:openalex:A5004716468,Author,Vishal M. Patel
+author:openalex:A5004849396,Author,Amit Baras
+author:openalex:A5005421447,Author,Yi Yang
+author:openalex:A5006395407,Author,Mengxue Kang
+author:openalex:A5009422392,Author,Erh-Chung Chen
+author:openalex:A5011007342,Author,Yufei Yin
+author:openalex:A5011077674,Author,Yasiru Ranasinghe
+author:openalex:A5011439390,Author,Jiaxu Miao
+author:openalex:A5012529382,Author,Junwei Han
+author:openalex:A5014407395,Author,Georgia Gkioxari
+author:openalex:A5020953714,Author,Yujiu Yang
+author:openalex:A5027129563,Author,Zhangyuan Hu
+author:openalex:A5027344351,Author,Chaorui Deng
+author:openalex:A5028539573,Author,Dahu Shi
+author:openalex:A5030101527,Author,Xinzhu Ma
+author:openalex:A5031951156,Author,Wenming Tan
+author:openalex:A5032006890,Author,Weihao Gan
+author:openalex:A5037131575,Author,Ming-Ming Cheng
+author:openalex:A5040392623,Author,Qibin Hou
+author:openalex:A5067487326,Author,Fisher Yu
+author:openalex:A5089561793,Author,Jiajun Deng
+author:openalex:A5100392725,Author,Da Chen
+author:openalex:A5100754053,Author,Zhaohui Zheng
+cvf:CVPR2024:Chen_Overload_Latency_Attacks_on_Object_Detection_for_Edge_Devices_CVPR_2024,Paper,Overload: Latency Attacks on Object Detection for Edge Devices
+cvf:CVPR2024:Gambashidze_Weak-to-Strong_3D_Object_Detection_with_X-Ray_Distillation_CVPR_2024,Paper,Weak-to-Strong 3D Object Detection with X-Ray Distillation
+cvf:CVPR2024:Li_UniMODE_Unified_Monocular_3D_Object_Detection_CVPR_2024,Paper,UniMODE: Unified Monocular 3D Object Detection
+cvf:CVPR2024:Li_Unleashing_Channel_Potential_Space-Frequency_Selection_Convolution_for_SAR_Object_Detection_CVPR_2024,Paper,Unleashing Channel Potential: Space-Frequency Selection Convolution for SAR Object Detection
+cvf:CVPR2024:Onzon_Neural_Exposure_Fusion_for_High-Dynamic_Range_Object_Detection_CVPR_2024,Paper,Neural Exposure Fusion for High-Dynamic Range Object Detection
+cvf:CVPR2024:Ranasinghe_MonoDiff_Monocular_3D_Object_Detection_and_Pose_Estimation_with_Diffusion_CVPR_2024,Paper,MonoDiff: Monocular 3D Object Detection and Pose Estimation with Diffusion Models
+cvf:CVPR2024:Wang_CrossKD_Cross-Head_Knowledge_Distillation_for_Object_Detection_CVPR_2024,Paper,CrossKD: Cross-Head Knowledge Distillation for Object Detection
+cvf:CVPR2024:Zolfi_YolOOD_Utilizing_Object_Detection_Concepts_for_Multi-Label_Out-of-Distribution_Detection_CVPR_2024,Paper,YolOOD: Utilizing Object Detection Concepts for Multi-Label Out-of-Distribution Detection
+cvf:ICCV2023:Deng_Identity-Consistent_Aggregation_for_Video_Object_Detection_ICCV_2023,Paper,Identity-Consistent Aggregation for Video Object Detection
+cvf:ICCV2023:He_Bidirectional_Alignment_for_Domain_Adaptive_Detection_with_Transformers_ICCV_2023,Paper,Bidirectional Alignment for Domain Adaptive Detection with Transformers
+cvf:ICCV2023:Kang_Alleviating_Catastrophic_Forgetting_of_Incremental_Object_Detection_via_Within-Class_and_ICCV_2023,Paper,Alleviating Catastrophic Forgetting of Incremental Object Detection via Within-Class and Between-Class Knowledge Distillation
+cvf:ICCV2023:Lao_UniKD_Universal_Knowledge_Distillation_for_Mimicking_Homogeneous_or_Heterogeneous_Object_ICCV_2023,Paper,UniKD: Universal Knowledge Distillation for Mimicking Homogeneous or Heterogeneous Object Detectors
+cvf:ICCV2023:Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023,Paper,Distilling DETR with Visual-Linguistic Knowledge for Open-Vocabulary Object Detection
+cvf:ICCV2023:Li_GPA-3D_Geometry-aware_Prototype_Alignment_for_Unsupervised_Domain_Adaptive_3D_Object_ICCV_2023,Paper,GPA-3D: Geometry-aware Prototype Alignment for Unsupervised Domain Adaptive 3D Object Detection from Point Clouds
+cvf:ICCV2023:Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023,Paper,Large Selective Kernel Network for Remote Sensing Object Detection
+cvf:ICCV2023:Ma_Towards_Fair_and_Comprehensive_Comparisons_for_Image-Based_3D_Object_Detection_ICCV_2023,Paper,Towards Fair and Comprehensive Comparisons for Image-Based 3D Object Detection
+cvf:ICCV2023:Mao_COCO-O_A_Benchmark_for_Object_Detectors_under_Natural_Distribution_Shifts_ICCV_2023,Paper,COCO-O: A Benchmark for Object Detectors under Natural Distribution Shifts
+cvf:ICCV2023:Pu_Adaptive_Rotated_Convolution_for_Rotated_Object_Detection_ICCV_2023,Paper,Adaptive Rotated Convolution for Rotated Object Detection
+cvf:ICCV2023:Segu_DARTH_Holistic_Test-time_Adaptation_for_Multiple_Object_Tracking_ICCV_2023,Paper,DARTH: Holistic Test-time Adaptation for Multiple Object Tracking
+cvf:ICCV2023:Shu_3DPPE_3D_Point_Positional_Encoding_for_Transformer-based_Multi-Camera_3D_Object_ICCV_2023,Paper,3DPPE: 3D Point Positional Encoding for Transformer-based Multi-Camera 3D Object Detection
+cvf:ICCV2023:Suri_SparseDet_Improving_Sparsely_Annotated_Object_Detection_with_Pseudo-positive_Mining_ICCV_2023,Paper,SparseDet: Improving Sparsely Annotated Object Detection with Pseudo-positive Mining
+cvf:ICCV2023:Wang_ALWOD_Active_Learning_for_Weakly-Supervised_Object_Detection_ICCV_2023,Paper,ALWOD: Active Learning for Weakly-Supervised Object Detection
+cvf:ICCV2023:Wang_Deep_Equilibrium_Object_Detection_ICCV_2023,Paper,Deep Equilibrium Object Detection
+cvf:ICCV2023:Xie_Pixel-Aligned_Recurrent_Queries_for_Multi-View_3D_Object_Detection_ICCV_2023,Paper,Pixel-Aligned Recurrent Queries for Multi-View 3D Object Detection
+cvf:ICCV2023:Yang_Parametric_Depth_Based_Feature_Representation_Learning_for_Object_Detection_and_ICCV_2023,Paper,Parametric Depth Based Feature Representation Learning for Object Detection and Segmentation in Bird's-Eye View
+cvf:ICCV2023:Yin_Cyclic-Bootstrap_Labeling_for_Weakly_Supervised_Object_Detection_ICCV_2023,Paper,Cyclic-Bootstrap Labeling for Weakly Supervised Object Detection
+cvf:ICCV2023:Yuan_Small_Object_Detection_via_Coarse-to-fine_Proposal_Generation_and_Imitation_Learning_ICCV_2023,Paper,Small Object Detection via Coarse-to-fine Proposal Generation and Imitation Learning
+cvf:ICCV2023:Zhao_RecursiveDet_End-to-End_Region-Based_Recursive_Object_Detection_ICCV_2023,Paper,RecursiveDet: End-to-End Region-Based Recursive Object Detection
+dataset:coco,Dataset,COCO
+dataset:pascal-voc-2007,Dataset,Pascal VOC 2007
+institution:openalex:I122411786,Institution,California Institute of Technology
+institution:openalex:I124227911,Institution,Ben-Gurion University of the Negev
+institution:openalex:I126520041,Institution,University of Science and Technology of China
+institution:openalex:I129604602,Institution,The University of Sydney
+institution:openalex:I145311948,Institution,Johns Hopkins University
+institution:openalex:I149594827,Institution,Xidian University
+institution:openalex:I15089104,Institution,China Aerospace Science and Industry Corporation (China)
+institution:openalex:I17145004,Institution,Northwestern Polytechnical University
+institution:openalex:I205237279,Institution,Nankai University
+institution:openalex:I25846049,Institution,National Tsing Hua University
+institution:openalex:I35440088,Institution,ETH Zurich
+institution:openalex:I4210127875,Institution,Nvidia (United States)
+institution:openalex:I4391012619,Institution,Shanghai Artificial Intelligence Laboratory
+institution:openalex:I4401727007,Institution,Hikvision (China)
+institution:openalex:I4405253057,Institution,Istraživačko-razvojni institut za veštačku inteligenciju Srbije
+institution:openalex:I4405263052,Institution,Tsinghua Shenzhen International Graduate School
+institution:openalex:I51601045,Institution,University of Bath
+institution:openalex:I5681781,Institution,The University of Adelaide
+institution:openalex:I76130692,Institution,Zhejiang University
+institution:openalex:I99065089,Institution,Tsinghua University
+method:detr,Method,DETR
+method:diffusion-model,Method,Diffusion Model
+method:knowledge-distillation,Method,Knowledge Distillation
+method:transformer,Method,Transformer
+task:object-detection,Task,Object Detection

@@ -1,0 +1,15 @@
+id,name,n_papers
+task:object-detection,Object Detection,28
+task:semantic-segmentation,Semantic Segmentation,14
+task:image-generation,Image Generation,13
+task:3d-reconstruction,3D Reconstruction,7
+task:image-restoration,Image Restoration,6
+task:action-recognition,Action Recognition,5
+task:depth-estimation,Depth Estimation,5
+task:object-tracking,Object Tracking,5
+task:image-super-resolution,Image Super-Resolution,4
+task:instance-segmentation,Instance Segmentation,4
+task:human-pose-estimation,Human Pose Estimation,2
+task:image-classification,Image Classification,2
+task:optical-flow-estimation,Optical Flow Estimation,1
+task:panoptic-segmentation,Panoptic Segmentation,1
