@@ -1,0 +1,16 @@
+task_id,task,method_id,method,n_papers
+task:object-detection,Object Detection,method:knowledge-distillation,Knowledge Distillation,3
+task:object-detection,Object Detection,method:transformer,Transformer,3
+task:3d-reconstruction,3D Reconstruction,method:transformer,Transformer,1
+task:action-recognition,Action Recognition,method:graph-neural-network,Graph Neural Network,1
+task:action-recognition,Action Recognition,method:knowledge-distillation,Knowledge Distillation,1
+task:action-recognition,Action Recognition,method:masked-autoencoder,Masked Autoencoder,1
+task:human-pose-estimation,Human Pose Estimation,method:diffusion-model,Diffusion Model,1
+task:image-generation,Image Generation,method:latent-diffusion,Latent Diffusion,1
+task:image-restoration,Image Restoration,method:implicit-neural-representation,Implicit Neural Representation,1
+task:image-super-resolution,Image Super-Resolution,method:diffusion-model,Diffusion Model,1
+task:object-detection,Object Detection,method:detr,DETR,1
+task:object-detection,Object Detection,method:diffusion-model,Diffusion Model,1
+task:object-tracking,Object Tracking,method:transformer,Transformer,1
+task:semantic-segmentation,Semantic Segmentation,method:reinforcement-learning,Reinforcement Learning,1
+task:semantic-segmentation,Semantic Segmentation,method:segment-anything-model,Segment Anything Model,1

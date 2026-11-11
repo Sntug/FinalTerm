@@ -1,0 +1,15 @@
+id,name,n_papers
+dataset:nuscenes,nuScenes,6
+dataset:coco,COCO,3
+dataset:kitti,KITTI,3
+dataset:ade20k,ADE20K,2
+dataset:cifar-10,CIFAR-10,2
+dataset:cifar-100,CIFAR-100,2
+dataset:imagenet-1k,ImageNet-1K,2
+dataset:shapenet,ShapeNet,2
+dataset:cityscapes,Cityscapes,1
+dataset:coco-2017,COCO 2017,1
+dataset:imagenet,ImageNet,1
+dataset:pascal-voc-2007,Pascal VOC 2007,1
+dataset:scannet-v2,ScanNet v2,1
+dataset:waymo-open-dataset,Waymo Open Dataset,1

@@ -1,0 +1,16 @@
+institution_id,name,country,degree,strength
+institution:openalex:I99065089,Tsinghua University,country:CN,48,69
+institution:openalex:I76130692,Zhejiang University,country:CN,38,54
+institution:openalex:I35440088,ETH Zurich,country:CH,33,43
+institution:openalex:I157773358,Sun Yat-sen University,country:CN,33,42
+institution:openalex:I20231570,Peking University,country:CN,32,52
+institution:openalex:I172675005,Nanyang Technological University,country:SG,31,40
+institution:openalex:I4391012619,Shanghai Artificial Intelligence Laboratory,country:CN,30,46
+institution:openalex:I45928872,Alibaba Group (China),country:CN,29,47
+institution:openalex:I889458895,University of Hong Kong,country:HK,29,42
+institution:openalex:I183067930,Shanghai Jiao Tong University,country:CN,28,37
+institution:openalex:I177725633,Chinese University of Hong Kong,country:HK,26,41
+institution:openalex:I200769079,Hong Kong University of Science and Technology,country:HK,26,35
+institution:openalex:I2250653659,Tencent (China),country:CN,25,37
+institution:openalex:I19820366,Chinese Academy of Sciences,country:CN,24,44
+institution:openalex:I4210136793,Peng Cheng Laboratory,country:CN,24,38
