@@ -50,8 +50,8 @@ Primary A/B: `{"A":50,"B":50}`. Chi tiết phân tầng:
 | USES_METHOD | 195 | 10 |
 | EVALUATED_ON | 28 | 10 |
 
-Đã chấm primary: 0; còn pending: 100. Conservative precision: chưa có kết quả chấm.
-Cross disagreements: 0; node pending: 50.
+Đã chấm primary: 50; còn pending: 50. Conservative precision: 100.00% (50/50).
+Cross disagreements: 0; node pending: 25.
 Unverifiable được tính là chưa đúng; pending_review không nằm trong mẫu số đã chấm. Cross rows không nhân đôi mẫu số precision primary. Không suy độ chính xác toàn graph >90% từ mẫu thử.
 
 ## Bàn giao
