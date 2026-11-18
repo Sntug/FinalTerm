@@ -685,8 +685,8 @@
  },
  "institution": {
   "countries": 42,
-  "country_pairs_collab_domestic_weight": 686,
-  "country_pairs_collab_international_weight": 664,
+  "country_pairs_collab_domestic_weight": 331,
+  "country_pairs_collab_international_weight": 384,
   "country_pairs_international_distinct": 111,
   "edges": 1140,
   "isolated_institutions": 26,
@@ -880,77 +880,77 @@
    [
     "country:CN",
     "country:US",
-    99
+    50
    ],
    [
     "country:CN",
     "country:HK",
-    83
+    43
    ],
    [
     "country:CN",
     "country:SG",
-    46
+    32
    ],
    [
     "country:AU",
     "country:CN",
-    30
+    16
    ],
    [
     "country:HK",
     "country:US",
-    24
+    14
    ],
    [
     "country:CN",
     "country:GB",
-    19
+    12
    ],
    [
-    "country:CN",
-    "country:JP",
-    19
+    "country:DE",
+    "country:US",
+    9
+   ],
+   [
+    "country:GB",
+    "country:US",
+    9
    ],
    [
     "country:KR",
     "country:US",
-    18
-   ],
-   [
-    "country:CN",
-    "country:DE",
-    16
-   ],
-   [
-    "country:DE",
-    "country:US",
-    15
-   ],
-   [
-    "country:GB",
-    "country:US",
-    12
-   ],
-   [
-    "country:AE",
-    "country:CN",
-    11
+    9
    ],
    [
     "country:CA",
     "country:US",
-    11
+    8
    ],
    [
     "country:CN",
-    "country:KY",
-    10
+    "country:DE",
+    8
    ],
    [
     "country:CH",
     "country:US",
-    9
+    7
+   ],
+   [
+    "country:DE",
+    "country:GB",
+    6
+   ],
+   [
+    "country:AE",
+    "country:CN",
+    5
+   ],
+   [
+    "country:CH",
+    "country:DE",
+    5
    ]
   ],
   "top15_pairs": [

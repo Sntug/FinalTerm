@@ -27,6 +27,15 @@ class AnalysisTest(unittest.TestCase):
         self.assertAlmostEqual(total, m["cites_assigned"], places=3)
         self.assertEqual(m["cites_assigned"] + m["cites_unassigned"], self.manifest["counts_by_type"]["CITES"])
 
+    def test_country_pairs_count_distinct_papers(self):
+        pc, ic = A.paper_countries(self.g)
+        want = {}
+        for u, v, d in self.g.edges(data=True):
+            if d["type"] == "COLLABORATED_WITH" and u in ic and v in ic:
+                want.setdefault(tuple(sorted((ic[u], ic[v]))), set()).update(d["paper_ids"])
+        got = {(a, b): w for a, b, w in A.institutions(self.g, pc, ic)[1]["country_pair_collaboration"][1]}
+        self.assertEqual(got, {k: len(v) for k, v in want.items()})
+
     def test_metrics_deterministic(self):
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
             run("csv", a, False)

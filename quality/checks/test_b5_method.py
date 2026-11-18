@@ -26,6 +26,11 @@ class MethodRulesTest(unittest.TestCase):
             with self.subTest(text=case["text"]):
                 self.assertEqual(accepted(self.merged, case), sorted(case["expected"]))
 
+    def test_sam_ambiguity(self):
+        sam = "method:segment-anything-model"
+        self.assertNotIn(sam, accepted(self.merged, {"text": "We use Sharpness-Aware Minimization (SAM) to train.", "field": "abstract"}))
+        self.assertIn(sam, accepted(self.merged, {"text": "We build on the Segment Anything Model.", "field": "abstract"}))
+
     def test_a4_cases_unchanged_with_methods(self):
         for name in ("a4_dev.json", "a4_eval.json"):
             for case in json.loads((REPO_ROOT / "quality/fixtures" / name).read_text(encoding="utf-8")):

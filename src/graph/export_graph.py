@@ -53,7 +53,7 @@ def build(cfg, root=ROOT):
     nodes, conflicts, report = {}, [], {}
     papers, registry, authorships, evidence, inputs = {}, {}, [], defaultdict(set), []
     inst_ev = defaultdict(set)  # (paper, openalex institution url, country_code) -> evidence ids, for BASED_IN
-    manifests = []
+    manifests, lineage = [], defaultdict(set)
     for inp in cfg["inputs"]:
         snaps = sorted(p for p in (root / inp["snapshots_dir"]).iterdir() if p.is_dir())
         assert len(snaps) == 1, f"expected one snapshot dir in {inp['snapshots_dir']}"
@@ -68,6 +68,7 @@ def build(cfg, root=ROOT):
                 try:
                     o = json.loads(e["evidence_text"])
                     inst_ev[(e["paper_id"], o["id"], o["country_code"])].add(e["evidence_id"])
+                    lineage["institution:openalex:" + o["id"].rsplit("/", 1)[-1]] |= {"institution:openalex:" + u.rsplit("/", 1)[-1] for u in o.get("lineage") or []}
                 except (ValueError, KeyError, TypeError):
                     pass
         for r in read_csv(a3 / "nodes.csv"):
@@ -143,7 +144,7 @@ def build(cfg, root=ROOT):
         for p, items in per_paper.items():
             for g1, n1, o1, s1 in items:
                 for g2, n2, o2, s2 in items:
-                    if g1 != g2 and n1 < n2:  # different authors; src<dst also drops same-institution pairs and self-loops
+                    if g1 != g2 and n1 < n2 and not (typ == "COLLABORATED_WITH" and (n2 in lineage[n1] or n1 in lineage[n2])):  # different authors; src<dst also drops same-institution pairs and self-loops
                         add(n1, typ, n2, owners(o1, o2), [p], [s1, s2])
                         pair_ev[(n1, typ, n2)] |= evidence.get((p, s1), set()) | evidence.get((p, s2), set())
     by_oa = defaultdict(list)
