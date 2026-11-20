@@ -24,7 +24,7 @@ Xây dựng mô hình làm giàu dữ liệu đồ thị bằng phân tích dữ
 
 | Nội dung | Điểm |
 |---|:---:|
-| Thu thập và lựa chọn tập dữ liệu làm giàu (có thể dùng chính phần văn bản của Wikipedia hoặc thu thập từ nguồn khác, ví dụ báo chí) | 0.5 |
+| Thu thập và lựa chọn tập dữ liệu làm giàu | 0.5 |
 | Mô hình nhận dạng **thực thể (node)** liên quan đến chủ đề bài tập lớn | 0.5 |
 | Mô hình nhận dạng **mối quan hệ (cạnh)** giữa các thực thể | 0.5 |
 | Phương án đánh giá chất lượng của đồ thị đã xây dựng | 0.5 |
