@@ -106,7 +106,7 @@ Tổng mục tiêu: 1.750 bài, 5 kỳ, **2 hội nghị**, 4 năm.
 | D3 | Một từ điển Task/Method/Dataset `v3` cho mọi kỳ, mở rộng theo §4.2 | 🟡 |
 | D4 | Danh tính tác giả: OpenAlex Author ID; lưu alias, nguồn, ca cần duyệt; kiểm tay các tác giả/tổ chức xuất hiện trong demo | 🟡 |
 | D5 | Giữ 8 nhãn, 10 quan hệ. A kiểm tra khả năng dùng cấu hình project/venue mới (`mxh_cv_trend`, `venue:CVPR:2025:main`) mà không đổi schema; nếu phải đổi contract thì cần ví dụ nhập/xuất, test snapshot cũ, cả A và B duyệt | 🟡 |
-| D6 | Biểu diễn đồ thị gồm hai phần: (a) đồ thị con tương tác có nhãn và hướng cạnh **[Lõi]**; (b) embedding FastRP/Node2Vec dùng cho một tính năng tìm chủ đề/nhóm tương tự **[Lõi, bản tối thiểu]** | 🟡 ❓ |
+| D6 | Biểu diễn đồ thị gồm hai phần: (a) đồ thị con tương tác có nhãn và hướng cạnh **[Lõi]**; (b) embedding FastRP/Node2Vec dùng để gợi ý top-5 **chủ đề** tương tự **[Lõi, bản tối thiểu]**; gợi ý nhóm tương tự là **[Mở rộng]** | 🟡 ❓ |
 | D7–D8 | Streamlit + Plotly + pyvis + NetworkX + Neo4j. Cypher lấy đường đi thật; CSV/JSON giữ metrics tính sẵn; cả hai dùng chung một snapshot | 🟡 |
 | D9 | Qwen2.5-7B-Instruct (7,61 tỷ tham số) qua Ollama Q4; dự phòng Qwen2.5-3B-Instruct (3,09 tỷ). Chốt bằng pilot trên máy demo | 🟡 |
 | D10–D11 | GraphRAG local là luồng chính **[Lõi]**. Global search bằng tóm tắt cộng đồng **[Mở rộng ưu tiên 1]**. Vector index **[Mở rộng]** | 🟡 |
@@ -155,7 +155,7 @@ Mỗi kỳ xuất: số bài chọn, accepted, có văn bản phân tích đư�
 
 ### 4.4 Đánh giá chất lượng
 
-**Tập gold:** 100 abstract (20/kỳ), chọn theo seed **trước khi mở rộng từ điển**: 5/kỳ làm tập phát triển, 15/kỳ (75 bài) làm tập kiểm tra giữ riêng. A và B gán nhãn độc lập rồi mới hòa giải; ghi log bất đồng.
+**Tập gold:** 20 abstract mỗi kỳ được giữ lại, chọn theo seed **trước khi mở rộng từ điển**: 5/kỳ làm tập phát triển, 15/kỳ làm tập kiểm tra giữ riêng. Đủ 5 kỳ: 100 bài (25 dev + 75 test); nếu chỉ còn 4 kỳ: 80 bài (20 dev + 60 test). A và B gán nhãn độc lập rồi mới hòa giải; ghi log bất đồng. Phần test chỉ được mở để gán nhãn sau khi từ điển, prompt và cấu hình đã đóng băng; không dùng làm few-shot hay pilot.
 
 | Kiểm tra | Chỉ số nghiệm thu |
 |---|---|
@@ -217,7 +217,12 @@ PageRank có trọng số (số bài chung) trên mạng đồng tác giả và 
 
 ### 6.2 GraphRAG
 
-**Local [Lõi]:** câu hỏi → SLM xác định ý định, thực thể, kỳ, loại chủ đề → liên kết tên/alias với node → chạy **mẫu Cypher có tham số** (Q1, Q1b, Q3) → trả metrics, đường đi, bài nguồn → SLM diễn giải bằng ngôn ngữ của câu hỏi.
+**Local [Lõi]:** câu hỏi → SLM xác định ý định, thực thể, kỳ, loại chủ đề → liên kết tên/alias với node → chạy **mẫu Cypher có tham số** (Q1, Q1b, Q3) hoặc đọc **bảng xu hướng** → trả metrics, đường đi, bài nguồn → SLM diễn giải bằng ngôn ngữ của câu hỏi.
+
+- Ý định "xu hướng" (ví dụ "Chủ đề nào tăng mạnh nhất ở CVPR?") đọc bảng M1/M2/M4 theo hội nghị và cặp kỳ, mặc định là cặp mới nhất qua cổng so sánh.
+- Hội thoại giữ ngữ cảnh (hội nghị, cặp kỳ, chủ đề). Câu hỏi tiếp theo "Nhóm nào đang làm chủ đề đó?" dùng lại ngữ cảnh → bảng nhóm (M8) → Q1b → bài nguồn.
+- Q1b nhận danh sách `author_id` của nhóm làm tham số Cypher, lấy từ bảng thành viên cộng đồng; không ghi cộng đồng vào Neo4j vì snapshot đã khóa.
+- Cặp câu trên là tiêu chí nghiệm thu demo: kết quả phải khớp với trang Xu hướng, trang Nhóm và danh sách paper ID.
 
 - Số liệu trong câu trả lời **chỉ** lấy từ kết quả truy vấn hoặc bảng metrics cùng snapshot, không để SLM tự sinh.
 - Tên mơ hồ → cho người dùng chọn thực thể. Thiếu dữ liệu → nói rõ phần nào chưa xác định.
@@ -236,7 +241,8 @@ Ký hiệu: **n** = số bài lõi riêng biệt, accepted, có đủ văn bản
 |---|---|---|---|
 | M1 | Phổ biến trong kỳ | x/n, tỷ trọng, khoảng Wilson 95%, kèm n/số bài được chọn; N/A khi n = 0 | Lõi |
 | M2 | Tăng/giảm giữa hai kỳ cùng hội nghị | Δ = 100 × (x_sau/n_sau − x_trước/n_trước), đơn vị điểm phần trăm. Bảng chính CVPR 2025→2026; phụ CVPR 2024→2025, ICCV 2023→2025 | Lõi |
-| — | Độ chắc chắn của M2 | Fisher exact hai phía trên bảng 2×2, hiệu chỉnh Benjamini–Hochberg trên mọi chủ đề được kiểm định trong cùng cặp kỳ (**trước** khi lọc UI). Nhãn "tăng/giảm có bằng chứng" khi q < 0,05 và đúng dấu Δ; còn lại "chưa đủ bằng chứng". Không bao gồm sai số NLP | Lõi |
+| — | Cổng so sánh | Một cặp kỳ chỉ được gắn nhãn bằng chứng (M2) và ứng viên mới nổi (M4) khi: cả hai kỳ đã xác minh chọn mẫu đúng §2.3; mỗi kỳ ≥ 95% bài có văn bản phân tích được và hai kỳ chênh nhau ≤ 5 điểm phần trăm; NLP thành công ≥ 95% bài mỗi kỳ. Không đạt thì hiện x/n, Δ và nhãn **"chỉ mô tả"** kèm lý do. Ngưỡng chốt trong config trước khi xem kết quả | Lõi |
+| — | Độ chắc chắn của M2 | Chỉ áp dụng cho cặp qua cổng so sánh. Fisher exact hai phía trên bảng 2×2, hiệu chỉnh Benjamini–Hochberg trên mọi chủ đề được kiểm định trong cùng cặp kỳ (**trước** khi lọc UI). Nhãn "tăng/giảm có bằng chứng" khi q < 0,05 và đúng dấu Δ; còn lại "chưa đủ bằng chứng". Không bao gồm sai số NLP | Lõi |
 | M4 | Ứng viên mới nổi | Cùng hội nghị: kỳ trước < 1%, kỳ sau ≥ 3% và x_sau ≥ 15 (ngưỡng trong config); hiển thị cả hai số đếm; "0 ở kỳ trước" nghĩa là chưa thấy trong mẫu | Lõi |
 | M5 | Khác biệt hội nghị năm 2025 | Chênh tỷ trọng CVPR25 − ICCV25 kèm x/n từng bên | Lõi |
 | M8–M9 | Ai quan tâm | Top nhóm/tổ chức/tác giả theo số bài riêng biệt và tỷ trọng trong nhóm; tác giả có bài sớm ghi "đã xuất hiện ở kỳ … trong mẫu" | Lõi |
@@ -251,7 +257,7 @@ Mỗi truy vấn dùng đúng chiều cạnh theo contract, có tham số kỳ/h
 | ID | Câu hỏi | Đường đi | Mức |
 |---|---|---|---|
 | Q1 | Tổ chức nào làm chủ đề k? | Chủ đề ← Bài ← Tác giả → Tổ chức (3 hop); affiliation ràng buộc **theo đúng bài** (`paper_id IN r.paper_ids`); thiếu affiliation thì báo độ phủ | Lõi |
-| Q1b | Nhóm nổi bật G đang nghiên cứu gì? | Thành viên G (bảng Louvain) → Bài → Task/Method/Dataset; trả số bài/tổng bài nhóm, top chủ đề theo loại, hạt nhân, bài nguồn; bấm chủ đề để xem ngược lại các nhóm | Lõi |
+| Q1b | Nhóm nổi bật G đang nghiên cứu gì? | Thành viên G (bảng Louvain, truyền vào dưới dạng `$author_ids`) → Bài → Task/Method/Dataset; trả số bài/tổng bài nhóm, top chủ đề theo loại, hạt nhân, bài nguồn; bấm chủ đề để xem ngược lại các nhóm | Lõi |
 | Q3 | Cặp quốc gia nào hợp tác về k? | Bài có k → hai nhánh Tác giả → Tổ chức → Quốc gia; hai tác giả khác nhau, hai nước khác nhau, cùng bài; cặp không thứ tự, mỗi bài đếm một lần mỗi cặp | Lõi |
 | Q2 | Có liên hệ đồng tác giả trước khi một người bắt đầu làm k? | Chỉ nhận bằng chứng tiếp xúc có trước lần xuất hiện đầu tiên ở k; loại ca không xác định thứ tự; chỉ mô tả quan sát | Mở rộng |
 | Q4 | Nhóm làm k trích dẫn nhóm nào? | Bài về k – CITES → bài được trích → tác giả/nhóm; tập rỗng là hợp lệ | Mở rộng |
@@ -262,7 +268,8 @@ Mỗi truy vấn dùng đúng chiều cạnh theo contract, có tham số kỳ/h
 | Phần | Nội dung | Mức |
 |---|---|---|
 | Đồ thị con | pyvis: node có nhãn và màu theo loại, cạnh có hướng, bấm node mở bài | Lõi |
-| Embedding tối thiểu | FastRP (Neo4j GDS) hoặc Node2Vec trên đồ thị Paper–Topic–Author, seed cố định; dùng để gợi ý top-5 chủ đề/nhóm tương tự ở màn hình chi tiết; một hình UMAP chỉ để trực quan | Lõi |
+| Embedding tối thiểu | FastRP (Neo4j GDS) hoặc Node2Vec trên đồ thị Paper–Topic–Author, seed cố định; nghiệm thu: chọn một chủ đề ở trang 2a và thấy tối đa 5 chủ đề tương tự theo cosine; một hình UMAP chỉ để trực quan | Lõi |
+| Nhóm tương tự | Vector nhóm = trung bình embedding các tác giả thành viên; top-5 theo cosine | Mở rộng |
 | Đánh giá embedding | Link prediction/AUC, loại khỏi dữ liệu huấn luyện các bài đồng tác giả làm lộ cạnh giữ lại | Mở rộng |
 | Độ trôi theo kỳ | Căn chỉnh không gian gốc bằng node neo chung rồi mới đo khoảng cách | Mở rộng |
 
@@ -344,3 +351,4 @@ Các mốc dưới đây lấy theo đề bài đầy đủ do nhóm cung cấp 
 | 0.1 (19/11) | Bản nháp đầu |
 | 0.2 (19/11) | Theo thang điểm cuối kỳ: NER/RE/đánh giá, thế giới nhỏ, PageRank, k-core, SLM, GraphRAG, slide/báo cáo |
 | 0.3 (20/11) | Tiếp nhận góp ý: so sánh cùng hội nghị thay Early/Late; Fisher exact; thêm Q1b nhóm → chủ đề; đếm một lần mỗi bài; tách tập gold dev/test trước khi mở rộng từ điển; ba số khoảng cách toàn mạng; thu gọn lõi còn 4 màn hình (màn hình 2 tách thành hai trang 2a/2b để hai người làm song song) và Q1/Q1b/Q3; thêm mốc nộp và arXiv. Khác góp ý: giữ embedding tối thiểu ở lõi; global search là mở rộng ưu tiên 1; đổi phân công thu thập (A: hai kỳ CVPR, B: ICCV 2025) |
+| 0.3.1 (21/11) | Theo góp ý cho plan: cổng so sánh trước khi gắn nhãn; số bài gold theo số kỳ giữ lại, test chỉ mở sau khi đóng băng; embedding lõi chỉ gồm chủ đề tương tự; GraphRAG có ý định xu hướng và ngữ cảnh hội thoại; Q1b nhận `$author_ids` |
