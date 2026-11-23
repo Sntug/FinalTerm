@@ -28,7 +28,7 @@ def canonical_cvf_url(url: str) -> str:
     parts = urlsplit(url.strip())
     if parts.scheme != "https" or parts.netloc != "openaccess.thecvf.com":
         raise ValueError("Expected an HTTPS URL on openaccess.thecvf.com")
-    if not re.fullmatch(r"/content/(CVPR202[45]|ICCV2023)/html/[^/]+_paper\.html", unquote(parts.path)):
+    if not re.fullmatch(r"/content/(CVPR202[456]|ICCV2023)/html/[^/]+_paper\.html", unquote(parts.path)):
         raise ValueError("Expected a supported main-conference detail URL")
     if parts.query:
         raise ValueError("Paper detail URLs must not have a query")
@@ -96,7 +96,8 @@ def publish(files: dict[Path, bytes]) -> None:
 
 def load_config(root: Path, config_path: str = DEFAULT_CONFIG) -> dict:
     config = json.loads(within(root, config_path).read_text(encoding="utf-8"))
-    if config["schema_version"] != "2.0.0" or (config["conference"], config["conference_year"]) not in {("CVPR", 2024), ("CVPR", 2025), ("ICCV", 2023)}:
+    editions = {("CVPR", 2024), ("CVPR", 2025), ("CVPR", 2026), ("ICCV", 2023)}
+    if config["schema_version"] != "2.0.0" or (config["conference"], config["conference_year"]) not in editions:
         raise ValueError("Unsupported schema or conference edition")
     if not config["owner"] or type(config["target_count"]) is not int or config["target_count"] < 1:
         raise ValueError("Owner and positive target_count required")

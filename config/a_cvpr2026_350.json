@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0.0",
+  "owner": "A",
+  "conference": "CVPR",
+  "conference_year": 2026,
+  "seed": 20261103,
+  "target_count": 350,
+  "listing_url": "https://openaccess.thecvf.com/CVPR2026?day=all",
+  "selection_file": "config/a_cvpr2026_350_selection.json",
+  "registry_input": "data/processed/cvpr2026/input_registry.csv",
+  "contract_dir": "config/contracts/v2",
+  "raw_dir": "data/raw/cvpr2026",
+  "checkpoint_file": "data/raw/cvpr2026/checkpoints/a2_350.json",
+  "processed_dir": "data/processed/cvpr2026",
+  "output_dir": "outputs/a2_cvpr2026/a2_350",
+  "batch_size": 25,
+  "delay_seconds": 1.0,
+  "retries": 2,
+  "timeout_seconds": 30,
+  "openalex_delay_seconds": 1.0,
+  "max_retry_wait_seconds": 30,
+  "openalex_enabled": true
+}

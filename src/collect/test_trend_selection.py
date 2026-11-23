@@ -13,8 +13,8 @@ class TrendSelectionTests(unittest.TestCase):
     def setUp(self):
         self.policy = json.loads((REPO_ROOT / "config/a_trend_project.json").read_text("utf-8"))
 
-    def test_offline_rank_matches_both_locked_registries(self):
-        for year in (2024, 2025):
+    def test_offline_rank_matches_locked_registries(self):
+        for year in (2024, 2025, 2026):
             with self.subTest(year=year):
                 cfg = load_config(REPO_ROOT, f"config/a_cvpr{year}_350.json")
                 urls, listing = ranking(REPO_ROOT, cfg, self.policy)

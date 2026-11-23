@@ -37,3 +37,8 @@
 /data/processed/cvpr2025/snapshots/** -text
 /data/processed/cvpr2025/h5/** -text
 /outputs/trend/quality/cvpr2025_h5.json text eol=lf
+/data/processed/cvpr2026/*.csv text eol=lf
+/config/a_cvpr2026_350_selection.json text eol=lf
+/data/processed/cvpr2026/snapshots/** -text
+/data/processed/cvpr2026/h5/** -text
+/outputs/trend/quality/cvpr2026_*.json text eol=lf
