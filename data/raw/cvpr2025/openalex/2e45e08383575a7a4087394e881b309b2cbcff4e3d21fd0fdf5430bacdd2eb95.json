@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Joint+Optimization+of+Neural+Radiance+Fields+and+Continuous+Camera+Motion+from+a+Monocular+Video%22",
+  "fetched_at": "2026-11-23T09:43:51Z",
+  "http_status": 200,
+  "content_sha256": "4a2d9515e2d4be150c8c4fa7a2a12656373d335b92a47b558444f6cd59a040d3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4a2d9515e2d4be150c8c4fa7a2a12656373d335b92a47b558444f6cd59a040d3.json.gz"
+}

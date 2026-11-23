@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UMotion%3A+Uncertainty-driven+Human+Motion+Estimation+from+Inertial+and+Ultra-wideband+Units%22",
+  "fetched_at": "2026-11-23T09:39:27Z",
+  "http_status": 200,
+  "content_sha256": "195c7563398f6b1e068837fd2ea018c6253a2e1dc399021ca1061403ad4324e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/195c7563398f6b1e068837fd2ea018c6253a2e1dc399021ca1061403ad4324e9.json.gz"
+}

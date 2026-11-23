@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bouniot_From_Alexnet_to_Transformers_Measuring_the_Non-linearity_of_Deep_Neural_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:28:28Z",
+  "http_status": 200,
+  "content_sha256": "dc7e953e66d95dbe5312acc99bb5d114b31827dc3ffa862f44010a621d568740",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a47-63a77fd2fbeb7\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/dc7e953e66d95dbe5312acc99bb5d114b31827dc3ffa862f44010a621d568740.html.gz"
+}

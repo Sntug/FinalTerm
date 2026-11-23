@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Descriptor-In-Pixel+%3A+Point-Feature+Tracking+For+Pixel+Processor+Arrays%22",
+  "fetched_at": "2026-11-23T09:34:42Z",
+  "http_status": 200,
+  "content_sha256": "1b221de83fb098f7f4bfa837a227e6ccee578f89056e6b1592ef3a7a6aff9298",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1b221de83fb098f7f4bfa837a227e6ccee578f89056e6b1592ef3a7a6aff9298.json.gz"
+}

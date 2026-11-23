@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+All-in-One+Medical+Image+Re-Identification%22",
+  "fetched_at": "2026-11-23T09:44:36Z",
+  "http_status": 200,
+  "content_sha256": "6122b15a637aae4be61ceb6595ca3607101f311a4bd9d7a79d73d5a7c1b258ef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6122b15a637aae4be61ceb6595ca3607101f311a4bd9d7a79d73d5a7c1b258ef.json.gz"
+}

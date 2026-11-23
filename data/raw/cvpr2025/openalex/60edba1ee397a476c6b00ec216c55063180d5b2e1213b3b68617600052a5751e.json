@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unraveling+Normal+Anatomy+via+Fluid-Driven+Anomaly+Randomization%22",
+  "fetched_at": "2026-11-23T09:33:26Z",
+  "http_status": 200,
+  "content_sha256": "bad3cc332fa19c025d225cbcc635a86f63d984d0ac652d83d0cbb74ab35df5e6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bad3cc332fa19c025d225cbcc635a86f63d984d0ac652d83d0cbb74ab35df5e6.json.gz"
+}

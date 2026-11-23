@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Explainable+and+Unprecedented+Accuracy+in+Matching+Challenging+Finger+Crease+Patterns%22",
+  "fetched_at": "2026-11-23T09:40:33Z",
+  "http_status": 200,
+  "content_sha256": "33890ae14af4e36df31c38cf002bd6a10058306a93a8b66d0680845652f09273",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/33890ae14af4e36df31c38cf002bd6a10058306a93a8b66d0680845652f09273.json.gz"
+}

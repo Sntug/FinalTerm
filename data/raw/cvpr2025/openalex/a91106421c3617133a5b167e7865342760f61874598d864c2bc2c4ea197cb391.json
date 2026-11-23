@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Building+Vision+Models+upon+Heat+Conduction%22",
+  "fetched_at": "2026-11-23T09:39:31Z",
+  "http_status": 200,
+  "content_sha256": "87911930f0065e466a608a81e9d38858f1788c3c2f423794e79cdabd8d244d19",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/87911930f0065e466a608a81e9d38858f1788c3c2f423794e79cdabd8d244d19.json.gz"
+}

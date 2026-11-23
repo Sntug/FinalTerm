@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jia_Reward_Fine-Tuning_Two-Step_Diffusion_Models_via_Learning_Differentiable_Latent-Space_Surrogate_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:30:19Z",
+  "http_status": 200,
+  "content_sha256": "d59ec16ac6a9970b085484642ebfa8d213f15c3f36facdf55fcafe95bb79581e",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"18e1-63a77fd2fed98\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/d59ec16ac6a9970b085484642ebfa8d213f15c3f36facdf55fcafe95bb79581e.html.gz"
+}

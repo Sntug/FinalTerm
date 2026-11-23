@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enhancing+Dance-to-Music+Generation+via+Negative+Conditioning+Latent+Diffusion+Model%22",
+  "fetched_at": "2026-11-23T09:37:33Z",
+  "http_status": 200,
+  "content_sha256": "c02a7fab0cc6958f7c46616c06fd04c5824371bcf551263e2ae39f7bb20bf539",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/c02a7fab0cc6958f7c46616c06fd04c5824371bcf551263e2ae39f7bb20bf539.json.gz"
+}

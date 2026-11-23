@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Go-with-the-Flow%3A+Motion-Controllable+Video+Diffusion+Models+Using+Real-Time+Warped+Noise%22",
+  "fetched_at": "2026-11-23T09:41:07Z",
+  "http_status": 200,
+  "content_sha256": "1b9fd726e332964ca126d506fb88501d7d45226143d4d3f915007ec977af2a54",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1b9fd726e332964ca126d506fb88501d7d45226143d4d3f915007ec977af2a54.json.gz"
+}

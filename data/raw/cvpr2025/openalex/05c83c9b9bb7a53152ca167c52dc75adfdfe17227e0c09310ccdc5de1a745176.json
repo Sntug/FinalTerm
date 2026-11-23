@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SketchAgent%3A+Language-Driven+Sequential+Sketch+Generation%22",
+  "fetched_at": "2026-11-23T09:37:51Z",
+  "http_status": 200,
+  "content_sha256": "70b4933cd55c7fc4b0306b42baf70415f4c800860c67ca3daf1ab0c98b0b741b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/70b4933cd55c7fc4b0306b42baf70415f4c800860c67ca3daf1ab0c98b0b741b.json.gz"
+}

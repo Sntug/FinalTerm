@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BEVDiffuser%3A+Plug-and-Play+Diffusion+Model+for+BEV+Denoising+with+Ground-Truth+Guidance%22",
+  "fetched_at": "2026-11-23T09:36:43Z",
+  "http_status": 200,
+  "content_sha256": "95afc65b20848d4181186331c62f5f6206b0b32f3afae08591622a6652ffda87",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/95afc65b20848d4181186331c62f5f6206b0b32f3afae08591622a6652ffda87.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Boosting+Domain+Incremental+Learning%3A+Selecting+the+Optimal+Parameters+is+All+You+Need%22",
+  "fetched_at": "2026-11-23T09:44:47Z",
+  "http_status": 200,
+  "content_sha256": "92a345a297df19a446b63eaeea9ac442e21feee16dc6e02c2b8db4af855cd681",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/92a345a297df19a446b63eaeea9ac442e21feee16dc6e02c2b8db4af855cd681.json.gz"
+}

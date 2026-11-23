@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CALICO%3A+Part-Focused+Semantic+Co-Segmentation+with+Large+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T09:34:27Z",
+  "http_status": 200,
+  "content_sha256": "68ab5a325fc8c3a0325cddf47d76b3ea51cc4271ffd01aaecc4b84da5d0016be",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/68ab5a325fc8c3a0325cddf47d76b3ea51cc4271ffd01aaecc4b84da5d0016be.json.gz"
+}

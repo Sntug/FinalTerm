@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TreeMeshGPT%3A+Artistic+Mesh+Generation+with+Autoregressive+Tree+Sequencing%22",
+  "fetched_at": "2026-11-23T09:32:54Z",
+  "http_status": 200,
+  "content_sha256": "89b6aed4737e98e03b871b2291f6c5ed7bf03607fad8347322dd4b5fd6c21f36",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/89b6aed4737e98e03b871b2291f6c5ed7bf03607fad8347322dd4b5fd6c21f36.json.gz"
+}

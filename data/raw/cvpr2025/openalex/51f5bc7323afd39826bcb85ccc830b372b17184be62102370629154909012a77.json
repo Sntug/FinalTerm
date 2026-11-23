@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AniMer%3A+Animal+Pose+and+Shape+Estimation+Using+Family+Aware+Transformer%22",
+  "fetched_at": "2026-11-23T09:40:16Z",
+  "http_status": 200,
+  "content_sha256": "98736819495f8f41ab3097b89a46c330f1c25a5dd62855a0e6ec9525aebfc533",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/98736819495f8f41ab3097b89a46c330f1c25a5dd62855a0e6ec9525aebfc533.json.gz"
+}

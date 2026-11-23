@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SAM2Object%3A+Consolidating+View+Consistency+via+SAM2+for+Zero-Shot+3D+Instance+Segmentation%22",
+  "fetched_at": "2026-11-23T09:41:25Z",
+  "http_status": 200,
+  "content_sha256": "22592b67e9f957da557b796d1b3505b95aa164b7428d8fed33c17915d712ebb4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/22592b67e9f957da557b796d1b3505b95aa164b7428d8fed33c17915d712ebb4.json.gz"
+}

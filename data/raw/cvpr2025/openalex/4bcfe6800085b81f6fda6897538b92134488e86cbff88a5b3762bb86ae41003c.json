@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DKDM%3A+Data-Free+Knowledge+Distillation+for+Diffusion+Models+with+Any+Architecture%22",
+  "fetched_at": "2026-11-23T09:43:18Z",
+  "http_status": 200,
+  "content_sha256": "9deb55eaa61c0420adaa623b5307b6f7c887cc1902eedf1c4a13ea87bce20733",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9deb55eaa61c0420adaa623b5307b6f7c887cc1902eedf1c4a13ea87bce20733.json.gz"
+}

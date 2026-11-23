@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CrossSDF%3A+3D+Reconstruction+of+Thin+Structures+From+Cross-Sections%22",
+  "fetched_at": "2026-11-23T09:45:06Z",
+  "http_status": 200,
+  "content_sha256": "8142fe13f3e2f568ef4df5bb1e69ea04664fc3e6261097c1fca92ff3f5a12ab6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8142fe13f3e2f568ef4df5bb1e69ea04664fc3e6261097c1fca92ff3f5a12ab6.json.gz"
+}

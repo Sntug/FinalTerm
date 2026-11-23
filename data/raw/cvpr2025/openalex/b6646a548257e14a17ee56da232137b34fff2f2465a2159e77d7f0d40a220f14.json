@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EditSplat%3A+Multi-View+Fusion+and+Attention-Guided+Optimization+for+View-Consistent+3D+Scene+Editing+with+3D+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:44:53Z",
+  "http_status": 200,
+  "content_sha256": "7bddd246abd363c61d8d2256a35038ad51abc7a7b0ba06f3a0d915ffa393be08",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7bddd246abd363c61d8d2256a35038ad51abc7a7b0ba06f3a0d915ffa393be08.json.gz"
+}

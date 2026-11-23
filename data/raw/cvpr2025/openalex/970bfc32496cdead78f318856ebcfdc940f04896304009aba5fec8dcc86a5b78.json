@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reference-Based+3D-Aware+Image+Editing+with+Triplanes%22",
+  "fetched_at": "2026-11-23T09:44:20Z",
+  "http_status": 200,
+  "content_sha256": "b742afc00a625efdc26e945f0706cd66b016979246616823de3af6ebf9b1996f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b742afc00a625efdc26e945f0706cd66b016979246616823de3af6ebf9b1996f.json.gz"
+}

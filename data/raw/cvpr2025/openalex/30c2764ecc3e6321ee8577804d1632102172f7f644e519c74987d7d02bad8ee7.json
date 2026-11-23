@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SeCap%3A+Self-Calibrating+and+Adaptive+Prompts+for+Cross-view+Person+Re-Identification+in+Aerial-Ground+Networks%22",
+  "fetched_at": "2026-11-23T09:36:15Z",
+  "http_status": 200,
+  "content_sha256": "cfaa3b949fd62549bb5c59d5317df5b678e9e91af7d44682a564a89bec31a5c3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/cfaa3b949fd62549bb5c59d5317df5b678e9e91af7d44682a564a89bec31a5c3.json.gz"
+}

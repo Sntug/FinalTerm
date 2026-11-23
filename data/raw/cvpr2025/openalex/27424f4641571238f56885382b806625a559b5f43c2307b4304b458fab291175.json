@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Decoder+Design%3A+Improving+Biomarker+Segmentation+Using+Depth-to-Space+Restoration+and+Residual+Linear+Attention%22",
+  "fetched_at": "2026-11-23T09:33:20Z",
+  "http_status": 200,
+  "content_sha256": "bbcda230cff1c238f75646827ed37cb23dd5e9288ffa126c80cacd02cddd7fbf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bbcda230cff1c238f75646827ed37cb23dd5e9288ffa126c80cacd02cddd7fbf.json.gz"
+}

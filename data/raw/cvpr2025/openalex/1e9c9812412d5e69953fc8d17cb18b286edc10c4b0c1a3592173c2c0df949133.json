@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Satellite+Image+Road+Graph+Extraction%3A+A+Global-Scale+Dataset+and+A+Novel+Method%22",
+  "fetched_at": "2026-11-23T09:35:33Z",
+  "http_status": 200,
+  "content_sha256": "954428f00cbcbcb20a5bb22408aa96f89eb9384e9d2f6c303189ebd92931864d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/954428f00cbcbcb20a5bb22408aa96f89eb9384e9d2f6c303189ebd92931864d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Simple+Open-Vocabulary+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-23T09:34:02Z",
+  "http_status": 200,
+  "content_sha256": "893b4e2f4ed3472adcc8701d0ae699b24a00be73b0d829b90d8cf95b2dc6e39c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/893b4e2f4ed3472adcc8701d0ae699b24a00be73b0d829b90d8cf95b2dc6e39c.json.gz"
+}

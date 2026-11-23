@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BOOTPLACE%3A+Bootstrapped+Object+Placement+with+Detection+Transformers%22",
+  "fetched_at": "2026-11-23T09:38:06Z",
+  "http_status": 200,
+  "content_sha256": "1ff9a27748373c9a7d35a3e2a96a8dcf7073216ae9a2014e223ac1b9e73b78b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1ff9a27748373c9a7d35a3e2a96a8dcf7073216ae9a2014e223ac1b9e73b78b4.json.gz"
+}

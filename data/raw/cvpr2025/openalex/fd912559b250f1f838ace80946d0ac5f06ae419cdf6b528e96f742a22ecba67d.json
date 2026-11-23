@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SegMAN%3A+Omni-scale+Context+Modeling+with+State+Space+Models+and+Local+Attention+for+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-23T09:41:50Z",
+  "http_status": 200,
+  "content_sha256": "efead1b7b9420ce4fa0bfc9f82da83e2bb2429ca2308d60f031b70e59a8519e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/efead1b7b9420ce4fa0bfc9f82da83e2bb2429ca2308d60f031b70e59a8519e9.json.gz"
+}

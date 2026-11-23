@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dual+Prompting+Image+Restoration+with+Diffusion+Transformers%22",
+  "fetched_at": "2026-11-23T09:37:24Z",
+  "http_status": 200,
+  "content_sha256": "668e2689ed3608572add268d86c672fdf464b5d228648771337a7fd9c615dab7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/668e2689ed3608572add268d86c672fdf464b5d228648771337a7fd9c615dab7.json.gz"
+}

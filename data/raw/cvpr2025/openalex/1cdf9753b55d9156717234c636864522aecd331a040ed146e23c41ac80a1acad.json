@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OpenSDI%3A+Spotting+Diffusion-Generated+Images+in+the+Open+World%22",
+  "fetched_at": "2026-11-23T09:34:09Z",
+  "http_status": 200,
+  "content_sha256": "0e6e44483ff2b40a3476c250a3ca9d5445d620669f68b6d9245a5445baa7e7db",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0e6e44483ff2b40a3476c250a3ca9d5445d620669f68b6d9245a5445baa7e7db.json.gz"
+}

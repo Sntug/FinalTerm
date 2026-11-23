@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MPDrive%3A+Improving+Spatial+Understanding+with+Marker-Based+Prompt+Learning+for+Autonomous+Driving%22",
+  "fetched_at": "2026-11-23T09:35:44Z",
+  "http_status": 200,
+  "content_sha256": "1a64b23a80e6da0e42a81a620cf2248ea36ebcb318957f6a0f69232f7bc54029",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1a64b23a80e6da0e42a81a620cf2248ea36ebcb318957f6a0f69232f7bc54029.json.gz"
+}

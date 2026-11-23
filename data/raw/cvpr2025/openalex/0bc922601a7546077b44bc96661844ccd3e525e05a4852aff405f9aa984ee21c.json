@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProjAttacker%3A+A+Configurable+Physical+Adversarial+Attack+for+Face+Recognition+via+Projector%22",
+  "fetched_at": "2026-11-23T09:33:13Z",
+  "http_status": 200,
+  "content_sha256": "789181f161705bb654286b379a2c80414996edda777a8dc49e06e88acdbf6533",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/789181f161705bb654286b379a2c80414996edda777a8dc49e06e88acdbf6533.json.gz"
+}

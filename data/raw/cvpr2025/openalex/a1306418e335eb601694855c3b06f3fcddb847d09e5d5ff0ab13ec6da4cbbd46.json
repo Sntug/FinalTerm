@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TASTE-Rob%3A+Advancing+Video+Generation+of+Task-Oriented+Hand-Object+Interaction+for+Generalizable+Robotic+Manipulation%22",
+  "fetched_at": "2026-11-23T09:43:03Z",
+  "http_status": 200,
+  "content_sha256": "893b84a63106d8eb3a81f845a34bc96fa16de5f34007bda3e27714565d4a1cc6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/893b84a63106d8eb3a81f845a34bc96fa16de5f34007bda3e27714565d4a1cc6.json.gz"
+}

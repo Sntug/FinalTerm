@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Omnia+de+EgoTempo%3A+Benchmarking+Temporal+Understanding+of+Multi-Modal+LLMs+in+Egocentric+Videos%22",
+  "fetched_at": "2026-11-23T09:44:33Z",
+  "http_status": 200,
+  "content_sha256": "70184f0eb9c2918b0db0964201dca315f301c1b57ab25ef829cd575c539aaf1d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/70184f0eb9c2918b0db0964201dca315f301c1b57ab25ef829cd575c539aaf1d.json.gz"
+}

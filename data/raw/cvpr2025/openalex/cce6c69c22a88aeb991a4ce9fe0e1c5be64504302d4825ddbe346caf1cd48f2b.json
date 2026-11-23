@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Bias-Free+Training+Paradigm+for+More+General+AI-generated+Image+Detection%22",
+  "fetched_at": "2026-11-23T09:42:45Z",
+  "http_status": 200,
+  "content_sha256": "29f8dff67065688c97a0514628938c093a00484cf418e19d4d2b2e8f89cda215",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/29f8dff67065688c97a0514628938c093a00484cf418e19d4d2b2e8f89cda215.json.gz"
+}

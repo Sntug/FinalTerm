@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Occlusion-aware+Text-Image-Point+Cloud+Pretraining+for+Open-World+3D+Object+Recognition%22",
+  "fetched_at": "2026-11-23T09:35:05Z",
+  "http_status": 200,
+  "content_sha256": "3e9813883afe288ebdc5bb222c6c4ea371f333b93b941c5d43764af340e3055a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3e9813883afe288ebdc5bb222c6c4ea371f333b93b941c5d43764af340e3055a.json.gz"
+}

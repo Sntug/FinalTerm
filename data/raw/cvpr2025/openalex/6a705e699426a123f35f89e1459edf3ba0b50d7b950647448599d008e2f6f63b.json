@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SeedVR%3A+Seeding+Infinity+in+Diffusion+Transformer+Towards+Generic+Video+Restoration%22",
+  "fetched_at": "2026-11-23T09:42:31Z",
+  "http_status": 200,
+  "content_sha256": "685f58597b8ebe7317348da0da9dfae4d97e69b9cd2bdea1b9633120f3959070",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/685f58597b8ebe7317348da0da9dfae4d97e69b9cd2bdea1b9633120f3959070.json.gz"
+}

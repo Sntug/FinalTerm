@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TANGO%3A+Training-free+Embodied+AI+Agents+for+Open-world+Tasks%22",
+  "fetched_at": "2026-11-23T09:45:33Z",
+  "http_status": 200,
+  "content_sha256": "56ea46f380306a07e863ad898709d45633dca5ad19922b7ca6375e39c360ac74",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/56ea46f380306a07e863ad898709d45633dca5ad19922b7ca6375e39c360ac74.json.gz"
+}

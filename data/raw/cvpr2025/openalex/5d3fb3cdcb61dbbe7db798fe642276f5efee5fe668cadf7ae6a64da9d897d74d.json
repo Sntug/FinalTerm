@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22pFedMxF%3A+Personalized+Federated+Class-Incremental+Learning+with+Mixture+of+Frequency+Aggregation%22",
+  "fetched_at": "2026-11-23T09:38:49Z",
+  "http_status": 200,
+  "content_sha256": "7e9bb9ac48db7ba0b54b22d9571280f0d027181999cb695b56f1a959bf45e816",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7e9bb9ac48db7ba0b54b22d9571280f0d027181999cb695b56f1a959bf45e816.json.gz"
+}

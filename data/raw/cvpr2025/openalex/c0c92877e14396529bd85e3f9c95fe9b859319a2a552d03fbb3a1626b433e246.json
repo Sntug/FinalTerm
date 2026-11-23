@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoGe%3A+Unlocking+Accurate+Monocular+Geometry+Estimation+for+Open-Domain+Images+with+Optimal+Training+Supervision%22",
+  "fetched_at": "2026-11-23T09:33:50Z",
+  "http_status": 200,
+  "content_sha256": "901ec7383b7cd1bd35f68a7cebbed3da9eb5176137a6863b5850dbb63d48c168",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/901ec7383b7cd1bd35f68a7cebbed3da9eb5176137a6863b5850dbb63d48c168.json.gz"
+}

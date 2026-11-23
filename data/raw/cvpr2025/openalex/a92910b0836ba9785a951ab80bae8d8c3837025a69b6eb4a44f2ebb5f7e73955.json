@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Stop+Learning+it+all+to+Mitigate+Visual+Hallucination%2C+Focus+on+the+Hallucination+Target.%22",
+  "fetched_at": "2026-11-23T09:41:58Z",
+  "http_status": 200,
+  "content_sha256": "067bce58e8fd115213fa627c1f868dfd9068d52212db90e267d20f89a8b89589",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/067bce58e8fd115213fa627c1f868dfd9068d52212db90e267d20f89a8b89589.json.gz"
+}

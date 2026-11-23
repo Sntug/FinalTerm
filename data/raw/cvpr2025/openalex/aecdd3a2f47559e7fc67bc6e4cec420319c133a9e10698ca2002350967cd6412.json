@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22nnWNet%3A+Rethinking+the+Use+of+Transformers+in+Biomedical+Image+Segmentation+and+Calling+for+a+Unified+Evaluation+Benchmark%22",
+  "fetched_at": "2026-11-23T09:37:56Z",
+  "http_status": 200,
+  "content_sha256": "af55eeae174bfbf6f3b19ce4d922ccc31ebe16d548dc076b6503726e4da361ab",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/af55eeae174bfbf6f3b19ce4d922ccc31ebe16d548dc076b6503726e4da361ab.json.gz"
+}

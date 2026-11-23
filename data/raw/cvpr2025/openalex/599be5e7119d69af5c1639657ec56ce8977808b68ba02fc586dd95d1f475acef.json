@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Instant+Adversarial+Purification+with+Adversarial+Consistency+Distillation%22",
+  "fetched_at": "2026-11-23T09:41:27Z",
+  "http_status": 200,
+  "content_sha256": "f4b9cc5c70ea9219852687aee2d8fe7f07ea8c08721431f7dc647425a1ab8add",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f4b9cc5c70ea9219852687aee2d8fe7f07ea8c08721431f7dc647425a1ab8add.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VidSeg_Training-free_Video_Semantic_Segmentation_based_on_Diffusion_Models_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:29:45Z",
+  "http_status": 200,
+  "content_sha256": "ce286399d8ae918e71821912296c3a3fea33a41512e50c8c71478c2dbafd005d",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b48-63a77fd29f24d\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/ce286399d8ae918e71821912296c3a3fea33a41512e50c8c71478c2dbafd005d.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MLVU%3A+Benchmarking+Multi-task+Long+Video+Understanding%22",
+  "fetched_at": "2026-11-23T09:41:17Z",
+  "http_status": 200,
+  "content_sha256": "941e0ba154cca78c8ac75f054bf3156fbdde9a53180226401092b79215cbc4f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/941e0ba154cca78c8ac75f054bf3156fbdde9a53180226401092b79215cbc4f8.json.gz"
+}

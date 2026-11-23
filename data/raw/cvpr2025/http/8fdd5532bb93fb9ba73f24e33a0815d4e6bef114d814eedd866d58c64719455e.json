@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ye_BEVDiffuser_Plug-and-Play_Diffusion_Model_for_BEV_Denoising_with_Ground-Truth_Guidance_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:28:54Z",
+  "http_status": 200,
+  "content_sha256": "346c52bff950f587b5679c4180454bd1aa7fc6b55cf90cd10b3da7871a142ceb",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"196a-63a77fd2b9830\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/346c52bff950f587b5679c4180454bd1aa7fc6b55cf90cd10b3da7871a142ceb.html.gz"
+}

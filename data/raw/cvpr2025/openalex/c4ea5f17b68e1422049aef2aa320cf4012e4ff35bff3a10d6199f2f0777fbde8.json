@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Not+Just+Text%3A+Uncovering+Vision+Modality+Typographic+Threats+in+Image+Generation+Models%22",
+  "fetched_at": "2026-11-23T09:35:25Z",
+  "http_status": 200,
+  "content_sha256": "ca2eed9a324f17e28c085fa3c2ae29bcb50271e691ac86a2e06fa095ee6f1a62",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ca2eed9a324f17e28c085fa3c2ae29bcb50271e691ac86a2e06fa095ee6f1a62.json.gz"
+}

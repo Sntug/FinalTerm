@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DI-PCG%3A+Diffusion-based+Efficient+Inverse+Procedural+Content+Generation+for+High-quality+3D+Asset+Creation%22",
+  "fetched_at": "2026-11-23T09:37:26Z",
+  "http_status": 200,
+  "content_sha256": "5daec8789965a6b3cdbddbe49553c66cef5d7d634dadade3eaa3ff6b2d9f510e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/5daec8789965a6b3cdbddbe49553c66cef5d7d634dadade3eaa3ff6b2d9f510e.json.gz"
+}

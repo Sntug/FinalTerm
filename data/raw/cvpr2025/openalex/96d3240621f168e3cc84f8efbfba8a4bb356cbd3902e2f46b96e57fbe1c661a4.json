@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22A+Physics-Informed+Blur+Learning+Framework+for+Imaging+Systems%22",
+  "fetched_at": "2026-11-23T09:34:35Z",
+  "http_status": 200,
+  "content_sha256": "eec94becedbcc03d77ee731dc3c59a18bdbfc4549b4973c7e923f28cadd4726a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/eec94becedbcc03d77ee731dc3c59a18bdbfc4549b4973c7e923f28cadd4726a.json.gz"
+}

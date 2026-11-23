@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22POPEN%3A+Preference-Based+Optimization+and+Ensemble+for+LVLM-Based+Reasoning+Segmentation%22",
+  "fetched_at": "2026-11-23T09:39:56Z",
+  "http_status": 200,
+  "content_sha256": "8be8e5586e8df0f2fdc4b1c506bb00c59333de32127066d607eeebb14111fb71",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8be8e5586e8df0f2fdc4b1c506bb00c59333de32127066d607eeebb14111fb71.json.gz"
+}

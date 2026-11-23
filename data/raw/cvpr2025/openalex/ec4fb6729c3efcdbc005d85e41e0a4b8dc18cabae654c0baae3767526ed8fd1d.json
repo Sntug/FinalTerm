@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Point+Cloud+Upsampling+Using+Conditional+Diffusion+Module+with+Adaptive+Noise+Suppression%22",
+  "fetched_at": "2026-11-23T09:38:51Z",
+  "http_status": 200,
+  "content_sha256": "d9dfd7b02e7dc05de779c690776b30c6819b5f978aa5a65c50426149ce355e15",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d9dfd7b02e7dc05de779c690776b30c6819b5f978aa5a65c50426149ce355e15.json.gz"
+}

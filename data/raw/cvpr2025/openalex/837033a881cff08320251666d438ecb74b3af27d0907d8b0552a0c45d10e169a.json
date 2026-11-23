@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MLLM-as-a-Judge+for+Image+Safety+without+Human+Labeling%22",
+  "fetched_at": "2026-11-23T09:39:37Z",
+  "http_status": 200,
+  "content_sha256": "0a3493fe7e2a22f25c84b393104537202078a31c05ce752bda59dccc91abc86c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0a3493fe7e2a22f25c84b393104537202078a31c05ce752bda59dccc91abc86c.json.gz"
+}

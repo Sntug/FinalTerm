@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GazeGene%3A+Large-scale+Synthetic+Gaze+Dataset+with+3D+Eyeball+Annotations%22",
+  "fetched_at": "2026-11-23T09:41:03Z",
+  "http_status": 200,
+  "content_sha256": "cfffe4c3bcbf13754818ea53092dee280163476e230b45c85eb4649cb9197cdb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/cfffe4c3bcbf13754818ea53092dee280163476e230b45c85eb4649cb9197cdb.json.gz"
+}

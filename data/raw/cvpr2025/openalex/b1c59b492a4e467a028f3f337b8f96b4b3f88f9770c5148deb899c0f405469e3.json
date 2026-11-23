@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BADGR%3A+Bundle+Adjustment+Diffusion+Conditioned+by+Gradients+for+Wide-Baseline+Floor+Plan+Reconstruction%22",
+  "fetched_at": "2026-11-23T09:42:35Z",
+  "http_status": 200,
+  "content_sha256": "e5aba4dbb911aa32164c99f4cc89c19e0d5eab814a91b406803fdfe41c16c497",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e5aba4dbb911aa32164c99f4cc89c19e0d5eab814a91b406803fdfe41c16c497.json.gz"
+}

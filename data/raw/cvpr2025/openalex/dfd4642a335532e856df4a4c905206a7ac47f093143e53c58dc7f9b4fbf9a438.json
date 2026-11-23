@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Point2RBox-v2%3A+Rethinking+Point-supervised+Oriented+Object+Detection+with+Spatial+Layout+Among+Instances%22",
+  "fetched_at": "2026-11-23T09:35:19Z",
+  "http_status": 200,
+  "content_sha256": "7004bc22b601b78067f668b019f23661afc453792e0cc5fae9e3e5c40e873fea",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7004bc22b601b78067f668b019f23661afc453792e0cc5fae9e3e5c40e873fea.json.gz"
+}

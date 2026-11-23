@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RELOCATE%3A+A+Simple+Training-Free+Baseline+for+Visual+Query+Localization+Using+Region-Based+Representations%22",
+  "fetched_at": "2026-11-23T09:36:41Z",
+  "http_status": 200,
+  "content_sha256": "fbb66951a637f2f31f499f307c07c9abb501e43347019e7ab402b8ed0c2728f0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/fbb66951a637f2f31f499f307c07c9abb501e43347019e7ab402b8ed0c2728f0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LLM-driven+Multimodal+and+Multi-Identity+Listening+Head+Generation%22",
+  "fetched_at": "2026-11-23T09:34:11Z",
+  "http_status": 200,
+  "content_sha256": "aced1904c92a7df37f286f88af0fafe8e7135e5f205927a320304e45547e6865",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/aced1904c92a7df37f286f88af0fafe8e7135e5f205927a320304e45547e6865.json.gz"
+}

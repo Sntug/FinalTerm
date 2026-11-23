@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adventurer%3A+Optimizing+Vision+Mamba+Architecture+Designs+for+Efficiency%22",
+  "fetched_at": "2026-11-23T09:44:15Z",
+  "http_status": 200,
+  "content_sha256": "130bbf93be5ae12ce1f301c8f3f1b87dedca971c160a17591cc4e0f299a0650d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/130bbf93be5ae12ce1f301c8f3f1b87dedca971c160a17591cc4e0f299a0650d.json.gz"
+}

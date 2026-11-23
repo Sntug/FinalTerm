@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Minding+Fuzzy+Regions%3A+A+Data-driven+Alternating+Learning+Paradigm+for+Stable+Lesion+Segmentation%22",
+  "fetched_at": "2026-11-23T09:42:33Z",
+  "http_status": 200,
+  "content_sha256": "ee811856e5686e345a33aff3320666a9704a11715db0d7e00a68f3c3dada6923",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ee811856e5686e345a33aff3320666a9704a11715db0d7e00a68f3c3dada6923.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Steepest+Descent+Density+Control+for+Compact+3D+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:35:48Z",
+  "http_status": 200,
+  "content_sha256": "a962c241eb3c47789cc08cd5e6b07d56ba60165876e2b4721e67fc852a4638af",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a962c241eb3c47789cc08cd5e6b07d56ba60165876e2b4721e67fc852a4638af.json.gz"
+}

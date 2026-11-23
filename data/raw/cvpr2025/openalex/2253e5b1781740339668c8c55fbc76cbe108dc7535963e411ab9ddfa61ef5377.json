@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Schedule+On+the+Fly%3A+Diffusion+Time+Prediction+for+Faster+and+Better+Image+Generation%22",
+  "fetched_at": "2026-11-23T09:42:01Z",
+  "http_status": 200,
+  "content_sha256": "703aca7ef85a6f5f1982cb21e91ced34997b27caedcb57fdef11b0ecfc29a997",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/703aca7ef85a6f5f1982cb21e91ced34997b27caedcb57fdef11b0ecfc29a997.json.gz"
+}

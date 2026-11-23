@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniManip%3A+Towards+General+Robotic+Manipulation+via+Object-Centric+Interaction+Primitives+as+Spatial+Constraints%22",
+  "fetched_at": "2026-11-23T09:37:39Z",
+  "http_status": 200,
+  "content_sha256": "55af2fa71b14c949159409e8d10c83a447a4d7cc02aebbf4a9fbd9a88f47d616",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/55af2fa71b14c949159409e8d10c83a447a4d7cc02aebbf4a9fbd9a88f47d616.json.gz"
+}

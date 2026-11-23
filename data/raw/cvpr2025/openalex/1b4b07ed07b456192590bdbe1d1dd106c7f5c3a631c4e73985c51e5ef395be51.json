@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fitted+Neural+Lossless+Image+Compression%22",
+  "fetched_at": "2026-11-23T09:42:09Z",
+  "http_status": 200,
+  "content_sha256": "d7df8bfcc215737e740715708a10c29d5000c18a1730596960536060462e6d3e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d7df8bfcc215737e740715708a10c29d5000c18a1730596960536060462e6d3e.json.gz"
+}

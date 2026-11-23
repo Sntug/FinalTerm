@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ShowHowTo%3A+Generating+Scene-Conditioned+Step-by-Step+Visual+Instructions%22",
+  "fetched_at": "2026-11-23T09:37:14Z",
+  "http_status": 200,
+  "content_sha256": "684bf8f35a7b56ae6318bb57e1bb5d5cd7473b378f99b76c4fb5d8c997794fa2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/684bf8f35a7b56ae6318bb57e1bb5d5cd7473b378f99b76c4fb5d8c997794fa2.json.gz"
+}

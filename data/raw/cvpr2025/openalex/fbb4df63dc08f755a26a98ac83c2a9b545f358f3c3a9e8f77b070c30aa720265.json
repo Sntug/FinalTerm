@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SegEarth-OV%3A+Towards+Training-Free+Open-Vocabulary+Segmentation+for+Remote+Sensing+Images%22",
+  "fetched_at": "2026-11-23T09:34:31Z",
+  "http_status": 200,
+  "content_sha256": "8c25638ae03c1bc17fd57d0792994ce6141a1fc55466bce0cb88c1af2799fce8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8c25638ae03c1bc17fd57d0792994ce6141a1fc55466bce0cb88c1af2799fce8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-Sensor+Object+Anomaly+Detection%3A+Unifying+Appearance%2C+Geometry%2C+and+Internal+Properties%22",
+  "fetched_at": "2026-11-23T09:36:13Z",
+  "http_status": 200,
+  "content_sha256": "80b68522f88e493381581443b5f0fc9f14b712a039fbc950f43ba8c092f92ae7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/80b68522f88e493381581443b5f0fc9f14b712a039fbc950f43ba8c092f92ae7.json.gz"
+}

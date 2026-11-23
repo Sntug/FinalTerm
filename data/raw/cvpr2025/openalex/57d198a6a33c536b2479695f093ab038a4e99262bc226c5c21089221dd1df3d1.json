@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DriveDreamer4D%3A+World+Models+Are+Effective+Data+Machines+for+4D+Driving+Scene+Representation%22",
+  "fetched_at": "2026-11-23T09:41:40Z",
+  "http_status": 200,
+  "content_sha256": "59968d8953b4aa84ed461702b22631e3760f6ec4e6df9e981b80cd81722bf464",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/59968d8953b4aa84ed461702b22631e3760f6ec4e6df9e981b80cd81722bf464.json.gz"
+}

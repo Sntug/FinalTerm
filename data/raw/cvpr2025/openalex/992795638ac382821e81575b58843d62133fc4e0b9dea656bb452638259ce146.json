@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Ferret%3A+An+Efficient+Online+Continual+Learning+Framework+under+Varying+Memory+Constraints%22",
+  "fetched_at": "2026-11-23T09:44:12Z",
+  "http_status": 200,
+  "content_sha256": "ab02c1397ff86ef165db648a6914ffc6a2a8f03e5c11ac3c796e0c82bf60d641",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ab02c1397ff86ef165db648a6914ffc6a2a8f03e5c11ac3c796e0c82bf60d641.json.gz"
+}

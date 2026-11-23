@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DeepLA-Net%3A+Very+Deep+Local+Aggregation+Networks+for+Point+Cloud+Analysis%22",
+  "fetched_at": "2026-11-23T09:42:25Z",
+  "http_status": 200,
+  "content_sha256": "f3eb529a8bbf96071a98d0afea73896814856273da6976ab9a10b2c8dc24cfcc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f3eb529a8bbf96071a98d0afea73896814856273da6976ab9a10b2c8dc24cfcc.json.gz"
+}

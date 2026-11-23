@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DriveGPT4-V2%3A+Harnessing+Large+Language+Model+Capabilities+for+Enhanced+Closed-Loop+Autonomous+Driving%22",
+  "fetched_at": "2026-11-23T09:42:11Z",
+  "http_status": 200,
+  "content_sha256": "4c7eccda60b49fd1c13ab55e67552e8e89d7405291f33184eb2df842dc43d103",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4c7eccda60b49fd1c13ab55e67552e8e89d7405291f33184eb2df842dc43d103.json.gz"
+}

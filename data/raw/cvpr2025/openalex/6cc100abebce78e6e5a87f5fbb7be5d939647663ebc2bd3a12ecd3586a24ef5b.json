@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Hazing+to+Dehazing%3A+Towards+Realistic+Haze+Generation+for+Real-World+Image+Dehazing%22",
+  "fetched_at": "2026-11-23T09:38:33Z",
+  "http_status": 200,
+  "content_sha256": "ffcbfec319e2533744476f35b70c4363700308de6ca5d3ca313b1ab33e4f2373",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ffcbfec319e2533744476f35b70c4363700308de6ca5d3ca313b1ab33e4f2373.json.gz"
+}

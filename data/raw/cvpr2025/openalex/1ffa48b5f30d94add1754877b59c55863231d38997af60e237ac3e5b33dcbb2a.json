@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22From+Alexnet+to+Transformers%3A+Measuring+the+Non-linearity+of+Deep+Neural+Networks+with+Affine+Optimal+Transport%22",
+  "fetched_at": "2026-11-23T09:35:50Z",
+  "http_status": 200,
+  "content_sha256": "a64d4949363f3b540b12f44e3b959d62a407992dbf5b4b7c11493bff7d683d9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a64d4949363f3b540b12f44e3b959d62a407992dbf5b4b7c11493bff7d683d9a.json.gz"
+}

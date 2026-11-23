@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%224Real-Video%3A+Learning+Generalizable+Photo-Realistic+4D+Video+Diffusion%22",
+  "fetched_at": "2026-11-23T09:37:17Z",
+  "http_status": 200,
+  "content_sha256": "5ed1ec5d69d62d22e641b338a1b5637c122d86a850cb4430736ae44a19fcfe53",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/5ed1ec5d69d62d22e641b338a1b5637c122d86a850cb4430736ae44a19fcfe53.json.gz"
+}

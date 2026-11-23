@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22QMambaBSR%3A+Burst+Image+Super-Resolution+with+Query+State+Space+Model%22",
+  "fetched_at": "2026-11-23T09:37:16Z",
+  "http_status": 200,
+  "content_sha256": "0ee320c9be3d49a9dcba843999f0dd31c41462798a55bf9f1a09693cb1f6b100",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0ee320c9be3d49a9dcba843999f0dd31c41462798a55bf9f1a09693cb1f6b100.json.gz"
+}

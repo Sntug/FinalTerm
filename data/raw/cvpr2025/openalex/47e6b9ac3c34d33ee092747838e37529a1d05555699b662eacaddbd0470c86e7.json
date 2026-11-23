@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22The+Change+You+Want+To+Detect%3A+Semantic+Change+Detection+In+Earth+Observation+With+Hybrid+Data+Generationf%22",
+  "fetched_at": "2026-11-23T09:37:53Z",
+  "http_status": 200,
+  "content_sha256": "ee50cbe27b225dda919866b0708e62f318817481c70b266957b8e6c2fd44b599",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ee50cbe27b225dda919866b0708e62f318817481c70b266957b8e6c2fd44b599.json.gz"
+}

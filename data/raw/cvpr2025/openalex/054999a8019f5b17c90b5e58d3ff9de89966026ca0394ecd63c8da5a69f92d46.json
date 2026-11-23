@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Movie+Weaver%3A+Tuning-Free+Multi-Concept+Video+Personalization+with+Anchored+Prompts%22",
+  "fetched_at": "2026-11-23T09:40:00Z",
+  "http_status": 200,
+  "content_sha256": "128562537d071c4a6cbbd444253a7d5b9c578e142d0f6df8db984d2818321a9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/128562537d071c4a6cbbd444253a7d5b9c578e142d0f6df8db984d2818321a9a.json.gz"
+}

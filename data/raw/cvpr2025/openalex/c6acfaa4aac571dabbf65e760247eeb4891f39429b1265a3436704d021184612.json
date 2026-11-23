@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Boosting+Point-Supervised+Temporal+Action+Localization+through+Integrating+Query+Reformation+and+Optimal+Transport%22",
+  "fetched_at": "2026-11-23T09:42:07Z",
+  "http_status": 200,
+  "content_sha256": "2bd3422b343979bc64cd7539596dab96dd0bd80ec7e0dab45154827902dbd393",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2bd3422b343979bc64cd7539596dab96dd0bd80ec7e0dab45154827902dbd393.json.gz"
+}

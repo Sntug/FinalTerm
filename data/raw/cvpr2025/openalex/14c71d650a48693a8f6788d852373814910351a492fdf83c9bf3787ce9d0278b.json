@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CLOC%3A+Contrastive+Learning+for+Ordinal+Classification+with+Multi-Margin+N-pair+Loss%22",
+  "fetched_at": "2026-11-23T09:41:44Z",
+  "http_status": 200,
+  "content_sha256": "124ad22958ba2efc66e8d0fddd67c09e942c109793c5d7aecdf4b2063185b5b9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/124ad22958ba2efc66e8d0fddd67c09e942c109793c5d7aecdf4b2063185b5b9.json.gz"
+}

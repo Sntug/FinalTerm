@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MetaShadow%3A+Object-Centered+Shadow+Detection%2C+Removal%2C+and+Synthesis%22",
+  "fetched_at": "2026-11-23T09:44:50Z",
+  "http_status": 200,
+  "content_sha256": "bff579f3eb219c50b00f717577f8c15b0d440bf45149c3caa3aad522ccc2ea22",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bff579f3eb219c50b00f717577f8c15b0d440bf45149c3caa3aad522ccc2ea22.json.gz"
+}

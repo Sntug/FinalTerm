@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MVSAnywhere%3A+Zero-Shot+Multi-View+Stereo%22",
+  "fetched_at": "2026-11-23T09:32:56Z",
+  "http_status": 200,
+  "content_sha256": "8efde1665f0794e22cd5d11790972e3e36765770f974123861022e4df7c1c7cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8efde1665f0794e22cd5d11790972e3e36765770f974123861022e4df7c1c7cb.json.gz"
+}

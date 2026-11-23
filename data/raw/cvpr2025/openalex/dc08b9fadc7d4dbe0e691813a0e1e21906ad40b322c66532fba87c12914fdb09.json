@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GuardSplat%3A+Efficient+and+Robust+Watermarking+for+3D+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:34:15Z",
+  "http_status": 200,
+  "content_sha256": "092ee0a31b7b1e088f8fe8089781ad011a4d12644af0df4d4d5811546b47e8c9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/092ee0a31b7b1e088f8fe8089781ad011a4d12644af0df4d4d5811546b47e8c9.json.gz"
+}

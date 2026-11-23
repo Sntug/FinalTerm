@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BlobGEN-Vid%3A+Compositional+Text-to-Video+Generation+with+Blob+Video+Representations%22",
+  "fetched_at": "2026-11-23T09:38:53Z",
+  "http_status": 200,
+  "content_sha256": "c17c38825f12791499b42137fc1518efb7ed91750b37be4fd3c225aabdbbd290",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/c17c38825f12791499b42137fc1518efb7ed91750b37be4fd3c225aabdbbd290.json.gz"
+}

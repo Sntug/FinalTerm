@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Semantic+Feature+Discrimination+for+Perceptual+Image+Super-Resolution+and+Opinion-Unaware+No-Reference+Image+Quality+Assessment%22",
+  "fetched_at": "2026-11-23T09:36:51Z",
+  "http_status": 200,
+  "content_sha256": "5e9eea74189fc60e7242228dd5630f5b97420ead1cec0777d0070c9415fa3d01",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/5e9eea74189fc60e7242228dd5630f5b97420ead1cec0777d0070c9415fa3d01.json.gz"
+}

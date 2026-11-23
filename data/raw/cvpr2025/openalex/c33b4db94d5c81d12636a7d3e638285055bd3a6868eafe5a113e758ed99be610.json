@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Directional+Label+Diffusion+Model+for+Learning+from+Noisy+Labels%22",
+  "fetched_at": "2026-11-23T09:43:36Z",
+  "http_status": 200,
+  "content_sha256": "a0cffe117cbf5480b49fc7b1ec6a686b79e4d8ea03dd8f38f3c0bb3257cbf0b5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a0cffe117cbf5480b49fc7b1ec6a686b79e4d8ea03dd8f38f3c0bb3257cbf0b5.json.gz"
+}

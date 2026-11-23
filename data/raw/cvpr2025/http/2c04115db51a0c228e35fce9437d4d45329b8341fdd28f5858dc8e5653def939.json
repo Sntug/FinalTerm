@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MLLM-as-a-Judge_for_Image_Safety_without_Human_Labeling_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:30:21Z",
+  "http_status": 200,
+  "content_sha256": "7bb3581345545c65fedeae5ca025ddc1f0559954b7df089c3985778c40e5aa54",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1e0b-63a77fd26c5c7\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:02 GMT",
+  "raw_path": "data/raw/cvpr2025/http/7bb3581345545c65fedeae5ca025ddc1f0559954b7df089c3985778c40e5aa54.html.gz"
+}

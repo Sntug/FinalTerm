@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PolarNeXt%3A+Rethink+Instance+Segmentation+with+Polar+Representation%22",
+  "fetched_at": "2026-11-23T09:42:29Z",
+  "http_status": 200,
+  "content_sha256": "49c5fb62e120939e4e8e0c632af4bf670580d8a18ece66e8e7817e94283f6e82",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/49c5fb62e120939e4e8e0c632af4bf670580d8a18ece66e8e7817e94283f6e82.json.gz"
+}

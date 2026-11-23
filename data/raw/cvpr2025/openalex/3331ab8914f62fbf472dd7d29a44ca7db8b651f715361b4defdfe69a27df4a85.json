@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PCM+%3A+Picard+Consistency+Model+for+Fast+Parallel+Sampling+of+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:40:31Z",
+  "http_status": 200,
+  "content_sha256": "c99b27c53528c543e0b982f698ee2cf0d1bfda3013e1bb9dc2de9676e2edaa4a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/c99b27c53528c543e0b982f698ee2cf0d1bfda3013e1bb9dc2de9676e2edaa4a.json.gz"
+}

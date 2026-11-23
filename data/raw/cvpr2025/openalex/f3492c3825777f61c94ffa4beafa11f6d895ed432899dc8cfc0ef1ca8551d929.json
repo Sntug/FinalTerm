@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Label+Shift+Meets+Online+Learning%3A+Ensuring+Consistent+Adaptation+with+Universal+Dynamic+Regret%22",
+  "fetched_at": "2026-11-23T09:33:30Z",
+  "http_status": 200,
+  "content_sha256": "73307d30bd22337896853a7c03349488040d903121f8fc830ad2e44ba501a0e4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/73307d30bd22337896853a7c03349488040d903121f8fc830ad2e44ba501a0e4.json.gz"
+}

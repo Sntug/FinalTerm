@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+4D+Panoptic+Scene+Graph+Generation+from+Rich+2D+Visual+Scene%22",
+  "fetched_at": "2026-11-23T09:38:55Z",
+  "http_status": 200,
+  "content_sha256": "25d3dc145b18603fa25c72e8539bf0ffef3d7a0ad6ce1df3bf57ea4695053c4b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/25d3dc145b18603fa25c72e8539bf0ffef3d7a0ad6ce1df3bf57ea4695053c4b.json.gz"
+}

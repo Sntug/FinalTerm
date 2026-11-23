@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unveiling+Visual+Perception+in+Language+Models%3A+An+Attention+Head+Analysis+Approach%22",
+  "fetched_at": "2026-11-23T09:36:31Z",
+  "http_status": 200,
+  "content_sha256": "caeea50088b61b171b3dd6ae78c4e5f01849299b76c54a165f1b68532df2cc8d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/caeea50088b61b171b3dd6ae78c4e5f01849299b76c54a165f1b68532df2cc8d.json.gz"
+}

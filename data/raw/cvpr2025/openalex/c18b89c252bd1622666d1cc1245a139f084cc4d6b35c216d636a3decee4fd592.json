@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CASP%3A+Consistency-aware+Audio-induced+Saliency+Prediction+Model+for+Omnidirectional+Video%22",
+  "fetched_at": "2026-11-23T09:38:02Z",
+  "http_status": 200,
+  "content_sha256": "0fa767a7d229d972836e493ccaf3ba75b3a8c4228726a04e36f5938f5eb1ac2f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0fa767a7d229d972836e493ccaf3ba75b3a8c4228726a04e36f5938f5eb1ac2f.json.gz"
+}

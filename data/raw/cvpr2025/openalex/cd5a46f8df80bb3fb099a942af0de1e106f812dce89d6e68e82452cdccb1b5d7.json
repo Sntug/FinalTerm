@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SACB-Net%3A+Spatial-awareness+Convolutions+for+Medical+Image+Registration%22",
+  "fetched_at": "2026-11-23T09:42:42Z",
+  "http_status": 200,
+  "content_sha256": "20d1323d3980819961f7d8951812a1dc4d90175d79eb5280931fd7204d2c0059",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/20d1323d3980819961f7d8951812a1dc4d90175d79eb5280931fd7204d2c0059.json.gz"
+}

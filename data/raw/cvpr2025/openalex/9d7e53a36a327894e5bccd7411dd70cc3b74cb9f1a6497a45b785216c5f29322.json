@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Latent+Space+Super-Resolution+for+Higher-Resolution+Image+Generation+with+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:40:57Z",
+  "http_status": 200,
+  "content_sha256": "12e10c5b375dedc03577a4d6839daeb2f3a7691ef229b1012da2104cb2c0a114",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/12e10c5b375dedc03577a4d6839daeb2f3a7691ef229b1012da2104cb2c0a114.json.gz"
+}

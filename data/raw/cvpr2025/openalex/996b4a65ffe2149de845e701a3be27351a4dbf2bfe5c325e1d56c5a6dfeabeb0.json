@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prosody-Enhanced+Acoustic+Pre-training+and+Acoustic-Disentangled+Prosody+Adapting+for+Movie+Dubbing%22",
+  "fetched_at": "2026-11-23T09:36:08Z",
+  "http_status": 200,
+  "content_sha256": "7424179eaf8f2356aa35d14b9f29257b49b6acf7a298c0c970cbec7b6ac04327",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7424179eaf8f2356aa35d14b9f29257b49b6acf7a298c0c970cbec7b6ac04327.json.gz"
+}

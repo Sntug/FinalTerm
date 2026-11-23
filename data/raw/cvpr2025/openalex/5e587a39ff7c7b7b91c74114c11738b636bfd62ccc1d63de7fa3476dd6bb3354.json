@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GS-DiT%3A+Advancing+Video+Generation+with+Dynamic+3D+Gaussian+Fields+through+Efficient+Dense+3D+Point+Tracking%22",
+  "fetched_at": "2026-11-23T09:37:40Z",
+  "http_status": 200,
+  "content_sha256": "5ba904e82ede944317e682bac58e056e6dcc1e080e9f9bfc261270fe38b67dca",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/5ba904e82ede944317e682bac58e056e6dcc1e080e9f9bfc261270fe38b67dca.json.gz"
+}

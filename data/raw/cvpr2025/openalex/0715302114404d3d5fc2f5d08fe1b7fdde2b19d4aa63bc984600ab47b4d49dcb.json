@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22One+is+Plenty%3A+A+Polymorphic+Feature+Interpreter+for+Immutable+Heterogeneous+Collaborative+Perception%22",
+  "fetched_at": "2026-11-23T09:41:11Z",
+  "http_status": 200,
+  "content_sha256": "9dbee3f27533faa97d4cc14d68dd858209591de930df92e22c67ad666677d753",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9dbee3f27533faa97d4cc14d68dd858209591de930df92e22c67ad666677d753.json.gz"
+}

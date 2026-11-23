@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Speedy-Splat%3A+Fast+3D+Gaussian+Splatting+with+Sparse+Pixels+and+Sparse+Primitives%22",
+  "fetched_at": "2026-11-23T09:45:08Z",
+  "http_status": 200,
+  "content_sha256": "2ed719ce5b5190af54501ada95bb53639486a656f31abbcc286ab172f6977065",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2ed719ce5b5190af54501ada95bb53639486a656f31abbcc286ab172f6977065.json.gz"
+}

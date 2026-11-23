@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DeSiRe-GS%3A+4D+Street+Gaussians+for+Static-Dynamic+Decomposition+and+Surface+Reconstruction+for+Urban+Driving+Scenes%22",
+  "fetched_at": "2026-11-23T09:40:46Z",
+  "http_status": 200,
+  "content_sha256": "979003865b1e2e7c3b6888a9f48447a18d7bc97ec163fa7c9f9334f315f446ac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/979003865b1e2e7c3b6888a9f48447a18d7bc97ec163fa7c9f9334f315f446ac.json.gz"
+}

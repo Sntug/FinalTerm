@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Explicit+Geometry-Reflectance+Collaboration+for+Generalized+LiDAR+Segmentation+in+Adverse+Weather%22",
+  "fetched_at": "2026-11-23T09:45:00Z",
+  "http_status": 200,
+  "content_sha256": "f88f780faef6bdd03e7cf840a176160652c1721a1f32edc709e0ccff678fa77c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f88f780faef6bdd03e7cf840a176160652c1721a1f32edc709e0ccff678fa77c.json.gz"
+}

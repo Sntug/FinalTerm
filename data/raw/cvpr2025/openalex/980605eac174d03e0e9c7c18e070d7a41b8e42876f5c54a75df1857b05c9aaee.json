@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Realistic+Test-Time+Adaptation+of+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T09:45:30Z",
+  "http_status": 200,
+  "content_sha256": "0276ab9ba5f1c0cb700662db72ee93d94e576e02c3fb00a04f06397742500113",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0276ab9ba5f1c0cb700662db72ee93d94e576e02c3fb00a04f06397742500113.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AnyDressing%3A+Customizable+Multi-Garment+Virtual+Dressing+via+Latent+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:39:52Z",
+  "http_status": 200,
+  "content_sha256": "ad467cdefa0bb12f6481b492df56c4f015824f5922724f4e66c108ac3dd13423",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ad467cdefa0bb12f6481b492df56c4f015824f5922724f4e66c108ac3dd13423.json.gz"
+}

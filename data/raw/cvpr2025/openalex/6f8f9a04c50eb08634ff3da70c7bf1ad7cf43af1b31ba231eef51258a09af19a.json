@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Classic+Video+Denoising+in+a+Machine+Learning+World%3A+Robust%2C+Fast%2C+and+Controllable%22",
+  "fetched_at": "2026-11-23T09:33:34Z",
+  "http_status": 200,
+  "content_sha256": "9ccb043ac07b66d292ae65b01c9645f2b47be4fb76a4a020593da379f3185d7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9ccb043ac07b66d292ae65b01c9645f2b47be4fb76a4a020593da379f3185d7f.json.gz"
+}

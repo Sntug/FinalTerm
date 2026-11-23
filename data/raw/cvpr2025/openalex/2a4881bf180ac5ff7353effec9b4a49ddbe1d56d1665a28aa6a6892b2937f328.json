@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adaptive+Dropout%3A+Unleashing+Dropout+across+Layers+for+Generalizable+Image+Super-Resolution%22",
+  "fetched_at": "2026-11-23T09:36:37Z",
+  "http_status": 200,
+  "content_sha256": "52c95388e746685e7f064b29297845dfe416d802e0b18a3c9aab1b0bcc1e3e5a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/52c95388e746685e7f064b29297845dfe416d802e0b18a3c9aab1b0bcc1e3e5a.json.gz"
+}

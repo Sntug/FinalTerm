@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Layered+Image+Vectorization+via+Semantic+Simplification%22",
+  "fetched_at": "2026-11-23T09:38:35Z",
+  "http_status": 200,
+  "content_sha256": "d618672c5303a6d2067b3539c566f274d183d057d57a2535fb4a78600da4e8c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d618672c5303a6d2067b3539c566f274d183d057d57a2535fb4a78600da4e8c6.json.gz"
+}

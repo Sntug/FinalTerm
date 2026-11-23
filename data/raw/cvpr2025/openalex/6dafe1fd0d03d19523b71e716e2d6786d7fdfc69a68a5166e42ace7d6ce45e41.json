@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D-LLaVA%3A+Towards+Generalist+3D+LMMs+with+Omni+Superpoint+Transformer%22",
+  "fetched_at": "2026-11-23T09:43:33Z",
+  "http_status": 200,
+  "content_sha256": "532b83915036a2221f008f65f7e48a02f8d32aa03200746fefe517116b763693",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/532b83915036a2221f008f65f7e48a02f8d32aa03200746fefe517116b763693.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SDBF%3A+Steep-Decision-Boundary+Fingerprinting+for+Hard-Label+Tampering+Detection+of+DNN+Models%22",
+  "fetched_at": "2026-11-23T09:33:15Z",
+  "http_status": 200,
+  "content_sha256": "d10daa59e68b694c1ce5499028a3e7f26a511b982f6f5188beee5fd7630648ac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d10daa59e68b694c1ce5499028a3e7f26a511b982f6f5188beee5fd7630648ac.json.gz"
+}

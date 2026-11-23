@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Color+Alignment+in+Diffusion%22",
+  "fetched_at": "2026-11-23T09:35:07Z",
+  "http_status": 200,
+  "content_sha256": "90534cb1fba7165561ac424562ff0275a5d7a3c903d52f96308e6f324d48d653",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/90534cb1fba7165561ac424562ff0275a5d7a3c903d52f96308e6f324d48d653.json.gz"
+}

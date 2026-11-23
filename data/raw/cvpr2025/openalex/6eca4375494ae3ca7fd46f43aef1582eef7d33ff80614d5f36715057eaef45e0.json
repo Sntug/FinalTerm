@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion+Bridge%3A+Leveraging+Diffusion+Model+to+Reduce+the+Modality+Gap+Between+Text+and+Vision+for+Zero-Shot+Image+Captioning%22",
+  "fetched_at": "2026-11-23T09:44:09Z",
+  "http_status": 200,
+  "content_sha256": "98c548dfc8c2bd20e0786c9230b3ea95d096a4ccac4b8d857117445da3e25d41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/98c548dfc8c2bd20e0786c9230b3ea95d096a4ccac4b8d857117445da3e25d41.json.gz"
+}

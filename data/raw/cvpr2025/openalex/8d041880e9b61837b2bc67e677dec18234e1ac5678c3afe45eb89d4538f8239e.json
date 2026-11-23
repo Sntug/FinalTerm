@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generalizing+Deepfake+Video+Detection+with+Plug-and-Play%3A+Video-Level+Blending+and+Spatiotemporal+Adapter+Tuning%22",
+  "fetched_at": "2026-11-23T09:41:47Z",
+  "http_status": 200,
+  "content_sha256": "0cb895e6f72976a3cc5f55191a13cae2518dc446fd9bf3f10365e288b5ab4072",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0cb895e6f72976a3cc5f55191a13cae2518dc446fd9bf3f10365e288b5ab4072.json.gz"
+}

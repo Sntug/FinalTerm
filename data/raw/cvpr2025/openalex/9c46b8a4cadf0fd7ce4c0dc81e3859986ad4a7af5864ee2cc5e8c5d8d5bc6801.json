@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Co-Speech+Gesture+Video+Generation+with+Implicit+Motion-Audio+Entanglement%22",
+  "fetched_at": "2026-11-23T09:34:25Z",
+  "http_status": 200,
+  "content_sha256": "85b6f5cbd31c1ffaf9f01310abce9fa7c6cb1c30cf3e67a8cb4e7395eea1887b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/85b6f5cbd31c1ffaf9f01310abce9fa7c6cb1c30cf3e67a8cb4e7395eea1887b.json.gz"
+}

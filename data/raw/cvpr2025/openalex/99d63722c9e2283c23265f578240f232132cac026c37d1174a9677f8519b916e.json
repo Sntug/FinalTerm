@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dissecting+and+Mitigating+Diffusion+Bias+via+Mechanistic+Interpretability%22",
+  "fetched_at": "2026-11-23T09:36:57Z",
+  "http_status": 200,
+  "content_sha256": "70446625426a73dd6ffbcdb0e34e8de728e5bd6c402e72d79217a13b387c5e75",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/70446625426a73dd6ffbcdb0e34e8de728e5bd6c402e72d79217a13b387c5e75.json.gz"
+}

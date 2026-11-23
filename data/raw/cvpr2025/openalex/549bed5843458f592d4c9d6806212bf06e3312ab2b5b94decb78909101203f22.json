@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SimVS%3A+Simulating+World+Inconsistencies+for+Robust+View+Synthesis%22",
+  "fetched_at": "2026-11-23T09:37:05Z",
+  "http_status": 200,
+  "content_sha256": "a3330bf03eb1115f6e79422ac93e0dcd138ffcd2167680b6f36128d69a15afd0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a3330bf03eb1115f6e79422ac93e0dcd138ffcd2167680b6f36128d69a15afd0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LSNet%3A+See+Large%2C+Focus+Small%22",
+  "fetched_at": "2026-11-23T09:35:40Z",
+  "http_status": 200,
+  "content_sha256": "25d97e3695f9c30a73ca0b6968375bed25f0e3d2cc47c32ed2db50a9b211624a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/25d97e3695f9c30a73ca0b6968375bed25f0e3d2cc47c32ed2db50a9b211624a.json.gz"
+}

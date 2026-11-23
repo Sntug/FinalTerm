@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RayFlow%3A+Instance-Aware+Diffusion+Acceleration+via+Adaptive+Flow+Trajectories%22",
+  "fetched_at": "2026-11-23T09:44:18Z",
+  "http_status": 200,
+  "content_sha256": "bf62d4e249a93ece51a85dd80aaa644c6fa48eb3a4b5aae415c4c42ebdb2da36",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bf62d4e249a93ece51a85dd80aaa644c6fa48eb3a4b5aae415c4c42ebdb2da36.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Diffusion_Bridge_Leveraging_Diffusion_Model_to_Reduce_the_Modality_Gap_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:32:22Z",
+  "http_status": 200,
+  "content_sha256": "a8575a10ea75a298317a8a1168037ade2157b3cd92810c89a9bc3be31ecb2765",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b5e-63a77fd3089d9\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/a8575a10ea75a298317a8a1168037ade2157b3cd92810c89a9bc3be31ecb2765.html.gz"
+}

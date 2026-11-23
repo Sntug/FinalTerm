@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Navigation+World+Models%22",
+  "fetched_at": "2026-11-23T09:35:38Z",
+  "http_status": 200,
+  "content_sha256": "9e8c4fb9f573c00381bfc7e8562b0494f92bff1bbf03cd1e16f00061f16091a1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9e8c4fb9f573c00381bfc7e8562b0494f92bff1bbf03cd1e16f00061f16091a1.json.gz"
+}

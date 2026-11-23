@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RoboSense%3A+Large-scale+Dataset+and+Benchmark+for+Egocentric+Robot+Perception+and+Navigation+in+Crowded+and+Unstructured+Environments%22",
+  "fetched_at": "2026-11-23T09:38:14Z",
+  "http_status": 200,
+  "content_sha256": "57816be2ff6d0073e62ecc8692414e43ddcb1e3244b4fa3fb65bc77bad6f74e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/57816be2ff6d0073e62ecc8692414e43ddcb1e3244b4fa3fb65bc77bad6f74e9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EASEMVC%3AEfficient+Dual+Selection+Mechanism+for+Deep+Multi-View+Clustering%22",
+  "fetched_at": "2026-11-23T09:38:45Z",
+  "http_status": 200,
+  "content_sha256": "ee6cbd93cff5fb682fc175421b70a7dbe111abbd2900746916152eb4f7a6732d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ee6cbd93cff5fb682fc175421b70a7dbe111abbd2900746916152eb4f7a6732d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiC%3A+Rethinking+Conv3x3+Designs+in+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:42:03Z",
+  "http_status": 200,
+  "content_sha256": "158a034105a3bdbe4f716ca02732d0f617593de0ad4b6d97fa059509c2f2dbfa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/158a034105a3bdbe4f716ca02732d0f617593de0ad4b6d97fa059509c2f2dbfa.json.gz"
+}

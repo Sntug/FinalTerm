@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Precise+Event+Spotting+in+Sports+Videos%3A+Solving+Long-Range+Dependency+and+Class+Imbalance%22",
+  "fetched_at": "2026-11-23T09:36:47Z",
+  "http_status": 200,
+  "content_sha256": "16a98c74af0aa47aea91db3c2d971407e0ee8e53ee028f3aebbbcd724ddf196c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/16a98c74af0aa47aea91db3c2d971407e0ee8e53ee028f3aebbbcd724ddf196c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Plug-and-Play+PPO%3A+An+Adaptive+Point+Prompt+Optimizer+Making+SAM+Greater%22",
+  "fetched_at": "2026-11-23T09:39:01Z",
+  "http_status": 200,
+  "content_sha256": "b5f663f5ef42fa3199b5a467ef26cd621f72d0b1ff1c0259adc989f139586f44",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b5f663f5ef42fa3199b5a467ef26cd621f72d0b1ff1c0259adc989f139586f44.json.gz"
+}

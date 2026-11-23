@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Test-Time+Fine-Tuning+of+Image+Compression+Models+for+Multi-Task+Adaptability%22",
+  "fetched_at": "2026-11-23T09:35:42Z",
+  "http_status": 200,
+  "content_sha256": "369479c6af9b2c1bbf54a4711de9d6de48f807e0754769ff263c683928665ac3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/369479c6af9b2c1bbf54a4711de9d6de48f807e0754769ff263c683928665ac3.json.gz"
+}

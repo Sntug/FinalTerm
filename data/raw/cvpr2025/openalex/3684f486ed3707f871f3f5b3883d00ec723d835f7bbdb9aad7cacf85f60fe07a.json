@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Diffusion+as+Low+Light+Enhancer%22",
+  "fetched_at": "2026-11-23T09:38:22Z",
+  "http_status": 200,
+  "content_sha256": "014a44959c411188a5b9638be11d7d2d6db218cc0ae05d27c3e98f6469b4fccb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/014a44959c411188a5b9638be11d7d2d6db218cc0ae05d27c3e98f6469b4fccb.json.gz"
+}

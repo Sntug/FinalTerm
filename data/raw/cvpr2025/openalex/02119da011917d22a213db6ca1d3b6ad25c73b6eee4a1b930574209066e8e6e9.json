@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Doppelgangers+and+Adversarial+Vulnerability%22",
+  "fetched_at": "2026-11-23T09:40:18Z",
+  "http_status": 200,
+  "content_sha256": "aeca8b4525501c15b57bf075449de46abdc4b7004781cca94586a8c5d72358cc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/aeca8b4525501c15b57bf075449de46abdc4b7004781cca94586a8c5d72358cc.json.gz"
+}

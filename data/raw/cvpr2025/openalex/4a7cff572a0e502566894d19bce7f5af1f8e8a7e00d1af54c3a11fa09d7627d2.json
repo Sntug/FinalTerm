@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Preconditioners+for+the+Stochastic+Training+of+Neural+Fields%22",
+  "fetched_at": "2026-11-23T09:39:24Z",
+  "http_status": 200,
+  "content_sha256": "40f9ec62a6c680f1570cc302c0cc90d9f5352f5cbb3a25e168156497a450ae94",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/40f9ec62a6c680f1570cc302c0cc90d9f5352f5cbb3a25e168156497a450ae94.json.gz"
+}

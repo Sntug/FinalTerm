@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Retaining+Knowledge+and+Enhancing+Long-Text+Representations+in+CLIP+through+Dual-Teacher+Distillation%22",
+  "fetched_at": "2026-11-23T09:38:43Z",
+  "http_status": 200,
+  "content_sha256": "6e6f0e1d3d7339a0439fbc675a6df5a83bcedfdaee958ebfb4c47b17bba15bfc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6e6f0e1d3d7339a0439fbc675a6df5a83bcedfdaee958ebfb4c47b17bba15bfc.json.gz"
+}

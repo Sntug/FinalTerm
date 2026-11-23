@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Differentiable+Inverse+Rendering+with+Interpretable+Basis+BRDFs%22",
+  "fetched_at": "2026-11-23T09:37:34Z",
+  "http_status": 200,
+  "content_sha256": "54e2b907b5a5c209ad2eeba3c5a44e149696182d3d58c1745714085747267de8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/54e2b907b5a5c209ad2eeba3c5a44e149696182d3d58c1745714085747267de8.json.gz"
+}

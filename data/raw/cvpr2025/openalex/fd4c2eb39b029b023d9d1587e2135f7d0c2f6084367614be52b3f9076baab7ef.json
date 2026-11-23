@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enhancing+Dataset+Distillation+via+Non-Critical+Region+Refinement%22",
+  "fetched_at": "2026-11-23T09:43:15Z",
+  "http_status": 200,
+  "content_sha256": "3d6261a6fde1419d13305f423a7df7b46a4ae57ebe2c2ab021c68304130bf0b2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3d6261a6fde1419d13305f423a7df7b46a4ae57ebe2c2ab021c68304130bf0b2.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bayesian+Test-Time+Adaptation+for+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T09:41:09Z",
+  "http_status": 200,
+  "content_sha256": "5a0c7566d4257e36f95729549fe367f6e6077c09ab2faf46de49866b559ab99d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/5a0c7566d4257e36f95729549fe367f6e6077c09ab2faf46de49866b559ab99d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Comprehensive+Relighting%3A+Generalizable+and+Consistent+Monocular+Human+Relighting+and+Harmonization%22",
+  "fetched_at": "2026-11-23T09:34:38Z",
+  "http_status": 200,
+  "content_sha256": "2961cdf2a67e4ecc6f8251931e2724ac94da1d928bfc29c047a85a2a1d7b0e06",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2961cdf2a67e4ecc6f8251931e2724ac94da1d928bfc29c047a85a2a1d7b0e06.json.gz"
+}

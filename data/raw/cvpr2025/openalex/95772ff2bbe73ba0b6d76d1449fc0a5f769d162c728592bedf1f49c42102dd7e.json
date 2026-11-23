@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Understanding+and+Quantifying+Uncertainty+for+Text-to-Image+Generation%22",
+  "fetched_at": "2026-11-23T09:42:23Z",
+  "http_status": 200,
+  "content_sha256": "ae2f4db8f58bb9139fa53f13b6b5058c9a25c5cd9c65b45d0be17ffc61896741",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ae2f4db8f58bb9139fa53f13b6b5058c9a25c5cd9c65b45d0be17ffc61896741.json.gz"
+}

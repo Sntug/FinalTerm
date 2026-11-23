@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Vision-Language+Embodiment+for+Monocular+Depth+Estimation%22",
+  "fetched_at": "2026-11-23T09:39:18Z",
+  "http_status": 200,
+  "content_sha256": "35037387248133e72724223fb307b867773d0cc1f5b6d927aefdcdf49a0d33ed",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/35037387248133e72724223fb307b867773d0cc1f5b6d927aefdcdf49a0d33ed.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RC-AutoCalib%3A+An+End-to-End+Radar-Camera+Automatic+Calibration+Network%22",
+  "fetched_at": "2026-11-23T09:42:39Z",
+  "http_status": 200,
+  "content_sha256": "6c4a4ecd90693459b50e29e431cbaab3a4a65ad25e936b8b3315d25ce8cf224d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6c4a4ecd90693459b50e29e431cbaab3a4a65ad25e936b8b3315d25ce8cf224d.json.gz"
+}

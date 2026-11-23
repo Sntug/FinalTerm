@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Viewpoint+Rosetta+Stone%3A+Unlocking+Unpaired+Ego-Exo+Videos+for+View-invariant+Representation+Learning%22",
+  "fetched_at": "2026-11-23T09:34:00Z",
+  "http_status": 200,
+  "content_sha256": "7792c08e099a7d4754f0d046da43fd07d461ecd6b41a851d33cc2dda9d0de4c9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7792c08e099a7d4754f0d046da43fd07d461ecd6b41a851d33cc2dda9d0de4c9.json.gz"
+}

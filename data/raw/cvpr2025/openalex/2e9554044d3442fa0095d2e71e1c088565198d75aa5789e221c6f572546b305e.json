@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Active+Event-based+Stereo+Vision%22",
+  "fetched_at": "2026-11-23T09:41:30Z",
+  "http_status": 200,
+  "content_sha256": "95f7d05f5f8db030542f30fbe1fb7b733a0cfa6e59e86462d684a9ed3231e6de",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/95f7d05f5f8db030542f30fbe1fb7b733a0cfa6e59e86462d684a9ed3231e6de.json.gz"
+}

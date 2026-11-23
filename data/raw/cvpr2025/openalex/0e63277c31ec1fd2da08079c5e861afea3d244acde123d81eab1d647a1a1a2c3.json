@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=SEC-Prompt%3ASEmantic+Complementary+Prompting+for+Few-Shot+Class-Incremental+Learning",
+  "fetched_at": "2026-11-23T09:36:11Z",
+  "http_status": 200,
+  "content_sha256": "19eebc2014d146f18ca012fe24d61e20d2e3488d351d6249cb42de919fe1cf7a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/19eebc2014d146f18ca012fe24d61e20d2e3488d351d6249cb42de919fe1cf7a.json.gz"
+}

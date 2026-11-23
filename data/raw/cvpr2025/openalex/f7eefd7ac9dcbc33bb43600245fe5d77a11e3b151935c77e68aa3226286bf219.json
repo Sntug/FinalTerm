@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GUI-Xplore%3A+Empowering+Generalizable+GUI+Agents+with+One+Exploration%22",
+  "fetched_at": "2026-11-23T09:34:39Z",
+  "http_status": 200,
+  "content_sha256": "66abfeb86b79a76625e17621400745e80fa2b040fd4c33972dc7dc116624f93f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/66abfeb86b79a76625e17621400745e80fa2b040fd4c33972dc7dc116624f93f.json.gz"
+}

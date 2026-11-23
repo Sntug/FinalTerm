@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Adaptive_Dropout_Unleashing_Dropout_across_Layers_for_Generalizable_Image_Super-Resolution_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:28:51Z",
+  "http_status": 200,
+  "content_sha256": "9b7998a8527d13b35cd6c33df68873a3e730a687651f5f871d34109f6ef16907",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a5f-63a77fd2b8890\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/9b7998a8527d13b35cd6c33df68873a3e730a687651f5f871d34109f6ef16907.html.gz"
+}

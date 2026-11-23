@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniStereo%3A+Real-time+Omnidireactional+Depth+Estimation+with+Multiview+Fisheye+Cameras%22",
+  "fetched_at": "2026-11-23T09:34:33Z",
+  "http_status": 200,
+  "content_sha256": "cabd9903b2373e2c322341a18a58e305c988d75ac390d5ad3d6cea89c1bd17a2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/cabd9903b2373e2c322341a18a58e305c988d75ac390d5ad3d6cea89c1bd17a2.json.gz"
+}
