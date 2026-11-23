@@ -1,0 +1,68 @@
+* @Sntug @TienHung229
+
+/src/collect/ @TienHung229
+/src/clean/ @TienHung229
+/src/metadata/ @TienHung229
+/src/nlp/ @TienHung229
+/src/gold/ @TienHung229
+/src/audit/ @TienHung229
+/src/integration/ @TienHung229
+/src/trend/ @TienHung229
+/config/contracts/ @TienHung229
+/config/a_* @TienHung229
+/config/trend_nlp.json @TienHung229
+/config/trend_metrics.json @TienHung229
+/config/requirements_trend_a.txt @TienHung229
+/data/raw/cvpr2025/ @TienHung229
+/data/raw/cvpr2026/ @TienHung229
+/data/processed/cvpr2025/ @TienHung229
+/data/processed/cvpr2026/ @TienHung229
+/data/gold/annotations_A.csv @TienHung229
+/outputs/trend/nlp/ @TienHung229
+/outputs/trend/quality/ @TienHung229
+/outputs/trend/metrics/ @TienHung229
+/queries/trend_q1.cypher @TienHung229
+/queries/trend_q3.cypher @TienHung229
+/app/pages/1_Xu_huong.py @TienHung229
+/app/pages/2a_Chu_de.py @TienHung229
+/report/trend/sections/a_*.tex @TienHung229
+/report/trend/a.bib @TienHung229
+/docs/RUN_A.md @TienHung229
+
+/src/collect_b/ @Sntug
+/src/graph/ @Sntug
+/src/analysis/ @Sntug
+/src/slm/ @Sntug
+/src/embed/ @Sntug
+/src/rag/ @Sntug
+/config/b_* @Sntug
+/config/trend_graph.json @Sntug
+/config/trend_sna.json @Sntug
+/config/trend_slm.json @Sntug
+/config/trend_rag.json @Sntug
+/config/requirements_trend_b.txt @Sntug
+/data/raw/iccv2025/ @Sntug
+/data/processed/iccv2025/ @Sntug
+/data/processed/mxh_cv_trend/graph/ @Sntug
+/data/gold/annotations_B.csv @Sntug
+/outputs/trend/sna/ @Sntug
+/outputs/trend/embed/ @Sntug
+/outputs/trend/rag/ @Sntug
+/outputs/trend/slm_pilot/ @Sntug
+/queries/trend_q1b.cypher @Sntug
+/app/Home.py @Sntug
+/app/lib/ @Sntug
+/app/pages/2b_Nhom.py @Sntug
+/app/pages/3_Mang_luoi.py @Sntug
+/app/pages/4_Hoi_dap.py @Sntug
+/report/trend/main.tex @Sntug
+/report/trend/sections/b_*.tex @Sntug
+/report/trend/b.bib @Sntug
+/README.md @Sntug
+/docs/RUN_B.md @Sntug
+/.github/CODEOWNERS @Sntug
+
+/docs/SPEC_trend_app.md @Sntug @TienHung229
+/docs/PLAN_trend_app.md @Sntug @TienHung229
+/data/gold/gold_set.csv @Sntug @TienHung229
+/data/gold/adjudicated.csv @Sntug @TienHung229

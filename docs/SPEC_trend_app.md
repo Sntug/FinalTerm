@@ -2,8 +2,8 @@
 
 | Mục | Giá trị |
 |---|---|
-| Phiên bản | 0.3 (chờ A duyệt) |
-| Ngày | 20/11/2026 |
+| Phiên bản | 0.3.2 (chờ A duyệt) |
+| Ngày | 23/11/2026 (v0.3: 20/11) |
 | Tác giả | B (Sntug), có tiếp nhận các đề xuất góp ý cho v0.2 |
 | Người duyệt | A (TienHung229), giảng viên |
 | Mô hình | Agile/Scrum rút gọn cho nhóm 2 người; kế hoạch triển khai ở `docs/PLAN_trend_app.md` |
@@ -108,7 +108,7 @@ Tổng mục tiêu: 1.750 bài, 5 kỳ, **2 hội nghị**, 4 năm.
 | D5 | Giữ 8 nhãn, 10 quan hệ. A kiểm tra khả năng dùng cấu hình project/venue mới (`mxh_cv_trend`, `venue:CVPR:2025:main`) mà không đổi schema; nếu phải đổi contract thì cần ví dụ nhập/xuất, test snapshot cũ, cả A và B duyệt | 🟡 |
 | D6 | Biểu diễn đồ thị gồm hai phần: (a) đồ thị con tương tác có nhãn và hướng cạnh **[Lõi]**; (b) embedding FastRP/Node2Vec dùng để gợi ý top-5 **chủ đề** tương tự **[Lõi, bản tối thiểu]**; gợi ý nhóm tương tự là **[Mở rộng]** | 🟡 ❓ |
 | D7–D8 | Streamlit + Plotly + pyvis + NetworkX + Neo4j. Cypher lấy đường đi thật; CSV/JSON giữ metrics tính sẵn; cả hai dùng chung một snapshot | 🟡 |
-| D9 | Qwen2.5-7B-Instruct (7,61 tỷ tham số) qua Ollama Q4; dự phòng Qwen2.5-3B-Instruct (3,09 tỷ). Chốt bằng pilot trên máy demo | 🟡 |
+| D9 | Qwen3-8B (8,2 tỷ tham số) qua Ollama, tag `qwen3:8b` (Q4_K_M), **tắt thinking** (`think: false`); dự phòng `qwen3:4b` (Qwen3-4B, 4,0 tỷ), cùng họ nên dùng chung prompt. Pilot chỉ đo RAM, token/giây, % JSON hợp lệ để xác nhận, không chọn lại model | ✅ (23/11) |
 | D10–D11 | GraphRAG local là luồng chính **[Lõi]**. Global search bằng tóm tắt cộng đồng **[Mở rộng ưu tiên 1]**. Vector index **[Mở rộng]** | 🟡 |
 
 **Vì sao giữ embedding tối thiểu ở phần lõi (khác đề xuất v0.3 bản góp ý).** Tiêu chí 3 điểm ghi "multi-hop trên đồ thị **và biểu diễn đồ thị**". Cụm từ này có thể hiểu là trực quan hóa, cũng có thể hiểu là học biểu diễn (graph embedding). Bản tối thiểu (FastRP trên đồ thị Paper–Topic–Author, top-k chủ đề tương tự, một hình UMAP) tốn khoảng 1 ngày công và tránh được rủi ro mất điểm nếu giảng viên hiểu theo nghĩa thứ hai. Đánh giá link prediction/AUC và độ trôi Procrustes vẫn là phần mở rộng.
@@ -210,7 +210,8 @@ PageRank có trọng số (số bài chung) trên mạng đồng tác giả và 
 
 | Mục | Nội dung |
 |---|---|
-| Mô hình | Qwen2.5-7B-Instruct, 7,61 tỷ tham số ([model card](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)); dự phòng Qwen2.5-3B-Instruct, 3,09 tỷ ([model card](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)) |
+| Mô hình | Qwen3-8B, 8,2 tỷ tham số ([model card](https://huggingface.co/Qwen/Qwen3-8B)), Ollama `qwen3:8b`, tắt thinking; dự phòng Qwen3-4B, 4,0 tỷ ([model card](https://huggingface.co/Qwen/Qwen3-4B)), Ollama `qwen3:4b` |
+| Dùng chung | Mỗi người cài Ollama và `ollama pull qwen3:8b` trên máy mình; so model digest (`ollama list`) với digest ghi trong `outputs/trend/slm_pilot/`. Kết quả SLM lưu cache theo sha256 và commit vào repo, nên người kia chạy lại pipeline từ cache mà không cần gọi model |
 | Pilot | Khoảng 20 bài trên máy demo: model digest, RAM, token/giây, tỷ lệ JSON hợp lệ, ví dụ xử lý |
 | Nhiệm vụ | (1) đề xuất thực thể, (2) xác minh quan hệ mơ hồ, (3) hiểu câu hỏi và sinh câu trả lời có nguồn, (4) tóm tắt cộng đồng [Mở rộng] |
 | Tái lập | `temperature = 0`; cache theo sha256(văn bản + prompt + model digest) |
@@ -307,7 +308,7 @@ Các mốc dưới đây lấy theo đề bài đầy đủ do nhóm cung cấp 
 
 **Kịch bản demo 5 phút:** 0:00–1:00 chọn cặp kỳ CVPR và một chủ đề có thật trong kết quả; 1:00–2:00 đọc x/n và Δ; 2:00–3:15 mở nhóm và các chủ đề nhóm đang làm; 3:15–4:15 lần đường đi đến bài và câu bằng chứng; 4:15–5:00 hỏi lại qua GraphRAG và đối chiếu. Có video dự phòng. Nếu không có chủ đề nào tăng có ý nghĩa, demo một thay đổi quan sát được và giải thích nhãn.
 
-**Slide** 15–20 trang. **Báo cáo:** quy trình, công thức, kết quả thực đo, lỗi, giới hạn, phân công, nguồn. **Câu hỏi dự kiến:** chọn mẫu, lẫn yếu tố hội nghị, phạm vi LCC, cách xác định nhóm nổi bật, cách kiểm SLM dẫn nguồn, vì sao Qwen 7B, GraphRAG khác vector RAG ở đâu.
+**Slide** 15–20 trang. **Báo cáo:** quy trình, công thức, kết quả thực đo, lỗi, giới hạn, phân công, nguồn. **Câu hỏi dự kiến:** chọn mẫu, lẫn yếu tố hội nghị, phạm vi LCC, cách xác định nhóm nổi bật, cách kiểm SLM dẫn nguồn, vì sao Qwen3-8B, GraphRAG khác vector RAG ở đâu.
 
 ---
 
@@ -331,7 +332,7 @@ Các mốc dưới đây lấy theo đề bài đầy đủ do nhóm cung cấp 
 | Bỏ sót khái niệm mới hoặc SLM nhận nhầm | Quy trình §4.2, tập kiểm tra giữ riêng |
 | Tách danh tính, tổ chức đổi theo thời gian | Bằng chứng theo paper ID; kiểm tay top demo |
 | Mạng phân mảnh, CITES thưa | Ba số khoảng cách §5.1; cho phép kết quả rỗng |
-| Thiếu RAM, truy vấn chậm, nguồn gián đoạn | Pilot sớm, cache, model 3B, snapshot và video demo local |
+| Thiếu RAM, truy vấn chậm, nguồn gián đoạn | Pilot sớm, cache, model dự phòng `qwen3:4b`, snapshot và video demo local |
 | arXiv cần endorsement hoặc bị giữ duyệt | Kiểm tra ngay tuần đầu; hỏi giảng viên endorse |
 
 ---
@@ -352,3 +353,4 @@ Các mốc dưới đây lấy theo đề bài đầy đủ do nhóm cung cấp 
 | 0.2 (19/11) | Theo thang điểm cuối kỳ: NER/RE/đánh giá, thế giới nhỏ, PageRank, k-core, SLM, GraphRAG, slide/báo cáo |
 | 0.3 (20/11) | Tiếp nhận góp ý: so sánh cùng hội nghị thay Early/Late; Fisher exact; thêm Q1b nhóm → chủ đề; đếm một lần mỗi bài; tách tập gold dev/test trước khi mở rộng từ điển; ba số khoảng cách toàn mạng; thu gọn lõi còn 4 màn hình (màn hình 2 tách thành hai trang 2a/2b để hai người làm song song) và Q1/Q1b/Q3; thêm mốc nộp và arXiv. Khác góp ý: giữ embedding tối thiểu ở lõi; global search là mở rộng ưu tiên 1; đổi phân công thu thập (A: hai kỳ CVPR, B: ICCV 2025) |
 | 0.3.1 (21/11) | Theo góp ý cho plan: cổng so sánh trước khi gắn nhãn; số bài gold theo số kỳ giữ lại, test chỉ mở sau khi đóng băng; embedding lõi chỉ gồm chủ đề tương tự; GraphRAG có ý định xu hướng và ngữ cảnh hội thoại; Q1b nhận `$author_ids` |
+| 0.3.2 (23/11) | Chốt D9: `qwen3:8b` (tắt thinking) thay Qwen2.5-7B, dự phòng `qwen3:4b` thay Qwen2.5-3B; thêm cách dùng chung model giữa A và B |
