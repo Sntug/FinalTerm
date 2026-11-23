@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DiC_Rethinking_Conv3x3_Designs_in_Diffusion_Models_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:31:35Z",
+  "http_status": 200,
+  "content_sha256": "fcb5726fabc917047d0080ca33c8244e6d13ef3128bd43a230203bd1f40d5ec5",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1935-63a77fd300cd8\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/fcb5726fabc917047d0080ca33c8244e6d13ef3128bd43a230203bd1f40d5ec5.html.gz"
+}

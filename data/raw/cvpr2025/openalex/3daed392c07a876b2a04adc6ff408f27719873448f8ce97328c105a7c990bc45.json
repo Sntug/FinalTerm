@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DynaMoDe-NeRF%3A+Motion-aware+Deblurring+Neural+Radiance+Field+for+Dynamic+Scenes%22",
+  "fetched_at": "2026-11-23T09:45:23Z",
+  "http_status": 200,
+  "content_sha256": "85770575771c8ba66bb29ae5da780553ab5294f0c3a7ab1f6813a81dcf5cd2e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/85770575771c8ba66bb29ae5da780553ab5294f0c3a7ab1f6813a81dcf5cd2e9.json.gz"
+}

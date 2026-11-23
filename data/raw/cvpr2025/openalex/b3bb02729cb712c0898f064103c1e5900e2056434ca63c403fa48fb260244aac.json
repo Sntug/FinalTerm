@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PartRM%3A+Modeling+Part-Level+Dynamics+with+Large+Cross-State+Reconstruction+Model%22",
+  "fetched_at": "2026-11-23T09:40:21Z",
+  "http_status": 200,
+  "content_sha256": "55cb489e53baf48e25edd6e0f21a255b8eb21a5bbcd375760e3c6f1fcb8daefa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/55cb489e53baf48e25edd6e0f21a255b8eb21a5bbcd375760e3c6f1fcb8daefa.json.gz"
+}

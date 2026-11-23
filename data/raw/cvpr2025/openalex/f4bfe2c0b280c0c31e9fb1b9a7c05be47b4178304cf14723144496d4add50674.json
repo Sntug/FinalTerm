@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MambaVLT%3A+Time-Evolving+Multimodal+State+Space+Model+for+Vision-Language+Tracking%22",
+  "fetched_at": "2026-11-23T09:38:04Z",
+  "http_status": 200,
+  "content_sha256": "a1cfccf90b981e40cab6450956517a958e56f62ffb4f89ec8e2f495353f68274",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a1cfccf90b981e40cab6450956517a958e56f62ffb4f89ec8e2f495353f68274.json.gz"
+}

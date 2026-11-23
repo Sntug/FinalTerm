@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VerbDiff%3A+Text-Only+Diffusion+Models+with+Enhanced+Interaction+Awareness%22",
+  "fetched_at": "2026-11-23T09:40:12Z",
+  "http_status": 200,
+  "content_sha256": "8131a08f8a7130e48e027fafb4259c743e41dbbcc9b9805f1c64ca4b84e015e3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8131a08f8a7130e48e027fafb4259c743e41dbbcc9b9805f1c64ca4b84e015e3.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Not+Only+Text%3A+Exploring+Compositionality+of+Visual+Representations+in+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T09:36:55Z",
+  "http_status": 200,
+  "content_sha256": "6b15d419ae1ebffd8975477bafb5ec52a76dfeca4a7e24c4f7b58304664c015b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6b15d419ae1ebffd8975477bafb5ec52a76dfeca4a7e24c4f7b58304664c015b.json.gz"
+}

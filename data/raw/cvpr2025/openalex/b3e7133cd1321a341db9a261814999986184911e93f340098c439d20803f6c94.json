@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22F-LMM%3A+Grounding+Frozen+Large+Multimodal+Models%22",
+  "fetched_at": "2026-11-23T09:39:41Z",
+  "http_status": 200,
+  "content_sha256": "1072c4b6d27b5cb5cfd6786251a0e59aa8f78533fbe4bf4d7b78594e53ce8113",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1072c4b6d27b5cb5cfd6786251a0e59aa8f78533fbe4bf4d7b78594e53ce8113.json.gz"
+}

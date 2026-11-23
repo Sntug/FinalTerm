@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProHOC%3A+Probabilistic+Hierarchical+Out-of-Distribution+Classification+via+Multi-Depth+Networks%22",
+  "fetched_at": "2026-11-23T09:33:28Z",
+  "http_status": 200,
+  "content_sha256": "a1f6da752555d0b3263502e54dd3c0151def3fcf7901b607eabdf460c4d7f1ce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a1f6da752555d0b3263502e54dd3c0151def3fcf7901b607eabdf460c4d7f1ce.json.gz"
+}

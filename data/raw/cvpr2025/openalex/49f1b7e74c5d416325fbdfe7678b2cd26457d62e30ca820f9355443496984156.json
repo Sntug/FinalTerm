@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Revealing+Key+Details+to+See+Differences%3A+A+Novel+Prototypical+Perspective+for+Skeleton-based+Action+Recognition%22",
+  "fetched_at": "2026-11-23T09:35:31Z",
+  "http_status": 200,
+  "content_sha256": "4321a85df47f97a58be02668c2aeae69d2592d7a690e09579eff4a69809d2469",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4321a85df47f97a58be02668c2aeae69d2592d7a690e09579eff4a69809d2469.json.gz"
+}

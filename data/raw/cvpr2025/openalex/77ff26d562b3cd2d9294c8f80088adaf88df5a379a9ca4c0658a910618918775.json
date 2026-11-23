@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Forming+Auxiliary+High-confident+Instance-level+Loss+to+Promote+Learning+from+Label+Proportions%22",
+  "fetched_at": "2026-11-23T09:36:29Z",
+  "http_status": 200,
+  "content_sha256": "eeb65f4c3388d951f367ed3929e138b03d1fc667976eb85fbf19f3491d415945",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/eeb65f4c3388d951f367ed3929e138b03d1fc667976eb85fbf19f3491d415945.json.gz"
+}

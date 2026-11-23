@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Personalized+Preference+Fine-tuning+of+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:36:25Z",
+  "http_status": 200,
+  "content_sha256": "8afa39749312e7a21e321d94785f3bc2d2d370ed635c1d28895355c7c47ab6c9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8afa39749312e7a21e321d94785f3bc2d2d370ed635c1d28895355c7c47ab6c9.json.gz"
+}

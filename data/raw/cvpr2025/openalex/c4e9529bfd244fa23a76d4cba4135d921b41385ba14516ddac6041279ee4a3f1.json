@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Data-Free+Group-Wise+Fully+Quantized+Winograd+Convolution+via+Learnable+Scales%22",
+  "fetched_at": "2026-11-23T09:33:21Z",
+  "http_status": 200,
+  "content_sha256": "919b217da0ec7cd7cedbb1aedf8f058e3bf9716f3d2263b5e3009deeaada3a1f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/919b217da0ec7cd7cedbb1aedf8f058e3bf9716f3d2263b5e3009deeaada3a1f.json.gz"
+}

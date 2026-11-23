@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Can+Machines+Understand+Composition%3F+Dataset+and+Benchmark+for+Photographic+Image+Composition+Embedding+and+Understanding%22",
+  "fetched_at": "2026-11-23T09:40:19Z",
+  "http_status": 200,
+  "content_sha256": "2c7421ce616c62385089ab88137d37b1aa008613c5ec81284d09a42df7595bac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2c7421ce616c62385089ab88137d37b1aa008613c5ec81284d09a42df7595bac.json.gz"
+}

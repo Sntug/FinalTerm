@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prometheus%3A+3D-Aware+Latent+Diffusion+Models+for+Feed-Forward+Text-to-3D+Scene+Generation%22",
+  "fetched_at": "2026-11-23T09:45:18Z",
+  "http_status": 200,
+  "content_sha256": "428864011873a0782c32242e77855dc0d3e7c7142a0da1fd486864dc4a67e4db",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/428864011873a0782c32242e77855dc0d3e7c7142a0da1fd486864dc4a67e4db.json.gz"
+}

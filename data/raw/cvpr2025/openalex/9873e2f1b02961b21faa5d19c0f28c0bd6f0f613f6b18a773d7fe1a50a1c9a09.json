@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FIMA-Q%3A+Post-Training+Quantization+for+Vision+Transformers+by+Fisher+Information+Matrix+Approximation%22",
+  "fetched_at": "2026-11-23T09:42:17Z",
+  "http_status": 200,
+  "content_sha256": "16c38b25256aac39ca41e613f2c8b874a807f27c77d3be0bfd51abf3ec41a544",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/16c38b25256aac39ca41e613f2c8b874a807f27c77d3be0bfd51abf3ec41a544.json.gz"
+}

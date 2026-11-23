@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Tuning+the+Frequencies%3A+Robust+Training+for+Sinusoidal+Neural+Networks%22",
+  "fetched_at": "2026-11-23T09:36:53Z",
+  "http_status": 200,
+  "content_sha256": "4fd2d826559de87a5f3b7ab5c6cb3aa44766037e1f2a7f4526970c238788b7af",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4fd2d826559de87a5f3b7ab5c6cb3aa44766037e1f2a7f4526970c238788b7af.json.gz"
+}

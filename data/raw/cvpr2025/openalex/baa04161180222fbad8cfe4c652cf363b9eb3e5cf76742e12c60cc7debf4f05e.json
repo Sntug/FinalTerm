@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MonoSplat%3A+Generalizable+3D+Gaussian+Splatting+from+Monocular+Depth+Foundation+Models%22",
+  "fetched_at": "2026-11-23T09:42:27Z",
+  "http_status": 200,
+  "content_sha256": "9dee4f07166e0f17e77b0cd26df72810f5ab001da0f79ccf7056d3c0643afb7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9dee4f07166e0f17e77b0cd26df72810f5ab001da0f79ccf7056d3c0643afb7f.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PQPP%3A+A+Joint+Benchmark+for+Text-to-Image+Prompt+and+Query+Performance+Prediction%22",
+  "fetched_at": "2026-11-23T09:39:46Z",
+  "http_status": 200,
+  "content_sha256": "ff00f61bf829a60ea680da39235c9f735729bdf3614854d13f1597475adb312c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ff00f61bf829a60ea680da39235c9f735729bdf3614854d13f1597475adb312c.json.gz"
+}

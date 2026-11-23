@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiffLO%3A+Semantic-Aware+LiDAR+Odometry+with+Diffusion-Based+Refinement%22",
+  "fetched_at": "2026-11-23T09:35:21Z",
+  "http_status": 200,
+  "content_sha256": "d2244c3e661aaa2ad45f0faae58d7f7bc56a9c40d6755503e0b741c7a00a28a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d2244c3e661aaa2ad45f0faae58d7f7bc56a9c40d6755503e0b741c7a00a28a4.json.gz"
+}

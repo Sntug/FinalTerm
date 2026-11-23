@@ -1,0 +1,37 @@
+{
+  "manifest": "data/processed/cvpr2025/h5/snapshot_manifest.json",
+  "selection_snapshot_id": "selection:2895b64716327d734a6f62ebdc6b66ff150b027d589323964de70ccb7d1d710f",
+  "verified_locked_papers": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "abstract": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "papers_with_verified_affiliation": {
+    "numerator": 329,
+    "denominator": 350,
+    "percent": 94.0
+  },
+  "authorships_with_verified_affiliation": {
+    "numerator": 1616,
+    "denominator": 2122,
+    "percent": 76.15
+  },
+  "openalex_status_counts": {
+    "matched": 337,
+    "needs_review": 13
+  },
+  "verification": {
+    "passed": true,
+    "snapshot_id": "snapshot:v2:b3b9a2a616cbfb57c6ce9836469bba3f62e7065ec6dc597ebf67d8e2178a92c5",
+    "tables_checked": 12,
+    "records_checked": 30170,
+    "raw_sources_checked": 1042,
+    "deterministic_replay": true,
+    "graph_ready": false
+  }
+}

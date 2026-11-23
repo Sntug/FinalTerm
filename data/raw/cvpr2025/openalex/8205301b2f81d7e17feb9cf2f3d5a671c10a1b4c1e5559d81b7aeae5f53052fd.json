@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Optical-Flow+Guided+Prompt+Optimization+for+Coherent+Video+Generation%22",
+  "fetched_at": "2026-11-23T09:37:28Z",
+  "http_status": 200,
+  "content_sha256": "de0cc19ae095b98d6eed61b71317a6257f41c869e85f37dfdc5645712957349e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/de0cc19ae095b98d6eed61b71317a6257f41c869e85f37dfdc5645712957349e.json.gz"
+}

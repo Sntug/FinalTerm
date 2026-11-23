@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Insight-V%3A+Exploring+Long-Chain+Visual+Reasoning+with+Multimodal+Large+Language+Models%22",
+  "fetched_at": "2026-11-23T09:35:03Z",
+  "http_status": 200,
+  "content_sha256": "ff334a560e3a3457b402f1662bb7db634f8bc6163cdb296bfe09cc658247e2f2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ff334a560e3a3457b402f1662bb7db634f8bc6163cdb296bfe09cc658247e2f2.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Estimating+Body+and+Hand+Motion+in+an+Ego-sensed+World%22",
+  "fetched_at": "2026-11-23T09:44:29Z",
+  "http_status": 200,
+  "content_sha256": "fad03a72fb7e2ca7997918d9e275da49393ed25bb8028e884a49177df6b30bf1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/fad03a72fb7e2ca7997918d9e275da49393ed25bb8028e884a49177df6b30bf1.json.gz"
+}

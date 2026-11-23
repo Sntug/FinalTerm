@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ANNEXE%3A+Unified+Analyzing%2C+Answering%2C+and+Pixel+Grounding+for+Egocentric+Interaction%22",
+  "fetched_at": "2026-11-23T09:42:13Z",
+  "http_status": 200,
+  "content_sha256": "2e50c09fee1417fcf7648511741fc079f6d697e6ff9f36f3d597b2b12dac2c35",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2e50c09fee1417fcf7648511741fc079f6d697e6ff9f36f3d597b2b12dac2c35.json.gz"
+}

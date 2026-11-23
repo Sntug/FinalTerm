@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LongVALE%3A+Vision-Audio-Language-Event+Benchmark+Towards+Time-Aware+Omni-Modal+Perception+of+Long+Videos%22",
+  "fetched_at": "2026-11-23T09:40:06Z",
+  "http_status": 200,
+  "content_sha256": "3965fa4196895ab1961118d6f2c1fce4424d51cbaa869b3fbf1b310406cb3c1d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3965fa4196895ab1961118d6f2c1fce4424d51cbaa869b3fbf1b310406cb3c1d.json.gz"
+}

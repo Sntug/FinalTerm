@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DropGaussian%3A+Structural+Regularization+for+Sparse-view+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:41:21Z",
+  "http_status": 200,
+  "content_sha256": "8086497c7a119c22e6e8c3cbad7dae87ff0fa981b003d065424c9169ed3bd89d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8086497c7a119c22e6e8c3cbad7dae87ff0fa981b003d065424c9169ed3bd89d.json.gz"
+}

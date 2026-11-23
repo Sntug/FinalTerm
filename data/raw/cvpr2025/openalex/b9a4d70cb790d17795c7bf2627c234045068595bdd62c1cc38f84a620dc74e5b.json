@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion+Model+is+Effectively+Its+Own+Teacher%22",
+  "fetched_at": "2026-11-23T09:33:54Z",
+  "http_status": 200,
+  "content_sha256": "2603bcdc87128145afae130e247349afc39e16d4553ebed695088bd6f811e104",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2603bcdc87128145afae130e247349afc39e16d4553ebed695088bd6f811e104.json.gz"
+}

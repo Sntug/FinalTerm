@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Task-Agnostic+Guided+Feature+Expansion+for+Class-Incremental+Learning%22",
+  "fetched_at": "2026-11-23T09:44:39Z",
+  "http_status": 200,
+  "content_sha256": "e821445557bf7f6d77b3e2e37e8d9bd234d82bdc5a10cb69e2f5fd5df6ccf6cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e821445557bf7f6d77b3e2e37e8d9bd234d82bdc5a10cb69e2f5fd5df6ccf6cb.json.gz"
+}

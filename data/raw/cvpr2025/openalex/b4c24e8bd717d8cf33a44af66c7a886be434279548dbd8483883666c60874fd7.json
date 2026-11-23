@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Seeing+More+with+Less%3A+Human-like+Representations+in+Vision+Models%22",
+  "fetched_at": "2026-11-23T09:43:08Z",
+  "http_status": 200,
+  "content_sha256": "24345c8784230dd2852675a48fec68bc6d49827551cbfb8bf3c1226d54ce366b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/24345c8784230dd2852675a48fec68bc6d49827551cbfb8bf3c1226d54ce366b.json.gz"
+}

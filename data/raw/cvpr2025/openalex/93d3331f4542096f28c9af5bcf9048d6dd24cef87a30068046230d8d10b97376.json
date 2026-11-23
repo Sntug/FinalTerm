@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Pixel-level+and+Semantic-level+Adjustable+Super-resolution%3A+A+Dual-LoRA+Approach%22",
+  "fetched_at": "2026-11-23T09:33:52Z",
+  "http_status": 200,
+  "content_sha256": "ad1756160734d6dacf0a77d4f5cc7222357293957aab159d6465a25efa60417b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ad1756160734d6dacf0a77d4f5cc7222357293957aab159d6465a25efa60417b.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GoLF-NRT%3A+Integrating+Global+Context+and+Local+Geometry+for+Few-Shot+View+Synthesis%22",
+  "fetched_at": "2026-11-23T09:37:49Z",
+  "http_status": 200,
+  "content_sha256": "8df9433a3105b341984e42b74846b00b4e2737ec0f122c4f294937317f0e1b74",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8df9433a3105b341984e42b74846b00b4e2737ec0f122c4f294937317f0e1b74.json.gz"
+}

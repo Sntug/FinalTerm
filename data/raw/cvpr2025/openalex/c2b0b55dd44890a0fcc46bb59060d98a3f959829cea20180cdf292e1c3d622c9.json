@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22On+Denoising+Walking+Videos+for+Gait+Recognition%22",
+  "fetched_at": "2026-11-23T09:45:20Z",
+  "http_status": 200,
+  "content_sha256": "cbb4c1b05633348560c1e8db71128e70178c4c92fc89d200fbb5d61c5943c69e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/cbb4c1b05633348560c1e8db71128e70178c4c92fc89d200fbb5d61c5943c69e.json.gz"
+}

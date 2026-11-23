@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dynamic+Camera+Poses+and+Where+to+Find+Them%22",
+  "fetched_at": "2026-11-23T09:34:43Z",
+  "http_status": 200,
+  "content_sha256": "fe63250b352df1d1be0f765cdbd128e46b16908f644019f9eee67612886d5b8e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/fe63250b352df1d1be0f765cdbd128e46b16908f644019f9eee67612886d5b8e.json.gz"
+}

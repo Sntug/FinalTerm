@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Open-World+Amodal+Appearance+Completion%22",
+  "fetched_at": "2026-11-23T09:44:56Z",
+  "http_status": 200,
+  "content_sha256": "6f18056fbaf1f50372d8e8c008c0b9d0dbe57ef99794d9f2d03732ddb85cea55",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6f18056fbaf1f50372d8e8c008c0b9d0dbe57ef99794d9f2d03732ddb85cea55.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dual-Granularity+Semantic+Guided+Sparse+Routing+Diffusion+Model+for+General+Pansharpening%22",
+  "fetched_at": "2026-11-23T09:37:31Z",
+  "http_status": 200,
+  "content_sha256": "be7bbf4757f3874a3aefee32d1f98cd8f82f078a97f2434c514f2b01eb9a6b0a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/be7bbf4757f3874a3aefee32d1f98cd8f82f078a97f2434c514f2b01eb9a6b0a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reward+Fine-Tuning+Two-Step+Diffusion+Models+via+Learning+Differentiable+Latent-Space+Surrogate+Reward%22",
+  "fetched_at": "2026-11-23T09:39:33Z",
+  "http_status": 200,
+  "content_sha256": "e55949098217c5387a7441cb95af4634c82ee16b0933c3d7e15fd7a7fc2ce381",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e55949098217c5387a7441cb95af4634c82ee16b0933c3d7e15fd7a7fc2ce381.json.gz"
+}

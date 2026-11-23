@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Investigating+the+Role+of+Weight+Decay+in+Enhancing+Nonconvex+SGD%22",
+  "fetched_at": "2026-11-23T09:35:27Z",
+  "http_status": 200,
+  "content_sha256": "0efd11703bf8af4f6fe0d6bafd29cf4f98b82a970e804175f85148260284271b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0efd11703bf8af4f6fe0d6bafd29cf4f98b82a970e804175f85148260284271b.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FlexUOD%3A+The+Answer+to+Real-world+Unsupervised+Image+Outlier+Detection%22",
+  "fetched_at": "2026-11-23T09:43:38Z",
+  "http_status": 200,
+  "content_sha256": "753c791f39cef03899f3b47e1b088176ea755f4cda3f7fd0f56659b8b55d54ba",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/753c791f39cef03899f3b47e1b088176ea755f4cda3f7fd0f56659b8b55d54ba.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MeshGen%3A+Generating+PBR+Textured+Mesh+with+Render-Enhanced+Auto-Encoder+and+Generative+Data+Augmentation%22",
+  "fetched_at": "2026-11-23T09:37:03Z",
+  "http_status": 200,
+  "content_sha256": "2c847a1b85aa3a3790731042ac75b47c77920ea1dd5d97100ed40c1ac008c830",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2c847a1b85aa3a3790731042ac75b47c77920ea1dd5d97100ed40c1ac008c830.json.gz"
+}

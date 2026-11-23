@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:28:10Z",
+  "http_status": 200,
+  "content_sha256": "ba23bff46c33e14bcbd82039e8e57d7529891053cbb33a64b53a5e40a310ca3d",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a43-63a77fd25cbc6\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:02 GMT",
+  "raw_path": "data/raw/cvpr2025/http/ba23bff46c33e14bcbd82039e8e57d7529891053cbb33a64b53a5e40a310ca3d.html.gz"
+}

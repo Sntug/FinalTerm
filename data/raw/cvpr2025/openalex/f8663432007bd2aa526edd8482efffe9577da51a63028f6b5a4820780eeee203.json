@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LLMDet%3A+Learning+Strong+Open-Vocabulary+Object+Detectors+under+the+Supervision+of+Large+Language+Models%22",
+  "fetched_at": "2026-11-23T09:40:14Z",
+  "http_status": 200,
+  "content_sha256": "200977df3055c6a728d38a2f99ee7cf0535ad380542d634f1ac0a0dad4ab548f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/200977df3055c6a728d38a2f99ee7cf0535ad380542d634f1ac0a0dad4ab548f.json.gz"
+}

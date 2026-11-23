@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MonoPlace3D%3A+Learning+3D-Aware+Object+Placement+for+3D+Monocular+Detection%22",
+  "fetched_at": "2026-11-23T09:33:40Z",
+  "http_status": 200,
+  "content_sha256": "0c6b53b6be32ddc4d11f86b162c4d32d39ab04da91b485b225c12a37a9d00efa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0c6b53b6be32ddc4d11f86b162c4d32d39ab04da91b485b225c12a37a9d00efa.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Beyond+Generation%3A+A+Diffusion-based+Low-level+Feature+Extractor+for+Detecting+AI-generated+Images%22",
+  "fetched_at": "2026-11-23T09:34:54Z",
+  "http_status": 200,
+  "content_sha256": "210355d0fc57702a3c51f5d9d19d6e8a22cca19195bb516e7bfce68da9862e08",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/210355d0fc57702a3c51f5d9d19d6e8a22cca19195bb516e7bfce68da9862e08.json.gz"
+}

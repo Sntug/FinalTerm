@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VIRES%3A+Video+Instance+Repainting+via+Sketch+and+Text+Guided+Generation%22",
+  "fetched_at": "2026-11-23T09:41:56Z",
+  "http_status": 200,
+  "content_sha256": "d31305bc929371f345281267f8897e5799af5a67528203de68510fd464664b86",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d31305bc929371f345281267f8897e5799af5a67528203de68510fd464664b86.json.gz"
+}

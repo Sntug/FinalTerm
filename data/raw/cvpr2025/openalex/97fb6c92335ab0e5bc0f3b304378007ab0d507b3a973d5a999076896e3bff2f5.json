@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fish-Vista%3A+A+Multi-Purpose+Dataset+for+Understanding+%26+Identification+of+Traits+from+Images%22",
+  "fetched_at": "2026-11-23T09:41:42Z",
+  "http_status": 200,
+  "content_sha256": "3dbe72d996b7825765714c07a154ab7483c4f229f78437b9f02da9589028258d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3dbe72d996b7825765714c07a154ab7483c4f229f78437b9f02da9589028258d.json.gz"
+}

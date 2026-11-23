@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Robust-MVTON%3A+Learning+Cross-Pose+Feature+Alignment+and+Fusion+for+Robust+Multi-View+Virtual+Try-On%22",
+  "fetched_at": "2026-11-23T09:42:48Z",
+  "http_status": 200,
+  "content_sha256": "6ab8077df5bd2578c9c125276e92eb693f9ecea80cc8860cc33dd5cb99fc6d7c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6ab8077df5bd2578c9c125276e92eb693f9ecea80cc8860cc33dd5cb99fc6d7c.json.gz"
+}

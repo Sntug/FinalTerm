@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UPME%3A+An+Unsupervised+Peer+Review+Framework+for+Multimodal+Large+Language+Model+Evaluation%22",
+  "fetched_at": "2026-11-23T09:35:09Z",
+  "http_status": 200,
+  "content_sha256": "271e65f48c61586233944092399331008fd26a17d64d3165f39d6daff733b546",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/271e65f48c61586233944092399331008fd26a17d64d3165f39d6daff733b546.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiscoVLA%3A+Discrepancy+Reduction+in+Vision%2C+Language%2C+and+Alignment+for+Parameter-Efficient+Video-Text+Retrieval%22",
+  "fetched_at": "2026-11-23T09:37:23Z",
+  "http_status": 200,
+  "content_sha256": "385af1848a5b8ee22135d4c080016702692a051b57902e49cc64b0de09fa81cf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/385af1848a5b8ee22135d4c080016702692a051b57902e49cc64b0de09fa81cf.json.gz"
+}

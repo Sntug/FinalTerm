@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VideoGLaMM+%3A+A+Large+Multimodal+Model+for+Pixel-Level+Visual+Grounding+in+Videos%22",
+  "fetched_at": "2026-11-23T09:35:13Z",
+  "http_status": 200,
+  "content_sha256": "4cc952d15bdc696ccfe1a2d9a8f8df978e04e9c8bbb8997c2522f6b4a3281a40",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4cc952d15bdc696ccfe1a2d9a8f8df978e04e9c8bbb8997c2522f6b4a3281a40.json.gz"
+}

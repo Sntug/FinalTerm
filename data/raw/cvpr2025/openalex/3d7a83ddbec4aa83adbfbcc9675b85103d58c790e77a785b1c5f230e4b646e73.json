@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Mamba-Reg%3A+Vision+Mamba+Also+Needs+Registers%22",
+  "fetched_at": "2026-11-23T09:36:04Z",
+  "http_status": 200,
+  "content_sha256": "e961bf4144c3dd33d35275d442b920f154398e1bb0bb20a28e2dc72781338190",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e961bf4144c3dd33d35275d442b920f154398e1bb0bb20a28e2dc72781338190.json.gz"
+}

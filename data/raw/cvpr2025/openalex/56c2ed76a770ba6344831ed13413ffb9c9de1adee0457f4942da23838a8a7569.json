@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EarthDial%3A+Turning+Multi-sensory+Earth+Observations+to+Interactive+Dialogues%22",
+  "fetched_at": "2026-11-23T09:33:24Z",
+  "http_status": 200,
+  "content_sha256": "0465d80228f43bbff1fcac917bade1f84d14f75fed485d22309d8e0103b8dc53",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0465d80228f43bbff1fcac917bade1f84d14f75fed485d22309d8e0103b8dc53.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Flash-Split%3A+2D+Reflection+Removal+with+Flash+Cues+and+Latent+Diffusion+Separation%22",
+  "fetched_at": "2026-11-23T09:45:15Z",
+  "http_status": 200,
+  "content_sha256": "42179b3d5f228d41a689d977300302ebea689281b1f9a82f2a50adf39f662ed7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/42179b3d5f228d41a689d977300302ebea689281b1f9a82f2a50adf39f662ed7.json.gz"
+}

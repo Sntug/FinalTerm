@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Conditional+Balance%3A+Improving+Multi-Conditioning+Trade-Offs+in+Image+Generation%22",
+  "fetched_at": "2026-11-23T09:41:38Z",
+  "http_status": 200,
+  "content_sha256": "e587c0c2537c2c1e4a71cb2e79241861b43ac27a91dd4c7220cd661681b0b573",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e587c0c2537c2c1e4a71cb2e79241861b43ac27a91dd4c7220cd661681b0b573.json.gz"
+}

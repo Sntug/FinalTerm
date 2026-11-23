@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22REWIND%3A+Real-Time+Egocentric+Whole-Body+Motion+Diffusion+with+Exemplar-Based+Identity+Conditioning%22",
+  "fetched_at": "2026-11-23T09:41:01Z",
+  "http_status": 200,
+  "content_sha256": "afb27ad665b46a1dc741939a7823b1bb896a0b10d1bf0cc83b7aa4916729390f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/afb27ad665b46a1dc741939a7823b1bb896a0b10d1bf0cc83b7aa4916729390f.json.gz"
+}

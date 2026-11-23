@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CARE+Transformer%3A+Mobile-Friendly+Linear+Visual+Transformer+via+Decoupled+Dual+Interaction%22",
+  "fetched_at": "2026-11-23T09:38:18Z",
+  "http_status": 200,
+  "content_sha256": "4b0d158cf14d4ea42562b1cca7c217fe2d4d5cfa62cffbad1cf1a3cb921aeee9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4b0d158cf14d4ea42562b1cca7c217fe2d4d5cfa62cffbad1cf1a3cb921aeee9.json.gz"
+}

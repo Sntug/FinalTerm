@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Co-op%3A+Correspondence-based+Novel+Object+Pose+Estimation%22",
+  "fetched_at": "2026-11-23T09:39:50Z",
+  "http_status": 200,
+  "content_sha256": "b967c13a644aada2e65f66f3295923da81f436a4aada452a5c1faa3406e56594",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b967c13a644aada2e65f66f3295923da81f436a4aada452a5c1faa3406e56594.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22QuartDepth%3A+Post-Training+Quantization+for+Real-Time+Depth+Estimation+on+the+Edge%22",
+  "fetched_at": "2026-11-23T09:34:51Z",
+  "http_status": 200,
+  "content_sha256": "c0195f702c81d2f6f70db9bf718aada073a902dec536e051e471dbba3536919d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/c0195f702c81d2f6f70db9bf718aada073a902dec536e051e471dbba3536919d.json.gz"
+}

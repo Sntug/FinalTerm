@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Sonic%3A+Shifting+Focus+to+Global+Audio+Perception+in+Portrait+Animation%22",
+  "fetched_at": "2026-11-23T09:39:04Z",
+  "http_status": 200,
+  "content_sha256": "7428be9ef82044cab168bbe1a38d2a4eb8f6a2221d6910eaf61d76804f312531",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7428be9ef82044cab168bbe1a38d2a4eb8f6a2221d6910eaf61d76804f312531.json.gz"
+}

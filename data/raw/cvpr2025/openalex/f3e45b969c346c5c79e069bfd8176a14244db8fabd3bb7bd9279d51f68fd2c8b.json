@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BrepGiff%3A+Lightweight+Generation+of+Complex+B-rep+with+3D+GAT+Diffusion%22",
+  "fetched_at": "2026-11-23T09:34:29Z",
+  "http_status": 200,
+  "content_sha256": "8021bd3626f446183b656427650fceb7f26b4baf1c5ebb8f63b87d20fb45035a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8021bd3626f446183b656427650fceb7f26b4baf1c5ebb8f63b87d20fb45035a.json.gz"
+}

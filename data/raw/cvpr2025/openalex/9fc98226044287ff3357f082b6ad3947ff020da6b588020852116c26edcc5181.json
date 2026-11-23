@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deep+Fair+Multi-View+Clustering+with+Attention+KAN%22",
+  "fetched_at": "2026-11-23T09:35:11Z",
+  "http_status": 200,
+  "content_sha256": "ef8a5e122826774976fba520fee8eed66cf75ce36cca0bea081494f632b74e5f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ef8a5e122826774976fba520fee8eed66cf75ce36cca0bea081494f632b74e5f.json.gz"
+}

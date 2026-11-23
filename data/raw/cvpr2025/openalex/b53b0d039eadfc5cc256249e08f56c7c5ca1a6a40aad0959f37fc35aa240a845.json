@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ReCon%3A+Enhancing+True+Correspondence+Discrimination+through+Relation+Consistency+for+Robust+Noisy+Correspondence+Learning%22",
+  "fetched_at": "2026-11-23T09:40:41Z",
+  "http_status": 200,
+  "content_sha256": "e9752f37d0bcc304fb796a426885cc9471e75fd54ae7dc29c0d1f2d5ee1fdd0d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e9752f37d0bcc304fb796a426885cc9471e75fd54ae7dc29c0d1f2d5ee1fdd0d.json.gz"
+}

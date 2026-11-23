@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Concept+Replacer%3A+Replacing+Sensitive+Concepts+in+Diffusion+Models+via+Precision+Localization%22",
+  "fetched_at": "2026-11-23T09:36:39Z",
+  "http_status": 200,
+  "content_sha256": "710ee2ef2135c25135ed13722dfeeb37c0765481667dfe48a84c5e6dae956044",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/710ee2ef2135c25135ed13722dfeeb37c0765481667dfe48a84c5e6dae956044.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Zero-shot+RGB-D+Point+Cloud+Registration+with+Pre-trained+Large+Vision+Model%22",
+  "fetched_at": "2026-11-23T09:37:58Z",
+  "http_status": 200,
+  "content_sha256": "de0a69c8931d5b6ccc734e55ae44b348a801df895c1b163b50fc843b0578c4ab",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/de0a69c8931d5b6ccc734e55ae44b348a801df895c1b163b50fc843b0578c4ab.json.gz"
+}

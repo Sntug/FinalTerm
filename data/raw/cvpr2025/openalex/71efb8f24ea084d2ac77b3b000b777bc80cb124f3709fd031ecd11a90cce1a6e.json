@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-Resolution+Pathology-Language+Pre-training+Model+with+Text-Guided+Visual+Representation%22",
+  "fetched_at": "2026-11-23T09:45:26Z",
+  "http_status": 200,
+  "content_sha256": "3ba3764dfae86a1bfd70388a6cc0794c3b1528342a59ed4e977731c58581abb9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3ba3764dfae86a1bfd70388a6cc0794c3b1528342a59ed4e977731c58581abb9.json.gz"
+}

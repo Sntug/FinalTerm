@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EquiPose%3A+Exploiting+Permutation+Equivariance+for+Relative+Camera+Pose+Estimation%22",
+  "fetched_at": "2026-11-23T09:40:29Z",
+  "http_status": 200,
+  "content_sha256": "100bc883c4eb812fa4e537aebadec552c3aff9d0c8bfd3482fd3b46c1b34d4cd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/100bc883c4eb812fa4e537aebadec552c3aff9d0c8bfd3482fd3b46c1b34d4cd.json.gz"
+}

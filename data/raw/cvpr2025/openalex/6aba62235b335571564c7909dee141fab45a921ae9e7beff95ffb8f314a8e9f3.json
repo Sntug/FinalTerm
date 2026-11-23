@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Object-aware+Sound+Source+Localization+via+Audio-Visual+Scene+Understanding%22",
+  "fetched_at": "2026-11-23T09:35:23Z",
+  "http_status": 200,
+  "content_sha256": "65821816b855e11647414f35ac6efe55dada9aeb0afb29e3539642567b542113",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/65821816b855e11647414f35ac6efe55dada9aeb0afb29e3539642567b542113.json.gz"
+}

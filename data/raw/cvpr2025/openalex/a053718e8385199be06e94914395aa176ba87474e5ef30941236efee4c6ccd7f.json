@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Certified+Human+Trajectory+Prediction%22",
+  "fetched_at": "2026-11-23T09:38:31Z",
+  "http_status": 200,
+  "content_sha256": "21a1e69ca76040fcaa40537eda1c781d8bbdce2cf5aa3d183ce5907d794ba316",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/21a1e69ca76040fcaa40537eda1c781d8bbdce2cf5aa3d183ce5907d794ba316.json.gz"
+}

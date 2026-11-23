@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MVDoppler-Pose%3A+Multi-Modal+Multi-View+mmWave+Sensing+for+Long-Distance+Self-Occluded+Human+Walking+Pose+Estimation%22",
+  "fetched_at": "2026-11-23T09:35:54Z",
+  "http_status": 200,
+  "content_sha256": "7ce57b4b197c4be90bb8cbda18baf08323a9299ce750dfbedcb29689819d3242",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7ce57b4b197c4be90bb8cbda18baf08323a9299ce750dfbedcb29689819d3242.json.gz"
+}

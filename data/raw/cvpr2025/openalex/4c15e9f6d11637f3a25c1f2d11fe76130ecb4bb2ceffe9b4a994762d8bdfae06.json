@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LoRA+Subtraction+for+Drift-Resistant+Space+in+Exemplar-Free+Continual+Learning%22",
+  "fetched_at": "2026-11-23T09:42:53Z",
+  "http_status": 200,
+  "content_sha256": "2696849a048e5d9d97d54c8b3d0704f10d40f7bb058820627ea4cb6653757390",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2696849a048e5d9d97d54c8b3d0704f10d40f7bb058820627ea4cb6653757390.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22M3amba%3A+Memory+Mamba+is+All+You+Need+for+Whole+Slide+Image+Classification%22",
+  "fetched_at": "2026-11-23T09:37:47Z",
+  "http_status": 200,
+  "content_sha256": "c6823d71c26cdf627a15c9b8a5c125a1124e941c717ea4f4588cf465c246fa3a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/c6823d71c26cdf627a15c9b8a5c125a1124e941c717ea4f4588cf465c246fa3a.json.gz"
+}

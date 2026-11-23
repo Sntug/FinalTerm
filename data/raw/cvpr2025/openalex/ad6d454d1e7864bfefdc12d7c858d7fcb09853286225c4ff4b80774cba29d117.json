@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SPC-GS%3A+Gaussian+Splatting+with+Semantic-Prompt+Consistency+for+Indoor+Open-World+Free-view+Synthesis+from+Sparse+Inputs%22",
+  "fetched_at": "2026-11-23T09:34:17Z",
+  "http_status": 200,
+  "content_sha256": "3e8d30b1e28ce268d4bc05edd1ea9ead2c248258c173b1e573e78a91d81f35d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/3e8d30b1e28ce268d4bc05edd1ea9ead2c248258c173b1e573e78a91d81f35d6.json.gz"
+}

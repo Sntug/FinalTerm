@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Tra-MoE%3A+Learning+Trajectory+Prediction+Model+from+Multiple+Domains+for+Adaptive+Policy+Conditioning%22",
+  "fetched_at": "2026-11-23T09:38:37Z",
+  "http_status": 200,
+  "content_sha256": "b56c7181ed94b779f6aaa76687cb7f75d39dd403411a2ee01ca48b1dde0ff259",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b56c7181ed94b779f6aaa76687cb7f75d39dd403411a2ee01ca48b1dde0ff259.json.gz"
+}

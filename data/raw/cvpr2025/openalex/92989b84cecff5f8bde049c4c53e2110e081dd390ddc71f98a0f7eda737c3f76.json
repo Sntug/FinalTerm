@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works/W4413156142",
+  "fetched_at": "2026-11-23T09:36:42Z",
+  "http_status": 200,
+  "content_sha256": "1d48d45afa92f31f95d2036f56a6decbf1d4ee2d4227faed11c1be746a33d9dd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/1d48d45afa92f31f95d2036f56a6decbf1d4ee2d4227faed11c1be746a33d9dd.json.gz"
+}

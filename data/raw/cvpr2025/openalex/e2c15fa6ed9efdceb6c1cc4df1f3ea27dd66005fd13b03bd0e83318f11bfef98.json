@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Once-Tuning-Multiple-Variants%3A+Tuning+Once+and+Expanded+as+Multiple+Vision-Language+Model+Variants%22",
+  "fetched_at": "2026-11-23T09:39:27Z",
+  "http_status": 200,
+  "content_sha256": "fca69b3f4a15ccf482e2c011d00eb9bdeaceaca172f0800e42df2047eb8fe0b0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/fca69b3f4a15ccf482e2c011d00eb9bdeaceaca172f0800e42df2047eb8fe0b0.json.gz"
+}

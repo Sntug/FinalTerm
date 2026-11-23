@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PICO%3A+Reconstructing+3D+People+In+Contact+with+Objects%22",
+  "fetched_at": "2026-11-23T09:33:36Z",
+  "http_status": 200,
+  "content_sha256": "2aecf31e9c65c53ad68119cd5a458efb752cc011d2fbd15905759dbe926e910d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2aecf31e9c65c53ad68119cd5a458efb752cc011d2fbd15905759dbe926e910d.json.gz"
+}

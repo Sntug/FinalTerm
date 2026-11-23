@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22One-for-More%3A+Continual+Diffusion+Model+for+Anomaly+Detection%22",
+  "fetched_at": "2026-11-23T09:42:19Z",
+  "http_status": 200,
+  "content_sha256": "597c3a79679a697a7ff1ee28ba7a2ce7fa931e67b5735ce91fb03fe3ff3f1b6b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/597c3a79679a697a7ff1ee28ba7a2ce7fa931e67b5735ce91fb03fe3ff3f1b6b.json.gz"
+}

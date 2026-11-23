@@ -1,0 +1,95 @@
+{
+  "project_id": "mxh_cv_700",
+  "schema_version": "2.0.0",
+  "code_version": "a2-collector-1.2.0",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "cvf-html-1.0.0",
+    "openalex-json-1.0.0"
+  ],
+  "rule_versions": {
+    "openalex-work-match": "1.1.0"
+  },
+  "dictionary_versions": {},
+  "applied_decision_ids": [],
+  "graph_ready": false,
+  "node_count": null,
+  "edge_count": null,
+  "files": [
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/paper_registry.csv",
+      "sha256": "4ee2d486f558184f9e18b53ea9345cd2793b473708d846a365262fd66761c18b",
+      "record_count": 350,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/papers.jsonl",
+      "sha256": "f2303dc970c93061d22fef5786cb35c6b68ac9028e2a3053ab04a59e28776259",
+      "record_count": 350,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/source_records.jsonl",
+      "sha256": "3ed08fa096aa768ba6f9134c636f82cc537b12a101fd9668c9e0192ced19ddf8",
+      "record_count": 1042,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/authorships.csv",
+      "sha256": "e59d67d170f98c8cfc79e4a7879e1369dc95fc4607d1d6e4af01614bf90b1f18",
+      "record_count": 2122,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/text_versions.jsonl",
+      "sha256": "466fdcc9c150d84a262fdb8a015210134e4b8f4e9def15f6c80ce59630d59c9e",
+      "record_count": 700,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/field_provenance.csv",
+      "sha256": "b242102dfca1fdb66242d5e8a44c6c401b461d18718ab68ede3253ab8900f078",
+      "record_count": 4373,
+      "role": "metadata"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/alias_map.csv",
+      "sha256": "f9c0e735817931014496c67ce65fccc90a4a6af5a084cdb68cc7e925e7ed8581",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/merge_log.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "record_count": 0,
+      "role": "identity"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/needs_review.csv",
+      "sha256": "104677bec677786cdb48c256d2ee51008f1d049a94bf82e98d7c22204ccd5c18",
+      "record_count": 13,
+      "role": "review"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/nodes.csv",
+      "sha256": "fe38c8f67043dd8c5a0e2f7ff4a2854007035bc7c794d3efb467963807533101",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/edges.csv",
+      "sha256": "75a229f0e7d9c2be053a1f935c685a8c9e19ecc7c66d514939a06a6f490c0bf0",
+      "record_count": 0,
+      "role": "graph"
+    },
+    {
+      "path": "data/processed/cvpr2025/snapshots/75372169dd624bb831454fd1ca42bc886ef9673bd216b0d4bf4f52c521cac36e/evidence.jsonl",
+      "sha256": "02cfc5204bace4b40aa0ee3484c552a3b4de4979d6c8b2bffd58d6b24cad6d35",
+      "record_count": 13,
+      "role": "graph"
+    }
+  ],
+  "snapshot_id": "snapshot:v2:8b601df5992753b9df651aa16c830465d6ef43e804c41ad562b9020d88ce14f9",
+  "source_snapshot_id": "selection:2895b64716327d734a6f62ebdc6b66ff150b027d589323964de70ccb7d1d710f",
+  "created_at": "2026-11-23T09:45:36Z"
+}

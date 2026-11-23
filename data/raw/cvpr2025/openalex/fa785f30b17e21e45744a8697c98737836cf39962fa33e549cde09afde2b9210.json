@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RelationField%3A+Relate+Anything+in+Radiance+Fields%22",
+  "fetched_at": "2026-11-23T09:36:33Z",
+  "http_status": 200,
+  "content_sha256": "90b3774d83f7dfbf914aba5564b42f373dfd9eb791019b820fb2a939e8419215",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/90b3774d83f7dfbf914aba5564b42f373dfd9eb791019b820fb2a939e8419215.json.gz"
+}

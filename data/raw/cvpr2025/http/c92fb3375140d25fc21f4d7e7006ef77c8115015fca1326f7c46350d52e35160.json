@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Diffusion_Model_is_Effectively_Its_Own_Teacher_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:27:30Z",
+  "http_status": 200,
+  "content_sha256": "5e01b228692d7fa4a0da56ed87c2e053c3fb17dd615482653d6f87c23b1ea8f8",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1972-63a77fd2a212d\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/5e01b228692d7fa4a0da56ed87c2e053c3fb17dd615482653d6f87c23b1ea8f8.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Words+or+Vision%3A+Do+Vision-Language+Models+Have+Blind+Faith+in+Text%3F%22",
+  "fetched_at": "2026-11-23T09:36:21Z",
+  "http_status": 200,
+  "content_sha256": "cdf08ab4ced4d92f69ba49f5f3bb9c92c25b1a8185224f3754254e5d0fefd48c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/cdf08ab4ced4d92f69ba49f5f3bb9c92c25b1a8185224f3754254e5d0fefd48c.json.gz"
+}

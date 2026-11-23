@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OpenHumanVid%3A+A+Large-Scale+High-Quality+Dataset+for+Enhancing+Human-Centric+Video+Generation%22",
+  "fetched_at": "2026-11-23T09:38:10Z",
+  "http_status": 200,
+  "content_sha256": "d5dd49a780c8648f448bfb89dceddd65e2ca9fcb3410ed5dc2fd4f95f47c6a61",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d5dd49a780c8648f448bfb89dceddd65e2ca9fcb3410ed5dc2fd4f95f47c6a61.json.gz"
+}

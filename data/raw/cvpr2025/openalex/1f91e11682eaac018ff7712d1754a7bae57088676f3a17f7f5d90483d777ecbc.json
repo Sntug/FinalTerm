@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22The+Devil+is+in+Low-Level+Features+for+Cross-Domain+Few-Shot+Segmentation%22",
+  "fetched_at": "2026-11-23T09:40:51Z",
+  "http_status": 200,
+  "content_sha256": "f4b24796861e7f893aa266c770fefcad467d8f43f08603928f8303a58b17b742",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f4b24796861e7f893aa266c770fefcad467d8f43f08603928f8303a58b17b742.json.gz"
+}

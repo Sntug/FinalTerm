@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SCAP%3A+Transductive+Test-Time+Adaptation+via+Supportive+Clique-based+Attribute+Prompting%22",
+  "fetched_at": "2026-11-23T09:40:23Z",
+  "http_status": 200,
+  "content_sha256": "d107e7e914a50a2e78dbbb6fff9586d7fedc05c7407bb999ba66037502f42d27",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/d107e7e914a50a2e78dbbb6fff9586d7fedc05c7407bb999ba66037502f42d27.json.gz"
+}

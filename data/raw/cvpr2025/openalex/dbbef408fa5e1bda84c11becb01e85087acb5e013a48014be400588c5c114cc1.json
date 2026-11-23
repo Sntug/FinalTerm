@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22The+Art+of+Deception%3A+Color+Visual+Illusions+and+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:43:00Z",
+  "http_status": 200,
+  "content_sha256": "00d8cfb24ec4448c84c4505ab3f88f8315883c1f68a545c3a3af3a987b86ead3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/00d8cfb24ec4448c84c4505ab3f88f8315883c1f68a545c3a3af3a987b86ead3.json.gz"
+}

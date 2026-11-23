@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22JiSAM%3A+Alleviate+Labeling+Burden+and+Corner+Case+Problems+in+Autonomous+Driving+via+Minimal+Real-World+Data%22",
+  "fetched_at": "2026-11-23T09:38:08Z",
+  "http_status": 200,
+  "content_sha256": "4864679765bd75551eac0f2f5cb97913f7297055a59e7614703088000dd3b127",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4864679765bd75551eac0f2f5cb97913f7297055a59e7614703088000dd3b127.json.gz"
+}

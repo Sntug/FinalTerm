@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SymDPO%3A+Boosting+In-Context+Learning+of+Large+Multimodal+Models+with+Symbol+Demonstration+Direct+Preference+Optimization%22",
+  "fetched_at": "2026-11-23T09:38:59Z",
+  "http_status": 200,
+  "content_sha256": "9bf50e94b6747076058f95410f32bfa50c7aec3bcaa27da3e7aef9f8d97c3592",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9bf50e94b6747076058f95410f32bfa50c7aec3bcaa27da3e7aef9f8d97c3592.json.gz"
+}

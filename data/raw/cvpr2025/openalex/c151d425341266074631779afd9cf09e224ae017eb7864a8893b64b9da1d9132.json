@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Chebyshev+Attention+Depth+Permutation+Texture+Network+with+Latent+Texture+Attribute+Loss%22",
+  "fetched_at": "2026-11-23T09:40:59Z",
+  "http_status": 200,
+  "content_sha256": "90c1e881f4a6ac356d786c0ce3ef6cc23a5d68de7a456389d4b5585fc7ccde23",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/90c1e881f4a6ac356d786c0ce3ef6cc23a5d68de7a456389d4b5585fc7ccde23.json.gz"
+}

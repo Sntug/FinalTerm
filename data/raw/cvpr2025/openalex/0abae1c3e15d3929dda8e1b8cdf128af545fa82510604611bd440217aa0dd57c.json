@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VidSeg%3A+Training-free+Video+Semantic+Segmentation+based+on+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:38:27Z",
+  "http_status": 200,
+  "content_sha256": "76d91fca53e1f1dcf4a5f6141e126c1a3c67181c92ce0cedd2ed5504eaae23d0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/76d91fca53e1f1dcf4a5f6141e126c1a3c67181c92ce0cedd2ed5504eaae23d0.json.gz"
+}

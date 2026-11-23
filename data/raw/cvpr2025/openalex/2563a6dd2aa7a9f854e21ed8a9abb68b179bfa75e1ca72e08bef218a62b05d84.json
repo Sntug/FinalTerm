@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Design2GarmentCode%3A+Turning+Design+Concepts+to+Tangible+Garments+Through+Program+Synthesis%22",
+  "fetched_at": "2026-11-23T09:33:48Z",
+  "http_status": 200,
+  "content_sha256": "b815407d977d942579b57fd394c2d5ef7aee8fcc015fa6f1d411e4e018293897",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b815407d977d942579b57fd394c2d5ef7aee8fcc015fa6f1d411e4e018293897.json.gz"
+}

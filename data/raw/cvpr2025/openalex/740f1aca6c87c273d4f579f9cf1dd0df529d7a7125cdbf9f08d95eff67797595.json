@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22KeyFace%3A+Expressive+Audio-Driven+Facial+Animation+for+Long+Sequences+via+KeyFrame+Interpolation%22",
+  "fetched_at": "2026-11-23T09:37:45Z",
+  "http_status": 200,
+  "content_sha256": "9c5700374f5a7f39396cfbe6ced5a04fbe8cb61ca18d6867dc157d803709ae26",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9c5700374f5a7f39396cfbe6ced5a04fbe8cb61ca18d6867dc157d803709ae26.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoST%3A+Efficient+Monarch+Sparse+Tuning+for+3D+Representation+Learning%22",
+  "fetched_at": "2026-11-23T09:35:36Z",
+  "http_status": 200,
+  "content_sha256": "e086b4900ac99c2441811b245d5e58026bd9a355b2168fcc95275658fe2d0d65",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e086b4900ac99c2441811b245d5e58026bd9a355b2168fcc95275658fe2d0d65.json.gz"
+}

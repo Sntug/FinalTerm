@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hash3D%3A+Training-free+Acceleration+for+3D+Generation%22",
+  "fetched_at": "2026-11-23T09:42:50Z",
+  "http_status": 200,
+  "content_sha256": "e1415cbe3df8dda88bb0fee3250c6a4e9c6c3ab56b946985748ef459e462ae0b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e1415cbe3df8dda88bb0fee3250c6a4e9c6c3ab56b946985748ef459e462ae0b.json.gz"
+}

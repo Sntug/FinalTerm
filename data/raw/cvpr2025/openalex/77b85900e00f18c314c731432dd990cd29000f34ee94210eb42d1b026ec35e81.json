@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ALIEN%3A+Implicit+Neural+Representations+for+Human+Motion+Prediction+under+Arbitrary+Latency%22",
+  "fetched_at": "2026-11-23T09:38:12Z",
+  "http_status": 200,
+  "content_sha256": "f7b1dae956b2771551a6d3fff8d524de976536257d2f7fd335a4a469c18dc8a9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f7b1dae956b2771551a6d3fff8d524de976536257d2f7fd335a4a469c18dc8a9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enhancing+Few-Shot+Class-Incremental+Learning+via+Training-Free+Bi-Level+Modality+Calibration%22",
+  "fetched_at": "2026-11-23T09:41:34Z",
+  "http_status": 200,
+  "content_sha256": "0447f9f279e29732dc0d54dab40f410c7c43424910d61d86fae1b6bd4d47e540",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0447f9f279e29732dc0d54dab40f410c7c43424910d61d86fae1b6bd4d47e540.json.gz"
+}

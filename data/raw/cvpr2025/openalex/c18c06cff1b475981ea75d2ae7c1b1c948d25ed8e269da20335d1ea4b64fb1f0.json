@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enhancing+Adversarial+Transferability+with+Checkpoints+of+a+Single+Model%27s+Training%22",
+  "fetched_at": "2026-11-23T09:40:55Z",
+  "http_status": 200,
+  "content_sha256": "30f9b798898e013bd127bb685172ec6c177938e7cb7c61b7777e32e0c62eea19",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/30f9b798898e013bd127bb685172ec6c177938e7cb7c61b7777e32e0c62eea19.json.gz"
+}

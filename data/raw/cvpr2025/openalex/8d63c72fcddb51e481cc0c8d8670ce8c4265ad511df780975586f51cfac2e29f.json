@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Soft+Self-labeling+and+Potts+Relaxations+for+Weakly-supervised+Segmentation%22",
+  "fetched_at": "2026-11-23T09:33:17Z",
+  "http_status": 200,
+  "content_sha256": "84bec62dd19aa2dc4078075679e41cba85896818fba9e7791dad5f86cfbe2b8b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/84bec62dd19aa2dc4078075679e41cba85896818fba9e7791dad5f86cfbe2b8b.json.gz"
+}

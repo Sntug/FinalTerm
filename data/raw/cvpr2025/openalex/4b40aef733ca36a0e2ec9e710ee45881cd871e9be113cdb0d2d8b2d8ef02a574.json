@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Continuous+3D+Perception+Model+with+Persistent+State%22",
+  "fetched_at": "2026-11-23T09:33:38Z",
+  "http_status": 200,
+  "content_sha256": "64de389eb1c7c032e144ff10c98f84b1309e95ee3d29d5e58a3bf2c95383bf69",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/64de389eb1c7c032e144ff10c98f84b1309e95ee3d29d5e58a3bf2c95383bf69.json.gz"
+}

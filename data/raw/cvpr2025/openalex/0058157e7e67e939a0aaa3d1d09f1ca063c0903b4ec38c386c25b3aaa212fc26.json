@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VERA%3A+Explainable+Video+Anomaly+Detection+via+Verbalized+Learning+of+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T09:36:06Z",
+  "http_status": 200,
+  "content_sha256": "e747c4d17f70ebf01931f492a4c1a954d56d8e430c61a62e9721d4a6af79ba7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e747c4d17f70ebf01931f492a4c1a954d56d8e430c61a62e9721d4a6af79ba7f.json.gz"
+}

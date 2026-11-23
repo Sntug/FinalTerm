@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:31:00Z",
+  "http_status": 200,
+  "content_sha256": "ab91403d649f655d3d1fa820ff010e19dfe84a210d04941f035c7e714f7587b9",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"193a-63a77fd262986\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:02 GMT",
+  "raw_path": "data/raw/cvpr2025/http/ab91403d649f655d3d1fa820ff010e19dfe84a210d04941f035c7e714f7587b9.html.gz"
+}

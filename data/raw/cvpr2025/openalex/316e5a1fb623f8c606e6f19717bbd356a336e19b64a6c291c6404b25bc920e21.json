@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reconstructing+Animals+and+the+Wild%22",
+  "fetched_at": "2026-11-23T09:40:04Z",
+  "http_status": 200,
+  "content_sha256": "b414ef902b7c96a571fa8c8705bc8a21dfe7669d1ce28caf70f54657e8ceef3e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b414ef902b7c96a571fa8c8705bc8a21dfe7669d1ce28caf70f54657e8ceef3e.json.gz"
+}

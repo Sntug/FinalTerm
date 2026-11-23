@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=AdaDARE-gamma%3A+Balancing+Stability+and+Plasticity+in+Multi-modal+LLMs+through+Efficient+Adaptation",
+  "fetched_at": "2026-11-23T09:42:06Z",
+  "http_status": 200,
+  "content_sha256": "9d511c42e7678eca0c58f161a235da59d62f1477d9330eb8bb791dae8c17a77f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9d511c42e7678eca0c58f161a235da59d62f1477d9330eb8bb791dae8c17a77f.json.gz"
+}

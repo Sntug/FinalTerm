@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SnapGen%3A+Taming+High-Resolution+Text-to-Image+Models+for+Mobile+Devices+with+Efficient+Architectures+and+Training%22",
+  "fetched_at": "2026-11-23T09:43:54Z",
+  "http_status": 200,
+  "content_sha256": "2f80d73238f145453909ac7090965c1b4fd9db137d5914e75fb1b62d0957ddcf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2f80d73238f145453909ac7090965c1b4fd9db137d5914e75fb1b62d0957ddcf.json.gz"
+}

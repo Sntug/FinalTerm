@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hypergraph+Vision+Transformers%3A+Images+are+More+than+Nodes%2C+More+than+Edges%22",
+  "fetched_at": "2026-11-23T09:39:16Z",
+  "http_status": 200,
+  "content_sha256": "bcb8a26035232b2d0fafb7065f41d90da4f17d41b8e3a354534c3755c8b2dddf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bcb8a26035232b2d0fafb7065f41d90da4f17d41b8e3a354534c3755c8b2dddf.json.gz"
+}

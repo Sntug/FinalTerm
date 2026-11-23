@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FedBiP%3A+Heterogeneous+One-Shot+Federated+Learning+with+Personalized+Latent+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:34:19Z",
+  "http_status": 200,
+  "content_sha256": "f2f6a1917e70e74f3d37f7be299f338eefdc921a00af889f7dbff0fbc1ef16a3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f2f6a1917e70e74f3d37f7be299f338eefdc921a00af889f7dbff0fbc1ef16a3.json.gz"
+}

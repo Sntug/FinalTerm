@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Investigating_the_Role_of_Weight_Decay_in_Enhancing_Nonconvex_SGD_CVPR_2025_paper.html",
+  "fetched_at": "2026-11-23T09:28:16Z",
+  "http_status": 200,
+  "content_sha256": "6b53b739cd60a9d5ea9c50ddcc350d5493e8a1a865192044c80b549b200de041",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1750-63a77fd2ce052\"",
+  "last_modified": "Mon, 21 Jul 2025 22:28:03 GMT",
+  "raw_path": "data/raw/cvpr2025/http/6b53b739cd60a9d5ea9c50ddcc350d5493e8a1a865192044c80b549b200de041.html.gz"
+}

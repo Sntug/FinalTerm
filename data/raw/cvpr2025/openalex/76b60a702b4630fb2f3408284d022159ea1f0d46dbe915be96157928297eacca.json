@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Improved+Monocular+Depth+Prediction+Using+Distance+Transform+Over+Pre-semantic+Contours+with+Self-supervised+Neural+Networks%22",
+  "fetched_at": "2026-11-23T09:40:25Z",
+  "http_status": 200,
+  "content_sha256": "7abcaa05f4902cc852230cb54d0f37864efec1d91df0d86871eb6b4e17003716",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/7abcaa05f4902cc852230cb54d0f37864efec1d91df0d86871eb6b4e17003716.json.gz"
+}

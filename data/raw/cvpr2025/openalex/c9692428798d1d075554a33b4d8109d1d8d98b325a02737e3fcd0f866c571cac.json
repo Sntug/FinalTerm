@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Stacking+Brick+by+Brick%3A+Aligned+Feature+Isolation+for+Incremental+Face+Forgery+Detection%22",
+  "fetched_at": "2026-11-23T09:37:42Z",
+  "http_status": 200,
+  "content_sha256": "fc380b1762d8477099969fc15eb1df6257ca08c3365f4c420a53ba08c964cc9c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/fc380b1762d8477099969fc15eb1df6257ca08c3365f4c420a53ba08c964cc9c.json.gz"
+}

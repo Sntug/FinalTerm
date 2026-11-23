@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Charm%3A+The+Missing+Piece+in+ViT+Fine-Tuning+for+Image+Aesthetic+Assessment%22",
+  "fetched_at": "2026-11-23T09:39:58Z",
+  "http_status": 200,
+  "content_sha256": "b565e7e6865328c2a8308a16ed079a41c64c4f73dc627d4c491f5add293af480",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b565e7e6865328c2a8308a16ed079a41c64c4f73dc627d4c491f5add293af480.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProxyTransformation%3A+Preshaping+Point+Cloud+Manifold+With+Proxy+Attention+For+3D+Visual+Grounding%22",
+  "fetched_at": "2026-11-23T09:42:15Z",
+  "http_status": 200,
+  "content_sha256": "129ebca9e1fd77012864934d6fb45ad44ad922c306ed148d22654e7c30ca016e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/129ebca9e1fd77012864934d6fb45ad44ad922c306ed148d22654e7c30ca016e.json.gz"
+}

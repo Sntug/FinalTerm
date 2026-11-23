@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Where+the+Devil+Hides%3A+Deepfake+Detectors+Can+No+Longer+Be+Trusted%22",
+  "fetched_at": "2026-11-23T09:41:59Z",
+  "http_status": 200,
+  "content_sha256": "6a3f67d549fa373ea8bcaf388b1973e9b7ada651c1233b881a981103e68c3f06",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/6a3f67d549fa373ea8bcaf388b1973e9b7ada651c1233b881a981103e68c3f06.json.gz"
+}

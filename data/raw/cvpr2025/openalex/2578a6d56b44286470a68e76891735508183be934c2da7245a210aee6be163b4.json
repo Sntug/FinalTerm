@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PTDiffusion%3A+Free+Lunch+for+Generating+Optical+Illusion+Hidden+Pictures+with+Phase-Transferred+Diffusion+Model%22",
+  "fetched_at": "2026-11-23T09:33:44Z",
+  "http_status": 200,
+  "content_sha256": "8fb1564b9ab1d49f4b7789114ec348c1a231d3a636e4d88b1c97ab80de025040",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8fb1564b9ab1d49f4b7789114ec348c1a231d3a636e4d88b1c97ab80de025040.json.gz"
+}

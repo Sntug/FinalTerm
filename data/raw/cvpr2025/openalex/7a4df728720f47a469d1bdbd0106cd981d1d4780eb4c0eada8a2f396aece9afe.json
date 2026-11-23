@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Which+Viewpoint+Shows+it+Best%3F+Language+for+Weakly+Supervising+View+Selection+in+Multi-view+Instructional+Videos%22",
+  "fetched_at": "2026-11-23T09:33:42Z",
+  "http_status": 200,
+  "content_sha256": "8e7c3885e721a4e568019fc44f9dda2054c2cdcd9e50af58d152fb91a10e5979",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8e7c3885e721a4e568019fc44f9dda2054c2cdcd9e50af58d152fb91a10e5979.json.gz"
+}

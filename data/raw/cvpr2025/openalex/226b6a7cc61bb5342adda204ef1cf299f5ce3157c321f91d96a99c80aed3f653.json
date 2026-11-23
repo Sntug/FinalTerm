@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Decoder+Gradient+Shield%3A+Provable+and+High-Fidelity+Prevention+of+Gradient-Based+Box-Free+Watermark+Removal%22",
+  "fetched_at": "2026-11-23T09:40:37Z",
+  "http_status": 200,
+  "content_sha256": "b91785bafb128de74aee2565788475daac73dd5cd155211aa79874074a2610d1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/b91785bafb128de74aee2565788475daac73dd5cd155211aa79874074a2610d1.json.gz"
+}

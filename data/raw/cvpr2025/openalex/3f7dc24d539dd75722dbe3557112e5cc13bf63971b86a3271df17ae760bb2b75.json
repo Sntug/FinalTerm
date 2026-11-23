@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Conformal+Prediction+and+MLLM+aided+Uncertainty+Quantification+in+Scene+Graph+Generation%22",
+  "fetched_at": "2026-11-23T09:35:52Z",
+  "http_status": 200,
+  "content_sha256": "bf766148f1a6a6bb50615e27f9bfcdf665d711f09a3c427511b72ee3ff68889a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/bf766148f1a6a6bb50615e27f9bfcdf665d711f09a3c427511b72ee3ff68889a.json.gz"
+}

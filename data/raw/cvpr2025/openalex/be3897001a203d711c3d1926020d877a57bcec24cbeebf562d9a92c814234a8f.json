@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EasyHOI%3A+Unleashing+the+Power+of+Large+Models+for+Reconstructing+Hand-Object+Interactions+in+the+Wild%22",
+  "fetched_at": "2026-11-23T09:43:44Z",
+  "http_status": 200,
+  "content_sha256": "a13f5c8241a21196943428f99ab94055afcd324ab9022df1abe557202c796a83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a13f5c8241a21196943428f99ab94055afcd324ab9022df1abe557202c796a83.json.gz"
+}

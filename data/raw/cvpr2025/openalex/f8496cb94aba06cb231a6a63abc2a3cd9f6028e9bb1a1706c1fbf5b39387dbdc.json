@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VL2Lite%3A+Task-Specific+Knowledge+Distillation+from+Large+Vision-Language+Models+to+Lightweight+Networks%22",
+  "fetched_at": "2026-11-23T09:41:05Z",
+  "http_status": 200,
+  "content_sha256": "8a591913068bcc1afcdcd5a6c12ca6c2acc9590ad3337614e2691a2004f19f32",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/8a591913068bcc1afcdcd5a6c12ca6c2acc9590ad3337614e2691a2004f19f32.json.gz"
+}

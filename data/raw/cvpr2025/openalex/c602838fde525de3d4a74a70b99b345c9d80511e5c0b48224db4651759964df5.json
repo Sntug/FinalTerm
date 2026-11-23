@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UNIC-Adapter%3A+Unified+Image-instruction+Adapter+with+Multi-modal+Transformer+for+Image+Generation%22",
+  "fetched_at": "2026-11-23T09:41:16Z",
+  "http_status": 200,
+  "content_sha256": "4a0d4c9825a6fb0a389b0673614c90c68368c104a6a032714b0d0b022fd8dd6b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4a0d4c9825a6fb0a389b0673614c90c68368c104a6a032714b0d0b022fd8dd6b.json.gz"
+}

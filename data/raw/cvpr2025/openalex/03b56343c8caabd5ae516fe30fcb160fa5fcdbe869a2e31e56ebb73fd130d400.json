@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223DGUT%3A+Enabling+Distorted+Cameras+and+Secondary+Rays+in+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:37:21Z",
+  "http_status": 200,
+  "content_sha256": "9c760c471d9424a93e74b222ac534b77b54cf0735dd4a444abb0bd592b1b9e1e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9c760c471d9424a93e74b222ac534b77b54cf0735dd4a444abb0bd592b1b9e1e.json.gz"
+}

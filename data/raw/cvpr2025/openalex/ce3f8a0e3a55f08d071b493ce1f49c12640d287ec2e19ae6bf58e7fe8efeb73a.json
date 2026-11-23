@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BooW-VTON%3A+Boosting+In-the-Wild+Virtual+Try-On+via+Mask-Free+Pseudo+Data+Training%22",
+  "fetched_at": "2026-11-23T09:37:11Z",
+  "http_status": 200,
+  "content_sha256": "92106d853fe99ca9f434a50ccbeb80016062162626a9e570d30daf06288f91b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/92106d853fe99ca9f434a50ccbeb80016062162626a9e570d30daf06288f91b4.json.gz"
+}

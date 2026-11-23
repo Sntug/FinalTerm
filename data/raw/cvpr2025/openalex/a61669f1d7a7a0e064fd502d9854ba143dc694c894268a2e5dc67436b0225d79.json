@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22High-Fidelity+Relightable+Monocular+Portrait+Animation+with+Lighting-Controllable+Video+Diffusion+Model%22",
+  "fetched_at": "2026-11-23T09:33:00Z",
+  "http_status": 200,
+  "content_sha256": "e88a729877a4fa2e3007ac4fc2917ffa977bea032f57be667af6fab94e61fecf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e88a729877a4fa2e3007ac4fc2917ffa977bea032f57be667af6fab94e61fecf.json.gz"
+}

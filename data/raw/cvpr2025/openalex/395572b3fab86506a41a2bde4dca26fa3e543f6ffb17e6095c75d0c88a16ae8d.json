@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CAD-Llama%3A+Leveraging+Large+Language+Models+for+Computer-Aided+Design+Parametric+3D+Model+Generation%22",
+  "fetched_at": "2026-11-23T09:36:17Z",
+  "http_status": 200,
+  "content_sha256": "9050193196a5b26ada2bd540e88c2ef31b7f6bf0425ac235eb37f6cd972e76e3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9050193196a5b26ada2bd540e88c2ef31b7f6bf0425ac235eb37f6cd972e76e3.json.gz"
+}

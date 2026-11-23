@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CacheQuant%3A+Comprehensively+Accelerated+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:38:00Z",
+  "http_status": 200,
+  "content_sha256": "0156ccd9bdff473395a2b42d7af3b189403052a9577298f85b5a5f96acebe125",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/0156ccd9bdff473395a2b42d7af3b189403052a9577298f85b5a5f96acebe125.json.gz"
+}

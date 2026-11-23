@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Sparse+Point+Cloud+Patches+Rendering+via+Splitting+2D+Gaussians%22",
+  "fetched_at": "2026-11-23T09:39:08Z",
+  "http_status": 200,
+  "content_sha256": "e92784a8311b44eb6145829f59c580578c65d6332ee1ec9d0665e6f2f3e7762d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/e92784a8311b44eb6145829f59c580578c65d6332ee1ec9d0665e6f2f3e7762d.json.gz"
+}

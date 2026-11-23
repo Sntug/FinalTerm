@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AC3D%3A+Analyzing+and+Improving+3D+Camera+Control+in+Video+Diffusion+Transformers%22",
+  "fetched_at": "2026-11-23T09:38:47Z",
+  "http_status": 200,
+  "content_sha256": "244d109acf7e624ee988e68e84e50bf00cf4a381be7273e790f61c24ee13f834",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/244d109acf7e624ee988e68e84e50bf00cf4a381be7273e790f61c24ee13f834.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DRAWER%3A+Digital+Reconstruction+and+Articulation+With+Environment+Realism%22",
+  "fetched_at": "2026-11-23T09:39:06Z",
+  "http_status": 200,
+  "content_sha256": "10dc8c625b548ce726fe264490829853ce34e79bcb2c5f8311024ec3b8fe9f48",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/10dc8c625b548ce726fe264490829853ce34e79bcb2c5f8311024ec3b8fe9f48.json.gz"
+}

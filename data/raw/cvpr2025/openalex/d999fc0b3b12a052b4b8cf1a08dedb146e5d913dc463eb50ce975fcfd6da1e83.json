@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LiSu%3A+A+Dataset+and+Method+for+LiDAR+Surface+Normal+Estimation%22",
+  "fetched_at": "2026-11-23T09:38:24Z",
+  "http_status": 200,
+  "content_sha256": "74c48e2463aadd55254123e7fe3700f8065ac90daae18ab0b309f0721e21861d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/74c48e2463aadd55254123e7fe3700f8065ac90daae18ab0b309f0721e21861d.json.gz"
+}

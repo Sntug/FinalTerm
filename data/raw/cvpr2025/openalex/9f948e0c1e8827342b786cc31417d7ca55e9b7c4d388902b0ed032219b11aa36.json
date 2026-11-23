@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PUP+3D-GS%3A+Principled+Uncertainty+Pruning+for+3D+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T09:40:08Z",
+  "http_status": 200,
+  "content_sha256": "2cb0fc9ea0545f0bb752f29ea8e8f7ce9e95f5c074112b448178b8da624341e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/2cb0fc9ea0545f0bb752f29ea8e8f7ce9e95f5c074112b448178b8da624341e7.json.gz"
+}

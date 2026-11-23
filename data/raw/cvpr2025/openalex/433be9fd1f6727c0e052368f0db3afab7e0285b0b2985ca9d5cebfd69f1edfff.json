@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generative+Omnimatte%3A+Learning+to+Decompose+Video+into+Layers%22",
+  "fetched_at": "2026-11-23T09:41:31Z",
+  "http_status": 200,
+  "content_sha256": "9d272a62caa4517e54bd1f94adb2349641db6ee06942c7ebcd9c9c92e1f54cde",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9d272a62caa4517e54bd1f94adb2349641db6ee06942c7ebcd9c9c92e1f54cde.json.gz"
+}

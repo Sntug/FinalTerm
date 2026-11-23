@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22High+Temporal+Consistency+through+Semantic+Similarity+Propagation+in+Semi-Supervised+Video+Semantic+Segmentation+for+Autonomous+Flight%22",
+  "fetched_at": "2026-11-23T09:33:09Z",
+  "http_status": 200,
+  "content_sha256": "aadbcb4804ec719934bb319c16dbd2598342284beaa3b1230f8a70183f952c7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/aadbcb4804ec719934bb319c16dbd2598342284beaa3b1230f8a70183f952c7f.json.gz"
+}

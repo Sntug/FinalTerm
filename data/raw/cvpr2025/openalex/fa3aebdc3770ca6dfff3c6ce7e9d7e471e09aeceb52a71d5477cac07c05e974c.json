@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Arbitrary-steps+Image+Super-resolution+via+Diffusion+Inversion%22",
+  "fetched_at": "2026-11-23T09:40:02Z",
+  "http_status": 200,
+  "content_sha256": "715e117d3dee5e0095ca44812971bbe09f5f3c194981671041022cddb96c0887",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/715e117d3dee5e0095ca44812971bbe09f5f3c194981671041022cddb96c0887.json.gz"
+}

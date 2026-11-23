@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AnyMoLe%3A+Any+Character+Motion+In-betweening+Leveraging+Video+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T09:41:35Z",
+  "http_status": 200,
+  "content_sha256": "405b4ec279db9492140b02af2b96e048682c3043a42e60c5dc4252babcad564a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/405b4ec279db9492140b02af2b96e048682c3043a42e60c5dc4252babcad564a.json.gz"
+}

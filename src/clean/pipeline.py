@@ -29,7 +29,7 @@ def load_config(root, path):
     required = {'input_manifest', 'processed_dir', 'owner', 'conference', 'conference_year', 'target_count'}
     if set(config) != required:
         raise ValueError('A3 config keys must be exactly: ' + ', '.join(sorted(required)))
-    if (config['conference'], config['conference_year']) not in {('CVPR', 2024), ('ICCV', 2023)}:
+    if (config['conference'], config['conference_year']) not in {('CVPR', 2024), ('CVPR', 2025), ('ICCV', 2023)}:
         raise ValueError('Unsupported conference edition')
     if type(config['target_count']) is not int or config['target_count'] < 1 or not config['owner']:
         raise ValueError('Expected positive target_count and owner')

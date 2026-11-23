@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dyn-HaMR%3A+Recovering+4D+Interacting+Hand+Motion+from+a+Dynamic+Camera%22",
+  "fetched_at": "2026-11-23T09:33:07Z",
+  "http_status": 200,
+  "content_sha256": "a880e33892ff1ca05c1d3ffd75a0b74713ad12af3b9c44fb54e556846c0b8f27",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/a880e33892ff1ca05c1d3ffd75a0b74713ad12af3b9c44fb54e556846c0b8f27.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MODfinity%3A+Unsupervised+Domain+Adaptation+with+Multimodal+Information+Flow+Intertwining%22",
+  "fetched_at": "2026-11-23T09:38:57Z",
+  "http_status": 200,
+  "content_sha256": "12310475524c8d518e07a1ad286336c41afcb123951ea6bd276ad0f7326befb1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/12310475524c8d518e07a1ad286336c41afcb123951ea6bd276ad0f7326befb1.json.gz"
+}

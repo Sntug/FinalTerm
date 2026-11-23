@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Doppelgangers%2B%2B%3A+Improved+Visual+Disambiguation+with+Geometric+3D+Features%22",
+  "fetched_at": "2026-11-23T09:33:05Z",
+  "http_status": 200,
+  "content_sha256": "4037b6d7a6b9b87b51ffca27f3b606e77e3823fad1b4f3759eb611af9bca1dd9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/4037b6d7a6b9b87b51ffca27f3b606e77e3823fad1b4f3759eb611af9bca1dd9.json.gz"
+}

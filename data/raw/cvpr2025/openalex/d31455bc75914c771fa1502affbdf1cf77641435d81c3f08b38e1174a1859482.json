@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reason-before-Retrieve%3A+One-Stage+Reflective+Chain-of-Thoughts+for+Training-Free+Zero-Shot+Composed+Image+Retrieval%22",
+  "fetched_at": "2026-11-23T09:39:03Z",
+  "http_status": 200,
+  "content_sha256": "600644d4c533f5e3fde9ad721b5cf84fb7c28bd9d47d867f3f03eb68cc63e1e6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/600644d4c533f5e3fde9ad721b5cf84fb7c28bd9d47d867f3f03eb68cc63e1e6.json.gz"
+}

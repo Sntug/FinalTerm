@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SplatAD%3A+Real-Time+Lidar+and+Camera+Rendering+with+3D+Gaussian+Splatting+for+Autonomous+Driving%22",
+  "fetched_at": "2026-11-23T09:43:11Z",
+  "http_status": 200,
+  "content_sha256": "9f4d95499ed32d866de303fbd8d0e4c967a6098888dd74b7c5b60270549ebbcf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/9f4d95499ed32d866de303fbd8d0e4c967a6098888dd74b7c5b60270549ebbcf.json.gz"
+}

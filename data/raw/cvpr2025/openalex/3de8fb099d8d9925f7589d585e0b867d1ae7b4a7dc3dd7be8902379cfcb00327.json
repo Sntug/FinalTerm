@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Mono3DVLT%3A+Monocular-Video-Based+3D+Visual+Language+Tracking%22",
+  "fetched_at": "2026-11-23T09:43:26Z",
+  "http_status": 200,
+  "content_sha256": "f885cbe34e99535e8d00f302f94468f90ddb0c896174ed03a112c742d9faf74d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/f885cbe34e99535e8d00f302f94468f90ddb0c896174ed03a112c742d9faf74d.json.gz"
+}

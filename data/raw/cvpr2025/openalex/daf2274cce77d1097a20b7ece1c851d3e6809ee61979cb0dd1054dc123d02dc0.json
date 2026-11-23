@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=UniPre3D%3A+Unified+Pre-training+of+3D+Point+Cloud+Models+with+Cross-Modal+Gaussian+Splatting",
+  "fetched_at": "2026-11-23T09:39:24Z",
+  "http_status": 200,
+  "content_sha256": "ff2b11d09ec903973aff471b622da74615dc89fb9283cb5b8b70d25b07245fef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/ff2b11d09ec903973aff471b622da74615dc89fb9283cb5b8b70d25b07245fef.json.gz"
+}

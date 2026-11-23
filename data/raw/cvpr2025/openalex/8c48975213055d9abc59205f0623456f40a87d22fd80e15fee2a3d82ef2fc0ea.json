@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unveiling+the+Mist+over+3D+Vision-Language+Understanding%3A+Object-centric+Evaluation+with+Chain-of-Analysis%22",
+  "fetched_at": "2026-11-23T09:45:35Z",
+  "http_status": 200,
+  "content_sha256": "52e7841b25c960ece331c979f21e25e031b54bab25f82ef6b7379db79748f493",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2025/openalex/52e7841b25c960ece331c979f21e25e031b54bab25f82ef6b7379db79748f493.json.gz"
+}
