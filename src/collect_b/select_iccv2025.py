@@ -17,6 +17,7 @@ LISTING_URL = "https://openaccess.thecvf.com/ICCV2025?day=all"
 RAW_DIR = "data/raw/iccv2025"
 LOCK = "config/b_iccv2025_350_selection.json"
 REGISTRY = "data/processed/iccv2025/input_registry.csv"
+CANDIDATES = "data/processed/iccv2025/candidates_ranked.csv"
 FIELDS = ["paper_id", "cvf_url", "owner", "conference", "conference_year", "doi", "source_record_id"]
 DETAIL = re.compile(r"/content/ICCV2025/html/[^/]+_paper\.html")
 
@@ -56,15 +57,27 @@ def listing(root, offline):
     return body, meta, cache.network_requests
 
 
+def candidates_csv(ranked):
+    stream = io.StringIO(newline="")
+    w = csv.writer(stream, lineterminator="\n")
+    w.writerow(["ranking_position", "paper_id", "cvf_url", "rank_key"])
+    for i, u in enumerate(ranked, 1):
+        w.writerow([i, paper_id(u), u, sha256(f"{SEED}\n{u}".encode())])
+    return stream.getvalue().encode("utf-8")
+
+
 def prepare(root=ROOT, offline=False):
     root = Path(root).resolve()
     lock_path = root / LOCK
-    if lock_path.exists():
-        return json.loads(lock_path.read_text("utf-8"))
     body, meta, _ = listing(root, offline)
-    rec = source_record(meta, None, "listing")
     total_links, urls, excluded = classify(body)
     ranked = rank_urls(sorted(urls), SEED)
+    if lock_path.exists():
+        lock = json.loads(lock_path.read_text("utf-8"))
+        assert sha256(canonical_json(ranked).encode()) == lock["candidate_ranking_sha256"]
+        publish({root / CANDIDATES: candidates_csv(ranked)})
+        return lock
+    rec = source_record(meta, None, "listing")
     assert len(ranked) >= TARGET
     papers = [{"paper_id": paper_id(u), "cvf_url": u, "selection_rank": i, "ranking_position": i, "source_record_id": ""}
               for i, u in enumerate(ranked[:TARGET], 1)]
@@ -83,7 +96,7 @@ def prepare(root=ROOT, offline=False):
             "source_snapshot_id": "selection:" + sha256(canonical_json(papers).encode()),
             "listing_total_links": total_links, "listing_main_links": len(urls) + len(excluded),
             "excluded_candidates": excluded, "papers": papers}
-    publish({root / REGISTRY: registry, lock_path: json_bytes(lock)})
+    publish({root / REGISTRY: registry, root / CANDIDATES: candidates_csv(ranked), lock_path: json_bytes(lock)})
     return lock
 
 
