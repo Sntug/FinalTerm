@@ -1,0 +1,2470 @@
+{
+  "owner": "A",
+  "conference": "CVPR",
+  "conference_year": 2025,
+  "seed": 20261103,
+  "target_count": 350,
+  "selection_algorithm": "deduplicate canonical main-track URLs; sort by sha256(utf8(seed + newline + canonical_url)), then URL; take first target_count; no replacements",
+  "candidate_count": 2871,
+  "candidate_ranking_sha256": "755285660e2421a247c564728b716fca883621716056a7587ef618a25769c853",
+  "listing_source_record_id": "source:cvf:4b08a12fc2cbe51ab068d5b8171840f05dae9e9bafd7f1ee58ff3cdeed2cd877",
+  "listing_url": "https://openaccess.thecvf.com/CVPR2025?day=all",
+  "listing_content_sha256": "2f08dc191b870530993ba6a5a79e8c8ae812f158b6a30b21a96f3b190af96bfa",
+  "listing_raw_path": "data/raw/cvpr2025/http/2f08dc191b870530993ba6a5a79e8c8ae812f158b6a30b21a96f3b190af96bfa.html.gz",
+  "listing_fetched_at": "2026-11-23T09:07:04Z",
+  "registry_input": "data/processed/cvpr2025/input_registry.csv",
+  "registry_sha256": "9ac668eccef6087e255ecb616d09ae9b5f4d7a789ea9f5f24d6ac0bbaba5dd44",
+  "source_snapshot_id": "selection:2895b64716327d734a6f62ebdc6b66ff150b027d589323964de70ccb7d1d710f",
+  "papers": [
+    {
+      "ranking_position": 1,
+      "paper_id": "cvf:CVPR2025:Lionar_TreeMeshGPT_Artistic_Mesh_Generation_with_Autoregressive_Tree_Sequencing_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lionar_TreeMeshGPT_Artistic_Mesh_Generation_with_Autoregressive_Tree_Sequencing_CVPR_2025_paper.html",
+      "selection_rank": 1,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 2,
+      "paper_id": "cvf:CVPR2025:Izquierdo_MVSAnywhere_Zero-Shot_Multi-View_Stereo_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Izquierdo_MVSAnywhere_Zero-Shot_Multi-View_Stereo_CVPR_2025_paper.html",
+      "selection_rank": 2,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 3,
+      "paper_id": "cvf:CVPR2025:Ryu_Towards_Scalable_Human-aligned_Benchmark_for_Text-guided_Image_Editing_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ryu_Towards_Scalable_Human-aligned_Benchmark_for_Text-guided_Image_Editing_CVPR_2025_paper.html",
+      "selection_rank": 3,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 4,
+      "paper_id": "cvf:CVPR2025:Guo_High-Fidelity_Relightable_Monocular_Portrait_Animation_with_Lighting-Controllable_Video_Diffusion_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_High-Fidelity_Relightable_Monocular_Portrait_Animation_with_Lighting-Controllable_Video_Diffusion_Model_CVPR_2025_paper.html",
+      "selection_rank": 4,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 5,
+      "paper_id": "cvf:CVPR2025:Li_SEEN-DA_SEmantic_ENtropy_guided_Domain-aware_Attention_for_Domain_Adaptive_Object_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_SEEN-DA_SEmantic_ENtropy_guided_Domain-aware_Attention_for_Domain_Adaptive_Object_CVPR_2025_paper.html",
+      "selection_rank": 5,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 6,
+      "paper_id": "cvf:CVPR2025:Xiangli_Doppelgangers_Improved_Visual_Disambiguation_with_Geometric_3D_Features_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiangli_Doppelgangers_Improved_Visual_Disambiguation_with_Geometric_3D_Features_CVPR_2025_paper.html",
+      "selection_rank": 6,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 7,
+      "paper_id": "cvf:CVPR2025:Yu_Dyn-HaMR_Recovering_4D_Interacting_Hand_Motion_from_a_Dynamic_Camera_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Dyn-HaMR_Recovering_4D_Interacting_Hand_Motion_from_a_Dynamic_Camera_CVPR_2025_paper.html",
+      "selection_rank": 7,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 8,
+      "paper_id": "cvf:CVPR2025:Vincent_High_Temporal_Consistency_through_Semantic_Similarity_Propagation_in_Semi-Supervised_Video_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Vincent_High_Temporal_Consistency_through_Semantic_Similarity_Propagation_in_Semi-Supervised_Video_CVPR_2025_paper.html",
+      "selection_rank": 8,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 9,
+      "paper_id": "cvf:CVPR2025:Yeganeh_Latent_Drifting_in_Diffusion_Models_for_Counterfactual_Medical_Image_Synthesis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yeganeh_Latent_Drifting_in_Diffusion_Models_for_Counterfactual_Medical_Image_Synthesis_CVPR_2025_paper.html",
+      "selection_rank": 9,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 10,
+      "paper_id": "cvf:CVPR2025:Liu_ProjAttacker_A_Configurable_Physical_Adversarial_Attack_for_Face_Recognition_via_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_ProjAttacker_A_Configurable_Physical_Adversarial_Attack_for_Face_Recognition_via_CVPR_2025_paper.html",
+      "selection_rank": 10,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 11,
+      "paper_id": "cvf:CVPR2025:Bai_SDBF_Steep-Decision-Boundary_Fingerprinting_for_Hard-Label_Tampering_Detection_of_DNN_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bai_SDBF_Steep-Decision-Boundary_Fingerprinting_for_Hard-Label_Tampering_Detection_of_DNN_Models_CVPR_2025_paper.html",
+      "selection_rank": 11,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 12,
+      "paper_id": "cvf:CVPR2025:Zhang_Soft_Self-labeling_and_Potts_Relaxations_for_Weakly-supervised_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Soft_Self-labeling_and_Potts_Relaxations_for_Weakly-supervised_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 12,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 13,
+      "paper_id": "cvf:CVPR2025:Wazir_Rethinking_Decoder_Design_Improving_Biomarker_Segmentation_Using_Depth-to-Space_Restoration_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wazir_Rethinking_Decoder_Design_Improving_Biomarker_Segmentation_Using_Depth-to-Space_Restoration_and_CVPR_2025_paper.html",
+      "selection_rank": 13,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 14,
+      "paper_id": "cvf:CVPR2025:Pan_Data-Free_Group-Wise_Fully_Quantized_Winograd_Convolution_via_Learnable_Scales_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pan_Data-Free_Group-Wise_Fully_Quantized_Winograd_Convolution_via_Learnable_Scales_CVPR_2025_paper.html",
+      "selection_rank": 14,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 15,
+      "paper_id": "cvf:CVPR2025:Soni_EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Soni_EarthDial_Turning_Multi-sensory_Earth_Observations_to_Interactive_Dialogues_CVPR_2025_paper.html",
+      "selection_rank": 15,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 16,
+      "paper_id": "cvf:CVPR2025:Liu_Unraveling_Normal_Anatomy_via_Fluid-Driven_Anomaly_Randomization_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Unraveling_Normal_Anatomy_via_Fluid-Driven_Anomaly_Randomization_CVPR_2025_paper.html",
+      "selection_rank": 16,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 17,
+      "paper_id": "cvf:CVPR2025:Wallin_ProHOC_Probabilistic_Hierarchical_Out-of-Distribution_Classification_via_Multi-Depth_Networks_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wallin_ProHOC_Probabilistic_Hierarchical_Out-of-Distribution_Classification_via_Multi-Depth_Networks_CVPR_2025_paper.html",
+      "selection_rank": 17,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 18,
+      "paper_id": "cvf:CVPR2025:Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dai_Label_Shift_Meets_Online_Learning_Ensuring_Consistent_Adaptation_with_Universal_CVPR_2025_paper.html",
+      "selection_rank": 18,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 19,
+      "paper_id": "cvf:CVPR2025:Xu_Satellite_to_GroundScape_-_Large-scale_Consistent_Ground_View_Generation_from_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Satellite_to_GroundScape_-_Large-scale_Consistent_Ground_View_Generation_from_CVPR_2025_paper.html",
+      "selection_rank": 19,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 20,
+      "paper_id": "cvf:CVPR2025:Jin_Classic_Video_Denoising_in_a_Machine_Learning_World_Robust_Fast_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jin_Classic_Video_Denoising_in_a_Machine_Learning_World_Robust_Fast_CVPR_2025_paper.html",
+      "selection_rank": 20,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 21,
+      "paper_id": "cvf:CVPR2025:Cseke_PICO_Reconstructing_3D_People_In_Contact_with_Objects_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cseke_PICO_Reconstructing_3D_People_In_Contact_with_Objects_CVPR_2025_paper.html",
+      "selection_rank": 21,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 22,
+      "paper_id": "cvf:CVPR2025:Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Continuous_3D_Perception_Model_with_Persistent_State_CVPR_2025_paper.html",
+      "selection_rank": 22,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 23,
+      "paper_id": "cvf:CVPR2025:Parihar_MonoPlace3D_Learning_3D-Aware_Object_Placement_for_3D_Monocular_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Parihar_MonoPlace3D_Learning_3D-Aware_Object_Placement_for_3D_Monocular_Detection_CVPR_2025_paper.html",
+      "selection_rank": 23,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 24,
+      "paper_id": "cvf:CVPR2025:Majumder_Which_Viewpoint_Shows_it_Best_Language_for_Weakly_Supervising_View_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Majumder_Which_Viewpoint_Shows_it_Best_Language_for_Weakly_Supervising_View_CVPR_2025_paper.html",
+      "selection_rank": 24,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 25,
+      "paper_id": "cvf:CVPR2025:Gao_PTDiffusion_Free_Lunch_for_Generating_Optical_Illusion_Hidden_Pictures_with_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gao_PTDiffusion_Free_Lunch_for_Generating_Optical_Illusion_Hidden_Pictures_with_CVPR_2025_paper.html",
+      "selection_rank": 25,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 26,
+      "paper_id": "cvf:CVPR2025:Messaoud_Towards_Generalizable_Trajectory_Prediction_using_Dual-Level_Representation_Learning_and_Adaptive_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Messaoud_Towards_Generalizable_Trajectory_Prediction_using_Dual-Level_Representation_Learning_and_Adaptive_CVPR_2025_paper.html",
+      "selection_rank": 26,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 27,
+      "paper_id": "cvf:CVPR2025:Zhou_Design2GarmentCode_Turning_Design_Concepts_to_Tangible_Garments_Through_Program_Synthesis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Design2GarmentCode_Turning_Design_Concepts_to_Tangible_Garments_Through_Program_Synthesis_CVPR_2025_paper.html",
+      "selection_rank": 27,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 28,
+      "paper_id": "cvf:CVPR2025:Wang_MoGe_Unlocking_Accurate_Monocular_Geometry_Estimation_for_Open-Domain_Images_with_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MoGe_Unlocking_Accurate_Monocular_Geometry_Estimation_for_Open-Domain_Images_with_CVPR_2025_paper.html",
+      "selection_rank": 28,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 29,
+      "paper_id": "cvf:CVPR2025:Sun_Pixel-level_and_Semantic-level_Adjustable_Super-resolution_A_Dual-LoRA_Approach_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Pixel-level_and_Semantic-level_Adjustable_Super-resolution_A_Dual-LoRA_Approach_CVPR_2025_paper.html",
+      "selection_rank": 29,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 30,
+      "paper_id": "cvf:CVPR2025:Ma_Diffusion_Model_is_Effectively_Its_Own_Teacher_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Diffusion_Model_is_Effectively_Its_Own_Teacher_CVPR_2025_paper.html",
+      "selection_rank": 30,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 31,
+      "paper_id": "cvf:CVPR2025:Liu_Mind_the_Gap_Confidence_Discrepancy_Can_Guide_Federated_Semi-Supervised_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Mind_the_Gap_Confidence_Discrepancy_Can_Guide_Federated_Semi-Supervised_Learning_CVPR_2025_paper.html",
+      "selection_rank": 31,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 32,
+      "paper_id": "cvf:CVPR2025:Cui_GROVE_A_Generalized_Reward_for_Learning_Open-Vocabulary_Physical_Skill_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cui_GROVE_A_Generalized_Reward_for_Learning_Open-Vocabulary_Physical_Skill_CVPR_2025_paper.html",
+      "selection_rank": 32,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 33,
+      "paper_id": "cvf:CVPR2025:Luo_Viewpoint_Rosetta_Stone_Unlocking_Unpaired_Ego-Exo_Videos_for_View-invariant_Representation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Luo_Viewpoint_Rosetta_Stone_Unlocking_Unpaired_Ego-Exo_Videos_for_View-invariant_Representation_CVPR_2025_paper.html",
+      "selection_rank": 33,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 34,
+      "paper_id": "cvf:CVPR2025:Lai_Exploring_Simple_Open-Vocabulary_Semantic_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_Exploring_Simple_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 34,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 35,
+      "paper_id": "cvf:CVPR2025:Chen_CADCrafter_Generating_Computer-Aided_Design_Models_from_Unconstrained_Images_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_CADCrafter_Generating_Computer-Aided_Design_Models_from_Unconstrained_Images_CVPR_2025_paper.html",
+      "selection_rank": 35,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 36,
+      "paper_id": "cvf:CVPR2025:Zhu_Generative_Inbetweening_through_Frame-wise_Conditions-Driven_Video_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_Generative_Inbetweening_through_Frame-wise_Conditions-Driven_Video_Generation_CVPR_2025_paper.html",
+      "selection_rank": 36,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 37,
+      "paper_id": "cvf:CVPR2025:Wang_OpenSDI_Spotting_Diffusion-Generated_Images_in_the_Open_World_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_OpenSDI_Spotting_Diffusion-Generated_Images_in_the_Open_World_CVPR_2025_paper.html",
+      "selection_rank": 37,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 38,
+      "paper_id": "cvf:CVPR2025:Lai_LLM-driven_Multimodal_and_Multi-Identity_Listening_Head_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lai_LLM-driven_Multimodal_and_Multi-Identity_Listening_Head_Generation_CVPR_2025_paper.html",
+      "selection_rank": 38,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 39,
+      "paper_id": "cvf:CVPR2025:Blum_CroCoDL_Cross-device_Collaborative_Dataset_for_Localization_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Blum_CroCoDL_Cross-device_Collaborative_Dataset_for_Localization_CVPR_2025_paper.html",
+      "selection_rank": 39,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 40,
+      "paper_id": "cvf:CVPR2025:Chen_GuardSplat_Efficient_and_Robust_Watermarking_for_3D_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_GuardSplat_Efficient_and_Robust_Watermarking_for_3D_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 40,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 41,
+      "paper_id": "cvf:CVPR2025:Liao_SPC-GS_Gaussian_Splatting_with_Semantic-Prompt_Consistency_for_Indoor_Open-World_Free-view_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liao_SPC-GS_Gaussian_Splatting_with_Semantic-Prompt_Consistency_for_Indoor_Open-World_Free-view_CVPR_2025_paper.html",
+      "selection_rank": 41,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 42,
+      "paper_id": "cvf:CVPR2025:Chen_FedBiP_Heterogeneous_One-Shot_Federated_Learning_with_Personalized_Latent_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_FedBiP_Heterogeneous_One-Shot_Federated_Learning_with_Personalized_Latent_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 42,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 43,
+      "paper_id": "cvf:CVPR2025:Wandel_SemAlign3D_Semantic_Correspondence_between_RGB-Images_through_Aligning_3D_Object-Class_Representations_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wandel_SemAlign3D_Semantic_Correspondence_between_RGB-Images_through_Aligning_3D_Object-Class_Representations_CVPR_2025_paper.html",
+      "selection_rank": 43,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 44,
+      "paper_id": "cvf:CVPR2025:Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Brain-Inspired_Spiking_Neural_Networks_for_Energy-Efficient_Object_Detection_CVPR_2025_paper.html",
+      "selection_rank": 44,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 45,
+      "paper_id": "cvf:CVPR2025:Li_Co-Speech_Gesture_Video_Generation_with_Implicit_Motion-Audio_Entanglement_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Co-Speech_Gesture_Video_Generation_with_Implicit_Motion-Audio_Entanglement_CVPR_2025_paper.html",
+      "selection_rank": 45,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 46,
+      "paper_id": "cvf:CVPR2025:Nguyen_CALICO_Part-Focused_Semantic_Co-Segmentation_with_Large_Vision-Language_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Nguyen_CALICO_Part-Focused_Semantic_Co-Segmentation_with_Large_Vision-Language_Models_CVPR_2025_paper.html",
+      "selection_rank": 46,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 47,
+      "paper_id": "cvf:CVPR2025:Guo_BrepGiff_Lightweight_Generation_of_Complex_B-rep_with_3D_GAT_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_BrepGiff_Lightweight_Generation_of_Complex_B-rep_with_3D_GAT_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 47,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 48,
+      "paper_id": "cvf:CVPR2025:Li_SegEarth-OV_Towards_Training-Free_Open-Vocabulary_Segmentation_for_Remote_Sensing_Images_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_SegEarth-OV_Towards_Training-Free_Open-Vocabulary_Segmentation_for_Remote_Sensing_Images_CVPR_2025_paper.html",
+      "selection_rank": 48,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 49,
+      "paper_id": "cvf:CVPR2025:Deng_OmniStereo_Real-time_Omnidireactional_Depth_Estimation_with_Multiview_Fisheye_Cameras_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Deng_OmniStereo_Real-time_Omnidireactional_Depth_Estimation_with_Multiview_Fisheye_Cameras_CVPR_2025_paper.html",
+      "selection_rank": 49,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 50,
+      "paper_id": "cvf:CVPR2025:Chen_A_Physics-Informed_Blur_Learning_Framework_for_Imaging_Systems_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_A_Physics-Informed_Blur_Learning_Framework_for_Imaging_Systems_CVPR_2025_paper.html",
+      "selection_rank": 50,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 51,
+      "paper_id": "cvf:CVPR2025:Wang_Comprehensive_Relighting_Generalizable_and_Consistent_Monocular_Human_Relighting_and_Harmonization_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Comprehensive_Relighting_Generalizable_and_Consistent_Monocular_Human_Relighting_and_Harmonization_CVPR_2025_paper.html",
+      "selection_rank": 51,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 52,
+      "paper_id": "cvf:CVPR2025:Sun_GUI-Xplore_Empowering_Generalizable_GUI_Agents_with_One_Exploration_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_GUI-Xplore_Empowering_Generalizable_GUI_Agents_with_One_Exploration_CVPR_2025_paper.html",
+      "selection_rank": 52,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 53,
+      "paper_id": "cvf:CVPR2025:Bose_Descriptor-In-Pixel__Point-Feature_Tracking_For_Pixel_Processor_Arrays_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bose_Descriptor-In-Pixel__Point-Feature_Tracking_For_Pixel_Processor_Arrays_CVPR_2025_paper.html",
+      "selection_rank": 53,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 54,
+      "paper_id": "cvf:CVPR2025:Rockwell_Dynamic_Camera_Poses_and_Where_to_Find_Them_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rockwell_Dynamic_Camera_Poses_and_Where_to_Find_Them_CVPR_2025_paper.html",
+      "selection_rank": 54,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 55,
+      "paper_id": "cvf:CVPR2025:Yao_Reconstruction_vs._Generation_Taming_Optimization_Dilemma_in_Latent_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yao_Reconstruction_vs._Generation_Taming_Optimization_Dilemma_in_Latent_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 55,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 56,
+      "paper_id": "cvf:CVPR2025:Cai_HERA_Hybrid_Explicit_Representation_for_Ultra-Realistic_Head_Avatars_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_HERA_Hybrid_Explicit_Representation_for_Ultra-Realistic_Head_Avatars_CVPR_2025_paper.html",
+      "selection_rank": 56,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 57,
+      "paper_id": "cvf:CVPR2025:Rui_Multi-modal_Vision_Pre-training_for_Medical_Image_Analysis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rui_Multi-modal_Vision_Pre-training_for_Medical_Image_Analysis_CVPR_2025_paper.html",
+      "selection_rank": 57,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 58,
+      "paper_id": "cvf:CVPR2025:Shen_QuartDepth_Post-Training_Quantization_for_Real-Time_Depth_Estimation_on_the_Edge_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shen_QuartDepth_Post-Training_Quantization_for_Real-Time_Depth_Estimation_on_the_Edge_CVPR_2025_paper.html",
+      "selection_rank": 58,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 59,
+      "paper_id": "cvf:CVPR2025:Zhong_Beyond_Generation_A_Diffusion-based_Low-level_Feature_Extractor_for_Detecting_AI-generated_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhong_Beyond_Generation_A_Diffusion-based_Low-level_Feature_Extractor_for_Detecting_AI-generated_CVPR_2025_paper.html",
+      "selection_rank": 59,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 60,
+      "paper_id": "cvf:CVPR2025:Chen_PhysGen3D_Crafting_a_Miniature_Interactive_World_from_a_Single_Image_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_PhysGen3D_Crafting_a_Miniature_Interactive_World_from_a_Single_Image_CVPR_2025_paper.html",
+      "selection_rank": 60,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 61,
+      "paper_id": "cvf:CVPR2025:Cheng_3D_Prior_Is_All_You_Need_Cross-Task_Few-shot_2D_Gaze_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_3D_Prior_Is_All_You_Need_Cross-Task_Few-shot_2D_Gaze_CVPR_2025_paper.html",
+      "selection_rank": 61,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 62,
+      "paper_id": "cvf:CVPR2025:Agro_MAD_Memory-Augmented_Detection_of_3D_Objects_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Agro_MAD_Memory-Augmented_Detection_of_3D_Objects_CVPR_2025_paper.html",
+      "selection_rank": 62,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 63,
+      "paper_id": "cvf:CVPR2025:Zhao_DPSeg_Dual-Prompt_Cost_Volume_Learning_for_Open-Vocabulary_Semantic_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DPSeg_Dual-Prompt_Cost_Volume_Learning_for_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 63,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 64,
+      "paper_id": "cvf:CVPR2025:Dong_Insight-V_Exploring_Long-Chain_Visual_Reasoning_with_Multimodal_Large_Language_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Insight-V_Exploring_Long-Chain_Visual_Reasoning_with_Multimodal_Large_Language_Models_CVPR_2025_paper.html",
+      "selection_rank": 64,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 65,
+      "paper_id": "cvf:CVPR2025:Nguyen_Occlusion-aware_Text-Image-Point_Cloud_Pretraining_for_Open-World_3D_Object_Recognition_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Nguyen_Occlusion-aware_Text-Image-Point_Cloud_Pretraining_for_Open-World_3D_Object_Recognition_CVPR_2025_paper.html",
+      "selection_rank": 65,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 66,
+      "paper_id": "cvf:CVPR2025:Shum_Color_Alignment_in_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shum_Color_Alignment_in_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 66,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 67,
+      "paper_id": "cvf:CVPR2025:Zhang_UPME_An_Unsupervised_Peer_Review_Framework_for_Multimodal_Large_Language_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_UPME_An_Unsupervised_Peer_Review_Framework_for_Multimodal_Large_Language_CVPR_2025_paper.html",
+      "selection_rank": 67,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 68,
+      "paper_id": "cvf:CVPR2025:Xu_Deep_Fair_Multi-View_Clustering_with_Attention_KAN_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Deep_Fair_Multi-View_Clustering_with_Attention_KAN_CVPR_2025_paper.html",
+      "selection_rank": 68,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 69,
+      "paper_id": "cvf:CVPR2025:Munasinghe_VideoGLaMM__A_Large_Multimodal_Model_for_Pixel-Level_Visual_Grounding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Munasinghe_VideoGLaMM__A_Large_Multimodal_Model_for_Pixel-Level_Visual_Grounding_CVPR_2025_paper.html",
+      "selection_rank": 69,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 70,
+      "paper_id": "cvf:CVPR2025:Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_FedMIA_An_Effective_Membership_Inference_Attack_Exploiting_All_for_One_CVPR_2025_paper.html",
+      "selection_rank": 70,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 71,
+      "paper_id": "cvf:CVPR2025:Sun_Towards_General_Visual-Linguistic_Face_Forgery_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Towards_General_Visual-Linguistic_Face_Forgery_Detection_CVPR_2025_paper.html",
+      "selection_rank": 71,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 72,
+      "paper_id": "cvf:CVPR2025:Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Point2RBox-v2_Rethinking_Point-supervised_Oriented_Object_Detection_with_Spatial_Layout_Among_CVPR_2025_paper.html",
+      "selection_rank": 72,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 73,
+      "paper_id": "cvf:CVPR2025:Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_DiffLO_Semantic-Aware_LiDAR_Odometry_with_Diffusion-Based_Refinement_CVPR_2025_paper.html",
+      "selection_rank": 73,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 74,
+      "paper_id": "cvf:CVPR2025:Um_Object-aware_Sound_Source_Localization_via_Audio-Visual_Scene_Understanding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Um_Object-aware_Sound_Source_Localization_via_Audio-Visual_Scene_Understanding_CVPR_2025_paper.html",
+      "selection_rank": 74,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 75,
+      "paper_id": "cvf:CVPR2025:Cheng_Not_Just_Text_Uncovering_Vision_Modality_Typographic_Threats_in_Image_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_Not_Just_Text_Uncovering_Vision_Modality_Typographic_Threats_in_Image_CVPR_2025_paper.html",
+      "selection_rank": 75,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 76,
+      "paper_id": "cvf:CVPR2025:Sun_Investigating_the_Role_of_Weight_Decay_in_Enhancing_Nonconvex_SGD_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Investigating_the_Role_of_Weight_Decay_in_Enhancing_Nonconvex_SGD_CVPR_2025_paper.html",
+      "selection_rank": 76,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 77,
+      "paper_id": "cvf:CVPR2025:Fang_Recognition-Synergistic_Scene_Text_Editing_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Recognition-Synergistic_Scene_Text_Editing_CVPR_2025_paper.html",
+      "selection_rank": 77,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 78,
+      "paper_id": "cvf:CVPR2025:Liu_Revealing_Key_Details_to_See_Differences_A_Novel_Prototypical_Perspective_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Revealing_Key_Details_to_See_Differences_A_Novel_Prototypical_Perspective_CVPR_2025_paper.html",
+      "selection_rank": 78,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 79,
+      "paper_id": "cvf:CVPR2025:Yin_Towards_Satellite_Image_Road_Graph_Extraction_A_Global-Scale_Dataset_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yin_Towards_Satellite_Image_Road_Graph_Extraction_A_Global-Scale_Dataset_and_CVPR_2025_paper.html",
+      "selection_rank": 79,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 80,
+      "paper_id": "cvf:CVPR2025:Han_MoST_Efficient_Monarch_Sparse_Tuning_for_3D_Representation_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Han_MoST_Efficient_Monarch_Sparse_Tuning_for_3D_Representation_Learning_CVPR_2025_paper.html",
+      "selection_rank": 80,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 81,
+      "paper_id": "cvf:CVPR2025:Bar_Navigation_World_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bar_Navigation_World_Models_CVPR_2025_paper.html",
+      "selection_rank": 81,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 82,
+      "paper_id": "cvf:CVPR2025:Wang_LSNet_See_Large_Focus_Small_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_LSNet_See_Large_Focus_Small_CVPR_2025_paper.html",
+      "selection_rank": 82,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 83,
+      "paper_id": "cvf:CVPR2025:Wu_CAT4D_Create_Anything_in_4D_with_Multi-View_Video_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_CAT4D_Create_Anything_in_4D_with_Multi-View_Video_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 83,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 84,
+      "paper_id": "cvf:CVPR2025:Park_Test-Time_Fine-Tuning_of_Image_Compression_Models_for_Multi-Task_Adaptability_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Park_Test-Time_Fine-Tuning_of_Image_Compression_Models_for_Multi-Task_Adaptability_CVPR_2025_paper.html",
+      "selection_rank": 84,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 85,
+      "paper_id": "cvf:CVPR2025:Zhang_MPDrive_Improving_Spatial_Understanding_with_Marker-Based_Prompt_Learning_for_Autonomous_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_MPDrive_Improving_Spatial_Understanding_with_Marker-Based_Prompt_Learning_for_Autonomous_CVPR_2025_paper.html",
+      "selection_rank": 85,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 86,
+      "paper_id": "cvf:CVPR2025:Garcia_Learning_Physics_From_Video_Unsupervised_Physical_Parameter_Estimation_for_Continuous_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Garcia_Learning_Physics_From_Video_Unsupervised_Physical_Parameter_Estimation_for_Continuous_CVPR_2025_paper.html",
+      "selection_rank": 86,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 87,
+      "paper_id": "cvf:CVPR2025:Wang_Steepest_Descent_Density_Control_for_Compact_3D_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Steepest_Descent_Density_Control_for_Compact_3D_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 87,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 88,
+      "paper_id": "cvf:CVPR2025:Bouniot_From_Alexnet_to_Transformers_Measuring_the_Non-linearity_of_Deep_Neural_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bouniot_From_Alexnet_to_Transformers_Measuring_the_Non-linearity_of_Deep_Neural_CVPR_2025_paper.html",
+      "selection_rank": 88,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 89,
+      "paper_id": "cvf:CVPR2025:Nag_Conformal_Prediction_and_MLLM_aided_Uncertainty_Quantification_in_Scene_Graph_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Nag_Conformal_Prediction_and_MLLM_aided_Uncertainty_Quantification_in_Scene_Graph_CVPR_2025_paper.html",
+      "selection_rank": 89,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 90,
+      "paper_id": "cvf:CVPR2025:Choi_MVDoppler-Pose_Multi-Modal_Multi-View_mmWave_Sensing_for_Long-Distance_Self-Occluded_Human_Walking_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Choi_MVDoppler-Pose_Multi-Modal_Multi-View_mmWave_Sensing_for_Long-Distance_Self-Occluded_Human_Walking_CVPR_2025_paper.html",
+      "selection_rank": 90,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 91,
+      "paper_id": "cvf:CVPR2025:Liu_UHD-processer_Unified_UHD_Image_Restoration_with_Progressive_Frequency_Learning_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_UHD-processer_Unified_UHD_Image_Restoration_with_Progressive_Frequency_Learning_and_CVPR_2025_paper.html",
+      "selection_rank": 91,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 92,
+      "paper_id": "cvf:CVPR2025:Noda_Learning_Bijective_Surface_Parameterization_for_Inferring_Signed_Distance_Functions_from_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Noda_Learning_Bijective_Surface_Parameterization_for_Inferring_Signed_Distance_Functions_from_CVPR_2025_paper.html",
+      "selection_rank": 92,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 93,
+      "paper_id": "cvf:CVPR2025:Kim_Faster_Parameter-Efficient_Tuning_with_Token_Redundancy_Reduction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kim_Faster_Parameter-Efficient_Tuning_with_Token_Redundancy_Reduction_CVPR_2025_paper.html",
+      "selection_rank": 93,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 94,
+      "paper_id": "cvf:CVPR2025:Yan_Explicit_Depth-Aware_Blurry_Video_Frame_Interpolation_Guided_by_Differential_Curves_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_Explicit_Depth-Aware_Blurry_Video_Frame_Interpolation_Guided_by_Differential_Curves_CVPR_2025_paper.html",
+      "selection_rank": 94,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 95,
+      "paper_id": "cvf:CVPR2025:Wang_Mamba-Reg_Vision_Mamba_Also_Needs_Registers_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Mamba-Reg_Vision_Mamba_Also_Needs_Registers_CVPR_2025_paper.html",
+      "selection_rank": 95,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 96,
+      "paper_id": "cvf:CVPR2025:Ye_VERA_Explainable_Video_Anomaly_Detection_via_Verbalized_Learning_of_Vision-Language_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ye_VERA_Explainable_Video_Anomaly_Detection_via_Verbalized_Learning_of_Vision-Language_CVPR_2025_paper.html",
+      "selection_rank": 96,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 97,
+      "paper_id": "cvf:CVPR2025:Zhang_Prosody-Enhanced_Acoustic_Pre-training_and_Acoustic-Disentangled_Prosody_Adapting_for_Movie_Dubbing_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Prosody-Enhanced_Acoustic_Pre-training_and_Acoustic-Disentangled_Prosody_Adapting_for_Movie_Dubbing_CVPR_2025_paper.html",
+      "selection_rank": 97,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 98,
+      "paper_id": "cvf:CVPR2025:Liu_SEC-PromptSEmantic_Complementary_Prompting_for_Few-Shot_Class-Incremental_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_SEC-PromptSEmantic_Complementary_Prompting_for_Few-Shot_Class-Incremental_Learning_CVPR_2025_paper.html",
+      "selection_rank": 98,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 99,
+      "paper_id": "cvf:CVPR2025:Li_Multi-Sensor_Object_Anomaly_Detection_Unifying_Appearance_Geometry_and_Internal_Properties_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Multi-Sensor_Object_Anomaly_Detection_Unifying_Appearance_Geometry_and_Internal_Properties_CVPR_2025_paper.html",
+      "selection_rank": 99,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 100,
+      "paper_id": "cvf:CVPR2025:Wang_SeCap_Self-Calibrating_and_Adaptive_Prompts_for_Cross-view_Person_Re-Identification_in_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SeCap_Self-Calibrating_and_Adaptive_Prompts_for_Cross-view_Person_Re-Identification_in_CVPR_2025_paper.html",
+      "selection_rank": 100,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 101,
+      "paper_id": "cvf:CVPR2025:Li_CAD-Llama_Leveraging_Large_Language_Models_for_Computer-Aided_Design_Parametric_3D_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_CAD-Llama_Leveraging_Large_Language_Models_for_Computer-Aided_Design_Parametric_3D_CVPR_2025_paper.html",
+      "selection_rank": 101,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 102,
+      "paper_id": "cvf:CVPR2025:Fang_HuMoCon_Concept_Discovery_for_Human_Motion_Understanding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_HuMoCon_Concept_Discovery_for_Human_Motion_Understanding_CVPR_2025_paper.html",
+      "selection_rank": 102,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 103,
+      "paper_id": "cvf:CVPR2025:Deng_Words_or_Vision_Do_Vision-Language_Models_Have_Blind_Faith_in_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Deng_Words_or_Vision_Do_Vision-Language_Models_Have_Blind_Faith_in_CVPR_2025_paper.html",
+      "selection_rank": 103,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 104,
+      "paper_id": "cvf:CVPR2025:Liang_Wonderland_Navigating_3D_Scenes_from_a_Single_Image_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Wonderland_Navigating_3D_Scenes_from_a_Single_Image_CVPR_2025_paper.html",
+      "selection_rank": 104,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 105,
+      "paper_id": "cvf:CVPR2025:Dang_Personalized_Preference_Fine-tuning_of_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dang_Personalized_Preference_Fine-tuning_of_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 105,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 106,
+      "paper_id": "cvf:CVPR2025:Lee_Effective_SAM_Combination_for_Open-Vocabulary_Semantic_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Effective_SAM_Combination_for_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 106,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 107,
+      "paper_id": "cvf:CVPR2025:Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.html",
+      "selection_rank": 107,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 108,
+      "paper_id": "cvf:CVPR2025:Bi_Unveiling_Visual_Perception_in_Language_Models_An_Attention_Head_Analysis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bi_Unveiling_Visual_Perception_in_Language_Models_An_Attention_Head_Analysis_CVPR_2025_paper.html",
+      "selection_rank": 108,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 109,
+      "paper_id": "cvf:CVPR2025:Koch_RelationField_Relate_Anything_in_Radiance_Fields_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Koch_RelationField_Relate_Anything_in_Radiance_Fields_CVPR_2025_paper.html",
+      "selection_rank": 109,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 110,
+      "paper_id": "cvf:CVPR2025:Tang_Missing_Target-Relevant_Information_Prediction_with_World_Model_for_Accurate_Zero-Shot_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Missing_Target-Relevant_Information_Prediction_with_World_Model_for_Accurate_Zero-Shot_CVPR_2025_paper.html",
+      "selection_rank": 110,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 111,
+      "paper_id": "cvf:CVPR2025:Xu_Adaptive_Dropout_Unleashing_Dropout_across_Layers_for_Generalizable_Image_Super-Resolution_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_Adaptive_Dropout_Unleashing_Dropout_across_Layers_for_Generalizable_Image_Super-Resolution_CVPR_2025_paper.html",
+      "selection_rank": 111,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 112,
+      "paper_id": "cvf:CVPR2025:Zhang_Concept_Replacer_Replacing_Sensitive_Concepts_in_Diffusion_Models_via_Precision_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Concept_Replacer_Replacing_Sensitive_Concepts_in_Diffusion_Models_via_Precision_CVPR_2025_paper.html",
+      "selection_rank": 112,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 113,
+      "paper_id": "cvf:CVPR2025:Khosla_RELOCATE_A_Simple_Training-Free_Baseline_for_Visual_Query_Localization_Using_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Khosla_RELOCATE_A_Simple_Training-Free_Baseline_for_Visual_Query_Localization_Using_CVPR_2025_paper.html",
+      "selection_rank": 113,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 114,
+      "paper_id": "cvf:CVPR2025:Ye_BEVDiffuser_Plug-and-Play_Diffusion_Model_for_BEV_Denoising_with_Ground-Truth_Guidance_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ye_BEVDiffuser_Plug-and-Play_Diffusion_Model_for_BEV_Denoising_with_Ground-Truth_Guidance_CVPR_2025_paper.html",
+      "selection_rank": 114,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 115,
+      "paper_id": "cvf:CVPR2025:Wu_SinGS_Animatable_Single-Image_Human_Gaussian_Splats_with_Kinematic_Priors_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_SinGS_Animatable_Single-Image_Human_Gaussian_Splats_with_Kinematic_Priors_CVPR_2025_paper.html",
+      "selection_rank": 115,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 116,
+      "paper_id": "cvf:CVPR2025:Santra_Precise_Event_Spotting_in_Sports_Videos_Solving_Long-Range_Dependency_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Santra_Precise_Event_Spotting_in_Sports_Videos_Solving_Long-Range_Dependency_and_CVPR_2025_paper.html",
+      "selection_rank": 116,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 117,
+      "paper_id": "cvf:CVPR2025:Akkerman_InterDyn_Controllable_Interactive_Dynamics_with_Video_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Akkerman_InterDyn_Controllable_Interactive_Dynamics_with_Video_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 117,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 118,
+      "paper_id": "cvf:CVPR2025:Dong_Exploring_Semantic_Feature_Discrimination_for_Perceptual_Image_Super-Resolution_and_Opinion-Unaware_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dong_Exploring_Semantic_Feature_Discrimination_for_Perceptual_Image_Super-Resolution_and_Opinion-Unaware_CVPR_2025_paper.html",
+      "selection_rank": 118,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 119,
+      "paper_id": "cvf:CVPR2025:Novello_Tuning_the_Frequencies_Robust_Training_for_Sinusoidal_Neural_Networks_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Novello_Tuning_the_Frequencies_Robust_Training_for_Sinusoidal_Neural_Networks_CVPR_2025_paper.html",
+      "selection_rank": 119,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 120,
+      "paper_id": "cvf:CVPR2025:Berasi_Not_Only_Text_Exploring_Compositionality_of_Visual_Representations_in_Vision-Language_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Berasi_Not_Only_Text_Exploring_Compositionality_of_Visual_Representations_in_Vision-Language_CVPR_2025_paper.html",
+      "selection_rank": 120,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 121,
+      "paper_id": "cvf:CVPR2025:Shi_Dissecting_and_Mitigating_Diffusion_Bias_via_Mechanistic_Interpretability_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shi_Dissecting_and_Mitigating_Diffusion_Bias_via_Mechanistic_Interpretability_CVPR_2025_paper.html",
+      "selection_rank": 121,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 122,
+      "paper_id": "cvf:CVPR2025:Zhao_DoraCycle_Domain-Oriented_Adaptation_of_Unified_Generative_Model_in_Multimodal_Cycles_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DoraCycle_Domain-Oriented_Adaptation_of_Unified_Generative_Model_in_Multimodal_Cycles_CVPR_2025_paper.html",
+      "selection_rank": 122,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 123,
+      "paper_id": "cvf:CVPR2025:Li_OmniFlow_Any-to-Any_Generation_with_Multi-Modal_Rectified_Flows_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_OmniFlow_Any-to-Any_Generation_with_Multi-Modal_Rectified_Flows_CVPR_2025_paper.html",
+      "selection_rank": 123,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 124,
+      "paper_id": "cvf:CVPR2025:Chen_MeshGen_Generating_PBR_Textured_Mesh_with_Render-Enhanced_Auto-Encoder_and_Generative_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_MeshGen_Generating_PBR_Textured_Mesh_with_Render-Enhanced_Auto-Encoder_and_Generative_CVPR_2025_paper.html",
+      "selection_rank": 124,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 125,
+      "paper_id": "cvf:CVPR2025:Trevithick_SimVS_Simulating_World_Inconsistencies_for_Robust_View_Synthesis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Trevithick_SimVS_Simulating_World_Inconsistencies_for_Robust_View_Synthesis_CVPR_2025_paper.html",
+      "selection_rank": 125,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 126,
+      "paper_id": "cvf:CVPR2025:Talegaonkar_Volumetrically_Consistent_3D_Gaussian_Rasterization_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Talegaonkar_Volumetrically_Consistent_3D_Gaussian_Rasterization_CVPR_2025_paper.html",
+      "selection_rank": 126,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 127,
+      "paper_id": "cvf:CVPR2025:Zhang_FLARE_Feed-forward_Geometry_Appearance_and_Camera_Estimation_from_Uncalibrated_Sparse_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_FLARE_Feed-forward_Geometry_Appearance_and_Camera_Estimation_from_Uncalibrated_Sparse_CVPR_2025_paper.html",
+      "selection_rank": 127,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 128,
+      "paper_id": "cvf:CVPR2025:Zhang_BooW-VTON_Boosting_In-the-Wild_Virtual_Try-On_via_Mask-Free_Pseudo_Data_Training_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BooW-VTON_Boosting_In-the-Wild_Virtual_Try-On_via_Mask-Free_Pseudo_Data_Training_CVPR_2025_paper.html",
+      "selection_rank": 128,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 129,
+      "paper_id": "cvf:CVPR2025:Soucek_ShowHowTo_Generating_Scene-Conditioned_Step-by-Step_Visual_Instructions_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Soucek_ShowHowTo_Generating_Scene-Conditioned_Step-by-Step_Visual_Instructions_CVPR_2025_paper.html",
+      "selection_rank": 129,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 130,
+      "paper_id": "cvf:CVPR2025:Di_QMambaBSR_Burst_Image_Super-Resolution_with_Query_State_Space_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Di_QMambaBSR_Burst_Image_Super-Resolution_with_Query_State_Space_Model_CVPR_2025_paper.html",
+      "selection_rank": 130,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 131,
+      "paper_id": "cvf:CVPR2025:Wang_4Real-Video_Learning_Generalizable_Photo-Realistic_4D_Video_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_4Real-Video_Learning_Generalizable_Photo-Realistic_4D_Video_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 131,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 132,
+      "paper_id": "cvf:CVPR2025:Malic_GBlobs_Explicit_Local_Structure_via_Gaussian_Blobs_for_Improved_Cross-Domain_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Malic_GBlobs_Explicit_Local_Structure_via_Gaussian_Blobs_for_Improved_Cross-Domain_CVPR_2025_paper.html",
+      "selection_rank": 132,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 133,
+      "paper_id": "cvf:CVPR2025:Wu_3DGUT_Enabling_Distorted_Cameras_and_Secondary_Rays_in_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_3DGUT_Enabling_Distorted_Cameras_and_Secondary_Rays_in_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 133,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 134,
+      "paper_id": "cvf:CVPR2025:Shen_DiscoVLA_Discrepancy_Reduction_in_Vision_Language_and_Alignment_for_Parameter-Efficient_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shen_DiscoVLA_Discrepancy_Reduction_in_Vision_Language_and_Alignment_for_Parameter-Efficient_CVPR_2025_paper.html",
+      "selection_rank": 134,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 135,
+      "paper_id": "cvf:CVPR2025:Kong_Dual_Prompting_Image_Restoration_with_Diffusion_Transformers_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kong_Dual_Prompting_Image_Restoration_with_Diffusion_Transformers_CVPR_2025_paper.html",
+      "selection_rank": 135,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 136,
+      "paper_id": "cvf:CVPR2025:Zhao_DI-PCG_Diffusion-based_Efficient_Inverse_Procedural_Content_Generation_for_High-quality_3D_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DI-PCG_Diffusion-based_Efficient_Inverse_Procedural_Content_Generation_for_High-quality_3D_CVPR_2025_paper.html",
+      "selection_rank": 136,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 137,
+      "paper_id": "cvf:CVPR2025:Nam_Optical-Flow_Guided_Prompt_Optimization_for_Coherent_Video_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Nam_Optical-Flow_Guided_Prompt_Optimization_for_Coherent_Video_Generation_CVPR_2025_paper.html",
+      "selection_rank": 137,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 138,
+      "paper_id": "cvf:CVPR2025:Xing_Dual-Granularity_Semantic_Guided_Sparse_Routing_Diffusion_Model_for_General_Pansharpening_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xing_Dual-Granularity_Semantic_Guided_Sparse_Routing_Diffusion_Model_for_General_Pansharpening_CVPR_2025_paper.html",
+      "selection_rank": 138,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 139,
+      "paper_id": "cvf:CVPR2025:Sun_Enhancing_Dance-to-Music_Generation_via_Negative_Conditioning_Latent_Diffusion_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Enhancing_Dance-to-Music_Generation_via_Negative_Conditioning_Latent_Diffusion_Model_CVPR_2025_paper.html",
+      "selection_rank": 139,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 140,
+      "paper_id": "cvf:CVPR2025:Chung_Differentiable_Inverse_Rendering_with_Interpretable_Basis_BRDFs_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chung_Differentiable_Inverse_Rendering_with_Interpretable_Basis_BRDFs_CVPR_2025_paper.html",
+      "selection_rank": 140,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 141,
+      "paper_id": "cvf:CVPR2025:Cheng_CO-SPY_Combining_Semantic_and_Pixel_Features_to_Detect_Synthetic_Images_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_CO-SPY_Combining_Semantic_and_Pixel_Features_to_Detect_Synthetic_Images_CVPR_2025_paper.html",
+      "selection_rank": 141,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 142,
+      "paper_id": "cvf:CVPR2025:Pan_OmniManip_Towards_General_Robotic_Manipulation_via_Object-Centric_Interaction_Primitives_as_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pan_OmniManip_Towards_General_Robotic_Manipulation_via_Object-Centric_Interaction_Primitives_as_CVPR_2025_paper.html",
+      "selection_rank": 142,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 143,
+      "paper_id": "cvf:CVPR2025:Bian_GS-DiT_Advancing_Video_Generation_with_Dynamic_3D_Gaussian_Fields_through_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bian_GS-DiT_Advancing_Video_Generation_with_Dynamic_3D_Gaussian_Fields_through_CVPR_2025_paper.html",
+      "selection_rank": 143,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 144,
+      "paper_id": "cvf:CVPR2025:Cheng_Stacking_Brick_by_Brick_Aligned_Feature_Isolation_for_Incremental_Face_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_Stacking_Brick_by_Brick_Aligned_Feature_Isolation_for_Incremental_Face_CVPR_2025_paper.html",
+      "selection_rank": 144,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 145,
+      "paper_id": "cvf:CVPR2025:Bigata_KeyFace_Expressive_Audio-Driven_Facial_Animation_for_Long_Sequences_via_KeyFrame_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bigata_KeyFace_Expressive_Audio-Driven_Facial_Animation_for_Long_Sequences_via_KeyFrame_CVPR_2025_paper.html",
+      "selection_rank": 145,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 146,
+      "paper_id": "cvf:CVPR2025:Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html",
+      "selection_rank": 146,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 147,
+      "paper_id": "cvf:CVPR2025:Wang_GoLF-NRT_Integrating_Global_Context_and_Local_Geometry_for_Few-Shot_View_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_GoLF-NRT_Integrating_Global_Context_and_Local_Geometry_for_Few-Shot_View_CVPR_2025_paper.html",
+      "selection_rank": 147,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 148,
+      "paper_id": "cvf:CVPR2025:Vinker_SketchAgent_Language-Driven_Sequential_Sketch_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Vinker_SketchAgent_Language-Driven_Sequential_Sketch_Generation_CVPR_2025_paper.html",
+      "selection_rank": 148,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 149,
+      "paper_id": "cvf:CVPR2025:Benidir_The_Change_You_Want_To_Detect_Semantic_Change_Detection_In_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Benidir_The_Change_You_Want_To_Detect_Semantic_Change_Detection_In_CVPR_2025_paper.html",
+      "selection_rank": 149,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 150,
+      "paper_id": "cvf:CVPR2025:Zhou_nnWNet_Rethinking_the_Use_of_Transformers_in_Biomedical_Image_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_nnWNet_Rethinking_the_Use_of_Transformers_in_Biomedical_Image_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 150,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 151,
+      "paper_id": "cvf:CVPR2025:Jiang_Zero-shot_RGB-D_Point_Cloud_Registration_with_Pre-trained_Large_Vision_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jiang_Zero-shot_RGB-D_Point_Cloud_Registration_with_Pre-trained_Large_Vision_Model_CVPR_2025_paper.html",
+      "selection_rank": 151,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 152,
+      "paper_id": "cvf:CVPR2025:Liu_CacheQuant_Comprehensively_Accelerated_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_CacheQuant_Comprehensively_Accelerated_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 152,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 153,
+      "paper_id": "cvf:CVPR2025:Wan_CASP_Consistency-aware_Audio-induced_Saliency_Prediction_Model_for_Omnidirectional_Video_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wan_CASP_Consistency-aware_Audio-induced_Saliency_Prediction_Model_for_Omnidirectional_Video_CVPR_2025_paper.html",
+      "selection_rank": 153,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 154,
+      "paper_id": "cvf:CVPR2025:Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.html",
+      "selection_rank": 154,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 155,
+      "paper_id": "cvf:CVPR2025:Zhou_BOOTPLACE_Bootstrapped_Object_Placement_with_Detection_Transformers_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_BOOTPLACE_Bootstrapped_Object_Placement_with_Detection_Transformers_CVPR_2025_paper.html",
+      "selection_rank": 155,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 156,
+      "paper_id": "cvf:CVPR2025:Chen_JiSAM_Alleviate_Labeling_Burden_and_Corner_Case_Problems_in_Autonomous_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_JiSAM_Alleviate_Labeling_Burden_and_Corner_Case_Problems_in_Autonomous_CVPR_2025_paper.html",
+      "selection_rank": 156,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 157,
+      "paper_id": "cvf:CVPR2025:Li_OpenHumanVid_A_Large-Scale_High-Quality_Dataset_for_Enhancing_Human-Centric_Video_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_OpenHumanVid_A_Large-Scale_High-Quality_Dataset_for_Enhancing_Human-Centric_Video_Generation_CVPR_2025_paper.html",
+      "selection_rank": 157,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 158,
+      "paper_id": "cvf:CVPR2025:Wei_ALIEN_Implicit_Neural_Representations_for_Human_Motion_Prediction_under_Arbitrary_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wei_ALIEN_Implicit_Neural_Representations_for_Human_Motion_Prediction_under_Arbitrary_CVPR_2025_paper.html",
+      "selection_rank": 158,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 159,
+      "paper_id": "cvf:CVPR2025:Su_RoboSense_Large-scale_Dataset_and_Benchmark_for_Egocentric_Robot_Perception_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Su_RoboSense_Large-scale_Dataset_and_Benchmark_for_Egocentric_Robot_Perception_and_CVPR_2025_paper.html",
+      "selection_rank": 159,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 160,
+      "paper_id": "cvf:CVPR2025:Liu_Uncertainty-Instructed_Structure_Injection_for_Generalizable_HD_Map_Construction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Uncertainty-Instructed_Structure_Injection_for_Generalizable_HD_Map_Construction_CVPR_2025_paper.html",
+      "selection_rank": 160,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 161,
+      "paper_id": "cvf:CVPR2025:Zhou_CARE_Transformer_Mobile-Friendly_Linear_Visual_Transformer_via_Decoupled_Dual_Interaction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_CARE_Transformer_Mobile-Friendly_Linear_Visual_Transformer_via_Decoupled_Dual_Interaction_CVPR_2025_paper.html",
+      "selection_rank": 161,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 162,
+      "paper_id": "cvf:CVPR2025:Xiao_Event-based_Video_Super-Resolution_via_State_Space_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_Event-based_Video_Super-Resolution_via_State_Space_Models_CVPR_2025_paper.html",
+      "selection_rank": 162,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 163,
+      "paper_id": "cvf:CVPR2025:Lan_Efficient_Diffusion_as_Low_Light_Enhancer_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lan_Efficient_Diffusion_as_Low_Light_Enhancer_CVPR_2025_paper.html",
+      "selection_rank": 163,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 164,
+      "paper_id": "cvf:CVPR2025:Malic_LiSu_A_Dataset_and_Method_for_LiDAR_Surface_Normal_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Malic_LiSu_A_Dataset_and_Method_for_LiDAR_Surface_Normal_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 164,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 165,
+      "paper_id": "cvf:CVPR2025:Wang_VidSeg_Training-free_Video_Semantic_Segmentation_based_on_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_VidSeg_Training-free_Video_Semantic_Segmentation_based_on_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 165,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 166,
+      "paper_id": "cvf:CVPR2025:Zhou_Improving_the_Transferability_of_Adversarial_Attacks_on_Face_Recognition_with_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Improving_the_Transferability_of_Adversarial_Attacks_on_Face_Recognition_with_CVPR_2025_paper.html",
+      "selection_rank": 166,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 167,
+      "paper_id": "cvf:CVPR2025:Bahari_Certified_Human_Trajectory_Prediction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bahari_Certified_Human_Trajectory_Prediction_CVPR_2025_paper.html",
+      "selection_rank": 167,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 168,
+      "paper_id": "cvf:CVPR2025:Wang_Learning_Hazing_to_Dehazing_Towards_Realistic_Haze_Generation_for_Real-World_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Learning_Hazing_to_Dehazing_Towards_Realistic_Haze_Generation_for_Real-World_CVPR_2025_paper.html",
+      "selection_rank": 168,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 169,
+      "paper_id": "cvf:CVPR2025:Wang_Layered_Image_Vectorization_via_Semantic_Simplification_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Layered_Image_Vectorization_via_Semantic_Simplification_CVPR_2025_paper.html",
+      "selection_rank": 169,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 170,
+      "paper_id": "cvf:CVPR2025:Yang_Tra-MoE_Learning_Trajectory_Prediction_Model_from_Multiple_Domains_for_Adaptive_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Tra-MoE_Learning_Trajectory_Prediction_Model_from_Multiple_Domains_for_Adaptive_CVPR_2025_paper.html",
+      "selection_rank": 170,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 171,
+      "paper_id": "cvf:CVPR2025:Heidari_A_Unified_Framework_for_Heterogeneous_Semi-supervised_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Heidari_A_Unified_Framework_for_Heterogeneous_Semi-supervised_Learning_CVPR_2025_paper.html",
+      "selection_rank": 171,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 172,
+      "paper_id": "cvf:CVPR2025:Ha_Geometry-guided_Online_3D_Video_Synthesis_with_Multi-View_Temporal_Consistency_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ha_Geometry-guided_Online_3D_Video_Synthesis_with_Multi-View_Temporal_Consistency_CVPR_2025_paper.html",
+      "selection_rank": 172,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 173,
+      "paper_id": "cvf:CVPR2025:Feng_Retaining_Knowledge_and_Enhancing_Long-Text_Representations_in_CLIP_through_Dual-Teacher_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Feng_Retaining_Knowledge_and_Enhancing_Long-Text_Representations_in_CLIP_through_Dual-Teacher_CVPR_2025_paper.html",
+      "selection_rank": 173,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 174,
+      "paper_id": "cvf:CVPR2025:Xiao_EASEMVCEfficient_Dual_Selection_Mechanism_for_Deep_Multi-View_Clustering_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiao_EASEMVCEfficient_Dual_Selection_Mechanism_for_Deep_Multi-View_Clustering_CVPR_2025_paper.html",
+      "selection_rank": 174,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 175,
+      "paper_id": "cvf:CVPR2025:Bahmani_AC3D_Analyzing_and_Improving_3D_Camera_Control_in_Video_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bahmani_AC3D_Analyzing_and_Improving_3D_Camera_Control_in_Video_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 175,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 176,
+      "paper_id": "cvf:CVPR2025:Zhang_pFedMxF_Personalized_Federated_Class-Incremental_Learning_with_Mixture_of_Frequency_Aggregation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_pFedMxF_Personalized_Federated_Class-Incremental_Learning_with_Mixture_of_Frequency_Aggregation_CVPR_2025_paper.html",
+      "selection_rank": 176,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 177,
+      "paper_id": "cvf:CVPR2025:Zhang_Point_Cloud_Upsampling_Using_Conditional_Diffusion_Module_with_Adaptive_Noise_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Point_Cloud_Upsampling_Using_Conditional_Diffusion_Module_with_Adaptive_Noise_CVPR_2025_paper.html",
+      "selection_rank": 177,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 178,
+      "paper_id": "cvf:CVPR2025:Feng_BlobGEN-Vid_Compositional_Text-to-Video_Generation_with_Blob_Video_Representations_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Feng_BlobGEN-Vid_Compositional_Text-to-Video_Generation_with_Blob_Video_Representations_CVPR_2025_paper.html",
+      "selection_rank": 178,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 179,
+      "paper_id": "cvf:CVPR2025:Wu_Learning_4D_Panoptic_Scene_Graph_Generation_from_Rich_2D_Visual_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_4D_Panoptic_Scene_Graph_Generation_from_Rich_2D_Visual_CVPR_2025_paper.html",
+      "selection_rank": 179,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 180,
+      "paper_id": "cvf:CVPR2025:Liu_MODfinity_Unsupervised_Domain_Adaptation_with_Multimodal_Information_Flow_Intertwining_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MODfinity_Unsupervised_Domain_Adaptation_with_Multimodal_Information_Flow_Intertwining_CVPR_2025_paper.html",
+      "selection_rank": 180,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 181,
+      "paper_id": "cvf:CVPR2025:Jia_SymDPO_Boosting_In-Context_Learning_of_Large_Multimodal_Models_with_Symbol_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jia_SymDPO_Boosting_In-Context_Learning_of_Large_Multimodal_Models_with_Symbol_CVPR_2025_paper.html",
+      "selection_rank": 181,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 182,
+      "paper_id": "cvf:CVPR2025:Liu_Plug-and-Play_PPO_An_Adaptive_Point_Prompt_Optimizer_Making_SAM_Greater_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Plug-and-Play_PPO_An_Adaptive_Point_Prompt_Optimizer_Making_SAM_Greater_CVPR_2025_paper.html",
+      "selection_rank": 182,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 183,
+      "paper_id": "cvf:CVPR2025:Tang_Reason-before-Retrieve_One-Stage_Reflective_Chain-of-Thoughts_for_Training-Free_Zero-Shot_Composed_Image_Retrieval_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tang_Reason-before-Retrieve_One-Stage_Reflective_Chain-of-Thoughts_for_Training-Free_Zero-Shot_Composed_Image_Retrieval_CVPR_2025_paper.html",
+      "selection_rank": 183,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 184,
+      "paper_id": "cvf:CVPR2025:Ji_Sonic_Shifting_Focus_to_Global_Audio_Perception_in_Portrait_Animation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ji_Sonic_Shifting_Focus_to_Global_Audio_Perception_in_Portrait_Animation_CVPR_2025_paper.html",
+      "selection_rank": 184,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 185,
+      "paper_id": "cvf:CVPR2025:Xia_DRAWER_Digital_Reconstruction_and_Articulation_With_Environment_Realism_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xia_DRAWER_Digital_Reconstruction_and_Articulation_With_Environment_Realism_CVPR_2025_paper.html",
+      "selection_rank": 185,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 186,
+      "paper_id": "cvf:CVPR2025:Ma_Sparse_Point_Cloud_Patches_Rendering_via_Splitting_2D_Gaussians_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Sparse_Point_Cloud_Patches_Rendering_via_Splitting_2D_Gaussians_CVPR_2025_paper.html",
+      "selection_rank": 186,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 187,
+      "paper_id": "cvf:CVPR2025:Levin_Understanding_Multi-layered_Transmission_Matrices_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Levin_Understanding_Multi-layered_Transmission_Matrices_CVPR_2025_paper.html",
+      "selection_rank": 187,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 188,
+      "paper_id": "cvf:CVPR2025:Guo_Text-guided_Sparse_Voxel_Pruning_for_Efficient_3D_Visual_Grounding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_Text-guided_Sparse_Voxel_Pruning_for_Efficient_3D_Visual_Grounding_CVPR_2025_paper.html",
+      "selection_rank": 188,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 189,
+      "paper_id": "cvf:CVPR2025:Li_4D_LangSplat_4D_Language_Gaussian_Splatting_via_Multimodal_Large_Language_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_4D_LangSplat_4D_Language_Gaussian_Splatting_via_Multimodal_Large_Language_CVPR_2025_paper.html",
+      "selection_rank": 189,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 190,
+      "paper_id": "cvf:CVPR2025:Fixelle_Hypergraph_Vision_Transformers_Images_are_More_than_Nodes_More_than_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fixelle_Hypergraph_Vision_Transformers_Images_are_More_than_Nodes_More_than_CVPR_2025_paper.html",
+      "selection_rank": 190,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 191,
+      "paper_id": "cvf:CVPR2025:Zhang_Vision-Language_Embodiment_for_Monocular_Depth_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Vision-Language_Embodiment_for_Monocular_Depth_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 191,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 192,
+      "paper_id": "cvf:CVPR2025:Shao_Learning_Temporally_Consistent_Video_Depth_from_Video_Diffusion_Priors_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shao_Learning_Temporally_Consistent_Video_Depth_from_Video_Diffusion_Priors_CVPR_2025_paper.html",
+      "selection_rank": 192,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 193,
+      "paper_id": "cvf:CVPR2025:Wang_UniPre3D_Unified_Pre-training_of_3D_Point_Cloud_Models_with_Cross-Modal_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_UniPre3D_Unified_Pre-training_of_3D_Point_Cloud_Models_with_Cross-Modal_CVPR_2025_paper.html",
+      "selection_rank": 193,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 194,
+      "paper_id": "cvf:CVPR2025:Chng_Preconditioners_for_the_Stochastic_Training_of_Neural_Fields_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chng_Preconditioners_for_the_Stochastic_Training_of_Neural_Fields_CVPR_2025_paper.html",
+      "selection_rank": 194,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 195,
+      "paper_id": "cvf:CVPR2025:Liu_UMotion_Uncertainty-driven_Human_Motion_Estimation_from_Inertial_and_Ultra-wideband_Units_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_UMotion_Uncertainty-driven_Human_Motion_Estimation_from_Inertial_and_Ultra-wideband_Units_CVPR_2025_paper.html",
+      "selection_rank": 195,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 196,
+      "paper_id": "cvf:CVPR2025:Yu_Once-Tuning-Multiple-Variants_Tuning_Once_and_Expanded_as_Multiple_Vision-Language_Model_Variants_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yu_Once-Tuning-Multiple-Variants_Tuning_Once_and_Expanded_as_Multiple_Vision-Language_Model_Variants_CVPR_2025_paper.html",
+      "selection_rank": 196,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 197,
+      "paper_id": "cvf:CVPR2025:Shi_3D-SLNR_A_Super_Lightweight_Neural_Representation_for_Large-scale_3D_Mapping_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shi_3D-SLNR_A_Super_Lightweight_Neural_Representation_for_Large-scale_3D_Mapping_CVPR_2025_paper.html",
+      "selection_rank": 197,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 198,
+      "paper_id": "cvf:CVPR2025:Wang_Building_Vision_Models_upon_Heat_Conduction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Building_Vision_Models_upon_Heat_Conduction_CVPR_2025_paper.html",
+      "selection_rank": 198,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 199,
+      "paper_id": "cvf:CVPR2025:Jia_Reward_Fine-Tuning_Two-Step_Diffusion_Models_via_Learning_Differentiable_Latent-Space_Surrogate_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jia_Reward_Fine-Tuning_Two-Step_Diffusion_Models_via_Learning_Differentiable_Latent-Space_Surrogate_CVPR_2025_paper.html",
+      "selection_rank": 199,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 200,
+      "paper_id": "cvf:CVPR2025:Zou_PromptHashAffinity-Prompted_Collaborative_Cross-Modal_Learning_for_Adaptive_Hashing_Retrieval_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zou_PromptHashAffinity-Prompted_Collaborative_Cross-Modal_Learning_for_Adaptive_Hashing_Retrieval_CVPR_2025_paper.html",
+      "selection_rank": 200,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 201,
+      "paper_id": "cvf:CVPR2025:Wang_MLLM-as-a-Judge_for_Image_Safety_without_Human_Labeling_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MLLM-as-a-Judge_for_Image_Safety_without_Human_Labeling_CVPR_2025_paper.html",
+      "selection_rank": 201,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 202,
+      "paper_id": "cvf:CVPR2025:Wen_A_Data-Centric_Revisit_of_Pre-Trained_Vision_Models_for_Robot_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wen_A_Data-Centric_Revisit_of_Pre-Trained_Vision_Models_for_Robot_Learning_CVPR_2025_paper.html",
+      "selection_rank": 202,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 203,
+      "paper_id": "cvf:CVPR2025:Wu_F-LMM_Grounding_Frozen_Large_Multimodal_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_F-LMM_Grounding_Frozen_Large_Multimodal_Models_CVPR_2025_paper.html",
+      "selection_rank": 203,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 204,
+      "paper_id": "cvf:CVPR2025:Li_PointSR_Self-Regularized_Point_Supervision_for_Drone-View_Object_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_PointSR_Self-Regularized_Point_Supervision_for_Drone-View_Object_Detection_CVPR_2025_paper.html",
+      "selection_rank": 204,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 205,
+      "paper_id": "cvf:CVPR2025:Poesina_PQPP_A_Joint_Benchmark_for_Text-to-Image_Prompt_and_Query_Performance_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Poesina_PQPP_A_Joint_Benchmark_for_Text-to-Image_Prompt_and_Query_Performance_CVPR_2025_paper.html",
+      "selection_rank": 205,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 206,
+      "paper_id": "cvf:CVPR2025:Gao_Unified_Reconstruction_of_Static_and_Dynamic_Scenes_from_Events_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gao_Unified_Reconstruction_of_Static_and_Dynamic_Scenes_from_Events_CVPR_2025_paper.html",
+      "selection_rank": 206,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 207,
+      "paper_id": "cvf:CVPR2025:Moon_Co-op_Correspondence-based_Novel_Object_Pose_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Moon_Co-op_Correspondence-based_Novel_Object_Pose_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 207,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 208,
+      "paper_id": "cvf:CVPR2025:Li_AnyDressing_Customizable_Multi-Garment_Virtual_Dressing_via_Latent_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_AnyDressing_Customizable_Multi-Garment_Virtual_Dressing_via_Latent_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 208,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 209,
+      "paper_id": "cvf:CVPR2025:Taubner_CAP4D_Creating_Animatable_4D_Portrait_Avatars_with_Morphable_Multi-View_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Taubner_CAP4D_Creating_Animatable_4D_Portrait_Avatars_with_Morphable_Multi-View_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 209,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 210,
+      "paper_id": "cvf:CVPR2025:Zhu_POPEN_Preference-Based_Optimization_and_Ensemble_for_LVLM-Based_Reasoning_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhu_POPEN_Preference-Based_Optimization_and_Ensemble_for_LVLM-Based_Reasoning_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 210,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 211,
+      "paper_id": "cvf:CVPR2025:Behrad_Charm_The_Missing_Piece_in_ViT_Fine-Tuning_for_Image_Aesthetic_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Behrad_Charm_The_Missing_Piece_in_ViT_Fine-Tuning_for_Image_Aesthetic_CVPR_2025_paper.html",
+      "selection_rank": 211,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 212,
+      "paper_id": "cvf:CVPR2025:Liang_Movie_Weaver_Tuning-Free_Multi-Concept_Video_Personalization_with_Anchored_Prompts_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Movie_Weaver_Tuning-Free_Multi-Concept_Video_Personalization_with_Anchored_Prompts_CVPR_2025_paper.html",
+      "selection_rank": 212,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 213,
+      "paper_id": "cvf:CVPR2025:Yue_Arbitrary-steps_Image_Super-resolution_via_Diffusion_Inversion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yue_Arbitrary-steps_Image_Super-resolution_via_Diffusion_Inversion_CVPR_2025_paper.html",
+      "selection_rank": 213,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 214,
+      "paper_id": "cvf:CVPR2025:Kulits_Reconstructing_Animals_and_the_Wild_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kulits_Reconstructing_Animals_and_the_Wild_CVPR_2025_paper.html",
+      "selection_rank": 214,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 215,
+      "paper_id": "cvf:CVPR2025:Geng_LongVALE_Vision-Audio-Language-Event_Benchmark_Towards_Time-Aware_Omni-Modal_Perception_of_Long_Videos_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Geng_LongVALE_Vision-Audio-Language-Event_Benchmark_Towards_Time-Aware_Omni-Modal_Perception_of_Long_Videos_CVPR_2025_paper.html",
+      "selection_rank": 215,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 216,
+      "paper_id": "cvf:CVPR2025:Hanson_PUP_3D-GS_Principled_Uncertainty_Pruning_for_3D_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hanson_PUP_3D-GS_Principled_Uncertainty_Pruning_for_3D_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 216,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 217,
+      "paper_id": "cvf:CVPR2025:Li_DPC_Dual-Prompt_Collaboration_for_Tuning_Vision-Language_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_DPC_Dual-Prompt_Collaboration_for_Tuning_Vision-Language_Models_CVPR_2025_paper.html",
+      "selection_rank": 217,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 218,
+      "paper_id": "cvf:CVPR2025:Cha_VerbDiff_Text-Only_Diffusion_Models_with_Enhanced_Interaction_Awareness_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cha_VerbDiff_Text-Only_Diffusion_Models_with_Enhanced_Interaction_Awareness_CVPR_2025_paper.html",
+      "selection_rank": 218,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 219,
+      "paper_id": "cvf:CVPR2025:Fu_LLMDet_Learning_Strong_Open-Vocabulary_Object_Detectors_under_the_Supervision_of_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fu_LLMDet_Learning_Strong_Open-Vocabulary_Object_Detectors_under_the_Supervision_of_CVPR_2025_paper.html",
+      "selection_rank": 219,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 220,
+      "paper_id": "cvf:CVPR2025:Lyu_AniMer_Animal_Pose_and_Shape_Estimation_Using_Family_Aware_Transformer_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lyu_AniMer_Animal_Pose_and_Shape_Estimation_Using_Family_Aware_Transformer_CVPR_2025_paper.html",
+      "selection_rank": 220,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 221,
+      "paper_id": "cvf:CVPR2025:Kamberov_Doppelgangers_and_Adversarial_Vulnerability_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kamberov_Doppelgangers_and_Adversarial_Vulnerability_CVPR_2025_paper.html",
+      "selection_rank": 221,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 222,
+      "paper_id": "cvf:CVPR2025:Zhao_Can_Machines_Understand_Composition_Dataset_and_Benchmark_for_Photographic_Image_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_Can_Machines_Understand_Composition_Dataset_and_Benchmark_for_Photographic_Image_CVPR_2025_paper.html",
+      "selection_rank": 222,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 223,
+      "paper_id": "cvf:CVPR2025:Gao_PartRM_Modeling_Part-Level_Dynamics_with_Large_Cross-State_Reconstruction_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gao_PartRM_Modeling_Part-Level_Dynamics_with_Large_Cross-State_Reconstruction_Model_CVPR_2025_paper.html",
+      "selection_rank": 223,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 224,
+      "paper_id": "cvf:CVPR2025:Zhang_SCAP_Transductive_Test-Time_Adaptation_via_Supportive_Clique-based_Attribute_Prompting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_SCAP_Transductive_Test-Time_Adaptation_via_Supportive_Clique-based_Attribute_Prompting_CVPR_2025_paper.html",
+      "selection_rank": 224,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 225,
+      "paper_id": "cvf:CVPR2025:Hariat_Improved_Monocular_Depth_Prediction_Using_Distance_Transform_Over_Pre-semantic_Contours_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hariat_Improved_Monocular_Depth_Prediction_Using_Distance_Transform_Over_Pre-semantic_Contours_CVPR_2025_paper.html",
+      "selection_rank": 225,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 226,
+      "paper_id": "cvf:CVPR2025:Xie_PhysAnimator_Physics-Guided_Generative_Cartoon_Animation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xie_PhysAnimator_Physics-Guided_Generative_Cartoon_Animation_CVPR_2025_paper.html",
+      "selection_rank": 226,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 227,
+      "paper_id": "cvf:CVPR2025:Liu_EquiPose_Exploiting_Permutation_Equivariance_for_Relative_Camera_Pose_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_EquiPose_Exploiting_Permutation_Equivariance_for_Relative_Camera_Pose_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 227,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 228,
+      "paper_id": "cvf:CVPR2025:So_PCM__Picard_Consistency_Model_for_Fast_Parallel_Sampling_of_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/So_PCM__Picard_Consistency_Model_for_Fast_Parallel_Sampling_of_CVPR_2025_paper.html",
+      "selection_rank": 228,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 229,
+      "paper_id": "cvf:CVPR2025:Zhou_Towards_Explainable_and_Unprecedented_Accuracy_in_Matching_Challenging_Finger_Crease_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Towards_Explainable_and_Unprecedented_Accuracy_in_Matching_Challenging_Finger_Crease_CVPR_2025_paper.html",
+      "selection_rank": 229,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 230,
+      "paper_id": "cvf:CVPR2025:Qiu_AniGS_Animatable_Gaussian_Avatar_from_a_Single_Image_with_Inconsistent_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Qiu_AniGS_Animatable_Gaussian_Avatar_from_a_Single_Image_with_Inconsistent_CVPR_2025_paper.html",
+      "selection_rank": 230,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 231,
+      "paper_id": "cvf:CVPR2025:An_Decoder_Gradient_Shield_Provable_and_High-Fidelity_Prevention_of_Gradient-Based_Box-Free_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/An_Decoder_Gradient_Shield_Provable_and_High-Fidelity_Prevention_of_Gradient-Based_Box-Free_CVPR_2025_paper.html",
+      "selection_rank": 231,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 232,
+      "paper_id": "cvf:CVPR2025:Peng_DualTalk_Dual-Speaker_Interaction_for_3D_Talking_Head_Conversations_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_DualTalk_Dual-Speaker_Interaction_for_3D_Talking_Head_Conversations_CVPR_2025_paper.html",
+      "selection_rank": 232,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 233,
+      "paper_id": "cvf:CVPR2025:Zha_ReCon_Enhancing_True_Correspondence_Discrimination_through_Relation_Consistency_for_Robust_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zha_ReCon_Enhancing_True_Correspondence_Discrimination_through_Relation_Consistency_for_Robust_CVPR_2025_paper.html",
+      "selection_rank": 233,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 234,
+      "paper_id": "cvf:CVPR2025:Guimard_Classifier-to-Bias_Toward_Unsupervised_Automatic_Bias_Detection_for_Visual_Classifiers_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guimard_Classifier-to-Bias_Toward_Unsupervised_Automatic_Bias_Detection_for_Visual_Classifiers_CVPR_2025_paper.html",
+      "selection_rank": 234,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 235,
+      "paper_id": "cvf:CVPR2025:Peng_DeSiRe-GS_4D_Street_Gaussians_for_Static-Dynamic_Decomposition_and_Surface_Reconstruction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_DeSiRe-GS_4D_Street_Gaussians_for_Static-Dynamic_Decomposition_and_Surface_Reconstruction_CVPR_2025_paper.html",
+      "selection_rank": 235,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 236,
+      "paper_id": "cvf:CVPR2025:Xiang_Structured_3D_Latents_for_Scalable_and_Versatile_3D_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiang_Structured_3D_Latents_for_Scalable_and_Versatile_3D_Generation_CVPR_2025_paper.html",
+      "selection_rank": 236,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 237,
+      "paper_id": "cvf:CVPR2025:Cui_OPTICAL_Leveraging_Optimal_Transport_for_Contribution_Allocation_in_Dataset_Distillation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cui_OPTICAL_Leveraging_Optimal_Transport_for_Contribution_Allocation_in_Dataset_Distillation_CVPR_2025_paper.html",
+      "selection_rank": 237,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 238,
+      "paper_id": "cvf:CVPR2025:Liu_The_Devil_is_in_Low-Level_Features_for_Cross-Domain_Few-Shot_Segmentation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_The_Devil_is_in_Low-Level_Features_for_Cross-Domain_Few-Shot_Segmentation_CVPR_2025_paper.html",
+      "selection_rank": 238,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 239,
+      "paper_id": "cvf:CVPR2025:Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_CORE4D_A_4D_Human-Object-Human_Interaction_Dataset_for_Collaborative_Object_REarrangement_CVPR_2025_paper.html",
+      "selection_rank": 239,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 240,
+      "paper_id": "cvf:CVPR2025:Li_Enhancing_Adversarial_Transferability_with_Checkpoints_of_a_Single_Models_Training_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Enhancing_Adversarial_Transferability_with_Checkpoints_of_a_Single_Models_Training_CVPR_2025_paper.html",
+      "selection_rank": 240,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 241,
+      "paper_id": "cvf:CVPR2025:Jeong_Latent_Space_Super-Resolution_for_Higher-Resolution_Image_Generation_with_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jeong_Latent_Space_Super-Resolution_for_Higher-Resolution_Image_Generation_with_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 241,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 242,
+      "paper_id": "cvf:CVPR2025:Evani_Chebyshev_Attention_Depth_Permutation_Texture_Network_with_Latent_Texture_Attribute_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Evani_Chebyshev_Attention_Depth_Permutation_Texture_Network_with_Latent_Texture_Attribute_CVPR_2025_paper.html",
+      "selection_rank": 242,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 243,
+      "paper_id": "cvf:CVPR2025:Lee_REWIND_Real-Time_Egocentric_Whole-Body_Motion_Diffusion_with_Exemplar-Based_Identity_Conditioning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_REWIND_Real-Time_Egocentric_Whole-Body_Motion_Diffusion_with_Exemplar-Based_Identity_Conditioning_CVPR_2025_paper.html",
+      "selection_rank": 243,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 244,
+      "paper_id": "cvf:CVPR2025:Bao_GazeGene_Large-scale_Synthetic_Gaze_Dataset_with_3D_Eyeball_Annotations_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bao_GazeGene_Large-scale_Synthetic_Gaze_Dataset_with_3D_Eyeball_Annotations_CVPR_2025_paper.html",
+      "selection_rank": 244,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 245,
+      "paper_id": "cvf:CVPR2025:Jang_VL2Lite_Task-Specific_Knowledge_Distillation_from_Large_Vision-Language_Models_to_Lightweight_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jang_VL2Lite_Task-Specific_Knowledge_Distillation_from_Large_Vision-Language_Models_to_Lightweight_CVPR_2025_paper.html",
+      "selection_rank": 245,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 246,
+      "paper_id": "cvf:CVPR2025:Burgert_Go-with-the-Flow_Motion-Controllable_Video_Diffusion_Models_Using_Real-Time_Warped_Noise_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Burgert_Go-with-the-Flow_Motion-Controllable_Video_Diffusion_Models_Using_Real-Time_Warped_Noise_CVPR_2025_paper.html",
+      "selection_rank": 246,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 247,
+      "paper_id": "cvf:CVPR2025:Zhou_Bayesian_Test-Time_Adaptation_for_Vision-Language_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Bayesian_Test-Time_Adaptation_for_Vision-Language_Models_CVPR_2025_paper.html",
+      "selection_rank": 247,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 248,
+      "paper_id": "cvf:CVPR2025:Xia_One_is_Plenty_A_Polymorphic_Feature_Interpreter_for_Immutable_Heterogeneous_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xia_One_is_Plenty_A_Polymorphic_Feature_Interpreter_for_Immutable_Heterogeneous_CVPR_2025_paper.html",
+      "selection_rank": 248,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 249,
+      "paper_id": "cvf:CVPR2025:Ni_Balancing_Two_Classifiers_via_A_Simplex_ETF_Structure_for_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ni_Balancing_Two_Classifiers_via_A_Simplex_ETF_Structure_for_Model_CVPR_2025_paper.html",
+      "selection_rank": 249,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 250,
+      "paper_id": "cvf:CVPR2025:Duan_UNIC-Adapter_Unified_Image-instruction_Adapter_with_Multi-modal_Transformer_for_Image_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Duan_UNIC-Adapter_Unified_Image-instruction_Adapter_with_Multi-modal_Transformer_for_Image_Generation_CVPR_2025_paper.html",
+      "selection_rank": 250,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 251,
+      "paper_id": "cvf:CVPR2025:Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_MLVU_Benchmarking_Multi-task_Long_Video_Understanding_CVPR_2025_paper.html",
+      "selection_rank": 251,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 252,
+      "paper_id": "cvf:CVPR2025:Mao_SIR-DIFF_Sparse_Image_Sets_Restoration_with_Multi-View_Diffusion_Model_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Mao_SIR-DIFF_Sparse_Image_Sets_Restoration_with_Multi-View_Diffusion_Model_CVPR_2025_paper.html",
+      "selection_rank": 252,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 253,
+      "paper_id": "cvf:CVPR2025:Park_DropGaussian_Structural_Regularization_for_Sparse-view_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Park_DropGaussian_Structural_Regularization_for_Sparse-view_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 253,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 254,
+      "paper_id": "cvf:CVPR2025:Ma_Progressive_Rendering_Distillation_Adapting_Stable_Diffusion_for_Instant_Text-to-Mesh_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ma_Progressive_Rendering_Distillation_Adapting_Stable_Diffusion_for_Instant_Text-to-Mesh_Generation_CVPR_2025_paper.html",
+      "selection_rank": 254,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 255,
+      "paper_id": "cvf:CVPR2025:Zhao_SAM2Object_Consolidating_View_Consistency_via_SAM2_for_Zero-Shot_3D_Instance_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_SAM2Object_Consolidating_View_Consistency_via_SAM2_for_Zero-Shot_3D_Instance_CVPR_2025_paper.html",
+      "selection_rank": 255,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 256,
+      "paper_id": "cvf:CVPR2025:Lei_Instant_Adversarial_Purification_with_Adversarial_Consistency_Distillation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lei_Instant_Adversarial_Purification_with_Adversarial_Consistency_Distillation_CVPR_2025_paper.html",
+      "selection_rank": 256,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 257,
+      "paper_id": "cvf:CVPR2025:Li_Active_Event-based_Stereo_Vision_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Active_Event-based_Stereo_Vision_CVPR_2025_paper.html",
+      "selection_rank": 257,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 258,
+      "paper_id": "cvf:CVPR2025:Lee_Generative_Omnimatte_Learning_to_Decompose_Video_into_Layers_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Generative_Omnimatte_Learning_to_Decompose_Video_into_Layers_CVPR_2025_paper.html",
+      "selection_rank": 258,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 259,
+      "paper_id": "cvf:CVPR2025:Chen_Enhancing_Few-Shot_Class-Incremental_Learning_via_Training-Free_Bi-Level_Modality_Calibration_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Enhancing_Few-Shot_Class-Incremental_Learning_via_Training-Free_Bi-Level_Modality_Calibration_CVPR_2025_paper.html",
+      "selection_rank": 259,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 260,
+      "paper_id": "cvf:CVPR2025:Yun_AnyMoLe_Any_Character_Motion_In-betweening_Leveraging_Video_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yun_AnyMoLe_Any_Character_Motion_In-betweening_Leveraging_Video_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 260,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 261,
+      "paper_id": "cvf:CVPR2025:Cohen_Conditional_Balance_Improving_Multi-Conditioning_Trade-Offs_in_Image_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cohen_Conditional_Balance_Improving_Multi-Conditioning_Trade-Offs_in_Image_Generation_CVPR_2025_paper.html",
+      "selection_rank": 261,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 262,
+      "paper_id": "cvf:CVPR2025:Zhao_DriveDreamer4D_World_Models_Are_Effective_Data_Machines_for_4D_Driving_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_DriveDreamer4D_World_Models_Are_Effective_Data_Machines_for_4D_Driving_CVPR_2025_paper.html",
+      "selection_rank": 262,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 263,
+      "paper_id": "cvf:CVPR2025:Mehrab_Fish-Vista_A_Multi-Purpose_Dataset_for_Understanding__Identification_of_Traits_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Mehrab_Fish-Vista_A_Multi-Purpose_Dataset_for_Understanding__Identification_of_Traits_CVPR_2025_paper.html",
+      "selection_rank": 263,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 264,
+      "paper_id": "cvf:CVPR2025:Pitawela_CLOC_Contrastive_Learning_for_Ordinal_Classification_with_Multi-Margin_N-pair_Loss_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Pitawela_CLOC_Contrastive_Learning_for_Ordinal_Classification_with_Multi-Margin_N-pair_Loss_CVPR_2025_paper.html",
+      "selection_rank": 264,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 265,
+      "paper_id": "cvf:CVPR2025:Yan_Generalizing_Deepfake_Video_Detection_with_Plug-and-Play_Video-Level_Blending_and_Spatiotemporal_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_Generalizing_Deepfake_Video_Detection_with_Plug-and-Play_Video-Level_Blending_and_Spatiotemporal_CVPR_2025_paper.html",
+      "selection_rank": 265,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 266,
+      "paper_id": "cvf:CVPR2025:Chen_Hyperdimensional_Uncertainty_Quantification_for_Multimodal_Uncertainty_Fusion_in_Autonomous_Vehicles_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Hyperdimensional_Uncertainty_Quantification_for_Multimodal_Uncertainty_Fusion_in_Autonomous_Vehicles_CVPR_2025_paper.html",
+      "selection_rank": 266,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 267,
+      "paper_id": "cvf:CVPR2025:Fu_SegMAN_Omni-scale_Context_Modeling_with_State_Space_Models_and_Local_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fu_SegMAN_Omni-scale_Context_Modeling_with_State_Space_Models_and_Local_CVPR_2025_paper.html",
+      "selection_rank": 267,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 268,
+      "paper_id": "cvf:CVPR2025:Shen_EnliveningGS_Active_Locomotion_of_3DGS_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shen_EnliveningGS_Active_Locomotion_of_3DGS_CVPR_2025_paper.html",
+      "selection_rank": 268,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 269,
+      "paper_id": "cvf:CVPR2025:Rim_ProtoDepth_Unsupervised_Continual_Depth_Completion_with_Prototypes_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Rim_ProtoDepth_Unsupervised_Continual_Depth_Completion_with_Prototypes_CVPR_2025_paper.html",
+      "selection_rank": 269,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 270,
+      "paper_id": "cvf:CVPR2025:Weng_VIRES_Video_Instance_Repainting_via_Sketch_and_Text_Guided_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Weng_VIRES_Video_Instance_Repainting_via_Sketch_and_Text_Guided_Generation_CVPR_2025_paper.html",
+      "selection_rank": 270,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 271,
+      "paper_id": "cvf:CVPR2025:Yoon_Stop_Learning_it_all_to_Mitigate_Visual_Hallucination_Focus_on_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yoon_Stop_Learning_it_all_to_Mitigate_Visual_Hallucination_Focus_on_CVPR_2025_paper.html",
+      "selection_rank": 271,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 272,
+      "paper_id": "cvf:CVPR2025:Yuan_Where_the_Devil_Hides_Deepfake_Detectors_Can_No_Longer_Be_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yuan_Where_the_Devil_Hides_Deepfake_Detectors_Can_No_Longer_Be_CVPR_2025_paper.html",
+      "selection_rank": 272,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 273,
+      "paper_id": "cvf:CVPR2025:Ye_Schedule_On_the_Fly_Diffusion_Time_Prediction_for_Faster_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ye_Schedule_On_the_Fly_Diffusion_Time_Prediction_for_Faster_and_CVPR_2025_paper.html",
+      "selection_rank": 273,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 274,
+      "paper_id": "cvf:CVPR2025:Tian_DiC_Rethinking_Conv3x3_Designs_in_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_DiC_Rethinking_Conv3x3_Designs_in_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 274,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 275,
+      "paper_id": "cvf:CVPR2025:Xie_AdaDARE-gamma_Balancing_Stability_and_Plasticity_in_Multi-modal_LLMs_through_Efficient_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xie_AdaDARE-gamma_Balancing_Stability_and_Plasticity_in_Multi-modal_LLMs_through_Efficient_CVPR_2025_paper.html",
+      "selection_rank": 275,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 276,
+      "paper_id": "cvf:CVPR2025:Liu_Boosting_Point-Supervised_Temporal_Action_Localization_through_Integrating_Query_Reformation_and_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Boosting_Point-Supervised_Temporal_Action_Localization_through_Integrating_Query_Reformation_and_CVPR_2025_paper.html",
+      "selection_rank": 276,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 277,
+      "paper_id": "cvf:CVPR2025:Zhang_Fitted_Neural_Lossless_Image_Compression_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Fitted_Neural_Lossless_Image_Compression_CVPR_2025_paper.html",
+      "selection_rank": 277,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 278,
+      "paper_id": "cvf:CVPR2025:Xu_DriveGPT4-V2_Harnessing_Large_Language_Model_Capabilities_for_Enhanced_Closed-Loop_Autonomous_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xu_DriveGPT4-V2_Harnessing_Large_Language_Model_Capabilities_for_Enhanced_Closed-Loop_Autonomous_CVPR_2025_paper.html",
+      "selection_rank": 278,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 279,
+      "paper_id": "cvf:CVPR2025:Su_ANNEXE_Unified_Analyzing_Answering_and_Pixel_Grounding_for_Egocentric_Interaction_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Su_ANNEXE_Unified_Analyzing_Answering_and_Pixel_Grounding_for_Egocentric_Interaction_CVPR_2025_paper.html",
+      "selection_rank": 279,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 280,
+      "paper_id": "cvf:CVPR2025:Peng_ProxyTransformation_Preshaping_Point_Cloud_Manifold_With_Proxy_Attention_For_3D_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Peng_ProxyTransformation_Preshaping_Point_Cloud_Manifold_With_Proxy_Attention_For_3D_CVPR_2025_paper.html",
+      "selection_rank": 280,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 281,
+      "paper_id": "cvf:CVPR2025:Wu_FIMA-Q_Post-Training_Quantization_for_Vision_Transformers_by_Fisher_Information_Matrix_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_FIMA-Q_Post-Training_Quantization_for_Vision_Transformers_by_Fisher_Information_Matrix_CVPR_2025_paper.html",
+      "selection_rank": 281,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 282,
+      "paper_id": "cvf:CVPR2025:Li_One-for-More_Continual_Diffusion_Model_for_Anomaly_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_One-for-More_Continual_Diffusion_Model_for_Anomaly_Detection_CVPR_2025_paper.html",
+      "selection_rank": 282,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 283,
+      "paper_id": "cvf:CVPR2025:Dhakal_RANGE_Retrieval_Augmented_Neural_Fields_for_Multi-Resolution_Geo-Embeddings_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Dhakal_RANGE_Retrieval_Augmented_Neural_Fields_for_Multi-Resolution_Geo-Embeddings_CVPR_2025_paper.html",
+      "selection_rank": 283,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 284,
+      "paper_id": "cvf:CVPR2025:Franchi_Towards_Understanding_and_Quantifying_Uncertainty_for_Text-to-Image_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Franchi_Towards_Understanding_and_Quantifying_Uncertainty_for_Text-to-Image_Generation_CVPR_2025_paper.html",
+      "selection_rank": 284,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 285,
+      "paper_id": "cvf:CVPR2025:Zeng_DeepLA-Net_Very_Deep_Local_Aggregation_Networks_for_Point_Cloud_Analysis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_DeepLA-Net_Very_Deep_Local_Aggregation_Networks_for_Point_Cloud_Analysis_CVPR_2025_paper.html",
+      "selection_rank": 285,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 286,
+      "paper_id": "cvf:CVPR2025:Liu_MonoSplat_Generalizable_3D_Gaussian_Splatting_from_Monocular_Depth_Foundation_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MonoSplat_Generalizable_3D_Gaussian_Splatting_from_Monocular_Depth_Foundation_Models_CVPR_2025_paper.html",
+      "selection_rank": 286,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 287,
+      "paper_id": "cvf:CVPR2025:Sun_PolarNeXt_Rethink_Instance_Segmentation_with_Polar_Representation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_PolarNeXt_Rethink_Instance_Segmentation_with_Polar_Representation_CVPR_2025_paper.html",
+      "selection_rank": 287,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 288,
+      "paper_id": "cvf:CVPR2025:Wang_SeedVR_Seeding_Infinity_in_Diffusion_Transformer_Towards_Generic_Video_Restoration_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_SeedVR_Seeding_Infinity_in_Diffusion_Transformer_Towards_Generic_Video_Restoration_CVPR_2025_paper.html",
+      "selection_rank": 288,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 289,
+      "paper_id": "cvf:CVPR2025:Fang_Minding_Fuzzy_Regions_A_Data-driven_Alternating_Learning_Paradigm_for_Stable_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Fang_Minding_Fuzzy_Regions_A_Data-driven_Alternating_Learning_Paradigm_for_Stable_CVPR_2025_paper.html",
+      "selection_rank": 289,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 290,
+      "paper_id": "cvf:CVPR2025:Li_BADGR_Bundle_Adjustment_Diffusion_Conditioned_by_Gradients_for_Wide-Baseline_Floor_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_BADGR_Bundle_Adjustment_Diffusion_Conditioned_by_Gradients_for_Wide-Baseline_Floor_CVPR_2025_paper.html",
+      "selection_rank": 290,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 291,
+      "paper_id": "cvf:CVPR2025:Luu_RC-AutoCalib_An_End-to-End_Radar-Camera_Automatic_Calibration_Network_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Luu_RC-AutoCalib_An_End-to-End_Radar-Camera_Automatic_Calibration_Network_CVPR_2025_paper.html",
+      "selection_rank": 291,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 292,
+      "paper_id": "cvf:CVPR2025:Cheng_SACB-Net_Spatial-awareness_Convolutions_for_Medical_Image_Registration_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cheng_SACB-Net_Spatial-awareness_Convolutions_for_Medical_Image_Registration_CVPR_2025_paper.html",
+      "selection_rank": 292,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 293,
+      "paper_id": "cvf:CVPR2025:Guillaro_A_Bias-Free_Training_Paradigm_for_More_General_AI-generated_Image_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guillaro_A_Bias-Free_Training_Paradigm_for_More_General_AI-generated_Image_Detection_CVPR_2025_paper.html",
+      "selection_rank": 293,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 294,
+      "paper_id": "cvf:CVPR2025:Zhang_Robust-MVTON_Learning_Cross-Pose_Feature_Alignment_and_Fusion_for_Robust_Multi-View_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Robust-MVTON_Learning_Cross-Pose_Feature_Alignment_and_Fusion_for_Robust_Multi-View_CVPR_2025_paper.html",
+      "selection_rank": 294,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 295,
+      "paper_id": "cvf:CVPR2025:Yang_Hash3D_Training-free_Acceleration_for_3D_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Hash3D_Training-free_Acceleration_for_3D_Generation_CVPR_2025_paper.html",
+      "selection_rank": 295,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 296,
+      "paper_id": "cvf:CVPR2025:Liu_LoRA_Subtraction_for_Drift-Resistant_Space_in_Exemplar-Free_Continual_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_LoRA_Subtraction_for_Drift-Resistant_Space_in_Exemplar-Free_Continual_Learning_CVPR_2025_paper.html",
+      "selection_rank": 296,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 297,
+      "paper_id": "cvf:CVPR2025:Wu_WeatherGen_A_Unified_Diverse_Weather_Generator_for_LiDAR_Point_Clouds_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_WeatherGen_A_Unified_Diverse_Weather_Generator_for_LiDAR_Point_Clouds_CVPR_2025_paper.html",
+      "selection_rank": 297,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 298,
+      "paper_id": "cvf:CVPR2025:Gomez-Villa_The_Art_of_Deception_Color_Visual_Illusions_and_Diffusion_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gomez-Villa_The_Art_of_Deception_Color_Visual_Illusions_and_Diffusion_Models_CVPR_2025_paper.html",
+      "selection_rank": 298,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 299,
+      "paper_id": "cvf:CVPR2025:Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhao_TASTE-Rob_Advancing_Video_Generation_of_Task-Oriented_Hand-Object_Interaction_for_Generalizable_CVPR_2025_paper.html",
+      "selection_rank": 299,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 300,
+      "paper_id": "cvf:CVPR2025:Zha_Language-Guided_Image_Tokenization_for_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zha_Language-Guided_Image_Tokenization_for_Generation_CVPR_2025_paper.html",
+      "selection_rank": 300,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 301,
+      "paper_id": "cvf:CVPR2025:Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025_paper.html",
+      "selection_rank": 301,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 302,
+      "paper_id": "cvf:CVPR2025:Hess_SplatAD_Real-Time_Lidar_and_Camera_Rendering_with_3D_Gaussian_Splatting_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hess_SplatAD_Real-Time_Lidar_and_Camera_Rendering_with_3D_Gaussian_Splatting_CVPR_2025_paper.html",
+      "selection_rank": 302,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 303,
+      "paper_id": "cvf:CVPR2025:Tran_Enhancing_Dataset_Distillation_via_Non-Critical_Region_Refinement_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tran_Enhancing_Dataset_Distillation_via_Non-Critical_Region_Refinement_CVPR_2025_paper.html",
+      "selection_rank": 303,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 304,
+      "paper_id": "cvf:CVPR2025:Xiang_DKDM_Data-Free_Knowledge_Distillation_for_Diffusion_Models_with_Any_Architecture_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xiang_DKDM_Data-Free_Knowledge_Distillation_for_Diffusion_Models_with_Any_Architecture_CVPR_2025_paper.html",
+      "selection_rank": 304,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 305,
+      "paper_id": "cvf:CVPR2025:Huynh_CoLLM_A_Large_Language_Model_for_Composed_Image_Retrieval_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huynh_CoLLM_A_Large_Language_Model_for_Composed_Image_Retrieval_CVPR_2025_paper.html",
+      "selection_rank": 305,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 306,
+      "paper_id": "cvf:CVPR2025:Tian_VidMuse_A_Simple_Video-to-Music_Generation_Framework_with_Long-Short-Term_Modeling_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_VidMuse_A_Simple_Video-to-Music_Generation_Framework_with_Long-Short-Term_Modeling_CVPR_2025_paper.html",
+      "selection_rank": 306,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 307,
+      "paper_id": "cvf:CVPR2025:Wei_Mono3DVLT_Monocular-Video-Based_3D_Visual_Language_Tracking_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wei_Mono3DVLT_Monocular-Video-Based_3D_Visual_Language_Tracking_CVPR_2025_paper.html",
+      "selection_rank": 307,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 308,
+      "paper_id": "cvf:CVPR2025:Teney_Do_We_Always_Need_the_Simplicity_Bias_Looking_for_Optimal_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Teney_Do_We_Always_Need_the_Simplicity_Bias_Looking_for_Optimal_CVPR_2025_paper.html",
+      "selection_rank": 308,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 309,
+      "paper_id": "cvf:CVPR2025:Deng_3D-LLaVA_Towards_Generalist_3D_LMMs_with_Omni_Superpoint_Transformer_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Deng_3D-LLaVA_Towards_Generalist_3D_LMMs_with_Omni_Superpoint_Transformer_CVPR_2025_paper.html",
+      "selection_rank": 309,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 310,
+      "paper_id": "cvf:CVPR2025:Hou_Directional_Label_Diffusion_Model_for_Learning_from_Noisy_Labels_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hou_Directional_Label_Diffusion_Model_for_Learning_from_Noisy_Labels_CVPR_2025_paper.html",
+      "selection_rank": 310,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 311,
+      "paper_id": "cvf:CVPR2025:Liu_FlexUOD_The_Answer_to_Real-world_Unsupervised_Image_Outlier_Detection_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_FlexUOD_The_Answer_to_Real-world_Unsupervised_Image_Outlier_Detection_CVPR_2025_paper.html",
+      "selection_rank": 311,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 312,
+      "paper_id": "cvf:CVPR2025:Chharia_MV-SSM_Multi-View_State_Space_Modeling_for_3D_Human_Pose_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chharia_MV-SSM_Multi-View_State_Space_Modeling_for_3D_Human_Pose_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 312,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 313,
+      "paper_id": "cvf:CVPR2025:Liu_EasyHOI_Unleashing_the_Power_of_Large_Models_for_Reconstructing_Hand-Object_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_EasyHOI_Unleashing_the_Power_of_Large_Models_for_Reconstructing_Hand-Object_CVPR_2025_paper.html",
+      "selection_rank": 313,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 314,
+      "paper_id": "cvf:CVPR2025:Lee_HUSH_Holistic_Panoramic_3D_Scene_Understanding_using_Spherical_Harmonics_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_HUSH_Holistic_Panoramic_3D_Scene_Understanding_using_Spherical_Harmonics_CVPR_2025_paper.html",
+      "selection_rank": 314,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 315,
+      "paper_id": "cvf:CVPR2025:Nguyen_Joint_Optimization_of_Neural_Radiance_Fields_and_Continuous_Camera_Motion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Nguyen_Joint_Optimization_of_Neural_Radiance_Fields_and_Continuous_Camera_Motion_CVPR_2025_paper.html",
+      "selection_rank": 315,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 316,
+      "paper_id": "cvf:CVPR2025:Chen_SnapGen_Taming_High-Resolution_Text-to-Image_Models_for_Mobile_Devices_with_Efficient_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SnapGen_Taming_High-Resolution_Text-to-Image_Models_for_Mobile_Devices_with_Efficient_CVPR_2025_paper.html",
+      "selection_rank": 316,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 317,
+      "paper_id": "cvf:CVPR2025:Yan_Incomplete_Multi-View_Multi-label_Learning_via_Disentangled_Representation_and_Label_Semantic_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yan_Incomplete_Multi-View_Multi-label_Learning_via_Disentangled_Representation_and_Label_Semantic_CVPR_2025_paper.html",
+      "selection_rank": 317,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 318,
+      "paper_id": "cvf:CVPR2025:Liu_Large-scale_Multi-view_Tensor_Clustering_with_Implicit_Linear_Kernels_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_Large-scale_Multi-view_Tensor_Clustering_with_Implicit_Linear_Kernels_CVPR_2025_paper.html",
+      "selection_rank": 318,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 319,
+      "paper_id": "cvf:CVPR2025:Khalil_NoT_Federated_Unlearning_via_Weight_Negation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Khalil_NoT_Federated_Unlearning_via_Weight_Negation_CVPR_2025_paper.html",
+      "selection_rank": 319,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 320,
+      "paper_id": "cvf:CVPR2025:Zhou_Attention_Distillation_A_Unified_Approach_to_Visual_Characteristics_Transfer_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Attention_Distillation_A_Unified_Approach_to_Visual_Characteristics_Transfer_CVPR_2025_paper.html",
+      "selection_rank": 320,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 321,
+      "paper_id": "cvf:CVPR2025:Lee_Diffusion_Bridge_Leveraging_Diffusion_Model_to_Reduce_the_Modality_Gap_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Diffusion_Bridge_Leveraging_Diffusion_Model_to_Reduce_the_Modality_Gap_CVPR_2025_paper.html",
+      "selection_rank": 321,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 322,
+      "paper_id": "cvf:CVPR2025:Zhou_Ferret_An_Efficient_Online_Continual_Learning_Framework_under_Varying_Memory_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhou_Ferret_An_Efficient_Online_Continual_Learning_Framework_under_Varying_Memory_CVPR_2025_paper.html",
+      "selection_rank": 322,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 323,
+      "paper_id": "cvf:CVPR2025:Wang_Adventurer_Optimizing_Vision_Mamba_Architecture_Designs_for_Efficiency_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Adventurer_Optimizing_Vision_Mamba_Architecture_Designs_for_Efficiency_CVPR_2025_paper.html",
+      "selection_rank": 323,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 324,
+      "paper_id": "cvf:CVPR2025:Shao_RayFlow_Instance-Aware_Diffusion_Acceleration_via_Adaptive_Flow_Trajectories_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shao_RayFlow_Instance-Aware_Diffusion_Acceleration_via_Adaptive_Flow_Trajectories_CVPR_2025_paper.html",
+      "selection_rank": 324,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 325,
+      "paper_id": "cvf:CVPR2025:Bilecen_Reference-Based_3D-Aware_Image_Editing_with_Triplanes_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Bilecen_Reference-Based_3D-Aware_Image_Editing_with_Triplanes_CVPR_2025_paper.html",
+      "selection_rank": 325,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 326,
+      "paper_id": "cvf:CVPR2025:Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Video_Depth_Anything_Consistent_Depth_Estimation_for_Super-Long_Videos_CVPR_2025_paper.html",
+      "selection_rank": 326,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 327,
+      "paper_id": "cvf:CVPR2025:Chen_SlideChat_A_Large_Vision-Language_Assistant_for_Whole-Slide_Pathology_Image_Understanding_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_SlideChat_A_Large_Vision-Language_Assistant_for_Whole-Slide_Pathology_Image_Understanding_CVPR_2025_paper.html",
+      "selection_rank": 327,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 328,
+      "paper_id": "cvf:CVPR2025:Yi_Estimating_Body_and_Hand_Motion_in_an_Ego-sensed_World_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yi_Estimating_Body_and_Hand_Motion_in_an_Ego-sensed_World_CVPR_2025_paper.html",
+      "selection_rank": 328,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 329,
+      "paper_id": "cvf:CVPR2025:Plizzari_Omnia_de_EgoTempo_Benchmarking_Temporal_Understanding_of_Multi-Modal_LLMs_in_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Plizzari_Omnia_de_EgoTempo_Benchmarking_Temporal_Understanding_of_Multi-Modal_LLMs_in_CVPR_2025_paper.html",
+      "selection_rank": 329,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 330,
+      "paper_id": "cvf:CVPR2025:Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Towards_All-in-One_Medical_Image_Re-Identification_CVPR_2025_paper.html",
+      "selection_rank": 330,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 331,
+      "paper_id": "cvf:CVPR2025:Zheng_Task-Agnostic_Guided_Feature_Expansion_for_Class-Incremental_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_Task-Agnostic_Guided_Feature_Expansion_for_Class-Incremental_Learning_CVPR_2025_paper.html",
+      "selection_rank": 331,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 332,
+      "paper_id": "cvf:CVPR2025:Chen_Collaborative_Decoding_Makes_Visual_Auto-Regressive_Modeling_Efficient_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Collaborative_Decoding_Makes_Visual_Auto-Regressive_Modeling_Efficient_CVPR_2025_paper.html",
+      "selection_rank": 332,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 333,
+      "paper_id": "cvf:CVPR2025:Khan_Sketchtopia_A_Dataset_and_Foundational_Agents_for_Benchmarking_Asynchronous_Multimodal_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Khan_Sketchtopia_A_Dataset_and_Foundational_Agents_for_Benchmarking_Asynchronous_Multimodal_CVPR_2025_paper.html",
+      "selection_rank": 333,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 334,
+      "paper_id": "cvf:CVPR2025:Wang_Boosting_Domain_Incremental_Learning_Selecting_the_Optimal_Parameters_is_All_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Boosting_Domain_Incremental_Learning_Selecting_the_Optimal_Parameters_is_All_CVPR_2025_paper.html",
+      "selection_rank": 334,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 335,
+      "paper_id": "cvf:CVPR2025:Wang_MetaShadow_Object-Centered_Shadow_Detection_Removal_and_Synthesis_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_MetaShadow_Object-Centered_Shadow_Detection_Removal_and_Synthesis_CVPR_2025_paper.html",
+      "selection_rank": 335,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 336,
+      "paper_id": "cvf:CVPR2025:Lee_EditSplat_Multi-View_Fusion_and_Attention-Guided_Optimization_for_View-Consistent_3D_Scene_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Lee_EditSplat_Multi-View_Fusion_and_Attention-Guided_Optimization_for_View-Consistent_3D_Scene_CVPR_2025_paper.html",
+      "selection_rank": 336,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 337,
+      "paper_id": "cvf:CVPR2025:Ao_Open-World_Amodal_Appearance_Completion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ao_Open-World_Amodal_Appearance_Completion_CVPR_2025_paper.html",
+      "selection_rank": 337,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 338,
+      "paper_id": "cvf:CVPR2025:Yang_Towards_Explicit_Geometry-Reflectance_Collaboration_for_Generalized_LiDAR_Segmentation_in_Adverse_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Towards_Explicit_Geometry-Reflectance_Collaboration_for_Generalized_LiDAR_Segmentation_in_Adverse_CVPR_2025_paper.html",
+      "selection_rank": 338,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 339,
+      "paper_id": "cvf:CVPR2025:Baek_TADFormer_Task-Adaptive_Dynamic_TransFormer_for_Efficient_Multi-Task_Learning_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Baek_TADFormer_Task-Adaptive_Dynamic_TransFormer_for_Efficient_Multi-Task_Learning_CVPR_2025_paper.html",
+      "selection_rank": 339,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 340,
+      "paper_id": "cvf:CVPR2025:Walker_CrossSDF_3D_Reconstruction_of_Thin_Structures_From_Cross-Sections_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Walker_CrossSDF_3D_Reconstruction_of_Thin_Structures_From_Cross-Sections_CVPR_2025_paper.html",
+      "selection_rank": 340,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 341,
+      "paper_id": "cvf:CVPR2025:Hanson_Speedy-Splat_Fast_3D_Gaussian_Splatting_with_Sparse_Pixels_and_Sparse_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Hanson_Speedy-Splat_Fast_3D_Gaussian_Splatting_with_Sparse_Pixels_and_Sparse_CVPR_2025_paper.html",
+      "selection_rank": 341,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 342,
+      "paper_id": "cvf:CVPR2025:Kim_RefPose_Leveraging_Reference_Geometric_Correspondences_for_Accurate_6D_Pose_Estimation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kim_RefPose_Leveraging_Reference_Geometric_Correspondences_for_Accurate_6D_Pose_Estimation_CVPR_2025_paper.html",
+      "selection_rank": 342,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 343,
+      "paper_id": "cvf:CVPR2025:Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wang_Flash-Split_2D_Reflection_Removal_with_Flash_Cues_and_Latent_Diffusion_CVPR_2025_paper.html",
+      "selection_rank": 343,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 344,
+      "paper_id": "cvf:CVPR2025:Yang_Prometheus_3D-Aware_Latent_Diffusion_Models_for_Feed-Forward_Text-to-3D_Scene_Generation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Yang_Prometheus_3D-Aware_Latent_Diffusion_Models_for_Feed-Forward_Text-to-3D_Scene_Generation_CVPR_2025_paper.html",
+      "selection_rank": 344,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 345,
+      "paper_id": "cvf:CVPR2025:Jin_On_Denoising_Walking_Videos_for_Gait_Recognition_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Jin_On_Denoising_Walking_Videos_for_Gait_Recognition_CVPR_2025_paper.html",
+      "selection_rank": 345,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 346,
+      "paper_id": "cvf:CVPR2025:Kumar_DynaMoDe-NeRF_Motion-aware_Deblurring_Neural_Radiance_Field_for_Dynamic_Scenes_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Kumar_DynaMoDe-NeRF_Motion-aware_Deblurring_Neural_Radiance_Field_for_Dynamic_Scenes_CVPR_2025_paper.html",
+      "selection_rank": 346,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 347,
+      "paper_id": "cvf:CVPR2025:Albastaki_Multi-Resolution_Pathology-Language_Pre-training_Model_with_Text-Guided_Visual_Representation_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Albastaki_Multi-Resolution_Pathology-Language_Pre-training_Model_with_Text-Guided_Visual_Representation_CVPR_2025_paper.html",
+      "selection_rank": 347,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 348,
+      "paper_id": "cvf:CVPR2025:Zanella_Realistic_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Zanella_Realistic_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2025_paper.html",
+      "selection_rank": 348,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 349,
+      "paper_id": "cvf:CVPR2025:Ziliotto_TANGO_Training-free_Embodied_AI_Agents_for_Open-world_Tasks_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Ziliotto_TANGO_Training-free_Embodied_AI_Agents_for_Open-world_Tasks_CVPR_2025_paper.html",
+      "selection_rank": 349,
+      "source_record_id": ""
+    },
+    {
+      "ranking_position": 350,
+      "paper_id": "cvf:CVPR2025:Huang_Unveiling_the_Mist_over_3D_Vision-Language_Understanding_Object-centric_Evaluation_with_CVPR_2025",
+      "cvf_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Huang_Unveiling_the_Mist_over_3D_Vision-Language_Understanding_Object-centric_Evaluation_with_CVPR_2025_paper.html",
+      "selection_rank": 350,
+      "source_record_id": ""
+    }
+  ]
+}

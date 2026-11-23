@@ -31,3 +31,6 @@
 /outputs/a8/** -text
 /report/a8_handoff.md text eol=lf
 /handoff/a/A2_HANDOFF.md text eol=lf
+/data/processed/cvpr2025/*.csv text eol=lf
+/config/a_cvpr2025_350_selection.json text eol=lf
+/outputs/trend/quality/cvpr2024_selection.csv text eol=lf

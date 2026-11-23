@@ -1,0 +1,14 @@
+{
+  "project_id": "mxh_cv_trend",
+  "schema_version": "2.0.0",
+  "venue_ids": [
+    "venue:CVPR:2024:main",
+    "venue:CVPR:2025:main",
+    "venue:CVPR:2026:main",
+    "venue:ICCV:2023:main",
+    "venue:ICCV:2025:main"
+  ],
+  "seed": 20261103,
+  "target_count": 350,
+  "selection_algorithm": "deduplicate canonical main-track URLs; sort by sha256(utf8(seed + newline + canonical_url)), then URL; take first target_count; no replacements"
+}
