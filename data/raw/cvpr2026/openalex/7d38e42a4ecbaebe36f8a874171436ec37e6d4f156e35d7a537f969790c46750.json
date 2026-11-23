@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Single-step+Diffusion-based+Video+Coding+with+Semantic-Temporal+Guidance%22",
+  "fetched_at": "2026-11-23T10:19:38Z",
+  "http_status": 200,
+  "content_sha256": "cdd32700e73c35f39e0ca313887386245dec67f5b0ca854d0371baaa1a0d8cd2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cdd32700e73c35f39e0ca313887386245dec67f5b0ca854d0371baaa1a0d8cd2.json.gz"
+}

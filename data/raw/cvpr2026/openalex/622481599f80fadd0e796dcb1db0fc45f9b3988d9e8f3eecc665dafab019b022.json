@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22White-Balance+First%2C+Adjust+Later%3A+Cross-Camera+Color+Constancy+via+Vision-Language+Evaluation%22",
+  "fetched_at": "2026-11-23T10:15:57Z",
+  "http_status": 200,
+  "content_sha256": "3e6fe853ddd61c86245e678f37360abaf5469571a59d2943deea261ff3eb1c5b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3e6fe853ddd61c86245e678f37360abaf5469571a59d2943deea261ff3eb1c5b.json.gz"
+}

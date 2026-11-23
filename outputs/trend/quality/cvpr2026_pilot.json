@@ -1,0 +1,38 @@
+{
+  "conference": "CVPR",
+  "conference_year": 2026,
+  "selection_snapshot_id": "selection:83209f0bb1df28a28de82ff3069f020b296d08bd266efd7b2b390328380b3056",
+  "selection_rank_range": [
+    1,
+    20
+  ],
+  "rule_versions": {
+    "openalex-work-match": "1.2.0"
+  },
+  "source_record_ids_sha256": "ab6e14b837c9a60a8b9591b46c6225b2dda8301525bbb8a3c6ff2d559cd2edd8",
+  "source_count": 56,
+  "openalex_status_counts": {
+    "matched": 11,
+    "needs_review": 8,
+    "not_found": 1
+  },
+  "abstract_cvf": {
+    "numerator": 20,
+    "denominator": 20,
+    "percent": 100.0
+  },
+  "papers_with_institution_in_matched_work": {
+    "numerator": 7,
+    "denominator": 20,
+    "percent": 35.0
+  },
+  "authorships_with_institution_in_matched_work": {
+    "numerator": 40,
+    "denominator": 157,
+    "percent": 25.48
+  },
+  "network_requests": {
+    "CVF": 0,
+    "OpenAlex": 0
+  }
+}

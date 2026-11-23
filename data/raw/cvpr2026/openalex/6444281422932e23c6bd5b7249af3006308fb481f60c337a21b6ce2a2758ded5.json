@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Discriminative+Perception+via+Anchored+Description+for+Reasoning+Segmentation%22",
+  "fetched_at": "2026-11-23T10:23:03Z",
+  "http_status": 200,
+  "content_sha256": "5c119ee59825a9006bb6dec0e911e1d8c232191318a5dd3dd22a30f572062a72",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5c119ee59825a9006bb6dec0e911e1d8c232191318a5dd3dd22a30f572062a72.json.gz"
+}

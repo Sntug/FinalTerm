@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Human-Centric+Multi-Exposure+Fusion%3A+Benchmark+and+Bi-level+Cognition+Distillation+Framework",
+  "fetched_at": "2026-11-23T10:22:56Z",
+  "http_status": 200,
+  "content_sha256": "7f4e5a5db9f817b145cdcf3345dfd878c7117d6d58be2ef215e0f56a4d6578c8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7f4e5a5db9f817b145cdcf3345dfd878c7117d6d58be2ef215e0f56a4d6578c8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Pluggable+Pruning+with+Contiguous+Layer+Distillation+for+Diffusion+Transformers%22",
+  "fetched_at": "2026-11-23T10:25:42Z",
+  "http_status": 200,
+  "content_sha256": "fbd3ad5301b54ce222fada90cd8bee62fddb397a7e495de97c2a7c9be0a9a9d2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fbd3ad5301b54ce222fada90cd8bee62fddb397a7e495de97c2a7c9be0a9a9d2.json.gz"
+}

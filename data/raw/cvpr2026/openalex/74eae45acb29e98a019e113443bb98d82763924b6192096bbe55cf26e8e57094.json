@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SMVRT%3A+Implicit+Human+3D+Modeling+Using+Sparse+Multi-View+Volumetric+Reconstruction+with+Transformer+Fusion%22",
+  "fetched_at": "2026-11-23T10:19:54Z",
+  "http_status": 200,
+  "content_sha256": "ae178d80ee3fc5e5f0daad3365d0bae3083cff0f45eaf87668c1627da03233cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ae178d80ee3fc5e5f0daad3365d0bae3083cff0f45eaf87668c1627da03233cb.json.gz"
+}

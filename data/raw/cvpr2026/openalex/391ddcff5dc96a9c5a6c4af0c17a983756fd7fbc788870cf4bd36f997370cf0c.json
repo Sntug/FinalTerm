@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22From+Failure+to+Feedback%3A+Group+Revision+Unlocks+Hard+Cases+in+Object-Level+Grounding%22",
+  "fetched_at": "2026-11-23T10:23:19Z",
+  "http_status": 200,
+  "content_sha256": "e47d28a83460b551385bf16f4f5ac69174d2f9e93b9869ba498d932a25a9e2c8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e47d28a83460b551385bf16f4f5ac69174d2f9e93b9869ba498d932a25a9e2c8.json.gz"
+}

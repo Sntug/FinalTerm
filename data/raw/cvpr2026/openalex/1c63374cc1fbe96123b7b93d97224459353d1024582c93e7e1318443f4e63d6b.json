@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GeoTikzBridge%3A+Advancing+Multimodal+Code+Generation+for+Geometric+Perception+and+Reasoning%22",
+  "fetched_at": "2026-11-23T10:21:27Z",
+  "http_status": 200,
+  "content_sha256": "dee6a6e5ab2a1763245a01234459ae68705b120b02bf91b8cc6922585add20f1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dee6a6e5ab2a1763245a01234459ae68705b120b02bf91b8cc6922585add20f1.json.gz"
+}

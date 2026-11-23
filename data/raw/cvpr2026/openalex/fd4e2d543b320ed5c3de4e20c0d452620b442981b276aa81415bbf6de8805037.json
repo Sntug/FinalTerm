@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GeodesicNVS%3A+Probability+Density+Geodesic+Flow+Matching+for+Novel+View+Synthesis%22",
+  "fetched_at": "2026-11-23T10:18:38Z",
+  "http_status": 200,
+  "content_sha256": "5d1145415c455dbd84be26502db8107eb6faf6793e246c1a6a1f1f4af529f244",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5d1145415c455dbd84be26502db8107eb6faf6793e246c1a6a1f1f4af529f244.json.gz"
+}

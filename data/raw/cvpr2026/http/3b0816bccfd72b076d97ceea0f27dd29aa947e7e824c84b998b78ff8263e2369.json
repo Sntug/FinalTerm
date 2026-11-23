@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gong_Med-CMR_A_Fine-Grained_Benchmark_Integrating_Visual_Evidence_and_Clinical_Logic_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:10:31Z",
+  "http_status": 200,
+  "content_sha256": "cc5e9fa7a7f472f892812206ed8d98f7377ab2d96edfbf9e47f4f98872dc3411",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1d9d-65282230cd122\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/cc5e9fa7a7f472f892812206ed8d98f7377ab2d96edfbf9e47f4f98872dc3411.html.gz"
+}

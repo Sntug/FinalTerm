@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Fine-Tuning+Impairs+the+Balancedness+of+Foundation+Models+in+Long-tailed+Personalized+Federated+Learning%22",
+  "fetched_at": "2026-11-23T10:22:03Z",
+  "http_status": 200,
+  "content_sha256": "cfd623a2863989ac206ed64816b99a31ba4b1c3bf01827001d49fbdfa11e8c7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cfd623a2863989ac206ed64816b99a31ba4b1c3bf01827001d49fbdfa11e8c7f.json.gz"
+}

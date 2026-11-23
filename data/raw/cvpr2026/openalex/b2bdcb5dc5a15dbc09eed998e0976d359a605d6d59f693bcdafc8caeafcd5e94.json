@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Physical+Adversarial+Clothing+Evades+Visible-Thermal+Detectors+via+Non-Overlapping+RGB-T+Pattern%22",
+  "fetched_at": "2026-11-23T10:14:31Z",
+  "http_status": 200,
+  "content_sha256": "fb85900cd20ed783b573722ba29a1c7c20f74a1f305187c8a40fc78ffb5d60b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fb85900cd20ed783b573722ba29a1c7c20f74a1f305187c8a40fc78ffb5d60b4.json.gz"
+}

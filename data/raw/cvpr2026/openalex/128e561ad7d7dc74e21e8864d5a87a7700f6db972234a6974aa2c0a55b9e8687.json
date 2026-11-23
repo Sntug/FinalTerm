@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bidirectional+Cross-Modal+Prompting+for+Event-Frame+Asymmetric+Stereo%22",
+  "fetched_at": "2026-11-23T10:18:51Z",
+  "http_status": 200,
+  "content_sha256": "1d951d89a8d847e85f43c6a28c035997bba68bbbf2f1f61dcdbef9bfc0eda701",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1d951d89a8d847e85f43c6a28c035997bba68bbbf2f1f61dcdbef9bfc0eda701.json.gz"
+}

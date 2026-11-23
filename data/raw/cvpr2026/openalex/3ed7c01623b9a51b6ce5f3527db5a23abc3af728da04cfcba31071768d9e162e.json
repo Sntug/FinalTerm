@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Compositional+Transformation+Reasoning+for+Composed+Video+Retrieval",
+  "fetched_at": "2026-11-23T10:24:00Z",
+  "http_status": 200,
+  "content_sha256": "bc55f7ecdffacafe112bc913bbed121e3316542477dc7a70a05f48856b3d92f7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bc55f7ecdffacafe112bc913bbed121e3316542477dc7a70a05f48856b3d92f7.json.gz"
+}

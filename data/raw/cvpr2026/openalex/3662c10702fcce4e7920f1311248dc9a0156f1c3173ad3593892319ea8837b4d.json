@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22%24%5Coslash%24+Source+Models+Leak+What+They+Shouldn%27t+%24%5Cnrightarrow%24%3A+Unlearning+Zero-Shot+Transfer+in+Domain+Adaptation+Through+Adversarial+Optimization%22",
+  "fetched_at": "2026-11-23T10:13:45Z",
+  "http_status": 200,
+  "content_sha256": "c5c34fec121fd46b7ca7299321890942fdbe5477d29742292359f0653c5c96a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c5c34fec121fd46b7ca7299321890942fdbe5477d29742292359f0653c5c96a4.json.gz"
+}

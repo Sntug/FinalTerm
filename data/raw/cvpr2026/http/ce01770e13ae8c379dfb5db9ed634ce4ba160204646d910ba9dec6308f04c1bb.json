@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nazarczuk_Charge_A_Comprehensive_Novel_View_Synthesis_Benchmark_and_Dataset_to_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:12:03Z",
+  "http_status": 200,
+  "content_sha256": "60daccdad2d8989a7cc1d875cfbf1deade13c33a57aef35ec796559eccc21238",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1891-6528223180834\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/60daccdad2d8989a7cc1d875cfbf1deade13c33a57aef35ec796559eccc21238.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TAP%3A+A+Token-Adaptive+Predictor+Framework+for+Training-Free+Diffusion+Acceleration%22",
+  "fetched_at": "2026-11-23T10:22:16Z",
+  "http_status": 200,
+  "content_sha256": "2b51259130176500090d2cfeaeecba447a46eaeebbb244502681afe0ee969ac7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/2b51259130176500090d2cfeaeecba447a46eaeebbb244502681afe0ee969ac7.json.gz"
+}

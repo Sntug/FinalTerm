@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Speeding+Up+the+Learning+of+3D+Gaussians+with+Much+Shorter+Gaussian+Lists%22",
+  "fetched_at": "2026-11-23T10:18:47Z",
+  "http_status": 200,
+  "content_sha256": "13db0fe6c11207e11ad8e62c37e6deaa19ce5262eff77adb47305e58476b0d5d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/13db0fe6c11207e11ad8e62c37e6deaa19ce5262eff77adb47305e58476b0d5d.json.gz"
+}

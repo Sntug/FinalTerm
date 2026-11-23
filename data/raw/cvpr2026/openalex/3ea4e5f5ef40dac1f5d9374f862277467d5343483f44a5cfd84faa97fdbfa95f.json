@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BUSSARD%3A+Normalizing+Flows+for+Bijective+Universal+Scene-Specific+Anomalous+Relationship+Detection%22",
+  "fetched_at": "2026-11-23T10:15:17Z",
+  "http_status": 200,
+  "content_sha256": "19dbdf03714c5221757054c72a3824e74c116a996aef6524672b784d0b329d6f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/19dbdf03714c5221757054c72a3824e74c116a996aef6524672b784d0b329d6f.json.gz"
+}

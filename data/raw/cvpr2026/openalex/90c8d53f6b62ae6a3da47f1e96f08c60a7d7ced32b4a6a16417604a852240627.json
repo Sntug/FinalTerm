@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FaceCam%3A+Portrait+Video+Camera+Control+via+Scale-Aware+Conditioning%22",
+  "fetched_at": "2026-11-23T10:18:11Z",
+  "http_status": 200,
+  "content_sha256": "e3ccfd3c6e77cbae7e03d21380158a463c2a1ca53ff426d963f6c8429fed1f19",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e3ccfd3c6e77cbae7e03d21380158a463c2a1ca53ff426d963f6c8429fed1f19.json.gz"
+}

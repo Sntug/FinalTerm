@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Understanding+Temporal+Logic+Consistency+in+Video-Language+Models+through+Cross-Modal+Attention+Discriminability%22",
+  "fetched_at": "2026-11-23T10:18:33Z",
+  "http_status": 200,
+  "content_sha256": "6385d050dfca5e78f295583281e166473f9b3f6b339dcf40a17e26aa0056fd59",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6385d050dfca5e78f295583281e166473f9b3f6b339dcf40a17e26aa0056fd59.json.gz"
+}

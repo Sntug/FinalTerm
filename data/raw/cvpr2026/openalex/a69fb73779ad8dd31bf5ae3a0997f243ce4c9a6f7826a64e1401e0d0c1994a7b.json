@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FrankenMotion%3A+Part-level+Human+Motion+Generation+and+Composition%22",
+  "fetched_at": "2026-11-23T10:19:26Z",
+  "http_status": 200,
+  "content_sha256": "605521eb8239492b979f95ea1a4b476565ca72c0182d7f3defd50791c304b88b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/605521eb8239492b979f95ea1a4b476565ca72c0182d7f3defd50791c304b88b.json.gz"
+}

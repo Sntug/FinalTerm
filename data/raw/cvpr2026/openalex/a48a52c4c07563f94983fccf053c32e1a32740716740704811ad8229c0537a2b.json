@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=H2-Surv%3A+Hierarchical+Hyperbolic+Multimodal+Representation+Learning+for+Survival+Prediction",
+  "fetched_at": "2026-11-23T10:23:31Z",
+  "http_status": 200,
+  "content_sha256": "1a96095df100f651b1aa001059455be5a9f634922855e5a9f9cccc13b2688c10",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1a96095df100f651b1aa001059455be5a9f634922855e5a9f9cccc13b2688c10.json.gz"
+}

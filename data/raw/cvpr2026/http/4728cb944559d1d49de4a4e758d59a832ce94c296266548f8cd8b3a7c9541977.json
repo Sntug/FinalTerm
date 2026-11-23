@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Revisiting_Multimodal_KV_Cache_Compression_A_Frequency-Domain-Guided_Outlier-KV-Aware_Approach_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:11:50Z",
+  "http_status": 200,
+  "content_sha256": "488c9ac455bed14df00bfd13d94fc1828e18519b90322f87cb657b757a298f85",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b73-6528223162ba5\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/488c9ac455bed14df00bfd13d94fc1828e18519b90322f87cb657b757a298f85.html.gz"
+}

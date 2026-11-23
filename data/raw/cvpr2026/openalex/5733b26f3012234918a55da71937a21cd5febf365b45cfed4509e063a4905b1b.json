@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neighbor+GRPO%3A+Contrastive+ODE+Policy+Optimization+Aligns+Flow+Models%22",
+  "fetched_at": "2026-11-23T10:25:35Z",
+  "http_status": 200,
+  "content_sha256": "5949e6ee7cd0c16093880118ce222834f1bd75de6e7a8fb7f591e72696f7be79",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5949e6ee7cd0c16093880118ce222834f1bd75de6e7a8fb7f591e72696f7be79.json.gz"
+}

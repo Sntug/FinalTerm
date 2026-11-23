@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DF%5E2-VB%3A+Dual-level+Fuzzy+Fusion+with+View-specific+Boosting+for+Multi-view+Multi-label+Classification%22",
+  "fetched_at": "2026-11-23T10:14:39Z",
+  "http_status": 200,
+  "content_sha256": "fdb928dd040c62c5560e1db7eb419309c085729462a9209333c65f2380aea474",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fdb928dd040c62c5560e1db7eb419309c085729462a9209333c65f2380aea474.json.gz"
+}

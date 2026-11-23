@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22JANUS%3A+A+Lightweight+Framework+for+Jailbreaking+Text-to-Image+Models+via+Distribution+Optimization%22",
+  "fetched_at": "2026-11-23T10:18:42Z",
+  "http_status": 200,
+  "content_sha256": "ec05ecfab02e420b117f44a266a0a9686f58b7cf0d280e33c669cb64ea01991f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ec05ecfab02e420b117f44a266a0a9686f58b7cf0d280e33c669cb64ea01991f.json.gz"
+}

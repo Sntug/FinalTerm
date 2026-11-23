@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22General+Process+Reward+Modeling+for+Robotic+Reinforcement+Learning%22",
+  "fetched_at": "2026-11-23T10:19:23Z",
+  "http_status": 200,
+  "content_sha256": "e6a1b7986746c3d0957a7da70da661c190ecabcfb59d87b3abeb2be17696b04e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e6a1b7986746c3d0957a7da70da661c190ecabcfb59d87b3abeb2be17696b04e.json.gz"
+}

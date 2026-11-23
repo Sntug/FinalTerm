@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=3D-LATTE%3A+Latent+Space+3D+Editing+from+Textual+Instructions",
+  "fetched_at": "2026-11-23T10:18:19Z",
+  "http_status": 200,
+  "content_sha256": "9c3d4241f5bb062875a4ca8501670a7e05196e8115523caef73be93a76569f98",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9c3d4241f5bb062875a4ca8501670a7e05196e8115523caef73be93a76569f98.json.gz"
+}

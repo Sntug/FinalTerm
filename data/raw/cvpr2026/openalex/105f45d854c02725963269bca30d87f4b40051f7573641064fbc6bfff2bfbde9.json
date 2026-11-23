@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Breaking+Semantic+Boundaries%3A+Distribution-Guided+Semantic+Exploration+for+Creative+Generation%22",
+  "fetched_at": "2026-11-23T10:13:54Z",
+  "http_status": 200,
+  "content_sha256": "b261091858dda41a4a0eaaa8396ebdab3a283ca44e0f8cb2d50495309dcedfc6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b261091858dda41a4a0eaaa8396ebdab3a283ca44e0f8cb2d50495309dcedfc6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Med-CMR%3A+A+Fine-Grained+Benchmark+Integrating+Visual+Evidence+and+Clinical+Logic+for+Medical+Complex+Multimodal+Reasoning%22",
+  "fetched_at": "2026-11-23T10:20:06Z",
+  "http_status": 200,
+  "content_sha256": "c39b881044958c0b277bc03e7a9e197eac0fb3079e98a83e840a0524b69bb732",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c39b881044958c0b277bc03e7a9e197eac0fb3079e98a83e840a0524b69bb732.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CoVFT%3A+Context-aware+Visual+Fine-tuning+for+Multimodal+Large+Language+Models%22",
+  "fetched_at": "2026-11-23T10:15:10Z",
+  "http_status": 200,
+  "content_sha256": "52d1ca7ed5cd8f65761691288b6187bdb4dbc7d57bb62f56a3f762f2aeb47129",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/52d1ca7ed5cd8f65761691288b6187bdb4dbc7d57bb62f56a3f762f2aeb47129.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Tri-Modal+Fusion+Transformers+for+UAV-based+Object+Detection%22",
+  "fetched_at": "2026-11-23T10:25:09Z",
+  "http_status": 200,
+  "content_sha256": "6bccd858e672148ed1f9a89b307be7ea2fe7fa1b7b947434d400cdd6e0efadda",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6bccd858e672148ed1f9a89b307be7ea2fe7fa1b7b947434d400cdd6e0efadda.json.gz"
+}

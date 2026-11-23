@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniBrainBench%3A+A+Comprehensive+Multimodal+Benchmark+for+Brain+Imaging+Analysis+Across+Multi-stage+Clinical+Tasks%22",
+  "fetched_at": "2026-11-23T10:20:16Z",
+  "http_status": 200,
+  "content_sha256": "d458ba14a154cb23b886fdcbc45aa35fbd45a8beb44654cdc69dd8be044ad840",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d458ba14a154cb23b886fdcbc45aa35fbd45a8beb44654cdc69dd8be044ad840.json.gz"
+}

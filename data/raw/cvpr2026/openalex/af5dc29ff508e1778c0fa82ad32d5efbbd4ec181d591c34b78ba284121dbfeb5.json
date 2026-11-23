@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficiently+Reconstructing+Dynamic+Scenes+One+D4RT+at+a+Time%22",
+  "fetched_at": "2026-11-23T10:15:51Z",
+  "http_status": 200,
+  "content_sha256": "71c58481e6d59bbf34b4e63786b54949494e772629882ebcb0b02ab5dd1c10b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/71c58481e6d59bbf34b4e63786b54949494e772629882ebcb0b02ab5dd1c10b4.json.gz"
+}

@@ -1,0 +1,56 @@
+{
+  "target_papers": 350,
+  "input_papers": 350,
+  "output_papers": 350,
+  "valid_core_papers": 350,
+  "dropped_papers": 0,
+  "duplicate_papers_removed": 0,
+  "papers_with_identifier_conflicts": 0,
+  "input_output_delta": 0,
+  "output_target_delta": 0,
+  "resolved_authors": 995,
+  "resolved_institutions": 196,
+  "distinct_authorships": 2350,
+  "authorship_rows": 2507,
+  "resolved_authorships": 1016,
+  "authorships_without_author_id": 1334,
+  "authorships_with_verified_affiliation": 802,
+  "authorships_without_verified_affiliation": 1548,
+  "authorship_rows_without_institution_id": 1592,
+  "authorships_with_multiple_institutions": 97,
+  "papers_with_verified_affiliation": 153,
+  "alias_count": 2710,
+  "decision_counts": {
+    "link": 3726
+  },
+  "review_count": 1580,
+  "review_by_entity": {
+    "Paper": 140,
+    "Author": 1334,
+    "Institution": 106
+  },
+  "review_by_issue": {
+    "openalex_id": 140,
+    "identity_unresolved": 1071,
+    "affiliation_unresolved": 106,
+    "identity_conflict": 263
+  },
+  "network_requests": 0,
+  "graph_ready": false,
+  "delivery_complete": true,
+  "manual_identity_review_complete": false,
+  "snapshot_id": "snapshot:v2:43ba5a5e4faebb3d4c21527749fa6a43d2439a4adb98ff16d186c8be9b5ca848",
+  "source_snapshot_id": "snapshot:v2:aad810e7d3d28c6c1e5b85d9b692a4d87c93338c9eb82af4a3ac0c58086ad383",
+  "manifest": "data/processed/cvpr2026/h5/snapshot_manifest.json",
+  "input_verification": {
+    "passed": true,
+    "snapshot_id": "snapshot:v2:aad810e7d3d28c6c1e5b85d9b692a4d87c93338c9eb82af4a3ac0c58086ad383",
+    "papers": 350,
+    "authorship_observations": 2350,
+    "raw_sources_checked": 997,
+    "text_versions_checked": 700,
+    "tables_checked": 12,
+    "records_checked": 8645,
+    "graph_ready": false
+  }
+}

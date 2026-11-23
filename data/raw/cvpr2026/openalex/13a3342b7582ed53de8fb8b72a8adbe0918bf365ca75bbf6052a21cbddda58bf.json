@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Test-time+Ego-Exo-centric+Adaptation+for+Action+Anticipation+via+Multi-Label+Prototype+Growing+and+Dual-Clue+Consistency%22",
+  "fetched_at": "2026-11-23T10:15:52Z",
+  "http_status": 200,
+  "content_sha256": "d97c5326fa5e6e2c55aaee6e8fe762cca5aeced75598c2219b04557588f295d0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d97c5326fa5e6e2c55aaee6e8fe762cca5aeced75598c2219b04557588f295d0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RemedyGS%3A+Defend+3D+Gaussian+Splatting+Against+Computation+Cost+Attacks%22",
+  "fetched_at": "2026-11-23T10:15:19Z",
+  "http_status": 200,
+  "content_sha256": "a2c03309e137f27a8aae5283ee3fcef6a610bda315f046038af382a82d4a0f63",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a2c03309e137f27a8aae5283ee3fcef6a610bda315f046038af382a82d4a0f63.json.gz"
+}

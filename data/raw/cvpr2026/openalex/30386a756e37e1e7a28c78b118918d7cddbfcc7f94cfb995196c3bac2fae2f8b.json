@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=HAVE-Bench%3A+Hierarchical+Audio-Visual+Evaluation+from+Perception+to+Interaction",
+  "fetched_at": "2026-11-23T10:22:33Z",
+  "http_status": 200,
+  "content_sha256": "552a764c342db83b799a1c36193d5583de8759253b87459577fa4ebb7c9d4e1a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/552a764c342db83b799a1c36193d5583de8759253b87459577fa4ebb7c9d4e1a.json.gz"
+}

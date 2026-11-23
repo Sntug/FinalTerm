@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22End-to-End+Language-Action+Model+for+Humanoid+Whole+Body+Control%22",
+  "fetched_at": "2026-11-23T10:16:00Z",
+  "http_status": 200,
+  "content_sha256": "dd1cd6d51fa9a9cb255e9ac56a427b02aabd0e1db43cf29eb02ec0583c7033b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dd1cd6d51fa9a9cb255e9ac56a427b02aabd0e1db43cf29eb02ec0583c7033b8.json.gz"
+}

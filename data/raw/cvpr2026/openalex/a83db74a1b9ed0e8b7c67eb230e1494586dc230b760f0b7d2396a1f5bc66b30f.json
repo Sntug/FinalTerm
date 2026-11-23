@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Affordance-First+Decomposition+for+Continual+Learning+in+Video-Language+Understanding%22",
+  "fetched_at": "2026-11-23T10:14:21Z",
+  "http_status": 200,
+  "content_sha256": "0b3e4c0115f4167d5dd0517f14c4cd2fef4c673e1a9e53e1936a94a8e3d37993",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0b3e4c0115f4167d5dd0517f14c4cd2fef4c673e1a9e53e1936a94a8e3d37993.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Edge-RecViT%3A+Efficient+Vision+Transformer+via+Semantic-Refined+Dynamic+Recursion",
+  "fetched_at": "2026-11-23T10:18:14Z",
+  "http_status": 200,
+  "content_sha256": "f4c979b71577fa144da8adc9e52e79ca5749b78ba02d2648fa7965fa96a72387",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f4c979b71577fa144da8adc9e52e79ca5749b78ba02d2648fa7965fa96a72387.json.gz"
+}

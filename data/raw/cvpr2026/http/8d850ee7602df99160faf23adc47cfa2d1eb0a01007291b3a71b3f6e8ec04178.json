@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Jeong_FEAST_Fully_Connected_Expressive_Attention_for_Spatial_Transcriptomics_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:10:41Z",
+  "http_status": 200,
+  "content_sha256": "1bbd4437d3cd5b134de80b65dc7344e8a65eb9e81a997e7a208f10abd7bfcb10",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a72-6528223127e3f\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/1bbd4437d3cd5b134de80b65dc7344e8a65eb9e81a997e7a208f10abd7bfcb10.html.gz"
+}

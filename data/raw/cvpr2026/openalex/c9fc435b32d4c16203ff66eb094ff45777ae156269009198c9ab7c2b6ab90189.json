@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FM-Steer%3A+Enhance+Generalist+Policies+with+Value-Guided+Cascaded+Denoising%22",
+  "fetched_at": "2026-11-23T10:25:17Z",
+  "http_status": 200,
+  "content_sha256": "70c1a8a4e6073a2cecae18600c47853509b12b498eaa6543ddaf2bc8b3e98d5f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/70c1a8a4e6073a2cecae18600c47853509b12b498eaa6543ddaf2bc8b3e98d5f.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generalized+and+Personalized+Federated+Learning+with+Black-Box+Foundation+Models+via+Orthogonal+Transformations%22",
+  "fetched_at": "2026-11-23T10:24:30Z",
+  "http_status": 200,
+  "content_sha256": "ba7912fafd53ed95edd9542ca77199bf66a4cc333a17979cc68c9666125564ab",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ba7912fafd53ed95edd9542ca77199bf66a4cc333a17979cc68c9666125564ab.json.gz"
+}

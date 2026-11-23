@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22From+Feature+Learning+to+Spectral+Basis+Learning%3A+A+Unifying+and+Flexible+Framework+for+Efficient+and+Robust+Shape+Matching%22",
+  "fetched_at": "2026-11-23T10:14:22Z",
+  "http_status": 200,
+  "content_sha256": "0546ae8613229f39cf9d1cea09188778d3665121c8e9d640443717fde372f618",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0546ae8613229f39cf9d1cea09188778d3665121c8e9d640443717fde372f618.json.gz"
+}

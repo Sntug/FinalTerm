@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiverseGRPO%3A+Mitigating+Mode+Collapse+in+Image+Generation+via+Diversity-Aware+GRPO%22",
+  "fetched_at": "2026-11-23T10:22:11Z",
+  "http_status": 200,
+  "content_sha256": "0411e805b2eb4375fbf9d78d8b4f80820e7f4c4b0e6cd48d241d7d32757cd37d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0411e805b2eb4375fbf9d78d8b4f80820e7f4c4b0e6cd48d241d7d32757cd37d.json.gz"
+}

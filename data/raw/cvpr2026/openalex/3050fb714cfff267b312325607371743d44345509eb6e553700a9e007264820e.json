@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=RetFormer%3A+Multimodal+Retrieval+for+Enhancing+Image+Recognition",
+  "fetched_at": "2026-11-23T10:18:46Z",
+  "http_status": 200,
+  "content_sha256": "3728b3d819766d2c6984f1dc3b21c166c99c09e73f6df861f3f4bf9803718cf2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3728b3d819766d2c6984f1dc3b21c166c99c09e73f6df861f3f4bf9803718cf2.json.gz"
+}

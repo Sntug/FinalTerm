@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Forecasting+3D+Scanpaths+in+Egocentric+Video",
+  "fetched_at": "2026-11-23T10:14:37Z",
+  "http_status": 200,
+  "content_sha256": "723a905724e6298c3fc199715936700b9547ce9d14d2cecb7e0caa061a41e216",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/723a905724e6298c3fc199715936700b9547ce9d14d2cecb7e0caa061a41e216.json.gz"
+}

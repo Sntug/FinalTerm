@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Spectral+Conformal+Risk+Control%3A+Distribution-Free+Tail+Guarantees+via+Bayesian+Quadrature",
+  "fetched_at": "2026-11-23T10:22:15Z",
+  "http_status": 200,
+  "content_sha256": "452c1674e9333e83880c086ad88bd52fe75171c9d40905e63dcca0f0c6d15dfc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/452c1674e9333e83880c086ad88bd52fe75171c9d40905e63dcca0f0c6d15dfc.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CARI4D%3A+Category+Agnostic+4D+Reconstruction+of+Human-Object+Interaction%22",
+  "fetched_at": "2026-11-23T10:14:05Z",
+  "http_status": 200,
+  "content_sha256": "bf2310f40b92c3f42542f5ddca2c4f450e6b51b0a195de2d5e086fe54f2270a3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bf2310f40b92c3f42542f5ddca2c4f450e6b51b0a195de2d5e086fe54f2270a3.json.gz"
+}

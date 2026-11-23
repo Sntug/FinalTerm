@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=FantasyVLN%3A+Unified+Multimodal+Chain-of-Thought+Reasoning+for+Vision-and-Language+Navigation",
+  "fetched_at": "2026-11-23T10:24:43Z",
+  "http_status": 200,
+  "content_sha256": "18ec7e8799342085f25d1a21a804d8bc8a2b5f99e58970968482d8720a1b0046",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/18ec7e8799342085f25d1a21a804d8bc8a2b5f99e58970968482d8720a1b0046.json.gz"
+}

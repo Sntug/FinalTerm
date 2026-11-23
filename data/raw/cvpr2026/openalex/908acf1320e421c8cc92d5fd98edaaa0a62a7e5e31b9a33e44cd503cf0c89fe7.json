@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ManifoldNeuS%3A+Manifold-aware+View+Optimizability+for+Pose-Free+Neural+Surface+Reconstruction%22",
+  "fetched_at": "2026-11-23T10:13:37Z",
+  "http_status": 200,
+  "content_sha256": "581f60d23d6b3f7ec66469a1cefeb827dfaf22b00eb5d1057ef2fd8e94f59515",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/581f60d23d6b3f7ec66469a1cefeb827dfaf22b00eb5d1057ef2fd8e94f59515.json.gz"
+}

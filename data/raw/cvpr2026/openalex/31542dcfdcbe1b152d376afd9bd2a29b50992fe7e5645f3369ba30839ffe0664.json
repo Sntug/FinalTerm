@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Parameterized+Prompt+for+Incremental+Object+Detection%22",
+  "fetched_at": "2026-11-23T10:20:08Z",
+  "http_status": 200,
+  "content_sha256": "78ee2f5708ad6202592a3f44ef3ef26f883de3fc4263ef27886e7c96e4dcf23e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/78ee2f5708ad6202592a3f44ef3ef26f883de3fc4263ef27886e7c96e4dcf23e.json.gz"
+}

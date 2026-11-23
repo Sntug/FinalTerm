@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FEAST%3A+Fully+Connected+Expressive+Attention+for+Spatial+Transcriptomics%22",
+  "fetched_at": "2026-11-23T10:20:26Z",
+  "http_status": 200,
+  "content_sha256": "40b26065d3d818c2e90d3316b092ddcee2afaa2cfcef2d757f690ddec4bb79b7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/40b26065d3d818c2e90d3316b092ddcee2afaa2cfcef2d757f690ddec4bb79b7.json.gz"
+}

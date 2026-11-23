@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SketchRevive%3A+Fine-Grained+Pixel-to-Vector+Sketch+Completion+with+Diffusion-Prior-Guided+Multimodal+LLMs%22",
+  "fetched_at": "2026-11-23T10:25:47Z",
+  "http_status": 200,
+  "content_sha256": "7d22718c9d05f80ae89a249a381bc89aaec71b642aba7641a342a52260ec0757",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7d22718c9d05f80ae89a249a381bc89aaec71b642aba7641a342a52260ec0757.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bayesian+Decomposition+and+Semantic+Completion+for+Few-shot+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-23T10:15:04Z",
+  "http_status": 200,
+  "content_sha256": "cbe053dec2ded665659e6de705b6a7e274da97913b1034c2ed62cb5f3ec319d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cbe053dec2ded665659e6de705b6a7e274da97913b1034c2ed62cb5f3ec319d6.json.gz"
+}

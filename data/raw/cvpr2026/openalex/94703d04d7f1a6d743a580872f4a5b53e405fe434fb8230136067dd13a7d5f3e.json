@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DreamSAC%3A+Learning+Hamiltonian+World+Models+via+Symmetry+Exploration%22",
+  "fetched_at": "2026-11-23T10:22:15Z",
+  "http_status": 200,
+  "content_sha256": "534dbb1b5b149a9077c9f29b928aea4419580afdff502fd145c95b03669e2d64",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/534dbb1b5b149a9077c9f29b928aea4419580afdff502fd145c95b03669e2d64.json.gz"
+}

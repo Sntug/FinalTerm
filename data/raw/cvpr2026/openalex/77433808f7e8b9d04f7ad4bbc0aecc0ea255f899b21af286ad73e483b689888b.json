@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ImageRAGTurbo%3A+Towards+One-step+Text-to-Image+Generation+with+Retrieval-Augmented+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T10:18:20Z",
+  "http_status": 200,
+  "content_sha256": "cd3d995876779212399d382a9ee76862f7412448675650e7459e4bfab31c1692",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cd3d995876779212399d382a9ee76862f7412448675650e7459e4bfab31c1692.json.gz"
+}

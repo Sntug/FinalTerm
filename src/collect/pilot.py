@@ -9,7 +9,7 @@ from .common import (CODE_VERSION, DEFAULT_CONFIG, PARSER_VERSION, atomic_json, 
 from .contract import contract, validate_records
 from .cvf import CVFHTML, parse_detail, parse_listing
 from .export import export_records
-from .openalex import RULE_VERSION, collect_work, enrich
+from .openalex import collect_work, enrich, rule_version
 
 
 def build_records(root, config, offline=True, progress=None):
@@ -125,7 +125,7 @@ def run(root: Path, config_path=DEFAULT_CONFIG, offline=True):
     files = [{'path': directory+'/'+n, 'sha256':sha256(b), 'record_count':len(records[n]), 'role':spec['files'][n]['stage']} for n,b in contents.items()]
     manifest = {'project_id':spec['project_id'], 'schema_version':'2.0.0', 'code_version':CODE_VERSION,
         'normalization_version':NORMALIZATION_VERSION, 'parser_versions':[PARSER_VERSION, 'openalex-json-1.0.0'],
-        'rule_versions':{'openalex-work-match':RULE_VERSION}, 'dictionary_versions':{}, 'applied_decision_ids':[],
+        'rule_versions':{'openalex-work-match':rule_version(config)}, 'dictionary_versions':{}, 'applied_decision_ids':[],
         'graph_ready':False, 'node_count':None, 'edge_count':None, 'files':files}
     manifest['snapshot_id'] = 'snapshot:v2:' + sha256(canonical_json(snapshot_payload(manifest)).encode())
     manifest['source_snapshot_id'] = selection['source_snapshot_id']

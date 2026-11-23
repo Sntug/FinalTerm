@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VisMem%3A+Latent+Vision+Memory+Unlocks+Potential+of+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T10:20:31Z",
+  "http_status": 200,
+  "content_sha256": "b80291ce9e2b66c1da995392299465c411d803174ce9d265a40df312f7829815",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b80291ce9e2b66c1da995392299465c411d803174ce9d265a40df312f7829815.json.gz"
+}

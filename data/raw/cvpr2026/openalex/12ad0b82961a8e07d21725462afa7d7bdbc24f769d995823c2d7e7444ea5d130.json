@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Finding+Distributed+Object-Centric+Properties+in+Self-Supervised+Transformers%22",
+  "fetched_at": "2026-11-23T10:20:36Z",
+  "http_status": 200,
+  "content_sha256": "0b64b164680b679f0004bae0756099feae7b584421ebb6ccaa11f6e55eff8480",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0b64b164680b679f0004bae0756099feae7b584421ebb6ccaa11f6e55eff8480.json.gz"
+}

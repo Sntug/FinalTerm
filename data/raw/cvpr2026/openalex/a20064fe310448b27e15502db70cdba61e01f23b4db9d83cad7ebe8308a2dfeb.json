@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EMR-Diff%3A+Edge-aware+Multimodal+Residual+Diffusion+Model+for+Hyperspectral+Image+Super-resolution%22",
+  "fetched_at": "2026-11-23T10:14:49Z",
+  "http_status": 200,
+  "content_sha256": "e853d4ed9dc661d330c369694ca5d168ae3e4b9dc5d23a4c021604761b46d4bf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e853d4ed9dc661d330c369694ca5d168ae3e4b9dc5d23a4c021604761b46d4bf.json.gz"
+}

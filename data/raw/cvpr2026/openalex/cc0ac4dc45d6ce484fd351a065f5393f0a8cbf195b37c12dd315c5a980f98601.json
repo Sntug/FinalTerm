@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Content-Adaptive+Hierarchical+Hyperprior+for+Neural+Video+Coding",
+  "fetched_at": "2026-11-23T10:15:09Z",
+  "http_status": 200,
+  "content_sha256": "3b3f77a4090192d89cd484e4995d738dd78b5d4888ccbaa9421def6d668ccdb1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3b3f77a4090192d89cd484e4995d738dd78b5d4888ccbaa9421def6d668ccdb1.json.gz"
+}

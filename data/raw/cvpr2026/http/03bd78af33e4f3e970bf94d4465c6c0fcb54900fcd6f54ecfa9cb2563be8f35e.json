@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Hu_SAMIX_Reinforcing_SAM2_with_Semantic_Adapter_and_Reference_Selecting_Policy_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:11:51Z",
+  "http_status": 200,
+  "content_sha256": "6c3e44b6d6330389e8804e987edb0adafc86d6683ce30fed247656d4cbe5a7fd",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1bc2-65282230975c3\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/6c3e44b6d6330389e8804e987edb0adafc86d6683ce30fed247656d4cbe5a7fd.html.gz"
+}

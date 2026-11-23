@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Visual+Personalization+Turing+Test%22",
+  "fetched_at": "2026-11-23T10:25:01Z",
+  "http_status": 200,
+  "content_sha256": "6f88689e94833d6b6e9f6b39c795c06c5a46749858cdbaebddb6ff317cdf7e78",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6f88689e94833d6b6e9f6b39c795c06c5a46749858cdbaebddb6ff317cdf7e78.json.gz"
+}

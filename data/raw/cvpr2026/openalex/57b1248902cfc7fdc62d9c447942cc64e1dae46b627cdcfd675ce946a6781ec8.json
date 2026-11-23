@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Human+Geometry+Distribution+for+3D+Animation+Generation%22",
+  "fetched_at": "2026-11-23T10:23:07Z",
+  "http_status": 200,
+  "content_sha256": "8078c67c3f0c3c1825b1adb4fa554a5a7d9756ebd8b46e21f86086cae43b609f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8078c67c3f0c3c1825b1adb4fa554a5a7d9756ebd8b46e21f86086cae43b609f.json.gz"
+}

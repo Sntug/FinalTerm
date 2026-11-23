@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InfiniDepth%3A+Arbitrary-Resolution+and+Fine-Grained+Depth+Estimation+with+Neural+Implicit+Fields%22",
+  "fetched_at": "2026-11-23T10:13:56Z",
+  "http_status": 200,
+  "content_sha256": "b81fd05f4879b82bbf316ff69ba7915913b1819e570c2c71710bf365f0005b34",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b81fd05f4879b82bbf316ff69ba7915913b1819e570c2c71710bf365f0005b34.json.gz"
+}

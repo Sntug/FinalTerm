@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ALLNet%3A+Multi-task+Dense+Prediction+for+Degraded+Images%22",
+  "fetched_at": "2026-11-23T10:19:13Z",
+  "http_status": 200,
+  "content_sha256": "ecd06a26e7be57db342e4d5d5d7e5f5604b50a347e3807b64cccb920ac2dcbdc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ecd06a26e7be57db342e4d5d5d7e5f5604b50a347e3807b64cccb920ac2dcbdc.json.gz"
+}

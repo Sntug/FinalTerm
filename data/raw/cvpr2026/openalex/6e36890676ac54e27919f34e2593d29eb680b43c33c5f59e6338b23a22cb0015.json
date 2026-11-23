@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PolySLGen%3A+Online+Multimodal+Speaking-Listening+Reaction+Generation+in+Polyadic+Interaction%22",
+  "fetched_at": "2026-11-23T10:19:47Z",
+  "http_status": 200,
+  "content_sha256": "0f8f3f6d73e56be54db266acd8deb65364a6b5cc9caf30d6bf71a7351a975bd0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0f8f3f6d73e56be54db266acd8deb65364a6b5cc9caf30d6bf71a7351a975bd0.json.gz"
+}

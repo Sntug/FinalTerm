@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SAIDO%3A+Generalizable+Detection+of+AI-Generated+Images+via+Scene-Aware+and+Importance-Guided+Dynamic+Optimization+in+Continual+Learning%22",
+  "fetched_at": "2026-11-23T10:13:40Z",
+  "http_status": 200,
+  "content_sha256": "b8a8fd1353af1be272078f7ff6c6d289e850381d05362215d24474773a610017",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b8a8fd1353af1be272078f7ff6c6d289e850381d05362215d24474773a610017.json.gz"
+}

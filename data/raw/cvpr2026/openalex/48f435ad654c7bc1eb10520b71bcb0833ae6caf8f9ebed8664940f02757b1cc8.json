@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GIFSplat%3A+Generative+Prior-Guided+Iterative+Feed-Forward+3D+Gaussian+Splatting+from+Sparse+Views%22",
+  "fetched_at": "2026-11-23T10:24:03Z",
+  "http_status": 200,
+  "content_sha256": "a1022d98f85913074ba38e8eebb4d5c6f2177180043df8a5380705411efbac9e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a1022d98f85913074ba38e8eebb4d5c6f2177180043df8a5380705411efbac9e.json.gz"
+}

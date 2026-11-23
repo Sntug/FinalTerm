@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CrossEarth-Gate%3A+Fisher-Guided+Adaptive+Tuning+Engine+for+Efficient+Adaptation+of+Cross-Domain+Remote+Sensing+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-23T10:19:19Z",
+  "http_status": 200,
+  "content_sha256": "e9e0ad7baaeb52200f04b99c53be9c624fe9cd2f8281127f365dd94c62068344",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e9e0ad7baaeb52200f04b99c53be9c624fe9cd2f8281127f365dd94c62068344.json.gz"
+}

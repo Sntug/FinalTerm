@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Personalized+Image+Descriptions+from+Attention+Sequences%22",
+  "fetched_at": "2026-11-23T10:24:05Z",
+  "http_status": 200,
+  "content_sha256": "55cde0f8e7e9b64a9540ffcde728319fc477db3c09e9baca244a8013a9dda3f2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/55cde0f8e7e9b64a9540ffcde728319fc477db3c09e9baca244a8013a9dda3f2.json.gz"
+}

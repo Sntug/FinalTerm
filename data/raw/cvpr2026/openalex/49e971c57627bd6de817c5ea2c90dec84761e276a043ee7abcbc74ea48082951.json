@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learnable+Motion-Focused+Tokenization+for+Effective+and+Efficient+Video+Unsupervised+Domain+Adaptation%22",
+  "fetched_at": "2026-11-23T10:15:16Z",
+  "http_status": 200,
+  "content_sha256": "433b8640260f1940d0632f022867f84ae87cb86ae75a7aa235f8bff5df88c20a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/433b8640260f1940d0632f022867f84ae87cb86ae75a7aa235f8bff5df88c20a.json.gz"
+}

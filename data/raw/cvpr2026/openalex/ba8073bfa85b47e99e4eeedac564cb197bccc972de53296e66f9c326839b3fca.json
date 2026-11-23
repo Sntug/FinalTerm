@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=FastGaMer%3A+Efficient+GainMap+Learning+for+Practical+Inverse+Tone+Mapping",
+  "fetched_at": "2026-11-23T10:20:15Z",
+  "http_status": 200,
+  "content_sha256": "04fb345e5ea7a6634e749408fd27840586f526a6a8047e8d9d1b86cbc5718713",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/04fb345e5ea7a6634e749408fd27840586f526a6a8047e8d9d1b86cbc5718713.json.gz"
+}

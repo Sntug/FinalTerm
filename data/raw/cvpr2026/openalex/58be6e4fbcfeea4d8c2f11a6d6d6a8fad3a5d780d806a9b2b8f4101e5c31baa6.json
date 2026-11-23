@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Multi-Hierarchical+Contrastive+Spectral+Fusion+for+Multi-View+Clustering",
+  "fetched_at": "2026-11-23T10:24:19Z",
+  "http_status": 200,
+  "content_sha256": "dd14ef95077647204cb14d9000ca73097b59df54eac7b75f9b1cd9e1cd995928",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dd14ef95077647204cb14d9000ca73097b59df54eac7b75f9b1cd9e1cd995928.json.gz"
+}

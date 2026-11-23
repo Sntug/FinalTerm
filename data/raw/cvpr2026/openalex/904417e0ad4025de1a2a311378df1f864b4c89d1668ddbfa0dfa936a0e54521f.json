@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoRGS%3A+Efficient+Per-Gaussian+Motion+Reasoning+for+Streamable+Dynamic+3D+Scenes%22",
+  "fetched_at": "2026-11-23T10:14:16Z",
+  "http_status": 200,
+  "content_sha256": "dff3d569a395380d8671880ce76254a95d9b705d61b3e45197a50038a8a0d3ed",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dff3d569a395380d8671880ce76254a95d9b705d61b3e45197a50038a8a0d3ed.json.gz"
+}

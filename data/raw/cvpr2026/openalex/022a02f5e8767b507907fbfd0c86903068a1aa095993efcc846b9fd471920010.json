@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-Attention+Driven+Tensor+Representation+for+High-Order+Data+Recovery%22",
+  "fetched_at": "2026-11-23T10:19:42Z",
+  "http_status": 200,
+  "content_sha256": "deb4d0d3f2775cfb8b2f950cb646989446fa1ce3cfe6c5f1d9b5d94af2687609",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/deb4d0d3f2775cfb8b2f950cb646989446fa1ce3cfe6c5f1d9b5d94af2687609.json.gz"
+}

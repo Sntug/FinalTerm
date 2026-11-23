@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Prompt+Design+for+Inference-time+Scaling+in+Text-to-Visual+Generation%22",
+  "fetched_at": "2026-11-23T10:13:35Z",
+  "http_status": 200,
+  "content_sha256": "353b64a9513d44c1bd7e546e4e3b4919e2fd0b2590eb5dad5338047395cc066b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/353b64a9513d44c1bd7e546e4e3b4919e2fd0b2590eb5dad5338047395cc066b.json.gz"
+}

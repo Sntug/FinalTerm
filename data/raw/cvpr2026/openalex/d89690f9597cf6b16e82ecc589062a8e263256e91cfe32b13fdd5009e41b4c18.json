@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ESAM%2B%2B%3A+Efficient+Online+3D+Perception+on+the+Edge%22",
+  "fetched_at": "2026-11-23T10:14:04Z",
+  "http_status": 200,
+  "content_sha256": "8fed99b45cee81482bf7d356ee2e9b98230217a20b5d582c9b67e95dec2fce37",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8fed99b45cee81482bf7d356ee2e9b98230217a20b5d582c9b67e95dec2fce37.json.gz"
+}

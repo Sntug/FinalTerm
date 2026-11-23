@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Real-Time+Neural+Video+Compression+with+Unified+Intra+and+Inter+Coding",
+  "fetched_at": "2026-11-23T10:23:58Z",
+  "http_status": 200,
+  "content_sha256": "fb46b7662b2224679006d0d52b91f76325cd18552af82dcbe37d76f346d2f69a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fb46b7662b2224679006d0d52b91f76325cd18552af82dcbe37d76f346d2f69a.json.gz"
+}

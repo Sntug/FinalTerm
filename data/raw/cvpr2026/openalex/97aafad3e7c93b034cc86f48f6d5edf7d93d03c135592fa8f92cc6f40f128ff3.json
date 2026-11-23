@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Natural+Human+Motion+Recovery+by+Aligning+High-Order+Temporal+Dynamics+from+Monocular+Videos%22",
+  "fetched_at": "2026-11-23T10:13:36Z",
+  "http_status": 200,
+  "content_sha256": "594b54cfba69b5137216fba5d1a3db10491caf5cfb38cb0b7c4b10ed3bfc5042",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/594b54cfba69b5137216fba5d1a3db10491caf5cfb38cb0b7c4b10ed3bfc5042.json.gz"
+}

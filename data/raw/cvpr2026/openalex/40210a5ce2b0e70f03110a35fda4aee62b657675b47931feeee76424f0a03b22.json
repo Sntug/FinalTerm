@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exact-GS%3A+Mathematically+Rigorous+and+Accurate+3D+Gaussian+Splatting+for+3D+X-ray+Reconstruction%22",
+  "fetched_at": "2026-11-23T10:24:07Z",
+  "http_status": 200,
+  "content_sha256": "b6f3759c10c3793e6930c448822305d4383c8a10f8abc5113ed9dc827239ad03",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b6f3759c10c3793e6930c448822305d4383c8a10f8abc5113ed9dc827239ad03.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoLingo%3A+Motion-Language+Alignment+for+Text-to-Human+Motion+Generation%22",
+  "fetched_at": "2026-11-23T10:20:20Z",
+  "http_status": 200,
+  "content_sha256": "35e5aa1b4959ce0e82ea1888f1cc8b90d094f13f8fa51f07f477cbf7d5337ff6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/35e5aa1b4959ce0e82ea1888f1cc8b90d094f13f8fa51f07f477cbf7d5337ff6.json.gz"
+}

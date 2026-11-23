@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DLWM%3A+Dual+Latent+World+Models+enable+Holistic+Gaussian-centric+Pre-training+in+Autonomous+Driving%22",
+  "fetched_at": "2026-11-23T10:13:48Z",
+  "http_status": 200,
+  "content_sha256": "97376242484a431bf8ee5c3b6c901587de7f34d0d273e9b4317d3596f71ca82c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/97376242484a431bf8ee5c3b6c901587de7f34d0d273e9b4317d3596f71ca82c.json.gz"
+}

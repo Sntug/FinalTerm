@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Guiding+a+Diffusion+Transformer+with+the+Internal+Dynamics+of+Itself%22",
+  "fetched_at": "2026-11-23T10:15:40Z",
+  "http_status": 200,
+  "content_sha256": "9a0b6f6dfa7832b2babec7674bababa1caeeb18939d58b06f79958b70ca5101a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9a0b6f6dfa7832b2babec7674bababa1caeeb18939d58b06f79958b70ca5101a.json.gz"
+}

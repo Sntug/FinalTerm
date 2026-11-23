@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PARSE%3A+Part-Aware+Relational+Spatial+Modeling%22",
+  "fetched_at": "2026-11-23T10:25:03Z",
+  "http_status": 200,
+  "content_sha256": "c61d9fadcdfd36948c5a633f0c75c335a8a50aac8fbef6d0a4723196319ddae9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c61d9fadcdfd36948c5a633f0c75c335a8a50aac8fbef6d0a4723196319ddae9.json.gz"
+}

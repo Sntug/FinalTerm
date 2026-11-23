@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Exposing+and+Evaluating+Hallucinations+for+GUI+Grounding",
+  "fetched_at": "2026-11-23T10:18:37Z",
+  "http_status": 200,
+  "content_sha256": "716157781cb9f817434d0ad61fefca4f0a46b6aac244d823f6e9fe90f41204d7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/716157781cb9f817434d0ad61fefca4f0a46b6aac244d823f6e9fe90f41204d7.json.gz"
+}

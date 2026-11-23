@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DrivePI%3A+Spatial-aware+4D+MLLM+for+Unified+Autonomous+Driving+Understanding%2C+Perception%2C+Prediction+and+Planning%22",
+  "fetched_at": "2026-11-23T10:20:18Z",
+  "http_status": 200,
+  "content_sha256": "e34420e484b03e209e0c090b793e717c6ecaf1c7b96a51d8bd3c83f06bd5a3d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e34420e484b03e209e0c090b793e717c6ecaf1c7b96a51d8bd3c83f06bd5a3d6.json.gz"
+}

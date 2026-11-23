@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Mind+the+Discriminability+Trap+in+Source-Free+Cross-domain+Few-shot+Learning%22",
+  "fetched_at": "2026-11-23T10:13:44Z",
+  "http_status": 200,
+  "content_sha256": "a1f34fee831e9ae6cc4fe3e9ff32e76a2a348b28def8855f62cea97a1ba9daf3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a1f34fee831e9ae6cc4fe3e9ff32e76a2a348b28def8855f62cea97a1ba9daf3.json.gz"
+}

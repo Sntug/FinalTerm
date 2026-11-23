@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Designing+to+Forget%3A+Deep+Semi-parametric+Models+for+Unlearning%22",
+  "fetched_at": "2026-11-23T10:19:32Z",
+  "http_status": 200,
+  "content_sha256": "d14d2d653ae19043aa2c12afee1d9dbcd017ad9e51a2cb4ef56ef16e05d0fe83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d14d2d653ae19043aa2c12afee1d9dbcd017ad9e51a2cb4ef56ef16e05d0fe83.json.gz"
+}

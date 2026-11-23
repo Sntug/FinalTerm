@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Action+Motifs%3A+Self-Supervised+Hierarchical+Representation+of+Human+Body+Movements%22",
+  "fetched_at": "2026-11-23T10:25:25Z",
+  "http_status": 200,
+  "content_sha256": "60c7b7aa8dce87b967217c46f1c6d68680bc668ee12c560e3af368234f27dfd4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/60c7b7aa8dce87b967217c46f1c6d68680bc668ee12c560e3af368234f27dfd4.json.gz"
+}

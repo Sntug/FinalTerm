@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deformation-based+In-Context+Learning+for+Point+Cloud+Understanding%22",
+  "fetched_at": "2026-11-23T10:15:20Z",
+  "http_status": 200,
+  "content_sha256": "d251358e4f3edd2b2ed7625c469f3226fe06902215741aeb5487052b3a47079e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d251358e4f3edd2b2ed7625c469f3226fe06902215741aeb5487052b3a47079e.json.gz"
+}

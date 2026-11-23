@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Visual+Pretraining+for+Learning+Language+Intelligence%22",
+  "fetched_at": "2026-11-23T10:14:32Z",
+  "http_status": 200,
+  "content_sha256": "f936edf106287cefbc30f242542e24567dcab0c3e095b7407543dd40ac8d1000",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f936edf106287cefbc30f242542e24567dcab0c3e095b7407543dd40ac8d1000.json.gz"
+}

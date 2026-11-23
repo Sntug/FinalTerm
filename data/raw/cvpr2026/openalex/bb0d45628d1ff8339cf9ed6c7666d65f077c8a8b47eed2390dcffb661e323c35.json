@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Black-Box+Domain+Adaptation+for+Object+Detection+with+Retention-Driven+Knowledge+Compression%22",
+  "fetched_at": "2026-11-23T10:24:54Z",
+  "http_status": 200,
+  "content_sha256": "72a27d06cfb3f4a3dab2abf601ea71e40b950608cd662120b8ea1e04880bec0d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/72a27d06cfb3f4a3dab2abf601ea71e40b950608cd662120b8ea1e04880bec0d.json.gz"
+}

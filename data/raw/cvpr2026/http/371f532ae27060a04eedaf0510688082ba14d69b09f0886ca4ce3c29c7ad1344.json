@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Nan_Accelerating_Autoregressive_Video_Diffusion_via_History-Guided_Cache_and_Residual_Correction_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:12:45Z",
+  "http_status": 200,
+  "content_sha256": "0deea2f69571cfb0e6c13955f180f67ec03cbde70927868479d7ecc8fea43a21",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a26-652822308d984\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/0deea2f69571cfb0e6c13955f180f67ec03cbde70927868479d7ecc8fea43a21.html.gz"
+}

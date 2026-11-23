@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Behari_DENALI_A_Dataset_Enabling_Non-Line-of-Sight_Spatial_Reasoning_with_Low-Cost_LiDARs_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:07:43Z",
+  "http_status": 200,
+  "content_sha256": "8a5de47033d71c936ef0c9ac89391d91bf6df9d80fa4cb1bc76c2c1fa3700219",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1952-65282230a5c3b\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/8a5de47033d71c936ef0c9ac89391d91bf6df9d80fa4cb1bc76c2c1fa3700219.html.gz"
+}

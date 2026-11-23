@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=MAPo%3A+Motion-Aware+Partitioning+of+Deformable+3D+Gaussian+Splatting+for+High-Fidelity+Dynamic+Scene+Reconstruction",
+  "fetched_at": "2026-11-23T10:22:51Z",
+  "http_status": 200,
+  "content_sha256": "7a4942d2d07ecfbdd487bb1e22a308d2f6cdd01712f3357a6647e7af4a59888c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7a4942d2d07ecfbdd487bb1e22a308d2f6cdd01712f3357a6647e7af4a59888c.json.gz"
+}

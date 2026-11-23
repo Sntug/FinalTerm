@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22NoOVD%3A+Novel+Category+Discovery+and+Embedding+for+Open-Vocabulary+Object+Detection%22",
+  "fetched_at": "2026-11-23T10:23:28Z",
+  "http_status": 200,
+  "content_sha256": "461fd87157a10e8b842408f76ec460a3b9557e4667cf7c5d3fa0d3817ead3be0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/461fd87157a10e8b842408f76ec460a3b9557e4667cf7c5d3fa0d3817ead3be0.json.gz"
+}

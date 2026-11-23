@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MR.+Illuminate%3A+Zero-Shot+Low-Light+Image+Enhancement+with+Diffusion+Prior%22",
+  "fetched_at": "2026-11-23T10:23:34Z",
+  "http_status": 200,
+  "content_sha256": "103e578b24926e09c685478de8186c7cd520c2d0c7fb81804bc5da5cf90179b6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/103e578b24926e09c685478de8186c7cd520c2d0c7fb81804bc5da5cf90179b6.json.gz"
+}

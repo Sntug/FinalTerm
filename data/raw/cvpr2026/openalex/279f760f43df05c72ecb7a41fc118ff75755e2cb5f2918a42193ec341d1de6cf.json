@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22The+devil+is+in+the+details%3A+Enhancing+Video+Virtual+Try-On+via+Keyframe-Driven+Details+Injection%22",
+  "fetched_at": "2026-11-23T10:23:36Z",
+  "http_status": 200,
+  "content_sha256": "372c8124da6a22842598e7ba1d15dc1dd99f5f07a56969a8555070943d49d601",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/372c8124da6a22842598e7ba1d15dc1dd99f5f07a56969a8555070943d49d601.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=All-in-One+Slider+for+Attribute+Manipulation+in+Diffusion+Models",
+  "fetched_at": "2026-11-23T10:13:34Z",
+  "http_status": 200,
+  "content_sha256": "9bc88442253cbab3ebcd72ae1fac713d7b4a1f7af487454d4e29b167814c81f9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9bc88442253cbab3ebcd72ae1fac713d7b4a1f7af487454d4e29b167814c81f9.json.gz"
+}

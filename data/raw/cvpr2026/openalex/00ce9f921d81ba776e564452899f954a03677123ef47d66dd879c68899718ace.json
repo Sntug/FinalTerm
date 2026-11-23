@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Universal+3D+Shape+Matching+via+Coarse-to-Fine+Language+Guidance%22",
+  "fetched_at": "2026-11-23T10:14:00Z",
+  "http_status": 200,
+  "content_sha256": "1dbddc88b92981806bd137f042c6fe84e89ca33978736900c545d38819549b38",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1dbddc88b92981806bd137f042c6fe84e89ca33978736900c545d38819549b38.json.gz"
+}

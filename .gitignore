@@ -38,6 +38,12 @@ __pycache__/
 !/data/raw/cvpr2025/openalex/[0-9a-f]*.json
 /data/raw/cvpr2025/http/cvf_rate_limit.json
 /outputs/a2_cvpr2025/a2_350/summary.json
+!/data/raw/cvpr2026/http/[0-9a-f]*.html.gz
+!/data/raw/cvpr2026/http/[0-9a-f]*.json
+!/data/raw/cvpr2026/openalex/[0-9a-f]*.json.gz
+!/data/raw/cvpr2026/openalex/[0-9a-f]*.json
+/data/raw/cvpr2026/http/cvf_rate_limit.json
+/outputs/a2_cvpr2026/a2_350/summary.json
 /data/processed/cvpr2024/**/.a2-*
 /outputs/a2_cvpr2024/a2test_*/
 

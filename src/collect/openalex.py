@@ -1,27 +1,86 @@
 """Conservative Work matching, independent of Author identity resolution."""
 import re
 import unicodedata
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 
 from .cache import openalex_source
 from .contract import contract
 from src.clean.text import evidence_id, identifier, normalize, text_record
 
 RULE_VERSION = "1.1.0"
+CVPR_2026_RULE_VERSION = "1.2.0"
+
+
+def rule_version(edition):
+    if (edition["conference"], edition["conference_year"]) == ("CVPR", 2026):
+        return CVPR_2026_RULE_VERSION
+    return RULE_VERSION
 
 
 def comparable(value):
     return re.sub(r"[^\w]", "", unicodedata.normalize("NFKC", value or "").casefold())
 
 
+def matches_cvf_name(cvf_author, observed_name):
+    """Accept the CVF display name or the same explicit surname/given-name pair."""
+    if not comparable(observed_name):
+        return False
+    raw = (cvf_author.get("name_raw") or "").split(",")
+    observed = observed_name.split(",")
+    if len(raw) == len(observed) == 2:
+        return all(comparable(part) for part in raw) and list(map(comparable, raw)) == list(map(comparable, observed))
+    return comparable(cvf_author["name"]) == comparable(observed_name)
+
+
+def ordered_byline_matches(paper, openalex_authorships):
+    authors = paper["authors"]
+    names = [a.get("raw_author_name") or (a.get("author") or {}).get("display_name") for a in openalex_authorships]
+    if not authors or len(names) != len(authors):
+        return False
+    if rule_version(paper) == CVPR_2026_RULE_VERSION:
+        return all(matches_cvf_name(a, name) for a, name in zip(authors, names))
+    return [comparable(a["name"]) for a in authors] == [comparable(name) for name in names]
+
+
+def arxiv_identifier(url):
+    """Return the base arXiv ID and optional explicit version on an official URL."""
+    try:
+        parts = urlsplit(url or "")
+    except ValueError:
+        return None
+    if parts.scheme not in ("http", "https") or parts.query or parts.fragment:
+        return None
+    host = parts.netloc.lower()
+    path = parts.path
+    if host in ("arxiv.org", "www.arxiv.org") and path.startswith(("/abs/", "/pdf/")):
+        identifier = path[5:]
+        if path.startswith("/pdf/"):
+            identifier = identifier.removesuffix(".pdf")
+    elif host in ("doi.org", "dx.doi.org") and path.lower().startswith("/10.48550/arxiv."):
+        identifier = path[len("/10.48550/arxiv."):]
+    else:
+        return None
+    match = re.fullmatch(r"(\d{4}\.\d{4,5}|[a-z-]+(?:\.[A-Z]{2})?/\d{7})(v[1-9]\d*)?", identifier)
+    return match.groups() if match else None
+
+
+def arxiv_linked(cvf_url, work_urls):
+    target = arxiv_identifier(cvf_url)
+    if not target:
+        return False
+    same_id = [other for url in work_urls if (other := arxiv_identifier(url)) and other[0] == target[0]]
+    return bool(same_id) and all(not target[1] or not version or version == target[1] for _, version in same_id)
+
+
 def assessment(paper, work):
     title = comparable(paper["title"]) == comparable(work.get("display_name"))
-    cvf_names = [comparable(a["name"]) for a in paper["authors"]]
-    names = [comparable(a.get("raw_author_name") or (a.get("author") or {}).get("display_name")) for a in work.get("authorships", [])]
-    authors = bool(cvf_names) and cvf_names == names
+    authors = ordered_byline_matches(paper, work.get("authorships", []))
     locations = work.get("locations") or []
     links = {x.get(k) for x in locations for k in ("landing_page_url", "pdf_url") if x.get(k)}
     linked = bool(links & {paper["cvf_url"], paper.get("pdf_url"), paper.get("arxiv_url")})
+    if rule_version(paper) == CVPR_2026_RULE_VERSION:
+        linked = bool(links & {paper["cvf_url"], paper.get("pdf_url")}) or arxiv_linked(
+            paper.get("arxiv_url"), links | {work.get("doi")})
     venue_names = [((x.get("source") or {}).get("display_name") or "").casefold() for x in locations]
     venue = any((paper["conference"].lower() in name or
                  ("conference on computer vision and pattern recognition" if paper["conference"] == "CVPR" else "international conference on computer vision") in name)
@@ -62,7 +121,7 @@ def collect_work(cache, paper):
             status = "matched"
         else:
             work = None
-    audit = {"paper_id": paper["paper_id"], "status": status, "rule_version": RULE_VERSION,
+    audit = {"paper_id": paper["paper_id"], "status": status, "rule_version": rule_version(paper),
              "candidate_checks": checks, "search_truncated": truncated,
              "source_record_ids": [s["source_record_id"] for s in sources],
              "work_id": work["id"] if work else None}
@@ -70,13 +129,14 @@ def collect_work(cache, paper):
 
 
 def enrich(records, paper, work, sources, audit):
+    version = rule_version(paper)
     paper["openalex_status"] = audit["status"]
     if work is None:
         if audit["status"] == "needs_review":
             source = sources[-1]
             evidence = {k: None for k in contract()["files"]["evidence.jsonl"]["fields"]}
             evidence.update(evidence_kind="metadata", paper_id=paper["paper_id"], source_record_id=source["source_record_id"],
-                            source_url=source["url"], field_path="json:results", rule_id="openalex-work-match", rule_version=RULE_VERSION,
+                            source_url=source["url"], field_path="json:results", rule_id="openalex-work-match", rule_version=version,
                             captured_at=source["fetched_at"], supporting_evidence_ids=[], owner=paper["owner"])
             evidence["evidence_id"] = evidence_id(evidence)
             records["evidence.jsonl"].append(evidence)
@@ -90,11 +150,12 @@ def enrich(records, paper, work, sources, audit):
     sid = source["source_record_id"]
     def provenance(field, source_field):
         records["field_provenance.csv"].append({"paper_id": paper["paper_id"], "field_name": field,
-            "source_record_id": sid, "field_path": "json:" + source_field, "selection_rule": "openalex-work-match-" + RULE_VERSION,
+            "source_record_id": sid, "field_path": "json:" + source_field, "selection_rule": "openalex-work-match-" + version,
             "validation_status": "auto_verified", "reviewed_by": None, "selected_at": source["fetched_at"], "candidate_source_record_ids": [sid]})
     paper["openalex_id"] = work["id"]
     provenance("openalex_id", "id")
-    if not paper["doi"] and re.fullmatch(r"https://doi.org/10\.\d{4,9}/\S+", work.get("doi") or ""):
+    preprint_doi = version == CVPR_2026_RULE_VERSION and (work.get("doi") or "").lower().startswith("https://doi.org/10.48550/arxiv.")
+    if not paper["doi"] and not preprint_doi and re.fullmatch(r"https://doi.org/10\.\d{4,9}/\S+", work.get("doi") or ""):
         paper["doi"] = work["doi"].removeprefix("https://doi.org/").lower()
         provenance("doi", "doi")
     count = work.get("cited_by_count")

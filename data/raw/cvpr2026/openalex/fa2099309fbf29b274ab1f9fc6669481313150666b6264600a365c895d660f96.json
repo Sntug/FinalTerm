@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Debiased+Sample+Selection+for+Learning+with+Noisy+Labels%22",
+  "fetched_at": "2026-11-23T10:19:09Z",
+  "http_status": 200,
+  "content_sha256": "f7ae2fed119535afaec00598b40e8b6e20f908960cef8784dd0d442dc1e1d0ff",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f7ae2fed119535afaec00598b40e8b6e20f908960cef8784dd0d442dc1e1d0ff.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Towards+Uncertainty-aware+Unsupervised+Domain+Adaptation+for+Videos+and+Time-Series+with+Causal+Optimal+Transport",
+  "fetched_at": "2026-11-23T10:15:48Z",
+  "http_status": 200,
+  "content_sha256": "56f3b6a162555d6a9036d7b6b758d809d90f2c2e8f0f8bcc2f698c378f9da723",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/56f3b6a162555d6a9036d7b6b758d809d90f2c2e8f0f8bcc2f698c378f9da723.json.gz"
+}

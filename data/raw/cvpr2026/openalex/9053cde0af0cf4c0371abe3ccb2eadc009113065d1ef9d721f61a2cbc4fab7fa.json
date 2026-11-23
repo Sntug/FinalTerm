@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiffSoup%3A+Direct+Differentiable+Rasterization+of+Triangle+Soup+for+Extreme+Radiance+Field+Simplification%22",
+  "fetched_at": "2026-11-23T10:15:39Z",
+  "http_status": 200,
+  "content_sha256": "bcf91f7e4ccc925b1b7c314c4153117998b5af08207db8841d0f74dc402cf881",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bcf91f7e4ccc925b1b7c314c4153117998b5af08207db8841d0f74dc402cf881.json.gz"
+}

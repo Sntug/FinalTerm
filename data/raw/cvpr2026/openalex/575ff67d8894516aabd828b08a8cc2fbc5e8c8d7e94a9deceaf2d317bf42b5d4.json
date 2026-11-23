@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Curvature-Aware+Zeroth-Order+Optimization+for+Memory-Efficient+Test-Time+Adaptation%22",
+  "fetched_at": "2026-11-23T10:25:47Z",
+  "http_status": 200,
+  "content_sha256": "cbc29ac8741a2832c08234eb8211fd9bc0c6b1b9f67ee2cd63741026148b85cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cbc29ac8741a2832c08234eb8211fd9bc0c6b1b9f67ee2cd63741026148b85cb.json.gz"
+}

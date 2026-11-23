@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Generalized+Representations+for+Low-Light+Understanding%3A+When+Signal+Constancy+Meets+Semantic+Enrichment%22",
+  "fetched_at": "2026-11-23T10:15:00Z",
+  "http_status": 200,
+  "content_sha256": "1338892a07470534398fb780dad09bdc4aee0488d0c9cba7ae83e069d76db4b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1338892a07470534398fb780dad09bdc4aee0488d0c9cba7ae83e069d76db4b8.json.gz"
+}

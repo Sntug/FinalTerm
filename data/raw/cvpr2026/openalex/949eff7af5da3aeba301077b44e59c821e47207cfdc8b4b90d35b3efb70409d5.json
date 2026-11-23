@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BrepVGAE%3A+Variational+Graph+Autoencoder+with+Unified+Latent+Representation+for+B-rep%22",
+  "fetched_at": "2026-11-23T10:22:29Z",
+  "http_status": 200,
+  "content_sha256": "9e7c7f3bfdf1613260a0b2f6644acfe2dc7413a34aac940512d5d7965a0d8cfb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9e7c7f3bfdf1613260a0b2f6644acfe2dc7413a34aac940512d5d7965a0d8cfb.json.gz"
+}

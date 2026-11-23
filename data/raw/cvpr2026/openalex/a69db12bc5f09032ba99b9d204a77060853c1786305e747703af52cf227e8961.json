@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Progressive+Neural+Architecture+Generation%22",
+  "fetched_at": "2026-11-23T10:14:51Z",
+  "http_status": 200,
+  "content_sha256": "75726488afaa68fd928a13a5dd36e24c8f9f31bf17e47ca955fd4d2f3b7592a7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/75726488afaa68fd928a13a5dd36e24c8f9f31bf17e47ca955fd4d2f3b7592a7.json.gz"
+}

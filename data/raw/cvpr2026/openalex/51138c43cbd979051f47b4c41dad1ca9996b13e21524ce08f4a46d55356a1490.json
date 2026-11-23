@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Generative+Diffusion+Priors+for+3D+Mapping+of+the+Dark+Universe%22",
+  "fetched_at": "2026-11-23T10:22:25Z",
+  "http_status": 200,
+  "content_sha256": "3713c7e5177bf340f08c90d5e7222cfac7c2bf5acbfa7f28ef7e5dc8c79da45a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3713c7e5177bf340f08c90d5e7222cfac7c2bf5acbfa7f28ef7e5dc8c79da45a.json.gz"
+}

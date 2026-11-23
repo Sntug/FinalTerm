@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DENALI%3A+A+Dataset+Enabling+Non-Line-of-Sight+Spatial+Reasoning+with+Low-Cost+LiDARs%22",
+  "fetched_at": "2026-11-23T10:13:37Z",
+  "http_status": 200,
+  "content_sha256": "bec69574c83ccc3dda73d0dd100d4f371dcb662793b266391701635b4700147b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bec69574c83ccc3dda73d0dd100d4f371dcb662793b266391701635b4700147b.json.gz"
+}

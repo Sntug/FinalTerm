@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-view+Crowd+Tracking+Transformer+with+View-Ground+Interactions+Under+Large+Real-World+Scenes%22",
+  "fetched_at": "2026-11-23T10:25:31Z",
+  "http_status": 200,
+  "content_sha256": "a6e575b10f68f1620c6ef054b7eb166cb627c61ecab6175ad9cc714ec91ae7b6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a6e575b10f68f1620c6ef054b7eb166cb627c61ecab6175ad9cc714ec91ae7b6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Deformable+Gaussian+Occupancy%3A+Decoupling+Rigid+and+Nonrigid+Motion+with+Factorized+Distillation%22",
+  "fetched_at": "2026-11-23T10:14:47Z",
+  "http_status": 200,
+  "content_sha256": "922c36f1ae6f88b92adb79619bf739c7efa19dee4f3a4eee3fcf4ed50069280d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/922c36f1ae6f88b92adb79619bf739c7efa19dee4f3a4eee3fcf4ed50069280d.json.gz"
+}

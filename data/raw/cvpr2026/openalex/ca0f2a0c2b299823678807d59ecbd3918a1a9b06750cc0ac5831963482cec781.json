@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=CoIn%3A+Coverage+and+Informativeness-Guided+Token+Reduction+for+Efficient+Large+Multimodal+Models",
+  "fetched_at": "2026-11-23T10:14:57Z",
+  "http_status": 200,
+  "content_sha256": "d875a96106a227c87b367570243e12f217cd576b3a7842c105ad781764e7ebaa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d875a96106a227c87b367570243e12f217cd576b3a7842c105ad781764e7ebaa.json.gz"
+}

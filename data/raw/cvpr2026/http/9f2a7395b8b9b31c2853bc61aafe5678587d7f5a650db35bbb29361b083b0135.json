@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Mind_the_Discriminability_Trap_in_Source-Free_Cross-domain_Few-shot_Learning_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:07:48Z",
+  "http_status": 200,
+  "content_sha256": "80b7838c5d591914513028651ac10b00e0fb07ae22a80acdb3e5adcd93fdf05e",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a93-6528223183714\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/80b7838c5d591914513028651ac10b00e0fb07ae22a80acdb3e5adcd93fdf05e.html.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FlowHijack%3A+A+Dynamics-Aware+Backdoor+Attack+on+Flow-Matching+Vision-Language-Action+Models%22",
+  "fetched_at": "2026-11-23T10:23:24Z",
+  "http_status": 200,
+  "content_sha256": "2d69780cf15e5dac208226d22c0b737418ecd630d52a471e5100c2f0332ce92f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/2d69780cf15e5dac208226d22c0b737418ecd630d52a471e5100c2f0332ce92f.json.gz"
+}

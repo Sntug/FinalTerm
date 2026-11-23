@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HoneyBee%3A+Data+Recipes+for+Vision-Language+Reasoners%22",
+  "fetched_at": "2026-11-23T10:19:34Z",
+  "http_status": 200,
+  "content_sha256": "89587053e5c1d8001f98347ed13deffbcb11315d08c91cae00348d0ff3424d1b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/89587053e5c1d8001f98347ed13deffbcb11315d08c91cae00348d0ff3424d1b.json.gz"
+}

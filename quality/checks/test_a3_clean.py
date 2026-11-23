@@ -6,6 +6,7 @@ import unittest
 from unittest.mock import patch
 
 from src.clean.normalize import clean_text, clean_url, doi, openalex, arxiv, orcid, ror
+from src.clean.h5_coverage import match_basis
 from src.clean.pipeline import load_input, run, summarize
 from src.clean.resolution import resolve, paper_candidates
 from src.clean.text import identifier, sha256
@@ -86,6 +87,36 @@ class NormalizeTests(unittest.TestCase):
 
 
 class ResolutionTests(unittest.TestCase):
+    def test_cvpr2026_corroborated_raw_byline_preserves_identity_guards(self):
+        records, work = fixture()
+        paper = records['papers.jsonl'][0]
+        paper['conference_year'] = 2026
+        for author, row, observed, raw in zip(paper['authors'], records['authorships.csv'], work['authorships'],
+                                              ('Smith, Alice', 'Jones, Bob')):
+            author['name_raw'] = row['author_name_raw'] = observed['raw_author_name'] = raw
+        # Different source forms can attest the same position in one byline.
+        work['authorships'][0]['author']['display_name'] = 'Smith, Alice'
+        result = clean(records, work)
+        self.assertTrue(all(r['affiliation_status'] == 'verified' for r in result['authorships.csv']))
+        self.assertTrue(all(e['rule_version'] == '1.1.0' for e in result['evidence.jsonl']
+                            if e['rule_id'] == 'a3-exact-source-link'))
+        work['authorships'][0]['author']['display_name'] = 'Someone Else'
+        self.assertIsNone(clean(records, work)['authorships.csv'][0]['author_id'])
+        work['authorships'].reverse()
+        self.assertTrue(all(r['author_id'] is None for r in clean(records, work)['authorships.csv']))
+
+    def test_cvpr2026_match_basis_requires_conference_evidence(self):
+        records, work = fixture()
+        paper = records['papers.jsonl'][0]
+        paper.update(conference_year=2026, doi=None, arxiv_url='https://arxiv.org/abs/2601.12345')
+        work.update(publication_year=2026, locations=[{'landing_page_url': paper['arxiv_url']}])
+        self.assertEqual(match_basis(paper, work), 'linked_version_only')
+        work['locations'].append({'source': {'display_name': 'CVPR'}})
+        self.assertEqual(match_basis(paper, work), 'conference_venue_year_or_cvf_doi')
+        work['locations'].pop()
+        paper['doi'] = '10.1234/example'
+        self.assertEqual(match_basis(paper, work), 'conference_venue_year_or_cvf_doi')
+
     def test_exact_ids_and_multiple_affiliations_preserve_order_and_raw(self):
         records,w=fixture()
         a=w['authorships'][0]

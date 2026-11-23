@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Omni-Fake%3A+Benchmarking+Unified+Multimodal+Social+Media+Deepfake+Detection%22",
+  "fetched_at": "2026-11-23T10:23:53Z",
+  "http_status": 200,
+  "content_sha256": "5ce6c5396ce871f6585bc9c27fc655f733c1f7920d9ed88b2dcdc49b5934efb0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5ce6c5396ce871f6585bc9c27fc655f733c1f7920d9ed88b2dcdc49b5934efb0.json.gz"
+}

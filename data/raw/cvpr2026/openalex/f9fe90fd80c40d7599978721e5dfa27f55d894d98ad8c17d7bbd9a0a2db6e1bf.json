@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VDE%3A+Training-Free+Accelerating+Rectified+Flow+Model+via+Velocity+Decomposition+and+Estimation%22",
+  "fetched_at": "2026-11-23T10:19:04Z",
+  "http_status": 200,
+  "content_sha256": "f3e0780f72d1072e2f45db55c20c7e15ef66acfaa2c7a1f6e8b11c06c388d9a0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f3e0780f72d1072e2f45db55c20c7e15ef66acfaa2c7a1f6e8b11c06c388d9a0.json.gz"
+}

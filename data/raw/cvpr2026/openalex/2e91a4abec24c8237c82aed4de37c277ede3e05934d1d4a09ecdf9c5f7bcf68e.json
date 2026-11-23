@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22WeatherCity%3A+Urban+Scene+Reconstruction+with+Controllable+Multi-Weather+Transformation%22",
+  "fetched_at": "2026-11-23T10:23:11Z",
+  "http_status": 200,
+  "content_sha256": "043509d48c13a993fec08f314f9b51ea7e55b653e1b0f352d73d209bfc065e0e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/043509d48c13a993fec08f314f9b51ea7e55b653e1b0f352d73d209bfc065e0e.json.gz"
+}

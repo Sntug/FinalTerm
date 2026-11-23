@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22StereoWorld%3A+Geometry-Aware+Monocular-to-Stereo+Video+Generation%22",
+  "fetched_at": "2026-11-23T10:25:27Z",
+  "http_status": 200,
+  "content_sha256": "8e23fab67bfd6c0aaf3159d632b2294a09ae80a52ffbc2ee82e2ad6424e544fa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8e23fab67bfd6c0aaf3159d632b2294a09ae80a52ffbc2ee82e2ad6424e544fa.json.gz"
+}

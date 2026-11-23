@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Look+Before+You+Fuse%3A+2D-Guided+Cross-Modal+Alignment+for+Robust+3D+Detection%22",
+  "fetched_at": "2026-11-23T10:24:50Z",
+  "http_status": 200,
+  "content_sha256": "887c5356abfc9b1129d77024c5329c88c71d389fc6f8adf5d22718eb4a025936",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/887c5356abfc9b1129d77024c5329c88c71d389fc6f8adf5d22718eb4a025936.json.gz"
+}

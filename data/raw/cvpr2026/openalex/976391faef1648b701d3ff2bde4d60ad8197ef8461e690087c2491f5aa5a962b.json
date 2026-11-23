@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FlowDC%3A+Flow-Based+Decoupling-Decay+for+Complex+Image+Editing%22",
+  "fetched_at": "2026-11-23T10:15:07Z",
+  "http_status": 200,
+  "content_sha256": "14822bdd88a99085ced8d41fc194a78bbabdea9516bd55652ee39accc0c5fe83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/14822bdd88a99085ced8d41fc194a78bbabdea9516bd55652ee39accc0c5fe83.json.gz"
+}

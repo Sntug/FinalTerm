@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Parse%2C+Search%2C+and+Confirmation%3A+Training-Free+Aerial+Vision-and-Dialog+Navigation+with+Chain-of-Thought+Reasoning+and+Structured+Spatial+Memory%22",
+  "fetched_at": "2026-11-23T10:15:31Z",
+  "http_status": 200,
+  "content_sha256": "ec462b13b8b10360cd4d0f71f98f036def5934cc9363d3158327f134f9135b03",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ec462b13b8b10360cd4d0f71f98f036def5934cc9363d3158327f134f9135b03.json.gz"
+}

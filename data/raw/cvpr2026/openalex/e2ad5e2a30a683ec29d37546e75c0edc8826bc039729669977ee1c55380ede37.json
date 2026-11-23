@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DPAR%3A+Dynamic+Patchification+for+Efficient+Autoregressive+Visual+Generation%22",
+  "fetched_at": "2026-11-23T10:20:12Z",
+  "http_status": 200,
+  "content_sha256": "5d04b6cda7c1e112e5714d95c27fb7596d4cc07e79d91511360ac23bdc7891f4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5d04b6cda7c1e112e5714d95c27fb7596d4cc07e79d91511360ac23bdc7891f4.json.gz"
+}

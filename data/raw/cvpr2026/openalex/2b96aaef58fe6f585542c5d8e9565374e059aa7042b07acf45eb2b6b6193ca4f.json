@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Simple+but+Effective+Triplet-Based+Compression+Strategies+for+Compact+Visual+Localization",
+  "fetched_at": "2026-11-23T10:15:16Z",
+  "http_status": 200,
+  "content_sha256": "541b3dd27f62bd9112ec57fb773797f01c77a3917043d5c757c5ca9dc1496411",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/541b3dd27f62bd9112ec57fb773797f01c77a3917043d5c757c5ca9dc1496411.json.gz"
+}

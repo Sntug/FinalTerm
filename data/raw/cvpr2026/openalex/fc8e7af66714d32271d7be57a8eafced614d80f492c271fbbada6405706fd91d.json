@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multimodal+Learning+on+Low-Quality+Data+with+Conformal+Predictive+Self-Calibration%22",
+  "fetched_at": "2026-11-23T10:13:31Z",
+  "http_status": 200,
+  "content_sha256": "7a1d3792b5ecc66ef427e992d554523d5754befc22d4160844f27931312f0fdc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7a1d3792b5ecc66ef427e992d554523d5754befc22d4160844f27931312f0fdc.json.gz"
+}

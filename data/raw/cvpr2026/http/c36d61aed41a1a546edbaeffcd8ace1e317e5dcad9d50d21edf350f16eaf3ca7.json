@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Fang_Adapting_a_Pre-trained_Single-Cell_Foundation_Model_to_Spatial_Gene_Expression_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:08:21Z",
+  "http_status": 200,
+  "content_sha256": "d762fadf8d62e4f321082943678c49b573082b16d2654c1cb21cdb6922127157",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b8a-652822310c4d8\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/d762fadf8d62e4f321082943678c49b573082b16d2654c1cb21cdb6922127157.html.gz"
+}

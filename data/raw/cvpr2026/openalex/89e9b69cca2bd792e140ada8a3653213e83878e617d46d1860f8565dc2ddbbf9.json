@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exemplar-Free+Continual+Learning+for+State+Space+Models%22",
+  "fetched_at": "2026-11-23T10:19:58Z",
+  "http_status": 200,
+  "content_sha256": "ead5ce1ed92d9f4e9c13842980a2812fca82d2c0b4fc0a18230c4aee8615d31e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ead5ce1ed92d9f4e9c13842980a2812fca82d2c0b4fc0a18230c4aee8615d31e.json.gz"
+}

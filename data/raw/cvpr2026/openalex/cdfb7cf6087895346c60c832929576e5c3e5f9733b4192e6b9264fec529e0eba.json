@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Gravitation-Driven+Semantic+Alignment+for+Text+Video+Retrieval",
+  "fetched_at": "2026-11-23T10:23:47Z",
+  "http_status": 200,
+  "content_sha256": "7455e8fcdcdb52318045faaa6f1c9bf993218a91f3093fcc886bcb66496707ad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7455e8fcdcdb52318045faaa6f1c9bf993218a91f3093fcc886bcb66496707ad.json.gz"
+}

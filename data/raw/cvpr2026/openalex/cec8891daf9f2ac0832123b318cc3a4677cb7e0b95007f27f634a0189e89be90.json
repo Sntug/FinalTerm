@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Learning+Anchor+in+Dual+Orthogonal+Space+for+Fast+Multi-view+Clustering",
+  "fetched_at": "2026-11-23T10:14:03Z",
+  "http_status": 200,
+  "content_sha256": "52feb7eda9cbbc02e8be9586571073b2dbe51d5537e57495d92e9b3ac5c089ad",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/52feb7eda9cbbc02e8be9586571073b2dbe51d5537e57495d92e9b3ac5c089ad.json.gz"
+}

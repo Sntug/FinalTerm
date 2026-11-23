@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MapRoute%3APrecise-Concept+Erasing+Mappers+via+Semantic+Routing%22",
+  "fetched_at": "2026-11-23T10:16:05Z",
+  "http_status": 200,
+  "content_sha256": "ed8ce0e9b9cfdeb4a90e83195f18736e1d55bffe8571955b021be5cf97cec47d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ed8ce0e9b9cfdeb4a90e83195f18736e1d55bffe8571955b021be5cf97cec47d.json.gz"
+}

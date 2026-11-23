@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=PP-Brep%3A+Few-Shot+B-rep+Classification+with+Hybrid+Graph+Representation",
+  "fetched_at": "2026-11-23T10:25:46Z",
+  "http_status": 200,
+  "content_sha256": "fa2195e84c3be4fc213733b58b1e237b99561a802d642176faad7827b37e0ff9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fa2195e84c3be4fc213733b58b1e237b99561a802d642176faad7827b37e0ff9.json.gz"
+}

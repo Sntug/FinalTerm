@@ -1,4 +1,5 @@
-"""Replay CVPR trend selections from the two pinned CVF listings."""
+"""Replay CVPR trend selections from pinned CVF listings."""
+import argparse
 import csv
 import json
 
@@ -22,8 +23,10 @@ def ranking(root, cfg, policy):
     return urls, source_record(meta, None, "listing")
 
 
-def lock_2025(root, policy):
-    cfg = load_config(root, "config/a_cvpr2025_350.json")
+def lock_edition(root, policy, year):
+    cfg = load_config(root, f"config/a_cvpr{year}_350.json")
+    if cfg["conference"] != "CVPR" or cfg["conference_year"] != year:
+        raise ValueError(f"Collector config must describe CVPR {year}")
     ranked, listing = ranking(root, cfg, policy)
     edition = {key: cfg[key] for key in ("owner", "conference", "conference_year")}
     papers, rows, candidates = [], [], []
@@ -78,7 +81,11 @@ def compare_2024(root, policy):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--year", type=int, choices=(2025, 2026), default=2025)
+    args = parser.parse_args()
     policy = json.loads((REPO_ROOT / "config/a_trend_project.json").read_text(encoding="utf-8"))
-    lock = lock_2025(REPO_ROOT, policy)
-    print(f'CVPR2025: {len(lock["papers"])}/{lock["candidate_count"]}')
-    print(json.dumps(compare_2024(REPO_ROOT, policy)))
+    lock = lock_edition(REPO_ROOT, policy, args.year)
+    print(f'CVPR{args.year}: {len(lock["papers"])}/{lock["candidate_count"]}')
+    if args.year == 2025:
+        print(json.dumps(compare_2024(REPO_ROOT, policy)))

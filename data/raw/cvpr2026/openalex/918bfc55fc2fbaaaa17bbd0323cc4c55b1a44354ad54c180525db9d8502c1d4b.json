@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DriveMoE%3A+Mixture-of-Experts+for+Vision-Language-Action+Model+in+End-to-End+Autonomous+Driving%22",
+  "fetched_at": "2026-11-23T10:15:26Z",
+  "http_status": 200,
+  "content_sha256": "f9da173819526d945e806209025c3ae5b950eeb401f6e3ebf60a1aa63b49f335",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f9da173819526d945e806209025c3ae5b950eeb401f6e3ebf60a1aa63b49f335.json.gz"
+}

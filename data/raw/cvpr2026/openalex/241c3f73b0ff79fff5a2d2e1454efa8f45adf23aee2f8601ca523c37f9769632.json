@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=ODGS-SLAM%3A+Omnidirectional+Gaussian+Splatting+SLAM",
+  "fetched_at": "2026-11-23T10:22:36Z",
+  "http_status": 200,
+  "content_sha256": "0c5fa93d508cdbdaabca7b0849cf14f76d50272cabd6a6783720b11a52bde98e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0c5fa93d508cdbdaabca7b0849cf14f76d50272cabd6a6783720b11a52bde98e.json.gz"
+}

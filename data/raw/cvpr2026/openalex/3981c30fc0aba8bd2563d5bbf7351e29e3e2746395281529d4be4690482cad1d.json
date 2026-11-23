@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VisualOverload%3A+Probing+Visual+Understanding+of+VLMs+in+Really+Dense+Scenes%22",
+  "fetched_at": "2026-11-23T10:15:18Z",
+  "http_status": 200,
+  "content_sha256": "cc098cf7dad6aca47292c3e5ce114f5a5991e0cd4e8d1f5529943740bda23d84",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cc098cf7dad6aca47292c3e5ce114f5a5991e0cd4e8d1f5529943740bda23d84.json.gz"
+}
