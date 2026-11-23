@@ -2,9 +2,10 @@
 
 | Mục | Giá trị |
 |---|---|
-| Phiên bản | 1.1 (chờ A duyệt) |
-| Ngày | 21/11/2026 (v1.0: 20/11) |
+| Phiên bản | 1.2 (chờ A duyệt) |
+| Ngày | 23/11/2026 (v1.0: 20/11, v1.1: 21/11) |
 | Thay đổi 1.1 | Tách H10a/H10b theo phụ thuộc vào H9; ghi rõ các file của H7 và ba điều kiện khóa H8; gán nhãn test chỉ sau khi đóng băng, loại bài gold khỏi pilot và few-shot, số bài gold thay đổi theo số kỳ giữ lại; thêm cổng so sánh; embedding lõi chỉ gồm chủ đề tương tự; GraphRAG có ý định xu hướng, Q1b nhận `$author_ids` |
+| Thay đổi 1.2 | Chốt SLM `qwen3:8b` (tắt thinking), dự phòng `qwen3:4b`; pilot SLM chỉ xác nhận tốc độ/RAM/% JSON |
 | Căn cứ | `docs/SPEC_trend_app.md` v0.3 và yêu cầu cuối kỳ |
 | Hạn cứng | Hoàn thành bài **03/12/2026 23:59** · Slide/link **20/12/2026 23:59** |
 | Hạn nội bộ | Đóng băng bản nộp **03/12/2026 12:00** (giữ 12 giờ dự phòng) |
@@ -102,10 +103,10 @@
 | A | B |
 |---|---|
 | Duyệt spec v0.3 và plan này | Tạo `.github/CODEOWNERS`, khung thư mục mới |
-| Quyết định D5: cấu hình project/venue mới có cần đổi contract không → **H1** | Cài Ollama, tải Qwen2.5-7B và 3B, đo RAM khi chạy trên văn bản giả |
+| Quyết định D5: cấu hình project/venue mới có cần đổi contract không → **H1** | Cài Ollama, tải `qwen3:8b` và `qwen3:4b`, đo RAM khi chạy trên văn bản giả |
 | Lấy listing, khóa mẫu CVPR 2025 và CVPR 2026; pilot ~20 bài mỗi kỳ, đo độ phủ abstract và affiliation → **H3** (21/11 sáng) | Lấy listing, khóa mẫu ICCV 2025; pilot ~20 bài → **H3** (21/11 sáng) |
 | Đối chiếu mẫu CVPR 2024 với quy tắc chọn → ghi vào `comparability.csv` | Đối chiếu mẫu ICCV 2023 (gồm pilot) với quy tắc chọn → ghi vào `comparability.csv` |
-| Viết `src/gold`, chạy ngay sau H3 → **H4** (21/11 trưa) | Sau H4: pilot SLM trên ~20 abstract **không thuộc tập gold** (token/giây, % JSON hợp lệ); chốt 7B hay 3B → **H2** (22/11 sáng) |
+| Viết `src/gold`, chạy ngay sau H3 → **H4** (21/11 trưa) | Sau H4: pilot SLM trên ~20 abstract **không thuộc tập gold** (token/giây, % JSON hợp lệ); xác nhận `qwen3:8b` đủ nhanh, nếu không chuyển `qwen3:4b` → **H2** (22/11 sáng) |
 | — | Kiểm tra yêu cầu endorsement arXiv cho cs.CV; nếu cần thì nhờ giảng viên |
 
 **Checkpoint C0 (21/11 tối):** đủ H1, H3, H4. Trước khi có dữ liệu mới, cả hai chốt vào `config/trend_metrics.json`:
@@ -242,7 +243,7 @@ Phần mở rộng làm trên nhánh riêng và chỉ merge nếu không làm th
 | Nếu trễ ở | Cắt |
 |---|---|
 | CVPR 2026 chưa verify xong ngày 24/11 | Bỏ CVPR 2026; bảng chính chuyển thành CVPR 2024→2025 |
-| SLM quá chậm | Đổi sang 3B; SLM chỉ xác minh ca mơ hồ, không trích toàn bộ |
+| SLM quá chậm | Đổi sang `qwen3:4b`; SLM chỉ xác minh ca mơ hồ, không trích toàn bộ |
 | Snapshot trễ sau 26/11 | Giữ nguyên 26/11 với các kỳ đã sẵn sàng; không chờ |
 | App trễ ở C3 | Bỏ hình UMAP khỏi app (giữ trong báo cáo); **vẫn giữ** danh sách top-5 chủ đề tương tự ở trang 2a vì đây là nghiệm thu lõi của embedding; giữ đủ 4 màn hình lõi |
 | Báo cáo trễ | Không làm thêm phần mở rộng nào sau 01/12 |

@@ -1,0 +1,9 @@
+venue_edition,check,value,threshold,pass,note
+ICCV2023,listing_source,ba112ee3d3bc0111322a32faa874aa9d9b74f7a074de99994cfb6a335f1c58ed,main track only,true,"cached https://openaccess.thecvf.com/ICCV2023?day=all; parse_listing main-track /content/ICCV2023/html/ == catalog json: True (only_listing=0, only_catalog=0)"
+ICCV2023,candidate_count,2156,>=350,true,distinct canonical main-track URLs after dedupe
+ICCV2023,rule_top350_overlap,328,350,false,"actual-only=22, rule-only=22"
+ICCV2023,pilot_not_in_rule_top350,24,0,false,"pilot papers (30) kept regardless of SHA rank; pilot was a 34-record web-search pool + random.sample, not rule-based"
+ICCV2023,excluded_and_replaced,17,0,false,papers in rule top350 removed via config/b_iccv2023_excluded.json (19 excluded; 2 of them pilot) and replaced; rule says do not replace
+ICCV2023,sample_follows_rule,false,true,false,actual registry set == pure SHA-256 rule top350
+ICCV2023,abstract_coverage,350/350,350/350 or reported,true,non-empty abstract in full snapshot papers.jsonl
+ICCV2023,openalex_matched,350/350,reported,true,openalex_status == matched in full snapshot papers.jsonl
