@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Camouflage-aware+Image-Text+Retrieval+via+Expert+Collaboration%22",
+  "fetched_at": "2026-11-23T10:25:33Z",
+  "http_status": 200,
+  "content_sha256": "67528f875a07af94dbebfddf8f49e0e8b0f29be57c6b6388592c15980db4382c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/67528f875a07af94dbebfddf8f49e0e8b0f29be57c6b6388592c15980db4382c.json.gz"
+}

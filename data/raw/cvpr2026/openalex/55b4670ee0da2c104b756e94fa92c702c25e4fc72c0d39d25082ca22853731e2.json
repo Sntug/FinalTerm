@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Attention%2C+May+I+Have+Your+Decision%3F+Localizing+Generative+Choices+in+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T10:25:28Z",
+  "http_status": 200,
+  "content_sha256": "0a3061abba2902c84a5e1904a8a11142d16c83b440df38ddd9e095847890ccc8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0a3061abba2902c84a5e1904a8a11142d16c83b440df38ddd9e095847890ccc8.json.gz"
+}

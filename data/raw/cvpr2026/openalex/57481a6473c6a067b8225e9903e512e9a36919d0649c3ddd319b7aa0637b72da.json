@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Scaling+the+Long+Video+Understanding+of+Multimodal+Large+Language+Models+via+Visual+Memory+Mechanism%22",
+  "fetched_at": "2026-11-23T10:24:24Z",
+  "http_status": 200,
+  "content_sha256": "3261301328a3b3591b7264e4d4c75c8fc95b164fd7f8d95f44c98eb6edeef4a8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3261301328a3b3591b7264e4d4c75c8fc95b164fd7f8d95f44c98eb6edeef4a8.json.gz"
+}

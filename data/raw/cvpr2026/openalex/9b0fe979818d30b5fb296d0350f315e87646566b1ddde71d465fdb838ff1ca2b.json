@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bias+Is+a+Subspace%2C+Not+a+Coordinate%3A+A+Geometric+Rethinking+of+Post-hoc+Debiasing+in+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T10:18:29Z",
+  "http_status": 200,
+  "content_sha256": "c32740eb712a5f464450e7fc1304657f01247d24ea214e822ed741ea0d880b41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c32740eb712a5f464450e7fc1304657f01247d24ea214e822ed741ea0d880b41.json.gz"
+}

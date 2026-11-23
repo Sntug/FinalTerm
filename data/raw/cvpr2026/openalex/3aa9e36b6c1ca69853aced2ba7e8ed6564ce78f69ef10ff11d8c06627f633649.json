@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VibeToken%3A+Scaling+1D+Image+Tokenizers+and+Autoregressive+Models+for+Dynamic+Resolution+Generations%22",
+  "fetched_at": "2026-11-23T10:14:43Z",
+  "http_status": 200,
+  "content_sha256": "a27dd90345ce2e0a564df0d365bbd27fd124cafc7c181396eb44846913b891e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a27dd90345ce2e0a564df0d365bbd27fd124cafc7c181396eb44846913b891e7.json.gz"
+}

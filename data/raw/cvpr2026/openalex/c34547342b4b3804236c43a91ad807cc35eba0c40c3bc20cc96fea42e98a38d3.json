@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22StreamDiT%3A+Real-Time+Streaming+Text-to-Video+Generation%22",
+  "fetched_at": "2026-11-23T10:24:01Z",
+  "http_status": 200,
+  "content_sha256": "ea16f63dba10028acb377c0acbd2bcee3f80803950142a5990adbd0a5efcbc48",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ea16f63dba10028acb377c0acbd2bcee3f80803950142a5990adbd0a5efcbc48.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HumanNOVA%3A+Photorealistic%2C+Universal+and+Rapid+3D+Human+Avatar+Modeling+from+a+Single+Image%22",
+  "fetched_at": "2026-11-23T10:19:53Z",
+  "http_status": 200,
+  "content_sha256": "6deae68ca00a7c9fb0b622b448c9f7f3e5bce42d2e351b68ac31b40de4f087d1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6deae68ca00a7c9fb0b622b448c9f7f3e5bce42d2e351b68ac31b40de4f087d1.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Is+the+Modality+Gap+a+Bug+or+a+Feature%3F+A+Robustness+Perspective%22",
+  "fetched_at": "2026-11-23T10:20:55Z",
+  "http_status": 200,
+  "content_sha256": "cae039eee87e421f878aed7306f882f3e9d9602a6f6e47264149c58dd1bb01d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cae039eee87e421f878aed7306f882f3e9d9602a6f6e47264149c58dd1bb01d6.json.gz"
+}

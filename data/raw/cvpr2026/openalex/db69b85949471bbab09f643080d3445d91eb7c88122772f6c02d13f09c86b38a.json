@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SAMIX%3A+Reinforcing+SAM2+with+Semantic+Adapter+and+Reference+Selecting+Policy+for+Mix-Supervised+Segmentation%22",
+  "fetched_at": "2026-11-23T10:22:43Z",
+  "http_status": 200,
+  "content_sha256": "7e4df69857f449848ddcbb78c2ca4899fa8fd683e146c2e4e02f09928780fb05",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7e4df69857f449848ddcbb78c2ca4899fa8fd683e146c2e4e02f09928780fb05.json.gz"
+}

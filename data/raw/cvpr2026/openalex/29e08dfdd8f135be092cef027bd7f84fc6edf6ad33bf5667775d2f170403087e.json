@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Chain-of-Frames%3A+Advancing+Video+Understanding+in+Multimodal+LLMs+via+Frame-Aware+Reasoning%22",
+  "fetched_at": "2026-11-23T10:15:25Z",
+  "http_status": 200,
+  "content_sha256": "31f71d866a7dac1caecb1b2dfe0dfdd9fc3e8379792f2b93ff9e94124dc0384e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/31f71d866a7dac1caecb1b2dfe0dfdd9fc3e8379792f2b93ff9e94124dc0384e.json.gz"
+}

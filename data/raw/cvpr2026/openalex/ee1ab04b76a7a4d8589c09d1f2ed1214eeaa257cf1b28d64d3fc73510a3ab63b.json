@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Adaptive+Masked+Reconstruction+for+Self-Supervised+Skeleton-Based+Action+Recognition%22",
+  "fetched_at": "2026-11-23T10:24:32Z",
+  "http_status": 200,
+  "content_sha256": "5fe49122eed0d1e6767262d15816e82d31d9816e85a570c7c72491a5ff106e01",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5fe49122eed0d1e6767262d15816e82d31d9816e85a570c7c72491a5ff106e01.json.gz"
+}

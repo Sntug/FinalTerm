@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Seeing+Motion+Through+Polarity+for+Event-based+Action+Recognition%22",
+  "fetched_at": "2026-11-23T10:24:20Z",
+  "http_status": 200,
+  "content_sha256": "246b0eee81d1ca95432ac5966b2b21069206abc29b83924b89b08d18526dcd76",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/246b0eee81d1ca95432ac5966b2b21069206abc29b83924b89b08d18526dcd76.json.gz"
+}

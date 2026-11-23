@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Understanding+Counting+Mechanisms+in+Large+Language+and+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T10:15:38Z",
+  "http_status": 200,
+  "content_sha256": "165ac678c016e3ae10abf906c2ea4ab7154bea1624d8c7fb81323a916f5d26e6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/165ac678c016e3ae10abf906c2ea4ab7154bea1624d8c7fb81323a916f5d26e6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rewis3d%3A+Reconstruction+Improves+Weakly-Supervised+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-23T10:19:07Z",
+  "http_status": 200,
+  "content_sha256": "d699c120780ebc5a26cd169f0267e79b38ecd3ae02896f8ed307795eac4098d4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d699c120780ebc5a26cd169f0267e79b38ecd3ae02896f8ed307795eac4098d4.json.gz"
+}

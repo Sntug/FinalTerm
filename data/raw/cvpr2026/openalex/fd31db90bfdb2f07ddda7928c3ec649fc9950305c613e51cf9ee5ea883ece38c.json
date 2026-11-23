@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GeoSANE%3A+Learning+Geospatial+Representations+from+Models%2C+Not+Data%22",
+  "fetched_at": "2026-11-23T10:15:41Z",
+  "http_status": 200,
+  "content_sha256": "ad5f6397d7d63c83c99cb3d98418ff05d8bf3cda515a19d8c113793b6238d3c1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ad5f6397d7d63c83c99cb3d98418ff05d8bf3cda515a19d8c113793b6238d3c1.json.gz"
+}

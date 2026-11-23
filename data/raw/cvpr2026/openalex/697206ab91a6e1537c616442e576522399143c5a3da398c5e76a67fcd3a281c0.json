@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Seeing+Beyond%3A+Extrapolative+Domain+Adaptive+Panoramic+Segmentation%22",
+  "fetched_at": "2026-11-23T10:19:17Z",
+  "http_status": 200,
+  "content_sha256": "a3ad67c06fe5e25be42107c4f5a7d983a68bc31e4c2ac4522e1bc82da02884e1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a3ad67c06fe5e25be42107c4f5a7d983a68bc31e4c2ac4522e1bc82da02884e1.json.gz"
+}

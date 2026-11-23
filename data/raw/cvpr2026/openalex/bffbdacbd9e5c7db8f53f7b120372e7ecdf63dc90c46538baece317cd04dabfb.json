@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Spatial-Spectral+Residuals+Informed+Diffusion+Neural+Operator+for+Pan-sharpening%22",
+  "fetched_at": "2026-11-23T10:13:28Z",
+  "http_status": 200,
+  "content_sha256": "5aef01f13b071c3be1ed3a9e7aa8f2e083ebe50fb29d873b132e9aeac65151d9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5aef01f13b071c3be1ed3a9e7aa8f2e083ebe50fb29d873b132e9aeac65151d9.json.gz"
+}

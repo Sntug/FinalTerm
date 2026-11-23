@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Reinforcing+Video+Object+Segmentation+to+Think+before+it+Segments",
+  "fetched_at": "2026-11-23T10:20:25Z",
+  "http_status": 200,
+  "content_sha256": "99dfe92098a2992b03864bded8b4aa31b6a906f2d6e4817b63507f0475104705",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/99dfe92098a2992b03864bded8b4aa31b6a906f2d6e4817b63507f0475104705.json.gz"
+}

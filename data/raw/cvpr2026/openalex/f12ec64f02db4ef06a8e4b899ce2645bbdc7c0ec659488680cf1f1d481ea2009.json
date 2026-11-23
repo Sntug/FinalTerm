@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Cross-View+Object+Correspondence+via+Cycle-Consistent+Mask+Prediction%22",
+  "fetched_at": "2026-11-23T10:16:03Z",
+  "http_status": 200,
+  "content_sha256": "4d2ee75ba502f6c9d5a00b38b5501d4b829504aea7316ff324d0a3238309182c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4d2ee75ba502f6c9d5a00b38b5501d4b829504aea7316ff324d0a3238309182c.json.gz"
+}

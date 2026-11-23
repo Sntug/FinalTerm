@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Revisiting+Geometric+Obfuscation+with+Dual+Convergent+Lines+for+Privacy-Preserving+Image+Queries+in+Visual+Localization%22",
+  "fetched_at": "2026-11-23T10:20:21Z",
+  "http_status": 200,
+  "content_sha256": "e894863c475a93aea77586f797094ad8bc671561d4edcaf825b4ec509e39a59e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e894863c475a93aea77586f797094ad8bc671561d4edcaf825b4ec509e39a59e.json.gz"
+}

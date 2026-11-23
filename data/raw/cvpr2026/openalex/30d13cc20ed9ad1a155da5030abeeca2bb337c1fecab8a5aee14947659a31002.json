@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Global+Underwater+Geolocation+from+Time-Lapse+Polarization+Imagery",
+  "fetched_at": "2026-11-23T10:20:50Z",
+  "http_status": 200,
+  "content_sha256": "d8bcf99672f819308f51650303737823e42d03a4d48510bac8f1e3315bd98c49",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d8bcf99672f819308f51650303737823e42d03a4d48510bac8f1e3315bd98c49.json.gz"
+}

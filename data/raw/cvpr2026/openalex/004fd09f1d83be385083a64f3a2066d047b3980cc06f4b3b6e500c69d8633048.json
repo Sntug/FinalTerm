@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bridging+the+Modality+Gap+in+Compositional+Zero-Shot+Learning+via+Sparse+Alignment+and+Unimodal+Memory+Bank%22",
+  "fetched_at": "2026-11-23T10:24:09Z",
+  "http_status": 200,
+  "content_sha256": "3d155abf1110575c255a890774ddaf4471caa4f644586bb5c36fa6185465b6dd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3d155abf1110575c255a890774ddaf4471caa4f644586bb5c36fa6185465b6dd.json.gz"
+}

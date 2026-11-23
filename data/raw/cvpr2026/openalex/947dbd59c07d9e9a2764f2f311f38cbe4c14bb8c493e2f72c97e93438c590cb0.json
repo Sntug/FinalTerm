@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22WorldGen%3A+From+Text+to+Traversable+and+Interactive+3D+Worlds%22",
+  "fetched_at": "2026-11-23T10:13:47Z",
+  "http_status": 200,
+  "content_sha256": "a44b3eb4c31383a164e78b97759f847057fa79486680d2e4ec6c7b17a08205df",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a44b3eb4c31383a164e78b97759f847057fa79486680d2e4ec6c7b17a08205df.json.gz"
+}

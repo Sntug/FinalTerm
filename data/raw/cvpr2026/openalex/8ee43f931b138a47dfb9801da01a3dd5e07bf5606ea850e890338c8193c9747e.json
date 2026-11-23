@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Condensed+Test-Time+Adaptation+of+VLMs+for+Action+Recognition",
+  "fetched_at": "2026-11-23T10:15:04Z",
+  "http_status": 200,
+  "content_sha256": "e66f015c20f62af245fed14eba74753ce7431ec69f98f1adcd2b959bc5f31586",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e66f015c20f62af245fed14eba74753ce7431ec69f98f1adcd2b959bc5f31586.json.gz"
+}

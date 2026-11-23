@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Simple+Agents+Outperform+Experts+in+Biomedical+Imaging+Workflow+Optimization%22",
+  "fetched_at": "2026-11-23T10:23:51Z",
+  "http_status": 200,
+  "content_sha256": "a1c9097a12f73015c8194bb1b4f320b0044b5e1fb35c3f3d39dfc3af46d73493",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a1c9097a12f73015c8194bb1b4f320b0044b5e1fb35c3f3d39dfc3af46d73493.json.gz"
+}

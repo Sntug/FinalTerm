@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Forging+a+Dynamic+Memory%3A+Retrieval-Guided+Continual+Learning+for+Generalist+Medical+Foundation+Models%22",
+  "fetched_at": "2026-11-23T10:23:42Z",
+  "http_status": 200,
+  "content_sha256": "7ff7352c0fad16c7dc946c665cca6030ffdbd3e96b9ef63855b66a98e00899e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7ff7352c0fad16c7dc946c665cca6030ffdbd3e96b9ef63855b66a98e00899e7.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MaskAdapt%3A+Learning+Flexible+Motion+Adaptation+via+Mask-Invariant+Prior+for+Physics-Based+Characters%22",
+  "fetched_at": "2026-11-23T10:19:01Z",
+  "http_status": 200,
+  "content_sha256": "9e6e0a9bd9c966fb915cce4cd06a082b34b5baa3c284d7799a97b70081bcb7f2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9e6e0a9bd9c966fb915cce4cd06a082b34b5baa3c284d7799a97b70081bcb7f2.json.gz"
+}

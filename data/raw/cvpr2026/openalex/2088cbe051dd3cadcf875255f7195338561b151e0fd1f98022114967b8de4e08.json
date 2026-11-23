@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RoSAMDepth%3A+Robust+Self-supervised+Depth+Estimation+Leveraging+Segment+Anything+Model%22",
+  "fetched_at": "2026-11-23T10:13:28Z",
+  "http_status": 200,
+  "content_sha256": "f1b93f8f6791b8f2a7a2ebee496f66f0549999272a7e51ace94bf1272b3ec3cb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/f1b93f8f6791b8f2a7a2ebee496f66f0549999272a7e51ace94bf1272b3ec3cb.json.gz"
+}

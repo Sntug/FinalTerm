@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PhyCritic%3A+Multimodal+Critic+Models+for+Physical+AI%22",
+  "fetched_at": "2026-11-23T10:23:26Z",
+  "http_status": 200,
+  "content_sha256": "ba230273d7001f51f5aca27913c69c6519fb6c6bd7f628c9bc0ae78b5074ff43",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ba230273d7001f51f5aca27913c69c6519fb6c6bd7f628c9bc0ae78b5074ff43.json.gz"
+}

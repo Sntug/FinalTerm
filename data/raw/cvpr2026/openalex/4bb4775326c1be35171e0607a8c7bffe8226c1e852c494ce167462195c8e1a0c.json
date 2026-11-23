@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=PatchScene%3A+Patch-based+Voxel+Diffusion+Model+for+Large-Scale+Scene+Completion",
+  "fetched_at": "2026-11-23T10:14:24Z",
+  "http_status": 200,
+  "content_sha256": "3e6668db69a8f1773bdf328fd454157d1ce0ea4b17379e8dfe1abb3ae30be4fe",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3e6668db69a8f1773bdf328fd454157d1ce0ea4b17379e8dfe1abb3ae30be4fe.json.gz"
+}

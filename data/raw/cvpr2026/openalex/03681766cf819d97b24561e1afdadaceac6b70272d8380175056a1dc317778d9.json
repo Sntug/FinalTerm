@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RL-ScanIQA%3A+Reinforcement-Learned+Scanpaths+for+Blind+360deg+Image+Quality+Assessment%22",
+  "fetched_at": "2026-11-23T10:13:58Z",
+  "http_status": 200,
+  "content_sha256": "e1e68c6461944a0c994928f58befb1cc2e0f8377b626a50a53f57cc9e200aaae",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e1e68c6461944a0c994928f58befb1cc2e0f8377b626a50a53f57cc9e200aaae.json.gz"
+}

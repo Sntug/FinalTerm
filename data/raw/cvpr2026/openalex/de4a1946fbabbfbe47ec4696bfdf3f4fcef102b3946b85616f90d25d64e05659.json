@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ArtLLM%3A+Generating+Articulated+Assets+via+3D+LLM%22",
+  "fetched_at": "2026-11-23T10:15:36Z",
+  "http_status": 200,
+  "content_sha256": "562e0e6a7173c314357ced15499506c0acfdc747d32839d1998b42fb048e8a5e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/562e0e6a7173c314357ced15499506c0acfdc747d32839d1998b42fb048e8a5e.json.gz"
+}

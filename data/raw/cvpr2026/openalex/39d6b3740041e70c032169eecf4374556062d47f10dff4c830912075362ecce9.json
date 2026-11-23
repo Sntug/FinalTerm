@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EgoEdit%3A+Dataset%2C+Real-Time+Streaming+Model%2C+and+Benchmark+for+Egocentric+Video+Editing%22",
+  "fetched_at": "2026-11-23T10:18:28Z",
+  "http_status": 200,
+  "content_sha256": "bf1789f9923a98a603198c8dd2e16685fdc441b6efaf7c7bd89dd320bc33207f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bf1789f9923a98a603198c8dd2e16685fdc441b6efaf7c7bd89dd320bc33207f.json.gz"
+}

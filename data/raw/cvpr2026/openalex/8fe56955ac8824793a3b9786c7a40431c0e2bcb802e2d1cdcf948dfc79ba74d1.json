@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EvoComp%3A+Learning+Visual+Token+Compression+for+Multimodal+Large+Language+Models+via+Semantic-Guided+Evolutionary+Labeling%22",
+  "fetched_at": "2026-11-23T10:20:34Z",
+  "http_status": 200,
+  "content_sha256": "871e76feb44926a0c65d39aeca2f0b42f28604258005facc009d30a0cef02a10",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/871e76feb44926a0c65d39aeca2f0b42f28604258005facc009d30a0cef02a10.json.gz"
+}

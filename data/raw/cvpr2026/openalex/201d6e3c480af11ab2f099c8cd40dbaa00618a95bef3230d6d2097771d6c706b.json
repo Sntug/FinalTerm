@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Chain+of+World%3A+World+Model+Thinking+in+Latent+Motion%22",
+  "fetched_at": "2026-11-23T10:20:53Z",
+  "http_status": 200,
+  "content_sha256": "e14d40d7929ddaa21762eb5dea70d70458b2d361dc6a4d776fc4bfb5e80792d8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e14d40d7929ddaa21762eb5dea70d70458b2d361dc6a4d776fc4bfb5e80792d8.json.gz"
+}

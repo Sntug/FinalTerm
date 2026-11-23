@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Beyond+Objects%3A+Contextual+Synthetic+Data+Generation+for+Fine-Grained+Classification",
+  "fetched_at": "2026-11-23T10:19:07Z",
+  "http_status": 200,
+  "content_sha256": "68bbec899db2f7d779034edb4d08b07a8867ae402101e06297a16c668186b0c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/68bbec899db2f7d779034edb4d08b07a8867ae402101e06297a16c668186b0c6.json.gz"
+}

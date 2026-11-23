@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Pan_PanDA_Unsupervised_Domain_Adaptation_for_Multimodal_3D_Panoptic_Segmentation_in_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:11:19Z",
+  "http_status": 200,
+  "content_sha256": "c8d545a791ed7fbb132c99e41903aa72f9a61e3fc62e7fbfafc3e1470ae1c364",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a7a-652822308d59c\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/c8d545a791ed7fbb132c99e41903aa72f9a61e3fc62e7fbfafc3e1470ae1c364.html.gz"
+}

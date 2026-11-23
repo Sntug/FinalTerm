@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Socratic-Geo%3A+Synthetic+Data+Generation+and+Cross-Modal+Geometric+Reasoning+via+Multi-Agent+Interaction%22",
+  "fetched_at": "2026-11-23T10:22:22Z",
+  "http_status": 200,
+  "content_sha256": "a332bb1af431ba529f5c508d7a25099ff7e193b5a841b442ad76bedb5b83b0bb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a332bb1af431ba529f5c508d7a25099ff7e193b5a841b442ad76bedb5b83b0bb.json.gz"
+}

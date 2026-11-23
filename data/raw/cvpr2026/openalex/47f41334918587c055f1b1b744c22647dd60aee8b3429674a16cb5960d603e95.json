@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Turning+Pre-Trained+Vision+Transformers+into+End-to-End+Histopathology+Whole+Slide+Image+Models+for+Survival+Prediction",
+  "fetched_at": "2026-11-23T10:15:24Z",
+  "http_status": 200,
+  "content_sha256": "05886637927ced39c1c42ceba6da40655e3ffd14f9bbd9f2059291206037a107",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/05886637927ced39c1c42ceba6da40655e3ffd14f9bbd9f2059291206037a107.json.gz"
+}

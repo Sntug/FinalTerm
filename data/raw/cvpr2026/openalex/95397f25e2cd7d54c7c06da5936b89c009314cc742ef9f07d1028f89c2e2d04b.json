@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DialogueVPR%3A+Towards+Conversational+Visual+Place+Recognition%22",
+  "fetched_at": "2026-11-23T10:23:21Z",
+  "http_status": 200,
+  "content_sha256": "0e8add82416b08f322c9577f6738491e3dd20d7130742aa952a29fad1a87a1df",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0e8add82416b08f322c9577f6738491e3dd20d7130742aa952a29fad1a87a1df.json.gz"
+}

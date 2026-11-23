@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dynamic+Label+Noise+Suppression+with+Optimal+Teacher+Pool+for+Facial+Expression+Recognition%22",
+  "fetched_at": "2026-11-23T10:18:23Z",
+  "http_status": 200,
+  "content_sha256": "e0ae6459dcfbe7b4e82ea410408ee07a4f1178ea3d3f3badb6b7f117811962d4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e0ae6459dcfbe7b4e82ea410408ee07a4f1178ea3d3f3badb6b7f117811962d4.json.gz"
+}

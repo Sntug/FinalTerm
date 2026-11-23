@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dynamic+Momentum+Recalibration+in+Online+Gradient+Learning%22",
+  "fetched_at": "2026-11-23T10:19:15Z",
+  "http_status": 200,
+  "content_sha256": "3adbb1a57d08bde1d852ee6890b6798842fd26d568ecf64c1dae568395567483",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3adbb1a57d08bde1d852ee6890b6798842fd26d568ecf64c1dae568395567483.json.gz"
+}

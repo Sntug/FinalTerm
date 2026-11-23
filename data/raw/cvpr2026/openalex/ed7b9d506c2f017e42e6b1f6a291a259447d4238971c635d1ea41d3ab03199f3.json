@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HBridge%3A+H-Shape+Bridging+of+Heterogeneous+Experts+for+Unified+Multimodal+Understanding+and+Generation%22",
+  "fetched_at": "2026-11-23T10:19:02Z",
+  "http_status": 200,
+  "content_sha256": "bc9521e821db80a303ee07043e93d9ee831acc401eff84f14b0268de38200ec3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bc9521e821db80a303ee07043e93d9ee831acc401eff84f14b0268de38200ec3.json.gz"
+}

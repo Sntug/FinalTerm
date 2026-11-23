@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Predictive+Regularization+Against+Visual+Representation+Degradation+in+Multimodal+Large+Language+Models%22",
+  "fetched_at": "2026-11-23T10:14:45Z",
+  "http_status": 200,
+  "content_sha256": "ecaa233638c95553ed952724290e4e68f3848964f1a1f4e9f5d1640df3181dcf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ecaa233638c95553ed952724290e4e68f3848964f1a1f4e9f5d1640df3181dcf.json.gz"
+}

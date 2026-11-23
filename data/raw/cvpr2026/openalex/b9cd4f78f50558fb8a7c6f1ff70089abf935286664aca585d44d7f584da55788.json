@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Occlusion-Aware+SORT%3A+Observing+Occlusion+for+Robust+Multi-Object+Tracking%22",
+  "fetched_at": "2026-11-23T10:20:57Z",
+  "http_status": 200,
+  "content_sha256": "fa3eaabea88ffdd98ce1d20b5d81c9c9b27092610ebb04cd14f323d175374057",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/fa3eaabea88ffdd98ce1d20b5d81c9c9b27092610ebb04cd14f323d175374057.json.gz"
+}

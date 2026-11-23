@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Gong_Reinforcing_Video_Object_Segmentation_to_Think_before_it_Segments_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:10:40Z",
+  "http_status": 200,
+  "content_sha256": "bd0be13a78b04873fc3fd712ab012a6100abba9dd3abc8e7baeacead554c3aaf",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a87-65282230d0002\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/bd0be13a78b04873fc3fd712ab012a6100abba9dd3abc8e7baeacead554c3aaf.html.gz"
+}

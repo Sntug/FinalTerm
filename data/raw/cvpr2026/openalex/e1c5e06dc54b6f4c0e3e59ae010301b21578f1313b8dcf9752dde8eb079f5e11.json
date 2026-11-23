@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Off+The+Grid%3A+Detection+of+Primitives+for+Feed-Forward+3D+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-23T10:24:57Z",
+  "http_status": 200,
+  "content_sha256": "79a65a069306269c84ddb44f64bc03d6eceda8e5f6eb87267ed160c525422a84",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/79a65a069306269c84ddb44f64bc03d6eceda8e5f6eb87267ed160c525422a84.json.gz"
+}

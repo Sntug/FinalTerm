@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Text-Image+Conditioned+3D+Generation%22",
+  "fetched_at": "2026-11-23T10:14:28Z",
+  "http_status": 200,
+  "content_sha256": "db7f95d6ce005c07a9df6a9f67cbb32c3657ea9a44f8bcf3208e177b76ab57a7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/db7f95d6ce005c07a9df6a9f67cbb32c3657ea9a44f8bcf3208e177b76ab57a7.json.gz"
+}

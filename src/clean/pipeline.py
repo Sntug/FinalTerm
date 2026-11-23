@@ -8,7 +8,7 @@ from src.collect.common import REPO_ROOT, within, now_utc, json_bytes, record_by
 from src.collect.contract import contract, load_records
 from src.collect.pilot import snapshot_payload
 from src.collect.verify import verify as verify_a2
-from .resolution import resolve, RULE, VERSION
+from .resolution import resolve, RULE, rule_version
 from .text import canonical_json, sha256
 
 CODE_VERSION = 'a3-clean-1.0.0'
@@ -29,7 +29,7 @@ def load_config(root, path):
     required = {'input_manifest', 'processed_dir', 'owner', 'conference', 'conference_year', 'target_count'}
     if set(config) != required:
         raise ValueError('A3 config keys must be exactly: ' + ', '.join(sorted(required)))
-    if (config['conference'], config['conference_year']) not in {('CVPR', 2024), ('CVPR', 2025), ('ICCV', 2023)}:
+    if (config['conference'], config['conference_year']) not in {('CVPR', 2024), ('CVPR', 2025), ('CVPR', 2026), ('ICCV', 2023)}:
         raise ValueError('Unsupported conference edition')
     if type(config['target_count']) is not int or config['target_count'] < 1 or not config['owner']:
         raise ValueError('Expected positive target_count and owner')
@@ -118,7 +118,7 @@ def run(root=REPO_ROOT, config_path=DEFAULT_CONFIG):
     manifest = dict(project_id=spec['project_id'], schema_version=spec['schema_version'], code_version=CODE_VERSION,
         normalization_version=source['normalization_version'],
         parser_versions=sorted(set(source['parser_versions'] + ['a3-metadata-1.0.0'])),
-        rule_versions={**source['rule_versions'], RULE: VERSION}, dictionary_versions={},
+        rule_versions={**source['rule_versions'], RULE: rule_version(config)}, dictionary_versions={},
         applied_decision_ids=[r['decision_id'] for r in records['merge_log.jsonl']],
         graph_ready=False, node_count=None, edge_count=None, files=entries,
         created_at=created, source_snapshot_id=source['snapshot_id'])

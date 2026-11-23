@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TiViBench%3A+Benchmarking+Think-in-Video+Reasoning+for+Video+Generation%22",
+  "fetched_at": "2026-11-23T10:19:49Z",
+  "http_status": 200,
+  "content_sha256": "78bfea6b9c606a2bab6b6248c821f6cc52347ecc982c0f56610372301ce1a778",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/78bfea6b9c606a2bab6b6248c821f6cc52347ecc982c0f56610372301ce1a778.json.gz"
+}

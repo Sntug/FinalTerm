@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Open+Environments+and+Instructions%3A+General+Vision-Language+Navigation+via+Fast-Slow+Interactive+Reasoning%22",
+  "fetched_at": "2026-11-23T10:25:40Z",
+  "http_status": 200,
+  "content_sha256": "4240ab952ec9442d6112a56b3e9c91b5072d3f215769c84c7893c3657b3c0110",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4240ab952ec9442d6112a56b3e9c91b5072d3f215769c84c7893c3657b3c0110.json.gz"
+}

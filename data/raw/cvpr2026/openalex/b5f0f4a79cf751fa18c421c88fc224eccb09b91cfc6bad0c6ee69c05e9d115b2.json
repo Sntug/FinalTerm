@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Your+Dissimilarities+Define+You%3A+Complementary+Learning+Exploiting+Class+Diversities%22",
+  "fetched_at": "2026-11-23T10:15:12Z",
+  "http_status": 200,
+  "content_sha256": "388bf645f28fd8339924e7f2f77de25bc8671bc3ff2992d9903b18fd741555d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/388bf645f28fd8339924e7f2f77de25bc8671bc3ff2992d9903b18fd741555d6.json.gz"
+}

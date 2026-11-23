@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DeDelayed%3A+Deleting+Remote+Inference+Delay+via+On-Device+Correction%22",
+  "fetched_at": "2026-11-23T10:15:29Z",
+  "http_status": 200,
+  "content_sha256": "7df0d7c46c940aeaa5d78bf95a15e18a1042adc51b340696c3d9bf2e7520042c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7df0d7c46c940aeaa5d78bf95a15e18a1042adc51b340696c3d9bf2e7520042c.json.gz"
+}

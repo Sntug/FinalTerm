@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Graph2Eval%3A+Automatic+Multimodal+Task+Generation+for+Agents+via+Knowledge+Graphs%22",
+  "fetched_at": "2026-11-23T10:14:52Z",
+  "http_status": 200,
+  "content_sha256": "5f0cf130763449ebddc300a789c7b015b092e83d93dea7ca6267f514f9ba8614",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5f0cf130763449ebddc300a789c7b015b092e83d93dea7ca6267f514f9ba8614.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Wavelet-Driven+3D+Anomaly+Detection+under+Pose-Agnostic+and+Sparse-View%22",
+  "fetched_at": "2026-11-23T10:19:44Z",
+  "http_status": 200,
+  "content_sha256": "4a86a8e332fae14aabf494f4d6e00836d7de903736484765880fc6c602a591e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4a86a8e332fae14aabf494f4d6e00836d7de903736484765880fc6c602a591e7.json.gz"
+}

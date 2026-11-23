@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=TAR%3A+Token-Aware+Refinement+for+Fine-grained+Generalized+Category+Discovery",
+  "fetched_at": "2026-11-23T10:14:58Z",
+  "http_status": 200,
+  "content_sha256": "d73d877a622d95c24465c8f56d5f2496591fc6ba2efd06edf7eaa2f39bbfc399",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d73d877a622d95c24465c8f56d5f2496591fc6ba2efd06edf7eaa2f39bbfc399.json.gz"
+}

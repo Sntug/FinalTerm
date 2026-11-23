@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Probabilistic+Precipitation+Nowcasting+with+Rectified+Flow+Transformers%22",
+  "fetched_at": "2026-11-23T10:20:38Z",
+  "http_status": 200,
+  "content_sha256": "b2ec059f8580d872771cd032ae2f4c573419ee4a8fdb1fa22b2d0d7fd52d3228",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b2ec059f8580d872771cd032ae2f4c573419ee4a8fdb1fa22b2d0d7fd52d3228.json.gz"
+}

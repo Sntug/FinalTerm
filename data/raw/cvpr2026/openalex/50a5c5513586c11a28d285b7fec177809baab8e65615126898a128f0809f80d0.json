@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LaDy%3A+Lagrangian-Dynamic+Informed+Network+for+Skeleton-based+Action+Segmentation+via+Spatial-Temporal+Modulation%22",
+  "fetched_at": "2026-11-23T10:19:21Z",
+  "http_status": 200,
+  "content_sha256": "9a2f0d338a4428e501712204adfb7a498a12beaf1a3243a53bc1332b7a661216",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9a2f0d338a4428e501712204adfb7a498a12beaf1a3243a53bc1332b7a661216.json.gz"
+}

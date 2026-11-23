@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SemLayer%3A+Semantic-aware+Generative+Segmentation+and+Layer+Construction+for+Abstract+Icons%22",
+  "fetched_at": "2026-11-23T10:25:15Z",
+  "http_status": 200,
+  "content_sha256": "4e2d9ff0ba30daf2a85970fdf1cbdba2af093de15bbcb50a9b233cc234aea914",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4e2d9ff0ba30daf2a85970fdf1cbdba2af093de15bbcb50a9b233cc234aea914.json.gz"
+}

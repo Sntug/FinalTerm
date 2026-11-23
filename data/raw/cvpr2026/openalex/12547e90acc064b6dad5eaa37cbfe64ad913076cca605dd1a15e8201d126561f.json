@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22THE+MORE%2C+THE+MERRIER%3A+CONTRASTIVE+FUSION+FOR+HIGHER-ORDER+MULTIMODAL+ALIGNMENT%22",
+  "fetched_at": "2026-11-23T10:13:57Z",
+  "http_status": 200,
+  "content_sha256": "c204a21b44c411eb8f21c33a205fc21971e7595d1c3572afb553bd76f9011ec0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c204a21b44c411eb8f21c33a205fc21971e7595d1c3572afb553bd76f9011ec0.json.gz"
+}

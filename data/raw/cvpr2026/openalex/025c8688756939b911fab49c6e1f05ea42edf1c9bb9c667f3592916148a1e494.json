@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GDRO%3A+Group-level+Reward+Post-training+Suitable+for+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T10:25:05Z",
+  "http_status": 200,
+  "content_sha256": "ca78cd93aa8a2f06be8fd640705e33602179ed1276f1afcf7c171b64620e99de",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ca78cd93aa8a2f06be8fd640705e33602179ed1276f1afcf7c171b64620e99de.json.gz"
+}

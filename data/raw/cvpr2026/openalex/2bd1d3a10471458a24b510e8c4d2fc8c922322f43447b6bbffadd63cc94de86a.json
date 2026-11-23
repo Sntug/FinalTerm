@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=GeoCoT%3A+Towards+Reliable+Remote+Sensing+Reasoning+with+Manifold+Perspective",
+  "fetched_at": "2026-11-23T10:14:54Z",
+  "http_status": 200,
+  "content_sha256": "b638e7ad6231f61c7f0e60ed098d2593d62c786c2025ad78d6dbaa1d948f8051",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b638e7ad6231f61c7f0e60ed098d2593d62c786c2025ad78d6dbaa1d948f8051.json.gz"
+}

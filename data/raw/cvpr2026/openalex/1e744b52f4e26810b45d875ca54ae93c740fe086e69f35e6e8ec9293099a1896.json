@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=AGiLe%3A+Learning+Robust+Long-Horizon+Manipulation+via+Affordance-Grounded+Bidirectional+Latent+Planning",
+  "fetched_at": "2026-11-23T10:18:17Z",
+  "http_status": 200,
+  "content_sha256": "21c13b4167354c47881bb6555769b687796331ca9f7955496910fea515646272",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/21c13b4167354c47881bb6555769b687796331ca9f7955496910fea515646272.json.gz"
+}

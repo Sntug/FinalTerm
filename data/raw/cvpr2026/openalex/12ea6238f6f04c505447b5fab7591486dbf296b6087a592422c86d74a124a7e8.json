@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Duala%3A+Dual-Level+Alignment+of+Subjects+and+Stimuli+for+Cross-Subject+fMRI+Decoding%22",
+  "fetched_at": "2026-11-23T10:24:35Z",
+  "http_status": 200,
+  "content_sha256": "91cd6de7fab183f701f3e4fdfaef16d5da3d71f185136877f56d5b7d7ba9f009",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/91cd6de7fab183f701f3e4fdfaef16d5da3d71f185136877f56d5b7d7ba9f009.json.gz"
+}

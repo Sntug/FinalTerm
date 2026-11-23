@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CCCaption%3A+Dual-Reward+Reinforcement+Learning+for+Complete+and+Correct+Image+Captioning%22",
+  "fetched_at": "2026-11-23T10:24:46Z",
+  "http_status": 200,
+  "content_sha256": "4df0f48ace45f835b1aac1842c461aac400cd513ef56011dc4d6d1db45e3a9e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4df0f48ace45f835b1aac1842c461aac400cd513ef56011dc4d6d1db45e3a9e9.json.gz"
+}

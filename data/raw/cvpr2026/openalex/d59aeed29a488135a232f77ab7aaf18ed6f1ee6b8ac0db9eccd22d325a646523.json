@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CSF%3A+Black-box+Fingerprinting+via+Compositional+Semantics+for+Text-to-Image+Models%22",
+  "fetched_at": "2026-11-23T10:14:07Z",
+  "http_status": 200,
+  "content_sha256": "151ba63810a6bc5d87874711d1dccbdf4bd3aad0c02f1205528e1a8a00744a60",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/151ba63810a6bc5d87874711d1dccbdf4bd3aad0c02f1205528e1a8a00744a60.json.gz"
+}

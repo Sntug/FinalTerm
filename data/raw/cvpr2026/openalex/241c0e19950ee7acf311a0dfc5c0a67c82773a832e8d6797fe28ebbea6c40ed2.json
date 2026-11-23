@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ExpoCM%3A+Exposure-Aware+One-Step+Generative+Single-Image+HDR+Reconstruction%22",
+  "fetched_at": "2026-11-23T10:18:59Z",
+  "http_status": 200,
+  "content_sha256": "bcb77fd25bf4021f5141f2fb896ffe62e354aa48e4d741daff0c6cfa18698542",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bcb77fd25bf4021f5141f2fb896ffe62e354aa48e4d741daff0c6cfa18698542.json.gz"
+}

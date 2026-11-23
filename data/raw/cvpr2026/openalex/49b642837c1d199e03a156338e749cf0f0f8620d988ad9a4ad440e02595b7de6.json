@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Low-Rank+Residual+Diffusion+Models",
+  "fetched_at": "2026-11-23T10:15:44Z",
+  "http_status": 200,
+  "content_sha256": "0ed01d4fd5e9423701dc77bec5bf4f1b8d5ff72d237da73d9e4cb279958ba03c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0ed01d4fd5e9423701dc77bec5bf4f1b8d5ff72d237da73d9e4cb279958ba03c.json.gz"
+}

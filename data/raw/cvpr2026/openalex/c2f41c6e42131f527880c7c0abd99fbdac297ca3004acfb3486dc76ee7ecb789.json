@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Clair+Obscur%3A+an+Illumination-Aware+Method+for+Real-World+Image+Vectorization%22",
+  "fetched_at": "2026-11-23T10:25:29Z",
+  "http_status": 200,
+  "content_sha256": "10774b1f2f65be4cf17254ed93638fac17c4f1cb855d0ce014d5d4b2d5e35728",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/10774b1f2f65be4cf17254ed93638fac17c4f1cb855d0ce014d5d4b2d5e35728.json.gz"
+}

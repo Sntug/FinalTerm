@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=TAlignDiff%3A+Automatic+Tooth+Alignment+assisted+by+Diffusion-based+Transformation+Learning",
+  "fetched_at": "2026-11-23T10:13:41Z",
+  "http_status": 200,
+  "content_sha256": "dbb13d9e497e349f357b652aedd597598275c27f0394c96607c7311b96d55540",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dbb13d9e497e349f357b652aedd597598275c27f0394c96607c7311b96d55540.json.gz"
+}

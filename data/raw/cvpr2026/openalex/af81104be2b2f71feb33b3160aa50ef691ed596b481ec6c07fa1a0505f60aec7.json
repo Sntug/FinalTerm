@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22The+LLM+Bottleneck%3A+Why+Open-Source+Vision+LLMs+Struggle+with+Hierarchical+Visual+Recognition%22",
+  "fetched_at": "2026-11-23T10:14:38Z",
+  "http_status": 200,
+  "content_sha256": "beea56cdfcf5072defddf667360e2c75bf43a2864da07e3576d6e8769b8f203a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/beea56cdfcf5072defddf667360e2c75bf43a2864da07e3576d6e8769b8f203a.json.gz"
+}

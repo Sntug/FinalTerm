@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Convexity-Aware+Noise+Calibration%3A+A+Self-Supervised+Framework+for+Noise-Level-Unknown+Image+Denoising%22",
+  "fetched_at": "2026-11-23T10:20:51Z",
+  "http_status": 200,
+  "content_sha256": "6d5c1582ee2f16f3f5147c656c1b17d31afa1ac249c70ece8ebdcc0529b7eef4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6d5c1582ee2f16f3f5147c656c1b17d31afa1ac249c70ece8ebdcc0529b7eef4.json.gz"
+}

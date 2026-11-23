@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AdaSVD%3A+Singular+Value+Decomposition+with+Adaptive+Mechanisms+for+Large+Multimodal+Models%22",
+  "fetched_at": "2026-11-23T10:23:09Z",
+  "http_status": 200,
+  "content_sha256": "3f1dc44bc680f1c72aa68808addcfa3aff64d91c8674c76cc856d0588ae65c15",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3f1dc44bc680f1c72aa68808addcfa3aff64d91c8674c76cc856d0588ae65c15.json.gz"
+}

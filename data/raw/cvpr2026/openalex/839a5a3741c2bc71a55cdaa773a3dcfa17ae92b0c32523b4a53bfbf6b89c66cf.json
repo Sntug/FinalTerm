@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Merge3D%3A+Efficient+3D+Multimodal+LLMs+via+Joint+2D-3D+Token+Merging%22",
+  "fetched_at": "2026-11-23T10:24:16Z",
+  "http_status": 200,
+  "content_sha256": "ac7bcc9f4f3fff8c10254b70f76f988608d6381338bdd2c224122c35459142ea",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ac7bcc9f4f3fff8c10254b70f76f988608d6381338bdd2c224122c35459142ea.json.gz"
+}

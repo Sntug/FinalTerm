@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hunting+Normality+from+Query+Sample+via+Residual+Learning+for+Generalist+Anomaly+Detection%22",
+  "fetched_at": "2026-11-23T10:18:31Z",
+  "http_status": 200,
+  "content_sha256": "ccb3caf3349af8dca1688c45444b1a0c062efdabc9ba1c4b1ea9b56888c489ee",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/ccb3caf3349af8dca1688c45444b1a0c062efdabc9ba1c4b1ea9b56888c489ee.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adapting+a+Pre-trained+Single-Cell+Foundation+Model+to+Spatial+Gene+Expression+Generation+from+Histology+Images%22",
+  "fetched_at": "2026-11-23T10:14:25Z",
+  "http_status": 200,
+  "content_sha256": "41dfe825bf23673b8f6b77243c52fa452ecd804d720bc2e1d773c6b851ff4205",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/41dfe825bf23673b8f6b77243c52fa452ecd804d720bc2e1d773c6b851ff4205.json.gz"
+}

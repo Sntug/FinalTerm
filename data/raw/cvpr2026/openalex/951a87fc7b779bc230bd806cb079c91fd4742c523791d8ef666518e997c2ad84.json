@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UltraFlux%3A+Data-Model+Co-Design+for+High-quality+Native+4K+Text-to-Image+Generation+across+Diverse+Aspect+Ratios%22",
+  "fetched_at": "2026-11-23T10:23:40Z",
+  "http_status": 200,
+  "content_sha256": "cce6e3830d5b2bb27d850de725406d687d01ba69bc7f2ebb2dacebad2e701f9c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cce6e3830d5b2bb27d850de725406d687d01ba69bc7f2ebb2dacebad2e701f9c.json.gz"
+}

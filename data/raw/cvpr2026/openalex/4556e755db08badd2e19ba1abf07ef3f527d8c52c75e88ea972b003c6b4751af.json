@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Gen3R%3A+3D+Scene+Generation+Meets+Feed-Forward+Reconstruction%22",
+  "fetched_at": "2026-11-23T10:14:06Z",
+  "http_status": 200,
+  "content_sha256": "0c08c9298db4f60eaf8fcd7224849a70dca6244d01d44f316e37efdcfbdb757b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0c08c9298db4f60eaf8fcd7224849a70dca6244d01d44f316e37efdcfbdb757b.json.gz"
+}

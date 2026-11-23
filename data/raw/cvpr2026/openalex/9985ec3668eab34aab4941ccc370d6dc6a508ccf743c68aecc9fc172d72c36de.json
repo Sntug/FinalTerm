@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Intrinsic+Concept+Extraction+Based+on+Compositional+Interpretability%22",
+  "fetched_at": "2026-11-23T10:18:21Z",
+  "http_status": 200,
+  "content_sha256": "289bd48a21e3b7e2a5cf19a66b0ab30b2d380a6c95f98ae76dc21d4cf9c897c2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/289bd48a21e3b7e2a5cf19a66b0ab30b2d380a6c95f98ae76dc21d4cf9c897c2.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RAP%3A+Fast+Feedforward+Rendering-Free+Attribute-Guided+Primitive+Importance+Score+Prediction+for+Efficient+3D+Gaussian+Splatting+Processing%22",
+  "fetched_at": "2026-11-23T10:13:55Z",
+  "http_status": 200,
+  "content_sha256": "d9afd209df7f6360e17fa8941565d6030eefe85265017a1ccac8b6c143fd51b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/d9afd209df7f6360e17fa8941565d6030eefe85265017a1ccac8b6c143fd51b8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%223D+Gaussian+Splatting+at+Arbitrary+Resolutions+with+Compact+Proxy+Anchors%22",
+  "fetched_at": "2026-11-23T10:15:57Z",
+  "http_status": 200,
+  "content_sha256": "5492021fe59392705b734873fa4b49e356f32e019c13ab61c018e0c13e0d8fb3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5492021fe59392705b734873fa4b49e356f32e019c13ab61c018e0c13e0d8fb3.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PixelRush%3A+Ultra-Fast%2C+Training-Free+High-Resolution+Image+Generation+via+One-step+Diffusion%22",
+  "fetched_at": "2026-11-23T10:14:10Z",
+  "http_status": 200,
+  "content_sha256": "e128b5d57a831e53df995034b6c8f58cec0cf816a357d5e1e5cbf441fd92467b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e128b5d57a831e53df995034b6c8f58cec0cf816a357d5e1e5cbf441fd92467b.json.gz"
+}

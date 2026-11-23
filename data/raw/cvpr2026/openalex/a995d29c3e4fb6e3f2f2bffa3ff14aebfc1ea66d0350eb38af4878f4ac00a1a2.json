@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22WEAVE%3A+Unleashing+and+Benchmarking+the+In-context+Interleaved+Comprehension+and+Generation%22",
+  "fetched_at": "2026-11-23T10:23:32Z",
+  "http_status": 200,
+  "content_sha256": "968dd6be321772350aeeaf4987d3d011d61666d84604c3d8243a070e2554111b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/968dd6be321772350aeeaf4987d3d011d61666d84604c3d8243a070e2554111b.json.gz"
+}

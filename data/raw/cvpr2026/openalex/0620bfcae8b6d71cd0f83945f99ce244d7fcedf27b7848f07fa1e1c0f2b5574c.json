@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GenColorBench%3A+A+Color+Evaluation+Benchmark+for+Text-to-Image+Generation%22",
+  "fetched_at": "2026-11-23T10:14:36Z",
+  "http_status": 200,
+  "content_sha256": "8a847c6ee06d383c38622dc32ffc2264c3fc3b0380af7ae9ed866d2f914096a8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8a847c6ee06d383c38622dc32ffc2264c3fc3b0380af7ae9ed866d2f914096a8.json.gz"
+}

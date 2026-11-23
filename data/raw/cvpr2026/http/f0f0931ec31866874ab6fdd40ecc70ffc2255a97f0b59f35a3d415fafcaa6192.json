@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Peng_OmniBrainBench_A_Comprehensive_Multimodal_Benchmark_for_Brain_Imaging_Analysis_Across_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:10:36Z",
+  "http_status": 200,
+  "content_sha256": "25e617b9335f185f899837696dc8f9f4b8dae058ea4043ca6a16d1bc77fb90d9",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1c5b-65282230ce892\"",
+  "last_modified": "Sat, 23 May 2026 20:39:07 GMT",
+  "raw_path": "data/raw/cvpr2026/http/25e617b9335f185f899837696dc8f9f4b8dae058ea4043ca6a16d1bc77fb90d9.html.gz"
+}

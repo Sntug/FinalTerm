@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Flow3r%3A+Factored+Flow+Prediction+for+Scalable+Visual+Geometry+Learning%22",
+  "fetched_at": "2026-11-23T10:19:56Z",
+  "http_status": 200,
+  "content_sha256": "9f682623b2c7a22ac1f2a9383913e224305e97aeb9f21eed0fdf98bc4ae0af0c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9f682623b2c7a22ac1f2a9383913e224305e97aeb9f21eed0fdf98bc4ae0af0c.json.gz"
+}

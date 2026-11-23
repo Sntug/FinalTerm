@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=MicroFM%3A+Physics-guided+Flow+Matching+for+Isotropic+Microscopy+Reconstruction",
+  "fetched_at": "2026-11-23T10:14:30Z",
+  "http_status": 200,
+  "content_sha256": "33499d59f4bafb543e6e427d5f8d10d43b8ad66d8e70b625d2b928f16317ee63",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/33499d59f4bafb543e6e427d5f8d10d43b8ad66d8e70b625d2b928f16317ee63.json.gz"
+}

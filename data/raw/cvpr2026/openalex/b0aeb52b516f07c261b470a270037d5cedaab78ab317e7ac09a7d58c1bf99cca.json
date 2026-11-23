@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+to+Infer+Parameterized+Representations+of+Plants+from+3D+Scans%22",
+  "fetched_at": "2026-11-23T10:24:38Z",
+  "http_status": 200,
+  "content_sha256": "79da79c9ef53716b56639624c6dc3460a88d1e1f82b3c1ba12d6d98a8c821f42",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/79da79c9ef53716b56639624c6dc3460a88d1e1f82b3c1ba12d6d98a8c821f42.json.gz"
+}

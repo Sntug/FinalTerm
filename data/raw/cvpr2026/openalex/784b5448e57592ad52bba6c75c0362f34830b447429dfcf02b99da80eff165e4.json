@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Language-Grounded+Decoupled+Action+Representation+for+Robotic+Manipulation%22",
+  "fetched_at": "2026-11-23T10:20:59Z",
+  "http_status": 200,
+  "content_sha256": "4404dee2b2f254ae42cb7dbb2d320632885b1b2a7b17a2e55e5910dbe3502848",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/4404dee2b2f254ae42cb7dbb2d320632885b1b2a7b17a2e55e5910dbe3502848.json.gz"
+}

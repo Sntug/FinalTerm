@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GaussianFluent%3A+Gaussian+Simulation+for+Dynamic+Scenes+with+Mixed+Materials%22",
+  "fetched_at": "2026-11-23T10:18:55Z",
+  "http_status": 200,
+  "content_sha256": "7b50d3e3f917f3612138fdf41a274452a107a777fa806e687730c10bbe6bee7f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7b50d3e3f917f3612138fdf41a274452a107a777fa806e687730c10bbe6bee7f.json.gz"
+}

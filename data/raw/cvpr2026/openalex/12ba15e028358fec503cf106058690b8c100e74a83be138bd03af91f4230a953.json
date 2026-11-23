@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SIGMA%3A+Selective-Interleaved+Generation+with+Multi-Attribute+Tokens%22",
+  "fetched_at": "2026-11-23T10:20:00Z",
+  "http_status": 200,
+  "content_sha256": "86ea14e3dc82bad881e08cc7b186dbb98d465d1bc0419351e581eb46fad65789",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/86ea14e3dc82bad881e08cc7b186dbb98d465d1bc0419351e581eb46fad65789.json.gz"
+}

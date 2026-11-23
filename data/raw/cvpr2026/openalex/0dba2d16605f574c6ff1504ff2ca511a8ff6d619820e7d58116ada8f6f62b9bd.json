@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Solving+a+Nonlinear+Blind+Inverse+Problem+for+Tagged+MRI+with+Physics+and+Deep+Generative+Priors%22",
+  "fetched_at": "2026-11-23T10:24:19Z",
+  "http_status": 200,
+  "content_sha256": "3755575b2c6975d7e2b9d0713f4af13fd61cc5e0e2f13af8237e1401c0d5ef12",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/3755575b2c6975d7e2b9d0713f4af13fd61cc5e0e2f13af8237e1401c0d5ef12.json.gz"
+}

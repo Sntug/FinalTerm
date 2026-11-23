@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion+Guided+Chain-of-Vision+for+Large+Autoregressive+Vision+Models%22",
+  "fetched_at": "2026-11-23T10:18:39Z",
+  "http_status": 200,
+  "content_sha256": "db72f3626dfa8d9b450c33bc39142462a44f9a6f71f440e546466752ad313786",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/db72f3626dfa8d9b450c33bc39142462a44f9a6f71f440e546466752ad313786.json.gz"
+}

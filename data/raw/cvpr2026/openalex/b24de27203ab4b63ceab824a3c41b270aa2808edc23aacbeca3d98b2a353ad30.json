@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Image-based+Outlier+Synthesis+With+Training+Data%22",
+  "fetched_at": "2026-11-23T10:14:12Z",
+  "http_status": 200,
+  "content_sha256": "9f3d00c9d748d0c3e6f1c77d9e38f569707f18a7c920d18904bb15791e546fbb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9f3d00c9d748d0c3e6f1c77d9e38f569707f18a7c920d18904bb15791e546fbb.json.gz"
+}

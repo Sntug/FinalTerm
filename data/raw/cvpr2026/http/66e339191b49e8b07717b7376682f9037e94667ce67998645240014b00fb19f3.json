@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Qiu_ImageRAGTurbo_Towards_One-step_Text-to-Image_Generation_with_Retrieval-Augmented_Diffusion_Models_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:09:39Z",
+  "http_status": 200,
+  "content_sha256": "09388e4fec04576eb8e30aaef99e4fff001280e3702d4bbf504bab3c736231d8",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b1b-65282231ba5fb\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/09388e4fec04576eb8e30aaef99e4fff001280e3702d4bbf504bab3c736231d8.html.gz"
+}

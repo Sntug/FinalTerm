@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoE-GRPO%3A+Optimizing+Mixture-of-Experts+via+Reinforcement+Learning+in+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T10:23:49Z",
+  "http_status": 200,
+  "content_sha256": "9832325029357bb91b7e8c3213573ecbf52ed07b228732d6ed58fe808fda99d2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/9832325029357bb91b7e8c3213573ecbf52ed07b228732d6ed58fe808fda99d2.json.gz"
+}

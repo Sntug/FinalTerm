@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AniMimic%3A+Imitating+3D+Animation+from+Video+Priors%22",
+  "fetched_at": "2026-11-23T10:20:44Z",
+  "http_status": 200,
+  "content_sha256": "8d058decaeed3ea4bfca39ebfb935acf190bb57a4fcc04a70f7abe732993df79",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8d058decaeed3ea4bfca39ebfb935acf190bb57a4fcc04a70f7abe732993df79.json.gz"
+}

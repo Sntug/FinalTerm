@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CausalLens%3A+Sensitivity-Guided+Multi-Head+Causal+Intervention+for+Hallucination+Mitigation+in+Large+Vision-Language+Models%22",
+  "fetched_at": "2026-11-23T10:16:12Z",
+  "http_status": 200,
+  "content_sha256": "b528b6c3e1387951da2aa584f6bda5b245d35a1a26f5c9f358dd69deb1f8a4dd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b528b6c3e1387951da2aa584f6bda5b245d35a1a26f5c9f358dd69deb1f8a4dd.json.gz"
+}

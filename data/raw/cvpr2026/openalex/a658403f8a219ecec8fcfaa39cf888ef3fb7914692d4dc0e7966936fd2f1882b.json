@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Alert-CLIP%3A+Abnormality-aware+Latent-Enhanced+Representation+Tuning+of+CLIP+for+Video+Anomaly+Detection%22",
+  "fetched_at": "2026-11-23T10:16:07Z",
+  "http_status": 200,
+  "content_sha256": "36c31f4408f9ea5428631d577b5d705e8e7c4ca4dcf5134c324b4a39498f8907",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/36c31f4408f9ea5428631d577b5d705e8e7c4ca4dcf5134c324b4a39498f8907.json.gz"
+}

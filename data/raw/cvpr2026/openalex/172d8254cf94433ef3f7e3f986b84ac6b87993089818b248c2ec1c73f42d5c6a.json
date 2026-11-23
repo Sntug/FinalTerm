@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PoInit-of-View%3A+Poisoning+Initialization+of+Views+Transfers+Across+Multiple+3D+Reconstruction+Systems%22",
+  "fetched_at": "2026-11-23T10:15:32Z",
+  "http_status": 200,
+  "content_sha256": "758d0d789d0e16a7b8c72564f5d6d2b57e45babd2e0924186eb79e7671407ac4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/758d0d789d0e16a7b8c72564f5d6d2b57e45babd2e0924186eb79e7671407ac4.json.gz"
+}

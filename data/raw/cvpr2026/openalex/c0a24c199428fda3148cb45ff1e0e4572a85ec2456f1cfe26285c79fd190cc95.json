@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RecoverMark%3A+Robust+Watermarking+for+Localization+and+Recovery+of+Manipulated+Faces%22",
+  "fetched_at": "2026-11-23T10:24:44Z",
+  "http_status": 200,
+  "content_sha256": "7fed202344fe2a1d6f491b8c19cd573fb36e99b846c05837d1b4a40273cae516",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7fed202344fe2a1d6f491b8c19cd573fb36e99b846c05837d1b4a40273cae516.json.gz"
+}

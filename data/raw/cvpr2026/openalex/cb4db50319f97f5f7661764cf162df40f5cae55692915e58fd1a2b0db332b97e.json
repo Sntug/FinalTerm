@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22NeAR%3A+Coupled+Neural+Asset-Renderer+Stack%22",
+  "fetched_at": "2026-11-23T10:15:54Z",
+  "http_status": 200,
+  "content_sha256": "32557168db54b11de0a7bb99ae336870236f8ab479e118033f94d26941ee00ee",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/32557168db54b11de0a7bb99ae336870236f8ab479e118033f94d26941ee00ee.json.gz"
+}

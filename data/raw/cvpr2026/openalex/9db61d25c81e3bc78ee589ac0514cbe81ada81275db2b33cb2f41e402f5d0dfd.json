@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Beyond+Strict+Pairing%3A+Arbitrarily+Paired+Training+for+High-Performance+Infrared+and+Visible+Image+Fusion%22",
+  "fetched_at": "2026-11-23T10:13:46Z",
+  "http_status": 200,
+  "content_sha256": "85d9e482208c3c093a980586f56c64ca244c3dce3e8dbe85f224c8a0bd9a676a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/85d9e482208c3c093a980586f56c64ca244c3dce3e8dbe85f224c8a0bd9a676a.json.gz"
+}

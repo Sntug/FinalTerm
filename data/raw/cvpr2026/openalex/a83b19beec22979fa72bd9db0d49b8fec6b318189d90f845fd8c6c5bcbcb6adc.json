@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TRCoRSurg%3A+Temporal-Relational+Co-Reasoning+for+Surgical+Video+Triplet+Recognition%22",
+  "fetched_at": "2026-11-23T10:23:48Z",
+  "http_status": 200,
+  "content_sha256": "6b899fa40440df871f5527a07636d51ac7f7d3222d70f71504764ffe60513d4a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/6b899fa40440df871f5527a07636d51ac7f7d3222d70f71504764ffe60513d4a.json.gz"
+}

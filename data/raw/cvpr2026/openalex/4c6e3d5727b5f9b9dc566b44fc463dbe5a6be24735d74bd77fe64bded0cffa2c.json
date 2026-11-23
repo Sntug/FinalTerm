@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=%24%5Calpha%24Matte4K+%26+%24%5Cmu%24Matting%3A+Dataset+and+Model+for+Ultra-Micro+Precision+Alpha+Video+Matting",
+  "fetched_at": "2026-11-23T10:20:44Z",
+  "http_status": 200,
+  "content_sha256": "dbb805009c1207eea40cb0481e80a371477caf5cf862595bdf6f8a25364b6fb6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/dbb805009c1207eea40cb0481e80a371477caf5cf862595bdf6f8a25364b6fb6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Spe-BEVHead%3A+Rethinking+the+Detection+Head+Design+for+Bird%27s-Eye-View+Object+Detection",
+  "fetched_at": "2026-11-23T10:18:58Z",
+  "http_status": 200,
+  "content_sha256": "5bc7a44360fc6a2381c33e35a7bae1288cb4ce95ff3aeb4361ee2788a9217fca",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/5bc7a44360fc6a2381c33e35a7bae1288cb4ce95ff3aeb4361ee2788a9217fca.json.gz"
+}

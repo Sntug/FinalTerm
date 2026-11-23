@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AutoCut%3A+End-to-end+advertisement+video+editing+based+on+multimodal+discretization+and+controllable+generation%22",
+  "fetched_at": "2026-11-23T10:14:18Z",
+  "http_status": 200,
+  "content_sha256": "23283d8d8d6151e47197e0a2041b735fa0cf16847a70e74114216c815f71489d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/23283d8d8d6151e47197e0a2041b735fa0cf16847a70e74114216c815f71489d.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Li_Turning_Pre-Trained_Vision_Transformers_into_End-to-End_Histopathology_Whole_Slide_Image_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:09:00Z",
+  "http_status": 200,
+  "content_sha256": "7f8cf38685a96a8aa8c7a0576e01ba2fde08057485bfa59940fbbe3e5e0cdaee",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a97-6528223185a3c\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/7f8cf38685a96a8aa8c7a0576e01ba2fde08057485bfa59940fbbe3e5e0cdaee.html.gz"
+}

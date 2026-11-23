@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Easy2Hard%3A+From+Partially+to+Fully+Unmatched+Modalities+as+Negative+Samples+in+Contrastive+Learning%22",
+  "fetched_at": "2026-11-23T10:14:08Z",
+  "http_status": 200,
+  "content_sha256": "e42f940bf2964d87970f9c000e86cd6ff297373bd73dc92c5325825cd9169925",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e42f940bf2964d87970f9c000e86cd6ff297373bd73dc92c5325825cd9169925.json.gz"
+}

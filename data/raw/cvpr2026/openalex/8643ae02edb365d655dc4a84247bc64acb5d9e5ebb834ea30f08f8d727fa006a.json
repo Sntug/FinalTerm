@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Denoising+as+Path+Planning%3A+Training-Free+Acceleration+of+Diffusion+Models+with+DPCache%22",
+  "fetched_at": "2026-11-23T10:13:51Z",
+  "http_status": 200,
+  "content_sha256": "a723bbee540ac7ae0e0427a3494b80a3a1fd9ad2519b6c592ed5be7c76b3137f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a723bbee540ac7ae0e0427a3494b80a3a1fd9ad2519b6c592ed5be7c76b3137f.json.gz"
+}

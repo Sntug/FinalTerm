@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Back+to+Basics%3A+Let+Denoising+Generative+Models+Denoise%22",
+  "fetched_at": "2026-11-23T10:14:41Z",
+  "http_status": 200,
+  "content_sha256": "7c673105b1deec6f7e5a81e8121896b729e17642623b388197354f65195dc397",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/7c673105b1deec6f7e5a81e8121896b729e17642623b388197354f65195dc397.json.gz"
+}

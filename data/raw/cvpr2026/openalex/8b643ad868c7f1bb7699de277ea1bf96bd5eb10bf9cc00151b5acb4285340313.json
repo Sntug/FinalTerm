@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CARE-Edit%3A+Condition-Aware+Routing+of+Experts+for+Contextual+Image+Editing%22",
+  "fetched_at": "2026-11-23T10:24:40Z",
+  "http_status": 200,
+  "content_sha256": "1913dcbe08149e6002c357a5cf8dff0ad289446260c562e4549c0c87d5cf42df",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1913dcbe08149e6002c357a5cf8dff0ad289446260c562e4549c0c87d5cf42df.json.gz"
+}

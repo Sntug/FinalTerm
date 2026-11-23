@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EmbodMocap%3A+In-the-Wild+4D+Human-Scene+Reconstruction+for+Embodied+Agents%22",
+  "fetched_at": "2026-11-23T10:20:28Z",
+  "http_status": 200,
+  "content_sha256": "e06005859b061049497219c5da6c9444e61171e13523898cf816659ed5ed3770",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e06005859b061049497219c5da6c9444e61171e13523898cf816659ed5ed3770.json.gz"
+}

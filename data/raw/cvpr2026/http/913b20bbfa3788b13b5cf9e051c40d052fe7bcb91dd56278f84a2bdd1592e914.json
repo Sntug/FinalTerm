@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Liang_3DReflecNet_A_Large-Scale_Dataset_for_3D_Reconstruction_of_Reflective_Transparent_CVPR_2026_paper.html",
+  "fetched_at": "2026-11-23T10:13:00Z",
+  "http_status": 200,
+  "content_sha256": "aad9e981baee57dee1a12721b57d0ad03472ae4a7acf9ac2caf9a2babd702616",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1b89-65282231a6993\"",
+  "last_modified": "Sat, 23 May 2026 20:39:08 GMT",
+  "raw_path": "data/raw/cvpr2026/http/aad9e981baee57dee1a12721b57d0ad03472ae4a7acf9ac2caf9a2babd702616.html.gz"
+}

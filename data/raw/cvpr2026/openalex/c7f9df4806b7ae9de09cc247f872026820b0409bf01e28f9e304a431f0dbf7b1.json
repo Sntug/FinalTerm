@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FlashCap%3A+Millisecond-Accurate+Human+Motion+Capture+via+Flashing+LEDs+and+Event-Based+Vision%22",
+  "fetched_at": "2026-11-23T10:14:13Z",
+  "http_status": 200,
+  "content_sha256": "acefa4e80065fe117c5763f6ed86bafb275c28c41859b752ca1dc9c69a251754",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/acefa4e80065fe117c5763f6ed86bafb275c28c41859b752ca1dc9c69a251754.json.gz"
+}

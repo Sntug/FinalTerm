@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Multi-view+Consistent+3D+Gaussian+Head+Avatars+%27without%27+Multi-view+Generation%22",
+  "fetched_at": "2026-11-23T10:14:26Z",
+  "http_status": 200,
+  "content_sha256": "1eff7ee68220a534419359deadd955bab1c1c95e39bdbf94ba6d831f1397b6f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/1eff7ee68220a534419359deadd955bab1c1c95e39bdbf94ba6d831f1397b6f8.json.gz"
+}

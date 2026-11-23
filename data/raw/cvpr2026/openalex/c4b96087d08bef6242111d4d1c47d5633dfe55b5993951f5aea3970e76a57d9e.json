@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ProFocus%3A+Proactive+Perception+and+Focused+Reasoning+in+Vision-and-Language+Navigation%22",
+  "fetched_at": "2026-11-23T10:14:59Z",
+  "http_status": 200,
+  "content_sha256": "cdc81f9bf05b31f86fa69b9fb339cafef2401286418f893e2d3a5619b1bb0a05",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/cdc81f9bf05b31f86fa69b9fb339cafef2401286418f893e2d3a5619b1bb0a05.json.gz"
+}

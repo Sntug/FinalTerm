@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InverFill%3A+One-Step+Inversion+for+Enhanced+Few-Step+Diffusion+Inpainting%22",
+  "fetched_at": "2026-11-23T10:15:33Z",
+  "http_status": 200,
+  "content_sha256": "b3c3d00275b5f6b43570b416497063a7451355b8519e16a479eaa15bc8118a9c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/b3c3d00275b5f6b43570b416497063a7451355b8519e16a479eaa15bc8118a9c.json.gz"
+}

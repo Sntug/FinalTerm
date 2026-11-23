@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Harmonic+Canvas%3A+Inversion-Free+Editing+for+Visually-Guided+Music+Style+Transfer",
+  "fetched_at": "2026-11-23T10:20:41Z",
+  "http_status": 200,
+  "content_sha256": "a45269c3bed775695d437c8502b0d3241438c4cff410260ddede2f4b9ee4afac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/a45269c3bed775695d437c8502b0d3241438c4cff410260ddede2f4b9ee4afac.json.gz"
+}

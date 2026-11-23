@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=PrivateEyes%3A+Gaze-Preserving+Anonymization+for+Data+Sharing",
+  "fetched_at": "2026-11-23T10:19:29Z",
+  "http_status": 200,
+  "content_sha256": "c14932a0d5b789d26d6e5d601e10b77721b2ad5ac86cbfce2a107cc3e75bb7ee",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/c14932a0d5b789d26d6e5d601e10b77721b2ad5ac86cbfce2a107cc3e75bb7ee.json.gz"
+}

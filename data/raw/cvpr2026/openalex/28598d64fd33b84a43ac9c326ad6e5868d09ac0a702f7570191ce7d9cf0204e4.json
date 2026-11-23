@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=D2T2+-+Multimodal+Automated+Planning+for+Brachytherapy",
+  "fetched_at": "2026-11-23T10:20:47Z",
+  "http_status": 200,
+  "content_sha256": "629bdf7c29f3460aa631e575f053c9503c39555448c9da4985177f2dbd041d8a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/629bdf7c29f3460aa631e575f053c9503c39555448c9da4985177f2dbd041d8a.json.gz"
+}

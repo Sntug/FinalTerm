@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TAG-MoE%3A+Task-Aware+Gating+for+Unified+Generative+Mixture-of-Experts%22",
+  "fetched_at": "2026-11-23T10:22:51Z",
+  "http_status": 200,
+  "content_sha256": "e95de19000b3cd9bbe162c9d5fa8b11a6e651c548080ec412a503cf6573c59a6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e95de19000b3cd9bbe162c9d5fa8b11a6e651c548080ec412a503cf6573c59a6.json.gz"
+}

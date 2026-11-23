@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VSRELL%3A+A+Simple+Baseline+for+Video+Super-Resolution+and+Enhancement+in+Low-Light+Environment%22",
+  "fetched_at": "2026-11-23T10:23:13Z",
+  "http_status": 200,
+  "content_sha256": "8dc5a37288ab84c7cc33a2bd1d0c9172a83f5fee8a7948f445d44c22235955dd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/8dc5a37288ab84c7cc33a2bd1d0c9172a83f5fee8a7948f445d44c22235955dd.json.gz"
+}

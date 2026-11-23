@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SRPO%3A+Self-Referential+Policy+Optimization+for+Vision-Language-Action+Models%22",
+  "fetched_at": "2026-11-23T10:25:13Z",
+  "http_status": 200,
+  "content_sha256": "2c6ac24836c5fc3eadef1ca03a3aae389b8ea5869fb19c487a1a33def32b6011",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/2c6ac24836c5fc3eadef1ca03a3aae389b8ea5869fb19c487a1a33def32b6011.json.gz"
+}

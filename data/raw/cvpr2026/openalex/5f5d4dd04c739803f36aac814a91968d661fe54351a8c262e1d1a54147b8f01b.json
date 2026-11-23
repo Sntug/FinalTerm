@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=LayoutAD%3A+Exploring+Semantic-Geometric+Misalignment+Reasoning+for+Scene+Layout+Anomaly+Detection",
+  "fetched_at": "2026-11-23T10:20:33Z",
+  "http_status": 200,
+  "content_sha256": "e06129c09a5efbcff0a0571679e5f8402ddbfd4e9b5e43b3903b92dfb9678ab7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/e06129c09a5efbcff0a0571679e5f8402ddbfd4e9b5e43b3903b92dfb9678ab7.json.gz"
+}

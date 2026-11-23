@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Protect+to+Adapt%3A+Orthogonal+Subspace+Control+with+Ranked+Negative-Prompt+Curriculum+for+Few-Shot+Action+Recognition",
+  "fetched_at": "2026-11-23T10:16:11Z",
+  "http_status": 200,
+  "content_sha256": "66c19d80d5e6ade57b08eb16d85251cc98daf6adab03fc36eb02e1c3de4c01d2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/66c19d80d5e6ade57b08eb16d85251cc98daf6adab03fc36eb02e1c3de4c01d2.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hybrid+Agents+for+Image+Restoration%22",
+  "fetched_at": "2026-11-23T10:15:55Z",
+  "http_status": 200,
+  "content_sha256": "0b36186470aa084536803de070ead81e2a91a644dfc749763a3d2d7517ae2b34",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/0b36186470aa084536803de070ead81e2a91a644dfc749763a3d2d7517ae2b34.json.gz"
+}

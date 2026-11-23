@@ -5,12 +5,20 @@ from difflib import SequenceMatcher
 import json
 
 from src.collect.contract import contract, validate_records
-from src.collect.openalex import comparable
+from src.collect.openalex import comparable, matches_cvf_name, ordered_byline_matches
 from .normalize import clean_text, clean_url, doi, openalex, arxiv, orcid, ror
 from .text import canonical_json, evidence_id, identifier, text_record
 
 RULE = 'a3-exact-source-link'
 VERSION = '1.0.0'
+
+
+def uses_cvf_raw_names(edition):
+    return (edition['conference'], edition['conference_year']) == ('CVPR', 2026)
+
+
+def rule_version(edition):
+    return '1.1.0' if uses_cvf_raw_names(edition) else VERSION
 
 
 class Audit:
@@ -25,7 +33,7 @@ class Audit:
         row = dict.fromkeys(contract()['files']['evidence.jsonl']['fields'])
         row.update(evidence_kind='metadata', paper_id=paper['paper_id'], source_record_id=sid,
                    source_url=source['url'], field_path=path, evidence_text=value,
-                   rule_id=RULE, rule_version=VERSION, captured_at=source['fetched_at'],
+                   rule_id=RULE, rule_version=rule_version(paper), captured_at=source['fetched_at'],
                    supporting_evidence_ids=[], owner=paper['owner'])
         row['evidence_id'] = evidence_id(row)
         self.records['evidence.jsonl'].append(row)
@@ -39,12 +47,13 @@ class Audit:
             review_status='open', assigned_to=paper['owner'], resolution_decision_id=None))
 
     def decision(self, paper, entity, inputs, outputs, evidence, reason, aid=None):
-        did = identifier('decision', RULE, VERSION, self.snapshot, entity, canonical_json(inputs),
+        version = rule_version(paper)
+        did = identifier('decision', RULE, version, self.snapshot, entity, canonical_json(inputs),
                          canonical_json(outputs), canonical_json(sorted(evidence)), aid or '')
         row = dict(decision_id=did, action='link', entity_type=entity, input_ids=inputs,
                    output_ids=outputs, affected_paper_ids=[paper['paper_id']],
                    affected_authorship_ids=[aid] if aid else [], changes=[], reason=reason,
-                   evidence_ids=sorted(set(evidence)), proposed_by=paper['owner'], reviewed_by=RULE + '-' + VERSION,
+                   evidence_ids=sorted(set(evidence)), proposed_by=paper['owner'], reviewed_by=RULE + '-' + version,
                    review_mode='rule', decided_at=self.decided_at, snapshot_before=self.snapshot,
                    reverts_decision_id=None)
         self.records['merge_log.jsonl'].append(row)
@@ -255,9 +264,12 @@ def resolve(records, bodies, snapshot, decided_at):
             continue
         work, sid = works[pid], work_sources[pid]
         wa = work.get('authorships') or []
-        names = [comparable(clean_text(a.get('raw_author_name') or (a.get('author') or {}).get('display_name'))) for a in wa]
-        expected = [comparable(a['name']) for a in p['authors']]
-        if names != expected:
+        if uses_cvf_raw_names(p):
+            byline_matches = ordered_byline_matches(p, wa)
+        else:
+            names = [comparable(clean_text(a.get('raw_author_name') or (a.get('author') or {}).get('display_name'))) for a in wa]
+            byline_matches = names == [comparable(a['name']) for a in p['authors']]
+        if not byline_matches:
             row['identity_status'] = row['affiliation_status'] = 'needs_review'
             ev = audit.evidence(p, sid, 'json:authorships')
             audit.review(p, 'Author', aid, 'byline_mismatch', 'Ordered Work byline differs from CVF; positional links withheld.', [], [ev])
@@ -266,6 +278,11 @@ def resolve(records, bodies, snapshot, decided_at):
         index = row['author_order'] - 1
         observed = wa[index]
         au = observed.get('author') or {}
+        profile = clean_text(au.get('display_name'))
+        if uses_cvf_raw_names(p):
+            profile_matches = matches_cvf_name(p['authors'][index], profile)
+        else:
+            profile_matches = comparable(profile) == comparable(row['author_name'])
         external, oid = openalex(au.get('id'), 'A'), orcid(au.get('orcid'))
         raw_oid = orcid(observed.get('raw_orcid'))
         canonical_external = external or orcid_ids.get(raw_oid)
@@ -279,7 +296,7 @@ def resolve(records, bodies, snapshot, decided_at):
         problem = None
         if canonical_external in bad_authors or (oid or raw_oid) in bad_orcids:
             problem = 'Conflicting/repeated OpenAlex Author ID, byline names or ORCID in this batch.'
-        elif au.get('display_name') and comparable(clean_text(au['display_name'])) != comparable(row['author_name']):
+        elif au.get('display_name') and not profile_matches:
             problem = 'OpenAlex profile name differs from the CVF/Work byline; alias needs manual corroboration.'
         elif observed.get('raw_orcid') and (not raw_oid or (oid and raw_oid != oid)):
             problem = 'Work raw ORCID is invalid or contradicts the Author ORCID.'

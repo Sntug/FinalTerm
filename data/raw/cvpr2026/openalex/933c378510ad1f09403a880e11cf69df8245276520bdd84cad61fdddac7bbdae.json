@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Soft+Modality-Guided+Expert+Specialization+in+MoE-VLMs%22",
+  "fetched_at": "2026-11-23T10:20:42Z",
+  "http_status": 200,
+  "content_sha256": "502ae411d22c890be1c4b0f4b8616c5dc6f56eb03a8cbc5d938ebc1e575b9df3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/502ae411d22c890be1c4b0f4b8616c5dc6f56eb03a8cbc5d938ebc1e575b9df3.json.gz"
+}

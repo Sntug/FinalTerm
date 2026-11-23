@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Relightable+Holoported+Characters%3A+Capturing+and+Relighting+Dynamic+Human+Performance+from+Sparse+Views%22",
+  "fetched_at": "2026-11-23T10:25:11Z",
+  "http_status": 200,
+  "content_sha256": "81e1b09206363637ef4fe81c5f9d4cd2124d790a584e7e025b981eb0f081df3e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/81e1b09206363637ef4fe81c5f9d4cd2124d790a584e7e025b981eb0f081df3e.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Do+You+See+What+I+Am+Pointing+At%3F+Gesture-Based+Egocentric+Video+Question+Answering%22",
+  "fetched_at": "2026-11-23T10:23:17Z",
+  "http_status": 200,
+  "content_sha256": "bf759cf3c1e74737881e37c1c40ebe2033c0d5057a72c4c1f7804093406fca00",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/cvpr2026/openalex/bf759cf3c1e74737881e37c1c40ebe2033c0d5057a72c4c1f7804093406fca00.json.gz"
+}
