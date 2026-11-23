@@ -149,11 +149,11 @@ def institutions(g, pc, inst_country):
     n_inst, n_paper = Counter(inst_country.values()), Counter(c for cs in pc.values() for c in cs)
     countries = sorted(nodes_of(g, "Country"))
     crow = sorted(([c, n_inst[c], n_paper[c]] for c in countries), key=lambda r: (-r[2], -r[1], r[0]))
-    cpair = Counter()
+    cpair = defaultdict(set)
     for u, v, d in edges_of(g, "COLLABORATED_WITH"):
         if u in inst_country and v in inst_country:
-            cpair[tuple(sorted((inst_country[u], inst_country[v])))] += d["weight"]
-    cp_rows = sorted(([a, b, w] for (a, b), w in cpair.items()), key=lambda r: (-r[2], r[0], r[1]))
+            cpair[tuple(sorted((inst_country[u], inst_country[v])))] |= set(d["paper_ids"])
+    cp_rows = sorted(([a, b, len(ps)] for (a, b), ps in cpair.items()), key=lambda r: (-r[2], r[0], r[1]))
     cross = [r for r in cp_rows if r[0] != r[1]]
     metrics = {
         "nodes": h.number_of_nodes(), "edges": h.number_of_edges(), "isolated_institutions": sum(1 for i in insts if deg[i] == 0),

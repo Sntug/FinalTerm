@@ -132,7 +132,7 @@ Mạng COLLABORATED_WITH có 432 tổ chức và 1140 cạnh; 26 tổ chức cô
 
 **Hình 4. Mạng hợp tác của 30 tổ chức có strength cao nhất.** Đơn vị: nút là tổ chức, độ dày cạnh là số bài chung. Nguồn: `figures.py`, `tables/institution_top_strength.csv`. Một số cặp cạnh mạnh nhất là quan hệ giữa các đơn vị cùng hệ thống (Chinese Academy of Sciences – Institute of Automation: 8 bài; CAS – University of Chinese Academy of Sciences: 7), nên không phải hợp tác độc lập theo nghĩa thông thường.
 
-Tính theo trọng số cạnh tổ chức quy về cặp quốc gia, hợp tác trong cùng một nước có tổng trọng số 686 và giữa hai nước khác nhau là 664, trải trên 111 cặp quốc gia khác nhau. Các cặp quốc tế đứng đầu là **CN–US 99, CN–HK 83, CN–SG 46**, tiếp theo CN–AU 30, HK–US 24, CN–GB 19. Hợp tác Trung Quốc đại lục với Hồng Kông, Singapore và Mỹ vì vậy chiếm phần lớn hợp tác quốc tế trong mẫu. Lưu ý quốc gia là của tổ chức; tác giả có thể mang quốc tịch khác, và một cặp quốc gia có thể bị đếm lặp qua nhiều cặp tổ chức khác nhau trên cùng một bài.
+Mỗi cặp quốc gia được tính bằng số bài khác nhau có tổ chức của cả hai phía. Cộng trên các cặp, hợp tác trong cùng một nước là 331 lượt bài và giữa hai nước khác nhau là 384 lượt bài, trải trên 111 cặp quốc gia khác nhau. Các cặp quốc tế đứng đầu là **CN–US 50 bài, CN–HK 43, CN–SG 32**, tiếp theo CN–AU 16, HK–US 14, CN–GB 12. Hợp tác Trung Quốc đại lục với Hồng Kông, Singapore và Mỹ vì vậy chiếm phần lớn hợp tác quốc tế trong mẫu. Lưu ý quốc gia là của tổ chức; tác giả có thể mang quốc tịch khác, và một bài có tổ chức ở ba nước trở lên được tính cho từng cặp quốc gia.
 
 ### 5.5. Trích dẫn giữa các nhóm quốc gia
 

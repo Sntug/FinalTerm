@@ -102,6 +102,24 @@ class ExportTest(unittest.TestCase):
                                       (P2, "author:2", "institution:2"), (P2, "author:3", "institution:1")]) if e["type"] == "COLLABORATED_WITH"]
         self.assertEqual([(e["src"], e["dst"], e["weight"]) for e in es], [("institution:1", "institution:2", "2")])
 
+    def test_collaborated_skips_lineage(self):
+        with tempfile.TemporaryDirectory() as t:
+            root = Path(t)
+            fixture(root)
+            ids = ["institution:openalex:I%d" % i for i in (1, 2, 3)]
+            h = "authorship_id paper_id author_id author_name author_name_raw author_order identity_status affiliation_raw institution_id source_record_id owner identity_source_record_id affiliation_source_record_id affiliation_status decision_ids".split()
+            w(root / "a3/authorships.csv", h, [["au%d" % i, P1, "author:%d" % (i + 1), "n", "n", "1", "resolved", "", ids[i], "s", "B", "source:cvf:1", "source:cvf:1", "verified", "[]"] for i in range(3)])
+            node = lambda i, l: [i, l, i, "B", '["OpenAlex"]', '["source:openalex:1"]', "accepted", PID, "{}"]
+            w(root / "a3/nodes.csv", "id label name owner source_origin source_record_ids validation_status project_id properties_json".split(),
+              [node("author:%d" % i, "Author") for i in (1, 2, 3)] + [node(i, "Institution") for i in ids])
+            oa = lambda n: "https://openalex.org/I%d" % n
+            rec = lambda n, lin: json.dumps(dict(paper_id=P1, source_record_id="source:openalex:1", evidence_id="ev:%d" % n, field_path="json:authorships[0].institutions[0]",
+                                                 evidence_text=json.dumps({"id": oa(n), "country_code": "US", "lineage": [oa(x) for x in lin]}))) + "\n"
+            (root / "a3/evidence.jsonl").write_text(rec(1, [1]) + rec(2, [2, 1]) + rec(3, [3]), encoding="utf-8")
+            export(CFG, root)
+            es = [e for e in csv.DictReader((root / "out/edges.csv").open(encoding="utf-8-sig")) if e["type"] == "COLLABORATED_WITH"]
+            self.assertEqual(sorted((e["src"], e["dst"]) for e in es), [(ids[0], ids[2]), (ids[1], ids[2])])
+
 
 if __name__ == "__main__":
     unittest.main()
