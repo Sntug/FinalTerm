@@ -1,0 +1,8 @@
+{
+  "input_manifest": "data/processed/iccv2023/trend/snapshot_manifest.json",
+  "processed_dir": "data/processed/iccv2023/trend/h5",
+  "owner": "B",
+  "conference": "ICCV",
+  "conference_year": 2023,
+  "target_count": 350
+}
