@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VLSlice%3A+Interactive+Vision-and-Language+Slice+Discovery%22",
+  "fetched_at": "2026-11-24T03:45:14Z",
+  "http_status": 200,
+  "content_sha256": "9a268f1840d3e89eb0c26d908e101a368e96335ff3b46a7da40eb4dd8eb9ae80",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/9a268f1840d3e89eb0c26d908e101a368e96335ff3b46a7da40eb4dd8eb9ae80.json.gz"
+}

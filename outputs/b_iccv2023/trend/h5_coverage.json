@@ -1,0 +1,37 @@
+{
+  "manifest": "data/processed/iccv2023/trend/h5/snapshot_manifest.json",
+  "selection_snapshot_id": "selection:e67dcc129934e4187baf30f83712703366b5c958bcf710a5f02085567c3502fd",
+  "verified_locked_papers": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "abstract": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "papers_with_verified_affiliation": {
+    "numerator": 327,
+    "denominator": 350,
+    "percent": 93.43
+  },
+  "authorships_with_verified_affiliation": {
+    "numerator": 1484,
+    "denominator": 1850,
+    "percent": 80.22
+  },
+  "openalex_status_counts": {
+    "matched": 333,
+    "needs_review": 17
+  },
+  "verification": {
+    "passed": true,
+    "snapshot_id": "snapshot:v2:18901e507ca40b1b20bb8426008eb854aa1fb2a93aa6b50891bfe0283b540d1f",
+    "tables_checked": 12,
+    "records_checked": 28706,
+    "raw_sources_checked": 1039,
+    "deterministic_replay": true,
+    "graph_ready": false
+  }
+}

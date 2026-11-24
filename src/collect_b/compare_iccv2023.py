@@ -51,13 +51,19 @@ def main():
     excl_in_rule = len(excluded_urls & R)
     assert sum(r[5] == "pilot_preserved" for r in rows) == len((A - R) & pilot_urls)
 
-    manifest = json.loads((ROOT / "data/processed/iccv2023/full/snapshot_manifest.json").read_text("utf-8"))
+    with (ROOT / "data/processed/iccv2023/trend/input_registry.csv").open(encoding="utf-8-sig") as f:
+        new_actual = [r["cvf_url"] for r in csv.DictReader(f)]
+    N = set(new_actual)
+    new_overlap = len(R & N)
+    positions = sum(a == b for a, b in zip(new_actual, rule))
+    manifest = json.loads((ROOT / "data/processed/iccv2023/trend/snapshot_manifest.json").read_text("utf-8"))
     papers_path = next(f["path"] for f in manifest["files"] if f["path"].endswith("papers.jsonl"))
     papers = [json.loads(l) for l in (ROOT / papers_path).open(encoding="utf-8")]
     assert len(papers) == TOP
     abstracts = sum(bool((p.get("abstract") or "").strip()) for p in papers)
     matched = sum(p.get("openalex_status") == "matched" for p in papers)
-    follows = overlap == TOP
+    review = sum(p.get("openalex_status") == "needs_review" for p in papers)
+    follows = new_overlap == TOP and positions == TOP and len(new_actual) == len(N) == TOP
 
     def row(check, value, threshold, ok, note):
         return (EDITION, check, value, threshold, str(ok).lower(), note)
@@ -67,15 +73,16 @@ def main():
         row("listing_source", hashlib.sha256(html).hexdigest(), "main track only", lst_ok,
             f"cached https://openaccess.thecvf.com/ICCV2023?day=all; parse_listing main-track /content/ICCV2023/html/ == catalog json: {lst_ok} (only_listing={len(listing - catalog)}, only_catalog={len(catalog - listing)})"),
         row("candidate_count", len(listing), ">=350", len(listing) >= TOP, "distinct canonical main-track URLs after dedupe"),
-        row("rule_top350_overlap", overlap, TOP, overlap == TOP, f"actual-only={only_actual}, rule-only={only_rule}"),
-        row("pilot_not_in_rule_top350", pilot_out, 0, pilot_out == 0, "pilot papers (30) kept regardless of SHA rank; pilot was a 34-record web-search pool + random.sample, not rule-based"),
-        row("excluded_and_replaced", excl_in_rule, 0, excl_in_rule == 0, f"papers in rule top350 removed via config/b_iccv2023_excluded.json ({len(excluded)} excluded; {len(excluded_urls & pilot_urls)} of them pilot) and replaced; rule says do not replace"),
-        row("sample_follows_rule", str(follows).lower(), "true", follows, "actual registry set == pure SHA-256 rule top350"),
-        row("abstract_coverage", f"{abstracts}/{TOP}", f"{TOP}/{TOP} or reported", abstracts == TOP, "non-empty abstract in full snapshot papers.jsonl"),
-        row("openalex_matched", f"{matched}/{TOP}", "reported", matched == TOP, "openalex_status == matched in full snapshot papers.jsonl"),
+        row("rule_top350_overlap", new_overlap, TOP, new_overlap == TOP, "new registry data/processed/iccv2023/trend/input_registry.csv vs pure SHA-256 rule top350"),
+        row("rule_top350_positions", positions, TOP, positions == TOP, "same paper at the same rank 1..350"),
+        row("sample_follows_rule", str(follows).lower(), "true", follows, "no pilot preservation, no exclusions, no replacements"),
+        row("abstract_coverage", f"{abstracts}/{TOP}", f"{TOP}/{TOP} or reported", abstracts == TOP, "non-empty abstract in trend snapshot papers.jsonl"),
+        row("openalex_matched", f"{matched}/{TOP}", "reported", matched == TOP, f"openalex_status == matched in trend snapshot; needs_review={review} kept in sample with status, never replaced"),
+        row("superseded_old_run", f"{overlap}/{TOP}", "note", False,
+            f"old registry data/processed/iccv2023/input_registry.csv (not used by trend): overlap {overlap}/{TOP}, actual-only={only_actual}, rule-only={only_rule}, pilot_not_in_rule={pilot_out}, excluded_in_rule={excl_in_rule}; detail in selection_diff.csv"),
     ]
     write(OUT / "comparability.csv", ["venue_edition", "check", "value", "threshold", "pass", "note"], checks)
-    print(f"listing={len(listing)} catalog_equal={lst_ok} overlap={overlap} only_rule={only_rule} only_actual={only_actual} pilot_out={pilot_out} excl_in_rule={excl_in_rule} abstracts={abstracts} matched={matched}")
+    print(f"listing={len(listing)} catalog_equal={lst_ok} overlap={overlap} only_rule={only_rule} only_actual={only_actual} pilot_out={pilot_out} excl_in_rule={excl_in_rule} new_overlap={new_overlap} positions={positions} abstracts={abstracts} matched={matched} review={review}")
 
 
 if __name__ == "__main__":

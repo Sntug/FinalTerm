@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "snapshot_id": "snapshot:v2:4460b187e10f7d09de8b721f12ae0f3281abe9761f5d50f2478388fdea60275f",
+  "papers": 350,
+  "authorship_observations": 1850,
+  "raw_sources_checked": 1039,
+  "text_versions_checked": 700,
+  "tables_checked": 12,
+  "records_checked": 8669,
+  "graph_ready": false,
+  "collection_complete": true,
+  "target_papers": 350,
+  "openalex_status_counts": {
+    "matched": 333,
+    "not_found": 0,
+    "needs_review": 17,
+    "not_collected": 0
+  },
+  "coverage": {
+    "abstract": {
+      "numerator": 350,
+      "denominator": 350,
+      "percent": 100.0
+    },
+    "affiliation_verified_papers": {
+      "numerator": 0,
+      "denominator": 350,
+      "percent": 0.0
+    },
+    "affiliation_verified_authorships": {
+      "numerator": 0,
+      "denominator": 1850,
+      "percent": 0.0
+    },
+    "affiliation_available_in_matched_openalex_work": {
+      "numerator": 328,
+      "denominator": 350,
+      "percent": 93.71
+    },
+    "references_checked": {
+      "numerator": 333,
+      "denominator": 350,
+      "percent": 95.14
+    },
+    "references_nonempty": {
+      "numerator": 333,
+      "denominator": 350,
+      "percent": 95.14
+    }
+  },
+  "source_errors": [],
+  "unresolved_authorships": 1850,
+  "network_requests": {
+    "CVF": 5,
+    "OpenAlex": 10
+  },
+  "offline": false,
+  "manifest": "data/processed/iccv2023/trend/snapshot_manifest.json"
+}

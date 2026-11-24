@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DOLCE%3A+A+Model-Based+Probabilistic+Diffusion+Framework+for+Limited-Angle+CT+Reconstruction%22",
+  "fetched_at": "2026-11-24T03:45:10Z",
+  "http_status": 200,
+  "content_sha256": "adb89d5403be781a1009b8543f6403f2fd661d4821e156d8abef778a656bcd54",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2023/openalex/adb89d5403be781a1009b8543f6403f2fd661d4821e156d8abef778a656bcd54.json.gz"
+}
