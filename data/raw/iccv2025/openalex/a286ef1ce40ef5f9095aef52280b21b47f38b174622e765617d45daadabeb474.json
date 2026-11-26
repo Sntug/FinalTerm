@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22STDDNet%3A+Harnessing+Mamba+for+Video+Polyp+Segmentation+via+Spatial-aligned+Temporal+Modeling+and+Discriminative+Dynamic+Representation+Learning%22",
+  "fetched_at": "2026-11-26T16:13:10Z",
+  "http_status": 200,
+  "content_sha256": "9dcc4ac84e023b231ad5d01832fcab873a90b67a70832a022a6c212b94cc9e12",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9dcc4ac84e023b231ad5d01832fcab873a90b67a70832a022a6c212b94cc9e12.json.gz"
+}

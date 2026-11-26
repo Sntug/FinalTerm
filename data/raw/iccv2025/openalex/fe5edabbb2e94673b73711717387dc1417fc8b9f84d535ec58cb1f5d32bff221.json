@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neighboring+Autoregressive+Modeling+for+Efficient+Visual+Generation%22",
+  "fetched_at": "2026-11-23T06:54:25Z",
+  "http_status": 200,
+  "content_sha256": "123a4c132654ede15e60f16028c0a9239086339eba21f50b5135718cd24f97c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/123a4c132654ede15e60f16028c0a9239086339eba21f50b5135718cd24f97c6.json.gz"
+}

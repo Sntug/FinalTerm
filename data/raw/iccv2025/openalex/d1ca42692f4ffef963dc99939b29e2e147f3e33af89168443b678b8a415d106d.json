@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Contact-Aware+Refinement+of+Human+Pose+Pseudo-Ground+Truth+via+Bioimpedance+Sensing%22",
+  "fetched_at": "2026-11-26T16:08:02Z",
+  "http_status": 200,
+  "content_sha256": "1f82acfe62d059171b54b9affa6d7fc226aa6b7f27b24ed86ebb51ef87839f41",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/1f82acfe62d059171b54b9affa6d7fc226aa6b7f27b24ed86ebb51ef87839f41.json.gz"
+}

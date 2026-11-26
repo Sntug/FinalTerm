@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DAMap%3A+Distance-aware+MapNet+for+High+Quality+HD+Map+Construction%22",
+  "fetched_at": "2026-11-26T16:08:30Z",
+  "http_status": 200,
+  "content_sha256": "da25dcdb80bad73d8c9f3b2da350012bb6db4927233198dcaec15c8f3c34348b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/da25dcdb80bad73d8c9f3b2da350012bb6db4927233198dcaec15c8f3c34348b.json.gz"
+}

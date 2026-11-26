@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PriorMotion%3A+Generative+Class-Agnostic+Motion+Prediction+with+Raster-Vector+Motion+Field+Priors%22",
+  "fetched_at": "2026-11-26T16:07:28Z",
+  "http_status": 200,
+  "content_sha256": "15457d931e9109cec6930f2a2914aba8ae4d673e82c65791dd4f7c8f1b3c2f4c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/15457d931e9109cec6930f2a2914aba8ae4d673e82c65791dd4f7c8f1b3c2f4c.json.gz"
+}

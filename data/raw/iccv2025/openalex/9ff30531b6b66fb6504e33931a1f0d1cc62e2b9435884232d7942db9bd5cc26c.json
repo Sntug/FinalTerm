@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Epipolar+Consistent+Attention+Aggregation+Network+for+Unsupervised+Light+Field+Disparity+Estimation%22",
+  "fetched_at": "2026-11-26T16:05:29Z",
+  "http_status": 200,
+  "content_sha256": "badb658b00094f0d463b02933f9387ebde44550d24d095eb197c0db1f7b085e0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/badb658b00094f0d463b02933f9387ebde44550d24d095eb197c0db1f7b085e0.json.gz"
+}

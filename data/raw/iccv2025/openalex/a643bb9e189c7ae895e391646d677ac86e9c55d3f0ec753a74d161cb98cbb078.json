@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LightCity%3A+An+Urban+Dataset+for+Outdoor+Inverse+Rendering+and+Reconstruction+under+Multi-illumination+Conditions%22",
+  "fetched_at": "2026-11-26T16:09:24Z",
+  "http_status": 200,
+  "content_sha256": "53c5fa1b02fd4ad0ea5c55a29741c197a1b8db187f72f41ec80e6e284f4d54f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/53c5fa1b02fd4ad0ea5c55a29741c197a1b8db187f72f41ec80e6e284f4d54f8.json.gz"
+}

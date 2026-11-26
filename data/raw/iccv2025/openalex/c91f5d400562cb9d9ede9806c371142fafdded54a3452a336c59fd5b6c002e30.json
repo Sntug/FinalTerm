@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22BadVideo%3A+Stealthy+Backdoor+Attack+against+Text-to-Video+Generation%22",
+  "fetched_at": "2026-11-23T06:55:05Z",
+  "http_status": 200,
+  "content_sha256": "2cbf7f8e09e23d015d209823239525dd3146cb4c682f589c18f9cce011ac0cfd",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2cbf7f8e09e23d015d209823239525dd3146cb4c682f589c18f9cce011ac0cfd.json.gz"
+}

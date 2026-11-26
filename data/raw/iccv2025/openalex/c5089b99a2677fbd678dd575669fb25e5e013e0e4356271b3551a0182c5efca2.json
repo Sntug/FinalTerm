@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Two+Losses%2C+One+Goal%3A+Balancing+Conflict+Gradients+for+Semi-supervised+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-26T16:10:47Z",
+  "http_status": 200,
+  "content_sha256": "986ae0359828478f2124254e87fdb332576932e819db88d4178969551a560bd4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/986ae0359828478f2124254e87fdb332576932e819db88d4178969551a560bd4.json.gz"
+}

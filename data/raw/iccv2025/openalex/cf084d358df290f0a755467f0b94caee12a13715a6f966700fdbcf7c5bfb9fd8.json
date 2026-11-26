@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TWIST+%26+SCOUT%3A+Grounding+Multimodal+LLM-Experts+by+Forget-Free+Tuning%22",
+  "fetched_at": "2026-11-26T16:10:10Z",
+  "http_status": 200,
+  "content_sha256": "e0674b12cf84e44e39a8443456735dc3bb2ca6a1eb511974621e37d4b385fa83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e0674b12cf84e44e39a8443456735dc3bb2ca6a1eb511974621e37d4b385fa83.json.gz"
+}

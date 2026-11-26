@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22High-Precision+3D+Measurement+of+Complex+Textured+Surfaces+Using+Multiple+Filtering+Approach%22",
+  "fetched_at": "2026-11-26T16:06:10Z",
+  "http_status": 200,
+  "content_sha256": "523b7d515e941108133a45a6947dd776a19bf213c2606ebac7e356a27b3ba7dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/523b7d515e941108133a45a6947dd776a19bf213c2606ebac7e356a27b3ba7dc.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Long-Horizon+Vision-Language-Action+System%3A+Reasoning%2C+Acting+and+Memory%22",
+  "fetched_at": "2026-11-26T16:10:03Z",
+  "http_status": 200,
+  "content_sha256": "1d4d3b162c92e10e3b20562effdddb6aa9335c28f7bef02039e9529e5fe0bc45",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/1d4d3b162c92e10e3b20562effdddb6aa9335c28f7bef02039e9529e5fe0bc45.json.gz"
+}

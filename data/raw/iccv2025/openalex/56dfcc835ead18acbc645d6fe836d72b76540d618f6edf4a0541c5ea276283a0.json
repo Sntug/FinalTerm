@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DAViD%3A+Modeling+Dynamic+Affordance+of+3D+Objects+Using+Pre-trained+Video+Diffusion+Models%22",
+  "fetched_at": "2026-11-23T06:54:55Z",
+  "http_status": 200,
+  "content_sha256": "65296b90ae34d563e4af04fe8e92a6f217e507a19f0da1ad1bdb7f17e9f91d07",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/65296b90ae34d563e4af04fe8e92a6f217e507a19f0da1ad1bdb7f17e9f91d07.json.gz"
+}

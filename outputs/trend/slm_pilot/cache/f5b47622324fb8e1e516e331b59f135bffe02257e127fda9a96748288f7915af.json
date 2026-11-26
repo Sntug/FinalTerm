@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:09:00+00:00",
+  "done_reason": "stop",
+  "key": "f5b47622324fb8e1e516e331b59f135bffe02257e127fda9a96748288f7915af",
+  "metrics": {
+    "eval_count": 63,
+    "eval_duration": 6342555000,
+    "load_duration": 1296334,
+    "prompt_eval_count": 456,
+    "total_duration": 10100983167
+  },
+  "model": "qwen3:8b",
+  "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\"cross-domain panoramic semantic segmentation\"],\n  \"methods\": [\"Extrapolative Domain Adaptive Panoramic Segmentation (EDA-PSeg)\", \"Euler-Margin Attention (EMA)\", \"Graph Matching Adapter (GMA)\"],\n  \"datasets\": [\"four benchmark datasets\"]\n}"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LACONIC%3A+A+3D+Layout+Adapter+for+Controllable+Image+Creation%22",
+  "fetched_at": "2026-11-26T16:03:40Z",
+  "http_status": 200,
+  "content_sha256": "b874742d598ec7557d879969f5df1a75b9328877b671db64938e3dba1842837a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b874742d598ec7557d879969f5df1a75b9328877b671db64938e3dba1842837a.json.gz"
+}

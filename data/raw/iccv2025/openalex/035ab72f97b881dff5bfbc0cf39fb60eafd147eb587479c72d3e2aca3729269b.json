@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiMPLe+-+Disentangled+Multi-Modal+Prompt+Learning%3A+Enhancing+Out-Of-Distribution+Alignment+with+Invariant+and+Spurious+Feature+Separation%22",
+  "fetched_at": "2026-11-26T16:09:00Z",
+  "http_status": 200,
+  "content_sha256": "152c47d55a75b1e0e1fa6868775f4a003bdce5b90e2f9943fff53e545d639308",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/152c47d55a75b1e0e1fa6868775f4a003bdce5b90e2f9943fff53e545d639308.json.gz"
+}

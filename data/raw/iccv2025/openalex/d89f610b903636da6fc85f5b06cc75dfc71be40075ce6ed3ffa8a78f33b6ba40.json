@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hipandas%3A+Hyperspectral+Image+Joint+Denoising+and+Super-Resolution+by+Image+Fusion+with+the+Panchromatic+Image%22",
+  "fetched_at": "2026-11-26T16:06:16Z",
+  "http_status": 200,
+  "content_sha256": "d5a05878d1be32b8d1d8c6ef26bdcbdbafc29bf86a87fd074498e308294c3cef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d5a05878d1be32b8d1d8c6ef26bdcbdbafc29bf86a87fd074498e308294c3cef.json.gz"
+}

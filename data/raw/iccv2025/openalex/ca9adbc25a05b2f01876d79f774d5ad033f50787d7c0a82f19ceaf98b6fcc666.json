@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+Normals+of+Noisy+Points+by+Local+Gradient-Aware+Surface+Filtering%22",
+  "fetched_at": "2026-11-26T16:05:31Z",
+  "http_status": 200,
+  "content_sha256": "f7d6c7cc16b18ca466078499fa84d5e83fcb9ddc236724bbe48fa09fe14b9076",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f7d6c7cc16b18ca466078499fa84d5e83fcb9ddc236724bbe48fa09fe14b9076.json.gz"
+}

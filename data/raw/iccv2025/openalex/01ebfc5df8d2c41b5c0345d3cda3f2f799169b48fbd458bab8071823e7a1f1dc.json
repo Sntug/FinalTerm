@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Augmented+and+Softened+Matching+for+Unsupervised+Visible-Infrared+Person+Re-Identification%22",
+  "fetched_at": "2026-11-26T16:14:34Z",
+  "http_status": 200,
+  "content_sha256": "589a823bb2e308a3fdd9f71fdf604d9c1c8b48fd6c3b0bd621c6ba8c377e6a60",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/589a823bb2e308a3fdd9f71fdf604d9c1c8b48fd6c3b0bd621c6ba8c377e6a60.json.gz"
+}

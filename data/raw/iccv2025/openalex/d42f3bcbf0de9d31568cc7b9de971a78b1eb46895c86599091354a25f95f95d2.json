@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22AIM%3A+Adaptive+Inference+of+Multi-Modal+LLMs+via+Token+Merging+and+Pruning%22",
+  "fetched_at": "2026-11-23T06:54:19Z",
+  "http_status": 200,
+  "content_sha256": "0eaf2b50adafe1f3abd33519734df4abd31309be1bb70743b2f42cfd2efdf86b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0eaf2b50adafe1f3abd33519734df4abd31309be1bb70743b2f42cfd2efdf86b.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MMAIF%3A+Multi-task+and+Multi-degradation+All-in-One+for+Image+Fusion+with+Language+Guidance%22",
+  "fetched_at": "2026-11-26T16:07:19Z",
+  "http_status": 200,
+  "content_sha256": "4529607d08cbc96570ca43672efc133b58c274c3336f28a708b82c65877c294a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4529607d08cbc96570ca43672efc133b58c274c3336f28a708b82c65877c294a.json.gz"
+}

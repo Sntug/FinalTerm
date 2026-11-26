@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RobuSTereo%3A+Robust+Zero-Shot+Stereo+Matching+under+Adverse+Weather%22",
+  "fetched_at": "2026-11-26T16:11:26Z",
+  "http_status": 200,
+  "content_sha256": "45e5ffd9abf8e6a28d8ee9091202a4e8850a02a6c16677835cc6edf95819a1d3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/45e5ffd9abf8e6a28d8ee9091202a4e8850a02a6c16677835cc6edf95819a1d3.json.gz"
+}

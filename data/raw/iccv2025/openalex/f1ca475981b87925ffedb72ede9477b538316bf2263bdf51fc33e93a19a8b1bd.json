@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Blind+Noisy+Image+Deblurring+Using+Residual+Guidance+Strategy%22",
+  "fetched_at": "2026-11-26T16:12:07Z",
+  "http_status": 200,
+  "content_sha256": "677d8f37e4b020ba16ef08bbd7aff92633d3e023473b09155df29a732c7acdda",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/677d8f37e4b020ba16ef08bbd7aff92633d3e023473b09155df29a732c7acdda.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unlocking+Constraints%3A+Source-Free+Occlusion-Aware+Seamless+Segmentation%22",
+  "fetched_at": "2026-11-26T16:03:34Z",
+  "http_status": 200,
+  "content_sha256": "5b90ba8e96642514e61179da84c0b8e5d4f60860cea913c5d11e1382e7f1155c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5b90ba8e96642514e61179da84c0b8e5d4f60860cea913c5d11e1382e7f1155c.json.gz"
+}

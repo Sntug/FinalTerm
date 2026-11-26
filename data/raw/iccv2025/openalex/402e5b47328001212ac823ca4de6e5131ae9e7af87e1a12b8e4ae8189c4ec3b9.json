@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%226DOPE-GS%3A+Online+6D+Object+Pose+Estimation+using+Gaussian+Splatting%22",
+  "fetched_at": "2026-11-26T16:13:38Z",
+  "http_status": 200,
+  "content_sha256": "42885a86ee83c22023a97636a61bf3d7c57a329c6a8f1dc115be45d0e7a4f7ee",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/42885a86ee83c22023a97636a61bf3d7c57a329c6a8f1dc115be45d0e7a4f7ee.json.gz"
+}

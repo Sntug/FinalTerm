@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Creation-MMBench%3A+Assessing+Context-Aware+Creative+Intelligence+in+MLLMs%22",
+  "fetched_at": "2026-11-26T16:06:26Z",
+  "http_status": 200,
+  "content_sha256": "882f5fcd9791ea4d05711f6599872c897ff4588424f34604599859b22f0ad606",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/882f5fcd9791ea4d05711f6599872c897ff4588424f34604599859b22f0ad606.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+on+the+Go%3A+A+Meta-learning+Object+Navigation+Model%22",
+  "fetched_at": "2026-11-26T16:10:55Z",
+  "http_status": 200,
+  "content_sha256": "e75756794067fd1a749ced916aa350a749756fa59f420193f47180a075bc9231",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e75756794067fd1a749ced916aa350a749756fa59f420193f47180a075bc9231.json.gz"
+}

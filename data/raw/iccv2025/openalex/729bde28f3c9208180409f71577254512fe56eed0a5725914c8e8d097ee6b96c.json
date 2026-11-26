@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22On+the+Robustness+Tradeoff+in+Fine-Tuning%22",
+  "fetched_at": "2026-11-26T16:05:07Z",
+  "http_status": 200,
+  "content_sha256": "2faaea854cb1397e2a95b251b6ad62e7b37b6b76e0056f9f3ac8a059345aa70e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2faaea854cb1397e2a95b251b6ad62e7b37b6b76e0056f9f3ac8a059345aa70e.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diving+into+the+Fusion+of+Monocular+Priors+for+Generalized+Stereo+Matching%22",
+  "fetched_at": "2026-11-26T16:10:49Z",
+  "http_status": 200,
+  "content_sha256": "d3557ad806d9acf18dd6fde120be3e6cb9244e4778067678f03128434e1c9993",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d3557ad806d9acf18dd6fde120be3e6cb9244e4778067678f03128434e1c9993.json.gz"
+}

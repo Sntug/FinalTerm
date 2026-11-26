@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Where%2C+What%2C+Why%3A+Towards+Explainable+Driver+Attention+Prediction%22",
+  "fetched_at": "2026-11-26T16:10:57Z",
+  "http_status": 200,
+  "content_sha256": "24903df487aa59999e4c3197fde796bd8701fac13db84be682cee2c3a0351495",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/24903df487aa59999e4c3197fde796bd8701fac13db84be682cee2c3a0351495.json.gz"
+}

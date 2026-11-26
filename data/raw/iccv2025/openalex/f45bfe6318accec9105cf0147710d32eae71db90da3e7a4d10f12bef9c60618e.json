@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Probabilistic+Modeling+Beyond+Domain+Generalization+for+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-26T16:13:52Z",
+  "http_status": 200,
+  "content_sha256": "1d117ed5dc721315cb7bb3977ceee0bc9252e75de640b60405d2a5674e73ef9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/1d117ed5dc721315cb7bb3977ceee0bc9252e75de640b60405d2a5674e73ef9a.json.gz"
+}

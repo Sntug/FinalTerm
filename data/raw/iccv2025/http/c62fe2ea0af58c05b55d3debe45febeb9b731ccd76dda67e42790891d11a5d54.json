@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Coupling_the_Generator_with_Teacher_for_Effective_Data-Free_Knowledge_Distillation_ICCV_2025_paper.html",
+  "fetched_at": "2026-11-26T16:02:43Z",
+  "http_status": 200,
+  "content_sha256": "395b7c365daed77b0b25abee71c9c5d58d70ef0cf14a18850ffe0d02f097da42",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"19ee-641237d696e4f\"",
+  "last_modified": "Tue, 14 Oct 2025 19:35:43 GMT",
+  "raw_path": "data/raw/iccv2025/http/395b7c365daed77b0b25abee71c9c5d58d70ef0cf14a18850ffe0d02f097da42.html.gz"
+}

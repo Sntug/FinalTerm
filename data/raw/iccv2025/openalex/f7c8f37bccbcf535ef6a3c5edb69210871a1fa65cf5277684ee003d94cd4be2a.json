@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EvRT-DETR%3A+Latent+Space+Adaptation+of+Image+Detectors+for+Event-based+Vision%22",
+  "fetched_at": "2026-11-26T16:08:56Z",
+  "http_status": 200,
+  "content_sha256": "003c53aa4cc0a6ef289bed4f5e5f5e7899cc15b36ffd74ebcc2c76a0b18296a3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/003c53aa4cc0a6ef289bed4f5e5f5e7899cc15b36ffd74ebcc2c76a0b18296a3.json.gz"
+}

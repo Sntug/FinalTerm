@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+to+Generalize+without+Bias+for+Open-Vocabulary+Action+Recognition%22",
+  "fetched_at": "2026-11-26T16:09:08Z",
+  "http_status": 200,
+  "content_sha256": "9d6aecee6479a958b71cd7907d957764c3a6b3896a9b02eb6b868494dd8ca04a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9d6aecee6479a958b71cd7907d957764c3a6b3896a9b02eb6b868494dd8ca04a.json.gz"
+}

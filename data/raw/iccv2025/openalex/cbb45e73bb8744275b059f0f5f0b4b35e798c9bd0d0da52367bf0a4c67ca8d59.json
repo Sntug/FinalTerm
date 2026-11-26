@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22From+Holistic+to+Localized%3A+Local+Enhanced+Adapters+for+Efficient+Visual+Instruction+Fine-Tuning%22",
+  "fetched_at": "2026-11-26T16:14:31Z",
+  "http_status": 200,
+  "content_sha256": "5c41dac4ab543ae2aebf2bcb6b52bb8a09d81578cc92aa1baf0f1b4defead0d8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5c41dac4ab543ae2aebf2bcb6b52bb8a09d81578cc92aa1baf0f1b4defead0d8.json.gz"
+}

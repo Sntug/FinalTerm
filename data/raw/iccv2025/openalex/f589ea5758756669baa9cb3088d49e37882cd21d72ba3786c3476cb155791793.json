@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Towards+Fine-grained+Interactive+Segmentation+in+Images+and+Videos%22",
+  "fetched_at": "2026-11-26T16:06:32Z",
+  "http_status": 200,
+  "content_sha256": "436b181e6cb661ce8ff71b339d75ba9e2659f2d539c99130ff3168dcee384972",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/436b181e6cb661ce8ff71b339d75ba9e2659f2d539c99130ff3168dcee384972.json.gz"
+}

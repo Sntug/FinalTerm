@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Erasing+More+Than+Intended%3F+How+Concept+Erasure+Degrades+the+Generation+of+Non-Target+Concepts%22",
+  "fetched_at": "2026-11-26T16:15:10Z",
+  "http_status": 200,
+  "content_sha256": "dff01d3c6491a5356a22c9541d67eb304fd0fa44c7297cfe84a510bc44cbabf1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/dff01d3c6491a5356a22c9541d67eb304fd0fa44c7297cfe84a510bc44cbabf1.json.gz"
+}

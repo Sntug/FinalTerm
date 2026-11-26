@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DisenQ%3A+Disentangling+Q-Former+for+Activity-Biometrics%22",
+  "fetched_at": "2026-11-26T16:12:29Z",
+  "http_status": 200,
+  "content_sha256": "8a16e76b13795a016c56eb70f8ad0f0d3a1c6a6442f3784f240ba1fd5780fc60",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8a16e76b13795a016c56eb70f8ad0f0d3a1c6a6442f3784f240ba1fd5780fc60.json.gz"
+}

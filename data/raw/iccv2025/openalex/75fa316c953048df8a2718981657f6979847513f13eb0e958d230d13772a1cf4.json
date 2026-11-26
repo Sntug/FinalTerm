@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SALAD+--+Semantics-Aware+Logical+Anomaly+Detection%22",
+  "fetched_at": "2026-11-26T16:09:34Z",
+  "http_status": 200,
+  "content_sha256": "81f1c469168747c578f634b931df31f6cc9c8abe5b93c6210d0d3383177e1825",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/81f1c469168747c578f634b931df31f6cc9c8abe5b93c6210d0d3383177e1825.json.gz"
+}

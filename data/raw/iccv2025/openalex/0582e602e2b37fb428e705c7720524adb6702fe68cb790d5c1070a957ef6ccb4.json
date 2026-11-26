@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Player-Centric+Multimodal+Prompt+Generation+for+Large+Language+Model+Based+Identity-Aware+Basketball+Video+Captioning%22",
+  "fetched_at": "2026-11-26T16:10:53Z",
+  "http_status": 200,
+  "content_sha256": "d9f5269c84435958b36054f4228b9ac2f0c9dc5336909edeffacc5c1318aa8a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d9f5269c84435958b36054f4228b9ac2f0c9dc5336909edeffacc5c1318aa8a4.json.gz"
+}

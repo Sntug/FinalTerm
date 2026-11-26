@@ -1,0 +1,165 @@
+{
+  "mode": "dryrun",
+  "locked": false,
+  "status": "BẢN THỬ, CHƯA KHÓA",
+  "blockers": [
+    "H7 đang là fixture, chưa có H7 thật của A"
+  ],
+  "project_id": "mxh_cv_trend",
+  "snapshot_dir": "data/processed/mxh_cv_trend/graph_dryrun",
+  "snapshot_id": "snapshot:v2:062292563ed57f552d8634c43a1a20aaf54b1f54e27598c90b8617b99ca325f7",
+  "content_sha256": "a4fd4a588cb04c77927c9416d8aeb8d3dd7f9a017874dfd97f8c705086b99343",
+  "h7": {
+    "snapshot_id": "snapshot:v2:2f6e4c6aecd533d9b84d9a5000ca53a9e9a5c6d29959473546a4e7bababd46ed",
+    "model": "fixture:spacy-3.8.18:blank-0.0.0:sentencizer-1",
+    "code_version": "a4-nlp-1.0.0+b5-1.0.0+fixture",
+    "dictionary_versions": {
+      "a4-cv": "a4-cv-1.0.0:f9a6fe7055cb60f05dc6273cf8c6e9b09f1c92f8b3ba1271b5a43e557c83a6d1",
+      "b5-method": "b5-method-1.0.0:3456e16e267aab8baee0953efe6eb27ccdf394d8c1acdbf8b63403a5b7f97ea5"
+    },
+    "fixture": true,
+    "path": "outputs/trend/h7_fixture/snapshot_manifest.json"
+  },
+  "missing_editions": [],
+  "editions": [
+    {
+      "name": "CVPR2024",
+      "venue_id": "venue:CVPR:2024:main",
+      "h5_snapshot_id": "snapshot:v2:00c0b44564ba32e43b1c8b3c6b229a827ae84089fdb41654a7020a32a84dc8d5",
+      "papers_registered": 350,
+      "papers_accepted": 350,
+      "nlp_edges": 138
+    },
+    {
+      "name": "CVPR2025",
+      "venue_id": "venue:CVPR:2025:main",
+      "h5_snapshot_id": "snapshot:v2:b3b9a2a616cbfb57c6ce9836469bba3f62e7065ec6dc597ebf67d8e2178a92c5",
+      "papers_registered": 350,
+      "papers_accepted": 350,
+      "nlp_edges": 152
+    },
+    {
+      "name": "CVPR2026",
+      "venue_id": "venue:CVPR:2026:main",
+      "h5_snapshot_id": "snapshot:v2:43ba5a5e4faebb3d4c21527749fa6a43d2439a4adb98ff16d186c8be9b5ca848",
+      "papers_registered": 350,
+      "papers_accepted": 350,
+      "nlp_edges": 116
+    },
+    {
+      "name": "ICCV2023",
+      "venue_id": "venue:ICCV:2023:main",
+      "h5_snapshot_id": "snapshot:v2:18901e507ca40b1b20bb8426008eb854aa1fb2a93aa6b50891bfe0283b540d1f",
+      "papers_registered": 350,
+      "papers_accepted": 350,
+      "nlp_edges": 163
+    },
+    {
+      "name": "ICCV2025",
+      "venue_id": "venue:ICCV:2025:main",
+      "h5_snapshot_id": "snapshot:v2:14f0dc76734e3132751de5e179747c10e321f285bef12d82ed0bc73464b81141",
+      "papers_registered": 350,
+      "papers_accepted": 350,
+      "nlp_edges": 127
+    }
+  ],
+  "conditions": {
+    "contract": {
+      "passed": true,
+      "records_checked": 191858,
+      "tables_checked": 12,
+      "raw_sources_checked": 5159,
+      "text_versions_checked": 3500
+    },
+    "double_load": {
+      "passed": true,
+      "load_hashes": [
+        "a4fd4a588cb04c77927c9416d8aeb8d3dd7f9a017874dfd97f8c705086b99343",
+        "a4fd4a588cb04c77927c9416d8aeb8d3dd7f9a017874dfd97f8c705086b99343"
+      ],
+      "csv_hash": "a4fd4a588cb04c77927c9416d8aeb8d3dd7f9a017874dfd97f8c705086b99343"
+    },
+    "recount": {
+      "passed": true,
+      "neo4j": {
+        "node_count": 9080,
+        "edge_count": 39149,
+        "counts_by_label": {
+          "Author": 6555,
+          "Paper": 1750,
+          "Institution": 660,
+          "VenueEdition": 5,
+          "Task": 14,
+          "Method": 30,
+          "Dataset": 16,
+          "Country": 50
+        },
+        "counts_by_type": {
+          "AFFILIATED_WITH": 6831,
+          "COAUTHORED_WITH": 18798,
+          "AUTHORED": 7583,
+          "PUBLISHED_IN": 1750,
+          "STUDIES_TASK": 204,
+          "USES_METHOD": 441,
+          "CITES": 693,
+          "EVALUATED_ON": 51,
+          "BASED_IN": 660,
+          "COLLABORATED_WITH": 2138
+        },
+        "total_weight": 39991,
+        "weight_by_type": {
+          "AFFILIATED_WITH": 6831,
+          "COAUTHORED_WITH": 19154,
+          "AUTHORED": 7583,
+          "PUBLISHED_IN": 1750,
+          "STUDIES_TASK": 204,
+          "USES_METHOD": 441,
+          "CITES": 693,
+          "EVALUATED_ON": 51,
+          "BASED_IN": 660,
+          "COLLABORATED_WITH": 2624
+        }
+      },
+      "manifest": {
+        "node_count": 9080,
+        "edge_count": 39149,
+        "counts_by_label": {
+          "Author": 6555,
+          "Country": 50,
+          "Dataset": 16,
+          "Institution": 660,
+          "Method": 30,
+          "Paper": 1750,
+          "Task": 14,
+          "VenueEdition": 5
+        },
+        "counts_by_type": {
+          "AFFILIATED_WITH": 6831,
+          "AUTHORED": 7583,
+          "BASED_IN": 660,
+          "CITES": 693,
+          "COAUTHORED_WITH": 18798,
+          "COLLABORATED_WITH": 2138,
+          "EVALUATED_ON": 51,
+          "PUBLISHED_IN": 1750,
+          "STUDIES_TASK": 204,
+          "USES_METHOD": 441
+        },
+        "total_weight": 39991,
+        "weight_by_type": {
+          "AFFILIATED_WITH": 6831,
+          "AUTHORED": 7583,
+          "BASED_IN": 660,
+          "CITES": 693,
+          "COAUTHORED_WITH": 19154,
+          "COLLABORATED_WITH": 2624,
+          "EVALUATED_ON": 51,
+          "PUBLISHED_IN": 1750,
+          "STUDIES_TASK": 204,
+          "USES_METHOD": 441
+        }
+      }
+    }
+  },
+  "checked_at": "2026-11-26T16:32:10Z"
+}

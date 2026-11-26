@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SEHDR%3A+Single-Exposure+HDR+Novel+View+Synthesis+via+3D+Gaussian+Bracketing%22",
+  "fetched_at": "2026-11-26T16:12:45Z",
+  "http_status": 200,
+  "content_sha256": "d702663833aef92b0096f7023eb574802415379bb4d604a0502aa0619acc1f9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d702663833aef92b0096f7023eb574802415379bb4d604a0502aa0619acc1f9a.json.gz"
+}

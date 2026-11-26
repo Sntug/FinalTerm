@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Sequential+Gaussian+Avatars+with+Hierarchical+Motion+Context%22",
+  "fetched_at": "2026-11-26T16:07:34Z",
+  "http_status": 200,
+  "content_sha256": "27afed5ab07ccc3e9080bd057622479c9430e8a6073b2d1090e80f8c94f43383",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/27afed5ab07ccc3e9080bd057622479c9430e8a6073b2d1090e80f8c94f43383.json.gz"
+}

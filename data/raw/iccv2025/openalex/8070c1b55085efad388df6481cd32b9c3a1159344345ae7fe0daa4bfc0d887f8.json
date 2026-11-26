@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Enrich+and+Detect%3A+Video+Temporal+Grounding+with+Multimodal+LLMs%22",
+  "fetched_at": "2026-11-26T16:08:32Z",
+  "http_status": 200,
+  "content_sha256": "b78c1478077ef4a89a9144e91a654e8b8ec60f27a1b312392723e2f369b350f1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b78c1478077ef4a89a9144e91a654e8b8ec60f27a1b312392723e2f369b350f1.json.gz"
+}

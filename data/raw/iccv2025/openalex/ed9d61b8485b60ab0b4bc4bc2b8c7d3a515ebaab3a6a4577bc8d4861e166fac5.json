@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Power+of+Cooperative+Supervision%3A+Multiple+Teachers+Framework+for+Advanced+3D+Semi-Supervised+Object+Detection%22",
+  "fetched_at": "2026-11-26T16:04:50Z",
+  "http_status": 200,
+  "content_sha256": "cb2735c8b4e27b3fe5ed67e74c86c4e1c2a381bdab7172fdbd61627603bdc3be",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/cb2735c8b4e27b3fe5ed67e74c86c4e1c2a381bdab7172fdbd61627603bdc3be.json.gz"
+}

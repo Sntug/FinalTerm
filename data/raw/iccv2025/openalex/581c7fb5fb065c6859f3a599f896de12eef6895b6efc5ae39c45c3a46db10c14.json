@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ReCamMaster%3A+Camera-Controlled+Generative+Rendering+from+A+Single+Video%22",
+  "fetched_at": "2026-11-26T16:04:25Z",
+  "http_status": 200,
+  "content_sha256": "b0a1c4959db16ef43eeeb14b9d847ed81c2b160115c1a6169c5d0b4d6007fd9b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b0a1c4959db16ef43eeeb14b9d847ed81c2b160115c1a6169c5d0b4d6007fd9b.json.gz"
+}

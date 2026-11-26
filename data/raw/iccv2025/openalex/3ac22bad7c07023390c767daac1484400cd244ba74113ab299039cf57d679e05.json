@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Causal+Disentanglement+and+Cross-Modal+Alignment+for+Enhanced+Few-Shot+Learning%22",
+  "fetched_at": "2026-11-26T16:13:59Z",
+  "http_status": 200,
+  "content_sha256": "5f7a57563e549784dace0b55a81e2bc6b13844ee9dd5230967e13bea3650365d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5f7a57563e549784dace0b55a81e2bc6b13844ee9dd5230967e13bea3650365d.json.gz"
+}

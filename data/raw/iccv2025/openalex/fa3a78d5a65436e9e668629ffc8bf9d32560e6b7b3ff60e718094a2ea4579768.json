@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VISION-XL%3A+High+Definition+Video+Inverse+Problem+Solver+using+Latent+Image+Diffusion+Models%22",
+  "fetched_at": "2026-11-26T16:09:42Z",
+  "http_status": 200,
+  "content_sha256": "44982ca6639351dceae2251c2329593dc431d1eb73aa378d8cf54c347e2271a8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/44982ca6639351dceae2251c2329593dc431d1eb73aa378d8cf54c347e2271a8.json.gz"
+}

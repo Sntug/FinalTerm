@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Teaching+VLMs+to+Localize+Specific+Objects+from+In-context+Examples%22",
+  "fetched_at": "2026-11-26T16:09:16Z",
+  "http_status": 200,
+  "content_sha256": "671bb042625f24e5b1be6900fc17b843ce41e8f634a432b86f1b0465011c09eb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/671bb042625f24e5b1be6900fc17b843ce41e8f634a432b86f1b0465011c09eb.json.gz"
+}

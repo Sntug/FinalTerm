@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Lee_DMQ_Dissecting_Outliers_of_Diffusion_Models_for_Post-Training_Quantization_ICCV_2025_paper.html",
+  "fetched_at": "2026-11-26T15:56:18Z",
+  "http_status": 200,
+  "content_sha256": "a86dd153f54663d8c25994aea4834122efcf1742e454feb678e084843ea32eec",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1a45-641237d679d72\"",
+  "last_modified": "Tue, 14 Oct 2025 19:35:43 GMT",
+  "raw_path": "data/raw/iccv2025/http/a86dd153f54663d8c25994aea4834122efcf1742e454feb678e084843ea32eec.html.gz"
+}

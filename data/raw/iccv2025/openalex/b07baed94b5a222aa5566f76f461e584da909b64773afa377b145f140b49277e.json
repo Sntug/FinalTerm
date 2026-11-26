@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CounterPC%3A+Counterfactual+Feature+Realignment+for+Unsupervised+Domain+Adaptation+on+Point+Clouds%22",
+  "fetched_at": "2026-11-26T16:12:21Z",
+  "http_status": 200,
+  "content_sha256": "e9fa39e6d81abc3ac00a2a185d3adde3f9ac617f819367e94ce58ae3630ac21e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e9fa39e6d81abc3ac00a2a185d3adde3f9ac617f819367e94ce58ae3630ac21e.json.gz"
+}

@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:11:27+00:00",
+  "done_reason": "stop",
+  "key": "3434614c3d7963d8ba23b2b40aa4ef0f2c94f8d7905ed303065bc22ac8dc06e8",
+  "metrics": {
+    "eval_count": 60,
+    "eval_duration": 4082718000,
+    "load_duration": 625125,
+    "prompt_eval_count": 417,
+    "total_duration": 6817868333
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"zero-shot classification\",\n    \"retrieval tasks\"\n  ],\n  \"methods\": [\n    \"contrastive pre-training\",\n    \"powerset alignment\",\n    \"efficient non-linear aggregators (NLAs)\"\n  ],\n  \"datasets\": []\n  }"
+}

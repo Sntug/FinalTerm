@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reminiscence+Attack+on+Residuals%3A+Exploiting+Approximate+Machine+Unlearning+for+Privacy%22",
+  "fetched_at": "2026-11-26T16:12:51Z",
+  "http_status": 200,
+  "content_sha256": "b2d07b8f97a1d93917ae51997689797a71f182fbc8f1e82209fb3b27102f03b6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b2d07b8f97a1d93917ae51997689797a71f182fbc8f1e82209fb3b27102f03b6.json.gz"
+}

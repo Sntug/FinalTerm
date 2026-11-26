@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LightBSR%3A+Towards+Lightweight+Blind+Super-Resolution+via+Discriminative+Implicit+Degradation+Representation+Learning%22",
+  "fetched_at": "2026-11-26T16:12:23Z",
+  "http_status": 200,
+  "content_sha256": "20f10c9051bc87c10cbdcbbbf20e453d7318427837ff7e93cc344f52c66ea837",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/20f10c9051bc87c10cbdcbbbf20e453d7318427837ff7e93cc344f52c66ea837.json.gz"
+}

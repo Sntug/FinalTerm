@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22M-Net%3A+MRI+Brain+Tumor+Sequential+Segmentation+Network+via+Mesh-Cast%22",
+  "fetched_at": "2026-11-26T16:11:06Z",
+  "http_status": 200,
+  "content_sha256": "5744bb91599a030fb71a9093a73ac9b1af9c294d4a9cf043d5ee9e0de39f4406",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5744bb91599a030fb71a9093a73ac9b1af9c294d4a9cf043d5ee9e0de39f4406.json.gz"
+}

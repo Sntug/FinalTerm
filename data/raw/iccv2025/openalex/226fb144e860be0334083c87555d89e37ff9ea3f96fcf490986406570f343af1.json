@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Visual-RFT%3A+Visual+Reinforcement+Fine-Tuning%22",
+  "fetched_at": "2026-11-26T16:11:28Z",
+  "http_status": 200,
+  "content_sha256": "3ac2202b6a3323d5854e6ee17416af032cdff016b6ab04a2ffd4eabe2898fb16",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3ac2202b6a3323d5854e6ee17416af032cdff016b6ab04a2ffd4eabe2898fb16.json.gz"
+}

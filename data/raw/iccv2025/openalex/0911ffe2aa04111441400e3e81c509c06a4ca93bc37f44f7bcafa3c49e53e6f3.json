@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Bilateral+Collaboration+with+Large+Vision-Language+Models+for+Open+Vocabulary+Human-Object+Interaction+Detection%22",
+  "fetched_at": "2026-11-26T16:04:20Z",
+  "http_status": 200,
+  "content_sha256": "ab61a931137058655bcec283e6eee8dbb2638603110f67cd0afb838170267b44",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ab61a931137058655bcec283e6eee8dbb2638603110f67cd0afb838170267b44.json.gz"
+}

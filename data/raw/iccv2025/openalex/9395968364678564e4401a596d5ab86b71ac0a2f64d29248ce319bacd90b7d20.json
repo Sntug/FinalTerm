@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TLB-VFI%3A+Temporal-Aware+Latent+Brownian+Bridge+Diffusion+for+Video+Frame+Interpolation%22",
+  "fetched_at": "2026-11-26T16:14:47Z",
+  "http_status": 200,
+  "content_sha256": "6a44cd10a527867d8bbaf4394f4e88bf910c006920002a7424859a7d91e71828",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/6a44cd10a527867d8bbaf4394f4e88bf910c006920002a7424859a7d91e71828.json.gz"
+}

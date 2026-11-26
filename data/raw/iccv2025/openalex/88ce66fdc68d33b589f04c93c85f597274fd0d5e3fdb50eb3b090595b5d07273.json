@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Decouple+to+Reconstruct%3A+High+Quality+UHD+Restoration+via+Active+Feature+Disentanglement+and+Reversible+Fusion%22",
+  "fetched_at": "2026-11-26T16:13:31Z",
+  "http_status": 200,
+  "content_sha256": "87da0da859c65fe179790c39b2d2ae2bb76fb98e2876f714dc02f535f8ca67ed",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/87da0da859c65fe179790c39b2d2ae2bb76fb98e2876f714dc02f535f8ca67ed.json.gz"
+}

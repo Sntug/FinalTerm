@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PUMPS%3A+Skeleton-Agnostic+Point-based+Universal+Motion+Pre-Training+for+Synthesis+in+Human+Motion+Tasks%22",
+  "fetched_at": "2026-11-23T06:54:41Z",
+  "http_status": 200,
+  "content_sha256": "413d57536fc099cd831135eea0a452c1d1f0f51fdb64b043600334b486dce073",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/413d57536fc099cd831135eea0a452c1d1f0f51fdb64b043600334b486dce073.json.gz"
+}

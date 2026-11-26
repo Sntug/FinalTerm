@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DyWA%3A+Dynamics-adaptive+World+Action+Model+for+Generalizable+Non-prehensile+Manipulation%22",
+  "fetched_at": "2026-11-26T16:04:35Z",
+  "http_status": 200,
+  "content_sha256": "637e3f8e2fb52410b2d99f9d4fa0d4b4c75a8f957d0cd82449264ae41d229f31",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/637e3f8e2fb52410b2d99f9d4fa0d4b4c75a8f957d0cd82449264ae41d229f31.json.gz"
+}

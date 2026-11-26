@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VIPerson%3A+Flexibly+Generating+Virtual+Identity+for+Person+Re-Identification%22",
+  "fetched_at": "2026-11-26T16:09:22Z",
+  "http_status": 200,
+  "content_sha256": "a34a06a571b74fca0c3d19434a27245574adc293a03df1cecac737fab2cadac9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a34a06a571b74fca0c3d19434a27245574adc293a03df1cecac737fab2cadac9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22INS-MMBench%3A+A+Comprehensive+Benchmark+for+Evaluating+LVLMs%27+Performance+in+Insurance%22",
+  "fetched_at": "2026-11-26T16:03:44Z",
+  "http_status": 200,
+  "content_sha256": "a912e5a39d0a8ef458cb911c544c1a274c08098b915d3e3f3974082f7fa961b0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a912e5a39d0a8ef458cb911c544c1a274c08098b915d3e3f3974082f7fa961b0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SUB%3A+Benchmarking+CBM+Generalization+via+Synthetic+Attribute+Substitutions%22",
+  "fetched_at": "2026-11-23T06:54:52Z",
+  "http_status": 200,
+  "content_sha256": "425cd927c37675e2fbb7ed391fb3d5d8c12c731d0f3e8fc13979968ab685bb54",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/425cd927c37675e2fbb7ed391fb3d5d8c12c731d0f3e8fc13979968ab685bb54.json.gz"
+}

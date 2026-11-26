@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22U-ViLAR%3A+Uncertainty-Aware+Visual+Localization+for+Autonomous+Driving+via+Differentiable+Association+and+Registration%22",
+  "fetched_at": "2026-11-23T06:54:59Z",
+  "http_status": 200,
+  "content_sha256": "0bc66430fbff8ca8f8ea835f2b831788ffa28db315e7b0aba2be1d9a4b76dfce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0bc66430fbff8ca8f8ea835f2b831788ffa28db315e7b0aba2be1d9a4b76dfce.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LLM-assisted+Entropy-based+Adaptive+Distillation+for+Unsupervised+Fine-grained+Visual+Representation+Learning%22",
+  "fetched_at": "2026-11-23T06:55:02Z",
+  "http_status": 200,
+  "content_sha256": "db0b4d0e997ea371233bedac503c80945681ed30566e41a86d2e239c47a701c8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/db0b4d0e997ea371233bedac503c80945681ed30566e41a86d2e239c47a701c8.json.gz"
+}

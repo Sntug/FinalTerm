@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Breaking+Rectangular+Shackles%3A+Cross-View+Object+Segmentation+for+Fine-Grained+Object+Geo-Localization%22",
+  "fetched_at": "2026-11-26T16:06:39Z",
+  "http_status": 200,
+  "content_sha256": "5d8dad89c89c418914c686ad3ad15e04ab8811b883ce5ad21c2ab02318080d66",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5d8dad89c89c418914c686ad3ad15e04ab8811b883ce5ad21c2ab02318080d66.json.gz"
+}

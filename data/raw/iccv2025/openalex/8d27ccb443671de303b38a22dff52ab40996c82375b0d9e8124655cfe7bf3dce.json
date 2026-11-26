@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SemTalk%3A+Holistic+Co-speech+Motion+Generation+with+Frame-level+Semantic+Emphasis%22",
+  "fetched_at": "2026-11-26T16:13:44Z",
+  "http_status": 200,
+  "content_sha256": "9f808bdf63768544d3011587fd98ca0eb7045ffc90ecd2db52cdd2f8880ac86c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9f808bdf63768544d3011587fd98ca0eb7045ffc90ecd2db52cdd2f8880ac86c.json.gz"
+}

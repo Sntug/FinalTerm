@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22R-LiViT%3A+A+LiDAR-Visual-Thermal+Dataset+Enabling+Vulnerable+Road+User+Focused+Roadside+Perception%22",
+  "fetched_at": "2026-11-26T16:04:41Z",
+  "http_status": 200,
+  "content_sha256": "4e6810792007e3534f6dde0e7a67aee4cfaf3c0b125c7a2440b5d098d816d513",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4e6810792007e3534f6dde0e7a67aee4cfaf3c0b125c7a2440b5d098d816d513.json.gz"
+}

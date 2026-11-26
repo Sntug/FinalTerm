@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DADM%3A+Dual+Alignment+of+Domain+and+Modality+for+Face+Anti-spoofing%22",
+  "fetched_at": "2026-11-26T16:11:00Z",
+  "http_status": 200,
+  "content_sha256": "fb2ad92d98524f55da5e5e15765799f91b5f807c2afb93b01935ca611b8e8f83",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/fb2ad92d98524f55da5e5e15765799f91b5f807c2afb93b01935ca611b8e8f83.json.gz"
+}

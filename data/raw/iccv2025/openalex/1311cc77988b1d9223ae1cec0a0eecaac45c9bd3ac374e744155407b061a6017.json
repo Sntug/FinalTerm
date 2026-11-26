@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FreeCus%3A+Free+Lunch+Subject-driven+Customization+in+Diffusion+Transformers%22",
+  "fetched_at": "2026-11-26T16:05:18Z",
+  "http_status": 200,
+  "content_sha256": "0e15235a58be19a03c655050eaf6bf050a16d48f608380feefd8b7d9438cbec4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0e15235a58be19a03c655050eaf6bf050a16d48f608380feefd8b7d9438cbec4.json.gz"
+}

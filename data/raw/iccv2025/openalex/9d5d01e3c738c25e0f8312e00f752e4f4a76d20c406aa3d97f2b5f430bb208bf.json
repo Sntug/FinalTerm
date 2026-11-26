@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hypergraph+Clustering+Network+with+Partial+Attribute+Imputation%22",
+  "fetched_at": "2026-11-26T16:05:35Z",
+  "http_status": 200,
+  "content_sha256": "959d4a2a60e41556bc5869c98253c0316175c2e70ca7ed776659197761e8da4b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/959d4a2a60e41556bc5869c98253c0316175c2e70ca7ed776659197761e8da4b.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VideoSetDiff%3A+Identifying+and+Reasoning+Similarities+and+Differences+in+Similar+Videos%22",
+  "fetched_at": "2026-11-26T16:07:46Z",
+  "http_status": 200,
+  "content_sha256": "88b8fe079586fcfa9392c1b87321357ec67ae661a73250850ddfc57bcf01a9ef",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/88b8fe079586fcfa9392c1b87321357ec67ae661a73250850ddfc57bcf01a9ef.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Knowledge+Transfer+from+Interaction+Learning%22",
+  "fetched_at": "2026-11-26T16:06:57Z",
+  "http_status": 200,
+  "content_sha256": "ff973c1b5f82df0df7a97da514accbdc930bdb7dc55e1fdbdbe62c4592d51add",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ff973c1b5f82df0df7a97da514accbdc930bdb7dc55e1fdbdbe62c4592d51add.json.gz"
+}

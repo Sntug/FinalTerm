@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dual-Process+Image+Generation%22",
+  "fetched_at": "2026-11-26T16:04:08Z",
+  "http_status": 200,
+  "content_sha256": "01cd50d078e476459203372ab4c1fcee35fdc70b7a6733b4bdddbb4e2da7734c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/01cd50d078e476459203372ab4c1fcee35fdc70b7a6733b4bdddbb4e2da7734c.json.gz"
+}

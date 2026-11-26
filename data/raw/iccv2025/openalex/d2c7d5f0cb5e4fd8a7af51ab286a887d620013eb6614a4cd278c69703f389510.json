@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Transformed+Low-rank+Adaptation+via+Tensor+Decomposition+and+Its+Applications+to+Text-to-image+Models%22",
+  "fetched_at": "2026-11-26T16:04:28Z",
+  "http_status": 200,
+  "content_sha256": "dd7d0d8bc589c99cb9f3b452c1311b020641946c80255180394fddcb84df17e8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/dd7d0d8bc589c99cb9f3b452c1311b020641946c80255180394fddcb84df17e8.json.gz"
+}

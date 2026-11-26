@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VSSD%3A+Vision+Mamba+with+Non-Causal+State+Space+Duality%22",
+  "fetched_at": "2026-11-26T16:13:26Z",
+  "http_status": 200,
+  "content_sha256": "b1569235b1c5ae99cb341b5650dbe5255c0f3cfbec8eb7c6445e099d268ce398",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b1569235b1c5ae99cb341b5650dbe5255c0f3cfbec8eb7c6445e099d268ce398.json.gz"
+}

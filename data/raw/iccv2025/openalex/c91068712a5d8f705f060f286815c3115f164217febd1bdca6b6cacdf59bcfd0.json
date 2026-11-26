@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Vision-Language+Neural+Graph+Featurization+for+Extracting+Retinal+Lesions%22",
+  "fetched_at": "2026-11-26T16:08:08Z",
+  "http_status": 200,
+  "content_sha256": "682928593493b5fd42aee3fa66b8c09a3d98706311f7a69ff1a60b8aefd01a2a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/682928593493b5fd42aee3fa66b8c09a3d98706311f7a69ff1a60b8aefd01a2a.json.gz"
+}

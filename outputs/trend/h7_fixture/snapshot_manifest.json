@@ -1,0 +1,58 @@
+{
+  "project_id": "mxh_cv_trend",
+  "schema_version": "2.0.0",
+  "code_version": "a4-nlp-1.0.0+b5-1.0.0+fixture",
+  "normalization_version": "nfc-ws-1",
+  "parser_versions": [
+    "spacy-3.8.18:blank-0.0.0:sentencizer-1"
+  ],
+  "rule_versions": {
+    "a4-task-title": "1.0.0",
+    "a4-task-current": "1.0.0",
+    "a4-dataset-evaluate": "1.0.0",
+    "a4-dataset-experiments": "1.0.0",
+    "b5-method-title": "1.0.0",
+    "b5-method-use": "1.0.0",
+    "b5-method-based": "1.0.0",
+    "a4-review": "1.0.0"
+  },
+  "dictionary_versions": {
+    "a4-cv": "a4-cv-1.0.0:f9a6fe7055cb60f05dc6273cf8c6e9b09f1c92f8b3ba1271b5a43e557c83a6d1",
+    "b5-method": "b5-method-1.0.0:3456e16e267aab8baee0953efe6eb27ccdf394d8c1acdbf8b63403a5b7f97ea5"
+  },
+  "applied_decision_ids": [],
+  "graph_ready": true,
+  "node_count": 60,
+  "edge_count": 696,
+  "files": [
+    {
+      "path": "outputs/trend/h7_fixture/edges.csv",
+      "sha256": "d4df48bfd1958d9157fbc8262c64bbb8003c36aeec1af1ad01057e30d67d8440",
+      "record_count": 696,
+      "role": "graph"
+    },
+    {
+      "path": "outputs/trend/h7_fixture/evidence.jsonl",
+      "sha256": "c6c1bff632d81a72b094f204e5df0e73ec13eb456d9649ab59ef560b01876a77",
+      "record_count": 3161,
+      "role": "graph"
+    },
+    {
+      "path": "outputs/trend/h7_fixture/needs_review.csv",
+      "sha256": "85c74f16a62a13292d6ccf7696e90835a20154cf44b70292787da02b815721fe",
+      "record_count": 2849,
+      "role": "review"
+    },
+    {
+      "path": "outputs/trend/h7_fixture/nodes.csv",
+      "sha256": "f908a2323f762031ba646d6ecb30135ab70530a677a1d79077adcb4be7767993",
+      "record_count": 60,
+      "role": "graph"
+    }
+  ],
+  "source_snapshot_id": "snapshot:v2:27efd37a9ceeb8d56c5f80c5c7fa8157564e94e0dde01f714e76351712afa913",
+  "created_at": "2026-11-26T16:15:25Z",
+  "model": "fixture:spacy-3.8.18:blank-0.0.0:sentencizer-1",
+  "fixture": true,
+  "snapshot_id": "snapshot:v2:2f6e4c6aecd533d9b84d9a5000ca53a9e9a5c6d29959473546a4e7bababd46ed"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MonoSOWA%3A+Scalable+Monocular+3D+Object+Detector+Without+Human+Annotations%22",
+  "fetched_at": "2026-11-26T16:09:30Z",
+  "http_status": 200,
+  "content_sha256": "90f6751ad7ab4530d9103348bfb3ec655b3916fec4d749a56bc6c07431c29a18",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/90f6751ad7ab4530d9103348bfb3ec655b3916fec4d749a56bc6c07431c29a18.json.gz"
+}

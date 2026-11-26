@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LGA-Net%3A+Learning+Local+and+Global+Affinities+for+Sparse+Scribble+based+Image+Colorization%22",
+  "fetched_at": "2026-11-26T16:11:59Z",
+  "http_status": 200,
+  "content_sha256": "67cfc11feb221aa287c2cc91ae85d65982f9bb8f9ac0c687d48655e4f71212ca",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/67cfc11feb221aa287c2cc91ae85d65982f9bb8f9ac0c687d48655e4f71212ca.json.gz"
+}

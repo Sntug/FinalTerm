@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Split-and-Combine%3A+Enhancing+Style+Augmentation+for+Single+Domain+Generalization%22",
+  "fetched_at": "2026-11-23T06:54:45Z",
+  "http_status": 200,
+  "content_sha256": "78bd80222dd06fa5dd9f8e6a3b5863bf2bc4256071aa4ba06284e3f3a8bf6eb5",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/78bd80222dd06fa5dd9f8e6a3b5863bf2bc4256071aa4ba06284e3f3a8bf6eb5.json.gz"
+}

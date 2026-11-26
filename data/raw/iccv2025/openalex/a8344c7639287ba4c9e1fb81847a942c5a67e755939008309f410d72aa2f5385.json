@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22XTrack%3A+Multimodal+Training+Boosts+RGB-X+Video+Object+Trackers%22",
+  "fetched_at": "2026-11-26T16:15:04Z",
+  "http_status": 200,
+  "content_sha256": "9763d16de5f739c9d7959c05b0e3a8cf37631ddffb959c901b014b0748d30301",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9763d16de5f739c9d7959c05b0e3a8cf37631ddffb959c901b014b0748d30301.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FALCON%3A+Resolving+Visual+Redundancy+and+Fragmentation+in+High-resolution+Multimodal+Large+Language+Models+via+Visual+Registers%22",
+  "fetched_at": "2026-11-23T06:55:07Z",
+  "http_status": 200,
+  "content_sha256": "abce11d16c14943e3e5190e877d5d351224e3b87f3f8bd3281c0539e5301935d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/abce11d16c14943e3e5190e877d5d351224e3b87f3f8bd3281c0539e5301935d.json.gz"
+}

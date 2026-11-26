@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Structure-aware+Semantic+Discrepancy+and+Consistency+for+3D+Medical+Image+Self-supervised+Learning%22",
+  "fetched_at": "2026-11-26T16:06:49Z",
+  "http_status": 200,
+  "content_sha256": "21eef581525bc91ee601a6cc0745046d887f5b9e1a3b8e37b8898ac35ec36705",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/21eef581525bc91ee601a6cc0745046d887f5b9e1a3b8e37b8898ac35ec36705.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Anchor+Token+Matching%3A+Implicit+Structure+Locking+for+Training-free+AR+Image+Editing%22",
+  "fetched_at": "2026-11-26T16:09:12Z",
+  "http_status": 200,
+  "content_sha256": "38a701f56b728e987a18f4e99145560cd74560be4b5b48d913b628c0a713e3bf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/38a701f56b728e987a18f4e99145560cd74560be4b5b48d913b628c0a713e3bf.json.gz"
+}

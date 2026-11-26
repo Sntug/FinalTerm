@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CoralSRT%3A+Revisiting+Coral+Reef+Semantic+Segmentation+by+Feature+Rectification+via+Self-supervised+Guidance%22",
+  "fetched_at": "2026-11-26T16:09:45Z",
+  "http_status": 200,
+  "content_sha256": "300fac6120a9c7981c5835e449cab3bde5df0362f50f45766b6a24505c5b026d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/300fac6120a9c7981c5835e449cab3bde5df0362f50f45766b6a24505c5b026d.json.gz"
+}

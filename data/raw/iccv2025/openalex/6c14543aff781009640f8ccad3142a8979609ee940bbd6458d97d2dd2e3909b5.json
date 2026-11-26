@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Flow4Agent%3A+Long-form+Video+Understanding+via+Motion+Prior+from+Optical+Flow%22",
+  "fetched_at": "2026-11-26T16:06:29Z",
+  "http_status": 200,
+  "content_sha256": "c157b3d97d9975b00a5390c0b22f0c5d315cd1d6f6b8ce19797468bce29486b2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c157b3d97d9975b00a5390c0b22f0c5d315cd1d6f6b8ce19797468bce29486b2.json.gz"
+}

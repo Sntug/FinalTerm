@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MA-CIR%3A+A+Multimodal+Arithmetic+Benchmark+for+Composed+Image+Retrieval%22",
+  "fetched_at": "2026-11-26T16:14:29Z",
+  "http_status": 200,
+  "content_sha256": "bd10b5c6c033d0a084815d61dbf0a333f04d2f4d90add28db2140682c0c89913",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/bd10b5c6c033d0a084815d61dbf0a333f04d2f4d90add28db2140682c0c89913.json.gz"
+}

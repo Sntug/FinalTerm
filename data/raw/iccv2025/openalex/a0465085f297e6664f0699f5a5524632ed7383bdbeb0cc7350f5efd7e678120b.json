@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MedSegFactory%3A+Text-Guided+Generation+of+Medical+Image-Mask+Pairs%22",
+  "fetched_at": "2026-11-26T16:10:43Z",
+  "http_status": 200,
+  "content_sha256": "67c24a6363ab4b924d094f170b6bee9b08f964e31a88603df891d354f95388e1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/67c24a6363ab4b924d094f170b6bee9b08f964e31a88603df891d354f95388e1.json.gz"
+}

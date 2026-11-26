@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Benchmarking+Multimodal+CoT+Reward+Model+Stepwise+by+Visual+Program%22",
+  "fetched_at": "2026-11-26T16:08:46Z",
+  "http_status": 200,
+  "content_sha256": "3d464985028010b88341f3b94b1083f8a6c1091117020d1d9f7474932df0b2d8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3d464985028010b88341f3b94b1083f8a6c1091117020d1d9f7474932df0b2d8.json.gz"
+}

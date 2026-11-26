@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:07:30+00:00",
+  "done_reason": "stop",
+  "key": "696e0fc991748f8ed73d7e907481bc1246452e9a67e9510de5ff9e4336c285d7",
+  "metrics": {
+    "eval_count": 55,
+    "eval_duration": 5499074000,
+    "load_duration": 1089417,
+    "prompt_eval_count": 471,
+    "total_duration": 8739836250
+  },
+  "model": "qwen3:8b",
+  "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\"learning from noisy labels\"],\n  \"methods\": [\"diffusion models\", \"directional label diffusion (DLD)\", \"low-cost label pre-correction\"],\n  \"datasets\": [\"simulated noisy datasets\", \"real-world noisy datasets\"]\n}"
+}

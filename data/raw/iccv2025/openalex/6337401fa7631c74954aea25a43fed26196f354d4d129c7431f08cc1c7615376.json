@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Teleportraits%3A+Training-Free+People+Insertion+into+Any+Scene%22",
+  "fetched_at": "2026-11-26T16:05:37Z",
+  "http_status": 200,
+  "content_sha256": "10d34eb21b3e64031e8168cf4b93697e7d06bee8e016a69a4e014fe64ced7938",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/10d34eb21b3e64031e8168cf4b93697e7d06bee8e016a69a4e014fe64ced7938.json.gz"
+}

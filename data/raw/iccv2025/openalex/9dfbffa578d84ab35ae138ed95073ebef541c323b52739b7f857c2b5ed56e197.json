@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=SL2A-INR%3A+Single-Layer+Learnable+Activation+for+Implicit+Neural+Representation",
+  "fetched_at": "2026-11-26T16:04:59Z",
+  "http_status": 200,
+  "content_sha256": "f8f9696f43504ff48c75bce2705e35bf56d45beaa9bbcb152384c8b9618056a2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f8f9696f43504ff48c75bce2705e35bf56d45beaa9bbcb152384c8b9618056a2.json.gz"
+}

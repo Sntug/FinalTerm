@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:11:48+00:00",
+  "done_reason": "stop",
+  "key": "1c29b6b2a05cd4b967ffb185bf226b03773c9854ee452d706cf5f8eeaecb5b2f",
+  "metrics": {
+    "eval_count": 66,
+    "eval_duration": 4040165000,
+    "load_duration": 495334,
+    "prompt_eval_count": 427,
+    "total_duration": 6061638542
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"sign language recognition\"\n  ],\n  \"methods\": [\n    \"P3D\",\n    \"part-wise encoding Transformer (PET)\",\n    \"whole-body encoding Transformer (WET)\",\n    \"pose ensemble\"\n  ],\n  \"datasets\": [\n    \"WLASL\"\n  ]\n}"
+}

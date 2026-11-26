@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CaliMatch%3A+Adaptive+Calibration+for+Improving+Safe+Semi-supervised+Learning%22",
+  "fetched_at": "2026-11-26T16:12:27Z",
+  "http_status": 200,
+  "content_sha256": "b7c967ac8ad49e4c935f3fa9b05778d903d378a63eaf0a5190cbca08ce30af9a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b7c967ac8ad49e4c935f3fa9b05778d903d378a63eaf0a5190cbca08ce30af9a.json.gz"
+}

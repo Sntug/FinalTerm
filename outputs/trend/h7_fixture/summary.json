@@ -1,0 +1,37 @@
+{
+  "papers_input": 1650,
+  "papers_processed": 1650,
+  "fields_processed": 3300,
+  "candidate_mentions": 3908,
+  "nodes": 60,
+  "edges": 696,
+  "evidence": 3161,
+  "accepted_evidence": 731,
+  "rejected": 914,
+  "review_open": 1935,
+  "counts_by_label": {
+    "Task": 14,
+    "Method": 30,
+    "Dataset": 16
+  },
+  "counts_by_type": {
+    "STUDIES_TASK": 204,
+    "USES_METHOD": 441,
+    "EVALUATED_ON": 51
+  },
+  "review_by_reason": {
+    "no_current_task_claim": 350,
+    "no_current_method_claim": 1437,
+    "no_current_evaluation_claim": 66,
+    "prior_work_or_baseline": 445,
+    "unmapped_dataset_version_or_subset": 56,
+    "negated_or_mixed_claim": 192,
+    "hypothetical_or_question": 89,
+    "ambiguous_alias_case": 24,
+    "application_example": 114,
+    "training_or_mixed_roles": 74,
+    "mixed_clause_roles": 2
+  },
+  "fixture": true,
+  "gold_papers_excluded": 100
+}

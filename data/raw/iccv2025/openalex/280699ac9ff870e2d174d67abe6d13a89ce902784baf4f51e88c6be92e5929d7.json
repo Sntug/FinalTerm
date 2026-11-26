@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SynTag%3A+Enhancing+the+Geometric+Robustness+of+Inversion-based+Generative+Image+Watermarking%22",
+  "fetched_at": "2026-11-26T16:04:37Z",
+  "http_status": 200,
+  "content_sha256": "262a651a908ca81371169c0e769609f0a51605c268aa57efd0f541a168fa6142",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/262a651a908ca81371169c0e769609f0a51605c268aa57efd0f541a168fa6142.json.gz"
+}

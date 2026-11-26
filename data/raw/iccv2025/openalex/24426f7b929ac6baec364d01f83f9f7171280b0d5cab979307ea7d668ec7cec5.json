@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EVER%3A+Exact+Volumetric+Ellipsoid+Rendering+for+Real-time+View+Synthesis%22",
+  "fetched_at": "2026-11-26T16:05:13Z",
+  "http_status": 200,
+  "content_sha256": "8edcdbc4aaba9c1822460c801222def2bff3f6f06d627bd49d44c65eea2ce467",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8edcdbc4aaba9c1822460c801222def2bff3f6f06d627bd49d44c65eea2ce467.json.gz"
+}

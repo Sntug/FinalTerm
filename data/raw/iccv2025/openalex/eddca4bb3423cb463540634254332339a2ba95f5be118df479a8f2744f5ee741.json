@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Disrupting+Model+Merging%3A+A+Parameter-Level+Defense+Without+Sacrificing+Accuracy%22",
+  "fetched_at": "2026-11-26T16:09:18Z",
+  "http_status": 200,
+  "content_sha256": "25f423878f8a423e995b2d190d2fe92af48a020b6bec8c6a96c01d3423514c95",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/25f423878f8a423e995b2d190d2fe92af48a020b6bec8c6a96c01d3423514c95.json.gz"
+}

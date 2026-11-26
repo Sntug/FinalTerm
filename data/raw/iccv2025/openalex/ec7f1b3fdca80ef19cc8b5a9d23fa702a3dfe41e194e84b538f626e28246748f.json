@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Unsupervised+Part+Discovery+via+Descriptor-Based+Masked+Image+Restoration+with+Optimized+Constraints%22",
+  "fetched_at": "2026-11-26T16:12:59Z",
+  "http_status": 200,
+  "content_sha256": "7e1e8e02014c6401655362aa153a02965affa086e752bc7b2fc3dfa0c43defff",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/7e1e8e02014c6401655362aa153a02965affa086e752bc7b2fc3dfa0c43defff.json.gz"
+}

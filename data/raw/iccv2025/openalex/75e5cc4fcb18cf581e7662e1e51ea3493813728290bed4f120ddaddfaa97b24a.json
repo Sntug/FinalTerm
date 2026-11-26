@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InfiniCube%3A+Unbounded+and+Controllable+Dynamic+3D+Driving+Scene+Generation+with+World-Guided+Video+Models%22",
+  "fetched_at": "2026-11-26T16:06:59Z",
+  "http_status": 200,
+  "content_sha256": "a508f70ec221148979ded468c3f5076cadcdc392e76e8cd15235275e78aba486",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a508f70ec221148979ded468c3f5076cadcdc392e76e8cd15235275e78aba486.json.gz"
+}

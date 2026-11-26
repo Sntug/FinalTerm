@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:12:04+00:00",
+  "done_reason": "stop",
+  "key": "41100f2d2529849ac9e2b8fefd2ddf97a9224f62f9cf62028014bc889dd0b7f0",
+  "metrics": {
+    "eval_count": 58,
+    "eval_duration": 3276295000,
+    "load_duration": 705458,
+    "prompt_eval_count": 329,
+    "total_duration": 4621854166
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"downstream recognition tasks\",\n    \"image inpainting\",\n    \"video classification\"\n  ],\n  \"methods\": [\n    \"diffusion models\",\n    \"masked autoencoders (DiffMAE)\"\n  ],\n  \"datasets\": []\n  }"
+}

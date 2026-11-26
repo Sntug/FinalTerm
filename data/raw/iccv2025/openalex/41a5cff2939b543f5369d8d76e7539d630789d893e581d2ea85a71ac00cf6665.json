@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DH-FaceVid-1K%3A+A+Large-Scale+High-Quality+Dataset+for+Face+Video+Generation%22",
+  "fetched_at": "2026-11-26T16:05:47Z",
+  "http_status": 200,
+  "content_sha256": "426108fef96b5ac552daaaa307fbbade38b7878a788807a087cd1f9c5895d3f3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/426108fef96b5ac552daaaa307fbbade38b7878a788807a087cd1f9c5895d3f3.json.gz"
+}

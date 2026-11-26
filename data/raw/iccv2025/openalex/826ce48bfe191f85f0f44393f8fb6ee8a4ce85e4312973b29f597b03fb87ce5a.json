@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Dark-ISP%3A+Enhancing+RAW+Image+Processing+for+Low-Light+Object+Detection%22",
+  "fetched_at": "2026-11-26T16:03:48Z",
+  "http_status": 200,
+  "content_sha256": "6151b6bc88cebb31736aa5a00cea4263e5c87f96ed8e4aca2bbdde3e9cc9df3b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/6151b6bc88cebb31736aa5a00cea4263e5c87f96ed8e4aca2bbdde3e9cc9df3b.json.gz"
+}

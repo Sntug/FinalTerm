@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22StableDepth%3A+Scene-Consistent+and+Scale-Invariant+Monocular+Depth%22",
+  "fetched_at": "2026-11-23T06:54:27Z",
+  "http_status": 200,
+  "content_sha256": "4131d9d760b5db6a2e437602d77a494dc700b4a9f7cbac344ac7c25b19067419",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4131d9d760b5db6a2e437602d77a494dc700b4a9f7cbac344ac7c25b19067419.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ReassembleNet%3A+Learnable+Keypoints+and+Diffusion+for+2D+Fresco+Reconstruction%22",
+  "fetched_at": "2026-11-26T16:09:55Z",
+  "http_status": 200,
+  "content_sha256": "78a49703a7917244e4cee07dfab0919817b97ad413ff3d6fb6e01817ba53d3b6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/78a49703a7917244e4cee07dfab0919817b97ad413ff3d6fb6e01817ba53d3b6.json.gz"
+}

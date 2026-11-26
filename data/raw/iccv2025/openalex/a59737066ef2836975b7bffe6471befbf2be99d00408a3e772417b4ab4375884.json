@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EquiCaps%3A+Predictor-Free+Pose-Aware+Pre-Trained+Capsule+Networks%22",
+  "fetched_at": "2026-11-23T06:54:33Z",
+  "http_status": 200,
+  "content_sha256": "88c790d2a4edb28a2ac3a85fb7a07b8d6e57f341c54d1d6ac3021d4404081114",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/88c790d2a4edb28a2ac3a85fb7a07b8d6e57f341c54d1d6ac3021d4404081114.json.gz"
+}

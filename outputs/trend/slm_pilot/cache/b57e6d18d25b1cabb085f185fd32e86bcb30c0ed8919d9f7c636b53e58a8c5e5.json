@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:10:24+00:00",
+  "done_reason": "stop",
+  "key": "b57e6d18d25b1cabb085f185fd32e86bcb30c0ed8919d9f7c636b53e58a8c5e5",
+  "metrics": {
+    "eval_count": 69,
+    "eval_duration": 4043418000,
+    "load_duration": 518083,
+    "prompt_eval_count": 404,
+    "total_duration": 6046242583
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"6D pose estimation of unseen objects\"\n  ],\n  \"methods\": [\n    \"RefPose\",\n    \"object templates\",\n    \"render-and-compare approach\",\n    \"correlation volume-guided attention mechanism\"\n  ],\n  \"datasets\": [\n    \"BOP benchmark datasets\"\n  ]\n}"
+}

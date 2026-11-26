@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SpecGuard%3A+Spectral+Projection-based+Advanced+Invisible+Watermarking%22",
+  "fetched_at": "2026-11-26T16:10:16Z",
+  "http_status": 200,
+  "content_sha256": "ed5774524ecb1e104b2c0967627d9dbb52ea68c12f18024ee53a43c939489e5a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ed5774524ecb1e104b2c0967627d9dbb52ea68c12f18024ee53a43c939489e5a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LVFace%3A+Progressive+Cluster+Optimization+for+Large+Vision+Models+in+Face+Recognition%22",
+  "fetched_at": "2026-11-26T16:07:05Z",
+  "http_status": 200,
+  "content_sha256": "3439718312f05c89e7225b44f364b4ed455d4193ba2db4039c5cd2d77a904d9e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3439718312f05c89e7225b44f364b4ed455d4193ba2db4039c5cd2d77a904d9e.json.gz"
+}

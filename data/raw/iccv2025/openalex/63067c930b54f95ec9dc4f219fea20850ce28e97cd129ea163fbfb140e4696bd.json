@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MAESTRO%3A+Task-Relevant+Optimization+via+Adaptive+Feature+Enhancement+and+Suppression+for+Multi-task+3D+Perception%22",
+  "fetched_at": "2026-11-26T16:09:14Z",
+  "http_status": 200,
+  "content_sha256": "a8d24b87ac30966cc9e1845af6528f41b374f5a203d897065b3d5c81c22bca61",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a8d24b87ac30966cc9e1845af6528f41b374f5a203d897065b3d5c81c22bca61.json.gz"
+}

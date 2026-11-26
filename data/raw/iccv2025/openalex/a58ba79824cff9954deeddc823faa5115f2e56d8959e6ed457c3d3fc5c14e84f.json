@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DAViD%3A+Data-efficient+and+Accurate+Vision+Models+from+Synthetic+Data%22",
+  "fetched_at": "2026-11-26T16:07:13Z",
+  "http_status": 200,
+  "content_sha256": "77eb992c6f5137a1d8b8d5c327120498e4625c0655707da4acb95f6db6266e8b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/77eb992c6f5137a1d8b8d5c327120498e4625c0655707da4acb95f6db6266e8b.json.gz"
+}

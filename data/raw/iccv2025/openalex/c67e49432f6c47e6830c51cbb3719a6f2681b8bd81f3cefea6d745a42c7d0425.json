@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MetaScope%3A+Optics-Driven+Neural+Network+for+Ultra-Micro+Metalens+Endoscopy%22",
+  "fetched_at": "2026-11-26T16:11:54Z",
+  "http_status": 200,
+  "content_sha256": "20fb7b71985866dfdc20c7a1d443dcbc991b5f4626af476d425e7b9cf4ff8611",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/20fb7b71985866dfdc20c7a1d443dcbc991b5f4626af476d425e7b9cf4ff8611.json.gz"
+}

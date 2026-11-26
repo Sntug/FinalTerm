@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CATSplat%3A+Context-Aware+Transformer+with+Spatial+Guidance+for+Generalizable+3D+Gaussian+Splatting+from+A+Single-View+Image%22",
+  "fetched_at": "2026-11-26T16:07:40Z",
+  "http_status": 200,
+  "content_sha256": "38c05456ea6568bc9c010e02151597422af20964ed68e444d250e186040fe1a6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/38c05456ea6568bc9c010e02151597422af20964ed68e444d250e186040fe1a6.json.gz"
+}

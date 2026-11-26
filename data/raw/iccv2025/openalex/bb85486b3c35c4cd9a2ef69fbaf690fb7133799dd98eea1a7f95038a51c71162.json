@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adversarial+Robustness+of+Discriminative+Self-Supervised+Learning+in+Vision%22",
+  "fetched_at": "2026-11-26T16:05:24Z",
+  "http_status": 200,
+  "content_sha256": "90e7a90717891bb641f2c81697a0a8c875d290580ee0c252356a15c0fff3d46a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/90e7a90717891bb641f2c81697a0a8c875d290580ee0c252356a15c0fff3d46a.json.gz"
+}

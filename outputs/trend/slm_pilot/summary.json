@@ -1,0 +1,137 @@
+{
+  "decision": {
+    "model": "qwen3:8b",
+    "rule": {
+      "max_hours_for_all_papers": 8,
+      "min_valid_json_rate": 0.95,
+      "papers_total": 1750
+    }
+  },
+  "gold_set_overlap": 0,
+  "last_run": {
+    "cache_hits": 40,
+    "calls": 40
+  },
+  "machine": {
+    "cpu": "Apple M1",
+    "ram_gb": 16
+  },
+  "models": {
+    "qwen3:4b": {
+      "digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+      "hours_for_1750_papers": 3.14,
+      "max_load_average": 6.9,
+      "max_load_seconds": 2.84,
+      "mean_seconds_per_paper": 6.45,
+      "ollama_loaded_gb": 2.96,
+      "papers": 20,
+      "peak_ram_rss_gb": 4.35,
+      "tokens_per_second": 16.3,
+      "valid_json": 20,
+      "valid_json_rate": 1.0
+    },
+    "qwen3:8b": {
+      "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+      "hours_for_1750_papers": 4.52,
+      "max_load_average": 10.9,
+      "max_load_seconds": 4.31,
+      "mean_seconds_per_paper": 9.29,
+      "ollama_loaded_gb": 4.73,
+      "papers": 20,
+      "peak_ram_rss_gb": 5.88,
+      "tokens_per_second": 10.37,
+      "valid_json": 20,
+      "valid_json_rate": 1.0
+    }
+  },
+  "papers": [
+    {
+      "paper_id": "cvf:CVPR2025:Shi_Dissecting_and_Mitigating_Diffusion_Bias_via_Mechanistic_Interpretability_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Zha_Language-Guided_Image_Tokenization_for_Generation_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Gao_Unified_Reconstruction_of_Static_and_Dynamic_Scenes_from_Events_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Kim_RefPose_Leveraging_Reference_Geometric_Correspondences_for_Accurate_6D_Pose_Estimation_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Hou_Directional_Label_Diffusion_Model_for_Learning_from_Noisy_Labels_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Li_Enhancing_Adversarial_Transferability_with_Checkpoints_of_a_Single_Models_Training_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2025:Zhang_Fitted_Neural_Lossless_Image_Compression_CVPR_2025",
+      "venue_edition": "CVPR2025"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Xu_TAG-MoE_Task-Aware_Gating_for_Unified_Generative_Mixture-of-Experts_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Liu_ESAM_Efficient_Online_3D_Perception_on_the_Edge_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Hui_VSRELL_A_Simple_Baseline_for_Video_Super-Resolution_and_Enhancement_in_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Gao_EV-CGNet_Co-visible_Focused_3D-guided_2D_Event_Keypoint_Detection_Network_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Park_Progress_by_Pieces_Test-Time_Scaling_for_Autoregressive_Image_Generation_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Kawamura_PowerCLIP_Powerset_Alignment_for_Contrastive_Pre-Training_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:CVPR2026:Zheng_Seeing_Beyond_Extrapolative_Domain_Adaptive_Panoramic_Segmentation_CVPR_2026",
+      "venue_edition": "CVPR2026"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Zhang_Towards_Fairness-aware_Adversarial_Network_Pruning_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Lee_Human_Part-wise_3D_Motion_Context_Learning_for_Sign_Language_Recognition_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Wei_Improving_Continuous_Sign_Language_Recognition_with_Cross-Lingual_Signs_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Wang_Manipulate_by_Seeing_Creating_Manipulation_Controllers_from_Pre-Trained_Representations_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Wei_Diffusion_Models_as_Masked_Autoencoders_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    },
+    {
+      "paper_id": "cvf:ICCV2023:Zeng_MPCViT_Searching_for_Accurate_and_Efficient_MPC-Friendly_Vision_Transformer_with_ICCV_2023",
+      "venue_edition": "ICCV2023"
+    }
+  ],
+  "parameters": {
+    "num_ctx": 4096,
+    "num_predict": 1024,
+    "seed": 20261103,
+    "temperature": 0,
+    "think": false
+  },
+  "prompt_template_sha256": "d6e8f322f34fb6f7df4fe94bdf2251b327b8e0d93eb0322b3cf2c5cfd96d53c2"
+}

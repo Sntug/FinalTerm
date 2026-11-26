@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RCTDistill%3A+Cross-Modal+Knowledge+Distillation+Framework+for+Radar-Camera+3D+Object+Detection+with+Temporal+Fusion%22",
+  "fetched_at": "2026-11-26T16:09:51Z",
+  "http_status": 200,
+  "content_sha256": "e42df5b3578d8449c3e098ffcb6ee7310ed137c995c58fa4eab7b80aed7d9674",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e42df5b3578d8449c3e098ffcb6ee7310ed137c995c58fa4eab7b80aed7d9674.json.gz"
+}

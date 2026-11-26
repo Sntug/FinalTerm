@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hierarchical+Divide-and-Conquer+Grouping+for+Classification+Adaptation+of+Pre-Trained+Models%22",
+  "fetched_at": "2026-11-26T16:11:16Z",
+  "http_status": 200,
+  "content_sha256": "89fc3c93b8be55293f7f063a0ce3b4f63fee80e2d0e554d0b879b9a945c9f467",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/89fc3c93b8be55293f7f063a0ce3b4f63fee80e2d0e554d0b879b9a945c9f467.json.gz"
+}

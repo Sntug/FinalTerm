@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Variance-Based+Pruning+for+Accelerating+and+Compressing+Trained+Networks%22",
+  "fetched_at": "2026-11-26T16:07:03Z",
+  "http_status": 200,
+  "content_sha256": "c63fee8976f0f8ca8320bc24462f124efbf5cbfd829d6f8f3ab4a6bdcda85719",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c63fee8976f0f8ca8320bc24462f124efbf5cbfd829d6f8f3ab4a6bdcda85719.json.gz"
+}

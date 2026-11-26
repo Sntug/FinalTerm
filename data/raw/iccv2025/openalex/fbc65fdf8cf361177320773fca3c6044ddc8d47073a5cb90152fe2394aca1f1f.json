@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Rethinking+Discrete+Tokens%3A+Treating+Them+as+Conditions+for+Continuous+Autoregressive+Image+Synthesis%22",
+  "fetched_at": "2026-11-26T16:04:06Z",
+  "http_status": 200,
+  "content_sha256": "c68a36e5cc69a74042e050a2b6b3e9b62247ed54c78088f433f0737d3070004c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c68a36e5cc69a74042e050a2b6b3e9b62247ed54c78088f433f0737d3070004c.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MagicCity%3A+Geometry-Aware+3D+City+Generation+from+Satellite+Imagery+with+Multi-View+Consistency%22",
+  "fetched_at": "2026-11-23T06:54:22Z",
+  "http_status": 200,
+  "content_sha256": "085c2b9a4ec65e924672e0efc7b3f1eaac2c3a524d9139cd9ed9f87a35730ebf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/085c2b9a4ec65e924672e0efc7b3f1eaac2c3a524d9139cd9ed9f87a35730ebf.json.gz"
+}

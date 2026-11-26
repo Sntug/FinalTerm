@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adaptive+Caching+for+Faster+Video+Generation+with+Diffusion+Transformers%22",
+  "fetched_at": "2026-11-26T16:12:49Z",
+  "http_status": 200,
+  "content_sha256": "f2f411cfed202fad230dd692db3a7f126738c9972b3c9efc6d391c6697159d99",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f2f411cfed202fad230dd692db3a7f126738c9972b3c9efc6d391c6697159d99.json.gz"
+}

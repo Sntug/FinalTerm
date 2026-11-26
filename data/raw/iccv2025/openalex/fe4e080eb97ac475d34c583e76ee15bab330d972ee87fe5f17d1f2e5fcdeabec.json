@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MinCD-PnP%3A+Learning+2D-3D+Correspondences+with+Approximate+Blind+PnP%22",
+  "fetched_at": "2026-11-26T16:12:41Z",
+  "http_status": 200,
+  "content_sha256": "99353bd6a43923a5660116d299134c3effc7fbe2625c93a5fc5e28400d6173e6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/99353bd6a43923a5660116d299134c3effc7fbe2625c93a5fc5e28400d6173e6.json.gz"
+}

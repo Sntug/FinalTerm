@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Depth+Any+Event+Stream%3A+Enhancing+Event-based+Monocular+Depth+Estimation+via+Dense-to-Sparse+Distillation%22",
+  "fetched_at": "2026-11-26T16:07:07Z",
+  "http_status": 200,
+  "content_sha256": "033c561e3f3c30d519fa5bc0ada27fc75522432cd27ef63a78ea8a3621e914e9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/033c561e3f3c30d519fa5bc0ada27fc75522432cd27ef63a78ea8a3621e914e9.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ROADWork%3A+A+Dataset+and+Benchmark+for+Learning+to+Recognize%2C+Observe%2C+Analyze+and+Drive+Through+Work+Zones%22",
+  "fetched_at": "2026-11-26T16:06:08Z",
+  "http_status": 200,
+  "content_sha256": "5387266a09bcdfa9dfc116e7e040095a3c289a145614d994825d9c816c6af1a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5387266a09bcdfa9dfc116e7e040095a3c289a145614d994825d9c816c6af1a4.json.gz"
+}

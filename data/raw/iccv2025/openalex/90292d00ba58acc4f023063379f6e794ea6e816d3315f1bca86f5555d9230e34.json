@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FreeSplatter%3A+Pose-free+Gaussian+Splatting+for+Sparse-view+3D+Reconstruction%22",
+  "fetched_at": "2026-11-23T06:54:30Z",
+  "http_status": 200,
+  "content_sha256": "e743bfe2bc909552214b959757537ab54eb1f0492a90366cf801e0fe4eaab322",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e743bfe2bc909552214b959757537ab54eb1f0492a90366cf801e0fe4eaab322.json.gz"
+}

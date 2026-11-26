@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LUT-Fuse%3A+Towards+Extremely+Fast+Infrared+and+Visible+Image+Fusion+via+Distillation+to+Learnable+Look-Up+Tables%22",
+  "fetched_at": "2026-11-26T16:13:28Z",
+  "http_status": 200,
+  "content_sha256": "221ee8deb09b176b30eb1abe067c0cbb01187cfc46296f0ea5b77f69982d60b6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/221ee8deb09b176b30eb1abe067c0cbb01187cfc46296f0ea5b77f69982d60b6.json.gz"
+}

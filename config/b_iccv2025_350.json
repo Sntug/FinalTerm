@@ -1,0 +1,23 @@
+{
+  "schema_version": "2.0.0",
+  "owner": "B",
+  "conference": "ICCV",
+  "conference_year": 2025,
+  "seed": 20261103,
+  "target_count": 350,
+  "listing_url": "https://openaccess.thecvf.com/ICCV2025?day=all",
+  "selection_file": "config/b_iccv2025_350_selection.json",
+  "registry_input": "data/processed/iccv2025/input_registry.csv",
+  "contract_dir": "config/contracts/v2",
+  "raw_dir": "data/raw/iccv2025",
+  "checkpoint_file": "data/raw/iccv2025/checkpoints/collect_350.json",
+  "processed_dir": "data/processed/iccv2025",
+  "output_dir": "outputs/b_iccv2025",
+  "batch_size": 25,
+  "delay_seconds": 1.0,
+  "retries": 2,
+  "timeout_seconds": 30,
+  "openalex_delay_seconds": 1.0,
+  "max_retry_wait_seconds": 30,
+  "openalex_enabled": true
+}

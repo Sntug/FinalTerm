@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DEPTHOR%3A+Depth+Enhancement+from+a+Practical+Light-Weight+dToF+Sensor+and+RGB+Image%22",
+  "fetched_at": "2026-11-26T16:14:23Z",
+  "http_status": 200,
+  "content_sha256": "91ca61d68f85d77da22e1d6b92e5bc555ef2bbfb83f2e0eb86f6a4a421837ba4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/91ca61d68f85d77da22e1d6b92e5bc555ef2bbfb83f2e0eb86f6a4a421837ba4.json.gz"
+}

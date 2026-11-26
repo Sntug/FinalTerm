@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Beyond+Label+Semantics%3A+Language-Guided+Action+Anatomy+for+Few-shot+Action+Recognition%22",
+  "fetched_at": "2026-11-26T16:06:50Z",
+  "http_status": 200,
+  "content_sha256": "7d2df88cb346c24131e79296690a9a524af8e4367e3dd092e1376e928bc18e7e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/7d2df88cb346c24131e79296690a9a524af8e4367e3dd092e1376e928bc18e7e.json.gz"
+}

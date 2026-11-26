@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ViCTr%3A+Vital+Consistency+Transfer+for+Pathology+Aware+Image+Synthesis%22",
+  "fetched_at": "2026-11-26T16:07:30Z",
+  "http_status": 200,
+  "content_sha256": "ffdd62006b853b20ea47bf73efa8ac42614fc9f415b2015d11c352778a298a34",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ffdd62006b853b20ea47bf73efa8ac42614fc9f415b2015d11c352778a298a34.json.gz"
+}

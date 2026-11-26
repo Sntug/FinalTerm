@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UniGS%3A+Modeling+Unitary+3D+Gaussians+for+Novel+View+Synthesis+from+Sparse-view+Images%22",
+  "fetched_at": "2026-11-26T16:14:04Z",
+  "http_status": 200,
+  "content_sha256": "d73ef103ec91054d5030fef2a50ca9f59064e0ca5eb9884795eefd5860955141",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d73ef103ec91054d5030fef2a50ca9f59064e0ca5eb9884795eefd5860955141.json.gz"
+}

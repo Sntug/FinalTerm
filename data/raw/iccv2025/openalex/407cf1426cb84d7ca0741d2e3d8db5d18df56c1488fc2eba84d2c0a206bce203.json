@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GaussianReg%3A+Rapid+2D%2F3D+Registration+for+Emergency+Surgery+via+Explicit+3D+Modeling+with+Gaussian+Primitives%22",
+  "fetched_at": "2026-11-26T16:06:04Z",
+  "http_status": 200,
+  "content_sha256": "9c1a1bdea79c3e5c069db7d7d30c96062ea0b927c4c3e503fe755528c1d5be80",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9c1a1bdea79c3e5c069db7d7d30c96062ea0b927c4c3e503fe755528c1d5be80.json.gz"
+}

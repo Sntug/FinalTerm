@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Few-Shot+Pattern+Detection+via+Template+Matching+and+Regression%22",
+  "fetched_at": "2026-11-26T16:09:26Z",
+  "http_status": 200,
+  "content_sha256": "004ee8441362e27f0d5b9b3692bdf250cb1d12a96020333cb7dbf420713dae45",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/004ee8441362e27f0d5b9b3692bdf250cb1d12a96020333cb7dbf420713dae45.json.gz"
+}

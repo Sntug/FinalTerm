@@ -1,0 +1,18 @@
+{
+  "input_dir": "data/processed/mxh_cv_700/a8/graph",
+  "output_dir": "outputs/trend/embed",
+  "node_labels": ["Paper", "Author", "Task", "Method", "Dataset"],
+  "topic_labels": ["Task", "Method", "Dataset"],
+  "edge_types": ["AUTHORED", "STUDIES_TASK", "USES_METHOD", "EVALUATED_ON"],
+  "parameter_source": "FastRP, Chen et al., CIKM 2019, arXiv:1908.11512: N_i = A N_{i-1}, A = D^-1 S, N_1 = A L R, L_jj = (d_j/2m)^beta, R very sparse with s = sqrt(n), alpha_1 = alpha_2 = 0, alpha_3 = 1, alpha_4 searched in [2^-3, 2^6], beta searched in [-1, 0]. alpha_4 = 1 and beta = -0.5 are untuned values inside the search ranges. The paper uses d = 512; d = 8192 is used here because top-k neighbours on this small graph change too much between seeds at 512.",
+  "stability_source": "On the A8 graph (56 topics) the median exact rank-5 cosine is about 0.006 while the between-seed standard deviation of one run at d = 8192 is about 0.010, so ranks 3-5 were noise and top-5 sets of two seeds overlapped about 50%. Changing beta or the iteration weights did not help. Cosine is therefore averaged over seed_count consecutive seeds (standard deviation about 0.004) and neighbours below min_cosine (about 5 standard deviations) are not listed, so a topic can have fewer than top_k neighbours or none.",
+  "seed": 42,
+  "seed_count": 8,
+  "dimension": 8192,
+  "iteration_weights": [0.0, 0.0, 1.0, 1.0],
+  "normalization_beta": -0.5,
+  "top_k": 5,
+  "min_cosine": 0.02,
+  "umap_neighbors": 15,
+  "umap_min_dist": 0.1
+}

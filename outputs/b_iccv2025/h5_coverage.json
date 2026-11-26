@@ -1,0 +1,46 @@
+{
+  "manifest": "data/processed/iccv2025/h5/snapshot_manifest.json",
+  "selection_snapshot_id": "selection:94da034486e6d9d6aca263edcc6c15dccb91d9f87183595734e53cac05df5048",
+  "verified_locked_papers": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "abstract": {
+    "numerator": 350,
+    "denominator": 350,
+    "percent": 100.0
+  },
+  "papers_with_verified_affiliation": {
+    "numerator": 327,
+    "denominator": 350,
+    "percent": 93.43
+  },
+  "authorships_with_verified_affiliation": {
+    "numerator": 1539,
+    "denominator": 2019,
+    "percent": 76.23
+  },
+  "openalex_status_counts": {
+    "matched": 335,
+    "needs_review": 15
+  },
+  "verification": {
+    "passed": true,
+    "snapshot_id": "snapshot:v2:14f0dc76734e3132751de5e179747c10e321f285bef12d82ed0bc73464b81141",
+    "tables_checked": 12,
+    "records_checked": 28966,
+    "raw_sources_checked": 1039,
+    "deterministic_replay": true,
+    "graph_ready": false
+  },
+  "needs_review": {
+    "rows": 494,
+    "papers": 202,
+    "by_entity": {
+      "Author": 397,
+      "Institution": 82,
+      "Paper": 15
+    }
+  }
+}
