@@ -42,3 +42,4 @@
 /data/processed/cvpr2026/snapshots/** -text
 /data/processed/cvpr2026/h5/** -text
 /outputs/trend/quality/cvpr2026_*.json text eol=lf
+/data/gold/gold_set.csv text eol=lf

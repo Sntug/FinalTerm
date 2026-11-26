@@ -18,6 +18,19 @@ py -3.12 -B -m unittest src.collect.test_trend_selection
 
 **CVPR 2026.** Cùng seed và quy tắc trên, khóa 350/4.042 ứng viên main track. H4 dùng [registry theo thứ hạng](../data/processed/cvpr2026/input_registry.csv). [Lock](../config/a_cvpr2026_350_selection.json) lưu hash của listing và registry. Pilot metadata ở phần H5 đo độ phủ trên 20 bài đầu tiên.
 
+## Tạo và kiểm tập gold (H4)
+
+Từ gốc repo, dùng lệnh đầu để sinh CSV, lệnh sau để đối chiếu từng byte mà không ghi file.
+
+```powershell
+py -3.12 -B -m src.gold
+py -3.12 -B -m src.gold --check
+```
+
+Script chỉ đọc cấu hình H1 và năm lock H3, dùng bản `trend` cho ICCV 2023. Mỗi kỳ có 350 ID. Sau khi kiểm hash danh sách trong lock, script xếp ID tăng dần theo SHA-256 của UTF-8 `H4\n20261103\n<paper_id>` (hai dấu `\n` là ký tự xuống dòng), hòa thì xét ID. Lấy 5 ID đầu làm dev, 15 ID kế làm test. Trong [gold_set.csv](../data/gold/gold_set.csv), `selection_rank` là thứ hạng gốc trong H3 và `source_snapshot_id` xác định lock nguồn. Chạy lại gặp CSV khác byte sẽ báo lỗi.
+
+A và B cùng duyệt danh sách 100/1.750 ID. Loại cả 100 ID khỏi pilot SLM, few-shot và khai thác ứng viên từ điển. Hai người gán nhãn dev độc lập, chỉ mở abstract test sau khi đóng băng từ điển, prompt và cấu hình. Nếu nhóm bỏ một kỳ, bỏ đúng 20 ID của kỳ đó theo PLAN.
+
 ## Metadata CVPR 2025 và 2026 (H5)
 
 Chạy từ gốc repo với Python 3.12. Replay dùng các phản hồi CVF và OpenAlex đã lưu. Để thu lần đầu, bỏ `--offline` ở lệnh collector và cấu hình `OPENALEX_API_KEY` trong môi trường hoặc file `.env` local.

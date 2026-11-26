@@ -2,7 +2,7 @@
 
 | Mục | Giá trị |
 |---|---|
-| Phiên bản | 1.2 (chờ A duyệt) |
+| Phiên bản | 1.2 |
 | Ngày | 23/11/2026 (v1.0: 20/11, v1.1: 21/11) |
 | Thay đổi 1.1 | Tách H10a/H10b theo phụ thuộc vào H9; ghi rõ các file của H7 và ba điều kiện khóa H8; gán nhãn test chỉ sau khi đóng băng, loại bài gold khỏi pilot và few-shot, số bài gold thay đổi theo số kỳ giữ lại; thêm cổng so sánh; embedding lõi chỉ gồm chủ đề tương tự; GraphRAG có ý định xu hướng, Q1b nhận `$author_ids` |
 | Thay đổi 1.2 | Chốt SLM `qwen3:8b` (tắt thinking), dự phòng `qwen3:4b`; pilot SLM chỉ xác nhận tốc độ/RAM/% JSON |
