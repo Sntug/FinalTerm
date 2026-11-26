@@ -31,6 +31,25 @@ Script chỉ đọc cấu hình H1 và năm lock H3, dùng bản `trend` cho ICC
 
 A và B cùng duyệt danh sách 100/1.750 ID. Loại cả 100 ID khỏi pilot SLM, few-shot và khai thác ứng viên từ điển. Hai người gán nhãn dev độc lập, chỉ mở abstract test sau khi đóng băng từ điển, prompt và cấu hình. Nếu nhóm bỏ một kỳ, bỏ đúng 20 ID của kỳ đó theo PLAN.
 
+## Chuẩn bị abstract cho H7
+
+Chạy từ gốc repo. Chọn `dev` để chuẩn bị abstract cho hai người gán nhãn độc lập. Chọn `candidates` để lấy văn bản ngoài toàn bộ tập gold cho bước đề xuất khái niệm.
+
+```powershell
+py -3.12 -B -m src.nlp.h7_inputs --edition CVPR2025 --manifest data/processed/cvpr2025/h5/snapshot_manifest.json --group dev
+py -3.12 -B -m src.nlp.h7_inputs --edition CVPR2025 --manifest data/processed/cvpr2025/h5/snapshot_manifest.json --group candidates
+```
+
+| Kỳ | Thư mục chứa `snapshot_manifest.json` | Abstract dev / ID dev |
+|---|---|---:|
+| CVPR2024 | `data/processed/cvpr2024/a5_350` | 5/5 |
+| CVPR2025 | `data/processed/cvpr2025/h5` | 5/5 |
+| CVPR2026 | `data/processed/cvpr2026/h5` | 5/5 |
+| ICCV2023 | `data/processed/iccv2023/trend/h5` | 5/5 |
+| ICCV2025 | Chờ manifest H5 | 0/5 |
+
+Đầu ra ở `outputs/trend/nlp/inputs/<kỳ>_<nhóm>.jsonl`. Mỗi dòng gồm ID bài, văn bản chuẩn hóa, `text_version_id`, nguồn CVF, hash H4 và ID snapshot. Script kiểm lại H4, đối chiếu registry với H3 và lọc ID trước khi mở HTML của từng bài. Bài ngoài phạm vi core/main, chưa xác minh hoặc thiếu provenance abstract được bỏ qua. Nguồn abstract ngoài CVF hoặc hash sai sẽ báo lỗi. Khi gán nhãn dev, tính offset trên trường `normalized_text`. Manifest NLP cuối được tạo ở bước sau khi đã duyệt và đóng băng cấu hình.
+
 ## Metadata CVPR 2025 và 2026 (H5)
 
 Chạy từ gốc repo với Python 3.12. Replay dùng các phản hồi CVF và OpenAlex đã lưu. Để thu lần đầu, bỏ `--offline` ở lệnh collector và cấu hình `OPENALEX_API_KEY` trong môi trường hoặc file `.env` local.
