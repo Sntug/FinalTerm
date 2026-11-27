@@ -1,0 +1,5 @@
+{
+  "graph_config": "config/trend_graph.json",
+  "dictionary": "config/a_trend_dictionary_v3.json",
+  "model": "blank"
+}
