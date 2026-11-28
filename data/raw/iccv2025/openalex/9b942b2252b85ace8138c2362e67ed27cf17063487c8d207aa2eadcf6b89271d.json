@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Diffusion+Guided+Adaptive+Augmentation+for+Generalization+in+Visual+Reinforcement+Learning%22",
+  "fetched_at": "2026-11-26T16:05:33Z",
+  "http_status": 200,
+  "content_sha256": "539938108e347076eb77addb7344a00288d3dd5d985f8a24d9cb8f8e7e7e6e0b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/539938108e347076eb77addb7344a00288d3dd5d985f8a24d9cb8f8e7e7e6e0b.json.gz"
+}

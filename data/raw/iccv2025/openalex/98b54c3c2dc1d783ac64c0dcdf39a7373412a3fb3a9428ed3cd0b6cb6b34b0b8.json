@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MCAM%3A+Multimodal+Causal+Analysis+Model+for+Ego-Vehicle-Level+Driving+Video+Understanding%22",
+  "fetched_at": "2026-11-26T16:04:43Z",
+  "http_status": 200,
+  "content_sha256": "401a6bba2c1193ee53b2887c14434744fb26e3b3e8400344cc4cdc953013c2c2",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/401a6bba2c1193ee53b2887c14434744fb26e3b3e8400344cc4cdc953013c2c2.json.gz"
+}

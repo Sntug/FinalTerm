@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CoStoDet-DDPM%3A+Collaborative+Training+of+Stochastic+and+Deterministic+Models+Improves+Surgical+Workflow+Anticipation+and+Recognition%22",
+  "fetched_at": "2026-11-26T16:10:37Z",
+  "http_status": 200,
+  "content_sha256": "9a8429c343893629efa82d03e2dddc3a06b7d12a4b500c67008a987bf2bc524d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9a8429c343893629efa82d03e2dddc3a06b7d12a4b500c67008a987bf2bc524d.json.gz"
+}

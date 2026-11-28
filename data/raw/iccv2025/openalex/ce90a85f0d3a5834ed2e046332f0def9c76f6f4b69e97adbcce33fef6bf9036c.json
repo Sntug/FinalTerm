@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UniFuse%3A+A+Unified+All-in-One+Framework+for+Multi-Modal+Medical+Image+Fusion+Under+Diverse+Degradations+and+Misalignments%22",
+  "fetched_at": "2026-11-26T16:11:14Z",
+  "http_status": 200,
+  "content_sha256": "2a241317e9f71397c5aaffad61adfb0680f24e4ea0d1f7023a3226d3ed49873f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2a241317e9f71397c5aaffad61adfb0680f24e4ea0d1f7023a3226d3ed49873f.json.gz"
+}

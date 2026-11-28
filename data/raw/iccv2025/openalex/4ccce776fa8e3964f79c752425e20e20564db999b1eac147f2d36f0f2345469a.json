@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DC-AE+1.5%3A+Accelerating+Diffusion+Model+Convergence+with+Structured+Latent+Space%22",
+  "fetched_at": "2026-11-26T16:12:05Z",
+  "http_status": 200,
+  "content_sha256": "a1c84572403de7e5904500ea1364b4961ed7a0a7c276be8863ad4b566f5f5208",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a1c84572403de7e5904500ea1364b4961ed7a0a7c276be8863ad4b566f5f5208.json.gz"
+}

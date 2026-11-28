@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22X2I%3A+Seamless+Integration+of+Multimodal+Understanding+into+Diffusion+Transformer+via+Attention+Distillation%22",
+  "fetched_at": "2026-11-26T16:08:18Z",
+  "http_status": 200,
+  "content_sha256": "856bf61ec73bd83af7071aa58384db9f65afc4a7a0af348b41461c0034ab1616",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/856bf61ec73bd83af7071aa58384db9f65afc4a7a0af348b41461c0034ab1616.json.gz"
+}

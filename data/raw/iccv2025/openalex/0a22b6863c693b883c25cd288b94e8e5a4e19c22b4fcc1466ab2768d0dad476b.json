@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Balancing+Conservatism+and+Aggressiveness%3A+Prototype-Affinity+Hybrid+Network+for+Few-Shot+Segmentation%22",
+  "fetched_at": "2026-11-26T16:13:20Z",
+  "http_status": 200,
+  "content_sha256": "97bcfab0c4f3dbe480b4f81b425116739b13ad840061ff30b907a7d89e2e1eaa",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/97bcfab0c4f3dbe480b4f81b425116739b13ad840061ff30b907a7d89e2e1eaa.json.gz"
+}

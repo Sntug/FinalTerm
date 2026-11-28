@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Cycle+Consistency+as+Reward%3A+Learning+Image-Text+Alignment+without+Human+Preferences%22",
+  "fetched_at": "2026-11-26T16:06:03Z",
+  "http_status": 200,
+  "content_sha256": "5a7a128e541efdda521fbb899b681c273c14e59e76099a679d2e48308ef1deb3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5a7a128e541efdda521fbb899b681c273c14e59e76099a679d2e48308ef1deb3.json.gz"
+}

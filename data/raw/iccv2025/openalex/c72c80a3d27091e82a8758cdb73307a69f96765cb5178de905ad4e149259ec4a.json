@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LLaVA-3D%3A+A+Simple+yet+Effective+Pathway+to+Empowering+LMMs+with+3D+Capabilities%22",
+  "fetched_at": "2026-11-26T16:03:36Z",
+  "http_status": 200,
+  "content_sha256": "df14fe8860b8d02818c075b112d4d4adb352df001d5a5e086ebb8f1338568794",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/df14fe8860b8d02818c075b112d4d4adb352df001d5a5e086ebb8f1338568794.json.gz"
+}

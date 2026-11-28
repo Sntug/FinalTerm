@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22When+Anchors+Meet+Cold+Diffusion%3A+A+Multi-Stage+Approach+to+Lane+Detection%22",
+  "fetched_at": "2026-11-26T16:10:14Z",
+  "http_status": 200,
+  "content_sha256": "e479ef7712c0ec7df93159a36c2767391cb7124db283043bc9c45ede06d93101",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e479ef7712c0ec7df93159a36c2767391cb7124db283043bc9c45ede06d93101.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22One+Polyp+Identifies+All%3A+One-Shot+Polyp+Segmentation+with+SAM+via+Cascaded+Priors+and+Iterative+Prompt+Evolution%22",
+  "fetched_at": "2026-11-26T16:14:02Z",
+  "http_status": 200,
+  "content_sha256": "baebf34d985dcc07285fc409b21e26d432b273c8d5cd6f1fb02b7782cebffa4a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/baebf34d985dcc07285fc409b21e26d432b273c8d5cd6f1fb02b7782cebffa4a.json.gz"
+}

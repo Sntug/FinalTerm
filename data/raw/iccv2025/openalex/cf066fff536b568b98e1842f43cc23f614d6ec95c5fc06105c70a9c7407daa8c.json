@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Amodal3R%3A+Amodal+3D+Reconstruction+from+Occluded+2D+Images%22",
+  "fetched_at": "2026-11-26T16:04:39Z",
+  "http_status": 200,
+  "content_sha256": "dec556812affb43745fc9f59d27e51cef63c5880731e60673e2c6d924463cf22",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/dec556812affb43745fc9f59d27e51cef63c5880731e60673e2c6d924463cf22.json.gz"
+}

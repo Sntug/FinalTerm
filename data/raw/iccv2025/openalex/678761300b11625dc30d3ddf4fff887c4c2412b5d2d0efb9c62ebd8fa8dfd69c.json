@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adversarial+Exploitation+of+Data+Diversity+Improves+Visual+Localization%22",
+  "fetched_at": "2026-11-26T16:07:42Z",
+  "http_status": 200,
+  "content_sha256": "d5f2e40934ea337dc9ae0a72e49c912d93fd360ee4a6e9098d1c69ce3281c56a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d5f2e40934ea337dc9ae0a72e49c912d93fd360ee4a6e9098d1c69ce3281c56a.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Reinforcement+Learning-Guided+Data+Selection+via+Redundancy+Assessment%22",
+  "fetched_at": "2026-11-26T16:08:40Z",
+  "http_status": 200,
+  "content_sha256": "975e764ad8275e87421c85a5f5e2fe5df085290e868be21582d489cc5425d243",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/975e764ad8275e87421c85a5f5e2fe5df085290e868be21582d489cc5425d243.json.gz"
+}

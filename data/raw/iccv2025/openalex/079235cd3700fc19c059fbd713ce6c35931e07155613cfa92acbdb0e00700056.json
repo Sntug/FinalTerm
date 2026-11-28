@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Context+Guided+Transformer+Entropy+Modeling+for+Video+Compression%22",
+  "fetched_at": "2026-11-26T16:03:42Z",
+  "http_status": 200,
+  "content_sha256": "0551f90693bee45452fac37db5aca0854fe6fc0be75120b55594ee9cd26d77a4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0551f90693bee45452fac37db5aca0854fe6fc0be75120b55594ee9cd26d77a4.json.gz"
+}

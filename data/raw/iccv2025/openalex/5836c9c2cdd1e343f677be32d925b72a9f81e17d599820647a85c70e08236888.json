@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TAG-WM%3A+Tamper-Aware+Generative+Image+Watermarking+via+Diffusion+Inversion+Sensitivity%22",
+  "fetched_at": "2026-11-26T16:04:16Z",
+  "http_status": 200,
+  "content_sha256": "bf7d7e5f12a05e3c039322309720f5355b8c10ea078d91d41710183bf7f2337a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/bf7d7e5f12a05e3c039322309720f5355b8c10ea078d91d41710183bf7f2337a.json.gz"
+}

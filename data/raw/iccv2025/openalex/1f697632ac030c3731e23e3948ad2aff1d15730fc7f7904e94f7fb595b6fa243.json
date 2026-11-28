@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CryoFastAR%3A+Fast+Cryo-EM+Ab+initio+Reconstruction+Made+Easy%22",
+  "fetched_at": "2026-11-26T16:08:50Z",
+  "http_status": 200,
+  "content_sha256": "4e953c9db2423ce2766c1103ef15aa288b87f271e2c7a2f153644903224c4510",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4e953c9db2423ce2766c1103ef15aa288b87f271e2c7a2f153644903224c4510.json.gz"
+}

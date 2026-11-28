@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MoMa-Kitchen%3A+A+100K%2B+Benchmark+for+Affordance-Grounded+Last-Mile+Navigation+in+Mobile+Manipulation%22",
+  "fetched_at": "2026-11-26T16:07:38Z",
+  "http_status": 200,
+  "content_sha256": "2b6f0ef1a29666b29a836d0867d1b0de0654119a339ae0195dac6ecd5f65f933",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2b6f0ef1a29666b29a836d0867d1b0de0654119a339ae0195dac6ecd5f65f933.json.gz"
+}

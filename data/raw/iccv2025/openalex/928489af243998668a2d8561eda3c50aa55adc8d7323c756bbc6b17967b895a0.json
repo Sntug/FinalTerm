@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DynamicID%3A+Zero-Shot+Multi-ID+Image+Personalization+with+Flexible+Facial+Editability%22",
+  "fetched_at": "2026-11-26T16:09:02Z",
+  "http_status": 200,
+  "content_sha256": "ffa37801e5b65de2f5d38f6956d73f099007f28147b7b401fa50f7db1073310f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ffa37801e5b65de2f5d38f6956d73f099007f28147b7b401fa50f7db1073310f.json.gz"
+}

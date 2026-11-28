@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SuperEvent%3A+Cross-Modal+Learning+of+Event-based+Keypoint+Detection+for+SLAM%22",
+  "fetched_at": "2026-11-26T16:05:55Z",
+  "http_status": 200,
+  "content_sha256": "bed74eb98ac0a0d4672c2960c7911a91a4fbffade104f42934713edf477808d8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/bed74eb98ac0a0d4672c2960c7911a91a4fbffade104f42934713edf477808d8.json.gz"
+}

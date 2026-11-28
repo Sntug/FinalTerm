@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FRET%3A+Feature+Redundancy+Elimination+for+Test+Time+Adaptation%22",
+  "fetched_at": "2026-11-26T16:15:13Z",
+  "http_status": 200,
+  "content_sha256": "3303c878c8b686525e65db5ab4f149b6316d00567888def05950fee75b46ed0d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3303c878c8b686525e65db5ab4f149b6316d00567888def05950fee75b46ed0d.json.gz"
+}

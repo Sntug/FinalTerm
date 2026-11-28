@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Adversarial+Reconstruction+Feedback+for+Robust+Fine-grained+Generalization%22",
+  "fetched_at": "2026-11-26T16:05:53Z",
+  "http_status": 200,
+  "content_sha256": "a13bd978bd812414eb5379d0a5efbfa7b75d68ea61d61e358f24d7c32f949ca0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a13bd978bd812414eb5379d0a5efbfa7b75d68ea61d61e358f24d7c32f949ca0.json.gz"
+}

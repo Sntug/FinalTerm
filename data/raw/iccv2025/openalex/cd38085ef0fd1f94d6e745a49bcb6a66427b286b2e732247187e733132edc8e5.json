@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SC-Captioner%3A+Improving+Image+Captioning+with+Self-Correction+by+Reinforcement+Learning%22",
+  "fetched_at": "2026-11-26T16:12:57Z",
+  "http_status": 200,
+  "content_sha256": "0149b37fa3708be63f122f9fee4080c6d24c85edafacc83ee7e34a9810c08b26",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0149b37fa3708be63f122f9fee4080c6d24c85edafacc83ee7e34a9810c08b26.json.gz"
+}

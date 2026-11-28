@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FREE-Merging%3A+Fourier+Transform+for+Efficient+Model+Merging%22",
+  "fetched_at": "2026-11-26T16:07:02Z",
+  "http_status": 200,
+  "content_sha256": "aa9f7ad45cd2eaec90943fcb5f4d659e49ea3d7ee6ede00893a55ed39778ee13",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/aa9f7ad45cd2eaec90943fcb5f4d659e49ea3d7ee6ede00893a55ed39778ee13.json.gz"
+}

@@ -1,0 +1,18 @@
+{
+  "project_id": "mxh_cv_trend",
+  "code_version": "h8-snapshot-1.0.0",
+  "target_count": 350,
+  "gold_set": "data/gold/gold_set.csv",
+  "nlp_manifest": "data/processed/mxh_cv_trend/nlp/snapshot_manifest.json",
+  "output_dir": "data/processed/mxh_cv_trend/graph",
+  "dryrun_dir": "data/processed/mxh_cv_trend/graph_dryrun",
+  "fixture_dir": "outputs/trend/h7_fixture",
+  "check_report": "outputs/trend/snapshot_check.json",
+  "editions": [
+    {"name": "CVPR2024", "venue_id": "venue:CVPR:2024:main", "snapshots_dir": "data/processed/cvpr2024/a5_350/paper_snapshots", "h5_dir": "data/processed/cvpr2024/a5_350"},
+    {"name": "CVPR2025", "venue_id": "venue:CVPR:2025:main", "snapshots_dir": "data/processed/cvpr2025/snapshots", "h5_dir": "data/processed/cvpr2025/h5"},
+    {"name": "CVPR2026", "venue_id": "venue:CVPR:2026:main", "snapshots_dir": "data/processed/cvpr2026/snapshots", "h5_dir": "data/processed/cvpr2026/h5"},
+    {"name": "ICCV2023", "venue_id": "venue:ICCV:2023:main", "snapshots_dir": "data/processed/iccv2023/trend/snapshots", "h5_dir": "data/processed/iccv2023/trend/h5"},
+    {"name": "ICCV2025", "venue_id": "venue:ICCV:2025:main", "snapshots_dir": "data/processed/iccv2025/snapshots", "h5_dir": "data/processed/iccv2025/h5"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Exploring+Multimodal+Diffusion+Transformers+for+Enhanced+Prompt-based+Image+Editing%22",
+  "fetched_at": "2026-11-26T16:03:58Z",
+  "http_status": 200,
+  "content_sha256": "e00f2b062243bbe7afab97fe0e6951fde10cc26814b578871f672a240c98a827",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e00f2b062243bbe7afab97fe0e6951fde10cc26814b578871f672a240c98a827.json.gz"
+}

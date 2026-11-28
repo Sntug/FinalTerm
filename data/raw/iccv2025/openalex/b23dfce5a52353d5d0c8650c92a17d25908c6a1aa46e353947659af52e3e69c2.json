@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Visual-Oriented+Fine-Grained+Knowledge+Editing+for+MultiModal+Large+Language+Models%22",
+  "fetched_at": "2026-11-26T16:03:56Z",
+  "http_status": 200,
+  "content_sha256": "8a18cc3c6ce4a112a40b658c676854e4e46ece7031a3cfd965054bc9f45dff59",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8a18cc3c6ce4a112a40b658c676854e4e46ece7031a3cfd965054bc9f45dff59.json.gz"
+}

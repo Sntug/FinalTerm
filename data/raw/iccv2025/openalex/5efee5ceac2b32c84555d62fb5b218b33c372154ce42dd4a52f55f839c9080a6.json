@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Spatio-Spectral+Pattern+Illumination+for+Direct+and+Indirect+Separation+from+a+Single+Hyperspectral+Image%22",
+  "fetched_at": "2026-11-26T16:04:30Z",
+  "http_status": 200,
+  "content_sha256": "18283f0288eca652193a22735605a3aff5df8d2e35cd2e71fcc45bd08e13e4bf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/18283f0288eca652193a22735605a3aff5df8d2e35cd2e71fcc45bd08e13e4bf.json.gz"
+}

@@ -1,0 +1,29 @@
+{
+  "host": "http://127.0.0.1:11434",
+  "model": "qwen3:8b",
+  "fallback_model": "qwen3:4b",
+  "model_digests": {
+    "qwen3:8b": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+    "qwen3:4b": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7"
+  },
+  "timeout_seconds": 600,
+  "retries": 2,
+  "retry_wait_seconds": 5,
+  "seed": 20261103,
+  "temperature": 0,
+  "num_ctx": 4096,
+  "num_predict": 1024,
+  "cache_dir": "outputs/trend/slm_pilot/cache",
+  "pilot": {
+    "gold_set": "data/gold/gold_set.csv",
+    "output_dir": "outputs/trend/slm_pilot",
+    "sources": {
+      "CVPR2025": {"processed_dir": "data/processed/cvpr2025", "n": 7},
+      "CVPR2026": {"processed_dir": "data/processed/cvpr2026", "n": 7},
+      "ICCV2023": {"processed_dir": "data/processed/iccv2023/trend", "n": 6}
+    },
+    "papers_total": 1750,
+    "max_hours_for_all_papers": 8,
+    "min_valid_json_rate": 0.95
+  }
+}

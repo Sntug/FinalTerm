@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:08:28+00:00",
+  "done_reason": "stop",
+  "key": "45778166737bb6a5e060516bf461ffc47eb11121340a594903ad365e866c33e3",
+  "metrics": {
+    "eval_count": 64,
+    "eval_duration": 6416955000,
+    "load_duration": 1026500,
+    "prompt_eval_count": 436,
+    "total_duration": 10070236625
+  },
+  "model": "qwen3:8b",
+  "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\"event keypoint detection\"],\n  \"methods\": [\"Co-visible Focused 3D-guided 2D Event Keypoint Detection Network\", \"3D-guided 2D feature prototype learning\", \"co-visible region-focused detector and descriptor learning\"],\n  \"datasets\": []\n}"
+}

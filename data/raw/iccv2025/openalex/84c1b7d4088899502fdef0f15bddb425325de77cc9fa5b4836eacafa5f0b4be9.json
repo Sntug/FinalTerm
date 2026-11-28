@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Region-aware+Anchoring+Mechanism+for+Efficient+Referring+Visual+Grounding%22",
+  "fetched_at": "2026-11-26T16:11:38Z",
+  "http_status": 200,
+  "content_sha256": "4ac86294e85f3ff37f8892a21e038a24ac70cf75340d26af88183b7630da809c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4ac86294e85f3ff37f8892a21e038a24ac70cf75340d26af88183b7630da809c.json.gz"
+}

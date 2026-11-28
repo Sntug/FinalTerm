@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prior-aware+Dynamic+Temporal+Modeling+Framework+for+Sequential+3D+Hand+Pose+Estimation%22",
+  "fetched_at": "2026-11-26T16:13:49Z",
+  "http_status": 200,
+  "content_sha256": "05eee9117692e600084cbc6ae2b9d48edd45406997a4c734581c124c6f64706e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/05eee9117692e600084cbc6ae2b9d48edd45406997a4c734581c124c6f64706e.json.gz"
+}

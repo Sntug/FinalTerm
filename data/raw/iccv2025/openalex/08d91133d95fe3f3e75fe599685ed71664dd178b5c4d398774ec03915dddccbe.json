@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Online+Language+Splatting%22",
+  "fetched_at": "2026-11-26T16:12:02Z",
+  "http_status": 200,
+  "content_sha256": "2bc160cee0182f46ece656d199e4f2164e0937a09b9e6a1ab0ce010e59ebb0eb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2bc160cee0182f46ece656d199e4f2164e0937a09b9e6a1ab0ce010e59ebb0eb.json.gz"
+}

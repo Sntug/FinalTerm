@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CC-OCR%3A+A+Comprehensive+and+Challenging+OCR+Benchmark+for+Evaluating+Large+Multimodal+Models+in+Literacy%22",
+  "fetched_at": "2026-11-26T16:07:50Z",
+  "http_status": 200,
+  "content_sha256": "81d2cf3f94c9ac590879f287af2a5b8e280913e68452fca0a40932f7b0a864c6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/81d2cf3f94c9ac590879f287af2a5b8e280913e68452fca0a40932f7b0a864c6.json.gz"
+}

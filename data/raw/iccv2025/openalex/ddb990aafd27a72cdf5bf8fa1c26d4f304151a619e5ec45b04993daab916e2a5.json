@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DISTA-Net%3A+Dynamic+Closely-Spaced+Infrared+Small+Target+Unmixing%22",
+  "fetched_at": "2026-11-26T16:09:47Z",
+  "http_status": 200,
+  "content_sha256": "a06b66b38bea0609adffade6d649f6ff94981e3e5f8961a1b2643bb8b25e3b2c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a06b66b38bea0609adffade6d649f6ff94981e3e5f8961a1b2643bb8b25e3b2c.json.gz"
+}

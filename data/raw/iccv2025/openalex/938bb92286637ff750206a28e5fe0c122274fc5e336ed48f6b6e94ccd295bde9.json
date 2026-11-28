@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Structured+Policy+Optimization%3A+Enhance+Large+Vision-Language+Model+via+Self-referenced+Dialogue%22",
+  "fetched_at": "2026-11-26T16:05:51Z",
+  "http_status": 200,
+  "content_sha256": "c448654ed32c2fa8e93b0d500d3f83b7ef778307999a8864ce61ac351226ad1d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c448654ed32c2fa8e93b0d500d3f83b7ef778307999a8864ce61ac351226ad1d.json.gz"
+}

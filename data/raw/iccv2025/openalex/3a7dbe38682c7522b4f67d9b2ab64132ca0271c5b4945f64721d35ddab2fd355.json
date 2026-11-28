@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Point+Cloud+Self-supervised+Learning+via+3D+to+Multi-view+Masked+Learner%22",
+  "fetched_at": "2026-11-26T16:09:41Z",
+  "http_status": 200,
+  "content_sha256": "0b9f95852fc9210fbbb958e37350b15901bdeead21475894b82a5dccbe688686",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0b9f95852fc9210fbbb958e37350b15901bdeead21475894b82a5dccbe688686.json.gz"
+}

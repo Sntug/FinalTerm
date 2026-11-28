@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Wavelet+Policy%3A+Lifting+Scheme+for+Policy+Learning+in+Long-Horizon+Tasks%22",
+  "fetched_at": "2026-11-26T16:11:32Z",
+  "http_status": 200,
+  "content_sha256": "98bbb3d8a043ece52c7c0edf1984655d616ccd810832513f210335be947c4c81",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/98bbb3d8a043ece52c7c0edf1984655d616ccd810832513f210335be947c4c81.json.gz"
+}

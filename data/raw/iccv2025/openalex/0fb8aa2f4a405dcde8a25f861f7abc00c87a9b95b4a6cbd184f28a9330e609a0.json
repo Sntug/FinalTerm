@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VideoOrion%3A+Tokenizing+Object+Dynamics+in+Videos%22",
+  "fetched_at": "2026-11-26T16:13:23Z",
+  "http_status": 200,
+  "content_sha256": "0aaa6fbc1cfa924a4fd1f7cab834489eeedced5ab890c33239d3a2b16d7546b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0aaa6fbc1cfa924a4fd1f7cab834489eeedced5ab890c33239d3a2b16d7546b4.json.gz"
+}

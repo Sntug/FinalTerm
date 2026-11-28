@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Humans+as+a+Calibration+Pattern%3A+Dynamic+3D+Scene+Reconstruction+from+Unsynchronized+and+Uncalibrated+Videos%22",
+  "fetched_at": "2026-11-23T06:55:09Z",
+  "http_status": 200,
+  "content_sha256": "44477edb4c76c43a83f687e175637b754bda354a41da00dfe0e58f620c6d6f5c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/44477edb4c76c43a83f687e175637b754bda354a41da00dfe0e58f620c6d6f5c.json.gz"
+}

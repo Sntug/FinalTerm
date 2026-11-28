@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:10:12+00:00",
+  "done_reason": "stop",
+  "key": "8973ba87b1027351139eb62e3e940dbd0356389f99f92251fbd25f061b8d2788",
+  "metrics": {
+    "eval_count": 84,
+    "eval_duration": 4707037000,
+    "load_duration": 774750,
+    "prompt_eval_count": 537,
+    "total_duration": 6957908500
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"image tokenization\",\n    \"high-resolution image generation\",\n    \"text-to-image generation\"\n  ],\n  \"methods\": [\n    \"Text-Conditioned Image Tokenization (TexTok)\",\n    \"Diffusion Transformer (DiT)\"\n  ],\n  \"datasets\": [\n    \"ImageNet-256\",\n    \"ImageNet-512\"\n  ]\n}"
+}

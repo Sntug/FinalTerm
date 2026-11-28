@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OrderChain%3A+Towards+General+Instruct-Tuning+for+Stimulating+the+Ordinal+Understanding+Ability+of+MLLM%22",
+  "fetched_at": "2026-11-26T16:06:18Z",
+  "http_status": 200,
+  "content_sha256": "deb51591c7c345de8ccc2c4b081f4780aca2ef6644dc60097e6bc5938883724c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/deb51591c7c345de8ccc2c4b081f4780aca2ef6644dc60097e6bc5938883724c.json.gz"
+}

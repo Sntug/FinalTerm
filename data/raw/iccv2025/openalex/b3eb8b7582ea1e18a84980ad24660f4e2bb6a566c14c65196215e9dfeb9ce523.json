@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LookOut%3A+Real-World+Humanoid+Egocentric+Navigation%22",
+  "fetched_at": "2026-11-26T16:06:55Z",
+  "http_status": 200,
+  "content_sha256": "8dc4972e934792e61be9b864eeeb1d68c2764257428454ab467fc2713edd8919",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8dc4972e934792e61be9b864eeeb1d68c2764257428454ab467fc2713edd8919.json.gz"
+}

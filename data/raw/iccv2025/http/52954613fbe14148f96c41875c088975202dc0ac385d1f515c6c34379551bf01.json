@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Chen_DC-AE_1.5_Accelerating_Diffusion_Model_Convergence_with_Structured_Latent_Space_ICCV_2025_paper.html",
+  "fetched_at": "2026-11-26T16:02:19Z",
+  "http_status": 200,
+  "content_sha256": "75531bfd76e71281592791c2f6eaf0a7aec9ea9e2bd81b3e5ac911ab4d541cc2",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1915-641237d695eaf\"",
+  "last_modified": "Tue, 14 Oct 2025 19:35:43 GMT",
+  "raw_path": "data/raw/iccv2025/http/75531bfd76e71281592791c2f6eaf0a7aec9ea9e2bd81b3e5ac911ab4d541cc2.html.gz"
+}

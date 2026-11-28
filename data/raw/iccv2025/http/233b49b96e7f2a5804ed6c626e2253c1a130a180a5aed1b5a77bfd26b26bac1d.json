@@ -1,0 +1,10 @@
+{
+  "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yao_MMReason_An_Open-Ended_Multi-Modal_Multi-Step_Reasoning_Benchmark_for_MLLMs_Toward_ICCV_2025_paper.html",
+  "fetched_at": "2026-11-23T06:54:37Z",
+  "http_status": 200,
+  "content_sha256": "cf33fe32622c1378657953c20b0bef35935ed0488f400a96d50aba7032b3cb1c",
+  "content_type": "text/html; charset=UTF-8",
+  "etag": "\"1c0d-641237d677a4a\"",
+  "last_modified": "Tue, 14 Oct 2025 19:35:43 GMT",
+  "raw_path": "data/raw/iccv2025/http/cf33fe32622c1378657953c20b0bef35935ed0488f400a96d50aba7032b3cb1c.html.gz"
+}

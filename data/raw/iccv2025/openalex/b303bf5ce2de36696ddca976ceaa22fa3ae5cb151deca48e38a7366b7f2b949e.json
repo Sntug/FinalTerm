@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MOBIUS%3A+Big-to-Mobile+Universal+Instance+Segmentation+via+Multi-modal+Bottleneck+Fusion+and+Calibrated+Decoder+Pruning%22",
+  "fetched_at": "2026-11-26T16:11:08Z",
+  "http_status": 200,
+  "content_sha256": "6bfdc5dda8ad190a5378631143ab071e6cbf561c1c42b8b9cf13cc88a57b464a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/6bfdc5dda8ad190a5378631143ab071e6cbf561c1c42b8b9cf13cc88a57b464a.json.gz"
+}

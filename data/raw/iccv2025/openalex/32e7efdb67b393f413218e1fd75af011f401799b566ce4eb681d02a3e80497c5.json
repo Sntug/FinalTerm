@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Background+Invariance+Testing+According+to+Semantic+Proximity%22",
+  "fetched_at": "2026-11-26T16:12:43Z",
+  "http_status": 200,
+  "content_sha256": "ad5be0ac3d95d6c9c13c6f01bc7f94f532e660bad0ec0ee284da47866740de7e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ad5be0ac3d95d6c9c13c6f01bc7f94f532e660bad0ec0ee284da47866740de7e.json.gz"
+}

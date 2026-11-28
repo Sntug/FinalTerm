@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Efficient+Concertormer+for+Image+Deblurring+and+Beyond%22",
+  "fetched_at": "2026-11-26T16:04:45Z",
+  "http_status": 200,
+  "content_sha256": "bcbc89651188393bc752dc4354809f94a28ff78bc6753b2a702fcd6a4fcd815b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/bcbc89651188393bc752dc4354809f94a28ff78bc6753b2a702fcd6a4fcd815b.json.gz"
+}

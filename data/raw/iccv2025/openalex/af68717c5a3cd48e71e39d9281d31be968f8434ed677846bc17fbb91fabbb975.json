@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DiffDoctor%3A+Diagnosing+Image+Diffusion+Models+Before+Treating%22",
+  "fetched_at": "2026-11-26T16:05:41Z",
+  "http_status": 200,
+  "content_sha256": "7f96bf1d7d6f188465deb0d5a39ca6897550df01cff3d43ca1bb826d353c03c1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/7f96bf1d7d6f188465deb0d5a39ca6897550df01cff3d43ca1bb826d353c03c1.json.gz"
+}

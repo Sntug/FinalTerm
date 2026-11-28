@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PromptDresser%3A+Improving+the+Quality+and+Controllability+of+Virtual+Try-On+via+Generative+Textual+Prompt+and+Prompt-aware+Mask%22",
+  "fetched_at": "2026-11-26T16:07:36Z",
+  "http_status": 200,
+  "content_sha256": "88bf0be59a12d8ed5da05440b03fff185f6c91f6f135621e5c90cf7faa1d1eeb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/88bf0be59a12d8ed5da05440b03fff185f6c91f6f135621e5c90cf7faa1d1eeb.json.gz"
+}

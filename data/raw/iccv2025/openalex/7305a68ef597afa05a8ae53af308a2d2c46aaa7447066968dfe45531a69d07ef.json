@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HUG%3A+Hierarchical+Urban+Gaussian+Splatting+with+Block-Based+Reconstruction+for+Large-Scale+Aerial+Scenes%22",
+  "fetched_at": "2026-11-26T16:05:49Z",
+  "http_status": 200,
+  "content_sha256": "98936c3e02eb2d3943c6bab50943d5b3f31a99d0471b9cf1fc29713cdf7e1e06",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/98936c3e02eb2d3943c6bab50943d5b3f31a99d0471b9cf1fc29713cdf7e1e06.json.gz"
+}

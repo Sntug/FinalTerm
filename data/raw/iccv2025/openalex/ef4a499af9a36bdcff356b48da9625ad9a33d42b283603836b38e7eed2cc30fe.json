@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prompt-A-Video%3A+Prompt+Your+Video+Diffusion+Model+via+Preference-Aligned+LLM%22",
+  "fetched_at": "2026-11-23T06:54:35Z",
+  "http_status": 200,
+  "content_sha256": "86c2141403d0ac1bdfdb27efe7d7723af6a32ee35eaff06de507aa1922bc7d36",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/86c2141403d0ac1bdfdb27efe7d7723af6a32ee35eaff06de507aa1922bc7d36.json.gz"
+}

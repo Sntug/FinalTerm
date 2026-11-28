@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Occlusion-robust+Stylization+for+Drawing-based+3D+Animation%22",
+  "fetched_at": "2026-11-26T16:06:12Z",
+  "http_status": 200,
+  "content_sha256": "212e82cce9ddd540ebb0be95f5f6be354fe05b812ac057e8d22820a91728e0e8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/212e82cce9ddd540ebb0be95f5f6be354fe05b812ac057e8d22820a91728e0e8.json.gz"
+}

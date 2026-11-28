@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SpatialTrackerV2%3A+Advancing+3D+Point+Tracking+with+Explicit+Camera+Motion%22",
+  "fetched_at": "2026-11-26T16:09:49Z",
+  "http_status": 200,
+  "content_sha256": "adc23bffb6d97706e94c3f049b84ab8d96a4c3e372ef85b5662027054fec20cf",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/adc23bffb6d97706e94c3f049b84ab8d96a4c3e372ef85b5662027054fec20cf.json.gz"
+}

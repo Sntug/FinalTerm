@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DNF-Intrinsic%3A+Deterministic+Noise-Free+Diffusion+for+Indoor+Inverse+Rendering%22",
+  "fetched_at": "2026-11-26T16:06:35Z",
+  "http_status": 200,
+  "content_sha256": "a1fb547ae44af16b00dc17b904d3f7d3ba65e67dd99e1559dcc63e8207190c76",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a1fb547ae44af16b00dc17b904d3f7d3ba65e67dd99e1559dcc63e8207190c76.json.gz"
+}

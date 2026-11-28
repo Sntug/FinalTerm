@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Self-Calibrated+Variance-Stabilizing+Transformations+for+Real-World+Image+Denoising%22",
+  "fetched_at": "2026-11-26T16:11:52Z",
+  "http_status": 200,
+  "content_sha256": "3fd3fbafbc9d4494b7b3a116730dd6560b266e8bab6ccd5533bcc39916783312",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3fd3fbafbc9d4494b7b3a116730dd6560b266e8bab6ccd5533bcc39916783312.json.gz"
+}

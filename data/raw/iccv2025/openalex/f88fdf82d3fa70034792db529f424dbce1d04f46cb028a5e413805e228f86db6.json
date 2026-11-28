@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Anomaly+Detection+of+Integrated+Circuits+Package+Substrates+Using+the+Large+Vision+Model+SAIC%3A+Dataset+Construction%2C+Methodology%2C+and+Application%22",
+  "fetched_at": "2026-11-26T16:03:52Z",
+  "http_status": 200,
+  "content_sha256": "0a79eb77e616adf38acfb1972ad8ae2ad9bea23b2ed14d3e2c13756e55569c0b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0a79eb77e616adf38acfb1972ad8ae2ad9bea23b2ed14d3e2c13756e55569c0b.json.gz"
+}

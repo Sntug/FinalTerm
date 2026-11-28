@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22COIN%3A+Confidence+Score-Guided+Distillation+for+Annotation-Free+Cell+Segmentation%22",
+  "fetched_at": "2026-11-26T16:13:41Z",
+  "http_status": 200,
+  "content_sha256": "1908615fbfe309c94f41d28a43376c09d549ec42a314bea0f69bf0d0966870ce",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/1908615fbfe309c94f41d28a43376c09d549ec42a314bea0f69bf0d0966870ce.json.gz"
+}

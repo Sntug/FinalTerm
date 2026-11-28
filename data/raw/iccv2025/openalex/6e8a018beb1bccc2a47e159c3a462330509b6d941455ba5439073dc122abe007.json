@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22KV-Edit%3A+Training-Free+Image+Editing+for+Precise+Background+Preservation%22",
+  "fetched_at": "2026-11-26T16:12:55Z",
+  "http_status": 200,
+  "content_sha256": "4488478ddb060f0bfbb34e35971f854c8f6ef6882325db7c3b1a7e48d305227c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4488478ddb060f0bfbb34e35971f854c8f6ef6882325db7c3b1a7e48d305227c.json.gz"
+}

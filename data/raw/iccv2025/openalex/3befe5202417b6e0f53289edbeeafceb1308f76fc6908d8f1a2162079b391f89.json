@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22StolenLoRA%3A+Exploring+LoRA+Extraction+Attacks+via+Synthetic+Data%22",
+  "fetched_at": "2026-11-26T16:04:02Z",
+  "http_status": 200,
+  "content_sha256": "ef029d4c70baaa201304f1659c2720bcf8345a1043c4f7e2ac5c2cb1d2aeaeac",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ef029d4c70baaa201304f1659c2720bcf8345a1043c4f7e2ac5c2cb1d2aeaeac.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RegGS%3A+Unposed+Sparse+Views+Gaussian+Splatting+with+3DGS+Registration%22",
+  "fetched_at": "2026-11-26T16:04:14Z",
+  "http_status": 200,
+  "content_sha256": "2c343891d78e0682bf54f477e6e79b6dae0c38d70ad5e5a99109337a83b5602a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2c343891d78e0682bf54f477e6e79b6dae0c38d70ad5e5a99109337a83b5602a.json.gz"
+}

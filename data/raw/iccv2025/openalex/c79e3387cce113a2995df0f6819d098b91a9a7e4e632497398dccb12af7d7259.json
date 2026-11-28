@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Asynchronous+Event+Error-Minimizing+Noise+for+Safeguarding+Event+Dataset%22",
+  "fetched_at": "2026-11-26T16:11:24Z",
+  "http_status": 200,
+  "content_sha256": "12925c9335262b0270334424fbfb83023ffe9e28a6b9c4bb55a1d1cdd870e0b9",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/12925c9335262b0270334424fbfb83023ffe9e28a6b9c4bb55a1d1cdd870e0b9.json.gz"
+}

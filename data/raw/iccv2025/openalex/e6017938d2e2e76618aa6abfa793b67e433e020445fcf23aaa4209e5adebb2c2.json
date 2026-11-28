@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Scheduling+Weight+Transitions+for+Quantization-Aware+Training%22",
+  "fetched_at": "2026-11-26T16:12:31Z",
+  "http_status": 200,
+  "content_sha256": "8454a07276b30d8e4c19624141faac053e4933edaa1c3915431a66c1877544d6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8454a07276b30d8e4c19624141faac053e4933edaa1c3915431a66c1877544d6.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Harmonizing+Visual+Representations+for+Unified+Multimodal+Understanding+and+Generation%22",
+  "fetched_at": "2026-11-23T06:54:57Z",
+  "http_status": 200,
+  "content_sha256": "18ab0bb9a14290477e9fd4950b869db31085ba2a32efd762fe243939850df021",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/18ab0bb9a14290477e9fd4950b869db31085ba2a32efd762fe243939850df021.json.gz"
+}

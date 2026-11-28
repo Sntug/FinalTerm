@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Leaps+and+Bounds%3A+An+Improved+Point+Cloud+Winding+Number+Formulation+for+Fast+Normal+Estimation+and+Surface+Reconstruction%22",
+  "fetched_at": "2026-11-26T16:04:12Z",
+  "http_status": 200,
+  "content_sha256": "ae0856e42bd273968ca23b12ba97f4845bed2b34aaa05bca06b1f1c5dbc94372",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ae0856e42bd273968ca23b12ba97f4845bed2b34aaa05bca06b1f1c5dbc94372.json.gz"
+}

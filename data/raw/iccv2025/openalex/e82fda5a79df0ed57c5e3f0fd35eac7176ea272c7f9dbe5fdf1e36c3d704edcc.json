@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Federated+Representation+Angle+Learning%22",
+  "fetched_at": "2026-11-26T16:06:14Z",
+  "http_status": 200,
+  "content_sha256": "854ceeeb3a7a399e451834cf69fbee4fc91a20c65e7362a6b717b1a59dae1066",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/854ceeeb3a7a399e451834cf69fbee4fc91a20c65e7362a6b717b1a59dae1066.json.gz"
+}

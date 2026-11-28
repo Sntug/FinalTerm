@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HAMoBE%3A+Hierarchical+and+Adaptive+Mixture+of+Biometric+Experts+for+Video-based+Person+ReID%22",
+  "fetched_at": "2026-11-26T16:10:06Z",
+  "http_status": 200,
+  "content_sha256": "b34b74b4b6b4bbc8ddef345d995389139cae09a53ddc25a1c3428594b9a6d7e7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b34b74b4b6b4bbc8ddef345d995389139cae09a53ddc25a1c3428594b9a6d7e7.json.gz"
+}

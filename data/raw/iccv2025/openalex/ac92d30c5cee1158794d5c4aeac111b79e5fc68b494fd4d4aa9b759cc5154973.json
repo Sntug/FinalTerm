@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FastPoint%3A+Accelerating+3D+Point+Cloud+Model+Inference+via+Sample+Point+Distance+Prediction%22",
+  "fetched_at": "2026-11-26T16:09:10Z",
+  "http_status": 200,
+  "content_sha256": "28266a183e2b18e7b0d330c28f4c06e66a0f639f0b98562e840bfa81cd9361f3",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/28266a183e2b18e7b0d330c28f4c06e66a0f639f0b98562e840bfa81cd9361f3.json.gz"
+}

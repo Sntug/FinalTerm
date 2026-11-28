@@ -1,0 +1,15 @@
+{
+  "snapshot": "data/processed/mxh_cv_700/a8/graph",
+  "out": "outputs/trend/sna",
+  "periods": ["CVPR2024", "CVPR2025", "CVPR2026", "ICCV2023", "ICCV2025"],
+  "seed": 42,
+  "weight": "weight",
+  "louvain_resolution": 1.0,
+  "pagerank_alpha": 0.85,
+  "reference_networks": 20,
+  "swaps_per_edge": 10,
+  "small_world": {
+    "max_path_ratio": 1.5,
+    "min_reachable_share": 0.5
+  }
+}

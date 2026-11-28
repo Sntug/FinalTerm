@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Neural+Solver+of+Dichromatic+Reflection+Model+for+Specular+Highlight+Removal%22",
+  "fetched_at": "2026-11-26T16:14:07Z",
+  "http_status": 200,
+  "content_sha256": "d7ec8c6eaacba0325dd8e52e3757f0fef658e0d0c26ea817f332fbe288c21965",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/d7ec8c6eaacba0325dd8e52e3757f0fef658e0d0c26ea817f332fbe288c21965.json.gz"
+}

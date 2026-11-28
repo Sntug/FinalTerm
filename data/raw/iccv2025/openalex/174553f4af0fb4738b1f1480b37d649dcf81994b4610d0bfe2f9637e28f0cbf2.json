@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GT-Loc%3A+Unifying+When+and+Where+in+Images+Through+a+Joint+Embedding+Space%22",
+  "fetched_at": "2026-11-26T16:10:25Z",
+  "http_status": 200,
+  "content_sha256": "ef3adb7b281083ea9c0c8f610da980c0382ea6006f4830551a265ee69035a5dc",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ef3adb7b281083ea9c0c8f610da980c0382ea6006f4830551a265ee69035a5dc.json.gz"
+}

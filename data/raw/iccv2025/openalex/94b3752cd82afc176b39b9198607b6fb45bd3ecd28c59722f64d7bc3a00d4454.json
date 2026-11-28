@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22VGMamba%3A+Attribute-to-Location+Clue+Reasoning+for+Quantity-Agnostic+3D+Visual+Grounding%22",
+  "fetched_at": "2026-11-26T16:09:04Z",
+  "http_status": 200,
+  "content_sha256": "04122b12030553c628df81dae68d0f6bece96fdb574bb2db632752656a63cfb1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/04122b12030553c628df81dae68d0f6bece96fdb574bb2db632752656a63cfb1.json.gz"
+}

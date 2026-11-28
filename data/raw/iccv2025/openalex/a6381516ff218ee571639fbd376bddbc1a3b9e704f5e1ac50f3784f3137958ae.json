@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22From+Panels+to+Prose%3A+Generating+Literary+Narratives+from+Comics%22",
+  "fetched_at": "2026-11-26T16:12:13Z",
+  "http_status": 200,
+  "content_sha256": "94205b5ff60f4b6e2b295af15c0215cf8a889a4852efe446de0a79a0a91911b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/94205b5ff60f4b6e2b295af15c0215cf8a889a4852efe446de0a79a0a91911b4.json.gz"
+}

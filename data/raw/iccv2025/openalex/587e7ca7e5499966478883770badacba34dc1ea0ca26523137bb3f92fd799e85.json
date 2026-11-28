@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search=Seam360GS%3A+Seamless+360deg+Gaussian+Splatting+from+Real-World+Omnidirectional+Images",
+  "fetched_at": "2026-11-26T16:06:03Z",
+  "http_status": 200,
+  "content_sha256": "dce848c970e6987d8044c9e74ca5ab37168742b7223104d3844206bbaa99201f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/dce848c970e6987d8044c9e74ca5ab37168742b7223104d3844206bbaa99201f.json.gz"
+}

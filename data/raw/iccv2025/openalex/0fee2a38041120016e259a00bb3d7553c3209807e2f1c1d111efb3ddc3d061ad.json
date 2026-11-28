@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MemDistill%3A+Distilling+LiDAR+Knowledge+into+Memory+for+Camera-Only+3D+Object+Detection%22",
+  "fetched_at": "2026-11-26T16:06:20Z",
+  "http_status": 200,
+  "content_sha256": "b100e15c4224a55c99637dde6b49752e4653e9a338ce4d8b4ea7f9feddcbeb58",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b100e15c4224a55c99637dde6b49752e4653e9a338ce4d8b4ea7f9feddcbeb58.json.gz"
+}

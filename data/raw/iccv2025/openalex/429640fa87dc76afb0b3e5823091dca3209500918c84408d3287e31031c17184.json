@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SpectralAR%3A+Spectral+Autoregressive+Visual+Generation%22",
+  "fetched_at": "2026-11-26T16:09:53Z",
+  "http_status": 200,
+  "content_sha256": "2126cf8d8194474d2f42bf8648c6ece8c40cefab32639b99024c5a900b4f2358",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2126cf8d8194474d2f42bf8648c6ece8c40cefab32639b99024c5a900b4f2358.json.gz"
+}

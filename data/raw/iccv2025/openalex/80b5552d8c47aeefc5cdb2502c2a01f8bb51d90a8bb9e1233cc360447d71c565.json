@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Long-Tailed+Classification+with+Multi-Granularity+Semantics%22",
+  "fetched_at": "2026-11-26T16:14:20Z",
+  "http_status": 200,
+  "content_sha256": "fa7cd54d012d1f1e6df6e1f82d7518c1df0ae1b2bb99241f25ef9534423e3e53",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/fa7cd54d012d1f1e6df6e1f82d7518c1df0ae1b2bb99241f25ef9534423e3e53.json.gz"
+}

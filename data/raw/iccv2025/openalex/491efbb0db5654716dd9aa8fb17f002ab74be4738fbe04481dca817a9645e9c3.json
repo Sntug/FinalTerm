@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22LEGO-Maker%3A+A+Semantic-Driven+Algorithm+for+Text-to-3D+Generation%22",
+  "fetched_at": "2026-11-26T16:12:35Z",
+  "http_status": 200,
+  "content_sha256": "749111c8a138b1f7630f31bb171579d5d97ecd070d67724f788323428f49fbb4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/749111c8a138b1f7630f31bb171579d5d97ecd070d67724f788323428f49fbb4.json.gz"
+}

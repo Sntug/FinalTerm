@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:07:13+00:00",
+  "done_reason": "stop",
+  "key": "ac8a28dd85944c6935dc2afc5f82bdba54133e29e782c50efbf2259a7b102da9",
+  "metrics": {
+    "eval_count": 60,
+    "eval_duration": 5508766000,
+    "load_duration": 1011167,
+    "prompt_eval_count": 362,
+    "total_duration": 7614077542
+  },
+  "model": "qwen3:8b",
+  "model_digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\"Unified Reconstruction of Static and Dynamic Scenes from Events\"],\n  \"methods\": [\"two-stage reconstruction strategy\", \"URSEE framework\", \"parallel channel\", \"network module for end-to-end video reconstruction\"],\n  \"datasets\": [\"real-captured dataset for static reconstruction\"]\n}"
+}

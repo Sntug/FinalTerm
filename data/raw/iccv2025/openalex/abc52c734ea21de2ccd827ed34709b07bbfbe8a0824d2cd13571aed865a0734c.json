@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22OmniCache%3A+A+Trajectory-Oriented+Global+Perspective+on+Training-Free+Cache+Reuse+for+Diffusion+Transformer+Models%22",
+  "fetched_at": "2026-11-26T16:05:22Z",
+  "http_status": 200,
+  "content_sha256": "12fde2ff1241bdd6823bc057ee3a8debf75d1240640725a7520dcdec069a1124",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/12fde2ff1241bdd6823bc057ee3a8debf75d1240640725a7520dcdec069a1124.json.gz"
+}

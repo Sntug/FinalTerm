@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22IntrinsicControlNet%3A+Cross-distribution+Image+Generation+with+Real+and+Unreal%22",
+  "fetched_at": "2026-11-26T16:05:45Z",
+  "http_status": 200,
+  "content_sha256": "b1cf35d49e2024bc242a34f328d2e92b0070f1600f3e3dc18187d16462b1cf37",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b1cf35d49e2024bc242a34f328d2e92b0070f1600f3e3dc18187d16462b1cf37.json.gz"
+}

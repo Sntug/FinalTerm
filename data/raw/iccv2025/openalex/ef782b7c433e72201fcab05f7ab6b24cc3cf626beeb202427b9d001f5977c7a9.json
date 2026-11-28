@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22UKBOB%3A+One+Billion+MRI+Labeled+Masks+for+Generalizable+3D+Medical+Image+Segmentation%22",
+  "fetched_at": "2026-11-26T16:11:42Z",
+  "http_status": 200,
+  "content_sha256": "2ebb832e3a427e83726e4c75e3c447fbd36b55fb400a9d8c54de2f12a1ecc3b4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/2ebb832e3a427e83726e4c75e3c447fbd36b55fb400a9d8c54de2f12a1ecc3b4.json.gz"
+}

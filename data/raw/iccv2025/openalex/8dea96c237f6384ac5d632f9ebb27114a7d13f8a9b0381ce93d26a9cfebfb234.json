@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22HVPUNet%3A+Hybrid-Voxel+Point-cloud+Upsampling+Network%22",
+  "fetched_at": "2026-11-26T16:04:00Z",
+  "http_status": 200,
+  "content_sha256": "c783f44ea4db186a4b12fb2ca4856f6fcc85b3420e8370dda6373da18618e527",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c783f44ea4db186a4b12fb2ca4856f6fcc85b3420e8370dda6373da18618e527.json.gz"
+}

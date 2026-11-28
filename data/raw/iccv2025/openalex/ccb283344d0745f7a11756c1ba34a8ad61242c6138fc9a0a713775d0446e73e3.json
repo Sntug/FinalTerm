@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Skeleton+Motion+Words+for+Unsupervised+Skeleton-Based+Temporal+Action+Segmentation%22",
+  "fetched_at": "2026-11-26T16:09:32Z",
+  "http_status": 200,
+  "content_sha256": "149494c4394abd9dc4c9732f1cddc4af61bf945c8c51cc946a94a4191e9aba8d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/149494c4394abd9dc4c9732f1cddc4af61bf945c8c51cc946a94a4191e9aba8d.json.gz"
+}

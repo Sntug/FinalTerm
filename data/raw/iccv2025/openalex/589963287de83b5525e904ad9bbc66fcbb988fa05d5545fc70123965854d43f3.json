@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Alleviating+Textual+Reliance+in+Medical+Language-guided+Segmentation+via+Prototype-driven+Semantic+Approximation%22",
+  "fetched_at": "2026-11-26T16:14:10Z",
+  "http_status": 200,
+  "content_sha256": "4c05f0f5db142692b1ca2894a2f1ca8d2a3eb80bec0c43ca461ea97669e04ceb",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/4c05f0f5db142692b1ca2894a2f1ca8d2a3eb80bec0c43ca461ea97669e04ceb.json.gz"
+}

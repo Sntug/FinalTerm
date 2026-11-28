@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Is+CLIP+ideal%3F+No.+Can+we+fix+it%3F+Yes%21%22",
+  "fetched_at": "2026-11-26T16:05:15Z",
+  "http_status": 200,
+  "content_sha256": "a22250eef9351d88a2fb92f1bd5ba68f2aed54116876729d9853059a97cdfc8e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a22250eef9351d88a2fb92f1bd5ba68f2aed54116876729d9853059a97cdfc8e.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Free-Form+Motion+Control%3A+Controlling+the+6D+Poses+of+Camera+and+Objects+in+Video+Generation%22",
+  "fetched_at": "2026-11-26T16:06:36Z",
+  "http_status": 200,
+  "content_sha256": "45d9b4a8b76338f8b05ab638b54e9385463f2d8ed5a2a87598b34d1e6bc94c93",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/45d9b4a8b76338f8b05ab638b54e9385463f2d8ed5a2a87598b34d1e6bc94c93.json.gz"
+}

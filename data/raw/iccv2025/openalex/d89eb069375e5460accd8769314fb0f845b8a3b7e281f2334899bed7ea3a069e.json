@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Tensor-aggregated+LoRA+in+Federated+Fine-tuning%22",
+  "fetched_at": "2026-11-26T16:04:18Z",
+  "http_status": 200,
+  "content_sha256": "6c92a1151229b9382c0543e4a30ae0d54c34847f04e11f0dcd06c50ba420926a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/6c92a1151229b9382c0543e4a30ae0d54c34847f04e11f0dcd06c50ba420926a.json.gz"
+}

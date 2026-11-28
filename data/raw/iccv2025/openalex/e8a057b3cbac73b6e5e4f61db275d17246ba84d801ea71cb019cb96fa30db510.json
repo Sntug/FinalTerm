@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Prototypes+are+Balanced+Units+for+Efficient+and+Effective+Partially+Relevant+Video+Retrieval%22",
+  "fetched_at": "2026-11-26T16:08:54Z",
+  "http_status": 200,
+  "content_sha256": "be99eda8cc93a22b173d5fe6660dafbfb3dc0b23098b05107a73f9259f55de59",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/be99eda8cc93a22b173d5fe6660dafbfb3dc0b23098b05107a73f9259f55de59.json.gz"
+}

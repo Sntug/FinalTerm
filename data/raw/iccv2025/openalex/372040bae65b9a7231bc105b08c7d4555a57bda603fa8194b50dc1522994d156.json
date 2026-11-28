@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MMGeo%3A+Multimodal+Compositional+Geo-Localization+for+UAVs%22",
+  "fetched_at": "2026-11-26T16:07:21Z",
+  "http_status": 200,
+  "content_sha256": "ca8f1f99555733646e7c8eeffbf6ff86bb8a526d2655a95d657708cec4b1fa68",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ca8f1f99555733646e7c8eeffbf6ff86bb8a526d2655a95d657708cec4b1fa68.json.gz"
+}

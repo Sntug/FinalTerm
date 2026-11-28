@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CRAM%3A+Large+Scale+Video+Continual+Learning+with+Bootstrapped+Compression%22",
+  "fetched_at": "2026-11-26T16:10:20Z",
+  "http_status": 200,
+  "content_sha256": "cb75a03160b3beaa313103d8391964c87425ea97725769345201121ccadadefe",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/cb75a03160b3beaa313103d8391964c87425ea97725769345201121ccadadefe.json.gz"
+}

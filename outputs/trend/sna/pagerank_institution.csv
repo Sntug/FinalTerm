@@ -1,0 +1,433 @@
+institution_id,name,country_code,pagerank,rank,degree,strength,n_papers
+institution:openalex:I99065089,Tsinghua University,CN,0.0172790720,1,48,69,36
+institution:openalex:I76130692,Zhejiang University,CN,0.0143240356,2,38,54,29
+institution:openalex:I20231570,Peking University,CN,0.0133533788,3,32,52,26
+institution:openalex:I35440088,ETH Zurich,CH,0.0128319497,4,33,43,23
+institution:openalex:I4391012619,Shanghai Artificial Intelligence Laboratory,CN,0.0118847506,5,30,46,18
+institution:openalex:I45928872,Alibaba Group (China),CN,0.0115684576,6,29,47,22
+institution:openalex:I157773358,Sun Yat-sen University,CN,0.0109367072,7,33,42,21
+institution:openalex:I889458895,University of Hong Kong,HK,0.0107070997,8,29,42,16
+institution:openalex:I19820366,Chinese Academy of Sciences,CN,0.0106686908,9,24,44,17
+institution:openalex:I172675005,Nanyang Technological University,SG,0.0104208237,10,31,40,21
+institution:openalex:I177725633,Chinese University of Hong Kong,HK,0.0103140300,11,26,41,20
+institution:openalex:I183067930,Shanghai Jiao Tong University,CN,0.0096561679,12,28,37,20
+institution:openalex:I2250653659,Tencent (China),CN,0.0094683598,13,25,37,19
+institution:openalex:I4210136793,Peng Cheng Laboratory,CN,0.0091938091,14,24,38,19
+institution:openalex:I200769079,Hong Kong University of Science and Technology,HK,0.0090755277,15,26,35,19
+institution:openalex:I62916508,Technical University of Munich,DE,0.0089596662,16,21,25,14
+institution:openalex:I1290206253,Microsoft (United States),US,0.0083203098,17,23,29,13
+institution:openalex:I74973139,Carnegie Mellon University,US,0.0082387703,18,23,26,19
+institution:openalex:I1294671590,Centre National de la Recherche Scientifique,FR,0.0081303529,19,22,23,5
+institution:openalex:I126520041,University of Science and Technology of China,CN,0.0077946075,20,22,31,17
+institution:openalex:I40120149,University of Oxford,GB,0.0077503208,21,16,21,12
+institution:openalex:I185261750,University of Toronto,CA,0.0077125796,22,15,20,12
+institution:openalex:I82880672,Beihang University,CN,0.0068092288,23,18,21,11
+institution:openalex:I165932596,National University of Singapore,SG,0.0067718105,24,22,25,18
+institution:openalex:I1291425158,Google (United States),US,0.0066004875,25,16,18,17
+institution:openalex:I2250955327,Huawei Technologies (China),CN,0.0062747762,26,18,24,18
+institution:openalex:I4210127875,Nvidia (United States),US,0.0059435724,27,14,17,8
+institution:openalex:I4210165038,University of Chinese Academy of Sciences,CN,0.0059277879,28,14,25,9
+institution:openalex:I47720641,Huazhong University of Science and Technology,CN,0.0056814638,29,17,20,13
+institution:openalex:I87445476,Xi'an Jiaotong University,CN,0.0054313286,30,15,21,15
+institution:openalex:I4405261251,The Hong Kong University of Science and Technology (Guangzhou),CN,0.0053100713,31,14,17,9
+institution:openalex:I90610280,South China University of Technology,CN,0.0052203423,32,19,20,11
+institution:openalex:I37461747,Wuhan University,CN,0.0051111843,33,14,18,13
+institution:openalex:I204983213,Harbin Institute of Technology,CN,0.0051044737,34,17,20,10
+institution:openalex:I24943067,Fudan University,CN,0.0050648245,35,15,15,10
+institution:openalex:I1306409833,Adobe Systems (United States),US,0.0049688115,36,10,11,9
+institution:openalex:I145311948,Johns Hopkins University,US,0.0049451364,37,13,14,8
+institution:openalex:I129604602,The University of Sydney,AU,0.0048135020,38,16,17,9
+institution:openalex:I95457486,"University of California, Berkeley",US,0.0047650545,39,14,15,9
+institution:openalex:I47508984,Imperial College London,GB,0.0046844490,40,10,10,7
+institution:openalex:I193775966,Yonsei University,KR,0.0046419853,41,11,11,7
+institution:openalex:I4210112150,Institute of Automation,CN,0.0046239159,42,9,19,8
+institution:openalex:I115228651,"Agency for Science, Technology and Research",SG,0.0043672200,43,12,16,8
+institution:openalex:I2746051580,Université Paris Sciences et Lettres,FR,0.0043295459,44,8,11,3
+institution:openalex:I70768539,École Nationale Supérieure des Mines de Paris,FR,0.0043295459,45,8,11,3
+institution:openalex:I21193070,Beijing Jiaotong University,CN,0.0042542727,46,14,14,7
+institution:openalex:I97018004,Stanford University,US,0.0041766727,47,15,15,9
+institution:openalex:I881766915,Nanjing University,CN,0.0041614614,48,13,14,8
+institution:openalex:I4210109712,Max Planck Institute for Informatics,DE,0.0041578036,49,11,11,7
+institution:openalex:I168719708,City University of Hong Kong,HK,0.0041556367,50,13,14,6
+institution:openalex:I66946132,"University of Maryland, College Park",US,0.0041542839,51,12,12,5
+institution:openalex:I118347636,Australian National University,AU,0.0041467702,52,11,14,6
+institution:openalex:I4210127509,Vector Institute,CA,0.0041011902,53,8,11,5
+institution:openalex:I58918642,"Sofia University ""St. Kliment Ohridski""",BG,0.0039774629,54,9,13,4
+institution:openalex:I4405281272,Alibaba DAMO Academy (China),CN,0.0039177273,55,11,16,6
+institution:openalex:I1341412227,IBM (United States),US,0.0039066150,56,10,11,5
+institution:openalex:I1332474105,Mercedes-Benz (Germany),DE,0.0038048935,57,6,6,3
+institution:openalex:I1304085615,Nvidia (United Kingdom),GB,0.0037901705,58,11,12,4
+institution:openalex:I3045169105,Southern University of Science and Technology,CN,0.0037376335,59,11,12,5
+institution:openalex:I201448701,University of Washington,US,0.0037309753,60,12,12,6
+institution:openalex:I98301712,Baidu (China),CN,0.0036474341,61,11,13,8
+institution:openalex:I1326498283,Institut national de recherche en sciences et technologies du numérique,FR,0.0036407783,62,10,11,4
+institution:openalex:I4210113480,Mohamed bin Zayed University of Artificial Intelligence,AE,0.0036385437,63,11,11,6
+institution:openalex:I14243506,Hong Kong Polytechnic University,HK,0.0036246758,64,11,13,8
+institution:openalex:I139759216,Beijing University of Posts and Telecommunications,CN,0.0036130681,65,11,13,10
+institution:openalex:I74801974,The University of Tokyo,JP,0.0035802885,66,11,12,6
+institution:openalex:I25974101,University of Würzburg,DE,0.0035641432,67,11,12,2
+institution:openalex:I186903577,University of Luxembourg,LU,0.0035605256,68,2,2,1
+institution:openalex:I197347611,Korea University,KR,0.0035279021,69,6,6,5
+institution:openalex:I76569877,Southeast University,CN,0.0034983341,70,13,13,7
+institution:openalex:I78577930,Columbia University,US,0.0034897029,71,10,10,5
+institution:openalex:I1311688040,Amazon (United States),US,0.0034384420,72,10,11,6
+institution:openalex:I4405257466,Computer Vision Laboratory,CH,0.0032600168,73,7,11,4
+institution:openalex:I4405271667,Beijing National Research Center for Information Science and Technology,CN,0.0032327396,74,7,13,5
+institution:openalex:I191208505,Xiamen University,CN,0.0032129620,75,8,8,5
+institution:openalex:I4401727009,Sensetime (China),CN,0.0031731915,76,9,10,6
+institution:openalex:I12912129,Northeastern University,US,0.0031376090,77,8,8,5
+institution:openalex:I17145004,Northwestern Polytechnical University,CN,0.0030963963,78,8,8,9
+institution:openalex:I4405260609,NAVER Cloud (South Korea),KR,0.0030405888,79,6,6,3
+institution:openalex:I139264467,Seoul National University,KR,0.0030402042,80,7,7,11
+institution:openalex:I157725225,University of Illinois Urbana-Champaign,US,0.0030126958,81,9,9,9
+institution:openalex:I200719446,Vanderbilt University,US,0.0029935564,82,7,8,3
+institution:openalex:I157485424,Korea Advanced Institute of Science and Technology,KR,0.0029846041,83,5,6,15
+institution:openalex:I8087733,University of Tübingen,DE,0.0029832221,84,5,5,3
+institution:openalex:I45084792,University of Florence,IT,0.0029482638,85,6,6,2
+institution:openalex:I50760025,Hangzhou Dianzi University,CN,0.0029363940,86,10,10,3
+institution:openalex:I4403386650,Centre de Robotique,FR,0.0029310473,87,5,7,2
+institution:openalex:I4392738276,State Key Laboratory of Virtual Reality Technology and Systems,CN,0.0028766503,88,5,8,4
+institution:openalex:I162868743,Tianjin University,CN,0.0028590096,89,8,8,5
+institution:openalex:I4405270328,Ant Group (China),CN,0.0028368296,90,7,11,4
+institution:openalex:I1292875679,Commonwealth Scientific and Industrial Research Organisation,AU,0.0028116991,91,8,10,3
+institution:openalex:I42894916,Data61,AU,0.0028116991,92,8,10,3
+institution:openalex:I150229711,University of Electronic Science and Technology of China,CN,0.0027702858,93,9,10,8
+institution:openalex:I3005327000,Institute for Infocomm Research,SG,0.0027546421,94,6,10,4
+institution:openalex:I149594827,Xidian University,CN,0.0027185296,95,8,9,8
+institution:openalex:I5681781,The University of Adelaide,AU,0.0027159200,96,7,9,5
+institution:openalex:I4210086143,Alibaba Group (Cayman Islands),KY,0.0027111447,97,7,11,4
+institution:openalex:I36258959,University of California San Diego,US,0.0026469443,98,3,3,3
+institution:openalex:I63966007,Massachusetts Institute of Technology,US,0.0026389567,99,6,7,5
+institution:openalex:I4210113369,Microsoft Research Asia (China),CN,0.0026209256,100,5,10,6
+institution:openalex:I4403386549,Munich Center for Machine Learning,DE,0.0026106872,101,5,7,2
+institution:openalex:I71920554,King Abdullah University of Science and Technology,SA,0.0025957241,102,6,7,6
+institution:openalex:I4210145102,Institut Polytechnique de Paris,FR,0.0025803897,103,5,5,2
+institution:openalex:I16733864,National Taiwan University,TW,0.0025756348,104,4,4,3
+institution:openalex:I4210090176,Institute of Computing Technology,CN,0.0025696335,105,7,10,3
+institution:openalex:I138006243,University of Arizona,US,0.0025693533,106,7,7,1
+institution:openalex:I16285277,William & Mary,US,0.0025693533,107,7,7,1
+institution:openalex:I170201317,University of Pittsburgh,US,0.0025693533,108,7,7,1
+institution:openalex:I219193219,Purdue University West Lafayette,US,0.0025693533,109,7,7,4
+institution:openalex:I848706,Sungkyunkwan University,KR,0.0025503895,110,7,7,5
+institution:openalex:I93860229,Politecnico di Milano,IT,0.0025058834,111,3,3,2
+institution:openalex:I4210114444,Meta (United States),US,0.0024941385,112,6,6,5
+institution:openalex:I131249849,Oregon State University,US,0.0024766764,113,7,7,3
+institution:openalex:I148366613,National Yang Ming Chiao Tung University,TW,0.0024605108,114,5,5,4
+institution:openalex:I135140700,University of Bonn,DE,0.0024456978,115,5,5,4
+institution:openalex:I4210126580,RIKEN Center for Advanced Intelligence Project,JP,0.0024423757,116,8,8,3
+institution:openalex:I114027177,University of North Carolina at Chapel Hill,US,0.0024396194,117,1,1,1
+institution:openalex:I118501908,National Research University Higher School of Economics,RU,0.0024396194,118,2,2,1
+institution:openalex:I124227911,Ben-Gurion University of the Negev,IL,0.0024396194,119,1,1,1
+institution:openalex:I1344073410,Howard Hughes Medical Institute,US,0.0024396194,120,2,2,1
+institution:openalex:I13469542,Vrije Universiteit Brussel,BE,0.0024396194,121,1,1,1
+institution:openalex:I135768898,Ritsumeikan University,JP,0.0024396194,122,1,1,1
+institution:openalex:I138689650,University of Padua,IT,0.0024396194,123,1,1,1
+institution:openalex:I15089104,China Aerospace Science and Industry Corporation (China),CN,0.0024396194,124,1,1,1
+institution:openalex:I154570441,"University of California, Santa Barbara",US,0.0024396194,125,1,1,1
+institution:openalex:I195573530,Janelia Research Campus,US,0.0024396194,126,2,2,1
+institution:openalex:I205582932,Max Delbrück Center,DE,0.0024396194,127,2,2,1
+institution:openalex:I2252096349,Fujitsu (Japan),JP,0.0024396194,128,1,1,1
+institution:openalex:I2277624104,Fondazione Bruno Kessler,IT,0.0024396194,129,1,1,1
+institution:openalex:I277688954,Université Paris-Saclay,FR,0.0024396194,130,1,1,1
+institution:openalex:I28777354,Sejong University,KR,0.0024396194,131,1,1,1
+institution:openalex:I4210097372,École Nationale Supérieure d’Informatique pour l’Industrie et l’Entreprise,FR,0.0024396194,132,1,1,1
+institution:openalex:I4210114974,IMEC,BE,0.0024396194,133,1,1,1
+institution:openalex:I4210131846,Artificial Intelligence Research Institute,ES,0.0024396194,134,2,2,1
+institution:openalex:I4210153776,Apple (United States),US,0.0024396194,135,1,1,2
+institution:openalex:I4210157875,Institute of Advanced Research in Artificial Intelligence,AT,0.0024396194,136,1,1,1
+institution:openalex:I4392021246,AIRI - Artificial Intelligence Research Institute,RU,0.0024396194,137,2,2,1
+institution:openalex:I592451,Indiana University,US,0.0024396194,138,1,1,1
+institution:openalex:I75917431,Nara Institute of Science and Technology,JP,0.0024396194,139,1,1,1
+institution:openalex:I96908189,Xinjiang University,CN,0.0024396194,140,1,1,1
+institution:openalex:I174306211,Technion – Israel Institute of Technology,IL,0.0024286614,141,5,5,3
+institution:openalex:I4405256866,ByteDance (China),CN,0.0023862039,142,8,8,6
+institution:openalex:I27357992,Dalian University of Technology,CN,0.0023617847,143,9,9,5
+institution:openalex:I4210110652,RIKEN,JP,0.0023563724,144,7,7,3
+institution:openalex:I165143802,The University of Queensland,AU,0.0023327761,145,8,8,3
+institution:openalex:I123534392,University of North Texas,US,0.0023320580,146,6,8,3
+institution:openalex:I177064439,Université de Bourgogne,FR,0.0022957899,147,7,7,1
+institution:openalex:I4210135521,Max Planck Institute for Intelligent Systems,DE,0.0022697454,148,4,4,3
+institution:openalex:I123900574,Pohang University of Science and Technology,KR,0.0022592045,149,6,6,4
+institution:openalex:I2250650973,Samsung (South Korea),KR,0.0022547627,150,6,6,3
+institution:openalex:I148751991,Sogang University,KR,0.0022491425,151,3,4,2
+institution:openalex:I4921948,Pusan National University,KR,0.0022491425,152,3,4,2
+institution:openalex:I108290504,University of Pisa,IT,0.0022457219,153,4,4,1
+institution:openalex:I122346577,University of Modena and Reggio Emilia,IT,0.0022457219,154,4,4,1
+institution:openalex:I141945490,University of British Columbia,CA,0.0022373483,155,7,8,3
+institution:openalex:I152815399,Singapore University of Technology and Design,SG,0.0022318417,156,4,4,3
+institution:openalex:I69356397,Xi’an Jiaotong-Liverpool University,CN,0.0022004535,157,5,5,3
+institution:openalex:I1174212,University of Southern California,US,0.0021952035,158,6,6,3
+institution:openalex:I30809798,ShanghaiTech University,CN,0.0021285328,159,7,7,5
+institution:openalex:I4210086894,"Research Center for Information Technology Innovation, Academia Sinica",TW,0.0021075353,160,3,3,1
+institution:openalex:I4210098366,"Institute of Information Science, Academia Sinica",TW,0.0021075353,161,3,3,1
+institution:openalex:I84653119,Academia Sinica,TW,0.0021075353,162,3,3,1
+institution:openalex:I24185976,Sichuan University,CN,0.0020952485,163,5,5,3
+institution:openalex:I27837315,University of Michigan,US,0.0020890704,164,5,5,5
+institution:openalex:I4405263052,Tsinghua Shenzhen International Graduate School,CN,0.0020724446,165,6,6,3
+institution:openalex:I241749,University of Cambridge,GB,0.0020620007,166,5,5,3
+institution:openalex:I4210107562,Semyung University,KR,0.0019978363,167,3,3,1
+institution:openalex:I4210140519,Korean Association Of Science and Technology Studies,KR,0.0019978363,168,3,3,1
+institution:openalex:I58716616,Korea Institute of Science and Technology,KR,0.0019978363,169,3,3,1
+institution:openalex:I106165777,University of Central Florida,US,0.0019948262,170,6,6,5
+institution:openalex:I1327237609,Ministry of Education of the People's Republic of China,CN,0.0019872364,171,5,5,2
+institution:openalex:I4405258446,LG AI Research (South Korea),KR,0.0019435595,172,4,4,2
+institution:openalex:I4401726856,Xiaohongshu (Little Red Book) (China),CN,0.0019380503,173,3,3,2
+institution:openalex:I2802519937,Institut de Recherche en Informatique et Systèmes Aléatoires,FR,0.0019341742,174,5,5,1
+institution:openalex:I4210160484,Laboratoire Mouvement Sport Santé,FR,0.0019341742,175,5,5,1
+institution:openalex:I4405260104,MIMETIC: Analysis-Synthesis Approach for Virtual Human Simulation,FR,0.0019341742,176,5,5,1
+institution:openalex:I56067802,Université de Rennes,FR,0.0019341742,177,5,5,1
+institution:openalex:I4210120115,Robert Bosch (United States),US,0.0019081763,178,5,5,1
+institution:openalex:I4210145457,Robert Bosch (Taiwan),TW,0.0019081763,179,5,5,1
+institution:openalex:I4210151956,Robert Bosch (India),IN,0.0019081763,180,5,5,1
+institution:openalex:I16365422,Hefei University of Technology,CN,0.0018927863,181,5,6,2
+institution:openalex:I192455969,York University,CA,0.0018800787,182,4,5,2
+institution:openalex:I4405260920,National School of Computer Science,TN,0.0018791664,183,1,1,1
+institution:openalex:I83259278,Manouba University,TN,0.0018791664,184,1,1,1
+institution:openalex:I130701444,Georgia Institute of Technology,US,0.0018388480,185,5,5,3
+institution:openalex:I142631665,École nationale des ponts et chaussées,FR,0.0018383792,186,4,4,1
+institution:openalex:I220619192,Valeo (France),FR,0.0018383792,187,4,4,1
+institution:openalex:I4210152518,Laboratoire d'Informatique Gaspard-Monge,FR,0.0018383792,188,4,4,1
+institution:openalex:I4210154111,Université Gustave Eiffel,FR,0.0018383792,189,4,4,1
+institution:openalex:I889804353,Robert Bosch (Germany),DE,0.0018336067,190,3,3,2
+institution:openalex:I161318765,"University of California, Los Angeles",US,0.0018121080,191,2,2,2
+institution:openalex:I4210145184,Honda (United States),US,0.0018097610,192,2,3,3
+institution:openalex:I4405271240,"Honda Research Institute, USA",US,0.0018097610,193,2,3,3
+institution:openalex:I4210139986,Microsoft (Switzerland),CH,0.0017988130,194,5,5,2
+institution:openalex:I16391192,Tel Aviv University,IL,0.0017972662,195,3,3,1
+institution:openalex:I197251160,Hebrew University of Jerusalem,IL,0.0017972662,196,3,3,1
+institution:openalex:I204136569,The Open University,GB,0.0017972662,197,3,3,1
+institution:openalex:I4210091436,Hochschule Bremerhaven,DE,0.0017917842,198,6,6,1
+institution:openalex:I4392738278,Beijing Institute for General Artificial Intelligence,CN,0.0017639704,199,6,6,2
+institution:openalex:I141445968,Ton Duc Thang University,VN,0.0017633563,200,3,3,1
+institution:openalex:I145847075,TU Wien,AT,0.0017633563,201,3,3,1
+institution:openalex:I146655781,University of Liverpool,GB,0.0017633563,202,3,3,1
+institution:openalex:I4405259277,Samsung Electronics (South Korea),KR,0.0017525785,203,3,3,1
+institution:openalex:I1343180700,Intel (United States),US,0.0017409737,204,3,3,4
+institution:openalex:I4210130157,Institute of Informatics and Telematics,IT,0.0017380454,205,3,3,1
+institution:openalex:I4210155236,National Research Council,IT,0.0017380454,206,3,3,1
+institution:openalex:I9842412,Nanjing University of Aeronautics and Astronautics,CN,0.0017178545,207,5,5,3
+institution:openalex:I4210103986,Jingdong (China),CN,0.0017161993,208,5,5,2
+institution:openalex:I4210121838,Laboratoire Lorrain de Recherche en Informatique et ses Applications,FR,0.0017113668,209,5,5,1
+institution:openalex:I90183372,Université de Lorraine,FR,0.0017113668,210,5,5,1
+institution:openalex:I4210094701,Centre de Mise en Forme des Matériaux,FR,0.0016959036,211,4,4,1
+institution:openalex:I4210108605,Centre des Matériaux,FR,0.0016959036,212,4,4,1
+institution:openalex:I86519309,The University of Texas at Austin,US,0.0016958457,213,3,3,7
+institution:openalex:I158842170,Chongqing University,CN,0.0016898883,214,4,4,3
+institution:openalex:I4210145761,Shenzhen Institutes of Advanced Technology,CN,0.0016822317,215,5,5,2
+institution:openalex:I25254941,Beijing Normal University,CN,0.0016695305,216,6,6,2
+institution:openalex:I156087764,"University of California, Merced",US,0.0016617246,217,3,4,2
+institution:openalex:I57206974,New York University,US,0.0016609754,218,2,2,2
+institution:openalex:I86987016,KTH Royal Institute of Technology,SE,0.0016524280,219,4,4,1
+institution:openalex:I9360294,University of Bologna,IT,0.0016524280,220,4,4,2
+institution:openalex:I177802217,University of Mannheim,DE,0.0016520935,221,5,5,1
+institution:openalex:I6469544,City University of Macau,MO,0.0016520935,222,5,5,1
+institution:openalex:I79619799,University of Birmingham,GB,0.0016175444,223,4,4,2
+institution:openalex:I4210090411,Google DeepMind (United Kingdom),GB,0.0016167292,224,2,4,5
+institution:openalex:I4210124078,Torc Robotics (United States),US,0.0016149698,225,2,2,2
+institution:openalex:I22299242,Kyoto University,JP,0.0016027167,226,3,3,3
+institution:openalex:I24603500,University of Massachusetts Amherst,US,0.0015962548,227,4,5,2
+institution:openalex:I124055696,University of Copenhagen,DK,0.0015901214,228,5,5,1
+institution:openalex:I4405258931,MIT Computer Science and Artificial Intelligence Laboratory,US,0.0015677848,229,3,3,2
+institution:openalex:I51601045,University of Bath,GB,0.0015577750,230,4,5,4
+institution:openalex:I78988378,Renmin University of China,CN,0.0015535688,231,5,5,2
+institution:openalex:I24676775,Indian Institute of Technology Madras,IN,0.0015509947,232,2,2,2
+institution:openalex:I9224756,Northeastern University,CN,0.0015471455,233,4,4,1
+institution:openalex:I4210116924,"Chinese University of Hong Kong, Shenzhen",CN,0.0015418798,234,5,5,2
+institution:openalex:I154526488,Inserm,FR,0.0015378749,235,3,3,1
+institution:openalex:I4210100283,"Laboratoire des Sciences de l'Ingénieur, de l'Informatique et de l'Imagerie",FR,0.0015378749,236,3,3,1
+institution:openalex:I68947357,Université de Strasbourg,FR,0.0015378749,237,3,3,1
+institution:openalex:I102322142,"Rutgers, The State University of New Jersey",US,0.0015251241,238,2,2,1
+institution:openalex:I99464096,KU Leuven,BE,0.0015172553,239,5,5,4
+institution:openalex:I114017466,University of Technology Sydney,AU,0.0015114494,240,4,5,2
+institution:openalex:I185103710,"University of California, Santa Cruz",US,0.0015095629,241,3,3,2
+institution:openalex:I55712492,Zhejiang University of Technology,CN,0.0015091994,242,2,2,2
+institution:openalex:I4210123185,Zhejiang Lab,CN,0.0015068158,243,3,3,1
+institution:openalex:I111950717,Macau University of Science and Technology,MO,0.0015059409,244,5,5,1
+institution:openalex:I75867142,Xiamen University of Technology,CN,0.0014790214,245,3,3,1
+institution:openalex:I91044093,Zayed University,AE,0.0014790214,246,3,3,1
+institution:openalex:I4210128818,Institute of Software,CN,0.0014752494,247,3,5,2
+institution:openalex:I79891267,Singapore Management University,SG,0.0014664701,248,3,3,2
+institution:openalex:I111088046,Boston University,US,0.0014612335,249,2,2,1
+institution:openalex:I56590836,Monash University,AU,0.0014612335,250,2,2,1
+institution:openalex:I4391767781,State Key Laboratory of Software Development Environment,CN,0.0014407917,251,4,4,1
+institution:openalex:I63190737,"University at Buffalo, State University of New York",US,0.0014377391,252,2,2,3
+institution:openalex:I185443292,Wayne State University,US,0.0014152821,253,3,4,2
+institution:openalex:I134656947,Esslingen University of Applied Sciences,DE,0.0014121172,254,2,2,1
+institution:openalex:I3004594783,Institute of High Performance Computing,SG,0.0014118738,255,4,4,2
+institution:openalex:I114090438,Goethe University Frankfurt,DE,0.0014048712,256,3,3,1
+institution:openalex:I143804889,Loughborough University,GB,0.0014036852,257,2,2,2
+institution:openalex:I39804081,Sorbonne Université,FR,0.0013993203,258,2,2,1
+institution:openalex:I4210165912,Laboratoire Traitement et Communication de l’Information,FR,0.0013993203,259,2,2,1
+institution:openalex:I36399199,Nanjing University of Science and Technology,CN,0.0013973780,260,2,2,2
+institution:openalex:I201181511,École Nationale Supérieure de Techniques Avancées,FR,0.0013909674,261,3,3,1
+institution:openalex:I4405258625,École Nationale Supérieure de Techniques Avancées Paris,FR,0.0013909674,262,3,3,1
+institution:openalex:I157386601,North South University,BD,0.0013613977,263,4,4,1
+institution:openalex:I28290843,University of Surrey,GB,0.0013289062,264,2,2,2
+institution:openalex:I4401726934,IFlyTek (China),CN,0.0013289062,265,2,2,1
+institution:openalex:I142108993,Southwest University,CN,0.0013216725,266,3,3,1
+institution:openalex:I4210095659,Peking University School and Hospital of Stomatology,CN,0.0013216725,267,3,3,1
+institution:openalex:I135310074,University of Wisconsin–Madison,US,0.0012966120,268,4,4,2
+institution:openalex:I116953780,Tongji University,CN,0.0012893499,269,3,3,3
+institution:openalex:I1314466530,Tokai University,JP,0.0012869913,270,2,2,1
+institution:openalex:I43313876,Dalian Maritime University,CN,0.0012869913,271,2,2,1
+institution:openalex:I139660479,Central South University,CN,0.0012785695,272,3,3,1
+institution:openalex:I29739308,Guangxi Normal University,CN,0.0012785695,273,3,3,1
+institution:openalex:I32971472,Yale University,US,0.0012699628,274,4,4,1
+institution:openalex:I4401726859,Kuaishou (China),CN,0.0012680620,275,4,4,3
+institution:openalex:I4405259049,Shanghai Qi Zhi Institute,CN,0.0012665828,276,4,4,1
+institution:openalex:I4210148944,Dà-Jiāng Innovations Science and Technology (China),CN,0.0012658087,277,4,4,2
+institution:openalex:I190082696,Durham University,GB,0.0012518273,278,3,3,1
+institution:openalex:I4210150356,University of Washington Tacoma,US,0.0012472351,279,4,4,1
+institution:openalex:I4391768151,Toyota Research Institute,US,0.0012428992,280,3,3,3
+institution:openalex:I161046081,University of Freiburg,DE,0.0012420354,281,2,3,2
+institution:openalex:I4387153096,Computer Vision Center,ES,0.0012364568,282,4,4,1
+institution:openalex:I71999127,Universitat de Barcelona,ES,0.0012364568,283,4,4,1
+institution:openalex:I91045830,Texas A&M University,US,0.0012290583,284,4,4,1
+institution:openalex:I8078737,Clemson University,US,0.0012185987,285,3,3,1
+institution:openalex:I67900169,Chung-Ang University,KR,0.0012115807,286,1,2,2
+institution:openalex:I91712215,Saarland University,DE,0.0012067496,287,2,2,2
+institution:openalex:I33256026,German Research Centre for Artificial Intelligence,DE,0.0011951194,288,3,3,1
+institution:openalex:I25757504,China University of Mining and Technology,CN,0.0011919687,289,3,3,1
+institution:openalex:I1325886976,Siemens (Germany),DE,0.0011819937,290,2,2,1
+institution:openalex:I8204097,Ludwig-Maximilians-Universität München,DE,0.0011819937,291,2,2,1
+institution:openalex:I4210155268,Salesforce (United States),US,0.0011798631,292,3,3,2
+institution:openalex:I120250893,New York University Abu Dhabi,AE,0.0011713024,293,3,3,1
+institution:openalex:I125839683,Beijing Institute of Technology,CN,0.0011668253,294,2,2,2
+institution:openalex:I4210106192,Technische Hochschule Ingolstadt,DE,0.0011662114,295,2,2,1
+institution:openalex:I4210111151,Fraunhofer Institute for Transportation and Infrastructure Systems,DE,0.0011662114,296,2,2,1
+institution:openalex:I186143895,Lehigh University,US,0.0011621526,297,3,3,1
+institution:openalex:I4210138186,Wuhan National Laboratory for Optoelectronics,CN,0.0011621526,298,3,3,1
+institution:openalex:I4210159266,Mitsubishi Electric (United States),US,0.0011585797,299,2,2,1
+institution:openalex:I4405253225,Mitsubishi Electric Research Laboratories (United States),US,0.0011585797,300,2,2,1
+institution:openalex:I29607241,École Normale Supérieure - PSL,FR,0.0011487944,301,2,2,1
+institution:openalex:I170897317,Duke University,US,0.0011360888,302,1,1,1
+institution:openalex:I43406934,Université Laval,CA,0.0011338502,303,1,2,2
+institution:openalex:I26538001,San Diego State University,US,0.0011159105,304,1,1,1
+institution:openalex:I4210087596,Qualcomm (United States),US,0.0011159105,305,1,1,2
+institution:openalex:I98677209,University of Edinburgh,GB,0.0011146660,306,3,3,3
+institution:openalex:I20089843,Princeton University,US,0.0011125023,307,3,3,2
+institution:openalex:I4210156221,Allen Institute for Artificial Intelligence,US,0.0011092066,308,2,2,2
+institution:openalex:I4210098034,Key Laboratory of Guangdong Province,CN,0.0011055029,309,2,2,1
+institution:openalex:I5124864,École Polytechnique Fédérale de Lausanne,CH,0.0011055029,310,2,2,1
+institution:openalex:I4210091137,NetEase (China),CN,0.0011023371,311,3,3,2
+institution:openalex:I200650556,University of Agder,NO,0.0010981678,312,2,2,1
+institution:openalex:I204337017,Aarhus University,DK,0.0010981678,313,2,2,1
+institution:openalex:I170215575,National University of Defense Technology,CN,0.0010851243,314,3,3,3
+institution:openalex:I4210131650,Korea Electronics Technology Institute,KR,0.0010788388,315,2,2,1
+institution:openalex:I129043915,University of Udine,IT,0.0010759432,316,1,1,1
+institution:openalex:I16609230,Hunan University,CN,0.0010742726,317,3,3,1
+institution:openalex:I173911158,Iowa State University,US,0.0010718574,318,1,1,1
+institution:openalex:I4210099586,Shenzhen Research Institute of Big Data,CN,0.0010698063,319,3,3,1
+institution:openalex:I4210090971,Southeast University,BD,0.0010695720,320,3,3,2
+institution:openalex:I60922564,Naver (South Korea),KR,0.0010660374,321,2,2,1
+institution:openalex:I4401726921,Cloudwalk (China),CN,0.0010345828,322,3,3,1
+institution:openalex:I107672454,Dartmouth College,US,0.0010285851,323,2,3,2
+institution:openalex:I74775410,Rice University,US,0.0010251156,324,1,1,1
+institution:openalex:I166337079,Queen Mary University of London,GB,0.0010226019,325,3,3,1
+institution:openalex:I204512498,University of Macau,MO,0.0010212108,326,3,3,2
+institution:openalex:I79576946,University of Pennsylvania,US,0.0010199163,327,2,2,3
+institution:openalex:I4405253057,Istraživačko-razvojni institut za veštačku inteligenciju Srbije,RS,0.0010141206,328,1,1,1
+institution:openalex:I122411786,California Institute of Technology,US,0.0010110036,329,2,2,2
+institution:openalex:I102335020,Karlsruhe Institute of Technology,DE,0.0010106377,330,2,2,1
+institution:openalex:I4400573310,Hangzhou City University,CN,0.0010073527,331,1,1,1
+institution:openalex:I205237279,Nankai University,CN,0.0010011300,332,2,2,4
+institution:openalex:I100066346,University of Stuttgart,DE,0.0009918564,333,2,2,1
+institution:openalex:I98358874,Delft University of Technology,NL,0.0009849135,334,2,2,2
+institution:openalex:I901861585,Vanderbilt University Medical Center,US,0.0009811869,335,2,2,1
+institution:openalex:I136199984,Harvard University,US,0.0009769820,336,1,1,2
+institution:openalex:I4210142583,Snap (United States),US,0.0009752002,337,1,2,2
+institution:openalex:I169199633,Aston University,GB,0.0009625091,338,1,1,1
+institution:openalex:I60158472,Concordia University,CA,0.0009520227,339,2,2,1
+institution:openalex:I173759888,Hunan Normal University,CN,0.0009472114,340,2,2,1
+institution:openalex:I204250578,"University of California, Irvine",US,0.0009467246,341,2,2,2
+institution:openalex:I5023651,McGill University,CA,0.0009203370,342,2,2,1
+institution:openalex:I255234318,Universidad de Zaragoza,ES,0.0009086702,343,2,2,1
+institution:openalex:I159948400,Jinan University,CN,0.0009009845,344,2,2,1
+institution:openalex:I121820613,Louisiana State University,US,0.0008987610,345,2,2,1
+institution:openalex:I8679417,Hong Kong Metropolitan University,HK,0.0008949762,346,2,2,1
+institution:openalex:I10535382,Chongqing University of Posts and Telecommunications,CN,0.0008881965,347,2,2,1
+institution:openalex:I4401726832,Tübingen AI Center,DE,0.0008730907,348,1,1,1
+institution:openalex:I3141073880,Sofia University,US,0.0008715081,349,2,2,1
+institution:openalex:I4210161052,Korea University,JP,0.0008657290,350,1,1,1
+institution:openalex:I887064364,University of Amsterdam,NL,0.0008634689,351,2,2,2
+institution:openalex:I39063666,University of Catania,IT,0.0008592188,352,1,1,1
+institution:openalex:I27804330,Brown University,US,0.0008518521,353,2,2,1
+institution:openalex:I137902535,North Carolina State University,US,0.0008481378,354,2,2,1
+institution:openalex:I205783295,Cornell University,US,0.0008382126,355,2,2,1
+institution:openalex:I116265982,Qinghai University,CN,0.0008353046,356,2,2,1
+institution:openalex:I180726961,Shenzhen University,CN,0.0008242791,357,2,2,3
+institution:openalex:I2251713219,NTT (Japan),JP,0.0008200460,358,1,1,1
+institution:openalex:I4210092658,Harvard–MIT Division of Health Sciences and Technology,US,0.0008101486,359,1,1,1
+institution:openalex:I139024713,Guangdong University of Technology,CN,0.0008091456,360,2,2,1
+institution:openalex:I194450716,Jilin University,CN,0.0008051370,361,2,2,1
+institution:openalex:I127108677,Eastern Institute of Technology,NZ,0.0008011085,362,2,2,1
+institution:openalex:I2250865144,TCL (China),CN,0.0007964617,363,2,2,1
+institution:openalex:I5388228,University of Rochester,US,0.0007933891,364,1,2,2
+institution:openalex:I187400657,South China Normal University,CN,0.0007814428,365,1,1,1
+institution:openalex:I4210118728,State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing,CN,0.0007789020,366,2,2,1
+institution:openalex:I126231945,Queen's University Belfast,GB,0.0007641211,367,1,1,1
+institution:openalex:I35928602,Kyung Hee University,KR,0.0007246418,368,1,1,1
+institution:openalex:I39534123,Gwangju Institute of Science and Technology,KR,0.0007246418,369,1,1,1
+institution:openalex:I59270414,Indian Institute of Science Bangalore,IN,0.0007192792,370,1,1,1
+institution:openalex:I4405262974,"Contemporary Amperex Technology Co., Limited.",CN,0.0007073201,371,1,1,1
+institution:openalex:I66867065,East China Normal University,CN,0.0007073201,372,1,1,2
+institution:openalex:I4210107353,NEC (United States),US,0.0006993139,373,1,1,1
+institution:openalex:I16038530,Aberystwyth University,GB,0.0006949350,374,1,1,1
+institution:openalex:I99043593,Macquarie University,AU,0.0006949350,375,1,1,1
+institution:openalex:I125133608,Royal Bank of Canada,CA,0.0006937275,376,1,1,1
+institution:openalex:I151746483,University of Waterloo,CA,0.0006937275,377,1,1,1
+institution:openalex:I18014758,Simon Fraser University,CA,0.0006937275,378,1,1,1
+institution:openalex:I84218800,"University of California, Davis",US,0.0006840083,379,1,1,1
+institution:openalex:I195740183,University of Moratuwa,LK,0.0006811380,380,1,1,1
+institution:openalex:I141595442,University of Bucharest,RO,0.0006776326,381,1,1,1
+institution:openalex:I4210153049,Vidyasirimedhi Institute of Science and Technology,TH,0.0006776326,382,1,1,1
+institution:openalex:I31512782,Technische Universität Darmstadt,DE,0.0006705716,383,1,1,1
+institution:openalex:I38877650,Zhengzhou University,CN,0.0006697127,384,1,1,1
+institution:openalex:I25846049,National Tsing Hua University,TW,0.0006678177,385,1,1,1
+institution:openalex:I4210100976,BOE Technology Group (China),CN,0.0006529496,386,1,1,1
+institution:openalex:I130238516,University of Minnesota,US,0.0006485433,387,1,1,1
+institution:openalex:I1323252656,Information Technology University,PK,0.0006471031,388,1,1,1
+institution:openalex:I4210149211,Institute of Semiconductors,CN,0.0006415546,389,1,1,1
+institution:openalex:I162577319,The University of Texas at Dallas,US,0.0006352873,390,1,1,1
+institution:openalex:I38706770,Guilin University of Technology,CN,0.0006306920,391,1,1,1
+institution:openalex:I55732556,Arizona State University,US,0.0006302203,392,1,1,1
+institution:openalex:I168879160,Zhejiang University of Science and Technology,CN,0.0006242380,393,1,1,1
+institution:openalex:I103635307,"University of California, Riverside",US,0.0006186031,394,1,1,1
+institution:openalex:I4210143797,Sony (Japan),JP,0.0006182494,395,1,1,1
+institution:openalex:I4210108461,Kingsoft (China),CN,0.0006074051,396,1,1,1
+institution:openalex:I4210155232,Fiberhome Technology Group (China),CN,0.0006074051,397,1,1,1
+institution:openalex:I4405274904,China Mobile Research Institute,CN,0.0006021820,398,1,1,1
+institution:openalex:I4405278236,Institute of Data Science,SG,0.0005961845,399,1,1,1
+institution:openalex:I130769515,Pennsylvania State University,US,0.0005914138,400,1,1,1
+institution:openalex:I4210158318,Second Affiliated Hospital of Zhejiang University,CN,0.0005914138,401,1,1,1
+institution:openalex:I4401727007,Hikvision (China),CN,0.0005914138,402,1,1,1
+institution:openalex:I1283155146,Panasonic (Japan),JP,0.0005873854,403,1,1,1
+institution:openalex:I141568987,Hong Kong Baptist University,HK,0.0005842193,404,1,1,1
+institution:openalex:I859038795,Virginia Tech,US,0.0005842193,405,1,1,1
+institution:openalex:I3133055985,Westlake University,CN,0.0005751597,406,1,1,2
+institution:openalex:I102134673,Linköping University,SE,0.0003659429,407,0,0,1
+institution:openalex:I111277659,Chonnam National University,KR,0.0003659429,408,0,0,1
+institution:openalex:I111979921,Northwestern University,US,0.0003659429,409,0,0,1
+institution:openalex:I118564535,University of Bern,CH,0.0003659429,410,0,0,1
+institution:openalex:I132153292,Indian Institute of Technology Patna,IN,0.0003659429,411,0,0,1
+institution:openalex:I133529467,Sharif University of Technology,IR,0.0003659429,412,0,0,1
+institution:openalex:I160993911,Queensland University of Technology,AU,0.0003659429,413,0,0,1
+institution:openalex:I165799507,Rensselaer Polytechnic Institute,US,0.0003659429,414,0,0,1
+institution:openalex:I177477856,Politecnico di Torino,IT,0.0003659429,415,0,0,1
+institution:openalex:I180949307,Illinois Institute of Technology,US,0.0003659429,416,0,0,1
+institution:openalex:I187531555,Lund University,SE,0.0003659429,417,0,0,1
+institution:openalex:I189196454,The University of Texas at Arlington,US,0.0003659429,418,0,0,1
+institution:openalex:I4210100430,Google (Switzerland),CH,0.0003659429,419,0,0,1
+institution:openalex:I45129253,University College London,GB,0.0003659429,420,0,0,1
+institution:openalex:I4575257,Hanyang University,KR,0.0003659429,421,0,0,1
+institution:openalex:I48566637,Ulsan National Institute of Science and Technology,KR,0.0003659429,422,0,0,1
+institution:openalex:I48633490,Mass General Brigham,US,0.0003659429,423,0,0,1
+institution:openalex:I52099693,University of York,GB,0.0003659429,424,0,0,1
+institution:openalex:I52357470,The Ohio State University,US,0.0003659429,425,0,0,2
+institution:openalex:I56404289,Indian Institute of Technology BHU,IN,0.0003659429,426,0,0,1
+institution:openalex:I59553526,Stony Brook University,US,0.0003659429,427,0,0,2
+institution:openalex:I68891433,Indian Institute of Technology Delhi,IN,0.0003659429,428,0,0,1
+institution:openalex:I70931966,Université de Montréal,CA,0.0003659429,429,0,0,1
+institution:openalex:I74788687,Comenius University Bratislava,SK,0.0003659429,430,0,0,1
+institution:openalex:I78715868,University of Arkansas at Fayetteville,US,0.0003659429,431,0,0,1
+institution:openalex:I9927081,Aalto University,FI,0.0003659429,432,0,0,1

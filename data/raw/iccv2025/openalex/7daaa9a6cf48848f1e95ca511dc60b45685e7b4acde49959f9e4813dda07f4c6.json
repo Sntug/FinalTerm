@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22WildSeg3D%3A+Segment+Any+3D+Objects+in+the+Wild+from+2D+Images%22",
+  "fetched_at": "2026-11-26T16:10:23Z",
+  "http_status": 200,
+  "content_sha256": "fe759ce4f8f9d9867ab12f6db03a415c408053f32e325389a7ff7e67a2dc569f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/fe759ce4f8f9d9867ab12f6db03a415c408053f32e325389a7ff7e67a2dc569f.json.gz"
+}

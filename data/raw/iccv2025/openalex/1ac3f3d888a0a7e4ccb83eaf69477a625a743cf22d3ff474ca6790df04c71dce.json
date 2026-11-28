@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Addressing+Representation+Collapse+in+Vector+Quantized+Models+with+One+Linear+Layer%22",
+  "fetched_at": "2026-11-26T16:12:09Z",
+  "http_status": 200,
+  "content_sha256": "acb349a9cd26f62b656ebfe1196febe5470324e606d6d5330a68ea60fdea479c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/acb349a9cd26f62b656ebfe1196febe5470324e606d6d5330a68ea60fdea479c.json.gz"
+}

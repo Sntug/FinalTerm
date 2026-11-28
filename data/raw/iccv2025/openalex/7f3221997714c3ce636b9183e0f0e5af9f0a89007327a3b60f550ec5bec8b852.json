@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22MMReason%3A+An+Open-Ended+Multi-Modal+Multi-Step+Reasoning+Benchmark+for+MLLMs+Toward+AGI%22",
+  "fetched_at": "2026-11-23T06:54:39Z",
+  "http_status": 200,
+  "content_sha256": "067a9d1ac87cdcffa8f1d91cd2b69fa1c1233d6d91b3bd80a2313b235ded2fa8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/067a9d1ac87cdcffa8f1d91cd2b69fa1c1233d6d91b3bd80a2313b235ded2fa8.json.gz"
+}

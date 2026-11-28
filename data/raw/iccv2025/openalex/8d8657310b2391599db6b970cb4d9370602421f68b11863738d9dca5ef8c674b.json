@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22STEP-DETR%3A+Advancing+DETR-based+Semi-Supervised+Object+Detection+with+Super+Teacher+and+Pseudo-Label+Guided+Text+Queries%22",
+  "fetched_at": "2026-11-26T16:04:05Z",
+  "http_status": 200,
+  "content_sha256": "6e29eeaf5cd5e0cd5c83bbf9a0c3ddafc597efaa96ebd1e89db111be0020c37d",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/6e29eeaf5cd5e0cd5c83bbf9a0c3ddafc597efaa96ebd1e89db111be0020c37d.json.gz"
+}

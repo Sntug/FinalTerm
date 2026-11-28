@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Feather+the+Throttle%3A+Revisiting+Visual+Token+Pruning+for+Vision-Language+Model+Acceleration%22",
+  "fetched_at": "2026-11-26T16:12:19Z",
+  "http_status": 200,
+  "content_sha256": "e98d9da5fab78306204657189f8e91188be0c5c3b4e38c36247e16d0a2622d92",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e98d9da5fab78306204657189f8e91188be0c5c3b4e38c36247e16d0a2622d92.json.gz"
+}

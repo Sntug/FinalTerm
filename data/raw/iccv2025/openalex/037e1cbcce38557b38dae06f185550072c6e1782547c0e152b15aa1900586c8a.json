@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22QuickSplat%3A+Fast+3D+Surface+Reconstruction+via+Learned+Gaussian+Initialization%22",
+  "fetched_at": "2026-11-26T16:07:32Z",
+  "http_status": 200,
+  "content_sha256": "f5b50ee5e926477b60f49f505f134a7e547412be6f324ab6a876e4b7b8acebf6",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f5b50ee5e926477b60f49f505f134a7e547412be6f324ab6a876e4b7b8acebf6.json.gz"
+}

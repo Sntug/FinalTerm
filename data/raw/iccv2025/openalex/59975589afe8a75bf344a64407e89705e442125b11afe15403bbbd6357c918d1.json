@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22What+Changed%3F+Detecting+and+Evaluating+Instruction-Guided+Image+Edits+with+Multimodal+Large+Language+Models%22",
+  "fetched_at": "2026-11-26T16:04:11Z",
+  "http_status": 200,
+  "content_sha256": "1981f16d1c755c637fa2da2a302c0a682ba7c54825d0b618835165e0c846de5b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/1981f16d1c755c637fa2da2a302c0a682ba7c54825d0b618835165e0c846de5b.json.gz"
+}

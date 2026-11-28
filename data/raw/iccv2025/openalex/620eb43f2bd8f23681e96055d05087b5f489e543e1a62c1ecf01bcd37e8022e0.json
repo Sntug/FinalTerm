@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learn2Synth%3A+Learning+Optimal+Data+Synthesis+Using+Hypergradients+for+Brain+Image+Segmentation%22",
+  "fetched_at": "2026-11-26T16:11:56Z",
+  "http_status": 200,
+  "content_sha256": "5a55ea6fe0fca27c80e1f0fd65ea007bc5b36937639ac6443a2754066a83cb2f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5a55ea6fe0fca27c80e1f0fd65ea007bc5b36937639ac6443a2754066a83cb2f.json.gz"
+}

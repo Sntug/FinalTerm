@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FICGen%3A+Frequency-Inspired+Contextual+Disentanglement+for+Layout-driven+Degraded+Image+Generation%22",
+  "fetched_at": "2026-11-26T16:15:02Z",
+  "http_status": 200,
+  "content_sha256": "5b4ffbde862f689acb4a7fde3a1a2c8453762d54d4ae201e7fd2096fdeaae0d0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5b4ffbde862f689acb4a7fde3a1a2c8453762d54d4ae201e7fd2096fdeaae0d0.json.gz"
+}

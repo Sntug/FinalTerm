@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22FairHuman%3A+Boosting+Hand+and+Face+Quality+in+Human+Image+Generation+with+Minimum+Potential+Delay+Fairness+in+Diffusion+Models%22",
+  "fetched_at": "2026-11-26T16:11:48Z",
+  "http_status": 200,
+  "content_sha256": "14705d6da83a07723b1539b5498e27e948dd1098e8cd81068a081500e3d915f8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/14705d6da83a07723b1539b5498e27e948dd1098e8cd81068a081500e3d915f8.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22To+Label+or+Not+to+Label%3A+PALM+-+A+Predictive+Model+for+Evaluating+Sample+Efficiency+in+Active+Learning+Models%22",
+  "fetched_at": "2026-11-26T16:03:54Z",
+  "http_status": 200,
+  "content_sha256": "9c73d787e584d6b6f99c3da08fc0f5e59afb5468c97e462be2284bded0ef7606",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9c73d787e584d6b6f99c3da08fc0f5e59afb5468c97e462be2284bded0ef7606.json.gz"
+}

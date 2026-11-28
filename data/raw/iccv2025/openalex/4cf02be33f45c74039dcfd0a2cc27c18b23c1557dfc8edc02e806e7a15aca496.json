@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22CharaConsist%3A+Fine-Grained+Consistent+Character+Generation%22",
+  "fetched_at": "2026-11-26T16:11:50Z",
+  "http_status": 200,
+  "content_sha256": "b824b269f0c16d1bd879dc1335a87c541fa9bf4b9aaabf56c612e6377a6d976c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b824b269f0c16d1bd879dc1335a87c541fa9bf4b9aaabf56c612e6377a6d976c.json.gz"
+}

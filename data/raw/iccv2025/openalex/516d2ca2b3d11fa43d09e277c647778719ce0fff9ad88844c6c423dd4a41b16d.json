@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DanceEditor%3A+Towards+Iterative+Editable+Music-driven+Dance+Generation+with+Open-Vocabulary+Descriptions%22",
+  "fetched_at": "2026-11-26T16:06:06Z",
+  "http_status": 200,
+  "content_sha256": "167658b32da4bfc56e1784ca83cc1125b277f9b826bdc0bc96a855ba5c77f776",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/167658b32da4bfc56e1784ca83cc1125b277f9b826bdc0bc96a855ba5c77f776.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TrackAny3D%3A+Transferring+Pretrained+3D+Models+for+Category-unified+3D+Point+Cloud+Tracking%22",
+  "fetched_at": "2026-11-26T16:12:15Z",
+  "http_status": 200,
+  "content_sha256": "f37840d9bd42f5bc36a47ba0ad67a82b73f048a5993fc52fdac9088c76b45086",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f37840d9bd42f5bc36a47ba0ad67a82b73f048a5993fc52fdac9088c76b45086.json.gz"
+}

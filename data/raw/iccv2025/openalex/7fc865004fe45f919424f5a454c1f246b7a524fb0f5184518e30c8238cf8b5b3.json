@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SPADE%3A+Spatial-Aware+Denoising+Network+for+Open-vocabulary+Panoptic+Scene+Graph+Generation+with+Long-+and+Local-range+Context+Reasoning%22",
+  "fetched_at": "2026-11-26T16:10:08Z",
+  "http_status": 200,
+  "content_sha256": "cc605fbdca98423bbbe91bfbe20b30772a0b9a8f50bcd6104bc736d901bad04c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/cc605fbdca98423bbbe91bfbe20b30772a0b9a8f50bcd6104bc736d901bad04c.json.gz"
+}

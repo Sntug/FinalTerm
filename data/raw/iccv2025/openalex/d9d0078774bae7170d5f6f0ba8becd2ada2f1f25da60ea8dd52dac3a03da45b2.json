@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22ODP-Bench%3A+Benchmarking+Out-of-Distribution+Performance+Prediction%22",
+  "fetched_at": "2026-11-26T16:05:02Z",
+  "http_status": 200,
+  "content_sha256": "c3518b2935ad79944019ddf455fe08ebfb0fcb475c3121a79ad273bc3394e172",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c3518b2935ad79944019ddf455fe08ebfb0fcb475c3121a79ad273bc3394e172.json.gz"
+}

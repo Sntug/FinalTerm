@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22All+in+One%3A+Visual-Description-Guided+Unified+Point+Cloud+Segmentation%22",
+  "fetched_at": "2026-11-26T16:14:38Z",
+  "http_status": 200,
+  "content_sha256": "394d152284e0b6686cd82ed7fad99c2247514fb6b2dd297064899bb14e5ce3c7",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/394d152284e0b6686cd82ed7fad99c2247514fb6b2dd297064899bb14e5ce3c7.json.gz"
+}

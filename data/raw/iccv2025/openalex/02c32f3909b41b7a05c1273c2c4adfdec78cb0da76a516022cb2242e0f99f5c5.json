@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22QuantCache%3A+Adaptive+Importance-Guided+Quantization+with+Hierarchical+Latent+and+Layer+Caching+for+Video+Generation%22",
+  "fetched_at": "2026-11-26T16:08:52Z",
+  "http_status": 200,
+  "content_sha256": "9ebb2f363364eea91f3a0d91125875da0797dc05958ea0d4018d4c8afb892d86",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/9ebb2f363364eea91f3a0d91125875da0797dc05958ea0d4018d4c8afb892d86.json.gz"
+}

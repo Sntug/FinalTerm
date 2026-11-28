@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Stronger%2C+Steadier+%26+Superior%3A+Geometric+Consistency+in+Depth+VFM+Forges+Domain+Generalized+Semantic+Segmentation%22",
+  "fetched_at": "2026-11-26T16:06:22Z",
+  "http_status": 200,
+  "content_sha256": "a16559187c6d661b80118bb6607dbd31f6572eacc8bc1525de5f7cc451947d6c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a16559187c6d661b80118bb6607dbd31f6572eacc8bc1525de5f7cc451947d6c.json.gz"
+}

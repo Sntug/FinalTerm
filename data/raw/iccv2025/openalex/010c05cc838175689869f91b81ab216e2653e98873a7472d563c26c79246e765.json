@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22GloPER%3A+Unsupervised+Animal+Pattern+Extraction+from+Local+Reconstruction%22",
+  "fetched_at": "2026-11-26T16:05:59Z",
+  "http_status": 200,
+  "content_sha256": "e42322f6e9d4608fbc374e4cb2c124a97b28f893b8402efcc78978a190c727b8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/e42322f6e9d4608fbc374e4cb2c124a97b28f893b8402efcc78978a190c727b8.json.gz"
+}

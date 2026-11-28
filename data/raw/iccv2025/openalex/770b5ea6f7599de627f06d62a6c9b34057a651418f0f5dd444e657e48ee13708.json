@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22SpiLiFormer%3A+Enhancing+Spiking+Transformers+with+Lateral+Inhibition%22",
+  "fetched_at": "2026-11-26T16:08:00Z",
+  "http_status": 200,
+  "content_sha256": "71b0ea28a1a0dd27c3e2e4380fd149e2cdf3ec1645f8a71321b14b95de683b1c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/71b0ea28a1a0dd27c3e2e4380fd149e2cdf3ec1645f8a71321b14b95de683b1c.json.gz"
+}

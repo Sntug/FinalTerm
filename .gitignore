@@ -77,4 +77,13 @@ __pycache__/
 /data/raw/iccv2023/http/cvf_rate_limit.json
 /data/raw/iccv2023/openalex/rate_limit.json
 
+# H5 ICCV 2025: raw và receipt dùng cho replay offline.
+!/data/raw/iccv2025/http/[0-9a-f]*.html.gz
+!/data/raw/iccv2025/http/[0-9a-f]*.json
+!/data/raw/iccv2025/openalex/[0-9a-f]*.json.gz
+!/data/raw/iccv2025/openalex/[0-9a-f]*.json
+/data/raw/iccv2025/http/cvf_rate_limit.json
+/data/raw/iccv2025/openalex/rate_limit.json
+/data/processed/mxh_cv_trend/graph_dryrun/
+
 .neo4j-pilot/

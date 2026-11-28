@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Backdoor+Attacks+on+Neural+Networks+via+One-Bit+Flip%22",
+  "fetched_at": "2026-11-26T16:04:26Z",
+  "http_status": 200,
+  "content_sha256": "f1063af6eab21159a778f8d1b1c97574331152885a3db0ef8cdc642f45397364",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f1063af6eab21159a778f8d1b1c97574331152885a3db0ef8cdc642f45397364.json.gz"
+}

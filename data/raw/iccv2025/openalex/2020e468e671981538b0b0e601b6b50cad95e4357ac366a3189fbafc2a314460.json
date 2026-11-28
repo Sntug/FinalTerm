@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DMQ%3A+Dissecting+Outliers+of+Diffusion+Models+for+Post-Training+Quantization%22",
+  "fetched_at": "2026-11-26T16:05:11Z",
+  "http_status": 200,
+  "content_sha256": "00e686835442f309d24a18a60fbc7bab6768536f689632e08de28e9c57f19fe4",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/00e686835442f309d24a18a60fbc7bab6768536f689632e08de28e9c57f19fe4.json.gz"
+}

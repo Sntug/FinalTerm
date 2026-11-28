@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RESCUE%3A+Crowd+Evacuation+Simulation+via+Controlling+SDM-United+Characters%22",
+  "fetched_at": "2026-11-26T16:05:25Z",
+  "http_status": 200,
+  "content_sha256": "c409f8a4072e2932a6eb7804f7388d9c7d9837d92a467ba71e4fc055b3cf710a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c409f8a4072e2932a6eb7804f7388d9c7d9837d92a467ba71e4fc055b3cf710a.json.gz"
+}

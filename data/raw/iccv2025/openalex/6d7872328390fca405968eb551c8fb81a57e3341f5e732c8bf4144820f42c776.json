@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Preserve+Anything%3A+Controllable+Image+Synthesis+with+Object+Preservation%22",
+  "fetched_at": "2026-11-26T16:05:57Z",
+  "http_status": 200,
+  "content_sha256": "3d00ed0f0977912aac511f518b60bca4499ce96e37601113ffe57d3726405a16",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/3d00ed0f0977912aac511f518b60bca4499ce96e37601113ffe57d3726405a16.json.gz"
+}

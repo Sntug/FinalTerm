@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Global+and+Local+Entailment+Learning+for+Natural+World+Imagery%22",
+  "fetched_at": "2026-11-26T16:07:17Z",
+  "http_status": 200,
+  "content_sha256": "06c4a7d32028e4fbc8ea7a4be8fe8ada21028bb1da327a8e23ea9af5c98050af",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/06c4a7d32028e4fbc8ea7a4be8fe8ada21028bb1da327a8e23ea9af5c98050af.json.gz"
+}

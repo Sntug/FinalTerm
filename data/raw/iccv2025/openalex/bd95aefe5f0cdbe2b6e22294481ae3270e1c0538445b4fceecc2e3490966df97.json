@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Similarity+Memory+Prior+is+All+You+Need+for+Medical+Image+Segmentation%22",
+  "fetched_at": "2026-11-26T16:05:00Z",
+  "http_status": 200,
+  "content_sha256": "5619b6b60fd280bd1f4c1c743d2a22770339c9ec27b0431034d66d8826659815",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/5619b6b60fd280bd1f4c1c743d2a22770339c9ec27b0431034d66d8826659815.json.gz"
+}

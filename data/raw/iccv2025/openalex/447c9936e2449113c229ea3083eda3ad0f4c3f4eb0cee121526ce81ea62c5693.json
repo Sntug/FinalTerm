@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DuCos%3A+Duality+Constrained+Depth+Super-Resolution+via+Foundation+Model%22",
+  "fetched_at": "2026-11-26T16:07:26Z",
+  "http_status": 200,
+  "content_sha256": "86f2e8da7cb27a8684f9a778879aa3ae19eb173b67ea9e1b97a59c5cf51bf7a1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/86f2e8da7cb27a8684f9a778879aa3ae19eb173b67ea9e1b97a59c5cf51bf7a1.json.gz"
+}

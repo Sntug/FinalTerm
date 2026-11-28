@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22RobustSplat%3A+Decoupling+Densification+and+Dynamics+for+Transient-Free+3DGS%22",
+  "fetched_at": "2026-11-26T16:11:40Z",
+  "http_status": 200,
+  "content_sha256": "bb174381a842d5549a7795a5db6f91a4c471eb9c63c1050e94494b262ebe73b0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/bb174381a842d5549a7795a5db6f91a4c471eb9c63c1050e94494b262ebe73b0.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Coupling+the+Generator+with+Teacher+for+Effective+Data-Free+Knowledge+Distillation%22",
+  "fetched_at": "2026-11-26T16:12:53Z",
+  "http_status": 200,
+  "content_sha256": "f0dff65143cfb7e468ac4842af37c997da2298f7fbb19ca1a47b32f53602b42e",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f0dff65143cfb7e468ac4842af37c997da2298f7fbb19ca1a47b32f53602b42e.json.gz"
+}

@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22DisTime%3A+Distribution-based+Time+Representation+for+Video+Large+Language+Models%22",
+  "fetched_at": "2026-11-26T16:10:33Z",
+  "http_status": 200,
+  "content_sha256": "f28f3707ad0753f7eba7b1ea37851a0299514ab727e9d7088f23fd8cf14f46c1",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f28f3707ad0753f7eba7b1ea37851a0299514ab727e9d7088f23fd8cf14f46c1.json.gz"
+}

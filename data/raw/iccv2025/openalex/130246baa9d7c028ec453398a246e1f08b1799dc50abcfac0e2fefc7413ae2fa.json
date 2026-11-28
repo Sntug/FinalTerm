@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22TriDi%3A+Trilateral+Diffusion+of+3D+Humans%2C+Objects%2C+and+Interactions%22",
+  "fetched_at": "2026-11-26T16:11:46Z",
+  "http_status": 200,
+  "content_sha256": "a240074a6f9d7f96e2d75ca47fc43cbf689848b5d88e7eca020c56b3489ccb36",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/a240074a6f9d7f96e2d75ca47fc43cbf689848b5d88e7eca020c56b3489ccb36.json.gz"
+}

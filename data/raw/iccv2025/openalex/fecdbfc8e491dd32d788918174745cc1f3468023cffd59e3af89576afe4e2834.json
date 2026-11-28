@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22EvolvingGrasp%3A+Evolutionary+Grasp+Generation+via+Efficient+Preference+Alignment%22",
+  "fetched_at": "2026-11-26T16:10:51Z",
+  "http_status": 200,
+  "content_sha256": "53bb8a34d7d58eb14e2114de08a5137a8738f6f1eb4096926b45a4614dcc568b",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/53bb8a34d7d58eb14e2114de08a5137a8738f6f1eb4096926b45a4614dcc568b.json.gz"
+}

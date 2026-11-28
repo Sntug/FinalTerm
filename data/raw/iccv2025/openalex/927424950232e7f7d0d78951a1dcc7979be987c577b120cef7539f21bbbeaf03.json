@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Looking+in+the+Mirror%3A+A+Faithful+Counterfactual+Explanation+Method+for+Interpreting+Deep+Image+Classification+Models%22",
+  "fetched_at": "2026-11-26T16:04:49Z",
+  "http_status": 200,
+  "content_sha256": "ebe14e8499e0e94c93d153f9cb3e9564b3ac611ab36b6ba445b53b9371fce19c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/ebe14e8499e0e94c93d153f9cb3e9564b3ac611ab36b6ba445b53b9371fce19c.json.gz"
+}

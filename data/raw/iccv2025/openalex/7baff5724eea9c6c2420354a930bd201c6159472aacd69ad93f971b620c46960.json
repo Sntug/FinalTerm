@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Hybrid-grained+Feature+Aggregation+with+Coarse-to-fine+Language+Guidance+for+Self-supervised+Monocular+Depth+Estimation%22",
+  "fetched_at": "2026-11-26T16:13:47Z",
+  "http_status": 200,
+  "content_sha256": "8b642a41180514c49fa21504e6f3a24077ec5e6bc23a217a3a7e690d898e7a48",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/8b642a41180514c49fa21504e6f3a24077ec5e6bc23a217a3a7e690d898e7a48.json.gz"
+}

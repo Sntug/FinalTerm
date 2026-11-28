@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Repurposing+2D+Diffusion+Models+with+Gaussian+Atlas+for+3D+Generation%22",
+  "fetched_at": "2026-11-26T16:07:44Z",
+  "http_status": 200,
+  "content_sha256": "52eb81f12e570394f4d9f501df4b4ea51173714420c46b43c9f9fa76b3ef4660",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/52eb81f12e570394f4d9f501df4b4ea51173714420c46b43c9f9fa76b3ef4660.json.gz"
+}

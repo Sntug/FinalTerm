@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22InfGen%3A+A+Resolution-Agnostic+Paradigm+for+Scalable+Image+Synthesis%22",
+  "fetched_at": "2026-11-26T16:07:24Z",
+  "http_status": 200,
+  "content_sha256": "0cd6cbe53b1044dbfee29e67fdd6e21adccd3d24dca6af1172c3d0537923b9e0",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/0cd6cbe53b1044dbfee29e67fdd6e21adccd3d24dca6af1172c3d0537923b9e0.json.gz"
+}

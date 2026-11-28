@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Synchronization+of+Multiple+Videos%22",
+  "fetched_at": "2026-11-26T16:07:09Z",
+  "http_status": 200,
+  "content_sha256": "c3d55ebb6c7f79586eb1ae8740deaeb7b5abd161736764b156537b017788ce9f",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/c3d55ebb6c7f79586eb1ae8740deaeb7b5abd161736764b156537b017788ce9f.json.gz"
+}

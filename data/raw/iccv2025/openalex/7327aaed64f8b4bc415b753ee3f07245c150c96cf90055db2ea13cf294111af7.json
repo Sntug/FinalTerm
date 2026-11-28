@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Taming+the+Untamed%3A+Graph-Based+Knowledge+Retrieval+and+Reasoning+for+MLLMs+to+Conquer+the+Unknown%22",
+  "fetched_at": "2026-11-26T16:10:27Z",
+  "http_status": 200,
+  "content_sha256": "831c68b2602f4657d5fbd4073e56bb7c6e027249d32379c8b13f0de91e9e151a",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/831c68b2602f4657d5fbd4073e56bb7c6e027249d32379c8b13f0de91e9e151a.json.gz"
+}

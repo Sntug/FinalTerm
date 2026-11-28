@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22PLADIS%3A+Pushing+the+Limits+of+Attention+in+Diffusion+Models+at+Inference+Time+by+Leveraging+Sparsity%22",
+  "fetched_at": "2026-11-26T16:09:38Z",
+  "http_status": 200,
+  "content_sha256": "f8e9c488e8bdb3f38df6f4078eb04db8f2a4acc0ef1e520de035bf1b8a7cc23c",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/f8e9c488e8bdb3f38df6f4078eb04db8f2a4acc0ef1e520de035bf1b8a7cc23c.json.gz"
+}

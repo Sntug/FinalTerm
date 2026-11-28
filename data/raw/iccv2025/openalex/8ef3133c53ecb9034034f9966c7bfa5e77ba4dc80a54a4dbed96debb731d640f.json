@@ -1,0 +1,10 @@
+{
+  "url": "https://api.openalex.org/works?per_page=10&search.title=%22Learning+3D+Object+Spatial+Relationships+from+Pre-trained+2D+Diffusion+Models%22",
+  "fetched_at": "2026-11-26T16:04:54Z",
+  "http_status": 200,
+  "content_sha256": "b8fba6caefca80bcbadb48fc6e83becf13fe0eaa1559db48855f54b4f21edab8",
+  "content_type": "application/json",
+  "etag": null,
+  "last_modified": null,
+  "raw_path": "data/raw/iccv2025/openalex/b8fba6caefca80bcbadb48fc6e83becf13fe0eaa1559db48855f54b4f21edab8.json.gz"
+}

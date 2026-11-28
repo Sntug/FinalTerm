@@ -1,0 +1,57 @@
+{
+  "created_at": "2026-11-26T16:11:12+00:00",
+  "done_reason": "stop",
+  "key": "00ec6bb1b605e5ded15b1e688e5b863d05db71d98a0bd2bf16e10c97b4a28d76",
+  "metrics": {
+    "eval_count": 89,
+    "eval_duration": 6389668000,
+    "load_duration": 874167,
+    "prompt_eval_count": 430,
+    "total_duration": 8702239417
+  },
+  "model": "qwen3:4b",
+  "model_digest": "359d7dd4bcdab3d86b87d73ac27966f4dbb9f5efdfcc75d34a8764a09474fae7",
+  "params": {
+    "options": {
+      "num_ctx": 4096,
+      "num_predict": 1024,
+      "seed": 20261103,
+      "temperature": 0
+    },
+    "schema": {
+      "additionalProperties": false,
+      "properties": {
+        "datasets": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "methods": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 8,
+          "type": "array"
+        },
+        "tasks": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5,
+          "type": "array"
+        }
+      },
+      "required": [
+        "tasks",
+        "methods",
+        "datasets"
+      ],
+      "type": "object"
+    },
+    "system": null,
+    "think": false
+  },
+  "response": "{\n  \"tasks\": [\n    \"event keypoint detection\"\n  ],\n  \"methods\": [\n    \"Co-visible Focused 3D-guided 2D Event Keypoint Detection Network\",\n    \"3D-guided 2D feature prototype learning (G2PL)\",\n    \"co-visible region-focused detector and descriptor learning (CDDL)\"\n  ],\n  \"datasets\": [\n    \"six challenging benchmarks\"\n  ]\n}"
+}
