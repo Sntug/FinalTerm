@@ -21,8 +21,9 @@ from test_a3_clean import observation, source, STAMP
 from test_a2_support import temporary_workspace
 
 
-def fixture(title="Object Detection with Features", abstract="We evaluate our model on COCO. We test on MS COCO.", conference="CVPR", root=None):
-    year, owner = (2024, "A") if conference == "CVPR" else (2023, "B")
+def fixture(title="Object Detection with Features", abstract="We evaluate our model on COCO. We test on MS COCO.", conference="CVPR", root=None, year=None):
+    owner = "A" if conference == "CVPR" else "B"
+    year = year or (2024 if conference == "CVPR" else 2023)
     obs = observation(pid=f"cvf:{conference}{year}:fixture")
     obs.update(title=title, title_raw=title, abstract=abstract, abstract_raw=abstract, conference=conference,
                conference_year=year, owner=owner, venue_id=f"venue:{conference}{year}",
@@ -83,6 +84,34 @@ def setup_pipeline(root):
     graph = dict(project_id="mxh_cv_700", code_version="test", output_dir="data/processed/graph",
                  inputs=[dict(name="test", snapshots_dir="data/processed/snaps", a3_dir="data/processed/a3")])
     return cfg, graph, records
+
+
+class TrendHandoffTest(unittest.TestCase):
+    def test_five_edition_export_and_verify(self):
+        with temporary_workspace() as root:
+            editions = []
+            for conf, year in (("CVPR", 2024), ("CVPR", 2025), ("CVPR", 2026), ("ICCV", 2023), ("ICCV", 2025)):
+                name = f"{conf}{year}"
+                directory = f"data/processed/{name}/h5"
+                write_snapshot(root, directory, fixture(conference=conf, year=year, root=root))
+                editions.append(dict(name=name, h5_dir=directory))
+            output = "data/processed/mxh_cv_trend/nlp"
+            graph = dict(project_id="mxh_cv_trend", editions=editions, nlp_manifest=output + "/snapshot_manifest.json")
+            (root / "config").mkdir(exist_ok=True)
+            (root / "config/trend_graph.json").write_bytes(json_bytes(graph))
+            cfg = "config/trend_nlp.json"
+            (root / cfg).write_bytes((REPO_ROOT / cfg).read_bytes())
+            dictionary = json.loads((REPO_ROOT / "config/a4_dictionary.json").read_text("utf-8"))
+            dictionary.update(version="v3", methods=[dict(id="method:fixture", name="Fixture", aliases=["fixture"])])
+            (root / "config/a_trend_dictionary_v3.json").write_bytes(json_bytes(dictionary))
+            result = run(root, cfg)
+            self.assertEqual(set(result["edges_by_edition"]), {e["name"] for e in editions})
+            self.assertTrue(verify(root, cfg)["graph_ready"])
+            manifest, tables = read_manifest(root, graph["nlp_manifest"], TABLES)
+            self.assertEqual(manifest["project_id"], "mxh_cv_trend")
+            self.assertEqual(manifest["node_count"], len(tables["nodes.csv"]))
+            self.assertEqual(manifest["edge_count"], len(tables["edges.csv"]))
+            self.assertEqual(manifest["dictionary_versions"]["v3"], "v3:" + sha256(canonical_json(dictionary).encode()))
 
 
 class RulesTest(unittest.TestCase):

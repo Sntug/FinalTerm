@@ -15,6 +15,7 @@ from src.collect.pilot import snapshot_payload
 
 TABLES = ("nodes.csv", "edges.csv", "evidence.jsonl", "needs_review.csv")
 RELATIONS = {"STUDIES_TASK": "Task", "EVALUATED_ON": "Dataset", "USES_METHOD": "Method"}
+TREND_PROJECT = "mxh_cv_trend"
 
 
 @contextmanager
@@ -38,7 +39,7 @@ def read_manifest(root, path, expected_tables=None):
     spec = contract()
     if set(spec["snapshot_manifest"]["required"]) - set(manifest):
         raise ValueError("Manifest required keys missing")
-    if manifest["project_id"] != spec["project_id"] or manifest["schema_version"] != spec["schema_version"]:
+    if manifest["project_id"] not in (spec["project_id"], TREND_PROJECT) or manifest["schema_version"] != spec["schema_version"]:
         raise ValueError("Wrong contract/project")
     if manifest["snapshot_id"] != "snapshot:v2:" + sha256(canonical_json(snapshot_payload(manifest)).encode()):
         raise ValueError("Snapshot fingerprint mismatch")
@@ -174,9 +175,11 @@ def validate_nlp(data, original, project_id="mxh_cv_700"):
         if not e["evidence_ids"] or any(i not in evidence for i in e["evidence_ids"]):
             raise ValueError("NLP edge evidence missing")
         prefix = {"STUDIES_TASK": "a4-task-", "EVALUATED_ON": "a4-dataset-", "USES_METHOD": "b5-method-"}[e["type"]]
+        label = RELATIONS[e["type"]].lower()
+        prefixes = (prefix, f"v3-{label}-", f"slm-{label}-") if project_id == TREND_PROJECT else (prefix,)
         for eid in e["evidence_ids"]:
             ev = evidence[eid]
-            if ev["paper_id"] != e["src"] or not ev["rule_id"].startswith(prefix):
+            if ev["paper_id"] != e["src"] or not ev["rule_id"].startswith(prefixes):
                 raise ValueError("Edge/evidence Paper or rule mismatch")
         used.add(e["dst"])
     if used != set(nodes):
